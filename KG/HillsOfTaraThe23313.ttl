@@ -1,0 +1,191 @@
+@prefix core: <http://w3id.org/polifonia/ontology/core/> .
+@prefix jams: <http://w3id.org/polifonia/ontology/jams/> .
+@prefix mc: <http://w3id.org/polifonia/ontology/musical-composition/> .
+@prefix pon-resource: <http://w3id.org/polifonia/resource/> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+pon-resource:Agent%2Fannotator_local_id a core:Agent ;
+    rdfs:label "FONN-Tool" ;
+    jams:hasAnnotatorType pon-resource:annotator-program ;
+    jams:hasName "FONN-Tool" .
+
+<http://w3id.org/polifonia/resource/JAMSAnnotation/9692af53a890c2f3050d6c4121e105c062f0d315> a jams:JAMSAnnotation,
+        jams:JAMSScoreAnnotation ;
+    jams:includesObservation <http://w3id.org/polifonia/resource/JAMSObservation/HillsOfTaraThe23313/0_11_11_2_0_11@0.0>,
+        <http://w3id.org/polifonia/resource/JAMSObservation/HillsOfTaraThe23313/0_11_5_9_0_11@0.0>,
+        <http://w3id.org/polifonia/resource/JAMSObservation/HillsOfTaraThe23313/11_11_2_0_11_5@0.0>,
+        <http://w3id.org/polifonia/resource/JAMSObservation/HillsOfTaraThe23313/11_2_0_11_5_9@0.0>,
+        <http://w3id.org/polifonia/resource/JAMSObservation/HillsOfTaraThe23313/11_5_9_0_11_11@0.0>,
+        <http://w3id.org/polifonia/resource/JAMSObservation/HillsOfTaraThe23313/11_9_7_5_11_2@0.0>,
+        <http://w3id.org/polifonia/resource/JAMSObservation/HillsOfTaraThe23313/2_0_11_5_9_0@0.0>,
+        <http://w3id.org/polifonia/resource/JAMSObservation/HillsOfTaraThe23313/2_7_5_11_9_7@0.0>,
+        <http://w3id.org/polifonia/resource/JAMSObservation/HillsOfTaraThe23313/5_11_2_0_11_5@0.0>,
+        <http://w3id.org/polifonia/resource/JAMSObservation/HillsOfTaraThe23313/5_11_2_7_5_11@0.0>,
+        <http://w3id.org/polifonia/resource/JAMSObservation/HillsOfTaraThe23313/5_11_9_7_5_11@0.0>,
+        <http://w3id.org/polifonia/resource/JAMSObservation/HillsOfTaraThe23313/5_9_0_11_11_2@0.0>,
+        <http://w3id.org/polifonia/resource/JAMSObservation/HillsOfTaraThe23313/7_5_11_2_7_5@0.0>,
+        <http://w3id.org/polifonia/resource/JAMSObservation/HillsOfTaraThe23313/7_5_11_9_7_5@0.0>,
+        <http://w3id.org/polifonia/resource/JAMSObservation/HillsOfTaraThe23313/9_7_5_11_2_0@0.0>,
+        <http://w3id.org/polifonia/resource/JAMSObservation/HillsOfTaraThe23313/9_7_5_11_2_7@0.0> ;
+    jams:isJAMSAnnotationOf <http://w3id.org/polifonia/resource/MusicalComposition/9692af53a890c2f3050d6c4121e105c062f0d315> .
+
+<http://w3id.org/polifonia/resource/Score/song_local_id> jams:hasJAMSAnnotation <http://w3id.org/polifonia/resource/MusicalComposition/9692af53a890c2f3050d6c4121e105c062f0d315> .
+
+<http://w3id.org/polifonia/resource/JAMSFile/HillsOfTaraThe23313.jams> a jams:JAMSFile ;
+    jams:identifiers [ ] ;
+    jams:jamsVersion "0.3.4" ;
+    jams:release "" ;
+    prov:wasDerivedFrom "The Session" ;
+    prov:wasMemberOf <https://github.com/ashahidkhattak/thesession> .
+
+<http://w3id.org/polifonia/resource/JAMSObservation/HillsOfTaraThe23313/0_11_11_2_0_11@0.0> a jams:JAMSObservation,
+        jams:JAMSScoreObservation,
+        jams:ScorePatternOccurrence ;
+    rdfs:label [ ] ;
+    jams:hasDuration "0.0"^^xsd:float ;
+    jams:hasFrequency "1"^^xsd:int ;
+    jams:hasPatternType "pitch-class-values" ;
+    jams:ofPattern <http://w3id.org/polifonia/resource/pattern/0_11_11_2_0_11> .
+
+<http://w3id.org/polifonia/resource/JAMSObservation/HillsOfTaraThe23313/0_11_5_9_0_11@0.0> a jams:JAMSObservation,
+        jams:JAMSScoreObservation,
+        jams:ScorePatternOccurrence ;
+    rdfs:label [ ] ;
+    jams:hasDuration "0.0"^^xsd:float ;
+    jams:hasFrequency "2"^^xsd:int ;
+    jams:hasPatternType "pitch-class-values" ;
+    jams:ofPattern <http://w3id.org/polifonia/resource/pattern/0_11_5_9_0_11> .
+
+<http://w3id.org/polifonia/resource/JAMSObservation/HillsOfTaraThe23313/11_11_2_0_11_5@0.0> a jams:JAMSObservation,
+        jams:JAMSScoreObservation,
+        jams:ScorePatternOccurrence ;
+    rdfs:label [ ] ;
+    jams:hasDuration "0.0"^^xsd:float ;
+    jams:hasFrequency "1"^^xsd:int ;
+    jams:hasPatternType "pitch-class-values" ;
+    jams:ofPattern <http://w3id.org/polifonia/resource/pattern/11_11_2_0_11_5> .
+
+<http://w3id.org/polifonia/resource/JAMSObservation/HillsOfTaraThe23313/11_2_0_11_5_9@0.0> a jams:JAMSObservation,
+        jams:JAMSScoreObservation,
+        jams:ScorePatternOccurrence ;
+    rdfs:label [ ] ;
+    jams:hasDuration "0.0"^^xsd:float ;
+    jams:hasFrequency "2"^^xsd:int ;
+    jams:hasPatternType "pitch-class-values" ;
+    jams:ofPattern <http://w3id.org/polifonia/resource/pattern/11_2_0_11_5_9> .
+
+<http://w3id.org/polifonia/resource/JAMSObservation/HillsOfTaraThe23313/11_5_9_0_11_11@0.0> a jams:JAMSObservation,
+        jams:JAMSScoreObservation,
+        jams:ScorePatternOccurrence ;
+    rdfs:label [ ] ;
+    jams:hasDuration "0.0"^^xsd:float ;
+    jams:hasFrequency "2"^^xsd:int ;
+    jams:hasPatternType "pitch-class-values" ;
+    jams:ofPattern <http://w3id.org/polifonia/resource/pattern/11_5_9_0_11_11> .
+
+<http://w3id.org/polifonia/resource/JAMSObservation/HillsOfTaraThe23313/11_9_7_5_11_2@0.0> a jams:JAMSObservation,
+        jams:JAMSScoreObservation,
+        jams:ScorePatternOccurrence ;
+    rdfs:label [ ] ;
+    jams:hasDuration "0.0"^^xsd:float ;
+    jams:hasFrequency "2"^^xsd:int ;
+    jams:hasPatternType "pitch-class-values" ;
+    jams:ofPattern <http://w3id.org/polifonia/resource/pattern/11_9_7_5_11_2> .
+
+<http://w3id.org/polifonia/resource/JAMSObservation/HillsOfTaraThe23313/2_0_11_5_9_0@0.0> a jams:JAMSObservation,
+        jams:JAMSScoreObservation,
+        jams:ScorePatternOccurrence ;
+    rdfs:label [ ] ;
+    jams:hasDuration "0.0"^^xsd:float ;
+    jams:hasFrequency "2"^^xsd:int ;
+    jams:hasPatternType "pitch-class-values" ;
+    jams:ofPattern <http://w3id.org/polifonia/resource/pattern/2_0_11_5_9_0> .
+
+<http://w3id.org/polifonia/resource/JAMSObservation/HillsOfTaraThe23313/2_7_5_11_9_7@0.0> a jams:JAMSObservation,
+        jams:JAMSScoreObservation,
+        jams:ScorePatternOccurrence ;
+    rdfs:label [ ] ;
+    jams:hasDuration "0.0"^^xsd:float ;
+    jams:hasFrequency "1"^^xsd:int ;
+    jams:hasPatternType "pitch-class-values" ;
+    jams:ofPattern <http://w3id.org/polifonia/resource/pattern/2_7_5_11_9_7> .
+
+<http://w3id.org/polifonia/resource/JAMSObservation/HillsOfTaraThe23313/5_11_2_0_11_5@0.0> a jams:JAMSObservation,
+        jams:JAMSScoreObservation,
+        jams:ScorePatternOccurrence ;
+    rdfs:label [ ] ;
+    jams:hasDuration "0.0"^^xsd:float ;
+    jams:hasFrequency "1"^^xsd:int ;
+    jams:hasPatternType "pitch-class-values" ;
+    jams:ofPattern <http://w3id.org/polifonia/resource/pattern/5_11_2_0_11_5> .
+
+<http://w3id.org/polifonia/resource/JAMSObservation/HillsOfTaraThe23313/5_11_2_7_5_11@0.0> a jams:JAMSObservation,
+        jams:JAMSScoreObservation,
+        jams:ScorePatternOccurrence ;
+    rdfs:label [ ] ;
+    jams:hasDuration "0.0"^^xsd:float ;
+    jams:hasFrequency "1"^^xsd:int ;
+    jams:hasPatternType "pitch-class-values" ;
+    jams:ofPattern <http://w3id.org/polifonia/resource/pattern/5_11_2_7_5_11> .
+
+<http://w3id.org/polifonia/resource/JAMSObservation/HillsOfTaraThe23313/5_11_9_7_5_11@0.0> a jams:JAMSObservation,
+        jams:JAMSScoreObservation,
+        jams:ScorePatternOccurrence ;
+    rdfs:label [ ] ;
+    jams:hasDuration "0.0"^^xsd:float ;
+    jams:hasFrequency "2"^^xsd:int ;
+    jams:hasPatternType "pitch-class-values" ;
+    jams:ofPattern <http://w3id.org/polifonia/resource/pattern/5_11_9_7_5_11> .
+
+<http://w3id.org/polifonia/resource/JAMSObservation/HillsOfTaraThe23313/5_9_0_11_11_2@0.0> a jams:JAMSObservation,
+        jams:JAMSScoreObservation,
+        jams:ScorePatternOccurrence ;
+    rdfs:label [ ] ;
+    jams:hasDuration "0.0"^^xsd:float ;
+    jams:hasFrequency "2"^^xsd:int ;
+    jams:hasPatternType "pitch-class-values" ;
+    jams:ofPattern <http://w3id.org/polifonia/resource/pattern/5_9_0_11_11_2> .
+
+<http://w3id.org/polifonia/resource/JAMSObservation/HillsOfTaraThe23313/7_5_11_2_7_5@0.0> a jams:JAMSObservation,
+        jams:JAMSScoreObservation,
+        jams:ScorePatternOccurrence ;
+    rdfs:label [ ] ;
+    jams:hasDuration "0.0"^^xsd:float ;
+    jams:hasFrequency "1"^^xsd:int ;
+    jams:hasPatternType "pitch-class-values" ;
+    jams:ofPattern <http://w3id.org/polifonia/resource/pattern/7_5_11_2_7_5> .
+
+<http://w3id.org/polifonia/resource/JAMSObservation/HillsOfTaraThe23313/7_5_11_9_7_5@0.0> a jams:JAMSObservation,
+        jams:JAMSScoreObservation,
+        jams:ScorePatternOccurrence ;
+    rdfs:label [ ] ;
+    jams:hasDuration "0.0"^^xsd:float ;
+    jams:hasFrequency "2"^^xsd:int ;
+    jams:hasPatternType "pitch-class-values" ;
+    jams:ofPattern <http://w3id.org/polifonia/resource/pattern/7_5_11_9_7_5> .
+
+<http://w3id.org/polifonia/resource/JAMSObservation/HillsOfTaraThe23313/9_7_5_11_2_0@0.0> a jams:JAMSObservation,
+        jams:JAMSScoreObservation,
+        jams:ScorePatternOccurrence ;
+    rdfs:label [ ] ;
+    jams:hasDuration "0.0"^^xsd:float ;
+    jams:hasFrequency "1"^^xsd:int ;
+    jams:hasPatternType "pitch-class-values" ;
+    jams:ofPattern <http://w3id.org/polifonia/resource/pattern/9_7_5_11_2_0> .
+
+<http://w3id.org/polifonia/resource/JAMSObservation/HillsOfTaraThe23313/9_7_5_11_2_7@0.0> a jams:JAMSObservation,
+        jams:JAMSScoreObservation,
+        jams:ScorePatternOccurrence ;
+    rdfs:label [ ] ;
+    jams:hasDuration "0.0"^^xsd:float ;
+    jams:hasFrequency "1"^^xsd:int ;
+    jams:hasPatternType "pitch-class-values" ;
+    jams:ofPattern <http://w3id.org/polifonia/resource/pattern/9_7_5_11_2_7> .
+
+<http://w3id.org/polifonia/resource/MusicalComposition/9692af53a890c2f3050d6c4121e105c062f0d315> a mc:MusicalComposition ;
+    rdfs:label "HillsOfTaraThe23313" ;
+    mc:title "HillsOfTaraThe23313" ;
+    prov:wasDerivedFrom <http://w3id.org/polifonia/resource/JAMSFile/HillsOfTaraThe23313.jams> .
+

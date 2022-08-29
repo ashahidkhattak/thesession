@@ -1,0 +1,121 @@
+@prefix core: <http://w3id.org/polifonia/ontology/core/> .
+@prefix jams: <http://w3id.org/polifonia/ontology/jams/> .
+@prefix mc: <http://w3id.org/polifonia/ontology/musical-composition/> .
+@prefix pon-resource: <http://w3id.org/polifonia/resource/> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+pon-resource:Agent%2Fannotator_local_id a core:Agent ;
+    rdfs:label "FONN-Tool" ;
+    jams:hasAnnotatorType pon-resource:annotator-program ;
+    jams:hasName "FONN-Tool" .
+
+<http://w3id.org/polifonia/resource/JAMSAnnotation/65b7c7519f82ab5573e782353493ee6ad7c83302> a jams:JAMSAnnotation,
+        jams:JAMSScoreAnnotation ;
+    jams:includesObservation <http://w3id.org/polifonia/resource/JAMSObservation/DupleTripleThe3220/1_2_1_9_1_2@0.0>,
+        <http://w3id.org/polifonia/resource/JAMSObservation/DupleTripleThe3220/2_1_9_1_2_7@0.0>,
+        <http://w3id.org/polifonia/resource/JAMSObservation/DupleTripleThe3220/2_5_9_4_9_5@0.0>,
+        <http://w3id.org/polifonia/resource/JAMSObservation/DupleTripleThe3220/4_5_9_4_9_5@0.0>,
+        <http://w3id.org/polifonia/resource/JAMSObservation/DupleTripleThe3220/5_9_2_1_5_9@0.0>,
+        <http://w3id.org/polifonia/resource/JAMSObservation/DupleTripleThe3220/5_9_4_9_5_9@0.0>,
+        <http://w3id.org/polifonia/resource/JAMSObservation/DupleTripleThe3220/7_2_5_9_4_9@0.0>,
+        <http://w3id.org/polifonia/resource/JAMSObservation/DupleTripleThe3220/9_4_9_5_9_2@0.0>,
+        <http://w3id.org/polifonia/resource/JAMSObservation/DupleTripleThe3220/9_5_9_2_1_5@0.0> ;
+    jams:isJAMSAnnotationOf <http://w3id.org/polifonia/resource/MusicalComposition/65b7c7519f82ab5573e782353493ee6ad7c83302> .
+
+<http://w3id.org/polifonia/resource/Score/song_local_id> jams:hasJAMSAnnotation <http://w3id.org/polifonia/resource/MusicalComposition/65b7c7519f82ab5573e782353493ee6ad7c83302> .
+
+<http://w3id.org/polifonia/resource/JAMSFile/DupleTripleThe3220.jams> a jams:JAMSFile ;
+    jams:identifiers [ ] ;
+    jams:jamsVersion "0.3.4" ;
+    jams:release "" ;
+    prov:wasDerivedFrom "The Session" ;
+    prov:wasMemberOf <https://github.com/ashahidkhattak/thesession> .
+
+<http://w3id.org/polifonia/resource/JAMSObservation/DupleTripleThe3220/1_2_1_9_1_2@0.0> a jams:JAMSObservation,
+        jams:JAMSScoreObservation,
+        jams:ScorePatternOccurrence ;
+    rdfs:label [ ] ;
+    jams:hasDuration "0.0"^^xsd:float ;
+    jams:hasFrequency "4"^^xsd:int ;
+    jams:hasPatternType "pitch-class-values" ;
+    jams:ofPattern <http://w3id.org/polifonia/resource/pattern/1_2_1_9_1_2> .
+
+<http://w3id.org/polifonia/resource/JAMSObservation/DupleTripleThe3220/2_1_9_1_2_7@0.0> a jams:JAMSObservation,
+        jams:JAMSScoreObservation,
+        jams:ScorePatternOccurrence ;
+    rdfs:label [ ] ;
+    jams:hasDuration "0.0"^^xsd:float ;
+    jams:hasFrequency "4"^^xsd:int ;
+    jams:hasPatternType "pitch-class-values" ;
+    jams:ofPattern <http://w3id.org/polifonia/resource/pattern/2_1_9_1_2_7> .
+
+<http://w3id.org/polifonia/resource/JAMSObservation/DupleTripleThe3220/2_5_9_4_9_5@0.0> a jams:JAMSObservation,
+        jams:JAMSScoreObservation,
+        jams:ScorePatternOccurrence ;
+    rdfs:label [ ] ;
+    jams:hasDuration "0.0"^^xsd:float ;
+    jams:hasFrequency "1"^^xsd:int ;
+    jams:hasPatternType "pitch-class-values" ;
+    jams:ofPattern <http://w3id.org/polifonia/resource/pattern/2_5_9_4_9_5> .
+
+<http://w3id.org/polifonia/resource/JAMSObservation/DupleTripleThe3220/4_5_9_4_9_5@0.0> a jams:JAMSObservation,
+        jams:JAMSScoreObservation,
+        jams:ScorePatternOccurrence ;
+    rdfs:label [ ] ;
+    jams:hasDuration "0.0"^^xsd:float ;
+    jams:hasFrequency "1"^^xsd:int ;
+    jams:hasPatternType "pitch-class-values" ;
+    jams:ofPattern <http://w3id.org/polifonia/resource/pattern/4_5_9_4_9_5> .
+
+<http://w3id.org/polifonia/resource/JAMSObservation/DupleTripleThe3220/5_9_2_1_5_9@0.0> a jams:JAMSObservation,
+        jams:JAMSScoreObservation,
+        jams:ScorePatternOccurrence ;
+    rdfs:label [ ] ;
+    jams:hasDuration "0.0"^^xsd:float ;
+    jams:hasFrequency "2"^^xsd:int ;
+    jams:hasPatternType "pitch-class-values" ;
+    jams:ofPattern <http://w3id.org/polifonia/resource/pattern/5_9_2_1_5_9> .
+
+<http://w3id.org/polifonia/resource/JAMSObservation/DupleTripleThe3220/5_9_4_9_5_9@0.0> a jams:JAMSObservation,
+        jams:JAMSScoreObservation,
+        jams:ScorePatternOccurrence ;
+    rdfs:label [ ] ;
+    jams:hasDuration "0.0"^^xsd:float ;
+    jams:hasFrequency "2"^^xsd:int ;
+    jams:hasPatternType "pitch-class-values" ;
+    jams:ofPattern <http://w3id.org/polifonia/resource/pattern/5_9_4_9_5_9> .
+
+<http://w3id.org/polifonia/resource/JAMSObservation/DupleTripleThe3220/7_2_5_9_4_9@0.0> a jams:JAMSObservation,
+        jams:JAMSScoreObservation,
+        jams:ScorePatternOccurrence ;
+    rdfs:label [ ] ;
+    jams:hasDuration "0.0"^^xsd:float ;
+    jams:hasFrequency "1"^^xsd:int ;
+    jams:hasPatternType "pitch-class-values" ;
+    jams:ofPattern <http://w3id.org/polifonia/resource/pattern/7_2_5_9_4_9> .
+
+<http://w3id.org/polifonia/resource/JAMSObservation/DupleTripleThe3220/9_4_9_5_9_2@0.0> a jams:JAMSObservation,
+        jams:JAMSScoreObservation,
+        jams:ScorePatternOccurrence ;
+    rdfs:label [ ] ;
+    jams:hasDuration "0.0"^^xsd:float ;
+    jams:hasFrequency "2"^^xsd:int ;
+    jams:hasPatternType "pitch-class-values" ;
+    jams:ofPattern <http://w3id.org/polifonia/resource/pattern/9_4_9_5_9_2> .
+
+<http://w3id.org/polifonia/resource/JAMSObservation/DupleTripleThe3220/9_5_9_2_1_5@0.0> a jams:JAMSObservation,
+        jams:JAMSScoreObservation,
+        jams:ScorePatternOccurrence ;
+    rdfs:label [ ] ;
+    jams:hasDuration "0.0"^^xsd:float ;
+    jams:hasFrequency "2"^^xsd:int ;
+    jams:hasPatternType "pitch-class-values" ;
+    jams:ofPattern <http://w3id.org/polifonia/resource/pattern/9_5_9_2_1_5> .
+
+<http://w3id.org/polifonia/resource/MusicalComposition/65b7c7519f82ab5573e782353493ee6ad7c83302> a mc:MusicalComposition ;
+    rdfs:label "DupleTripleThe3220" ;
+    mc:title "DupleTripleThe3220" ;
+    prov:wasDerivedFrom <http://w3id.org/polifonia/resource/JAMSFile/DupleTripleThe3220.jams> .
+

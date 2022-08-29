@@ -1,0 +1,371 @@
+@prefix core: <http://w3id.org/polifonia/ontology/core/> .
+@prefix jams: <http://w3id.org/polifonia/ontology/jams/> .
+@prefix mc: <http://w3id.org/polifonia/ontology/musical-composition/> .
+@prefix pon-resource: <http://w3id.org/polifonia/resource/> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+pon-resource:Agent%2Fannotator_local_id a core:Agent ;
+    rdfs:label "FONN-Tool" ;
+    jams:hasAnnotatorType pon-resource:annotator-program ;
+    jams:hasName "FONN-Tool" .
+
+<http://w3id.org/polifonia/resource/JAMSAnnotation/eb026d0d10ed2e96a16e7001f5cf42216eae3fdc> a jams:JAMSAnnotation,
+        jams:JAMSScoreAnnotation ;
+    jams:includesObservation <http://w3id.org/polifonia/resource/JAMSObservation/ChandelierThe1479/0.0_7.0_7.0_0.0_9.0_5.0@0.0>,
+        <http://w3id.org/polifonia/resource/JAMSObservation/ChandelierThe1479/0_11_11_11_4_0@0.0>,
+        <http://w3id.org/polifonia/resource/JAMSObservation/ChandelierThe1479/0_2_7_9_5_7@0.0>,
+        <http://w3id.org/polifonia/resource/JAMSObservation/ChandelierThe1479/0_7_4_11_4_0@0.0>,
+        <http://w3id.org/polifonia/resource/JAMSObservation/ChandelierThe1479/0_7_4_2_0_7@0.0>,
+        <http://w3id.org/polifonia/resource/JAMSObservation/ChandelierThe1479/0_7_7_0_11_11@0.0>,
+        <http://w3id.org/polifonia/resource/JAMSObservation/ChandelierThe1479/0_9_5_11_11_0@0.0>,
+        <http://w3id.org/polifonia/resource/JAMSObservation/ChandelierThe1479/11_0_7_7_0_11@0.0>,
+        <http://w3id.org/polifonia/resource/JAMSObservation/ChandelierThe1479/11_11_0_7_7_0@0.0>,
+        <http://w3id.org/polifonia/resource/JAMSObservation/ChandelierThe1479/11_11_11_4_0_7@0.0>,
+        <http://w3id.org/polifonia/resource/JAMSObservation/ChandelierThe1479/11_11_4_0_7_4@0.0>,
+        <http://w3id.org/polifonia/resource/JAMSObservation/ChandelierThe1479/11_11_4_0_7_7@0.0>,
+        <http://w3id.org/polifonia/resource/JAMSObservation/ChandelierThe1479/11_4_0_2_7_9@0.0>,
+        <http://w3id.org/polifonia/resource/JAMSObservation/ChandelierThe1479/11_4_0_7_4_2@0.0>,
+        <http://w3id.org/polifonia/resource/JAMSObservation/ChandelierThe1479/11_4_0_7_7_0@0.0>,
+        <http://w3id.org/polifonia/resource/JAMSObservation/ChandelierThe1479/2_0_7_4_11_4@0.0>,
+        <http://w3id.org/polifonia/resource/JAMSObservation/ChandelierThe1479/2_7_9_5_7_4@0.0>,
+        <http://w3id.org/polifonia/resource/JAMSObservation/ChandelierThe1479/4_0_2_7_9_5@0.0>,
+        <http://w3id.org/polifonia/resource/JAMSObservation/ChandelierThe1479/4_0_7_4_2_0@0.0>,
+        <http://w3id.org/polifonia/resource/JAMSObservation/ChandelierThe1479/4_0_7_7_0_9@0.0>,
+        <http://w3id.org/polifonia/resource/JAMSObservation/ChandelierThe1479/4_11_4_0_2_7@0.0>,
+        <http://w3id.org/polifonia/resource/JAMSObservation/ChandelierThe1479/4_2_0_7_4_11@0.0>,
+        <http://w3id.org/polifonia/resource/JAMSObservation/ChandelierThe1479/5_11_11_0_7_7@0.0>,
+        <http://w3id.org/polifonia/resource/JAMSObservation/ChandelierThe1479/5_7_4_0_7_4@0.0>,
+        <http://w3id.org/polifonia/resource/JAMSObservation/ChandelierThe1479/7_0_11_11_11_4@0.0>,
+        <http://w3id.org/polifonia/resource/JAMSObservation/ChandelierThe1479/7_0_9_5_11_11@0.0>,
+        <http://w3id.org/polifonia/resource/JAMSObservation/ChandelierThe1479/7_4_0_7_4_2@0.0>,
+        <http://w3id.org/polifonia/resource/JAMSObservation/ChandelierThe1479/7_4_11_4_0_2@0.0>,
+        <http://w3id.org/polifonia/resource/JAMSObservation/ChandelierThe1479/7_4_2_0_7_4@0.0>,
+        <http://w3id.org/polifonia/resource/JAMSObservation/ChandelierThe1479/7_7_0_11_11_11@0.0>,
+        <http://w3id.org/polifonia/resource/JAMSObservation/ChandelierThe1479/7_7_0_9_5_11@0.0>,
+        <http://w3id.org/polifonia/resource/JAMSObservation/ChandelierThe1479/7_9_5_7_4_0@0.0>,
+        <http://w3id.org/polifonia/resource/JAMSObservation/ChandelierThe1479/9_5_11_11_0_7@0.0>,
+        <http://w3id.org/polifonia/resource/JAMSObservation/ChandelierThe1479/9_5_7_4_0_7@0.0> ;
+    jams:isJAMSAnnotationOf <http://w3id.org/polifonia/resource/MusicalComposition/eb026d0d10ed2e96a16e7001f5cf42216eae3fdc> .
+
+<http://w3id.org/polifonia/resource/Score/song_local_id> jams:hasJAMSAnnotation <http://w3id.org/polifonia/resource/MusicalComposition/eb026d0d10ed2e96a16e7001f5cf42216eae3fdc> .
+
+<http://w3id.org/polifonia/resource/JAMSFile/ChandelierThe1479.jams> a jams:JAMSFile ;
+    jams:identifiers [ ] ;
+    jams:jamsVersion "0.3.4" ;
+    jams:release "" ;
+    prov:wasDerivedFrom "The Session" ;
+    prov:wasMemberOf <https://github.com/ashahidkhattak/thesession> .
+
+<http://w3id.org/polifonia/resource/JAMSObservation/ChandelierThe1479/0.0_7.0_7.0_0.0_9.0_5.0@0.0> a jams:JAMSObservation,
+        jams:JAMSScoreObservation,
+        jams:ScorePatternOccurrence ;
+    rdfs:label [ ] ;
+    jams:hasDuration "0.0"^^xsd:float ;
+    jams:hasFrequency "2"^^xsd:int ;
+    jams:hasPatternType "pitch-class-values" ;
+    jams:ofPattern <http://w3id.org/polifonia/resource/pattern/0.0_7.0_7.0_0.0_9.0_5.0> .
+
+<http://w3id.org/polifonia/resource/JAMSObservation/ChandelierThe1479/0_11_11_11_4_0@0.0> a jams:JAMSObservation,
+        jams:JAMSScoreObservation,
+        jams:ScorePatternOccurrence ;
+    rdfs:label [ ] ;
+    jams:hasDuration "0.0"^^xsd:float ;
+    jams:hasFrequency "2"^^xsd:int ;
+    jams:hasPatternType "pitch-class-values" ;
+    jams:ofPattern <http://w3id.org/polifonia/resource/pattern/0_11_11_11_4_0> .
+
+<http://w3id.org/polifonia/resource/JAMSObservation/ChandelierThe1479/0_2_7_9_5_7@0.0> a jams:JAMSObservation,
+        jams:JAMSScoreObservation,
+        jams:ScorePatternOccurrence ;
+    rdfs:label [ ] ;
+    jams:hasDuration "0.0"^^xsd:float ;
+    jams:hasFrequency "2"^^xsd:int ;
+    jams:hasPatternType "pitch-class-values" ;
+    jams:ofPattern <http://w3id.org/polifonia/resource/pattern/0_2_7_9_5_7> .
+
+<http://w3id.org/polifonia/resource/JAMSObservation/ChandelierThe1479/0_7_4_11_4_0@0.0> a jams:JAMSObservation,
+        jams:JAMSScoreObservation,
+        jams:ScorePatternOccurrence ;
+    rdfs:label [ ] ;
+    jams:hasDuration "0.0"^^xsd:float ;
+    jams:hasFrequency "2"^^xsd:int ;
+    jams:hasPatternType "pitch-class-values" ;
+    jams:ofPattern <http://w3id.org/polifonia/resource/pattern/0_7_4_11_4_0> .
+
+<http://w3id.org/polifonia/resource/JAMSObservation/ChandelierThe1479/0_7_4_2_0_7@0.0> a jams:JAMSObservation,
+        jams:JAMSScoreObservation,
+        jams:ScorePatternOccurrence ;
+    rdfs:label [ ] ;
+    jams:hasDuration "0.0"^^xsd:float ;
+    jams:hasFrequency "2"^^xsd:int ;
+    jams:hasPatternType "pitch-class-values" ;
+    jams:ofPattern <http://w3id.org/polifonia/resource/pattern/0_7_4_2_0_7> .
+
+<http://w3id.org/polifonia/resource/JAMSObservation/ChandelierThe1479/0_7_7_0_11_11@0.0> a jams:JAMSObservation,
+        jams:JAMSScoreObservation,
+        jams:ScorePatternOccurrence ;
+    rdfs:label [ ] ;
+    jams:hasDuration "0.0"^^xsd:float ;
+    jams:hasFrequency "2"^^xsd:int ;
+    jams:hasPatternType "pitch-class-values" ;
+    jams:ofPattern <http://w3id.org/polifonia/resource/pattern/0_7_7_0_11_11> .
+
+<http://w3id.org/polifonia/resource/JAMSObservation/ChandelierThe1479/0_9_5_11_11_0@0.0> a jams:JAMSObservation,
+        jams:JAMSScoreObservation,
+        jams:ScorePatternOccurrence ;
+    rdfs:label [ ] ;
+    jams:hasDuration "0.0"^^xsd:float ;
+    jams:hasFrequency "2"^^xsd:int ;
+    jams:hasPatternType "pitch-class-values" ;
+    jams:ofPattern <http://w3id.org/polifonia/resource/pattern/0_9_5_11_11_0> .
+
+<http://w3id.org/polifonia/resource/JAMSObservation/ChandelierThe1479/11_0_7_7_0_11@0.0> a jams:JAMSObservation,
+        jams:JAMSScoreObservation,
+        jams:ScorePatternOccurrence ;
+    rdfs:label [ ] ;
+    jams:hasDuration "0.0"^^xsd:float ;
+    jams:hasFrequency "2"^^xsd:int ;
+    jams:hasPatternType "pitch-class-values" ;
+    jams:ofPattern <http://w3id.org/polifonia/resource/pattern/11_0_7_7_0_11> .
+
+<http://w3id.org/polifonia/resource/JAMSObservation/ChandelierThe1479/11_11_0_7_7_0@0.0> a jams:JAMSObservation,
+        jams:JAMSScoreObservation,
+        jams:ScorePatternOccurrence ;
+    rdfs:label [ ] ;
+    jams:hasDuration "0.0"^^xsd:float ;
+    jams:hasFrequency "2"^^xsd:int ;
+    jams:hasPatternType "pitch-class-values" ;
+    jams:ofPattern <http://w3id.org/polifonia/resource/pattern/11_11_0_7_7_0> .
+
+<http://w3id.org/polifonia/resource/JAMSObservation/ChandelierThe1479/11_11_11_4_0_7@0.0> a jams:JAMSObservation,
+        jams:JAMSScoreObservation,
+        jams:ScorePatternOccurrence ;
+    rdfs:label [ ] ;
+    jams:hasDuration "0.0"^^xsd:float ;
+    jams:hasFrequency "2"^^xsd:int ;
+    jams:hasPatternType "pitch-class-values" ;
+    jams:ofPattern <http://w3id.org/polifonia/resource/pattern/11_11_11_4_0_7> .
+
+<http://w3id.org/polifonia/resource/JAMSObservation/ChandelierThe1479/11_11_4_0_7_4@0.0> a jams:JAMSObservation,
+        jams:JAMSScoreObservation,
+        jams:ScorePatternOccurrence ;
+    rdfs:label [ ] ;
+    jams:hasDuration "0.0"^^xsd:float ;
+    jams:hasFrequency "1"^^xsd:int ;
+    jams:hasPatternType "pitch-class-values" ;
+    jams:ofPattern <http://w3id.org/polifonia/resource/pattern/11_11_4_0_7_4> .
+
+<http://w3id.org/polifonia/resource/JAMSObservation/ChandelierThe1479/11_11_4_0_7_7@0.0> a jams:JAMSObservation,
+        jams:JAMSScoreObservation,
+        jams:ScorePatternOccurrence ;
+    rdfs:label [ ] ;
+    jams:hasDuration "0.0"^^xsd:float ;
+    jams:hasFrequency "1"^^xsd:int ;
+    jams:hasPatternType "pitch-class-values" ;
+    jams:ofPattern <http://w3id.org/polifonia/resource/pattern/11_11_4_0_7_7> .
+
+<http://w3id.org/polifonia/resource/JAMSObservation/ChandelierThe1479/11_4_0_2_7_9@0.0> a jams:JAMSObservation,
+        jams:JAMSScoreObservation,
+        jams:ScorePatternOccurrence ;
+    rdfs:label [ ] ;
+    jams:hasDuration "0.0"^^xsd:float ;
+    jams:hasFrequency "2"^^xsd:int ;
+    jams:hasPatternType "pitch-class-values" ;
+    jams:ofPattern <http://w3id.org/polifonia/resource/pattern/11_4_0_2_7_9> .
+
+<http://w3id.org/polifonia/resource/JAMSObservation/ChandelierThe1479/11_4_0_7_4_2@0.0> a jams:JAMSObservation,
+        jams:JAMSScoreObservation,
+        jams:ScorePatternOccurrence ;
+    rdfs:label [ ] ;
+    jams:hasDuration "0.0"^^xsd:float ;
+    jams:hasFrequency "1"^^xsd:int ;
+    jams:hasPatternType "pitch-class-values" ;
+    jams:ofPattern <http://w3id.org/polifonia/resource/pattern/11_4_0_7_4_2> .
+
+<http://w3id.org/polifonia/resource/JAMSObservation/ChandelierThe1479/11_4_0_7_7_0@0.0> a jams:JAMSObservation,
+        jams:JAMSScoreObservation,
+        jams:ScorePatternOccurrence ;
+    rdfs:label [ ] ;
+    jams:hasDuration "0.0"^^xsd:float ;
+    jams:hasFrequency "1"^^xsd:int ;
+    jams:hasPatternType "pitch-class-values" ;
+    jams:ofPattern <http://w3id.org/polifonia/resource/pattern/11_4_0_7_7_0> .
+
+<http://w3id.org/polifonia/resource/JAMSObservation/ChandelierThe1479/2_0_7_4_11_4@0.0> a jams:JAMSObservation,
+        jams:JAMSScoreObservation,
+        jams:ScorePatternOccurrence ;
+    rdfs:label [ ] ;
+    jams:hasDuration "0.0"^^xsd:float ;
+    jams:hasFrequency "2"^^xsd:int ;
+    jams:hasPatternType "pitch-class-values" ;
+    jams:ofPattern <http://w3id.org/polifonia/resource/pattern/2_0_7_4_11_4> .
+
+<http://w3id.org/polifonia/resource/JAMSObservation/ChandelierThe1479/2_7_9_5_7_4@0.0> a jams:JAMSObservation,
+        jams:JAMSScoreObservation,
+        jams:ScorePatternOccurrence ;
+    rdfs:label [ ] ;
+    jams:hasDuration "0.0"^^xsd:float ;
+    jams:hasFrequency "2"^^xsd:int ;
+    jams:hasPatternType "pitch-class-values" ;
+    jams:ofPattern <http://w3id.org/polifonia/resource/pattern/2_7_9_5_7_4> .
+
+<http://w3id.org/polifonia/resource/JAMSObservation/ChandelierThe1479/4_0_2_7_9_5@0.0> a jams:JAMSObservation,
+        jams:JAMSScoreObservation,
+        jams:ScorePatternOccurrence ;
+    rdfs:label [ ] ;
+    jams:hasDuration "0.0"^^xsd:float ;
+    jams:hasFrequency "2"^^xsd:int ;
+    jams:hasPatternType "pitch-class-values" ;
+    jams:ofPattern <http://w3id.org/polifonia/resource/pattern/4_0_2_7_9_5> .
+
+<http://w3id.org/polifonia/resource/JAMSObservation/ChandelierThe1479/4_0_7_4_2_0@0.0> a jams:JAMSObservation,
+        jams:JAMSScoreObservation,
+        jams:ScorePatternOccurrence ;
+    rdfs:label [ ] ;
+    jams:hasDuration "0.0"^^xsd:float ;
+    jams:hasFrequency "2"^^xsd:int ;
+    jams:hasPatternType "pitch-class-values" ;
+    jams:ofPattern <http://w3id.org/polifonia/resource/pattern/4_0_7_4_2_0> .
+
+<http://w3id.org/polifonia/resource/JAMSObservation/ChandelierThe1479/4_0_7_7_0_9@0.0> a jams:JAMSObservation,
+        jams:JAMSScoreObservation,
+        jams:ScorePatternOccurrence ;
+    rdfs:label [ ] ;
+    jams:hasDuration "0.0"^^xsd:float ;
+    jams:hasFrequency "1"^^xsd:int ;
+    jams:hasPatternType "pitch-class-values" ;
+    jams:ofPattern <http://w3id.org/polifonia/resource/pattern/4_0_7_7_0_9> .
+
+<http://w3id.org/polifonia/resource/JAMSObservation/ChandelierThe1479/4_11_4_0_2_7@0.0> a jams:JAMSObservation,
+        jams:JAMSScoreObservation,
+        jams:ScorePatternOccurrence ;
+    rdfs:label [ ] ;
+    jams:hasDuration "0.0"^^xsd:float ;
+    jams:hasFrequency "2"^^xsd:int ;
+    jams:hasPatternType "pitch-class-values" ;
+    jams:ofPattern <http://w3id.org/polifonia/resource/pattern/4_11_4_0_2_7> .
+
+<http://w3id.org/polifonia/resource/JAMSObservation/ChandelierThe1479/4_2_0_7_4_11@0.0> a jams:JAMSObservation,
+        jams:JAMSScoreObservation,
+        jams:ScorePatternOccurrence ;
+    rdfs:label [ ] ;
+    jams:hasDuration "0.0"^^xsd:float ;
+    jams:hasFrequency "2"^^xsd:int ;
+    jams:hasPatternType "pitch-class-values" ;
+    jams:ofPattern <http://w3id.org/polifonia/resource/pattern/4_2_0_7_4_11> .
+
+<http://w3id.org/polifonia/resource/JAMSObservation/ChandelierThe1479/5_11_11_0_7_7@0.0> a jams:JAMSObservation,
+        jams:JAMSScoreObservation,
+        jams:ScorePatternOccurrence ;
+    rdfs:label [ ] ;
+    jams:hasDuration "0.0"^^xsd:float ;
+    jams:hasFrequency "2"^^xsd:int ;
+    jams:hasPatternType "pitch-class-values" ;
+    jams:ofPattern <http://w3id.org/polifonia/resource/pattern/5_11_11_0_7_7> .
+
+<http://w3id.org/polifonia/resource/JAMSObservation/ChandelierThe1479/5_7_4_0_7_4@0.0> a jams:JAMSObservation,
+        jams:JAMSScoreObservation,
+        jams:ScorePatternOccurrence ;
+    rdfs:label [ ] ;
+    jams:hasDuration "0.0"^^xsd:float ;
+    jams:hasFrequency "1"^^xsd:int ;
+    jams:hasPatternType "pitch-class-values" ;
+    jams:ofPattern <http://w3id.org/polifonia/resource/pattern/5_7_4_0_7_4> .
+
+<http://w3id.org/polifonia/resource/JAMSObservation/ChandelierThe1479/7_0_11_11_11_4@0.0> a jams:JAMSObservation,
+        jams:JAMSScoreObservation,
+        jams:ScorePatternOccurrence ;
+    rdfs:label [ ] ;
+    jams:hasDuration "0.0"^^xsd:float ;
+    jams:hasFrequency "2"^^xsd:int ;
+    jams:hasPatternType "pitch-class-values" ;
+    jams:ofPattern <http://w3id.org/polifonia/resource/pattern/7_0_11_11_11_4> .
+
+<http://w3id.org/polifonia/resource/JAMSObservation/ChandelierThe1479/7_0_9_5_11_11@0.0> a jams:JAMSObservation,
+        jams:JAMSScoreObservation,
+        jams:ScorePatternOccurrence ;
+    rdfs:label [ ] ;
+    jams:hasDuration "0.0"^^xsd:float ;
+    jams:hasFrequency "2"^^xsd:int ;
+    jams:hasPatternType "pitch-class-values" ;
+    jams:ofPattern <http://w3id.org/polifonia/resource/pattern/7_0_9_5_11_11> .
+
+<http://w3id.org/polifonia/resource/JAMSObservation/ChandelierThe1479/7_4_0_7_4_2@0.0> a jams:JAMSObservation,
+        jams:JAMSScoreObservation,
+        jams:ScorePatternOccurrence ;
+    rdfs:label [ ] ;
+    jams:hasDuration "0.0"^^xsd:float ;
+    jams:hasFrequency "1"^^xsd:int ;
+    jams:hasPatternType "pitch-class-values" ;
+    jams:ofPattern <http://w3id.org/polifonia/resource/pattern/7_4_0_7_4_2> .
+
+<http://w3id.org/polifonia/resource/JAMSObservation/ChandelierThe1479/7_4_11_4_0_2@0.0> a jams:JAMSObservation,
+        jams:JAMSScoreObservation,
+        jams:ScorePatternOccurrence ;
+    rdfs:label [ ] ;
+    jams:hasDuration "0.0"^^xsd:float ;
+    jams:hasFrequency "2"^^xsd:int ;
+    jams:hasPatternType "pitch-class-values" ;
+    jams:ofPattern <http://w3id.org/polifonia/resource/pattern/7_4_11_4_0_2> .
+
+<http://w3id.org/polifonia/resource/JAMSObservation/ChandelierThe1479/7_4_2_0_7_4@0.0> a jams:JAMSObservation,
+        jams:JAMSScoreObservation,
+        jams:ScorePatternOccurrence ;
+    rdfs:label [ ] ;
+    jams:hasDuration "0.0"^^xsd:float ;
+    jams:hasFrequency "2"^^xsd:int ;
+    jams:hasPatternType "pitch-class-values" ;
+    jams:ofPattern <http://w3id.org/polifonia/resource/pattern/7_4_2_0_7_4> .
+
+<http://w3id.org/polifonia/resource/JAMSObservation/ChandelierThe1479/7_7_0_11_11_11@0.0> a jams:JAMSObservation,
+        jams:JAMSScoreObservation,
+        jams:ScorePatternOccurrence ;
+    rdfs:label [ ] ;
+    jams:hasDuration "0.0"^^xsd:float ;
+    jams:hasFrequency "2"^^xsd:int ;
+    jams:hasPatternType "pitch-class-values" ;
+    jams:ofPattern <http://w3id.org/polifonia/resource/pattern/7_7_0_11_11_11> .
+
+<http://w3id.org/polifonia/resource/JAMSObservation/ChandelierThe1479/7_7_0_9_5_11@0.0> a jams:JAMSObservation,
+        jams:JAMSScoreObservation,
+        jams:ScorePatternOccurrence ;
+    rdfs:label [ ] ;
+    jams:hasDuration "0.0"^^xsd:float ;
+    jams:hasFrequency "2"^^xsd:int ;
+    jams:hasPatternType "pitch-class-values" ;
+    jams:ofPattern <http://w3id.org/polifonia/resource/pattern/7_7_0_9_5_11> .
+
+<http://w3id.org/polifonia/resource/JAMSObservation/ChandelierThe1479/7_9_5_7_4_0@0.0> a jams:JAMSObservation,
+        jams:JAMSScoreObservation,
+        jams:ScorePatternOccurrence ;
+    rdfs:label [ ] ;
+    jams:hasDuration "0.0"^^xsd:float ;
+    jams:hasFrequency "1"^^xsd:int ;
+    jams:hasPatternType "pitch-class-values" ;
+    jams:ofPattern <http://w3id.org/polifonia/resource/pattern/7_9_5_7_4_0> .
+
+<http://w3id.org/polifonia/resource/JAMSObservation/ChandelierThe1479/9_5_11_11_0_7@0.0> a jams:JAMSObservation,
+        jams:JAMSScoreObservation,
+        jams:ScorePatternOccurrence ;
+    rdfs:label [ ] ;
+    jams:hasDuration "0.0"^^xsd:float ;
+    jams:hasFrequency "2"^^xsd:int ;
+    jams:hasPatternType "pitch-class-values" ;
+    jams:ofPattern <http://w3id.org/polifonia/resource/pattern/9_5_11_11_0_7> .
+
+<http://w3id.org/polifonia/resource/JAMSObservation/ChandelierThe1479/9_5_7_4_0_7@0.0> a jams:JAMSObservation,
+        jams:JAMSScoreObservation,
+        jams:ScorePatternOccurrence ;
+    rdfs:label [ ] ;
+    jams:hasDuration "0.0"^^xsd:float ;
+    jams:hasFrequency "1"^^xsd:int ;
+    jams:hasPatternType "pitch-class-values" ;
+    jams:ofPattern <http://w3id.org/polifonia/resource/pattern/9_5_7_4_0_7> .
+
+<http://w3id.org/polifonia/resource/MusicalComposition/eb026d0d10ed2e96a16e7001f5cf42216eae3fdc> a mc:MusicalComposition ;
+    rdfs:label "ChandelierThe1479" ;
+    mc:title "ChandelierThe1479" ;
+    prov:wasDerivedFrom <http://w3id.org/polifonia/resource/JAMSFile/ChandelierThe1479.jams> .
+

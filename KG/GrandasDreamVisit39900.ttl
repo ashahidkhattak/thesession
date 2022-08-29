@@ -1,0 +1,191 @@
+@prefix core: <http://w3id.org/polifonia/ontology/core/> .
+@prefix jams: <http://w3id.org/polifonia/ontology/jams/> .
+@prefix mc: <http://w3id.org/polifonia/ontology/musical-composition/> .
+@prefix pon-resource: <http://w3id.org/polifonia/resource/> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+pon-resource:Agent%2Fannotator_local_id a core:Agent ;
+    rdfs:label "FONN-Tool" ;
+    jams:hasAnnotatorType pon-resource:annotator-program ;
+    jams:hasName "FONN-Tool" .
+
+<http://w3id.org/polifonia/resource/JAMSAnnotation/ad2240816ff9d3957799e17d219f4aa9657c0e53> a jams:JAMSAnnotation,
+        jams:JAMSScoreAnnotation ;
+    jams:includesObservation <http://w3id.org/polifonia/resource/JAMSObservation/GrandasDreamVisit39900/0_3_10_10_7_3@0.0>,
+        <http://w3id.org/polifonia/resource/JAMSObservation/GrandasDreamVisit39900/0_5_10_0_7_5@0.0>,
+        <http://w3id.org/polifonia/resource/JAMSObservation/GrandasDreamVisit39900/0_7_5_10_0_5@0.0>,
+        <http://w3id.org/polifonia/resource/JAMSObservation/GrandasDreamVisit39900/10_0_3_10_10_7@0.0>,
+        <http://w3id.org/polifonia/resource/JAMSObservation/GrandasDreamVisit39900/10_0_7_5_10_0@0.0>,
+        <http://w3id.org/polifonia/resource/JAMSObservation/GrandasDreamVisit39900/10_10_7_3_10_0@0.0>,
+        <http://w3id.org/polifonia/resource/JAMSObservation/GrandasDreamVisit39900/10_7_3_10_0_3@0.0>,
+        <http://w3id.org/polifonia/resource/JAMSObservation/GrandasDreamVisit39900/10_7_3_10_0_5@0.0>,
+        <http://w3id.org/polifonia/resource/JAMSObservation/GrandasDreamVisit39900/3_10_0_5_10_0@0.0>,
+        <http://w3id.org/polifonia/resource/JAMSObservation/GrandasDreamVisit39900/3_10_10_7_3_10@0.0>,
+        <http://w3id.org/polifonia/resource/JAMSObservation/GrandasDreamVisit39900/5_10_0_5_10_0@0.0>,
+        <http://w3id.org/polifonia/resource/JAMSObservation/GrandasDreamVisit39900/5_10_0_7_5_10@0.0>,
+        <http://w3id.org/polifonia/resource/JAMSObservation/GrandasDreamVisit39900/7_3_10_0_3_10@0.0>,
+        <http://w3id.org/polifonia/resource/JAMSObservation/GrandasDreamVisit39900/7_3_10_0_5_10@0.0>,
+        <http://w3id.org/polifonia/resource/JAMSObservation/GrandasDreamVisit39900/7_3_10_10_7_3@0.0>,
+        <http://w3id.org/polifonia/resource/JAMSObservation/GrandasDreamVisit39900/7_5_10_0_5_10@0.0> ;
+    jams:isJAMSAnnotationOf <http://w3id.org/polifonia/resource/MusicalComposition/ad2240816ff9d3957799e17d219f4aa9657c0e53> .
+
+<http://w3id.org/polifonia/resource/Score/song_local_id> jams:hasJAMSAnnotation <http://w3id.org/polifonia/resource/MusicalComposition/ad2240816ff9d3957799e17d219f4aa9657c0e53> .
+
+<http://w3id.org/polifonia/resource/JAMSFile/GrandasDreamVisit39900.jams> a jams:JAMSFile ;
+    jams:identifiers [ ] ;
+    jams:jamsVersion "0.3.4" ;
+    jams:release "" ;
+    prov:wasDerivedFrom "The Session" ;
+    prov:wasMemberOf <https://github.com/ashahidkhattak/thesession> .
+
+<http://w3id.org/polifonia/resource/JAMSObservation/GrandasDreamVisit39900/0_3_10_10_7_3@0.0> a jams:JAMSObservation,
+        jams:JAMSScoreObservation,
+        jams:ScorePatternOccurrence ;
+    rdfs:label [ ] ;
+    jams:hasDuration "0.0"^^xsd:float ;
+    jams:hasFrequency "1"^^xsd:int ;
+    jams:hasPatternType "pitch-class-values" ;
+    jams:ofPattern <http://w3id.org/polifonia/resource/pattern/0_3_10_10_7_3> .
+
+<http://w3id.org/polifonia/resource/JAMSObservation/GrandasDreamVisit39900/0_5_10_0_7_5@0.0> a jams:JAMSObservation,
+        jams:JAMSScoreObservation,
+        jams:ScorePatternOccurrence ;
+    rdfs:label [ ] ;
+    jams:hasDuration "0.0"^^xsd:float ;
+    jams:hasFrequency "2"^^xsd:int ;
+    jams:hasPatternType "pitch-class-values" ;
+    jams:ofPattern <http://w3id.org/polifonia/resource/pattern/0_5_10_0_7_5> .
+
+<http://w3id.org/polifonia/resource/JAMSObservation/GrandasDreamVisit39900/0_7_5_10_0_5@0.0> a jams:JAMSObservation,
+        jams:JAMSScoreObservation,
+        jams:ScorePatternOccurrence ;
+    rdfs:label [ ] ;
+    jams:hasDuration "0.0"^^xsd:float ;
+    jams:hasFrequency "1"^^xsd:int ;
+    jams:hasPatternType "pitch-class-values" ;
+    jams:ofPattern <http://w3id.org/polifonia/resource/pattern/0_7_5_10_0_5> .
+
+<http://w3id.org/polifonia/resource/JAMSObservation/GrandasDreamVisit39900/10_0_3_10_10_7@0.0> a jams:JAMSObservation,
+        jams:JAMSScoreObservation,
+        jams:ScorePatternOccurrence ;
+    rdfs:label [ ] ;
+    jams:hasDuration "0.0"^^xsd:float ;
+    jams:hasFrequency "1"^^xsd:int ;
+    jams:hasPatternType "pitch-class-values" ;
+    jams:ofPattern <http://w3id.org/polifonia/resource/pattern/10_0_3_10_10_7> .
+
+<http://w3id.org/polifonia/resource/JAMSObservation/GrandasDreamVisit39900/10_0_7_5_10_0@0.0> a jams:JAMSObservation,
+        jams:JAMSScoreObservation,
+        jams:ScorePatternOccurrence ;
+    rdfs:label [ ] ;
+    jams:hasDuration "0.0"^^xsd:float ;
+    jams:hasFrequency "2"^^xsd:int ;
+    jams:hasPatternType "pitch-class-values" ;
+    jams:ofPattern <http://w3id.org/polifonia/resource/pattern/10_0_7_5_10_0> .
+
+<http://w3id.org/polifonia/resource/JAMSObservation/GrandasDreamVisit39900/10_10_7_3_10_0@0.0> a jams:JAMSObservation,
+        jams:JAMSScoreObservation,
+        jams:ScorePatternOccurrence ;
+    rdfs:label [ ] ;
+    jams:hasDuration "0.0"^^xsd:float ;
+    jams:hasFrequency "2"^^xsd:int ;
+    jams:hasPatternType "pitch-class-values" ;
+    jams:ofPattern <http://w3id.org/polifonia/resource/pattern/10_10_7_3_10_0> .
+
+<http://w3id.org/polifonia/resource/JAMSObservation/GrandasDreamVisit39900/10_7_3_10_0_3@0.0> a jams:JAMSObservation,
+        jams:JAMSScoreObservation,
+        jams:ScorePatternOccurrence ;
+    rdfs:label [ ] ;
+    jams:hasDuration "0.0"^^xsd:float ;
+    jams:hasFrequency "1"^^xsd:int ;
+    jams:hasPatternType "pitch-class-values" ;
+    jams:ofPattern <http://w3id.org/polifonia/resource/pattern/10_7_3_10_0_3> .
+
+<http://w3id.org/polifonia/resource/JAMSObservation/GrandasDreamVisit39900/10_7_3_10_0_5@0.0> a jams:JAMSObservation,
+        jams:JAMSScoreObservation,
+        jams:ScorePatternOccurrence ;
+    rdfs:label [ ] ;
+    jams:hasDuration "0.0"^^xsd:float ;
+    jams:hasFrequency "1"^^xsd:int ;
+    jams:hasPatternType "pitch-class-values" ;
+    jams:ofPattern <http://w3id.org/polifonia/resource/pattern/10_7_3_10_0_5> .
+
+<http://w3id.org/polifonia/resource/JAMSObservation/GrandasDreamVisit39900/3_10_0_5_10_0@0.0> a jams:JAMSObservation,
+        jams:JAMSScoreObservation,
+        jams:ScorePatternOccurrence ;
+    rdfs:label [ ] ;
+    jams:hasDuration "0.0"^^xsd:float ;
+    jams:hasFrequency "1"^^xsd:int ;
+    jams:hasPatternType "pitch-class-values" ;
+    jams:ofPattern <http://w3id.org/polifonia/resource/pattern/3_10_0_5_10_0> .
+
+<http://w3id.org/polifonia/resource/JAMSObservation/GrandasDreamVisit39900/3_10_10_7_3_10@0.0> a jams:JAMSObservation,
+        jams:JAMSScoreObservation,
+        jams:ScorePatternOccurrence ;
+    rdfs:label [ ] ;
+    jams:hasDuration "0.0"^^xsd:float ;
+    jams:hasFrequency "2"^^xsd:int ;
+    jams:hasPatternType "pitch-class-values" ;
+    jams:ofPattern <http://w3id.org/polifonia/resource/pattern/3_10_10_7_3_10> .
+
+<http://w3id.org/polifonia/resource/JAMSObservation/GrandasDreamVisit39900/5_10_0_5_10_0@0.0> a jams:JAMSObservation,
+        jams:JAMSScoreObservation,
+        jams:ScorePatternOccurrence ;
+    rdfs:label [ ] ;
+    jams:hasDuration "0.0"^^xsd:float ;
+    jams:hasFrequency "1"^^xsd:int ;
+    jams:hasPatternType "pitch-class-values" ;
+    jams:ofPattern <http://w3id.org/polifonia/resource/pattern/5_10_0_5_10_0> .
+
+<http://w3id.org/polifonia/resource/JAMSObservation/GrandasDreamVisit39900/5_10_0_7_5_10@0.0> a jams:JAMSObservation,
+        jams:JAMSScoreObservation,
+        jams:ScorePatternOccurrence ;
+    rdfs:label [ ] ;
+    jams:hasDuration "0.0"^^xsd:float ;
+    jams:hasFrequency "2"^^xsd:int ;
+    jams:hasPatternType "pitch-class-values" ;
+    jams:ofPattern <http://w3id.org/polifonia/resource/pattern/5_10_0_7_5_10> .
+
+<http://w3id.org/polifonia/resource/JAMSObservation/GrandasDreamVisit39900/7_3_10_0_3_10@0.0> a jams:JAMSObservation,
+        jams:JAMSScoreObservation,
+        jams:ScorePatternOccurrence ;
+    rdfs:label [ ] ;
+    jams:hasDuration "0.0"^^xsd:float ;
+    jams:hasFrequency "1"^^xsd:int ;
+    jams:hasPatternType "pitch-class-values" ;
+    jams:ofPattern <http://w3id.org/polifonia/resource/pattern/7_3_10_0_3_10> .
+
+<http://w3id.org/polifonia/resource/JAMSObservation/GrandasDreamVisit39900/7_3_10_0_5_10@0.0> a jams:JAMSObservation,
+        jams:JAMSScoreObservation,
+        jams:ScorePatternOccurrence ;
+    rdfs:label [ ] ;
+    jams:hasDuration "0.0"^^xsd:float ;
+    jams:hasFrequency "1"^^xsd:int ;
+    jams:hasPatternType "pitch-class-values" ;
+    jams:ofPattern <http://w3id.org/polifonia/resource/pattern/7_3_10_0_5_10> .
+
+<http://w3id.org/polifonia/resource/JAMSObservation/GrandasDreamVisit39900/7_3_10_10_7_3@0.0> a jams:JAMSObservation,
+        jams:JAMSScoreObservation,
+        jams:ScorePatternOccurrence ;
+    rdfs:label [ ] ;
+    jams:hasDuration "0.0"^^xsd:float ;
+    jams:hasFrequency "1"^^xsd:int ;
+    jams:hasPatternType "pitch-class-values" ;
+    jams:ofPattern <http://w3id.org/polifonia/resource/pattern/7_3_10_10_7_3> .
+
+<http://w3id.org/polifonia/resource/JAMSObservation/GrandasDreamVisit39900/7_5_10_0_5_10@0.0> a jams:JAMSObservation,
+        jams:JAMSScoreObservation,
+        jams:ScorePatternOccurrence ;
+    rdfs:label [ ] ;
+    jams:hasDuration "0.0"^^xsd:float ;
+    jams:hasFrequency "1"^^xsd:int ;
+    jams:hasPatternType "pitch-class-values" ;
+    jams:ofPattern <http://w3id.org/polifonia/resource/pattern/7_5_10_0_5_10> .
+
+<http://w3id.org/polifonia/resource/MusicalComposition/ad2240816ff9d3957799e17d219f4aa9657c0e53> a mc:MusicalComposition ;
+    rdfs:label "GrandasDreamVisit39900" ;
+    mc:title "GrandasDreamVisit39900" ;
+    prov:wasDerivedFrom <http://w3id.org/polifonia/resource/JAMSFile/GrandasDreamVisit39900.jams> .
+

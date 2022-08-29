@@ -1,0 +1,311 @@
+@prefix core: <http://w3id.org/polifonia/ontology/core/> .
+@prefix jams: <http://w3id.org/polifonia/ontology/jams/> .
+@prefix mc: <http://w3id.org/polifonia/ontology/musical-composition/> .
+@prefix pon-resource: <http://w3id.org/polifonia/resource/> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+pon-resource:Agent%2Fannotator_local_id a core:Agent ;
+    rdfs:label "FONN-Tool" ;
+    jams:hasAnnotatorType pon-resource:annotator-program ;
+    jams:hasName "FONN-Tool" .
+
+<http://w3id.org/polifonia/resource/JAMSAnnotation/9d0f79de2cace2dcba7d023a46a91a40e2c1972d> a jams:JAMSAnnotation,
+        jams:JAMSScoreAnnotation ;
+    jams:includesObservation <http://w3id.org/polifonia/resource/JAMSObservation/ABarrelOfKnives21254/0.0_9.0_7.0_5.0_0.0_7.0@0.0>,
+        <http://w3id.org/polifonia/resource/JAMSObservation/ABarrelOfKnives21254/0_4_11_7_11_2@0.0>,
+        <http://w3id.org/polifonia/resource/JAMSObservation/ABarrelOfKnives21254/0_5_5_2_11_5@0.0>,
+        <http://w3id.org/polifonia/resource/JAMSObservation/ABarrelOfKnives21254/0_7_2_11_0_9@0.0>,
+        <http://w3id.org/polifonia/resource/JAMSObservation/ABarrelOfKnives21254/0_9_7_5_4_11@0.0>,
+        <http://w3id.org/polifonia/resource/JAMSObservation/ABarrelOfKnives21254/11_0_9_7_5_0@0.0>,
+        <http://w3id.org/polifonia/resource/JAMSObservation/ABarrelOfKnives21254/11_0_9_7_5_4@0.0>,
+        <http://w3id.org/polifonia/resource/JAMSObservation/ABarrelOfKnives21254/11_5_5_2_0_4@0.0>,
+        <http://w3id.org/polifonia/resource/JAMSObservation/ABarrelOfKnives21254/11_7_11_0_9_7@0.0>,
+        <http://w3id.org/polifonia/resource/JAMSObservation/ABarrelOfKnives21254/11_7_11_2_5_5@0.0>,
+        <http://w3id.org/polifonia/resource/JAMSObservation/ABarrelOfKnives21254/2_0_4_11_7_11@0.0>,
+        <http://w3id.org/polifonia/resource/JAMSObservation/ABarrelOfKnives21254/2_0_5_5_2_11@0.0>,
+        <http://w3id.org/polifonia/resource/JAMSObservation/ABarrelOfKnives21254/2_11_0_9_7_5@0.0>,
+        <http://w3id.org/polifonia/resource/JAMSObservation/ABarrelOfKnives21254/2_11_5_5_2_0@0.0>,
+        <http://w3id.org/polifonia/resource/JAMSObservation/ABarrelOfKnives21254/2_5_5_2_0_5@0.0>,
+        <http://w3id.org/polifonia/resource/JAMSObservation/ABarrelOfKnives21254/5_0_7_2_11_0@0.0>,
+        <http://w3id.org/polifonia/resource/JAMSObservation/ABarrelOfKnives21254/5_2_0_4_11_7@0.0>,
+        <http://w3id.org/polifonia/resource/JAMSObservation/ABarrelOfKnives21254/5_2_0_5_5_2@0.0>,
+        <http://w3id.org/polifonia/resource/JAMSObservation/ABarrelOfKnives21254/5_2_11_5_5_2@0.0>,
+        <http://w3id.org/polifonia/resource/JAMSObservation/ABarrelOfKnives21254/5_5_2_0_5_5@0.0>,
+        <http://w3id.org/polifonia/resource/JAMSObservation/ABarrelOfKnives21254/5_5_2_11_5_5@0.0>,
+        <http://w3id.org/polifonia/resource/JAMSObservation/ABarrelOfKnives21254/7_11_0_9_7_5@0.0>,
+        <http://w3id.org/polifonia/resource/JAMSObservation/ABarrelOfKnives21254/7_11_2_5_5_2@0.0>,
+        <http://w3id.org/polifonia/resource/JAMSObservation/ABarrelOfKnives21254/7_2_11_0_9_7@0.0>,
+        <http://w3id.org/polifonia/resource/JAMSObservation/ABarrelOfKnives21254/7_5_0_7_2_11@0.0>,
+        <http://w3id.org/polifonia/resource/JAMSObservation/ABarrelOfKnives21254/7_5_4_11_7_11@0.0>,
+        <http://w3id.org/polifonia/resource/JAMSObservation/ABarrelOfKnives21254/9_7_5_0_7_2@0.0>,
+        <http://w3id.org/polifonia/resource/JAMSObservation/ABarrelOfKnives21254/9_7_5_4_11_7@0.0> ;
+    jams:isJAMSAnnotationOf <http://w3id.org/polifonia/resource/MusicalComposition/9d0f79de2cace2dcba7d023a46a91a40e2c1972d> .
+
+<http://w3id.org/polifonia/resource/Score/song_local_id> jams:hasJAMSAnnotation <http://w3id.org/polifonia/resource/MusicalComposition/9d0f79de2cace2dcba7d023a46a91a40e2c1972d> .
+
+<http://w3id.org/polifonia/resource/JAMSFile/ABarrelOfKnives21254.jams> a jams:JAMSFile ;
+    jams:identifiers [ ] ;
+    jams:jamsVersion "0.3.4" ;
+    jams:release "" ;
+    prov:wasDerivedFrom "The Session" ;
+    prov:wasMemberOf <https://github.com/ashahidkhattak/thesession> .
+
+<http://w3id.org/polifonia/resource/JAMSObservation/ABarrelOfKnives21254/0.0_9.0_7.0_5.0_0.0_7.0@0.0> a jams:JAMSObservation,
+        jams:JAMSScoreObservation,
+        jams:ScorePatternOccurrence ;
+    rdfs:label [ ] ;
+    jams:hasDuration "0.0"^^xsd:float ;
+    jams:hasFrequency "2"^^xsd:int ;
+    jams:hasPatternType "pitch-class-values" ;
+    jams:ofPattern <http://w3id.org/polifonia/resource/pattern/0.0_9.0_7.0_5.0_0.0_7.0> .
+
+<http://w3id.org/polifonia/resource/JAMSObservation/ABarrelOfKnives21254/0_4_11_7_11_2@0.0> a jams:JAMSObservation,
+        jams:JAMSScoreObservation,
+        jams:ScorePatternOccurrence ;
+    rdfs:label [ ] ;
+    jams:hasDuration "0.0"^^xsd:float ;
+    jams:hasFrequency "1"^^xsd:int ;
+    jams:hasPatternType "pitch-class-values" ;
+    jams:ofPattern <http://w3id.org/polifonia/resource/pattern/0_4_11_7_11_2> .
+
+<http://w3id.org/polifonia/resource/JAMSObservation/ABarrelOfKnives21254/0_5_5_2_11_5@0.0> a jams:JAMSObservation,
+        jams:JAMSScoreObservation,
+        jams:ScorePatternOccurrence ;
+    rdfs:label [ ] ;
+    jams:hasDuration "0.0"^^xsd:float ;
+    jams:hasFrequency "2"^^xsd:int ;
+    jams:hasPatternType "pitch-class-values" ;
+    jams:ofPattern <http://w3id.org/polifonia/resource/pattern/0_5_5_2_11_5> .
+
+<http://w3id.org/polifonia/resource/JAMSObservation/ABarrelOfKnives21254/0_7_2_11_0_9@0.0> a jams:JAMSObservation,
+        jams:JAMSScoreObservation,
+        jams:ScorePatternOccurrence ;
+    rdfs:label [ ] ;
+    jams:hasDuration "0.0"^^xsd:float ;
+    jams:hasFrequency "2"^^xsd:int ;
+    jams:hasPatternType "pitch-class-values" ;
+    jams:ofPattern <http://w3id.org/polifonia/resource/pattern/0_7_2_11_0_9> .
+
+<http://w3id.org/polifonia/resource/JAMSObservation/ABarrelOfKnives21254/0_9_7_5_4_11@0.0> a jams:JAMSObservation,
+        jams:JAMSScoreObservation,
+        jams:ScorePatternOccurrence ;
+    rdfs:label [ ] ;
+    jams:hasDuration "0.0"^^xsd:float ;
+    jams:hasFrequency "2"^^xsd:int ;
+    jams:hasPatternType "pitch-class-values" ;
+    jams:ofPattern <http://w3id.org/polifonia/resource/pattern/0_9_7_5_4_11> .
+
+<http://w3id.org/polifonia/resource/JAMSObservation/ABarrelOfKnives21254/11_0_9_7_5_0@0.0> a jams:JAMSObservation,
+        jams:JAMSScoreObservation,
+        jams:ScorePatternOccurrence ;
+    rdfs:label [ ] ;
+    jams:hasDuration "0.0"^^xsd:float ;
+    jams:hasFrequency "2"^^xsd:int ;
+    jams:hasPatternType "pitch-class-values" ;
+    jams:ofPattern <http://w3id.org/polifonia/resource/pattern/11_0_9_7_5_0> .
+
+<http://w3id.org/polifonia/resource/JAMSObservation/ABarrelOfKnives21254/11_0_9_7_5_4@0.0> a jams:JAMSObservation,
+        jams:JAMSScoreObservation,
+        jams:ScorePatternOccurrence ;
+    rdfs:label [ ] ;
+    jams:hasDuration "0.0"^^xsd:float ;
+    jams:hasFrequency "2"^^xsd:int ;
+    jams:hasPatternType "pitch-class-values" ;
+    jams:ofPattern <http://w3id.org/polifonia/resource/pattern/11_0_9_7_5_4> .
+
+<http://w3id.org/polifonia/resource/JAMSObservation/ABarrelOfKnives21254/11_5_5_2_0_4@0.0> a jams:JAMSObservation,
+        jams:JAMSScoreObservation,
+        jams:ScorePatternOccurrence ;
+    rdfs:label [ ] ;
+    jams:hasDuration "0.0"^^xsd:float ;
+    jams:hasFrequency "2"^^xsd:int ;
+    jams:hasPatternType "pitch-class-values" ;
+    jams:ofPattern <http://w3id.org/polifonia/resource/pattern/11_5_5_2_0_4> .
+
+<http://w3id.org/polifonia/resource/JAMSObservation/ABarrelOfKnives21254/11_7_11_0_9_7@0.0> a jams:JAMSObservation,
+        jams:JAMSScoreObservation,
+        jams:ScorePatternOccurrence ;
+    rdfs:label [ ] ;
+    jams:hasDuration "0.0"^^xsd:float ;
+    jams:hasFrequency "2"^^xsd:int ;
+    jams:hasPatternType "pitch-class-values" ;
+    jams:ofPattern <http://w3id.org/polifonia/resource/pattern/11_7_11_0_9_7> .
+
+<http://w3id.org/polifonia/resource/JAMSObservation/ABarrelOfKnives21254/11_7_11_2_5_5@0.0> a jams:JAMSObservation,
+        jams:JAMSScoreObservation,
+        jams:ScorePatternOccurrence ;
+    rdfs:label [ ] ;
+    jams:hasDuration "0.0"^^xsd:float ;
+    jams:hasFrequency "1"^^xsd:int ;
+    jams:hasPatternType "pitch-class-values" ;
+    jams:ofPattern <http://w3id.org/polifonia/resource/pattern/11_7_11_2_5_5> .
+
+<http://w3id.org/polifonia/resource/JAMSObservation/ABarrelOfKnives21254/2_0_4_11_7_11@0.0> a jams:JAMSObservation,
+        jams:JAMSScoreObservation,
+        jams:ScorePatternOccurrence ;
+    rdfs:label [ ] ;
+    jams:hasDuration "0.0"^^xsd:float ;
+    jams:hasFrequency "2"^^xsd:int ;
+    jams:hasPatternType "pitch-class-values" ;
+    jams:ofPattern <http://w3id.org/polifonia/resource/pattern/2_0_4_11_7_11> .
+
+<http://w3id.org/polifonia/resource/JAMSObservation/ABarrelOfKnives21254/2_0_5_5_2_11@0.0> a jams:JAMSObservation,
+        jams:JAMSScoreObservation,
+        jams:ScorePatternOccurrence ;
+    rdfs:label [ ] ;
+    jams:hasDuration "0.0"^^xsd:float ;
+    jams:hasFrequency "2"^^xsd:int ;
+    jams:hasPatternType "pitch-class-values" ;
+    jams:ofPattern <http://w3id.org/polifonia/resource/pattern/2_0_5_5_2_11> .
+
+<http://w3id.org/polifonia/resource/JAMSObservation/ABarrelOfKnives21254/2_11_0_9_7_5@0.0> a jams:JAMSObservation,
+        jams:JAMSScoreObservation,
+        jams:ScorePatternOccurrence ;
+    rdfs:label [ ] ;
+    jams:hasDuration "0.0"^^xsd:float ;
+    jams:hasFrequency "2"^^xsd:int ;
+    jams:hasPatternType "pitch-class-values" ;
+    jams:ofPattern <http://w3id.org/polifonia/resource/pattern/2_11_0_9_7_5> .
+
+<http://w3id.org/polifonia/resource/JAMSObservation/ABarrelOfKnives21254/2_11_5_5_2_0@0.0> a jams:JAMSObservation,
+        jams:JAMSScoreObservation,
+        jams:ScorePatternOccurrence ;
+    rdfs:label [ ] ;
+    jams:hasDuration "0.0"^^xsd:float ;
+    jams:hasFrequency "2"^^xsd:int ;
+    jams:hasPatternType "pitch-class-values" ;
+    jams:ofPattern <http://w3id.org/polifonia/resource/pattern/2_11_5_5_2_0> .
+
+<http://w3id.org/polifonia/resource/JAMSObservation/ABarrelOfKnives21254/2_5_5_2_0_5@0.0> a jams:JAMSObservation,
+        jams:JAMSScoreObservation,
+        jams:ScorePatternOccurrence ;
+    rdfs:label [ ] ;
+    jams:hasDuration "0.0"^^xsd:float ;
+    jams:hasFrequency "2"^^xsd:int ;
+    jams:hasPatternType "pitch-class-values" ;
+    jams:ofPattern <http://w3id.org/polifonia/resource/pattern/2_5_5_2_0_5> .
+
+<http://w3id.org/polifonia/resource/JAMSObservation/ABarrelOfKnives21254/5_0_7_2_11_0@0.0> a jams:JAMSObservation,
+        jams:JAMSScoreObservation,
+        jams:ScorePatternOccurrence ;
+    rdfs:label [ ] ;
+    jams:hasDuration "0.0"^^xsd:float ;
+    jams:hasFrequency "2"^^xsd:int ;
+    jams:hasPatternType "pitch-class-values" ;
+    jams:ofPattern <http://w3id.org/polifonia/resource/pattern/5_0_7_2_11_0> .
+
+<http://w3id.org/polifonia/resource/JAMSObservation/ABarrelOfKnives21254/5_2_0_4_11_7@0.0> a jams:JAMSObservation,
+        jams:JAMSScoreObservation,
+        jams:ScorePatternOccurrence ;
+    rdfs:label [ ] ;
+    jams:hasDuration "0.0"^^xsd:float ;
+    jams:hasFrequency "2"^^xsd:int ;
+    jams:hasPatternType "pitch-class-values" ;
+    jams:ofPattern <http://w3id.org/polifonia/resource/pattern/5_2_0_4_11_7> .
+
+<http://w3id.org/polifonia/resource/JAMSObservation/ABarrelOfKnives21254/5_2_0_5_5_2@0.0> a jams:JAMSObservation,
+        jams:JAMSScoreObservation,
+        jams:ScorePatternOccurrence ;
+    rdfs:label [ ] ;
+    jams:hasDuration "0.0"^^xsd:float ;
+    jams:hasFrequency "2"^^xsd:int ;
+    jams:hasPatternType "pitch-class-values" ;
+    jams:ofPattern <http://w3id.org/polifonia/resource/pattern/5_2_0_5_5_2> .
+
+<http://w3id.org/polifonia/resource/JAMSObservation/ABarrelOfKnives21254/5_2_11_5_5_2@0.0> a jams:JAMSObservation,
+        jams:JAMSScoreObservation,
+        jams:ScorePatternOccurrence ;
+    rdfs:label [ ] ;
+    jams:hasDuration "0.0"^^xsd:float ;
+    jams:hasFrequency "2"^^xsd:int ;
+    jams:hasPatternType "pitch-class-values" ;
+    jams:ofPattern <http://w3id.org/polifonia/resource/pattern/5_2_11_5_5_2> .
+
+<http://w3id.org/polifonia/resource/JAMSObservation/ABarrelOfKnives21254/5_5_2_0_5_5@0.0> a jams:JAMSObservation,
+        jams:JAMSScoreObservation,
+        jams:ScorePatternOccurrence ;
+    rdfs:label [ ] ;
+    jams:hasDuration "0.0"^^xsd:float ;
+    jams:hasFrequency "2"^^xsd:int ;
+    jams:hasPatternType "pitch-class-values" ;
+    jams:ofPattern <http://w3id.org/polifonia/resource/pattern/5_5_2_0_5_5> .
+
+<http://w3id.org/polifonia/resource/JAMSObservation/ABarrelOfKnives21254/5_5_2_11_5_5@0.0> a jams:JAMSObservation,
+        jams:JAMSScoreObservation,
+        jams:ScorePatternOccurrence ;
+    rdfs:label [ ] ;
+    jams:hasDuration "0.0"^^xsd:float ;
+    jams:hasFrequency "2"^^xsd:int ;
+    jams:hasPatternType "pitch-class-values" ;
+    jams:ofPattern <http://w3id.org/polifonia/resource/pattern/5_5_2_11_5_5> .
+
+<http://w3id.org/polifonia/resource/JAMSObservation/ABarrelOfKnives21254/7_11_0_9_7_5@0.0> a jams:JAMSObservation,
+        jams:JAMSScoreObservation,
+        jams:ScorePatternOccurrence ;
+    rdfs:label [ ] ;
+    jams:hasDuration "0.0"^^xsd:float ;
+    jams:hasFrequency "2"^^xsd:int ;
+    jams:hasPatternType "pitch-class-values" ;
+    jams:ofPattern <http://w3id.org/polifonia/resource/pattern/7_11_0_9_7_5> .
+
+<http://w3id.org/polifonia/resource/JAMSObservation/ABarrelOfKnives21254/7_11_2_5_5_2@0.0> a jams:JAMSObservation,
+        jams:JAMSScoreObservation,
+        jams:ScorePatternOccurrence ;
+    rdfs:label [ ] ;
+    jams:hasDuration "0.0"^^xsd:float ;
+    jams:hasFrequency "1"^^xsd:int ;
+    jams:hasPatternType "pitch-class-values" ;
+    jams:ofPattern <http://w3id.org/polifonia/resource/pattern/7_11_2_5_5_2> .
+
+<http://w3id.org/polifonia/resource/JAMSObservation/ABarrelOfKnives21254/7_2_11_0_9_7@0.0> a jams:JAMSObservation,
+        jams:JAMSScoreObservation,
+        jams:ScorePatternOccurrence ;
+    rdfs:label [ ] ;
+    jams:hasDuration "0.0"^^xsd:float ;
+    jams:hasFrequency "2"^^xsd:int ;
+    jams:hasPatternType "pitch-class-values" ;
+    jams:ofPattern <http://w3id.org/polifonia/resource/pattern/7_2_11_0_9_7> .
+
+<http://w3id.org/polifonia/resource/JAMSObservation/ABarrelOfKnives21254/7_5_0_7_2_11@0.0> a jams:JAMSObservation,
+        jams:JAMSScoreObservation,
+        jams:ScorePatternOccurrence ;
+    rdfs:label [ ] ;
+    jams:hasDuration "0.0"^^xsd:float ;
+    jams:hasFrequency "2"^^xsd:int ;
+    jams:hasPatternType "pitch-class-values" ;
+    jams:ofPattern <http://w3id.org/polifonia/resource/pattern/7_5_0_7_2_11> .
+
+<http://w3id.org/polifonia/resource/JAMSObservation/ABarrelOfKnives21254/7_5_4_11_7_11@0.0> a jams:JAMSObservation,
+        jams:JAMSScoreObservation,
+        jams:ScorePatternOccurrence ;
+    rdfs:label [ ] ;
+    jams:hasDuration "0.0"^^xsd:float ;
+    jams:hasFrequency "2"^^xsd:int ;
+    jams:hasPatternType "pitch-class-values" ;
+    jams:ofPattern <http://w3id.org/polifonia/resource/pattern/7_5_4_11_7_11> .
+
+<http://w3id.org/polifonia/resource/JAMSObservation/ABarrelOfKnives21254/9_7_5_0_7_2@0.0> a jams:JAMSObservation,
+        jams:JAMSScoreObservation,
+        jams:ScorePatternOccurrence ;
+    rdfs:label [ ] ;
+    jams:hasDuration "0.0"^^xsd:float ;
+    jams:hasFrequency "2"^^xsd:int ;
+    jams:hasPatternType "pitch-class-values" ;
+    jams:ofPattern <http://w3id.org/polifonia/resource/pattern/9_7_5_0_7_2> .
+
+<http://w3id.org/polifonia/resource/JAMSObservation/ABarrelOfKnives21254/9_7_5_4_11_7@0.0> a jams:JAMSObservation,
+        jams:JAMSScoreObservation,
+        jams:ScorePatternOccurrence ;
+    rdfs:label [ ] ;
+    jams:hasDuration "0.0"^^xsd:float ;
+    jams:hasFrequency "2"^^xsd:int ;
+    jams:hasPatternType "pitch-class-values" ;
+    jams:ofPattern <http://w3id.org/polifonia/resource/pattern/9_7_5_4_11_7> .
+
+<http://w3id.org/polifonia/resource/MusicalComposition/9d0f79de2cace2dcba7d023a46a91a40e2c1972d> a mc:MusicalComposition ;
+    rdfs:label "ABarrelOfKnives21254" ;
+    mc:title "ABarrelOfKnives21254" ;
+    prov:wasDerivedFrom <http://w3id.org/polifonia/resource/JAMSFile/ABarrelOfKnives21254.jams> .
+

@@ -1,0 +1,261 @@
+@prefix core: <http://w3id.org/polifonia/ontology/core/> .
+@prefix jams: <http://w3id.org/polifonia/ontology/jams/> .
+@prefix mc: <http://w3id.org/polifonia/ontology/musical-composition/> .
+@prefix pon-resource: <http://w3id.org/polifonia/resource/> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+pon-resource:Agent%2Fannotator_local_id a core:Agent ;
+    rdfs:label "FONN-Tool" ;
+    jams:hasAnnotatorType pon-resource:annotator-program ;
+    jams:hasName "FONN-Tool" .
+
+<http://w3id.org/polifonia/resource/JAMSAnnotation/e9fda9169d7f0ee90271d0d4792327973438a3b7> a jams:JAMSAnnotation,
+        jams:JAMSScoreAnnotation ;
+    jams:includesObservation <http://w3id.org/polifonia/resource/JAMSObservation/KittyGoesAMilking22724/0_7_2_7_4_7@0.0>,
+        <http://w3id.org/polifonia/resource/JAMSObservation/KittyGoesAMilking22724/0_7_7_7_11_7@0.0>,
+        <http://w3id.org/polifonia/resource/JAMSObservation/KittyGoesAMilking22724/11_0_7_2_7_4@0.0>,
+        <http://w3id.org/polifonia/resource/JAMSObservation/KittyGoesAMilking22724/11_0_7_7_7_11@0.0>,
+        <http://w3id.org/polifonia/resource/JAMSObservation/KittyGoesAMilking22724/11_5_7_2_7_7@0.0>,
+        <http://w3id.org/polifonia/resource/JAMSObservation/KittyGoesAMilking22724/11_7_7_11_0_7@0.0>,
+        <http://w3id.org/polifonia/resource/JAMSObservation/KittyGoesAMilking22724/2_11_5_7_2_7@0.0>,
+        <http://w3id.org/polifonia/resource/JAMSObservation/KittyGoesAMilking22724/2_7_4_7_2_11@0.0>,
+        <http://w3id.org/polifonia/resource/JAMSObservation/KittyGoesAMilking22724/2_7_7_7_2_0@0.0>,
+        <http://w3id.org/polifonia/resource/JAMSObservation/KittyGoesAMilking22724/4_7_2_11_5_7@0.0>,
+        <http://w3id.org/polifonia/resource/JAMSObservation/KittyGoesAMilking22724/5_7_2_7_7_7@0.0>,
+        <http://w3id.org/polifonia/resource/JAMSObservation/KittyGoesAMilking22724/7_11_0_7_2_7@0.0>,
+        <http://w3id.org/polifonia/resource/JAMSObservation/KittyGoesAMilking22724/7_11_0_7_7_7@0.0>,
+        <http://w3id.org/polifonia/resource/JAMSObservation/KittyGoesAMilking22724/7_11_7_7_11_0@0.0>,
+        <http://w3id.org/polifonia/resource/JAMSObservation/KittyGoesAMilking22724/7_2_11_5_7_2@0.0>,
+        <http://w3id.org/polifonia/resource/JAMSObservation/KittyGoesAMilking22724/7_2_7_4_7_2@0.0>,
+        <http://w3id.org/polifonia/resource/JAMSObservation/KittyGoesAMilking22724/7_2_7_7_7_2@0.0>,
+        <http://w3id.org/polifonia/resource/JAMSObservation/KittyGoesAMilking22724/7_4_7_2_11_5@0.0>,
+        <http://w3id.org/polifonia/resource/JAMSObservation/KittyGoesAMilking22724/7_7_11_0_7_2@0.0>,
+        <http://w3id.org/polifonia/resource/JAMSObservation/KittyGoesAMilking22724/7_7_11_0_7_7@0.0>,
+        <http://w3id.org/polifonia/resource/JAMSObservation/KittyGoesAMilking22724/7_7_11_7_7_11@0.0>,
+        <http://w3id.org/polifonia/resource/JAMSObservation/KittyGoesAMilking22724/7_7_7_11_7_7@0.0>,
+        <http://w3id.org/polifonia/resource/JAMSObservation/KittyGoesAMilking22724/7_7_7_2_0_0@0.0> ;
+    jams:isJAMSAnnotationOf <http://w3id.org/polifonia/resource/MusicalComposition/e9fda9169d7f0ee90271d0d4792327973438a3b7> .
+
+<http://w3id.org/polifonia/resource/Score/song_local_id> jams:hasJAMSAnnotation <http://w3id.org/polifonia/resource/MusicalComposition/e9fda9169d7f0ee90271d0d4792327973438a3b7> .
+
+<http://w3id.org/polifonia/resource/JAMSFile/KittyGoesAMilking22724.jams> a jams:JAMSFile ;
+    jams:identifiers [ ] ;
+    jams:jamsVersion "0.3.4" ;
+    jams:release "" ;
+    prov:wasDerivedFrom "The Session" ;
+    prov:wasMemberOf <https://github.com/ashahidkhattak/thesession> .
+
+<http://w3id.org/polifonia/resource/JAMSObservation/KittyGoesAMilking22724/0_7_2_7_4_7@0.0> a jams:JAMSObservation,
+        jams:JAMSScoreObservation,
+        jams:ScorePatternOccurrence ;
+    rdfs:label [ ] ;
+    jams:hasDuration "0.0"^^xsd:float ;
+    jams:hasFrequency "1"^^xsd:int ;
+    jams:hasPatternType "pitch-class-values" ;
+    jams:ofPattern <http://w3id.org/polifonia/resource/pattern/0_7_2_7_4_7> .
+
+<http://w3id.org/polifonia/resource/JAMSObservation/KittyGoesAMilking22724/0_7_7_7_11_7@0.0> a jams:JAMSObservation,
+        jams:JAMSScoreObservation,
+        jams:ScorePatternOccurrence ;
+    rdfs:label [ ] ;
+    jams:hasDuration "0.0"^^xsd:float ;
+    jams:hasFrequency "1"^^xsd:int ;
+    jams:hasPatternType "pitch-class-values" ;
+    jams:ofPattern <http://w3id.org/polifonia/resource/pattern/0_7_7_7_11_7> .
+
+<http://w3id.org/polifonia/resource/JAMSObservation/KittyGoesAMilking22724/11_0_7_2_7_4@0.0> a jams:JAMSObservation,
+        jams:JAMSScoreObservation,
+        jams:ScorePatternOccurrence ;
+    rdfs:label [ ] ;
+    jams:hasDuration "0.0"^^xsd:float ;
+    jams:hasFrequency "1"^^xsd:int ;
+    jams:hasPatternType "pitch-class-values" ;
+    jams:ofPattern <http://w3id.org/polifonia/resource/pattern/11_0_7_2_7_4> .
+
+<http://w3id.org/polifonia/resource/JAMSObservation/KittyGoesAMilking22724/11_0_7_7_7_11@0.0> a jams:JAMSObservation,
+        jams:JAMSScoreObservation,
+        jams:ScorePatternOccurrence ;
+    rdfs:label [ ] ;
+    jams:hasDuration "0.0"^^xsd:float ;
+    jams:hasFrequency "1"^^xsd:int ;
+    jams:hasPatternType "pitch-class-values" ;
+    jams:ofPattern <http://w3id.org/polifonia/resource/pattern/11_0_7_7_7_11> .
+
+<http://w3id.org/polifonia/resource/JAMSObservation/KittyGoesAMilking22724/11_5_7_2_7_7@0.0> a jams:JAMSObservation,
+        jams:JAMSScoreObservation,
+        jams:ScorePatternOccurrence ;
+    rdfs:label [ ] ;
+    jams:hasDuration "0.0"^^xsd:float ;
+    jams:hasFrequency "1"^^xsd:int ;
+    jams:hasPatternType "pitch-class-values" ;
+    jams:ofPattern <http://w3id.org/polifonia/resource/pattern/11_5_7_2_7_7> .
+
+<http://w3id.org/polifonia/resource/JAMSObservation/KittyGoesAMilking22724/11_7_7_11_0_7@0.0> a jams:JAMSObservation,
+        jams:JAMSScoreObservation,
+        jams:ScorePatternOccurrence ;
+    rdfs:label [ ] ;
+    jams:hasDuration "0.0"^^xsd:float ;
+    jams:hasFrequency "2"^^xsd:int ;
+    jams:hasPatternType "pitch-class-values" ;
+    jams:ofPattern <http://w3id.org/polifonia/resource/pattern/11_7_7_11_0_7> .
+
+<http://w3id.org/polifonia/resource/JAMSObservation/KittyGoesAMilking22724/2_11_5_7_2_7@0.0> a jams:JAMSObservation,
+        jams:JAMSScoreObservation,
+        jams:ScorePatternOccurrence ;
+    rdfs:label [ ] ;
+    jams:hasDuration "0.0"^^xsd:float ;
+    jams:hasFrequency "1"^^xsd:int ;
+    jams:hasPatternType "pitch-class-values" ;
+    jams:ofPattern <http://w3id.org/polifonia/resource/pattern/2_11_5_7_2_7> .
+
+<http://w3id.org/polifonia/resource/JAMSObservation/KittyGoesAMilking22724/2_7_4_7_2_11@0.0> a jams:JAMSObservation,
+        jams:JAMSScoreObservation,
+        jams:ScorePatternOccurrence ;
+    rdfs:label [ ] ;
+    jams:hasDuration "0.0"^^xsd:float ;
+    jams:hasFrequency "1"^^xsd:int ;
+    jams:hasPatternType "pitch-class-values" ;
+    jams:ofPattern <http://w3id.org/polifonia/resource/pattern/2_7_4_7_2_11> .
+
+<http://w3id.org/polifonia/resource/JAMSObservation/KittyGoesAMilking22724/2_7_7_7_2_0@0.0> a jams:JAMSObservation,
+        jams:JAMSScoreObservation,
+        jams:ScorePatternOccurrence ;
+    rdfs:label [ ] ;
+    jams:hasDuration "0.0"^^xsd:float ;
+    jams:hasFrequency "1"^^xsd:int ;
+    jams:hasPatternType "pitch-class-values" ;
+    jams:ofPattern <http://w3id.org/polifonia/resource/pattern/2_7_7_7_2_0> .
+
+<http://w3id.org/polifonia/resource/JAMSObservation/KittyGoesAMilking22724/4_7_2_11_5_7@0.0> a jams:JAMSObservation,
+        jams:JAMSScoreObservation,
+        jams:ScorePatternOccurrence ;
+    rdfs:label [ ] ;
+    jams:hasDuration "0.0"^^xsd:float ;
+    jams:hasFrequency "1"^^xsd:int ;
+    jams:hasPatternType "pitch-class-values" ;
+    jams:ofPattern <http://w3id.org/polifonia/resource/pattern/4_7_2_11_5_7> .
+
+<http://w3id.org/polifonia/resource/JAMSObservation/KittyGoesAMilking22724/5_7_2_7_7_7@0.0> a jams:JAMSObservation,
+        jams:JAMSScoreObservation,
+        jams:ScorePatternOccurrence ;
+    rdfs:label [ ] ;
+    jams:hasDuration "0.0"^^xsd:float ;
+    jams:hasFrequency "1"^^xsd:int ;
+    jams:hasPatternType "pitch-class-values" ;
+    jams:ofPattern <http://w3id.org/polifonia/resource/pattern/5_7_2_7_7_7> .
+
+<http://w3id.org/polifonia/resource/JAMSObservation/KittyGoesAMilking22724/7_11_0_7_2_7@0.0> a jams:JAMSObservation,
+        jams:JAMSScoreObservation,
+        jams:ScorePatternOccurrence ;
+    rdfs:label [ ] ;
+    jams:hasDuration "0.0"^^xsd:float ;
+    jams:hasFrequency "1"^^xsd:int ;
+    jams:hasPatternType "pitch-class-values" ;
+    jams:ofPattern <http://w3id.org/polifonia/resource/pattern/7_11_0_7_2_7> .
+
+<http://w3id.org/polifonia/resource/JAMSObservation/KittyGoesAMilking22724/7_11_0_7_7_7@0.0> a jams:JAMSObservation,
+        jams:JAMSScoreObservation,
+        jams:ScorePatternOccurrence ;
+    rdfs:label [ ] ;
+    jams:hasDuration "0.0"^^xsd:float ;
+    jams:hasFrequency "1"^^xsd:int ;
+    jams:hasPatternType "pitch-class-values" ;
+    jams:ofPattern <http://w3id.org/polifonia/resource/pattern/7_11_0_7_7_7> .
+
+<http://w3id.org/polifonia/resource/JAMSObservation/KittyGoesAMilking22724/7_11_7_7_11_0@0.0> a jams:JAMSObservation,
+        jams:JAMSScoreObservation,
+        jams:ScorePatternOccurrence ;
+    rdfs:label [ ] ;
+    jams:hasDuration "0.0"^^xsd:float ;
+    jams:hasFrequency "2"^^xsd:int ;
+    jams:hasPatternType "pitch-class-values" ;
+    jams:ofPattern <http://w3id.org/polifonia/resource/pattern/7_11_7_7_11_0> .
+
+<http://w3id.org/polifonia/resource/JAMSObservation/KittyGoesAMilking22724/7_2_11_5_7_2@0.0> a jams:JAMSObservation,
+        jams:JAMSScoreObservation,
+        jams:ScorePatternOccurrence ;
+    rdfs:label [ ] ;
+    jams:hasDuration "0.0"^^xsd:float ;
+    jams:hasFrequency "1"^^xsd:int ;
+    jams:hasPatternType "pitch-class-values" ;
+    jams:ofPattern <http://w3id.org/polifonia/resource/pattern/7_2_11_5_7_2> .
+
+<http://w3id.org/polifonia/resource/JAMSObservation/KittyGoesAMilking22724/7_2_7_4_7_2@0.0> a jams:JAMSObservation,
+        jams:JAMSScoreObservation,
+        jams:ScorePatternOccurrence ;
+    rdfs:label [ ] ;
+    jams:hasDuration "0.0"^^xsd:float ;
+    jams:hasFrequency "1"^^xsd:int ;
+    jams:hasPatternType "pitch-class-values" ;
+    jams:ofPattern <http://w3id.org/polifonia/resource/pattern/7_2_7_4_7_2> .
+
+<http://w3id.org/polifonia/resource/JAMSObservation/KittyGoesAMilking22724/7_2_7_7_7_2@0.0> a jams:JAMSObservation,
+        jams:JAMSScoreObservation,
+        jams:ScorePatternOccurrence ;
+    rdfs:label [ ] ;
+    jams:hasDuration "0.0"^^xsd:float ;
+    jams:hasFrequency "1"^^xsd:int ;
+    jams:hasPatternType "pitch-class-values" ;
+    jams:ofPattern <http://w3id.org/polifonia/resource/pattern/7_2_7_7_7_2> .
+
+<http://w3id.org/polifonia/resource/JAMSObservation/KittyGoesAMilking22724/7_4_7_2_11_5@0.0> a jams:JAMSObservation,
+        jams:JAMSScoreObservation,
+        jams:ScorePatternOccurrence ;
+    rdfs:label [ ] ;
+    jams:hasDuration "0.0"^^xsd:float ;
+    jams:hasFrequency "1"^^xsd:int ;
+    jams:hasPatternType "pitch-class-values" ;
+    jams:ofPattern <http://w3id.org/polifonia/resource/pattern/7_4_7_2_11_5> .
+
+<http://w3id.org/polifonia/resource/JAMSObservation/KittyGoesAMilking22724/7_7_11_0_7_2@0.0> a jams:JAMSObservation,
+        jams:JAMSScoreObservation,
+        jams:ScorePatternOccurrence ;
+    rdfs:label [ ] ;
+    jams:hasDuration "0.0"^^xsd:float ;
+    jams:hasFrequency "1"^^xsd:int ;
+    jams:hasPatternType "pitch-class-values" ;
+    jams:ofPattern <http://w3id.org/polifonia/resource/pattern/7_7_11_0_7_2> .
+
+<http://w3id.org/polifonia/resource/JAMSObservation/KittyGoesAMilking22724/7_7_11_0_7_7@0.0> a jams:JAMSObservation,
+        jams:JAMSScoreObservation,
+        jams:ScorePatternOccurrence ;
+    rdfs:label [ ] ;
+    jams:hasDuration "0.0"^^xsd:float ;
+    jams:hasFrequency "1"^^xsd:int ;
+    jams:hasPatternType "pitch-class-values" ;
+    jams:ofPattern <http://w3id.org/polifonia/resource/pattern/7_7_11_0_7_7> .
+
+<http://w3id.org/polifonia/resource/JAMSObservation/KittyGoesAMilking22724/7_7_11_7_7_11@0.0> a jams:JAMSObservation,
+        jams:JAMSScoreObservation,
+        jams:ScorePatternOccurrence ;
+    rdfs:label [ ] ;
+    jams:hasDuration "0.0"^^xsd:float ;
+    jams:hasFrequency "2"^^xsd:int ;
+    jams:hasPatternType "pitch-class-values" ;
+    jams:ofPattern <http://w3id.org/polifonia/resource/pattern/7_7_11_7_7_11> .
+
+<http://w3id.org/polifonia/resource/JAMSObservation/KittyGoesAMilking22724/7_7_7_11_7_7@0.0> a jams:JAMSObservation,
+        jams:JAMSScoreObservation,
+        jams:ScorePatternOccurrence ;
+    rdfs:label [ ] ;
+    jams:hasDuration "0.0"^^xsd:float ;
+    jams:hasFrequency "2"^^xsd:int ;
+    jams:hasPatternType "pitch-class-values" ;
+    jams:ofPattern <http://w3id.org/polifonia/resource/pattern/7_7_7_11_7_7> .
+
+<http://w3id.org/polifonia/resource/JAMSObservation/KittyGoesAMilking22724/7_7_7_2_0_0@0.0> a jams:JAMSObservation,
+        jams:JAMSScoreObservation,
+        jams:ScorePatternOccurrence ;
+    rdfs:label [ ] ;
+    jams:hasDuration "0.0"^^xsd:float ;
+    jams:hasFrequency "1"^^xsd:int ;
+    jams:hasPatternType "pitch-class-values" ;
+    jams:ofPattern <http://w3id.org/polifonia/resource/pattern/7_7_7_2_0_0> .
+
+<http://w3id.org/polifonia/resource/MusicalComposition/e9fda9169d7f0ee90271d0d4792327973438a3b7> a mc:MusicalComposition ;
+    rdfs:label "KittyGoesAMilking22724" ;
+    mc:title "KittyGoesAMilking22724" ;
+    prov:wasDerivedFrom <http://w3id.org/polifonia/resource/JAMSFile/KittyGoesAMilking22724.jams> .
+

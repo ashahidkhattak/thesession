@@ -1,0 +1,231 @@
+@prefix core: <http://w3id.org/polifonia/ontology/core/> .
+@prefix jams: <http://w3id.org/polifonia/ontology/jams/> .
+@prefix mc: <http://w3id.org/polifonia/ontology/musical-composition/> .
+@prefix pon-resource: <http://w3id.org/polifonia/resource/> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+pon-resource:Agent%2Fannotator_local_id a core:Agent ;
+    rdfs:label "FONN-Tool" ;
+    jams:hasAnnotatorType pon-resource:annotator-program ;
+    jams:hasName "FONN-Tool" .
+
+<http://w3id.org/polifonia/resource/JAMSAnnotation/63664af7e75484901aca6ced7435bcb8a1c38de2> a jams:JAMSAnnotation,
+        jams:JAMSScoreAnnotation ;
+    jams:includesObservation <http://w3id.org/polifonia/resource/JAMSObservation/CrossingTheMinch23481/0_4_4_5_5_4@0.0>,
+        <http://w3id.org/polifonia/resource/JAMSObservation/CrossingTheMinch23481/2_0_4_4_5_5@0.0>,
+        <http://w3id.org/polifonia/resource/JAMSObservation/CrossingTheMinch23481/4_2_0_4_4_5@0.0>,
+        <http://w3id.org/polifonia/resource/JAMSObservation/CrossingTheMinch23481/4_4_2_0_4_4@0.0>,
+        <http://w3id.org/polifonia/resource/JAMSObservation/CrossingTheMinch23481/4_4_5_0_4_4@0.0>,
+        <http://w3id.org/polifonia/resource/JAMSObservation/CrossingTheMinch23481/4_4_5_5_4_4@0.0>,
+        <http://w3id.org/polifonia/resource/JAMSObservation/CrossingTheMinch23481/4_4_5_5_4_5@0.0>,
+        <http://w3id.org/polifonia/resource/JAMSObservation/CrossingTheMinch23481/4_5_0_4_4_5@0.0>,
+        <http://w3id.org/polifonia/resource/JAMSObservation/CrossingTheMinch23481/4_5_2_0_4_4@0.0>,
+        <http://w3id.org/polifonia/resource/JAMSObservation/CrossingTheMinch23481/4_5_5_4_4_2@0.0>,
+        <http://w3id.org/polifonia/resource/JAMSObservation/CrossingTheMinch23481/4_5_5_4_4_5@0.0>,
+        <http://w3id.org/polifonia/resource/JAMSObservation/CrossingTheMinch23481/4_5_5_4_5_2@0.0>,
+        <http://w3id.org/polifonia/resource/JAMSObservation/CrossingTheMinch23481/5_0_4_4_5_5@0.0>,
+        <http://w3id.org/polifonia/resource/JAMSObservation/CrossingTheMinch23481/5_2_0_4_4_5@0.0>,
+        <http://w3id.org/polifonia/resource/JAMSObservation/CrossingTheMinch23481/5_4_4_2_0_4@0.0>,
+        <http://w3id.org/polifonia/resource/JAMSObservation/CrossingTheMinch23481/5_4_4_5_0_4@0.0>,
+        <http://w3id.org/polifonia/resource/JAMSObservation/CrossingTheMinch23481/5_4_5_2_0_4@0.0>,
+        <http://w3id.org/polifonia/resource/JAMSObservation/CrossingTheMinch23481/5_5_4_4_2_0@0.0>,
+        <http://w3id.org/polifonia/resource/JAMSObservation/CrossingTheMinch23481/5_5_4_4_5_0@0.0>,
+        <http://w3id.org/polifonia/resource/JAMSObservation/CrossingTheMinch23481/5_5_4_5_2_0@0.0> ;
+    jams:isJAMSAnnotationOf <http://w3id.org/polifonia/resource/MusicalComposition/63664af7e75484901aca6ced7435bcb8a1c38de2> .
+
+<http://w3id.org/polifonia/resource/Score/song_local_id> jams:hasJAMSAnnotation <http://w3id.org/polifonia/resource/MusicalComposition/63664af7e75484901aca6ced7435bcb8a1c38de2> .
+
+<http://w3id.org/polifonia/resource/JAMSFile/CrossingTheMinch23481.jams> a jams:JAMSFile ;
+    jams:identifiers [ ] ;
+    jams:jamsVersion "0.3.4" ;
+    jams:release "" ;
+    prov:wasDerivedFrom "The Session" ;
+    prov:wasMemberOf <https://github.com/ashahidkhattak/thesession> .
+
+<http://w3id.org/polifonia/resource/JAMSObservation/CrossingTheMinch23481/0_4_4_5_5_4@0.0> a jams:JAMSObservation,
+        jams:JAMSScoreObservation,
+        jams:ScorePatternOccurrence ;
+    rdfs:label [ ] ;
+    jams:hasDuration "0.0"^^xsd:float ;
+    jams:hasFrequency "12"^^xsd:int ;
+    jams:hasPatternType "pitch-class-values" ;
+    jams:ofPattern <http://w3id.org/polifonia/resource/pattern/0_4_4_5_5_4> .
+
+<http://w3id.org/polifonia/resource/JAMSObservation/CrossingTheMinch23481/2_0_4_4_5_5@0.0> a jams:JAMSObservation,
+        jams:JAMSScoreObservation,
+        jams:ScorePatternOccurrence ;
+    rdfs:label [ ] ;
+    jams:hasDuration "0.0"^^xsd:float ;
+    jams:hasFrequency "7"^^xsd:int ;
+    jams:hasPatternType "pitch-class-values" ;
+    jams:ofPattern <http://w3id.org/polifonia/resource/pattern/2_0_4_4_5_5> .
+
+<http://w3id.org/polifonia/resource/JAMSObservation/CrossingTheMinch23481/4_2_0_4_4_5@0.0> a jams:JAMSObservation,
+        jams:JAMSScoreObservation,
+        jams:ScorePatternOccurrence ;
+    rdfs:label [ ] ;
+    jams:hasDuration "0.0"^^xsd:float ;
+    jams:hasFrequency "2"^^xsd:int ;
+    jams:hasPatternType "pitch-class-values" ;
+    jams:ofPattern <http://w3id.org/polifonia/resource/pattern/4_2_0_4_4_5> .
+
+<http://w3id.org/polifonia/resource/JAMSObservation/CrossingTheMinch23481/4_4_2_0_4_4@0.0> a jams:JAMSObservation,
+        jams:JAMSScoreObservation,
+        jams:ScorePatternOccurrence ;
+    rdfs:label [ ] ;
+    jams:hasDuration "0.0"^^xsd:float ;
+    jams:hasFrequency "2"^^xsd:int ;
+    jams:hasPatternType "pitch-class-values" ;
+    jams:ofPattern <http://w3id.org/polifonia/resource/pattern/4_4_2_0_4_4> .
+
+<http://w3id.org/polifonia/resource/JAMSObservation/CrossingTheMinch23481/4_4_5_0_4_4@0.0> a jams:JAMSObservation,
+        jams:JAMSScoreObservation,
+        jams:ScorePatternOccurrence ;
+    rdfs:label [ ] ;
+    jams:hasDuration "0.0"^^xsd:float ;
+    jams:hasFrequency "4"^^xsd:int ;
+    jams:hasPatternType "pitch-class-values" ;
+    jams:ofPattern <http://w3id.org/polifonia/resource/pattern/4_4_5_0_4_4> .
+
+<http://w3id.org/polifonia/resource/JAMSObservation/CrossingTheMinch23481/4_4_5_5_4_4@0.0> a jams:JAMSObservation,
+        jams:JAMSScoreObservation,
+        jams:ScorePatternOccurrence ;
+    rdfs:label [ ] ;
+    jams:hasDuration "0.0"^^xsd:float ;
+    jams:hasFrequency "6"^^xsd:int ;
+    jams:hasPatternType "pitch-class-values" ;
+    jams:ofPattern <http://w3id.org/polifonia/resource/pattern/4_4_5_5_4_4> .
+
+<http://w3id.org/polifonia/resource/JAMSObservation/CrossingTheMinch23481/4_4_5_5_4_5@0.0> a jams:JAMSObservation,
+        jams:JAMSScoreObservation,
+        jams:ScorePatternOccurrence ;
+    rdfs:label [ ] ;
+    jams:hasDuration "0.0"^^xsd:float ;
+    jams:hasFrequency "6"^^xsd:int ;
+    jams:hasPatternType "pitch-class-values" ;
+    jams:ofPattern <http://w3id.org/polifonia/resource/pattern/4_4_5_5_4_5> .
+
+<http://w3id.org/polifonia/resource/JAMSObservation/CrossingTheMinch23481/4_5_0_4_4_5@0.0> a jams:JAMSObservation,
+        jams:JAMSScoreObservation,
+        jams:ScorePatternOccurrence ;
+    rdfs:label [ ] ;
+    jams:hasDuration "0.0"^^xsd:float ;
+    jams:hasFrequency "4"^^xsd:int ;
+    jams:hasPatternType "pitch-class-values" ;
+    jams:ofPattern <http://w3id.org/polifonia/resource/pattern/4_5_0_4_4_5> .
+
+<http://w3id.org/polifonia/resource/JAMSObservation/CrossingTheMinch23481/4_5_2_0_4_4@0.0> a jams:JAMSObservation,
+        jams:JAMSScoreObservation,
+        jams:ScorePatternOccurrence ;
+    rdfs:label [ ] ;
+    jams:hasDuration "0.0"^^xsd:float ;
+    jams:hasFrequency "5"^^xsd:int ;
+    jams:hasPatternType "pitch-class-values" ;
+    jams:ofPattern <http://w3id.org/polifonia/resource/pattern/4_5_2_0_4_4> .
+
+<http://w3id.org/polifonia/resource/JAMSObservation/CrossingTheMinch23481/4_5_5_4_4_2@0.0> a jams:JAMSObservation,
+        jams:JAMSScoreObservation,
+        jams:ScorePatternOccurrence ;
+    rdfs:label [ ] ;
+    jams:hasDuration "0.0"^^xsd:float ;
+    jams:hasFrequency "2"^^xsd:int ;
+    jams:hasPatternType "pitch-class-values" ;
+    jams:ofPattern <http://w3id.org/polifonia/resource/pattern/4_5_5_4_4_2> .
+
+<http://w3id.org/polifonia/resource/JAMSObservation/CrossingTheMinch23481/4_5_5_4_4_5@0.0> a jams:JAMSObservation,
+        jams:JAMSScoreObservation,
+        jams:ScorePatternOccurrence ;
+    rdfs:label [ ] ;
+    jams:hasDuration "0.0"^^xsd:float ;
+    jams:hasFrequency "4"^^xsd:int ;
+    jams:hasPatternType "pitch-class-values" ;
+    jams:ofPattern <http://w3id.org/polifonia/resource/pattern/4_5_5_4_4_5> .
+
+<http://w3id.org/polifonia/resource/JAMSObservation/CrossingTheMinch23481/4_5_5_4_5_2@0.0> a jams:JAMSObservation,
+        jams:JAMSScoreObservation,
+        jams:ScorePatternOccurrence ;
+    rdfs:label [ ] ;
+    jams:hasDuration "0.0"^^xsd:float ;
+    jams:hasFrequency "6"^^xsd:int ;
+    jams:hasPatternType "pitch-class-values" ;
+    jams:ofPattern <http://w3id.org/polifonia/resource/pattern/4_5_5_4_5_2> .
+
+<http://w3id.org/polifonia/resource/JAMSObservation/CrossingTheMinch23481/5_0_4_4_5_5@0.0> a jams:JAMSObservation,
+        jams:JAMSScoreObservation,
+        jams:ScorePatternOccurrence ;
+    rdfs:label [ ] ;
+    jams:hasDuration "0.0"^^xsd:float ;
+    jams:hasFrequency "4"^^xsd:int ;
+    jams:hasPatternType "pitch-class-values" ;
+    jams:ofPattern <http://w3id.org/polifonia/resource/pattern/5_0_4_4_5_5> .
+
+<http://w3id.org/polifonia/resource/JAMSObservation/CrossingTheMinch23481/5_2_0_4_4_5@0.0> a jams:JAMSObservation,
+        jams:JAMSScoreObservation,
+        jams:ScorePatternOccurrence ;
+    rdfs:label [ ] ;
+    jams:hasDuration "0.0"^^xsd:float ;
+    jams:hasFrequency "5"^^xsd:int ;
+    jams:hasPatternType "pitch-class-values" ;
+    jams:ofPattern <http://w3id.org/polifonia/resource/pattern/5_2_0_4_4_5> .
+
+<http://w3id.org/polifonia/resource/JAMSObservation/CrossingTheMinch23481/5_4_4_2_0_4@0.0> a jams:JAMSObservation,
+        jams:JAMSScoreObservation,
+        jams:ScorePatternOccurrence ;
+    rdfs:label [ ] ;
+    jams:hasDuration "0.0"^^xsd:float ;
+    jams:hasFrequency "2"^^xsd:int ;
+    jams:hasPatternType "pitch-class-values" ;
+    jams:ofPattern <http://w3id.org/polifonia/resource/pattern/5_4_4_2_0_4> .
+
+<http://w3id.org/polifonia/resource/JAMSObservation/CrossingTheMinch23481/5_4_4_5_0_4@0.0> a jams:JAMSObservation,
+        jams:JAMSScoreObservation,
+        jams:ScorePatternOccurrence ;
+    rdfs:label [ ] ;
+    jams:hasDuration "0.0"^^xsd:float ;
+    jams:hasFrequency "4"^^xsd:int ;
+    jams:hasPatternType "pitch-class-values" ;
+    jams:ofPattern <http://w3id.org/polifonia/resource/pattern/5_4_4_5_0_4> .
+
+<http://w3id.org/polifonia/resource/JAMSObservation/CrossingTheMinch23481/5_4_5_2_0_4@0.0> a jams:JAMSObservation,
+        jams:JAMSScoreObservation,
+        jams:ScorePatternOccurrence ;
+    rdfs:label [ ] ;
+    jams:hasDuration "0.0"^^xsd:float ;
+    jams:hasFrequency "5"^^xsd:int ;
+    jams:hasPatternType "pitch-class-values" ;
+    jams:ofPattern <http://w3id.org/polifonia/resource/pattern/5_4_5_2_0_4> .
+
+<http://w3id.org/polifonia/resource/JAMSObservation/CrossingTheMinch23481/5_5_4_4_2_0@0.0> a jams:JAMSObservation,
+        jams:JAMSScoreObservation,
+        jams:ScorePatternOccurrence ;
+    rdfs:label [ ] ;
+    jams:hasDuration "0.0"^^xsd:float ;
+    jams:hasFrequency "2"^^xsd:int ;
+    jams:hasPatternType "pitch-class-values" ;
+    jams:ofPattern <http://w3id.org/polifonia/resource/pattern/5_5_4_4_2_0> .
+
+<http://w3id.org/polifonia/resource/JAMSObservation/CrossingTheMinch23481/5_5_4_4_5_0@0.0> a jams:JAMSObservation,
+        jams:JAMSScoreObservation,
+        jams:ScorePatternOccurrence ;
+    rdfs:label [ ] ;
+    jams:hasDuration "0.0"^^xsd:float ;
+    jams:hasFrequency "4"^^xsd:int ;
+    jams:hasPatternType "pitch-class-values" ;
+    jams:ofPattern <http://w3id.org/polifonia/resource/pattern/5_5_4_4_5_0> .
+
+<http://w3id.org/polifonia/resource/JAMSObservation/CrossingTheMinch23481/5_5_4_5_2_0@0.0> a jams:JAMSObservation,
+        jams:JAMSScoreObservation,
+        jams:ScorePatternOccurrence ;
+    rdfs:label [ ] ;
+    jams:hasDuration "0.0"^^xsd:float ;
+    jams:hasFrequency "6"^^xsd:int ;
+    jams:hasPatternType "pitch-class-values" ;
+    jams:ofPattern <http://w3id.org/polifonia/resource/pattern/5_5_4_5_2_0> .
+
+<http://w3id.org/polifonia/resource/MusicalComposition/63664af7e75484901aca6ced7435bcb8a1c38de2> a mc:MusicalComposition ;
+    rdfs:label "CrossingTheMinch23481" ;
+    mc:title "CrossingTheMinch23481" ;
+    prov:wasDerivedFrom <http://w3id.org/polifonia/resource/JAMSFile/CrossingTheMinch23481.jams> .
+

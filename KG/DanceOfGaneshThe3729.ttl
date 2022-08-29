@@ -1,0 +1,30 @@
+@prefix core: <http://w3id.org/polifonia/ontology/core/> .
+@prefix jams: <http://w3id.org/polifonia/ontology/jams/> .
+@prefix mc: <http://w3id.org/polifonia/ontology/musical-composition/> .
+@prefix pon-resource: <http://w3id.org/polifonia/resource/> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+pon-resource:Agent%2Fannotator_local_id a core:Agent ;
+    rdfs:label "FONN-Tool" ;
+    jams:hasAnnotatorType pon-resource:annotator-program ;
+    jams:hasName "FONN-Tool" .
+
+<http://w3id.org/polifonia/resource/JAMSAnnotation/b668af2dc66ddf32c591af0e77ba15270d0f65b9> a jams:JAMSAnnotation,
+        jams:JAMSScoreAnnotation ;
+    jams:isJAMSAnnotationOf <http://w3id.org/polifonia/resource/MusicalComposition/b668af2dc66ddf32c591af0e77ba15270d0f65b9> .
+
+<http://w3id.org/polifonia/resource/Score/song_local_id> jams:hasJAMSAnnotation <http://w3id.org/polifonia/resource/MusicalComposition/b668af2dc66ddf32c591af0e77ba15270d0f65b9> .
+
+<http://w3id.org/polifonia/resource/JAMSFile/DanceOfGaneshThe3729.jams> a jams:JAMSFile ;
+    jams:identifiers [ ] ;
+    jams:jamsVersion "0.3.4" ;
+    jams:release "" ;
+    prov:wasDerivedFrom "The Session" ;
+    prov:wasMemberOf <https://github.com/ashahidkhattak/thesession> .
+
+<http://w3id.org/polifonia/resource/MusicalComposition/b668af2dc66ddf32c591af0e77ba15270d0f65b9> a mc:MusicalComposition ;
+    rdfs:label "DanceOfGaneshThe3729" ;
+    mc:title "DanceOfGaneshThe3729" ;
+    prov:wasDerivedFrom <http://w3id.org/polifonia/resource/JAMSFile/DanceOfGaneshThe3729.jams> .
+

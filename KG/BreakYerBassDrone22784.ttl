@@ -1,0 +1,351 @@
+@prefix core: <http://w3id.org/polifonia/ontology/core/> .
+@prefix jams: <http://w3id.org/polifonia/ontology/jams/> .
+@prefix mc: <http://w3id.org/polifonia/ontology/musical-composition/> .
+@prefix pon-resource: <http://w3id.org/polifonia/resource/> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+pon-resource:Agent%2Fannotator_local_id a core:Agent ;
+    rdfs:label "FONN-Tool" ;
+    jams:hasAnnotatorType pon-resource:annotator-program ;
+    jams:hasName "FONN-Tool" .
+
+<http://w3id.org/polifonia/resource/JAMSAnnotation/5a81b387717f5bf13ce8d2bd42d79c260c27241a> a jams:JAMSAnnotation,
+        jams:JAMSScoreAnnotation ;
+    jams:includesObservation <http://w3id.org/polifonia/resource/JAMSObservation/BreakYerBassDrone22784/0_4_0_7_2_11@0.0>,
+        <http://w3id.org/polifonia/resource/JAMSObservation/BreakYerBassDrone22784/0_4_11_7_11_7@0.0>,
+        <http://w3id.org/polifonia/resource/JAMSObservation/BreakYerBassDrone22784/0_7_2_11_7_11@0.0>,
+        <http://w3id.org/polifonia/resource/JAMSObservation/BreakYerBassDrone22784/0_9_0_4_11_7@0.0>,
+        <http://w3id.org/polifonia/resource/JAMSObservation/BreakYerBassDrone22784/11_0_9_0_4_11@0.0>,
+        <http://w3id.org/polifonia/resource/JAMSObservation/BreakYerBassDrone22784/11_11_4_9_11_7@0.0>,
+        <http://w3id.org/polifonia/resource/JAMSObservation/BreakYerBassDrone22784/11_4_9_11_7_4@0.0>,
+        <http://w3id.org/polifonia/resource/JAMSObservation/BreakYerBassDrone22784/11_7_0_4_0_7@0.0>,
+        <http://w3id.org/polifonia/resource/JAMSObservation/BreakYerBassDrone22784/11_7_11_0_9_0@0.0>,
+        <http://w3id.org/polifonia/resource/JAMSObservation/BreakYerBassDrone22784/11_7_11_7_0_4@0.0>,
+        <http://w3id.org/polifonia/resource/JAMSObservation/BreakYerBassDrone22784/11_7_4_7_11_11@0.0>,
+        <http://w3id.org/polifonia/resource/JAMSObservation/BreakYerBassDrone22784/11_7_4_9_7_2@0.0>,
+        <http://w3id.org/polifonia/resource/JAMSObservation/BreakYerBassDrone22784/2_11_7_11_0_9@0.0>,
+        <http://w3id.org/polifonia/resource/JAMSObservation/BreakYerBassDrone22784/4_0_7_2_11_7@0.0>,
+        <http://w3id.org/polifonia/resource/JAMSObservation/BreakYerBassDrone22784/4_11_7_11_7_0@0.0>,
+        <http://w3id.org/polifonia/resource/JAMSObservation/BreakYerBassDrone22784/4_7_11_11_4_9@0.0>,
+        <http://w3id.org/polifonia/resource/JAMSObservation/BreakYerBassDrone22784/4_9_11_7_4_7@0.0>,
+        <http://w3id.org/polifonia/resource/JAMSObservation/BreakYerBassDrone22784/4_9_11_7_4_9@0.0>,
+        <http://w3id.org/polifonia/resource/JAMSObservation/BreakYerBassDrone22784/4_9_7_11_4_9@0.0>,
+        <http://w3id.org/polifonia/resource/JAMSObservation/BreakYerBassDrone22784/4_9_7_2_11_7@0.0>,
+        <http://w3id.org/polifonia/resource/JAMSObservation/BreakYerBassDrone22784/7_0_4_0_7_2@0.0>,
+        <http://w3id.org/polifonia/resource/JAMSObservation/BreakYerBassDrone22784/7_11_0_9_0_4@0.0>,
+        <http://w3id.org/polifonia/resource/JAMSObservation/BreakYerBassDrone22784/7_11_4_9_11_7@0.0>,
+        <http://w3id.org/polifonia/resource/JAMSObservation/BreakYerBassDrone22784/7_11_7_0_4_0@0.0>,
+        <http://w3id.org/polifonia/resource/JAMSObservation/BreakYerBassDrone22784/7_2_11_7_11_0@0.0>,
+        <http://w3id.org/polifonia/resource/JAMSObservation/BreakYerBassDrone22784/7_4_7_11_11_4@0.0>,
+        <http://w3id.org/polifonia/resource/JAMSObservation/BreakYerBassDrone22784/7_4_9_7_2_11@0.0>,
+        <http://w3id.org/polifonia/resource/JAMSObservation/BreakYerBassDrone22784/9_0_4_11_7_11@0.0>,
+        <http://w3id.org/polifonia/resource/JAMSObservation/BreakYerBassDrone22784/9_11_7_4_7_11@0.0>,
+        <http://w3id.org/polifonia/resource/JAMSObservation/BreakYerBassDrone22784/9_11_7_4_9_7@0.0>,
+        <http://w3id.org/polifonia/resource/JAMSObservation/BreakYerBassDrone22784/9_7_11_4_9_11@0.0>,
+        <http://w3id.org/polifonia/resource/JAMSObservation/BreakYerBassDrone22784/9_7_2_11_7_11@0.0> ;
+    jams:isJAMSAnnotationOf <http://w3id.org/polifonia/resource/MusicalComposition/5a81b387717f5bf13ce8d2bd42d79c260c27241a> .
+
+<http://w3id.org/polifonia/resource/Score/song_local_id> jams:hasJAMSAnnotation <http://w3id.org/polifonia/resource/MusicalComposition/5a81b387717f5bf13ce8d2bd42d79c260c27241a> .
+
+<http://w3id.org/polifonia/resource/JAMSFile/BreakYerBassDrone22784.jams> a jams:JAMSFile ;
+    jams:identifiers [ ] ;
+    jams:jamsVersion "0.3.4" ;
+    jams:release "" ;
+    prov:wasDerivedFrom "The Session" ;
+    prov:wasMemberOf <https://github.com/ashahidkhattak/thesession> .
+
+<http://w3id.org/polifonia/resource/JAMSObservation/BreakYerBassDrone22784/0_4_0_7_2_11@0.0> a jams:JAMSObservation,
+        jams:JAMSScoreObservation,
+        jams:ScorePatternOccurrence ;
+    rdfs:label [ ] ;
+    jams:hasDuration "0.0"^^xsd:float ;
+    jams:hasFrequency "1"^^xsd:int ;
+    jams:hasPatternType "pitch-class-values" ;
+    jams:ofPattern <http://w3id.org/polifonia/resource/pattern/0_4_0_7_2_11> .
+
+<http://w3id.org/polifonia/resource/JAMSObservation/BreakYerBassDrone22784/0_4_11_7_11_7@0.0> a jams:JAMSObservation,
+        jams:JAMSScoreObservation,
+        jams:ScorePatternOccurrence ;
+    rdfs:label [ ] ;
+    jams:hasDuration "0.0"^^xsd:float ;
+    jams:hasFrequency "2"^^xsd:int ;
+    jams:hasPatternType "pitch-class-values" ;
+    jams:ofPattern <http://w3id.org/polifonia/resource/pattern/0_4_11_7_11_7> .
+
+<http://w3id.org/polifonia/resource/JAMSObservation/BreakYerBassDrone22784/0_7_2_11_7_11@0.0> a jams:JAMSObservation,
+        jams:JAMSScoreObservation,
+        jams:ScorePatternOccurrence ;
+    rdfs:label [ ] ;
+    jams:hasDuration "0.0"^^xsd:float ;
+    jams:hasFrequency "1"^^xsd:int ;
+    jams:hasPatternType "pitch-class-values" ;
+    jams:ofPattern <http://w3id.org/polifonia/resource/pattern/0_7_2_11_7_11> .
+
+<http://w3id.org/polifonia/resource/JAMSObservation/BreakYerBassDrone22784/0_9_0_4_11_7@0.0> a jams:JAMSObservation,
+        jams:JAMSScoreObservation,
+        jams:ScorePatternOccurrence ;
+    rdfs:label [ ] ;
+    jams:hasDuration "0.0"^^xsd:float ;
+    jams:hasFrequency "2"^^xsd:int ;
+    jams:hasPatternType "pitch-class-values" ;
+    jams:ofPattern <http://w3id.org/polifonia/resource/pattern/0_9_0_4_11_7> .
+
+<http://w3id.org/polifonia/resource/JAMSObservation/BreakYerBassDrone22784/11_0_9_0_4_11@0.0> a jams:JAMSObservation,
+        jams:JAMSScoreObservation,
+        jams:ScorePatternOccurrence ;
+    rdfs:label [ ] ;
+    jams:hasDuration "0.0"^^xsd:float ;
+    jams:hasFrequency "2"^^xsd:int ;
+    jams:hasPatternType "pitch-class-values" ;
+    jams:ofPattern <http://w3id.org/polifonia/resource/pattern/11_0_9_0_4_11> .
+
+<http://w3id.org/polifonia/resource/JAMSObservation/BreakYerBassDrone22784/11_11_4_9_11_7@0.0> a jams:JAMSObservation,
+        jams:JAMSScoreObservation,
+        jams:ScorePatternOccurrence ;
+    rdfs:label [ ] ;
+    jams:hasDuration "0.0"^^xsd:float ;
+    jams:hasFrequency "2"^^xsd:int ;
+    jams:hasPatternType "pitch-class-values" ;
+    jams:ofPattern <http://w3id.org/polifonia/resource/pattern/11_11_4_9_11_7> .
+
+<http://w3id.org/polifonia/resource/JAMSObservation/BreakYerBassDrone22784/11_4_9_11_7_4@0.0> a jams:JAMSObservation,
+        jams:JAMSScoreObservation,
+        jams:ScorePatternOccurrence ;
+    rdfs:label [ ] ;
+    jams:hasDuration "0.0"^^xsd:float ;
+    jams:hasFrequency "4"^^xsd:int ;
+    jams:hasPatternType "pitch-class-values" ;
+    jams:ofPattern <http://w3id.org/polifonia/resource/pattern/11_4_9_11_7_4> .
+
+<http://w3id.org/polifonia/resource/JAMSObservation/BreakYerBassDrone22784/11_7_0_4_0_7@0.0> a jams:JAMSObservation,
+        jams:JAMSScoreObservation,
+        jams:ScorePatternOccurrence ;
+    rdfs:label [ ] ;
+    jams:hasDuration "0.0"^^xsd:float ;
+    jams:hasFrequency "2"^^xsd:int ;
+    jams:hasPatternType "pitch-class-values" ;
+    jams:ofPattern <http://w3id.org/polifonia/resource/pattern/11_7_0_4_0_7> .
+
+<http://w3id.org/polifonia/resource/JAMSObservation/BreakYerBassDrone22784/11_7_11_0_9_0@0.0> a jams:JAMSObservation,
+        jams:JAMSScoreObservation,
+        jams:ScorePatternOccurrence ;
+    rdfs:label [ ] ;
+    jams:hasDuration "0.0"^^xsd:float ;
+    jams:hasFrequency "2"^^xsd:int ;
+    jams:hasPatternType "pitch-class-values" ;
+    jams:ofPattern <http://w3id.org/polifonia/resource/pattern/11_7_11_0_9_0> .
+
+<http://w3id.org/polifonia/resource/JAMSObservation/BreakYerBassDrone22784/11_7_11_7_0_4@0.0> a jams:JAMSObservation,
+        jams:JAMSScoreObservation,
+        jams:ScorePatternOccurrence ;
+    rdfs:label [ ] ;
+    jams:hasDuration "0.0"^^xsd:float ;
+    jams:hasFrequency "2"^^xsd:int ;
+    jams:hasPatternType "pitch-class-values" ;
+    jams:ofPattern <http://w3id.org/polifonia/resource/pattern/11_7_11_7_0_4> .
+
+<http://w3id.org/polifonia/resource/JAMSObservation/BreakYerBassDrone22784/11_7_4_7_11_11@0.0> a jams:JAMSObservation,
+        jams:JAMSScoreObservation,
+        jams:ScorePatternOccurrence ;
+    rdfs:label [ ] ;
+    jams:hasDuration "0.0"^^xsd:float ;
+    jams:hasFrequency "2"^^xsd:int ;
+    jams:hasPatternType "pitch-class-values" ;
+    jams:ofPattern <http://w3id.org/polifonia/resource/pattern/11_7_4_7_11_11> .
+
+<http://w3id.org/polifonia/resource/JAMSObservation/BreakYerBassDrone22784/11_7_4_9_7_2@0.0> a jams:JAMSObservation,
+        jams:JAMSScoreObservation,
+        jams:ScorePatternOccurrence ;
+    rdfs:label [ ] ;
+    jams:hasDuration "0.0"^^xsd:float ;
+    jams:hasFrequency "1"^^xsd:int ;
+    jams:hasPatternType "pitch-class-values" ;
+    jams:ofPattern <http://w3id.org/polifonia/resource/pattern/11_7_4_9_7_2> .
+
+<http://w3id.org/polifonia/resource/JAMSObservation/BreakYerBassDrone22784/2_11_7_11_0_9@0.0> a jams:JAMSObservation,
+        jams:JAMSScoreObservation,
+        jams:ScorePatternOccurrence ;
+    rdfs:label [ ] ;
+    jams:hasDuration "0.0"^^xsd:float ;
+    jams:hasFrequency "2"^^xsd:int ;
+    jams:hasPatternType "pitch-class-values" ;
+    jams:ofPattern <http://w3id.org/polifonia/resource/pattern/2_11_7_11_0_9> .
+
+<http://w3id.org/polifonia/resource/JAMSObservation/BreakYerBassDrone22784/4_0_7_2_11_7@0.0> a jams:JAMSObservation,
+        jams:JAMSScoreObservation,
+        jams:ScorePatternOccurrence ;
+    rdfs:label [ ] ;
+    jams:hasDuration "0.0"^^xsd:float ;
+    jams:hasFrequency "1"^^xsd:int ;
+    jams:hasPatternType "pitch-class-values" ;
+    jams:ofPattern <http://w3id.org/polifonia/resource/pattern/4_0_7_2_11_7> .
+
+<http://w3id.org/polifonia/resource/JAMSObservation/BreakYerBassDrone22784/4_11_7_11_7_0@0.0> a jams:JAMSObservation,
+        jams:JAMSScoreObservation,
+        jams:ScorePatternOccurrence ;
+    rdfs:label [ ] ;
+    jams:hasDuration "0.0"^^xsd:float ;
+    jams:hasFrequency "2"^^xsd:int ;
+    jams:hasPatternType "pitch-class-values" ;
+    jams:ofPattern <http://w3id.org/polifonia/resource/pattern/4_11_7_11_7_0> .
+
+<http://w3id.org/polifonia/resource/JAMSObservation/BreakYerBassDrone22784/4_7_11_11_4_9@0.0> a jams:JAMSObservation,
+        jams:JAMSScoreObservation,
+        jams:ScorePatternOccurrence ;
+    rdfs:label [ ] ;
+    jams:hasDuration "0.0"^^xsd:float ;
+    jams:hasFrequency "2"^^xsd:int ;
+    jams:hasPatternType "pitch-class-values" ;
+    jams:ofPattern <http://w3id.org/polifonia/resource/pattern/4_7_11_11_4_9> .
+
+<http://w3id.org/polifonia/resource/JAMSObservation/BreakYerBassDrone22784/4_9_11_7_4_7@0.0> a jams:JAMSObservation,
+        jams:JAMSScoreObservation,
+        jams:ScorePatternOccurrence ;
+    rdfs:label [ ] ;
+    jams:hasDuration "0.0"^^xsd:float ;
+    jams:hasFrequency "2"^^xsd:int ;
+    jams:hasPatternType "pitch-class-values" ;
+    jams:ofPattern <http://w3id.org/polifonia/resource/pattern/4_9_11_7_4_7> .
+
+<http://w3id.org/polifonia/resource/JAMSObservation/BreakYerBassDrone22784/4_9_11_7_4_9@0.0> a jams:JAMSObservation,
+        jams:JAMSScoreObservation,
+        jams:ScorePatternOccurrence ;
+    rdfs:label [ ] ;
+    jams:hasDuration "0.0"^^xsd:float ;
+    jams:hasFrequency "2"^^xsd:int ;
+    jams:hasPatternType "pitch-class-values" ;
+    jams:ofPattern <http://w3id.org/polifonia/resource/pattern/4_9_11_7_4_9> .
+
+<http://w3id.org/polifonia/resource/JAMSObservation/BreakYerBassDrone22784/4_9_7_11_4_9@0.0> a jams:JAMSObservation,
+        jams:JAMSScoreObservation,
+        jams:ScorePatternOccurrence ;
+    rdfs:label [ ] ;
+    jams:hasDuration "0.0"^^xsd:float ;
+    jams:hasFrequency "1"^^xsd:int ;
+    jams:hasPatternType "pitch-class-values" ;
+    jams:ofPattern <http://w3id.org/polifonia/resource/pattern/4_9_7_11_4_9> .
+
+<http://w3id.org/polifonia/resource/JAMSObservation/BreakYerBassDrone22784/4_9_7_2_11_7@0.0> a jams:JAMSObservation,
+        jams:JAMSScoreObservation,
+        jams:ScorePatternOccurrence ;
+    rdfs:label [ ] ;
+    jams:hasDuration "0.0"^^xsd:float ;
+    jams:hasFrequency "1"^^xsd:int ;
+    jams:hasPatternType "pitch-class-values" ;
+    jams:ofPattern <http://w3id.org/polifonia/resource/pattern/4_9_7_2_11_7> .
+
+<http://w3id.org/polifonia/resource/JAMSObservation/BreakYerBassDrone22784/7_0_4_0_7_2@0.0> a jams:JAMSObservation,
+        jams:JAMSScoreObservation,
+        jams:ScorePatternOccurrence ;
+    rdfs:label [ ] ;
+    jams:hasDuration "0.0"^^xsd:float ;
+    jams:hasFrequency "1"^^xsd:int ;
+    jams:hasPatternType "pitch-class-values" ;
+    jams:ofPattern <http://w3id.org/polifonia/resource/pattern/7_0_4_0_7_2> .
+
+<http://w3id.org/polifonia/resource/JAMSObservation/BreakYerBassDrone22784/7_11_0_9_0_4@0.0> a jams:JAMSObservation,
+        jams:JAMSScoreObservation,
+        jams:ScorePatternOccurrence ;
+    rdfs:label [ ] ;
+    jams:hasDuration "0.0"^^xsd:float ;
+    jams:hasFrequency "2"^^xsd:int ;
+    jams:hasPatternType "pitch-class-values" ;
+    jams:ofPattern <http://w3id.org/polifonia/resource/pattern/7_11_0_9_0_4> .
+
+<http://w3id.org/polifonia/resource/JAMSObservation/BreakYerBassDrone22784/7_11_4_9_11_7@0.0> a jams:JAMSObservation,
+        jams:JAMSScoreObservation,
+        jams:ScorePatternOccurrence ;
+    rdfs:label [ ] ;
+    jams:hasDuration "0.0"^^xsd:float ;
+    jams:hasFrequency "2"^^xsd:int ;
+    jams:hasPatternType "pitch-class-values" ;
+    jams:ofPattern <http://w3id.org/polifonia/resource/pattern/7_11_4_9_11_7> .
+
+<http://w3id.org/polifonia/resource/JAMSObservation/BreakYerBassDrone22784/7_11_7_0_4_0@0.0> a jams:JAMSObservation,
+        jams:JAMSScoreObservation,
+        jams:ScorePatternOccurrence ;
+    rdfs:label [ ] ;
+    jams:hasDuration "0.0"^^xsd:float ;
+    jams:hasFrequency "2"^^xsd:int ;
+    jams:hasPatternType "pitch-class-values" ;
+    jams:ofPattern <http://w3id.org/polifonia/resource/pattern/7_11_7_0_4_0> .
+
+<http://w3id.org/polifonia/resource/JAMSObservation/BreakYerBassDrone22784/7_2_11_7_11_0@0.0> a jams:JAMSObservation,
+        jams:JAMSScoreObservation,
+        jams:ScorePatternOccurrence ;
+    rdfs:label [ ] ;
+    jams:hasDuration "0.0"^^xsd:float ;
+    jams:hasFrequency "2"^^xsd:int ;
+    jams:hasPatternType "pitch-class-values" ;
+    jams:ofPattern <http://w3id.org/polifonia/resource/pattern/7_2_11_7_11_0> .
+
+<http://w3id.org/polifonia/resource/JAMSObservation/BreakYerBassDrone22784/7_4_7_11_11_4@0.0> a jams:JAMSObservation,
+        jams:JAMSScoreObservation,
+        jams:ScorePatternOccurrence ;
+    rdfs:label [ ] ;
+    jams:hasDuration "0.0"^^xsd:float ;
+    jams:hasFrequency "2"^^xsd:int ;
+    jams:hasPatternType "pitch-class-values" ;
+    jams:ofPattern <http://w3id.org/polifonia/resource/pattern/7_4_7_11_11_4> .
+
+<http://w3id.org/polifonia/resource/JAMSObservation/BreakYerBassDrone22784/7_4_9_7_2_11@0.0> a jams:JAMSObservation,
+        jams:JAMSScoreObservation,
+        jams:ScorePatternOccurrence ;
+    rdfs:label [ ] ;
+    jams:hasDuration "0.0"^^xsd:float ;
+    jams:hasFrequency "1"^^xsd:int ;
+    jams:hasPatternType "pitch-class-values" ;
+    jams:ofPattern <http://w3id.org/polifonia/resource/pattern/7_4_9_7_2_11> .
+
+<http://w3id.org/polifonia/resource/JAMSObservation/BreakYerBassDrone22784/9_0_4_11_7_11@0.0> a jams:JAMSObservation,
+        jams:JAMSScoreObservation,
+        jams:ScorePatternOccurrence ;
+    rdfs:label [ ] ;
+    jams:hasDuration "0.0"^^xsd:float ;
+    jams:hasFrequency "2"^^xsd:int ;
+    jams:hasPatternType "pitch-class-values" ;
+    jams:ofPattern <http://w3id.org/polifonia/resource/pattern/9_0_4_11_7_11> .
+
+<http://w3id.org/polifonia/resource/JAMSObservation/BreakYerBassDrone22784/9_11_7_4_7_11@0.0> a jams:JAMSObservation,
+        jams:JAMSScoreObservation,
+        jams:ScorePatternOccurrence ;
+    rdfs:label [ ] ;
+    jams:hasDuration "0.0"^^xsd:float ;
+    jams:hasFrequency "2"^^xsd:int ;
+    jams:hasPatternType "pitch-class-values" ;
+    jams:ofPattern <http://w3id.org/polifonia/resource/pattern/9_11_7_4_7_11> .
+
+<http://w3id.org/polifonia/resource/JAMSObservation/BreakYerBassDrone22784/9_11_7_4_9_7@0.0> a jams:JAMSObservation,
+        jams:JAMSScoreObservation,
+        jams:ScorePatternOccurrence ;
+    rdfs:label [ ] ;
+    jams:hasDuration "0.0"^^xsd:float ;
+    jams:hasFrequency "2"^^xsd:int ;
+    jams:hasPatternType "pitch-class-values" ;
+    jams:ofPattern <http://w3id.org/polifonia/resource/pattern/9_11_7_4_9_7> .
+
+<http://w3id.org/polifonia/resource/JAMSObservation/BreakYerBassDrone22784/9_7_11_4_9_11@0.0> a jams:JAMSObservation,
+        jams:JAMSScoreObservation,
+        jams:ScorePatternOccurrence ;
+    rdfs:label [ ] ;
+    jams:hasDuration "0.0"^^xsd:float ;
+    jams:hasFrequency "1"^^xsd:int ;
+    jams:hasPatternType "pitch-class-values" ;
+    jams:ofPattern <http://w3id.org/polifonia/resource/pattern/9_7_11_4_9_11> .
+
+<http://w3id.org/polifonia/resource/JAMSObservation/BreakYerBassDrone22784/9_7_2_11_7_11@0.0> a jams:JAMSObservation,
+        jams:JAMSScoreObservation,
+        jams:ScorePatternOccurrence ;
+    rdfs:label [ ] ;
+    jams:hasDuration "0.0"^^xsd:float ;
+    jams:hasFrequency "1"^^xsd:int ;
+    jams:hasPatternType "pitch-class-values" ;
+    jams:ofPattern <http://w3id.org/polifonia/resource/pattern/9_7_2_11_7_11> .
+
+<http://w3id.org/polifonia/resource/MusicalComposition/5a81b387717f5bf13ce8d2bd42d79c260c27241a> a mc:MusicalComposition ;
+    rdfs:label "BreakYerBassDrone22784" ;
+    mc:title "BreakYerBassDrone22784" ;
+    prov:wasDerivedFrom <http://w3id.org/polifonia/resource/JAMSFile/BreakYerBassDrone22784.jams> .
+

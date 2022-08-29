@@ -1,0 +1,171 @@
+@prefix core: <http://w3id.org/polifonia/ontology/core/> .
+@prefix jams: <http://w3id.org/polifonia/ontology/jams/> .
+@prefix mc: <http://w3id.org/polifonia/ontology/musical-composition/> .
+@prefix pon-resource: <http://w3id.org/polifonia/resource/> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+pon-resource:Agent%2Fannotator_local_id a core:Agent ;
+    rdfs:label "FONN-Tool" ;
+    jams:hasAnnotatorType pon-resource:annotator-program ;
+    jams:hasName "FONN-Tool" .
+
+<http://w3id.org/polifonia/resource/JAMSAnnotation/b4bfc8909f296d59046ece6c6e40200fbfba62d6> a jams:JAMSAnnotation,
+        jams:JAMSScoreAnnotation ;
+    jams:includesObservation <http://w3id.org/polifonia/resource/JAMSObservation/DancingAtLughnasa22852/0_11_5_4_0_2@0.0>,
+        <http://w3id.org/polifonia/resource/JAMSObservation/DancingAtLughnasa22852/0_2_11_5_0_11@0.0>,
+        <http://w3id.org/polifonia/resource/JAMSObservation/DancingAtLughnasa22852/0_2_11_5_0_9@0.0>,
+        <http://w3id.org/polifonia/resource/JAMSObservation/DancingAtLughnasa22852/0_9_5_2_0_2@0.0>,
+        <http://w3id.org/polifonia/resource/JAMSObservation/DancingAtLughnasa22852/11_5_0_11_5_4@0.0>,
+        <http://w3id.org/polifonia/resource/JAMSObservation/DancingAtLughnasa22852/11_5_0_9_5_2@0.0>,
+        <http://w3id.org/polifonia/resource/JAMSObservation/DancingAtLughnasa22852/11_5_4_0_2_11@0.0>,
+        <http://w3id.org/polifonia/resource/JAMSObservation/DancingAtLughnasa22852/2_11_5_0_9_5@0.0>,
+        <http://w3id.org/polifonia/resource/JAMSObservation/DancingAtLughnasa22852/4_0_2_11_5_0@0.0>,
+        <http://w3id.org/polifonia/resource/JAMSObservation/DancingAtLughnasa22852/5_0_11_5_4_0@0.0>,
+        <http://w3id.org/polifonia/resource/JAMSObservation/DancingAtLughnasa22852/5_0_9_5_2_0@0.0>,
+        <http://w3id.org/polifonia/resource/JAMSObservation/DancingAtLughnasa22852/5_2_0_2_11_5@0.0>,
+        <http://w3id.org/polifonia/resource/JAMSObservation/DancingAtLughnasa22852/5_4_0_2_11_5@0.0>,
+        <http://w3id.org/polifonia/resource/JAMSObservation/DancingAtLughnasa22852/9_5_2_0_2_11@0.0> ;
+    jams:isJAMSAnnotationOf <http://w3id.org/polifonia/resource/MusicalComposition/b4bfc8909f296d59046ece6c6e40200fbfba62d6> .
+
+<http://w3id.org/polifonia/resource/Score/song_local_id> jams:hasJAMSAnnotation <http://w3id.org/polifonia/resource/MusicalComposition/b4bfc8909f296d59046ece6c6e40200fbfba62d6> .
+
+<http://w3id.org/polifonia/resource/JAMSFile/DancingAtLughnasa22852.jams> a jams:JAMSFile ;
+    jams:identifiers [ ] ;
+    jams:jamsVersion "0.3.4" ;
+    jams:release "" ;
+    prov:wasDerivedFrom "The Session" ;
+    prov:wasMemberOf <https://github.com/ashahidkhattak/thesession> .
+
+<http://w3id.org/polifonia/resource/JAMSObservation/DancingAtLughnasa22852/0_11_5_4_0_2@0.0> a jams:JAMSObservation,
+        jams:JAMSScoreObservation,
+        jams:ScorePatternOccurrence ;
+    rdfs:label [ ] ;
+    jams:hasDuration "0.0"^^xsd:float ;
+    jams:hasFrequency "2"^^xsd:int ;
+    jams:hasPatternType "pitch-class-values" ;
+    jams:ofPattern <http://w3id.org/polifonia/resource/pattern/0_11_5_4_0_2> .
+
+<http://w3id.org/polifonia/resource/JAMSObservation/DancingAtLughnasa22852/0_2_11_5_0_11@0.0> a jams:JAMSObservation,
+        jams:JAMSScoreObservation,
+        jams:ScorePatternOccurrence ;
+    rdfs:label [ ] ;
+    jams:hasDuration "0.0"^^xsd:float ;
+    jams:hasFrequency "1"^^xsd:int ;
+    jams:hasPatternType "pitch-class-values" ;
+    jams:ofPattern <http://w3id.org/polifonia/resource/pattern/0_2_11_5_0_11> .
+
+<http://w3id.org/polifonia/resource/JAMSObservation/DancingAtLughnasa22852/0_2_11_5_0_9@0.0> a jams:JAMSObservation,
+        jams:JAMSScoreObservation,
+        jams:ScorePatternOccurrence ;
+    rdfs:label [ ] ;
+    jams:hasDuration "0.0"^^xsd:float ;
+    jams:hasFrequency "2"^^xsd:int ;
+    jams:hasPatternType "pitch-class-values" ;
+    jams:ofPattern <http://w3id.org/polifonia/resource/pattern/0_2_11_5_0_9> .
+
+<http://w3id.org/polifonia/resource/JAMSObservation/DancingAtLughnasa22852/0_9_5_2_0_2@0.0> a jams:JAMSObservation,
+        jams:JAMSScoreObservation,
+        jams:ScorePatternOccurrence ;
+    rdfs:label [ ] ;
+    jams:hasDuration "0.0"^^xsd:float ;
+    jams:hasFrequency "1"^^xsd:int ;
+    jams:hasPatternType "pitch-class-values" ;
+    jams:ofPattern <http://w3id.org/polifonia/resource/pattern/0_9_5_2_0_2> .
+
+<http://w3id.org/polifonia/resource/JAMSObservation/DancingAtLughnasa22852/11_5_0_11_5_4@0.0> a jams:JAMSObservation,
+        jams:JAMSScoreObservation,
+        jams:ScorePatternOccurrence ;
+    rdfs:label [ ] ;
+    jams:hasDuration "0.0"^^xsd:float ;
+    jams:hasFrequency "2"^^xsd:int ;
+    jams:hasPatternType "pitch-class-values" ;
+    jams:ofPattern <http://w3id.org/polifonia/resource/pattern/11_5_0_11_5_4> .
+
+<http://w3id.org/polifonia/resource/JAMSObservation/DancingAtLughnasa22852/11_5_0_9_5_2@0.0> a jams:JAMSObservation,
+        jams:JAMSScoreObservation,
+        jams:ScorePatternOccurrence ;
+    rdfs:label [ ] ;
+    jams:hasDuration "0.0"^^xsd:float ;
+    jams:hasFrequency "2"^^xsd:int ;
+    jams:hasPatternType "pitch-class-values" ;
+    jams:ofPattern <http://w3id.org/polifonia/resource/pattern/11_5_0_9_5_2> .
+
+<http://w3id.org/polifonia/resource/JAMSObservation/DancingAtLughnasa22852/11_5_4_0_2_11@0.0> a jams:JAMSObservation,
+        jams:JAMSScoreObservation,
+        jams:ScorePatternOccurrence ;
+    rdfs:label [ ] ;
+    jams:hasDuration "0.0"^^xsd:float ;
+    jams:hasFrequency "2"^^xsd:int ;
+    jams:hasPatternType "pitch-class-values" ;
+    jams:ofPattern <http://w3id.org/polifonia/resource/pattern/11_5_4_0_2_11> .
+
+<http://w3id.org/polifonia/resource/JAMSObservation/DancingAtLughnasa22852/2_11_5_0_9_5@0.0> a jams:JAMSObservation,
+        jams:JAMSScoreObservation,
+        jams:ScorePatternOccurrence ;
+    rdfs:label [ ] ;
+    jams:hasDuration "0.0"^^xsd:float ;
+    jams:hasFrequency "2"^^xsd:int ;
+    jams:hasPatternType "pitch-class-values" ;
+    jams:ofPattern <http://w3id.org/polifonia/resource/pattern/2_11_5_0_9_5> .
+
+<http://w3id.org/polifonia/resource/JAMSObservation/DancingAtLughnasa22852/4_0_2_11_5_0@0.0> a jams:JAMSObservation,
+        jams:JAMSScoreObservation,
+        jams:ScorePatternOccurrence ;
+    rdfs:label [ ] ;
+    jams:hasDuration "0.0"^^xsd:float ;
+    jams:hasFrequency "2"^^xsd:int ;
+    jams:hasPatternType "pitch-class-values" ;
+    jams:ofPattern <http://w3id.org/polifonia/resource/pattern/4_0_2_11_5_0> .
+
+<http://w3id.org/polifonia/resource/JAMSObservation/DancingAtLughnasa22852/5_0_11_5_4_0@0.0> a jams:JAMSObservation,
+        jams:JAMSScoreObservation,
+        jams:ScorePatternOccurrence ;
+    rdfs:label [ ] ;
+    jams:hasDuration "0.0"^^xsd:float ;
+    jams:hasFrequency "2"^^xsd:int ;
+    jams:hasPatternType "pitch-class-values" ;
+    jams:ofPattern <http://w3id.org/polifonia/resource/pattern/5_0_11_5_4_0> .
+
+<http://w3id.org/polifonia/resource/JAMSObservation/DancingAtLughnasa22852/5_0_9_5_2_0@0.0> a jams:JAMSObservation,
+        jams:JAMSScoreObservation,
+        jams:ScorePatternOccurrence ;
+    rdfs:label [ ] ;
+    jams:hasDuration "0.0"^^xsd:float ;
+    jams:hasFrequency "2"^^xsd:int ;
+    jams:hasPatternType "pitch-class-values" ;
+    jams:ofPattern <http://w3id.org/polifonia/resource/pattern/5_0_9_5_2_0> .
+
+<http://w3id.org/polifonia/resource/JAMSObservation/DancingAtLughnasa22852/5_2_0_2_11_5@0.0> a jams:JAMSObservation,
+        jams:JAMSScoreObservation,
+        jams:ScorePatternOccurrence ;
+    rdfs:label [ ] ;
+    jams:hasDuration "0.0"^^xsd:float ;
+    jams:hasFrequency "1"^^xsd:int ;
+    jams:hasPatternType "pitch-class-values" ;
+    jams:ofPattern <http://w3id.org/polifonia/resource/pattern/5_2_0_2_11_5> .
+
+<http://w3id.org/polifonia/resource/JAMSObservation/DancingAtLughnasa22852/5_4_0_2_11_5@0.0> a jams:JAMSObservation,
+        jams:JAMSScoreObservation,
+        jams:ScorePatternOccurrence ;
+    rdfs:label [ ] ;
+    jams:hasDuration "0.0"^^xsd:float ;
+    jams:hasFrequency "2"^^xsd:int ;
+    jams:hasPatternType "pitch-class-values" ;
+    jams:ofPattern <http://w3id.org/polifonia/resource/pattern/5_4_0_2_11_5> .
+
+<http://w3id.org/polifonia/resource/JAMSObservation/DancingAtLughnasa22852/9_5_2_0_2_11@0.0> a jams:JAMSObservation,
+        jams:JAMSScoreObservation,
+        jams:ScorePatternOccurrence ;
+    rdfs:label [ ] ;
+    jams:hasDuration "0.0"^^xsd:float ;
+    jams:hasFrequency "1"^^xsd:int ;
+    jams:hasPatternType "pitch-class-values" ;
+    jams:ofPattern <http://w3id.org/polifonia/resource/pattern/9_5_2_0_2_11> .
+
+<http://w3id.org/polifonia/resource/MusicalComposition/b4bfc8909f296d59046ece6c6e40200fbfba62d6> a mc:MusicalComposition ;
+    rdfs:label "DancingAtLughnasa22852" ;
+    mc:title "DancingAtLughnasa22852" ;
+    prov:wasDerivedFrom <http://w3id.org/polifonia/resource/JAMSFile/DancingAtLughnasa22852.jams> .
+

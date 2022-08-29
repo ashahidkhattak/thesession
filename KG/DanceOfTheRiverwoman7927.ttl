@@ -1,0 +1,171 @@
+@prefix core: <http://w3id.org/polifonia/ontology/core/> .
+@prefix jams: <http://w3id.org/polifonia/ontology/jams/> .
+@prefix mc: <http://w3id.org/polifonia/ontology/musical-composition/> .
+@prefix pon-resource: <http://w3id.org/polifonia/resource/> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+pon-resource:Agent%2Fannotator_local_id a core:Agent ;
+    rdfs:label "FONN-Tool" ;
+    jams:hasAnnotatorType pon-resource:annotator-program ;
+    jams:hasName "FONN-Tool" .
+
+<http://w3id.org/polifonia/resource/JAMSAnnotation/574059ab51168c8ae7430e94e64af58c22e1476d> a jams:JAMSAnnotation,
+        jams:JAMSScoreAnnotation ;
+    jams:includesObservation <http://w3id.org/polifonia/resource/JAMSObservation/DanceOfTheRiverwoman7927/0_8_3_7_5_0@0.0>,
+        <http://w3id.org/polifonia/resource/JAMSObservation/DanceOfTheRiverwoman7927/10_3_2_3_0_8@0.0>,
+        <http://w3id.org/polifonia/resource/JAMSObservation/DanceOfTheRiverwoman7927/10_5_0_10_5_0@0.0>,
+        <http://w3id.org/polifonia/resource/JAMSObservation/DanceOfTheRiverwoman7927/2_3_0_8_3_7@0.0>,
+        <http://w3id.org/polifonia/resource/JAMSObservation/DanceOfTheRiverwoman7927/3_0_8_3_7_5@0.0>,
+        <http://w3id.org/polifonia/resource/JAMSObservation/DanceOfTheRiverwoman7927/3_5_0_8_7_5@0.0>,
+        <http://w3id.org/polifonia/resource/JAMSObservation/DanceOfTheRiverwoman7927/3_7_5_0_7_5@0.0>,
+        <http://w3id.org/polifonia/resource/JAMSObservation/DanceOfTheRiverwoman7927/5_0_0_10_8_3@0.0>,
+        <http://w3id.org/polifonia/resource/JAMSObservation/DanceOfTheRiverwoman7927/5_10_3_2_3_0@0.0>,
+        <http://w3id.org/polifonia/resource/JAMSObservation/DanceOfTheRiverwoman7927/7_10_5_0_10_5@0.0>,
+        <http://w3id.org/polifonia/resource/JAMSObservation/DanceOfTheRiverwoman7927/7_5_0_7_5_10@0.0>,
+        <http://w3id.org/polifonia/resource/JAMSObservation/DanceOfTheRiverwoman7927/8_0_7_10_5_0@0.0>,
+        <http://w3id.org/polifonia/resource/JAMSObservation/DanceOfTheRiverwoman7927/8_3_5_0_8_7@0.0>,
+        <http://w3id.org/polifonia/resource/JAMSObservation/DanceOfTheRiverwoman7927/8_3_7_5_0_7@0.0> ;
+    jams:isJAMSAnnotationOf <http://w3id.org/polifonia/resource/MusicalComposition/574059ab51168c8ae7430e94e64af58c22e1476d> .
+
+<http://w3id.org/polifonia/resource/Score/song_local_id> jams:hasJAMSAnnotation <http://w3id.org/polifonia/resource/MusicalComposition/574059ab51168c8ae7430e94e64af58c22e1476d> .
+
+<http://w3id.org/polifonia/resource/JAMSFile/DanceOfTheRiverwoman7927.jams> a jams:JAMSFile ;
+    jams:identifiers [ ] ;
+    jams:jamsVersion "0.3.4" ;
+    jams:release "" ;
+    prov:wasDerivedFrom "The Session" ;
+    prov:wasMemberOf <https://github.com/ashahidkhattak/thesession> .
+
+<http://w3id.org/polifonia/resource/JAMSObservation/DanceOfTheRiverwoman7927/0_8_3_7_5_0@0.0> a jams:JAMSObservation,
+        jams:JAMSScoreObservation,
+        jams:ScorePatternOccurrence ;
+    rdfs:label [ ] ;
+    jams:hasDuration "0.0"^^xsd:float ;
+    jams:hasFrequency "2"^^xsd:int ;
+    jams:hasPatternType "pitch-class-values" ;
+    jams:ofPattern <http://w3id.org/polifonia/resource/pattern/0_8_3_7_5_0> .
+
+<http://w3id.org/polifonia/resource/JAMSObservation/DanceOfTheRiverwoman7927/10_3_2_3_0_8@0.0> a jams:JAMSObservation,
+        jams:JAMSScoreObservation,
+        jams:ScorePatternOccurrence ;
+    rdfs:label [ ] ;
+    jams:hasDuration "0.0"^^xsd:float ;
+    jams:hasFrequency "1"^^xsd:int ;
+    jams:hasPatternType "pitch-class-values" ;
+    jams:ofPattern <http://w3id.org/polifonia/resource/pattern/10_3_2_3_0_8> .
+
+<http://w3id.org/polifonia/resource/JAMSObservation/DanceOfTheRiverwoman7927/10_5_0_10_5_0@0.0> a jams:JAMSObservation,
+        jams:JAMSScoreObservation,
+        jams:ScorePatternOccurrence ;
+    rdfs:label [ ] ;
+    jams:hasDuration "0.0"^^xsd:float ;
+    jams:hasFrequency "1"^^xsd:int ;
+    jams:hasPatternType "pitch-class-values" ;
+    jams:ofPattern <http://w3id.org/polifonia/resource/pattern/10_5_0_10_5_0> .
+
+<http://w3id.org/polifonia/resource/JAMSObservation/DanceOfTheRiverwoman7927/2_3_0_8_3_7@0.0> a jams:JAMSObservation,
+        jams:JAMSScoreObservation,
+        jams:ScorePatternOccurrence ;
+    rdfs:label [ ] ;
+    jams:hasDuration "0.0"^^xsd:float ;
+    jams:hasFrequency "1"^^xsd:int ;
+    jams:hasPatternType "pitch-class-values" ;
+    jams:ofPattern <http://w3id.org/polifonia/resource/pattern/2_3_0_8_3_7> .
+
+<http://w3id.org/polifonia/resource/JAMSObservation/DanceOfTheRiverwoman7927/3_0_8_3_7_5@0.0> a jams:JAMSObservation,
+        jams:JAMSScoreObservation,
+        jams:ScorePatternOccurrence ;
+    rdfs:label [ ] ;
+    jams:hasDuration "0.0"^^xsd:float ;
+    jams:hasFrequency "1"^^xsd:int ;
+    jams:hasPatternType "pitch-class-values" ;
+    jams:ofPattern <http://w3id.org/polifonia/resource/pattern/3_0_8_3_7_5> .
+
+<http://w3id.org/polifonia/resource/JAMSObservation/DanceOfTheRiverwoman7927/3_5_0_8_7_5@0.0> a jams:JAMSObservation,
+        jams:JAMSScoreObservation,
+        jams:ScorePatternOccurrence ;
+    rdfs:label [ ] ;
+    jams:hasDuration "0.0"^^xsd:float ;
+    jams:hasFrequency "1"^^xsd:int ;
+    jams:hasPatternType "pitch-class-values" ;
+    jams:ofPattern <http://w3id.org/polifonia/resource/pattern/3_5_0_8_7_5> .
+
+<http://w3id.org/polifonia/resource/JAMSObservation/DanceOfTheRiverwoman7927/3_7_5_0_7_5@0.0> a jams:JAMSObservation,
+        jams:JAMSScoreObservation,
+        jams:ScorePatternOccurrence ;
+    rdfs:label [ ] ;
+    jams:hasDuration "0.0"^^xsd:float ;
+    jams:hasFrequency "2"^^xsd:int ;
+    jams:hasPatternType "pitch-class-values" ;
+    jams:ofPattern <http://w3id.org/polifonia/resource/pattern/3_7_5_0_7_5> .
+
+<http://w3id.org/polifonia/resource/JAMSObservation/DanceOfTheRiverwoman7927/5_0_0_10_8_3@0.0> a jams:JAMSObservation,
+        jams:JAMSScoreObservation,
+        jams:ScorePatternOccurrence ;
+    rdfs:label [ ] ;
+    jams:hasDuration "0.0"^^xsd:float ;
+    jams:hasFrequency "1"^^xsd:int ;
+    jams:hasPatternType "pitch-class-values" ;
+    jams:ofPattern <http://w3id.org/polifonia/resource/pattern/5_0_0_10_8_3> .
+
+<http://w3id.org/polifonia/resource/JAMSObservation/DanceOfTheRiverwoman7927/5_10_3_2_3_0@0.0> a jams:JAMSObservation,
+        jams:JAMSScoreObservation,
+        jams:ScorePatternOccurrence ;
+    rdfs:label [ ] ;
+    jams:hasDuration "0.0"^^xsd:float ;
+    jams:hasFrequency "2"^^xsd:int ;
+    jams:hasPatternType "pitch-class-values" ;
+    jams:ofPattern <http://w3id.org/polifonia/resource/pattern/5_10_3_2_3_0> .
+
+<http://w3id.org/polifonia/resource/JAMSObservation/DanceOfTheRiverwoman7927/7_10_5_0_10_5@0.0> a jams:JAMSObservation,
+        jams:JAMSScoreObservation,
+        jams:ScorePatternOccurrence ;
+    rdfs:label [ ] ;
+    jams:hasDuration "0.0"^^xsd:float ;
+    jams:hasFrequency "1"^^xsd:int ;
+    jams:hasPatternType "pitch-class-values" ;
+    jams:ofPattern <http://w3id.org/polifonia/resource/pattern/7_10_5_0_10_5> .
+
+<http://w3id.org/polifonia/resource/JAMSObservation/DanceOfTheRiverwoman7927/7_5_0_7_5_10@0.0> a jams:JAMSObservation,
+        jams:JAMSScoreObservation,
+        jams:ScorePatternOccurrence ;
+    rdfs:label [ ] ;
+    jams:hasDuration "0.0"^^xsd:float ;
+    jams:hasFrequency "2"^^xsd:int ;
+    jams:hasPatternType "pitch-class-values" ;
+    jams:ofPattern <http://w3id.org/polifonia/resource/pattern/7_5_0_7_5_10> .
+
+<http://w3id.org/polifonia/resource/JAMSObservation/DanceOfTheRiverwoman7927/8_0_7_10_5_0@0.0> a jams:JAMSObservation,
+        jams:JAMSScoreObservation,
+        jams:ScorePatternOccurrence ;
+    rdfs:label [ ] ;
+    jams:hasDuration "0.0"^^xsd:float ;
+    jams:hasFrequency "1"^^xsd:int ;
+    jams:hasPatternType "pitch-class-values" ;
+    jams:ofPattern <http://w3id.org/polifonia/resource/pattern/8_0_7_10_5_0> .
+
+<http://w3id.org/polifonia/resource/JAMSObservation/DanceOfTheRiverwoman7927/8_3_5_0_8_7@0.0> a jams:JAMSObservation,
+        jams:JAMSScoreObservation,
+        jams:ScorePatternOccurrence ;
+    rdfs:label [ ] ;
+    jams:hasDuration "0.0"^^xsd:float ;
+    jams:hasFrequency "1"^^xsd:int ;
+    jams:hasPatternType "pitch-class-values" ;
+    jams:ofPattern <http://w3id.org/polifonia/resource/pattern/8_3_5_0_8_7> .
+
+<http://w3id.org/polifonia/resource/JAMSObservation/DanceOfTheRiverwoman7927/8_3_7_5_0_7@0.0> a jams:JAMSObservation,
+        jams:JAMSScoreObservation,
+        jams:ScorePatternOccurrence ;
+    rdfs:label [ ] ;
+    jams:hasDuration "0.0"^^xsd:float ;
+    jams:hasFrequency "2"^^xsd:int ;
+    jams:hasPatternType "pitch-class-values" ;
+    jams:ofPattern <http://w3id.org/polifonia/resource/pattern/8_3_7_5_0_7> .
+
+<http://w3id.org/polifonia/resource/MusicalComposition/574059ab51168c8ae7430e94e64af58c22e1476d> a mc:MusicalComposition ;
+    rdfs:label "DanceOfTheRiverwoman7927" ;
+    mc:title "DanceOfTheRiverwoman7927" ;
+    prov:wasDerivedFrom <http://w3id.org/polifonia/resource/JAMSFile/DanceOfTheRiverwoman7927.jams> .
+

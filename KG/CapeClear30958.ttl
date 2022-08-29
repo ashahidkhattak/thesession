@@ -1,0 +1,111 @@
+@prefix core: <http://w3id.org/polifonia/ontology/core/> .
+@prefix jams: <http://w3id.org/polifonia/ontology/jams/> .
+@prefix mc: <http://w3id.org/polifonia/ontology/musical-composition/> .
+@prefix pon-resource: <http://w3id.org/polifonia/resource/> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+pon-resource:Agent%2Fannotator_local_id a core:Agent ;
+    rdfs:label "FONN-Tool" ;
+    jams:hasAnnotatorType pon-resource:annotator-program ;
+    jams:hasName "FONN-Tool" .
+
+<http://w3id.org/polifonia/resource/JAMSAnnotation/a4477e1dddcc2097ba844e16370c9349e0564bea> a jams:JAMSAnnotation,
+        jams:JAMSScoreAnnotation ;
+    jams:includesObservation <http://w3id.org/polifonia/resource/JAMSObservation/CapeClear30958/11_7_4_1_11_7@0.0>,
+        <http://w3id.org/polifonia/resource/JAMSObservation/CapeClear30958/4_7_9_5_11_7@0.0>,
+        <http://w3id.org/polifonia/resource/JAMSObservation/CapeClear30958/5_5_7_7_9_11@0.0>,
+        <http://w3id.org/polifonia/resource/JAMSObservation/CapeClear30958/7_7_9_11_4_4@0.0>,
+        <http://w3id.org/polifonia/resource/JAMSObservation/CapeClear30958/7_9_11_4_4_7@0.0>,
+        <http://w3id.org/polifonia/resource/JAMSObservation/CapeClear30958/7_9_5_11_7_4@0.0>,
+        <http://w3id.org/polifonia/resource/JAMSObservation/CapeClear30958/9_11_4_4_7_9@0.0>,
+        <http://w3id.org/polifonia/resource/JAMSObservation/CapeClear30958/9_11_5_5_7_7@0.0> ;
+    jams:isJAMSAnnotationOf <http://w3id.org/polifonia/resource/MusicalComposition/a4477e1dddcc2097ba844e16370c9349e0564bea> .
+
+<http://w3id.org/polifonia/resource/Score/song_local_id> jams:hasJAMSAnnotation <http://w3id.org/polifonia/resource/MusicalComposition/a4477e1dddcc2097ba844e16370c9349e0564bea> .
+
+<http://w3id.org/polifonia/resource/JAMSFile/CapeClear30958.jams> a jams:JAMSFile ;
+    jams:identifiers [ ] ;
+    jams:jamsVersion "0.3.4" ;
+    jams:release "" ;
+    prov:wasDerivedFrom "The Session" ;
+    prov:wasMemberOf <https://github.com/ashahidkhattak/thesession> .
+
+<http://w3id.org/polifonia/resource/JAMSObservation/CapeClear30958/11_7_4_1_11_7@0.0> a jams:JAMSObservation,
+        jams:JAMSScoreObservation,
+        jams:ScorePatternOccurrence ;
+    rdfs:label [ ] ;
+    jams:hasDuration "0.0"^^xsd:float ;
+    jams:hasFrequency "1"^^xsd:int ;
+    jams:hasPatternType "pitch-class-values" ;
+    jams:ofPattern <http://w3id.org/polifonia/resource/pattern/11_7_4_1_11_7> .
+
+<http://w3id.org/polifonia/resource/JAMSObservation/CapeClear30958/4_7_9_5_11_7@0.0> a jams:JAMSObservation,
+        jams:JAMSScoreObservation,
+        jams:ScorePatternOccurrence ;
+    rdfs:label [ ] ;
+    jams:hasDuration "0.0"^^xsd:float ;
+    jams:hasFrequency "1"^^xsd:int ;
+    jams:hasPatternType "pitch-class-values" ;
+    jams:ofPattern <http://w3id.org/polifonia/resource/pattern/4_7_9_5_11_7> .
+
+<http://w3id.org/polifonia/resource/JAMSObservation/CapeClear30958/5_5_7_7_9_11@0.0> a jams:JAMSObservation,
+        jams:JAMSScoreObservation,
+        jams:ScorePatternOccurrence ;
+    rdfs:label [ ] ;
+    jams:hasDuration "0.0"^^xsd:float ;
+    jams:hasFrequency "1"^^xsd:int ;
+    jams:hasPatternType "pitch-class-values" ;
+    jams:ofPattern <http://w3id.org/polifonia/resource/pattern/5_5_7_7_9_11> .
+
+<http://w3id.org/polifonia/resource/JAMSObservation/CapeClear30958/7_7_9_11_4_4@0.0> a jams:JAMSObservation,
+        jams:JAMSScoreObservation,
+        jams:ScorePatternOccurrence ;
+    rdfs:label [ ] ;
+    jams:hasDuration "0.0"^^xsd:float ;
+    jams:hasFrequency "1"^^xsd:int ;
+    jams:hasPatternType "pitch-class-values" ;
+    jams:ofPattern <http://w3id.org/polifonia/resource/pattern/7_7_9_11_4_4> .
+
+<http://w3id.org/polifonia/resource/JAMSObservation/CapeClear30958/7_9_11_4_4_7@0.0> a jams:JAMSObservation,
+        jams:JAMSScoreObservation,
+        jams:ScorePatternOccurrence ;
+    rdfs:label [ ] ;
+    jams:hasDuration "0.0"^^xsd:float ;
+    jams:hasFrequency "1"^^xsd:int ;
+    jams:hasPatternType "pitch-class-values" ;
+    jams:ofPattern <http://w3id.org/polifonia/resource/pattern/7_9_11_4_4_7> .
+
+<http://w3id.org/polifonia/resource/JAMSObservation/CapeClear30958/7_9_5_11_7_4@0.0> a jams:JAMSObservation,
+        jams:JAMSScoreObservation,
+        jams:ScorePatternOccurrence ;
+    rdfs:label [ ] ;
+    jams:hasDuration "0.0"^^xsd:float ;
+    jams:hasFrequency "1"^^xsd:int ;
+    jams:hasPatternType "pitch-class-values" ;
+    jams:ofPattern <http://w3id.org/polifonia/resource/pattern/7_9_5_11_7_4> .
+
+<http://w3id.org/polifonia/resource/JAMSObservation/CapeClear30958/9_11_4_4_7_9@0.0> a jams:JAMSObservation,
+        jams:JAMSScoreObservation,
+        jams:ScorePatternOccurrence ;
+    rdfs:label [ ] ;
+    jams:hasDuration "0.0"^^xsd:float ;
+    jams:hasFrequency "1"^^xsd:int ;
+    jams:hasPatternType "pitch-class-values" ;
+    jams:ofPattern <http://w3id.org/polifonia/resource/pattern/9_11_4_4_7_9> .
+
+<http://w3id.org/polifonia/resource/JAMSObservation/CapeClear30958/9_11_5_5_7_7@0.0> a jams:JAMSObservation,
+        jams:JAMSScoreObservation,
+        jams:ScorePatternOccurrence ;
+    rdfs:label [ ] ;
+    jams:hasDuration "0.0"^^xsd:float ;
+    jams:hasFrequency "1"^^xsd:int ;
+    jams:hasPatternType "pitch-class-values" ;
+    jams:ofPattern <http://w3id.org/polifonia/resource/pattern/9_11_5_5_7_7> .
+
+<http://w3id.org/polifonia/resource/MusicalComposition/a4477e1dddcc2097ba844e16370c9349e0564bea> a mc:MusicalComposition ;
+    rdfs:label "CapeClear30958" ;
+    mc:title "CapeClear30958" ;
+    prov:wasDerivedFrom <http://w3id.org/polifonia/resource/JAMSFile/CapeClear30958.jams> .
+

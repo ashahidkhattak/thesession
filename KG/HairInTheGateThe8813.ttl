@@ -1,0 +1,401 @@
+@prefix core: <http://w3id.org/polifonia/ontology/core/> .
+@prefix jams: <http://w3id.org/polifonia/ontology/jams/> .
+@prefix mc: <http://w3id.org/polifonia/ontology/musical-composition/> .
+@prefix pon-resource: <http://w3id.org/polifonia/resource/> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+pon-resource:Agent%2Fannotator_local_id a core:Agent ;
+    rdfs:label "FONN-Tool" ;
+    jams:hasAnnotatorType pon-resource:annotator-program ;
+    jams:hasName "FONN-Tool" .
+
+<http://w3id.org/polifonia/resource/JAMSAnnotation/e1d247d0336eec28c195cb4afc7d78e2a6ddf142> a jams:JAMSAnnotation,
+        jams:JAMSScoreAnnotation ;
+    jams:includesObservation <http://w3id.org/polifonia/resource/JAMSObservation/HairInTheGateThe8813/0_2_5_3_0_2@0.0>,
+        <http://w3id.org/polifonia/resource/JAMSObservation/HairInTheGateThe8813/0_2_7_3_2_3@0.0>,
+        <http://w3id.org/polifonia/resource/JAMSObservation/HairInTheGateThe8813/0_2_7_7_0_2@0.0>,
+        <http://w3id.org/polifonia/resource/JAMSObservation/HairInTheGateThe8813/0_7_0_2_5_3@0.0>,
+        <http://w3id.org/polifonia/resource/JAMSObservation/HairInTheGateThe8813/0_7_5_3_0_8@0.0>,
+        <http://w3id.org/polifonia/resource/JAMSObservation/HairInTheGateThe8813/0_8_5_7_0_8@0.0>,
+        <http://w3id.org/polifonia/resource/JAMSObservation/HairInTheGateThe8813/0_8_5_7_10_8@0.0>,
+        <http://w3id.org/polifonia/resource/JAMSObservation/HairInTheGateThe8813/10_8_5_7_0_3@0.0>,
+        <http://w3id.org/polifonia/resource/JAMSObservation/HairInTheGateThe8813/10_8_5_7_0_7@0.0>,
+        <http://w3id.org/polifonia/resource/JAMSObservation/HairInTheGateThe8813/2_3_0_7_0_2@0.0>,
+        <http://w3id.org/polifonia/resource/JAMSObservation/HairInTheGateThe8813/2_3_0_8_5_7@0.0>,
+        <http://w3id.org/polifonia/resource/JAMSObservation/HairInTheGateThe8813/2_5_3_0_2_7@0.0>,
+        <http://w3id.org/polifonia/resource/JAMSObservation/HairInTheGateThe8813/2_7_3_2_3_0@0.0>,
+        <http://w3id.org/polifonia/resource/JAMSObservation/HairInTheGateThe8813/2_7_7_0_2_7@0.0>,
+        <http://w3id.org/polifonia/resource/JAMSObservation/HairInTheGateThe8813/3_0_2_7_7_0@0.0>,
+        <http://w3id.org/polifonia/resource/JAMSObservation/HairInTheGateThe8813/3_0_7_0_2_5@0.0>,
+        <http://w3id.org/polifonia/resource/JAMSObservation/HairInTheGateThe8813/3_0_8_5_7_0@0.0>,
+        <http://w3id.org/polifonia/resource/JAMSObservation/HairInTheGateThe8813/3_2_3_0_7_0@0.0>,
+        <http://w3id.org/polifonia/resource/JAMSObservation/HairInTheGateThe8813/3_2_3_0_8_5@0.0>,
+        <http://w3id.org/polifonia/resource/JAMSObservation/HairInTheGateThe8813/5_3_0_2_7_7@0.0>,
+        <http://w3id.org/polifonia/resource/JAMSObservation/HairInTheGateThe8813/5_7_0_3_5_3@0.0>,
+        <http://w3id.org/polifonia/resource/JAMSObservation/HairInTheGateThe8813/5_7_0_7_5_3@0.0>,
+        <http://w3id.org/polifonia/resource/JAMSObservation/HairInTheGateThe8813/5_7_0_8_5_7@0.0>,
+        <http://w3id.org/polifonia/resource/JAMSObservation/HairInTheGateThe8813/5_7_10_8_5_7@0.0>,
+        <http://w3id.org/polifonia/resource/JAMSObservation/HairInTheGateThe8813/7_0_2_5_3_0@0.0>,
+        <http://w3id.org/polifonia/resource/JAMSObservation/HairInTheGateThe8813/7_0_2_7_3_2@0.0>,
+        <http://w3id.org/polifonia/resource/JAMSObservation/HairInTheGateThe8813/7_0_3_5_3_0@0.0>,
+        <http://w3id.org/polifonia/resource/JAMSObservation/HairInTheGateThe8813/7_0_7_5_3_0@0.0>,
+        <http://w3id.org/polifonia/resource/JAMSObservation/HairInTheGateThe8813/7_0_8_5_7_10@0.0>,
+        <http://w3id.org/polifonia/resource/JAMSObservation/HairInTheGateThe8813/7_10_8_5_7_0@0.0>,
+        <http://w3id.org/polifonia/resource/JAMSObservation/HairInTheGateThe8813/7_3_2_3_0_7@0.0>,
+        <http://w3id.org/polifonia/resource/JAMSObservation/HairInTheGateThe8813/7_3_2_3_0_8@0.0>,
+        <http://w3id.org/polifonia/resource/JAMSObservation/HairInTheGateThe8813/7_7_0_2_7_3@0.0>,
+        <http://w3id.org/polifonia/resource/JAMSObservation/HairInTheGateThe8813/8_5_7_0_3_5@0.0>,
+        <http://w3id.org/polifonia/resource/JAMSObservation/HairInTheGateThe8813/8_5_7_0_7_5@0.0>,
+        <http://w3id.org/polifonia/resource/JAMSObservation/HairInTheGateThe8813/8_5_7_0_8_5@0.0>,
+        <http://w3id.org/polifonia/resource/JAMSObservation/HairInTheGateThe8813/8_5_7_10_8_5@0.0> ;
+    jams:isJAMSAnnotationOf <http://w3id.org/polifonia/resource/MusicalComposition/e1d247d0336eec28c195cb4afc7d78e2a6ddf142> .
+
+<http://w3id.org/polifonia/resource/Score/song_local_id> jams:hasJAMSAnnotation <http://w3id.org/polifonia/resource/MusicalComposition/e1d247d0336eec28c195cb4afc7d78e2a6ddf142> .
+
+<http://w3id.org/polifonia/resource/JAMSFile/HairInTheGateThe8813.jams> a jams:JAMSFile ;
+    jams:identifiers [ ] ;
+    jams:jamsVersion "0.3.4" ;
+    jams:release "" ;
+    prov:wasDerivedFrom "The Session" ;
+    prov:wasMemberOf <https://github.com/ashahidkhattak/thesession> .
+
+<http://w3id.org/polifonia/resource/JAMSObservation/HairInTheGateThe8813/0_2_5_3_0_2@0.0> a jams:JAMSObservation,
+        jams:JAMSScoreObservation,
+        jams:ScorePatternOccurrence ;
+    rdfs:label [ ] ;
+    jams:hasDuration "0.0"^^xsd:float ;
+    jams:hasFrequency "2"^^xsd:int ;
+    jams:hasPatternType "pitch-class-values" ;
+    jams:ofPattern <http://w3id.org/polifonia/resource/pattern/0_2_5_3_0_2> .
+
+<http://w3id.org/polifonia/resource/JAMSObservation/HairInTheGateThe8813/0_2_7_3_2_3@0.0> a jams:JAMSObservation,
+        jams:JAMSScoreObservation,
+        jams:ScorePatternOccurrence ;
+    rdfs:label [ ] ;
+    jams:hasDuration "0.0"^^xsd:float ;
+    jams:hasFrequency "2"^^xsd:int ;
+    jams:hasPatternType "pitch-class-values" ;
+    jams:ofPattern <http://w3id.org/polifonia/resource/pattern/0_2_7_3_2_3> .
+
+<http://w3id.org/polifonia/resource/JAMSObservation/HairInTheGateThe8813/0_2_7_7_0_2@0.0> a jams:JAMSObservation,
+        jams:JAMSScoreObservation,
+        jams:ScorePatternOccurrence ;
+    rdfs:label [ ] ;
+    jams:hasDuration "0.0"^^xsd:float ;
+    jams:hasFrequency "2"^^xsd:int ;
+    jams:hasPatternType "pitch-class-values" ;
+    jams:ofPattern <http://w3id.org/polifonia/resource/pattern/0_2_7_7_0_2> .
+
+<http://w3id.org/polifonia/resource/JAMSObservation/HairInTheGateThe8813/0_7_0_2_5_3@0.0> a jams:JAMSObservation,
+        jams:JAMSScoreObservation,
+        jams:ScorePatternOccurrence ;
+    rdfs:label [ ] ;
+    jams:hasDuration "0.0"^^xsd:float ;
+    jams:hasFrequency "1"^^xsd:int ;
+    jams:hasPatternType "pitch-class-values" ;
+    jams:ofPattern <http://w3id.org/polifonia/resource/pattern/0_7_0_2_5_3> .
+
+<http://w3id.org/polifonia/resource/JAMSObservation/HairInTheGateThe8813/0_7_5_3_0_8@0.0> a jams:JAMSObservation,
+        jams:JAMSScoreObservation,
+        jams:ScorePatternOccurrence ;
+    rdfs:label [ ] ;
+    jams:hasDuration "0.0"^^xsd:float ;
+    jams:hasFrequency "1"^^xsd:int ;
+    jams:hasPatternType "pitch-class-values" ;
+    jams:ofPattern <http://w3id.org/polifonia/resource/pattern/0_7_5_3_0_8> .
+
+<http://w3id.org/polifonia/resource/JAMSObservation/HairInTheGateThe8813/0_8_5_7_0_8@0.0> a jams:JAMSObservation,
+        jams:JAMSScoreObservation,
+        jams:ScorePatternOccurrence ;
+    rdfs:label [ ] ;
+    jams:hasDuration "0.0"^^xsd:float ;
+    jams:hasFrequency "2"^^xsd:int ;
+    jams:hasPatternType "pitch-class-values" ;
+    jams:ofPattern <http://w3id.org/polifonia/resource/pattern/0_8_5_7_0_8> .
+
+<http://w3id.org/polifonia/resource/JAMSObservation/HairInTheGateThe8813/0_8_5_7_10_8@0.0> a jams:JAMSObservation,
+        jams:JAMSScoreObservation,
+        jams:ScorePatternOccurrence ;
+    rdfs:label [ ] ;
+    jams:hasDuration "0.0"^^xsd:float ;
+    jams:hasFrequency "2"^^xsd:int ;
+    jams:hasPatternType "pitch-class-values" ;
+    jams:ofPattern <http://w3id.org/polifonia/resource/pattern/0_8_5_7_10_8> .
+
+<http://w3id.org/polifonia/resource/JAMSObservation/HairInTheGateThe8813/10_8_5_7_0_3@0.0> a jams:JAMSObservation,
+        jams:JAMSScoreObservation,
+        jams:ScorePatternOccurrence ;
+    rdfs:label [ ] ;
+    jams:hasDuration "0.0"^^xsd:float ;
+    jams:hasFrequency "1"^^xsd:int ;
+    jams:hasPatternType "pitch-class-values" ;
+    jams:ofPattern <http://w3id.org/polifonia/resource/pattern/10_8_5_7_0_3> .
+
+<http://w3id.org/polifonia/resource/JAMSObservation/HairInTheGateThe8813/10_8_5_7_0_7@0.0> a jams:JAMSObservation,
+        jams:JAMSScoreObservation,
+        jams:ScorePatternOccurrence ;
+    rdfs:label [ ] ;
+    jams:hasDuration "0.0"^^xsd:float ;
+    jams:hasFrequency "1"^^xsd:int ;
+    jams:hasPatternType "pitch-class-values" ;
+    jams:ofPattern <http://w3id.org/polifonia/resource/pattern/10_8_5_7_0_7> .
+
+<http://w3id.org/polifonia/resource/JAMSObservation/HairInTheGateThe8813/2_3_0_7_0_2@0.0> a jams:JAMSObservation,
+        jams:JAMSScoreObservation,
+        jams:ScorePatternOccurrence ;
+    rdfs:label [ ] ;
+    jams:hasDuration "0.0"^^xsd:float ;
+    jams:hasFrequency "1"^^xsd:int ;
+    jams:hasPatternType "pitch-class-values" ;
+    jams:ofPattern <http://w3id.org/polifonia/resource/pattern/2_3_0_7_0_2> .
+
+<http://w3id.org/polifonia/resource/JAMSObservation/HairInTheGateThe8813/2_3_0_8_5_7@0.0> a jams:JAMSObservation,
+        jams:JAMSScoreObservation,
+        jams:ScorePatternOccurrence ;
+    rdfs:label [ ] ;
+    jams:hasDuration "0.0"^^xsd:float ;
+    jams:hasFrequency "1"^^xsd:int ;
+    jams:hasPatternType "pitch-class-values" ;
+    jams:ofPattern <http://w3id.org/polifonia/resource/pattern/2_3_0_8_5_7> .
+
+<http://w3id.org/polifonia/resource/JAMSObservation/HairInTheGateThe8813/2_5_3_0_2_7@0.0> a jams:JAMSObservation,
+        jams:JAMSScoreObservation,
+        jams:ScorePatternOccurrence ;
+    rdfs:label [ ] ;
+    jams:hasDuration "0.0"^^xsd:float ;
+    jams:hasFrequency "2"^^xsd:int ;
+    jams:hasPatternType "pitch-class-values" ;
+    jams:ofPattern <http://w3id.org/polifonia/resource/pattern/2_5_3_0_2_7> .
+
+<http://w3id.org/polifonia/resource/JAMSObservation/HairInTheGateThe8813/2_7_3_2_3_0@0.0> a jams:JAMSObservation,
+        jams:JAMSScoreObservation,
+        jams:ScorePatternOccurrence ;
+    rdfs:label [ ] ;
+    jams:hasDuration "0.0"^^xsd:float ;
+    jams:hasFrequency "2"^^xsd:int ;
+    jams:hasPatternType "pitch-class-values" ;
+    jams:ofPattern <http://w3id.org/polifonia/resource/pattern/2_7_3_2_3_0> .
+
+<http://w3id.org/polifonia/resource/JAMSObservation/HairInTheGateThe8813/2_7_7_0_2_7@0.0> a jams:JAMSObservation,
+        jams:JAMSScoreObservation,
+        jams:ScorePatternOccurrence ;
+    rdfs:label [ ] ;
+    jams:hasDuration "0.0"^^xsd:float ;
+    jams:hasFrequency "2"^^xsd:int ;
+    jams:hasPatternType "pitch-class-values" ;
+    jams:ofPattern <http://w3id.org/polifonia/resource/pattern/2_7_7_0_2_7> .
+
+<http://w3id.org/polifonia/resource/JAMSObservation/HairInTheGateThe8813/3_0_2_7_7_0@0.0> a jams:JAMSObservation,
+        jams:JAMSScoreObservation,
+        jams:ScorePatternOccurrence ;
+    rdfs:label [ ] ;
+    jams:hasDuration "0.0"^^xsd:float ;
+    jams:hasFrequency "2"^^xsd:int ;
+    jams:hasPatternType "pitch-class-values" ;
+    jams:ofPattern <http://w3id.org/polifonia/resource/pattern/3_0_2_7_7_0> .
+
+<http://w3id.org/polifonia/resource/JAMSObservation/HairInTheGateThe8813/3_0_7_0_2_5@0.0> a jams:JAMSObservation,
+        jams:JAMSScoreObservation,
+        jams:ScorePatternOccurrence ;
+    rdfs:label [ ] ;
+    jams:hasDuration "0.0"^^xsd:float ;
+    jams:hasFrequency "1"^^xsd:int ;
+    jams:hasPatternType "pitch-class-values" ;
+    jams:ofPattern <http://w3id.org/polifonia/resource/pattern/3_0_7_0_2_5> .
+
+<http://w3id.org/polifonia/resource/JAMSObservation/HairInTheGateThe8813/3_0_8_5_7_0@0.0> a jams:JAMSObservation,
+        jams:JAMSScoreObservation,
+        jams:ScorePatternOccurrence ;
+    rdfs:label [ ] ;
+    jams:hasDuration "0.0"^^xsd:float ;
+    jams:hasFrequency "2"^^xsd:int ;
+    jams:hasPatternType "pitch-class-values" ;
+    jams:ofPattern <http://w3id.org/polifonia/resource/pattern/3_0_8_5_7_0> .
+
+<http://w3id.org/polifonia/resource/JAMSObservation/HairInTheGateThe8813/3_2_3_0_7_0@0.0> a jams:JAMSObservation,
+        jams:JAMSScoreObservation,
+        jams:ScorePatternOccurrence ;
+    rdfs:label [ ] ;
+    jams:hasDuration "0.0"^^xsd:float ;
+    jams:hasFrequency "1"^^xsd:int ;
+    jams:hasPatternType "pitch-class-values" ;
+    jams:ofPattern <http://w3id.org/polifonia/resource/pattern/3_2_3_0_7_0> .
+
+<http://w3id.org/polifonia/resource/JAMSObservation/HairInTheGateThe8813/3_2_3_0_8_5@0.0> a jams:JAMSObservation,
+        jams:JAMSScoreObservation,
+        jams:ScorePatternOccurrence ;
+    rdfs:label [ ] ;
+    jams:hasDuration "0.0"^^xsd:float ;
+    jams:hasFrequency "1"^^xsd:int ;
+    jams:hasPatternType "pitch-class-values" ;
+    jams:ofPattern <http://w3id.org/polifonia/resource/pattern/3_2_3_0_8_5> .
+
+<http://w3id.org/polifonia/resource/JAMSObservation/HairInTheGateThe8813/5_3_0_2_7_7@0.0> a jams:JAMSObservation,
+        jams:JAMSScoreObservation,
+        jams:ScorePatternOccurrence ;
+    rdfs:label [ ] ;
+    jams:hasDuration "0.0"^^xsd:float ;
+    jams:hasFrequency "2"^^xsd:int ;
+    jams:hasPatternType "pitch-class-values" ;
+    jams:ofPattern <http://w3id.org/polifonia/resource/pattern/5_3_0_2_7_7> .
+
+<http://w3id.org/polifonia/resource/JAMSObservation/HairInTheGateThe8813/5_7_0_3_5_3@0.0> a jams:JAMSObservation,
+        jams:JAMSScoreObservation,
+        jams:ScorePatternOccurrence ;
+    rdfs:label [ ] ;
+    jams:hasDuration "0.0"^^xsd:float ;
+    jams:hasFrequency "1"^^xsd:int ;
+    jams:hasPatternType "pitch-class-values" ;
+    jams:ofPattern <http://w3id.org/polifonia/resource/pattern/5_7_0_3_5_3> .
+
+<http://w3id.org/polifonia/resource/JAMSObservation/HairInTheGateThe8813/5_7_0_7_5_3@0.0> a jams:JAMSObservation,
+        jams:JAMSScoreObservation,
+        jams:ScorePatternOccurrence ;
+    rdfs:label [ ] ;
+    jams:hasDuration "0.0"^^xsd:float ;
+    jams:hasFrequency "1"^^xsd:int ;
+    jams:hasPatternType "pitch-class-values" ;
+    jams:ofPattern <http://w3id.org/polifonia/resource/pattern/5_7_0_7_5_3> .
+
+<http://w3id.org/polifonia/resource/JAMSObservation/HairInTheGateThe8813/5_7_0_8_5_7@0.0> a jams:JAMSObservation,
+        jams:JAMSScoreObservation,
+        jams:ScorePatternOccurrence ;
+    rdfs:label [ ] ;
+    jams:hasDuration "0.0"^^xsd:float ;
+    jams:hasFrequency "2"^^xsd:int ;
+    jams:hasPatternType "pitch-class-values" ;
+    jams:ofPattern <http://w3id.org/polifonia/resource/pattern/5_7_0_8_5_7> .
+
+<http://w3id.org/polifonia/resource/JAMSObservation/HairInTheGateThe8813/5_7_10_8_5_7@0.0> a jams:JAMSObservation,
+        jams:JAMSScoreObservation,
+        jams:ScorePatternOccurrence ;
+    rdfs:label [ ] ;
+    jams:hasDuration "0.0"^^xsd:float ;
+    jams:hasFrequency "2"^^xsd:int ;
+    jams:hasPatternType "pitch-class-values" ;
+    jams:ofPattern <http://w3id.org/polifonia/resource/pattern/5_7_10_8_5_7> .
+
+<http://w3id.org/polifonia/resource/JAMSObservation/HairInTheGateThe8813/7_0_2_5_3_0@0.0> a jams:JAMSObservation,
+        jams:JAMSScoreObservation,
+        jams:ScorePatternOccurrence ;
+    rdfs:label [ ] ;
+    jams:hasDuration "0.0"^^xsd:float ;
+    jams:hasFrequency "2"^^xsd:int ;
+    jams:hasPatternType "pitch-class-values" ;
+    jams:ofPattern <http://w3id.org/polifonia/resource/pattern/7_0_2_5_3_0> .
+
+<http://w3id.org/polifonia/resource/JAMSObservation/HairInTheGateThe8813/7_0_2_7_3_2@0.0> a jams:JAMSObservation,
+        jams:JAMSScoreObservation,
+        jams:ScorePatternOccurrence ;
+    rdfs:label [ ] ;
+    jams:hasDuration "0.0"^^xsd:float ;
+    jams:hasFrequency "2"^^xsd:int ;
+    jams:hasPatternType "pitch-class-values" ;
+    jams:ofPattern <http://w3id.org/polifonia/resource/pattern/7_0_2_7_3_2> .
+
+<http://w3id.org/polifonia/resource/JAMSObservation/HairInTheGateThe8813/7_0_3_5_3_0@0.0> a jams:JAMSObservation,
+        jams:JAMSScoreObservation,
+        jams:ScorePatternOccurrence ;
+    rdfs:label [ ] ;
+    jams:hasDuration "0.0"^^xsd:float ;
+    jams:hasFrequency "1"^^xsd:int ;
+    jams:hasPatternType "pitch-class-values" ;
+    jams:ofPattern <http://w3id.org/polifonia/resource/pattern/7_0_3_5_3_0> .
+
+<http://w3id.org/polifonia/resource/JAMSObservation/HairInTheGateThe8813/7_0_7_5_3_0@0.0> a jams:JAMSObservation,
+        jams:JAMSScoreObservation,
+        jams:ScorePatternOccurrence ;
+    rdfs:label [ ] ;
+    jams:hasDuration "0.0"^^xsd:float ;
+    jams:hasFrequency "1"^^xsd:int ;
+    jams:hasPatternType "pitch-class-values" ;
+    jams:ofPattern <http://w3id.org/polifonia/resource/pattern/7_0_7_5_3_0> .
+
+<http://w3id.org/polifonia/resource/JAMSObservation/HairInTheGateThe8813/7_0_8_5_7_10@0.0> a jams:JAMSObservation,
+        jams:JAMSScoreObservation,
+        jams:ScorePatternOccurrence ;
+    rdfs:label [ ] ;
+    jams:hasDuration "0.0"^^xsd:float ;
+    jams:hasFrequency "2"^^xsd:int ;
+    jams:hasPatternType "pitch-class-values" ;
+    jams:ofPattern <http://w3id.org/polifonia/resource/pattern/7_0_8_5_7_10> .
+
+<http://w3id.org/polifonia/resource/JAMSObservation/HairInTheGateThe8813/7_10_8_5_7_0@0.0> a jams:JAMSObservation,
+        jams:JAMSScoreObservation,
+        jams:ScorePatternOccurrence ;
+    rdfs:label [ ] ;
+    jams:hasDuration "0.0"^^xsd:float ;
+    jams:hasFrequency "2"^^xsd:int ;
+    jams:hasPatternType "pitch-class-values" ;
+    jams:ofPattern <http://w3id.org/polifonia/resource/pattern/7_10_8_5_7_0> .
+
+<http://w3id.org/polifonia/resource/JAMSObservation/HairInTheGateThe8813/7_3_2_3_0_7@0.0> a jams:JAMSObservation,
+        jams:JAMSScoreObservation,
+        jams:ScorePatternOccurrence ;
+    rdfs:label [ ] ;
+    jams:hasDuration "0.0"^^xsd:float ;
+    jams:hasFrequency "1"^^xsd:int ;
+    jams:hasPatternType "pitch-class-values" ;
+    jams:ofPattern <http://w3id.org/polifonia/resource/pattern/7_3_2_3_0_7> .
+
+<http://w3id.org/polifonia/resource/JAMSObservation/HairInTheGateThe8813/7_3_2_3_0_8@0.0> a jams:JAMSObservation,
+        jams:JAMSScoreObservation,
+        jams:ScorePatternOccurrence ;
+    rdfs:label [ ] ;
+    jams:hasDuration "0.0"^^xsd:float ;
+    jams:hasFrequency "1"^^xsd:int ;
+    jams:hasPatternType "pitch-class-values" ;
+    jams:ofPattern <http://w3id.org/polifonia/resource/pattern/7_3_2_3_0_8> .
+
+<http://w3id.org/polifonia/resource/JAMSObservation/HairInTheGateThe8813/7_7_0_2_7_3@0.0> a jams:JAMSObservation,
+        jams:JAMSScoreObservation,
+        jams:ScorePatternOccurrence ;
+    rdfs:label [ ] ;
+    jams:hasDuration "0.0"^^xsd:float ;
+    jams:hasFrequency "2"^^xsd:int ;
+    jams:hasPatternType "pitch-class-values" ;
+    jams:ofPattern <http://w3id.org/polifonia/resource/pattern/7_7_0_2_7_3> .
+
+<http://w3id.org/polifonia/resource/JAMSObservation/HairInTheGateThe8813/8_5_7_0_3_5@0.0> a jams:JAMSObservation,
+        jams:JAMSScoreObservation,
+        jams:ScorePatternOccurrence ;
+    rdfs:label [ ] ;
+    jams:hasDuration "0.0"^^xsd:float ;
+    jams:hasFrequency "1"^^xsd:int ;
+    jams:hasPatternType "pitch-class-values" ;
+    jams:ofPattern <http://w3id.org/polifonia/resource/pattern/8_5_7_0_3_5> .
+
+<http://w3id.org/polifonia/resource/JAMSObservation/HairInTheGateThe8813/8_5_7_0_7_5@0.0> a jams:JAMSObservation,
+        jams:JAMSScoreObservation,
+        jams:ScorePatternOccurrence ;
+    rdfs:label [ ] ;
+    jams:hasDuration "0.0"^^xsd:float ;
+    jams:hasFrequency "1"^^xsd:int ;
+    jams:hasPatternType "pitch-class-values" ;
+    jams:ofPattern <http://w3id.org/polifonia/resource/pattern/8_5_7_0_7_5> .
+
+<http://w3id.org/polifonia/resource/JAMSObservation/HairInTheGateThe8813/8_5_7_0_8_5@0.0> a jams:JAMSObservation,
+        jams:JAMSScoreObservation,
+        jams:ScorePatternOccurrence ;
+    rdfs:label [ ] ;
+    jams:hasDuration "0.0"^^xsd:float ;
+    jams:hasFrequency "2"^^xsd:int ;
+    jams:hasPatternType "pitch-class-values" ;
+    jams:ofPattern <http://w3id.org/polifonia/resource/pattern/8_5_7_0_8_5> .
+
+<http://w3id.org/polifonia/resource/JAMSObservation/HairInTheGateThe8813/8_5_7_10_8_5@0.0> a jams:JAMSObservation,
+        jams:JAMSScoreObservation,
+        jams:ScorePatternOccurrence ;
+    rdfs:label [ ] ;
+    jams:hasDuration "0.0"^^xsd:float ;
+    jams:hasFrequency "2"^^xsd:int ;
+    jams:hasPatternType "pitch-class-values" ;
+    jams:ofPattern <http://w3id.org/polifonia/resource/pattern/8_5_7_10_8_5> .
+
+<http://w3id.org/polifonia/resource/MusicalComposition/e1d247d0336eec28c195cb4afc7d78e2a6ddf142> a mc:MusicalComposition ;
+    rdfs:label "HairInTheGateThe8813" ;
+    mc:title "HairInTheGateThe8813" ;
+    prov:wasDerivedFrom <http://w3id.org/polifonia/resource/JAMSFile/HairInTheGateThe8813.jams> .
+

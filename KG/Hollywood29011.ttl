@@ -1,0 +1,291 @@
+@prefix core: <http://w3id.org/polifonia/ontology/core/> .
+@prefix jams: <http://w3id.org/polifonia/ontology/jams/> .
+@prefix mc: <http://w3id.org/polifonia/ontology/musical-composition/> .
+@prefix pon-resource: <http://w3id.org/polifonia/resource/> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+pon-resource:Agent%2Fannotator_local_id a core:Agent ;
+    rdfs:label "FONN-Tool" ;
+    jams:hasAnnotatorType pon-resource:annotator-program ;
+    jams:hasName "FONN-Tool" .
+
+<http://w3id.org/polifonia/resource/JAMSAnnotation/8950a8b06931cb8a0158ad6923d64b12e6e41856> a jams:JAMSAnnotation,
+        jams:JAMSScoreAnnotation ;
+    jams:includesObservation <http://w3id.org/polifonia/resource/JAMSObservation/Hollywood29011/0_0_4_7_7_0@0.0>,
+        <http://w3id.org/polifonia/resource/JAMSObservation/Hollywood29011/0_0_7_0_3_0@0.0>,
+        <http://w3id.org/polifonia/resource/JAMSObservation/Hollywood29011/0_3_0_7_0_7@0.0>,
+        <http://w3id.org/polifonia/resource/JAMSObservation/Hollywood29011/0_4_2_0_0_4@0.0>,
+        <http://w3id.org/polifonia/resource/JAMSObservation/Hollywood29011/0_4_2_0_0_7@0.0>,
+        <http://w3id.org/polifonia/resource/JAMSObservation/Hollywood29011/0_4_7_7_0_4@0.0>,
+        <http://w3id.org/polifonia/resource/JAMSObservation/Hollywood29011/0_7_0_3_0_7@0.0>,
+        <http://w3id.org/polifonia/resource/JAMSObservation/Hollywood29011/0_7_0_7_0_3@0.0>,
+        <http://w3id.org/polifonia/resource/JAMSObservation/Hollywood29011/0_7_0_7_0_7@0.0>,
+        <http://w3id.org/polifonia/resource/JAMSObservation/Hollywood29011/0_7_0_7_2_3@0.0>,
+        <http://w3id.org/polifonia/resource/JAMSObservation/Hollywood29011/0_7_2_3_0_7@0.0>,
+        <http://w3id.org/polifonia/resource/JAMSObservation/Hollywood29011/2_0_0_4_7_7@0.0>,
+        <http://w3id.org/polifonia/resource/JAMSObservation/Hollywood29011/2_0_0_7_0_3@0.0>,
+        <http://w3id.org/polifonia/resource/JAMSObservation/Hollywood29011/2_3_0_7_0_7@0.0>,
+        <http://w3id.org/polifonia/resource/JAMSObservation/Hollywood29011/3_0_7_0_7_0@0.0>,
+        <http://w3id.org/polifonia/resource/JAMSObservation/Hollywood29011/4.0_2.0_0.0_0.0_7.0_0.0@0.0>,
+        <http://w3id.org/polifonia/resource/JAMSObservation/Hollywood29011/4_2_0_0_4_7@0.0>,
+        <http://w3id.org/polifonia/resource/JAMSObservation/Hollywood29011/4_7_7_0_4_2@0.0>,
+        <http://w3id.org/polifonia/resource/JAMSObservation/Hollywood29011/7_0_3_0_7_0@0.0>,
+        <http://w3id.org/polifonia/resource/JAMSObservation/Hollywood29011/7_0_4_2_0_0@0.0>,
+        <http://w3id.org/polifonia/resource/JAMSObservation/Hollywood29011/7_0_7_0_3_0@0.0>,
+        <http://w3id.org/polifonia/resource/JAMSObservation/Hollywood29011/7_0_7_0_7_0@0.0>,
+        <http://w3id.org/polifonia/resource/JAMSObservation/Hollywood29011/7_0_7_0_7_2@0.0>,
+        <http://w3id.org/polifonia/resource/JAMSObservation/Hollywood29011/7_0_7_2_3_0@0.0>,
+        <http://w3id.org/polifonia/resource/JAMSObservation/Hollywood29011/7_2_3_0_7_0@0.0>,
+        <http://w3id.org/polifonia/resource/JAMSObservation/Hollywood29011/7_7_0_4_2_0@0.0> ;
+    jams:isJAMSAnnotationOf <http://w3id.org/polifonia/resource/MusicalComposition/8950a8b06931cb8a0158ad6923d64b12e6e41856> .
+
+<http://w3id.org/polifonia/resource/Score/song_local_id> jams:hasJAMSAnnotation <http://w3id.org/polifonia/resource/MusicalComposition/8950a8b06931cb8a0158ad6923d64b12e6e41856> .
+
+<http://w3id.org/polifonia/resource/JAMSFile/Hollywood29011.jams> a jams:JAMSFile ;
+    jams:identifiers [ ] ;
+    jams:jamsVersion "0.3.4" ;
+    jams:release "" ;
+    prov:wasDerivedFrom "The Session" ;
+    prov:wasMemberOf <https://github.com/ashahidkhattak/thesession> .
+
+<http://w3id.org/polifonia/resource/JAMSObservation/Hollywood29011/0_0_4_7_7_0@0.0> a jams:JAMSObservation,
+        jams:JAMSScoreObservation,
+        jams:ScorePatternOccurrence ;
+    rdfs:label [ ] ;
+    jams:hasDuration "0.0"^^xsd:float ;
+    jams:hasFrequency "2"^^xsd:int ;
+    jams:hasPatternType "pitch-class-values" ;
+    jams:ofPattern <http://w3id.org/polifonia/resource/pattern/0_0_4_7_7_0> .
+
+<http://w3id.org/polifonia/resource/JAMSObservation/Hollywood29011/0_0_7_0_3_0@0.0> a jams:JAMSObservation,
+        jams:JAMSScoreObservation,
+        jams:ScorePatternOccurrence ;
+    rdfs:label [ ] ;
+    jams:hasDuration "0.0"^^xsd:float ;
+    jams:hasFrequency "2"^^xsd:int ;
+    jams:hasPatternType "pitch-class-values" ;
+    jams:ofPattern <http://w3id.org/polifonia/resource/pattern/0_0_7_0_3_0> .
+
+<http://w3id.org/polifonia/resource/JAMSObservation/Hollywood29011/0_3_0_7_0_7@0.0> a jams:JAMSObservation,
+        jams:JAMSScoreObservation,
+        jams:ScorePatternOccurrence ;
+    rdfs:label [ ] ;
+    jams:hasDuration "0.0"^^xsd:float ;
+    jams:hasFrequency "2"^^xsd:int ;
+    jams:hasPatternType "pitch-class-values" ;
+    jams:ofPattern <http://w3id.org/polifonia/resource/pattern/0_3_0_7_0_7> .
+
+<http://w3id.org/polifonia/resource/JAMSObservation/Hollywood29011/0_4_2_0_0_4@0.0> a jams:JAMSObservation,
+        jams:JAMSScoreObservation,
+        jams:ScorePatternOccurrence ;
+    rdfs:label [ ] ;
+    jams:hasDuration "0.0"^^xsd:float ;
+    jams:hasFrequency "2"^^xsd:int ;
+    jams:hasPatternType "pitch-class-values" ;
+    jams:ofPattern <http://w3id.org/polifonia/resource/pattern/0_4_2_0_0_4> .
+
+<http://w3id.org/polifonia/resource/JAMSObservation/Hollywood29011/0_4_2_0_0_7@0.0> a jams:JAMSObservation,
+        jams:JAMSScoreObservation,
+        jams:ScorePatternOccurrence ;
+    rdfs:label [ ] ;
+    jams:hasDuration "0.0"^^xsd:float ;
+    jams:hasFrequency "2"^^xsd:int ;
+    jams:hasPatternType "pitch-class-values" ;
+    jams:ofPattern <http://w3id.org/polifonia/resource/pattern/0_4_2_0_0_7> .
+
+<http://w3id.org/polifonia/resource/JAMSObservation/Hollywood29011/0_4_7_7_0_4@0.0> a jams:JAMSObservation,
+        jams:JAMSScoreObservation,
+        jams:ScorePatternOccurrence ;
+    rdfs:label [ ] ;
+    jams:hasDuration "0.0"^^xsd:float ;
+    jams:hasFrequency "2"^^xsd:int ;
+    jams:hasPatternType "pitch-class-values" ;
+    jams:ofPattern <http://w3id.org/polifonia/resource/pattern/0_4_7_7_0_4> .
+
+<http://w3id.org/polifonia/resource/JAMSObservation/Hollywood29011/0_7_0_3_0_7@0.0> a jams:JAMSObservation,
+        jams:JAMSScoreObservation,
+        jams:ScorePatternOccurrence ;
+    rdfs:label [ ] ;
+    jams:hasDuration "0.0"^^xsd:float ;
+    jams:hasFrequency "2"^^xsd:int ;
+    jams:hasPatternType "pitch-class-values" ;
+    jams:ofPattern <http://w3id.org/polifonia/resource/pattern/0_7_0_3_0_7> .
+
+<http://w3id.org/polifonia/resource/JAMSObservation/Hollywood29011/0_7_0_7_0_3@0.0> a jams:JAMSObservation,
+        jams:JAMSScoreObservation,
+        jams:ScorePatternOccurrence ;
+    rdfs:label [ ] ;
+    jams:hasDuration "0.0"^^xsd:float ;
+    jams:hasFrequency "2"^^xsd:int ;
+    jams:hasPatternType "pitch-class-values" ;
+    jams:ofPattern <http://w3id.org/polifonia/resource/pattern/0_7_0_7_0_3> .
+
+<http://w3id.org/polifonia/resource/JAMSObservation/Hollywood29011/0_7_0_7_0_7@0.0> a jams:JAMSObservation,
+        jams:JAMSScoreObservation,
+        jams:ScorePatternOccurrence ;
+    rdfs:label [ ] ;
+    jams:hasDuration "0.0"^^xsd:float ;
+    jams:hasFrequency "4"^^xsd:int ;
+    jams:hasPatternType "pitch-class-values" ;
+    jams:ofPattern <http://w3id.org/polifonia/resource/pattern/0_7_0_7_0_7> .
+
+<http://w3id.org/polifonia/resource/JAMSObservation/Hollywood29011/0_7_0_7_2_3@0.0> a jams:JAMSObservation,
+        jams:JAMSScoreObservation,
+        jams:ScorePatternOccurrence ;
+    rdfs:label [ ] ;
+    jams:hasDuration "0.0"^^xsd:float ;
+    jams:hasFrequency "2"^^xsd:int ;
+    jams:hasPatternType "pitch-class-values" ;
+    jams:ofPattern <http://w3id.org/polifonia/resource/pattern/0_7_0_7_2_3> .
+
+<http://w3id.org/polifonia/resource/JAMSObservation/Hollywood29011/0_7_2_3_0_7@0.0> a jams:JAMSObservation,
+        jams:JAMSScoreObservation,
+        jams:ScorePatternOccurrence ;
+    rdfs:label [ ] ;
+    jams:hasDuration "0.0"^^xsd:float ;
+    jams:hasFrequency "2"^^xsd:int ;
+    jams:hasPatternType "pitch-class-values" ;
+    jams:ofPattern <http://w3id.org/polifonia/resource/pattern/0_7_2_3_0_7> .
+
+<http://w3id.org/polifonia/resource/JAMSObservation/Hollywood29011/2_0_0_4_7_7@0.0> a jams:JAMSObservation,
+        jams:JAMSScoreObservation,
+        jams:ScorePatternOccurrence ;
+    rdfs:label [ ] ;
+    jams:hasDuration "0.0"^^xsd:float ;
+    jams:hasFrequency "2"^^xsd:int ;
+    jams:hasPatternType "pitch-class-values" ;
+    jams:ofPattern <http://w3id.org/polifonia/resource/pattern/2_0_0_4_7_7> .
+
+<http://w3id.org/polifonia/resource/JAMSObservation/Hollywood29011/2_0_0_7_0_3@0.0> a jams:JAMSObservation,
+        jams:JAMSScoreObservation,
+        jams:ScorePatternOccurrence ;
+    rdfs:label [ ] ;
+    jams:hasDuration "0.0"^^xsd:float ;
+    jams:hasFrequency "2"^^xsd:int ;
+    jams:hasPatternType "pitch-class-values" ;
+    jams:ofPattern <http://w3id.org/polifonia/resource/pattern/2_0_0_7_0_3> .
+
+<http://w3id.org/polifonia/resource/JAMSObservation/Hollywood29011/2_3_0_7_0_7@0.0> a jams:JAMSObservation,
+        jams:JAMSScoreObservation,
+        jams:ScorePatternOccurrence ;
+    rdfs:label [ ] ;
+    jams:hasDuration "0.0"^^xsd:float ;
+    jams:hasFrequency "2"^^xsd:int ;
+    jams:hasPatternType "pitch-class-values" ;
+    jams:ofPattern <http://w3id.org/polifonia/resource/pattern/2_3_0_7_0_7> .
+
+<http://w3id.org/polifonia/resource/JAMSObservation/Hollywood29011/3_0_7_0_7_0@0.0> a jams:JAMSObservation,
+        jams:JAMSScoreObservation,
+        jams:ScorePatternOccurrence ;
+    rdfs:label [ ] ;
+    jams:hasDuration "0.0"^^xsd:float ;
+    jams:hasFrequency "4"^^xsd:int ;
+    jams:hasPatternType "pitch-class-values" ;
+    jams:ofPattern <http://w3id.org/polifonia/resource/pattern/3_0_7_0_7_0> .
+
+<http://w3id.org/polifonia/resource/JAMSObservation/Hollywood29011/4.0_2.0_0.0_0.0_7.0_0.0@0.0> a jams:JAMSObservation,
+        jams:JAMSScoreObservation,
+        jams:ScorePatternOccurrence ;
+    rdfs:label [ ] ;
+    jams:hasDuration "0.0"^^xsd:float ;
+    jams:hasFrequency "2"^^xsd:int ;
+    jams:hasPatternType "pitch-class-values" ;
+    jams:ofPattern <http://w3id.org/polifonia/resource/pattern/4.0_2.0_0.0_0.0_7.0_0.0> .
+
+<http://w3id.org/polifonia/resource/JAMSObservation/Hollywood29011/4_2_0_0_4_7@0.0> a jams:JAMSObservation,
+        jams:JAMSScoreObservation,
+        jams:ScorePatternOccurrence ;
+    rdfs:label [ ] ;
+    jams:hasDuration "0.0"^^xsd:float ;
+    jams:hasFrequency "2"^^xsd:int ;
+    jams:hasPatternType "pitch-class-values" ;
+    jams:ofPattern <http://w3id.org/polifonia/resource/pattern/4_2_0_0_4_7> .
+
+<http://w3id.org/polifonia/resource/JAMSObservation/Hollywood29011/4_7_7_0_4_2@0.0> a jams:JAMSObservation,
+        jams:JAMSScoreObservation,
+        jams:ScorePatternOccurrence ;
+    rdfs:label [ ] ;
+    jams:hasDuration "0.0"^^xsd:float ;
+    jams:hasFrequency "2"^^xsd:int ;
+    jams:hasPatternType "pitch-class-values" ;
+    jams:ofPattern <http://w3id.org/polifonia/resource/pattern/4_7_7_0_4_2> .
+
+<http://w3id.org/polifonia/resource/JAMSObservation/Hollywood29011/7_0_3_0_7_0@0.0> a jams:JAMSObservation,
+        jams:JAMSScoreObservation,
+        jams:ScorePatternOccurrence ;
+    rdfs:label [ ] ;
+    jams:hasDuration "0.0"^^xsd:float ;
+    jams:hasFrequency "2"^^xsd:int ;
+    jams:hasPatternType "pitch-class-values" ;
+    jams:ofPattern <http://w3id.org/polifonia/resource/pattern/7_0_3_0_7_0> .
+
+<http://w3id.org/polifonia/resource/JAMSObservation/Hollywood29011/7_0_4_2_0_0@0.0> a jams:JAMSObservation,
+        jams:JAMSScoreObservation,
+        jams:ScorePatternOccurrence ;
+    rdfs:label [ ] ;
+    jams:hasDuration "0.0"^^xsd:float ;
+    jams:hasFrequency "2"^^xsd:int ;
+    jams:hasPatternType "pitch-class-values" ;
+    jams:ofPattern <http://w3id.org/polifonia/resource/pattern/7_0_4_2_0_0> .
+
+<http://w3id.org/polifonia/resource/JAMSObservation/Hollywood29011/7_0_7_0_3_0@0.0> a jams:JAMSObservation,
+        jams:JAMSScoreObservation,
+        jams:ScorePatternOccurrence ;
+    rdfs:label [ ] ;
+    jams:hasDuration "0.0"^^xsd:float ;
+    jams:hasFrequency "1"^^xsd:int ;
+    jams:hasPatternType "pitch-class-values" ;
+    jams:ofPattern <http://w3id.org/polifonia/resource/pattern/7_0_7_0_3_0> .
+
+<http://w3id.org/polifonia/resource/JAMSObservation/Hollywood29011/7_0_7_0_7_0@0.0> a jams:JAMSObservation,
+        jams:JAMSScoreObservation,
+        jams:ScorePatternOccurrence ;
+    rdfs:label [ ] ;
+    jams:hasDuration "0.0"^^xsd:float ;
+    jams:hasFrequency "2"^^xsd:int ;
+    jams:hasPatternType "pitch-class-values" ;
+    jams:ofPattern <http://w3id.org/polifonia/resource/pattern/7_0_7_0_7_0> .
+
+<http://w3id.org/polifonia/resource/JAMSObservation/Hollywood29011/7_0_7_0_7_2@0.0> a jams:JAMSObservation,
+        jams:JAMSScoreObservation,
+        jams:ScorePatternOccurrence ;
+    rdfs:label [ ] ;
+    jams:hasDuration "0.0"^^xsd:float ;
+    jams:hasFrequency "2"^^xsd:int ;
+    jams:hasPatternType "pitch-class-values" ;
+    jams:ofPattern <http://w3id.org/polifonia/resource/pattern/7_0_7_0_7_2> .
+
+<http://w3id.org/polifonia/resource/JAMSObservation/Hollywood29011/7_0_7_2_3_0@0.0> a jams:JAMSObservation,
+        jams:JAMSScoreObservation,
+        jams:ScorePatternOccurrence ;
+    rdfs:label [ ] ;
+    jams:hasDuration "0.0"^^xsd:float ;
+    jams:hasFrequency "2"^^xsd:int ;
+    jams:hasPatternType "pitch-class-values" ;
+    jams:ofPattern <http://w3id.org/polifonia/resource/pattern/7_0_7_2_3_0> .
+
+<http://w3id.org/polifonia/resource/JAMSObservation/Hollywood29011/7_2_3_0_7_0@0.0> a jams:JAMSObservation,
+        jams:JAMSScoreObservation,
+        jams:ScorePatternOccurrence ;
+    rdfs:label [ ] ;
+    jams:hasDuration "0.0"^^xsd:float ;
+    jams:hasFrequency "2"^^xsd:int ;
+    jams:hasPatternType "pitch-class-values" ;
+    jams:ofPattern <http://w3id.org/polifonia/resource/pattern/7_2_3_0_7_0> .
+
+<http://w3id.org/polifonia/resource/JAMSObservation/Hollywood29011/7_7_0_4_2_0@0.0> a jams:JAMSObservation,
+        jams:JAMSScoreObservation,
+        jams:ScorePatternOccurrence ;
+    rdfs:label [ ] ;
+    jams:hasDuration "0.0"^^xsd:float ;
+    jams:hasFrequency "2"^^xsd:int ;
+    jams:hasPatternType "pitch-class-values" ;
+    jams:ofPattern <http://w3id.org/polifonia/resource/pattern/7_7_0_4_2_0> .
+
+<http://w3id.org/polifonia/resource/MusicalComposition/8950a8b06931cb8a0158ad6923d64b12e6e41856> a mc:MusicalComposition ;
+    rdfs:label "Hollywood29011" ;
+    mc:title "Hollywood29011" ;
+    prov:wasDerivedFrom <http://w3id.org/polifonia/resource/JAMSFile/Hollywood29011.jams> .
+

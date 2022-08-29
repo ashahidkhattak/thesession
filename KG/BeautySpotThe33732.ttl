@@ -1,0 +1,281 @@
+@prefix core: <http://w3id.org/polifonia/ontology/core/> .
+@prefix jams: <http://w3id.org/polifonia/ontology/jams/> .
+@prefix mc: <http://w3id.org/polifonia/ontology/musical-composition/> .
+@prefix pon-resource: <http://w3id.org/polifonia/resource/> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+pon-resource:Agent%2Fannotator_local_id a core:Agent ;
+    rdfs:label "FONN-Tool" ;
+    jams:hasAnnotatorType pon-resource:annotator-program ;
+    jams:hasName "FONN-Tool" .
+
+<http://w3id.org/polifonia/resource/JAMSAnnotation/e6320074af154d0c95751ae2581b0a35c2f478e9> a jams:JAMSAnnotation,
+        jams:JAMSScoreAnnotation ;
+    jams:includesObservation <http://w3id.org/polifonia/resource/JAMSObservation/BeautySpotThe33732/0_9_9_9_9_9@0.0>,
+        <http://w3id.org/polifonia/resource/JAMSObservation/BeautySpotThe33732/2_2_5_9_2_2@0.0>,
+        <http://w3id.org/polifonia/resource/JAMSObservation/BeautySpotThe33732/2_2_5_9_2_7@0.0>,
+        <http://w3id.org/polifonia/resource/JAMSObservation/BeautySpotThe33732/2_5_9_2_2_5@0.0>,
+        <http://w3id.org/polifonia/resource/JAMSObservation/BeautySpotThe33732/2_5_9_2_7_5@0.0>,
+        <http://w3id.org/polifonia/resource/JAMSObservation/BeautySpotThe33732/2_7_5_9_2_7@0.0>,
+        <http://w3id.org/polifonia/resource/JAMSObservation/BeautySpotThe33732/2_7_5_9_9_9@0.0>,
+        <http://w3id.org/polifonia/resource/JAMSObservation/BeautySpotThe33732/5_9_2_2_5_9@0.0>,
+        <http://w3id.org/polifonia/resource/JAMSObservation/BeautySpotThe33732/5_9_2_7_5_9@0.0>,
+        <http://w3id.org/polifonia/resource/JAMSObservation/BeautySpotThe33732/5_9_9_9_9_9@0.0>,
+        <http://w3id.org/polifonia/resource/JAMSObservation/BeautySpotThe33732/7_5_9_2_7_5@0.0>,
+        <http://w3id.org/polifonia/resource/JAMSObservation/BeautySpotThe33732/7_5_9_9_9_9@0.0>,
+        <http://w3id.org/polifonia/resource/JAMSObservation/BeautySpotThe33732/9_0_9_9_9_9@0.0>,
+        <http://w3id.org/polifonia/resource/JAMSObservation/BeautySpotThe33732/9_2_2_5_9_2@0.0>,
+        <http://w3id.org/polifonia/resource/JAMSObservation/BeautySpotThe33732/9_2_7_5_9_2@0.0>,
+        <http://w3id.org/polifonia/resource/JAMSObservation/BeautySpotThe33732/9_2_7_5_9_9@0.0>,
+        <http://w3id.org/polifonia/resource/JAMSObservation/BeautySpotThe33732/9_9_0_9_9_9@0.0>,
+        <http://w3id.org/polifonia/resource/JAMSObservation/BeautySpotThe33732/9_9_2_11_2_7@0.0>,
+        <http://w3id.org/polifonia/resource/JAMSObservation/BeautySpotThe33732/9_9_9_0_9_9@0.0>,
+        <http://w3id.org/polifonia/resource/JAMSObservation/BeautySpotThe33732/9_9_9_2_11_2@0.0>,
+        <http://w3id.org/polifonia/resource/JAMSObservation/BeautySpotThe33732/9_9_9_9_0_9@0.0>,
+        <http://w3id.org/polifonia/resource/JAMSObservation/BeautySpotThe33732/9_9_9_9_2_11@0.0>,
+        <http://w3id.org/polifonia/resource/JAMSObservation/BeautySpotThe33732/9_9_9_9_9_0@0.0>,
+        <http://w3id.org/polifonia/resource/JAMSObservation/BeautySpotThe33732/9_9_9_9_9_2@0.0>,
+        <http://w3id.org/polifonia/resource/JAMSObservation/BeautySpotThe33732/9_9_9_9_9_9@0.0> ;
+    jams:isJAMSAnnotationOf <http://w3id.org/polifonia/resource/MusicalComposition/e6320074af154d0c95751ae2581b0a35c2f478e9> .
+
+<http://w3id.org/polifonia/resource/Score/song_local_id> jams:hasJAMSAnnotation <http://w3id.org/polifonia/resource/MusicalComposition/e6320074af154d0c95751ae2581b0a35c2f478e9> .
+
+<http://w3id.org/polifonia/resource/JAMSFile/BeautySpotThe33732.jams> a jams:JAMSFile ;
+    jams:identifiers [ ] ;
+    jams:jamsVersion "0.3.4" ;
+    jams:release "" ;
+    prov:wasDerivedFrom "The Session" ;
+    prov:wasMemberOf <https://github.com/ashahidkhattak/thesession> .
+
+<http://w3id.org/polifonia/resource/JAMSObservation/BeautySpotThe33732/0_9_9_9_9_9@0.0> a jams:JAMSObservation,
+        jams:JAMSScoreObservation,
+        jams:ScorePatternOccurrence ;
+    rdfs:label [ ] ;
+    jams:hasDuration "0.0"^^xsd:float ;
+    jams:hasFrequency "1"^^xsd:int ;
+    jams:hasPatternType "pitch-class-values" ;
+    jams:ofPattern <http://w3id.org/polifonia/resource/pattern/0_9_9_9_9_9> .
+
+<http://w3id.org/polifonia/resource/JAMSObservation/BeautySpotThe33732/2_2_5_9_2_2@0.0> a jams:JAMSObservation,
+        jams:JAMSScoreObservation,
+        jams:ScorePatternOccurrence ;
+    rdfs:label [ ] ;
+    jams:hasDuration "0.0"^^xsd:float ;
+    jams:hasFrequency "1"^^xsd:int ;
+    jams:hasPatternType "pitch-class-values" ;
+    jams:ofPattern <http://w3id.org/polifonia/resource/pattern/2_2_5_9_2_2> .
+
+<http://w3id.org/polifonia/resource/JAMSObservation/BeautySpotThe33732/2_2_5_9_2_7@0.0> a jams:JAMSObservation,
+        jams:JAMSScoreObservation,
+        jams:ScorePatternOccurrence ;
+    rdfs:label [ ] ;
+    jams:hasDuration "0.0"^^xsd:float ;
+    jams:hasFrequency "1"^^xsd:int ;
+    jams:hasPatternType "pitch-class-values" ;
+    jams:ofPattern <http://w3id.org/polifonia/resource/pattern/2_2_5_9_2_7> .
+
+<http://w3id.org/polifonia/resource/JAMSObservation/BeautySpotThe33732/2_5_9_2_2_5@0.0> a jams:JAMSObservation,
+        jams:JAMSScoreObservation,
+        jams:ScorePatternOccurrence ;
+    rdfs:label [ ] ;
+    jams:hasDuration "0.0"^^xsd:float ;
+    jams:hasFrequency "1"^^xsd:int ;
+    jams:hasPatternType "pitch-class-values" ;
+    jams:ofPattern <http://w3id.org/polifonia/resource/pattern/2_5_9_2_2_5> .
+
+<http://w3id.org/polifonia/resource/JAMSObservation/BeautySpotThe33732/2_5_9_2_7_5@0.0> a jams:JAMSObservation,
+        jams:JAMSScoreObservation,
+        jams:ScorePatternOccurrence ;
+    rdfs:label [ ] ;
+    jams:hasDuration "0.0"^^xsd:float ;
+    jams:hasFrequency "1"^^xsd:int ;
+    jams:hasPatternType "pitch-class-values" ;
+    jams:ofPattern <http://w3id.org/polifonia/resource/pattern/2_5_9_2_7_5> .
+
+<http://w3id.org/polifonia/resource/JAMSObservation/BeautySpotThe33732/2_7_5_9_2_7@0.0> a jams:JAMSObservation,
+        jams:JAMSScoreObservation,
+        jams:ScorePatternOccurrence ;
+    rdfs:label [ ] ;
+    jams:hasDuration "0.0"^^xsd:float ;
+    jams:hasFrequency "1"^^xsd:int ;
+    jams:hasPatternType "pitch-class-values" ;
+    jams:ofPattern <http://w3id.org/polifonia/resource/pattern/2_7_5_9_2_7> .
+
+<http://w3id.org/polifonia/resource/JAMSObservation/BeautySpotThe33732/2_7_5_9_9_9@0.0> a jams:JAMSObservation,
+        jams:JAMSScoreObservation,
+        jams:ScorePatternOccurrence ;
+    rdfs:label [ ] ;
+    jams:hasDuration "0.0"^^xsd:float ;
+    jams:hasFrequency "1"^^xsd:int ;
+    jams:hasPatternType "pitch-class-values" ;
+    jams:ofPattern <http://w3id.org/polifonia/resource/pattern/2_7_5_9_9_9> .
+
+<http://w3id.org/polifonia/resource/JAMSObservation/BeautySpotThe33732/5_9_2_2_5_9@0.0> a jams:JAMSObservation,
+        jams:JAMSScoreObservation,
+        jams:ScorePatternOccurrence ;
+    rdfs:label [ ] ;
+    jams:hasDuration "0.0"^^xsd:float ;
+    jams:hasFrequency "1"^^xsd:int ;
+    jams:hasPatternType "pitch-class-values" ;
+    jams:ofPattern <http://w3id.org/polifonia/resource/pattern/5_9_2_2_5_9> .
+
+<http://w3id.org/polifonia/resource/JAMSObservation/BeautySpotThe33732/5_9_2_7_5_9@0.0> a jams:JAMSObservation,
+        jams:JAMSScoreObservation,
+        jams:ScorePatternOccurrence ;
+    rdfs:label [ ] ;
+    jams:hasDuration "0.0"^^xsd:float ;
+    jams:hasFrequency "2"^^xsd:int ;
+    jams:hasPatternType "pitch-class-values" ;
+    jams:ofPattern <http://w3id.org/polifonia/resource/pattern/5_9_2_7_5_9> .
+
+<http://w3id.org/polifonia/resource/JAMSObservation/BeautySpotThe33732/5_9_9_9_9_9@0.0> a jams:JAMSObservation,
+        jams:JAMSScoreObservation,
+        jams:ScorePatternOccurrence ;
+    rdfs:label [ ] ;
+    jams:hasDuration "0.0"^^xsd:float ;
+    jams:hasFrequency "1"^^xsd:int ;
+    jams:hasPatternType "pitch-class-values" ;
+    jams:ofPattern <http://w3id.org/polifonia/resource/pattern/5_9_9_9_9_9> .
+
+<http://w3id.org/polifonia/resource/JAMSObservation/BeautySpotThe33732/7_5_9_2_7_5@0.0> a jams:JAMSObservation,
+        jams:JAMSScoreObservation,
+        jams:ScorePatternOccurrence ;
+    rdfs:label [ ] ;
+    jams:hasDuration "0.0"^^xsd:float ;
+    jams:hasFrequency "1"^^xsd:int ;
+    jams:hasPatternType "pitch-class-values" ;
+    jams:ofPattern <http://w3id.org/polifonia/resource/pattern/7_5_9_2_7_5> .
+
+<http://w3id.org/polifonia/resource/JAMSObservation/BeautySpotThe33732/7_5_9_9_9_9@0.0> a jams:JAMSObservation,
+        jams:JAMSScoreObservation,
+        jams:ScorePatternOccurrence ;
+    rdfs:label [ ] ;
+    jams:hasDuration "0.0"^^xsd:float ;
+    jams:hasFrequency "1"^^xsd:int ;
+    jams:hasPatternType "pitch-class-values" ;
+    jams:ofPattern <http://w3id.org/polifonia/resource/pattern/7_5_9_9_9_9> .
+
+<http://w3id.org/polifonia/resource/JAMSObservation/BeautySpotThe33732/9_0_9_9_9_9@0.0> a jams:JAMSObservation,
+        jams:JAMSScoreObservation,
+        jams:ScorePatternOccurrence ;
+    rdfs:label [ ] ;
+    jams:hasDuration "0.0"^^xsd:float ;
+    jams:hasFrequency "1"^^xsd:int ;
+    jams:hasPatternType "pitch-class-values" ;
+    jams:ofPattern <http://w3id.org/polifonia/resource/pattern/9_0_9_9_9_9> .
+
+<http://w3id.org/polifonia/resource/JAMSObservation/BeautySpotThe33732/9_2_2_5_9_2@0.0> a jams:JAMSObservation,
+        jams:JAMSScoreObservation,
+        jams:ScorePatternOccurrence ;
+    rdfs:label [ ] ;
+    jams:hasDuration "0.0"^^xsd:float ;
+    jams:hasFrequency "1"^^xsd:int ;
+    jams:hasPatternType "pitch-class-values" ;
+    jams:ofPattern <http://w3id.org/polifonia/resource/pattern/9_2_2_5_9_2> .
+
+<http://w3id.org/polifonia/resource/JAMSObservation/BeautySpotThe33732/9_2_7_5_9_2@0.0> a jams:JAMSObservation,
+        jams:JAMSScoreObservation,
+        jams:ScorePatternOccurrence ;
+    rdfs:label [ ] ;
+    jams:hasDuration "0.0"^^xsd:float ;
+    jams:hasFrequency "1"^^xsd:int ;
+    jams:hasPatternType "pitch-class-values" ;
+    jams:ofPattern <http://w3id.org/polifonia/resource/pattern/9_2_7_5_9_2> .
+
+<http://w3id.org/polifonia/resource/JAMSObservation/BeautySpotThe33732/9_2_7_5_9_9@0.0> a jams:JAMSObservation,
+        jams:JAMSScoreObservation,
+        jams:ScorePatternOccurrence ;
+    rdfs:label [ ] ;
+    jams:hasDuration "0.0"^^xsd:float ;
+    jams:hasFrequency "1"^^xsd:int ;
+    jams:hasPatternType "pitch-class-values" ;
+    jams:ofPattern <http://w3id.org/polifonia/resource/pattern/9_2_7_5_9_9> .
+
+<http://w3id.org/polifonia/resource/JAMSObservation/BeautySpotThe33732/9_9_0_9_9_9@0.0> a jams:JAMSObservation,
+        jams:JAMSScoreObservation,
+        jams:ScorePatternOccurrence ;
+    rdfs:label [ ] ;
+    jams:hasDuration "0.0"^^xsd:float ;
+    jams:hasFrequency "1"^^xsd:int ;
+    jams:hasPatternType "pitch-class-values" ;
+    jams:ofPattern <http://w3id.org/polifonia/resource/pattern/9_9_0_9_9_9> .
+
+<http://w3id.org/polifonia/resource/JAMSObservation/BeautySpotThe33732/9_9_2_11_2_7@0.0> a jams:JAMSObservation,
+        jams:JAMSScoreObservation,
+        jams:ScorePatternOccurrence ;
+    rdfs:label [ ] ;
+    jams:hasDuration "0.0"^^xsd:float ;
+    jams:hasFrequency "1"^^xsd:int ;
+    jams:hasPatternType "pitch-class-values" ;
+    jams:ofPattern <http://w3id.org/polifonia/resource/pattern/9_9_2_11_2_7> .
+
+<http://w3id.org/polifonia/resource/JAMSObservation/BeautySpotThe33732/9_9_9_0_9_9@0.0> a jams:JAMSObservation,
+        jams:JAMSScoreObservation,
+        jams:ScorePatternOccurrence ;
+    rdfs:label [ ] ;
+    jams:hasDuration "0.0"^^xsd:float ;
+    jams:hasFrequency "1"^^xsd:int ;
+    jams:hasPatternType "pitch-class-values" ;
+    jams:ofPattern <http://w3id.org/polifonia/resource/pattern/9_9_9_0_9_9> .
+
+<http://w3id.org/polifonia/resource/JAMSObservation/BeautySpotThe33732/9_9_9_2_11_2@0.0> a jams:JAMSObservation,
+        jams:JAMSScoreObservation,
+        jams:ScorePatternOccurrence ;
+    rdfs:label [ ] ;
+    jams:hasDuration "0.0"^^xsd:float ;
+    jams:hasFrequency "1"^^xsd:int ;
+    jams:hasPatternType "pitch-class-values" ;
+    jams:ofPattern <http://w3id.org/polifonia/resource/pattern/9_9_9_2_11_2> .
+
+<http://w3id.org/polifonia/resource/JAMSObservation/BeautySpotThe33732/9_9_9_9_0_9@0.0> a jams:JAMSObservation,
+        jams:JAMSScoreObservation,
+        jams:ScorePatternOccurrence ;
+    rdfs:label [ ] ;
+    jams:hasDuration "0.0"^^xsd:float ;
+    jams:hasFrequency "1"^^xsd:int ;
+    jams:hasPatternType "pitch-class-values" ;
+    jams:ofPattern <http://w3id.org/polifonia/resource/pattern/9_9_9_9_0_9> .
+
+<http://w3id.org/polifonia/resource/JAMSObservation/BeautySpotThe33732/9_9_9_9_2_11@0.0> a jams:JAMSObservation,
+        jams:JAMSScoreObservation,
+        jams:ScorePatternOccurrence ;
+    rdfs:label [ ] ;
+    jams:hasDuration "0.0"^^xsd:float ;
+    jams:hasFrequency "1"^^xsd:int ;
+    jams:hasPatternType "pitch-class-values" ;
+    jams:ofPattern <http://w3id.org/polifonia/resource/pattern/9_9_9_9_2_11> .
+
+<http://w3id.org/polifonia/resource/JAMSObservation/BeautySpotThe33732/9_9_9_9_9_0@0.0> a jams:JAMSObservation,
+        jams:JAMSScoreObservation,
+        jams:ScorePatternOccurrence ;
+    rdfs:label [ ] ;
+    jams:hasDuration "0.0"^^xsd:float ;
+    jams:hasFrequency "1"^^xsd:int ;
+    jams:hasPatternType "pitch-class-values" ;
+    jams:ofPattern <http://w3id.org/polifonia/resource/pattern/9_9_9_9_9_0> .
+
+<http://w3id.org/polifonia/resource/JAMSObservation/BeautySpotThe33732/9_9_9_9_9_2@0.0> a jams:JAMSObservation,
+        jams:JAMSScoreObservation,
+        jams:ScorePatternOccurrence ;
+    rdfs:label [ ] ;
+    jams:hasDuration "0.0"^^xsd:float ;
+    jams:hasFrequency "1"^^xsd:int ;
+    jams:hasPatternType "pitch-class-values" ;
+    jams:ofPattern <http://w3id.org/polifonia/resource/pattern/9_9_9_9_9_2> .
+
+<http://w3id.org/polifonia/resource/JAMSObservation/BeautySpotThe33732/9_9_9_9_9_9@0.0> a jams:JAMSObservation,
+        jams:JAMSScoreObservation,
+        jams:ScorePatternOccurrence ;
+    rdfs:label [ ] ;
+    jams:hasDuration "0.0"^^xsd:float ;
+    jams:hasFrequency "2"^^xsd:int ;
+    jams:hasPatternType "pitch-class-values" ;
+    jams:ofPattern <http://w3id.org/polifonia/resource/pattern/9_9_9_9_9_9> .
+
+<http://w3id.org/polifonia/resource/MusicalComposition/e6320074af154d0c95751ae2581b0a35c2f478e9> a mc:MusicalComposition ;
+    rdfs:label "BeautySpotThe33732" ;
+    mc:title "BeautySpotThe33732" ;
+    prov:wasDerivedFrom <http://w3id.org/polifonia/resource/JAMSFile/BeautySpotThe33732.jams> .
+

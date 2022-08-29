@@ -1,0 +1,351 @@
+@prefix core: <http://w3id.org/polifonia/ontology/core/> .
+@prefix jams: <http://w3id.org/polifonia/ontology/jams/> .
+@prefix mc: <http://w3id.org/polifonia/ontology/musical-composition/> .
+@prefix pon-resource: <http://w3id.org/polifonia/resource/> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+pon-resource:Agent%2Fannotator_local_id a core:Agent ;
+    rdfs:label "FONN-Tool" ;
+    jams:hasAnnotatorType pon-resource:annotator-program ;
+    jams:hasName "FONN-Tool" .
+
+<http://w3id.org/polifonia/resource/JAMSAnnotation/12f184dd0ca77ca12ebea47a5e6df9c6d80e031d> a jams:JAMSAnnotation,
+        jams:JAMSScoreAnnotation ;
+    jams:includesObservation <http://w3id.org/polifonia/resource/JAMSObservation/BalladOfPersseOReilly5015/0_0_10_0_0_7@0.0>,
+        <http://w3id.org/polifonia/resource/JAMSObservation/BalladOfPersseOReilly5015/0_0_7_10_0_7@0.0>,
+        <http://w3id.org/polifonia/resource/JAMSObservation/BalladOfPersseOReilly5015/0_0_7_10_0_9@0.0>,
+        <http://w3id.org/polifonia/resource/JAMSObservation/BalladOfPersseOReilly5015/0_10_0_0_7_10@0.0>,
+        <http://w3id.org/polifonia/resource/JAMSObservation/BalladOfPersseOReilly5015/0_10_0_5_10_0@0.0>,
+        <http://w3id.org/polifonia/resource/JAMSObservation/BalladOfPersseOReilly5015/0_3_3_2_2_11@0.0>,
+        <http://w3id.org/polifonia/resource/JAMSObservation/BalladOfPersseOReilly5015/0_7_10_0_0_10@0.0>,
+        <http://w3id.org/polifonia/resource/JAMSObservation/BalladOfPersseOReilly5015/0_7_10_0_7_10@0.0>,
+        <http://w3id.org/polifonia/resource/JAMSObservation/BalladOfPersseOReilly5015/10_0_0_10_0_0@0.0>,
+        <http://w3id.org/polifonia/resource/JAMSObservation/BalladOfPersseOReilly5015/10_0_0_10_0_5@0.0>,
+        <http://w3id.org/polifonia/resource/JAMSObservation/BalladOfPersseOReilly5015/10_0_0_7_10_0@0.0>,
+        <http://w3id.org/polifonia/resource/JAMSObservation/BalladOfPersseOReilly5015/10_0_5_10_0_0@0.0>,
+        <http://w3id.org/polifonia/resource/JAMSObservation/BalladOfPersseOReilly5015/10_0_7_10_0_0@0.0>,
+        <http://w3id.org/polifonia/resource/JAMSObservation/BalladOfPersseOReilly5015/2_11_2_4_4_7@0.0>,
+        <http://w3id.org/polifonia/resource/JAMSObservation/BalladOfPersseOReilly5015/2_2_11_2_4_4@0.0>,
+        <http://w3id.org/polifonia/resource/JAMSObservation/BalladOfPersseOReilly5015/2_4_4_10_0_0@0.0>,
+        <http://w3id.org/polifonia/resource/JAMSObservation/BalladOfPersseOReilly5015/2_4_4_7_5_5@0.0>,
+        <http://w3id.org/polifonia/resource/JAMSObservation/BalladOfPersseOReilly5015/2_5_5_4_0_3@0.0>,
+        <http://w3id.org/polifonia/resource/JAMSObservation/BalladOfPersseOReilly5015/3_2_2_11_2_4@0.0>,
+        <http://w3id.org/polifonia/resource/JAMSObservation/BalladOfPersseOReilly5015/3_3_2_2_11_2@0.0>,
+        <http://w3id.org/polifonia/resource/JAMSObservation/BalladOfPersseOReilly5015/4_0_3_3_2_2@0.0>,
+        <http://w3id.org/polifonia/resource/JAMSObservation/BalladOfPersseOReilly5015/4_10_0_0_10_0@0.0>,
+        <http://w3id.org/polifonia/resource/JAMSObservation/BalladOfPersseOReilly5015/4_4_10_0_0_10@0.0>,
+        <http://w3id.org/polifonia/resource/JAMSObservation/BalladOfPersseOReilly5015/4_4_7_5_5_2@0.0>,
+        <http://w3id.org/polifonia/resource/JAMSObservation/BalladOfPersseOReilly5015/4_7_5_5_2_5@0.0>,
+        <http://w3id.org/polifonia/resource/JAMSObservation/BalladOfPersseOReilly5015/5_2_5_5_4_0@0.0>,
+        <http://w3id.org/polifonia/resource/JAMSObservation/BalladOfPersseOReilly5015/5_4_0_3_3_2@0.0>,
+        <http://w3id.org/polifonia/resource/JAMSObservation/BalladOfPersseOReilly5015/5_5_2_5_5_4@0.0>,
+        <http://w3id.org/polifonia/resource/JAMSObservation/BalladOfPersseOReilly5015/5_5_4_0_3_3@0.0>,
+        <http://w3id.org/polifonia/resource/JAMSObservation/BalladOfPersseOReilly5015/7_10_0_7_10_0@0.0>,
+        <http://w3id.org/polifonia/resource/JAMSObservation/BalladOfPersseOReilly5015/7_5_5_2_5_5@0.0>,
+        <http://w3id.org/polifonia/resource/JAMSObservation/BalladOfPersseOReilly5015/9_7_5_5_2_5@0.0> ;
+    jams:isJAMSAnnotationOf <http://w3id.org/polifonia/resource/MusicalComposition/12f184dd0ca77ca12ebea47a5e6df9c6d80e031d> .
+
+<http://w3id.org/polifonia/resource/Score/song_local_id> jams:hasJAMSAnnotation <http://w3id.org/polifonia/resource/MusicalComposition/12f184dd0ca77ca12ebea47a5e6df9c6d80e031d> .
+
+<http://w3id.org/polifonia/resource/JAMSFile/BalladOfPersseOReilly5015.jams> a jams:JAMSFile ;
+    jams:identifiers [ ] ;
+    jams:jamsVersion "0.3.4" ;
+    jams:release "" ;
+    prov:wasDerivedFrom "The Session" ;
+    prov:wasMemberOf <https://github.com/ashahidkhattak/thesession> .
+
+<http://w3id.org/polifonia/resource/JAMSObservation/BalladOfPersseOReilly5015/0_0_10_0_0_7@0.0> a jams:JAMSObservation,
+        jams:JAMSScoreObservation,
+        jams:ScorePatternOccurrence ;
+    rdfs:label [ ] ;
+    jams:hasDuration "0.0"^^xsd:float ;
+    jams:hasFrequency "2"^^xsd:int ;
+    jams:hasPatternType "pitch-class-values" ;
+    jams:ofPattern <http://w3id.org/polifonia/resource/pattern/0_0_10_0_0_7> .
+
+<http://w3id.org/polifonia/resource/JAMSObservation/BalladOfPersseOReilly5015/0_0_7_10_0_7@0.0> a jams:JAMSObservation,
+        jams:JAMSScoreObservation,
+        jams:ScorePatternOccurrence ;
+    rdfs:label [ ] ;
+    jams:hasDuration "0.0"^^xsd:float ;
+    jams:hasFrequency "1"^^xsd:int ;
+    jams:hasPatternType "pitch-class-values" ;
+    jams:ofPattern <http://w3id.org/polifonia/resource/pattern/0_0_7_10_0_7> .
+
+<http://w3id.org/polifonia/resource/JAMSObservation/BalladOfPersseOReilly5015/0_0_7_10_0_9@0.0> a jams:JAMSObservation,
+        jams:JAMSScoreObservation,
+        jams:ScorePatternOccurrence ;
+    rdfs:label [ ] ;
+    jams:hasDuration "0.0"^^xsd:float ;
+    jams:hasFrequency "1"^^xsd:int ;
+    jams:hasPatternType "pitch-class-values" ;
+    jams:ofPattern <http://w3id.org/polifonia/resource/pattern/0_0_7_10_0_9> .
+
+<http://w3id.org/polifonia/resource/JAMSObservation/BalladOfPersseOReilly5015/0_10_0_0_7_10@0.0> a jams:JAMSObservation,
+        jams:JAMSScoreObservation,
+        jams:ScorePatternOccurrence ;
+    rdfs:label [ ] ;
+    jams:hasDuration "0.0"^^xsd:float ;
+    jams:hasFrequency "2"^^xsd:int ;
+    jams:hasPatternType "pitch-class-values" ;
+    jams:ofPattern <http://w3id.org/polifonia/resource/pattern/0_10_0_0_7_10> .
+
+<http://w3id.org/polifonia/resource/JAMSObservation/BalladOfPersseOReilly5015/0_10_0_5_10_0@0.0> a jams:JAMSObservation,
+        jams:JAMSScoreObservation,
+        jams:ScorePatternOccurrence ;
+    rdfs:label [ ] ;
+    jams:hasDuration "0.0"^^xsd:float ;
+    jams:hasFrequency "2"^^xsd:int ;
+    jams:hasPatternType "pitch-class-values" ;
+    jams:ofPattern <http://w3id.org/polifonia/resource/pattern/0_10_0_5_10_0> .
+
+<http://w3id.org/polifonia/resource/JAMSObservation/BalladOfPersseOReilly5015/0_3_3_2_2_11@0.0> a jams:JAMSObservation,
+        jams:JAMSScoreObservation,
+        jams:ScorePatternOccurrence ;
+    rdfs:label [ ] ;
+    jams:hasDuration "0.0"^^xsd:float ;
+    jams:hasFrequency "2"^^xsd:int ;
+    jams:hasPatternType "pitch-class-values" ;
+    jams:ofPattern <http://w3id.org/polifonia/resource/pattern/0_3_3_2_2_11> .
+
+<http://w3id.org/polifonia/resource/JAMSObservation/BalladOfPersseOReilly5015/0_7_10_0_0_10@0.0> a jams:JAMSObservation,
+        jams:JAMSScoreObservation,
+        jams:ScorePatternOccurrence ;
+    rdfs:label [ ] ;
+    jams:hasDuration "0.0"^^xsd:float ;
+    jams:hasFrequency "1"^^xsd:int ;
+    jams:hasPatternType "pitch-class-values" ;
+    jams:ofPattern <http://w3id.org/polifonia/resource/pattern/0_7_10_0_0_10> .
+
+<http://w3id.org/polifonia/resource/JAMSObservation/BalladOfPersseOReilly5015/0_7_10_0_7_10@0.0> a jams:JAMSObservation,
+        jams:JAMSScoreObservation,
+        jams:ScorePatternOccurrence ;
+    rdfs:label [ ] ;
+    jams:hasDuration "0.0"^^xsd:float ;
+    jams:hasFrequency "1"^^xsd:int ;
+    jams:hasPatternType "pitch-class-values" ;
+    jams:ofPattern <http://w3id.org/polifonia/resource/pattern/0_7_10_0_7_10> .
+
+<http://w3id.org/polifonia/resource/JAMSObservation/BalladOfPersseOReilly5015/10_0_0_10_0_0@0.0> a jams:JAMSObservation,
+        jams:JAMSScoreObservation,
+        jams:ScorePatternOccurrence ;
+    rdfs:label [ ] ;
+    jams:hasDuration "0.0"^^xsd:float ;
+    jams:hasFrequency "2"^^xsd:int ;
+    jams:hasPatternType "pitch-class-values" ;
+    jams:ofPattern <http://w3id.org/polifonia/resource/pattern/10_0_0_10_0_0> .
+
+<http://w3id.org/polifonia/resource/JAMSObservation/BalladOfPersseOReilly5015/10_0_0_10_0_5@0.0> a jams:JAMSObservation,
+        jams:JAMSScoreObservation,
+        jams:ScorePatternOccurrence ;
+    rdfs:label [ ] ;
+    jams:hasDuration "0.0"^^xsd:float ;
+    jams:hasFrequency "2"^^xsd:int ;
+    jams:hasPatternType "pitch-class-values" ;
+    jams:ofPattern <http://w3id.org/polifonia/resource/pattern/10_0_0_10_0_5> .
+
+<http://w3id.org/polifonia/resource/JAMSObservation/BalladOfPersseOReilly5015/10_0_0_7_10_0@0.0> a jams:JAMSObservation,
+        jams:JAMSScoreObservation,
+        jams:ScorePatternOccurrence ;
+    rdfs:label [ ] ;
+    jams:hasDuration "0.0"^^xsd:float ;
+    jams:hasFrequency "2"^^xsd:int ;
+    jams:hasPatternType "pitch-class-values" ;
+    jams:ofPattern <http://w3id.org/polifonia/resource/pattern/10_0_0_7_10_0> .
+
+<http://w3id.org/polifonia/resource/JAMSObservation/BalladOfPersseOReilly5015/10_0_5_10_0_0@0.0> a jams:JAMSObservation,
+        jams:JAMSScoreObservation,
+        jams:ScorePatternOccurrence ;
+    rdfs:label [ ] ;
+    jams:hasDuration "0.0"^^xsd:float ;
+    jams:hasFrequency "2"^^xsd:int ;
+    jams:hasPatternType "pitch-class-values" ;
+    jams:ofPattern <http://w3id.org/polifonia/resource/pattern/10_0_5_10_0_0> .
+
+<http://w3id.org/polifonia/resource/JAMSObservation/BalladOfPersseOReilly5015/10_0_7_10_0_0@0.0> a jams:JAMSObservation,
+        jams:JAMSScoreObservation,
+        jams:ScorePatternOccurrence ;
+    rdfs:label [ ] ;
+    jams:hasDuration "0.0"^^xsd:float ;
+    jams:hasFrequency "1"^^xsd:int ;
+    jams:hasPatternType "pitch-class-values" ;
+    jams:ofPattern <http://w3id.org/polifonia/resource/pattern/10_0_7_10_0_0> .
+
+<http://w3id.org/polifonia/resource/JAMSObservation/BalladOfPersseOReilly5015/2_11_2_4_4_7@0.0> a jams:JAMSObservation,
+        jams:JAMSScoreObservation,
+        jams:ScorePatternOccurrence ;
+    rdfs:label [ ] ;
+    jams:hasDuration "0.0"^^xsd:float ;
+    jams:hasFrequency "1"^^xsd:int ;
+    jams:hasPatternType "pitch-class-values" ;
+    jams:ofPattern <http://w3id.org/polifonia/resource/pattern/2_11_2_4_4_7> .
+
+<http://w3id.org/polifonia/resource/JAMSObservation/BalladOfPersseOReilly5015/2_2_11_2_4_4@0.0> a jams:JAMSObservation,
+        jams:JAMSScoreObservation,
+        jams:ScorePatternOccurrence ;
+    rdfs:label [ ] ;
+    jams:hasDuration "0.0"^^xsd:float ;
+    jams:hasFrequency "2"^^xsd:int ;
+    jams:hasPatternType "pitch-class-values" ;
+    jams:ofPattern <http://w3id.org/polifonia/resource/pattern/2_2_11_2_4_4> .
+
+<http://w3id.org/polifonia/resource/JAMSObservation/BalladOfPersseOReilly5015/2_4_4_10_0_0@0.0> a jams:JAMSObservation,
+        jams:JAMSScoreObservation,
+        jams:ScorePatternOccurrence ;
+    rdfs:label [ ] ;
+    jams:hasDuration "0.0"^^xsd:float ;
+    jams:hasFrequency "1"^^xsd:int ;
+    jams:hasPatternType "pitch-class-values" ;
+    jams:ofPattern <http://w3id.org/polifonia/resource/pattern/2_4_4_10_0_0> .
+
+<http://w3id.org/polifonia/resource/JAMSObservation/BalladOfPersseOReilly5015/2_4_4_7_5_5@0.0> a jams:JAMSObservation,
+        jams:JAMSScoreObservation,
+        jams:ScorePatternOccurrence ;
+    rdfs:label [ ] ;
+    jams:hasDuration "0.0"^^xsd:float ;
+    jams:hasFrequency "1"^^xsd:int ;
+    jams:hasPatternType "pitch-class-values" ;
+    jams:ofPattern <http://w3id.org/polifonia/resource/pattern/2_4_4_7_5_5> .
+
+<http://w3id.org/polifonia/resource/JAMSObservation/BalladOfPersseOReilly5015/2_5_5_4_0_3@0.0> a jams:JAMSObservation,
+        jams:JAMSScoreObservation,
+        jams:ScorePatternOccurrence ;
+    rdfs:label [ ] ;
+    jams:hasDuration "0.0"^^xsd:float ;
+    jams:hasFrequency "2"^^xsd:int ;
+    jams:hasPatternType "pitch-class-values" ;
+    jams:ofPattern <http://w3id.org/polifonia/resource/pattern/2_5_5_4_0_3> .
+
+<http://w3id.org/polifonia/resource/JAMSObservation/BalladOfPersseOReilly5015/3_2_2_11_2_4@0.0> a jams:JAMSObservation,
+        jams:JAMSScoreObservation,
+        jams:ScorePatternOccurrence ;
+    rdfs:label [ ] ;
+    jams:hasDuration "0.0"^^xsd:float ;
+    jams:hasFrequency "2"^^xsd:int ;
+    jams:hasPatternType "pitch-class-values" ;
+    jams:ofPattern <http://w3id.org/polifonia/resource/pattern/3_2_2_11_2_4> .
+
+<http://w3id.org/polifonia/resource/JAMSObservation/BalladOfPersseOReilly5015/3_3_2_2_11_2@0.0> a jams:JAMSObservation,
+        jams:JAMSScoreObservation,
+        jams:ScorePatternOccurrence ;
+    rdfs:label [ ] ;
+    jams:hasDuration "0.0"^^xsd:float ;
+    jams:hasFrequency "2"^^xsd:int ;
+    jams:hasPatternType "pitch-class-values" ;
+    jams:ofPattern <http://w3id.org/polifonia/resource/pattern/3_3_2_2_11_2> .
+
+<http://w3id.org/polifonia/resource/JAMSObservation/BalladOfPersseOReilly5015/4_0_3_3_2_2@0.0> a jams:JAMSObservation,
+        jams:JAMSScoreObservation,
+        jams:ScorePatternOccurrence ;
+    rdfs:label [ ] ;
+    jams:hasDuration "0.0"^^xsd:float ;
+    jams:hasFrequency "2"^^xsd:int ;
+    jams:hasPatternType "pitch-class-values" ;
+    jams:ofPattern <http://w3id.org/polifonia/resource/pattern/4_0_3_3_2_2> .
+
+<http://w3id.org/polifonia/resource/JAMSObservation/BalladOfPersseOReilly5015/4_10_0_0_10_0@0.0> a jams:JAMSObservation,
+        jams:JAMSScoreObservation,
+        jams:ScorePatternOccurrence ;
+    rdfs:label [ ] ;
+    jams:hasDuration "0.0"^^xsd:float ;
+    jams:hasFrequency "1"^^xsd:int ;
+    jams:hasPatternType "pitch-class-values" ;
+    jams:ofPattern <http://w3id.org/polifonia/resource/pattern/4_10_0_0_10_0> .
+
+<http://w3id.org/polifonia/resource/JAMSObservation/BalladOfPersseOReilly5015/4_4_10_0_0_10@0.0> a jams:JAMSObservation,
+        jams:JAMSScoreObservation,
+        jams:ScorePatternOccurrence ;
+    rdfs:label [ ] ;
+    jams:hasDuration "0.0"^^xsd:float ;
+    jams:hasFrequency "1"^^xsd:int ;
+    jams:hasPatternType "pitch-class-values" ;
+    jams:ofPattern <http://w3id.org/polifonia/resource/pattern/4_4_10_0_0_10> .
+
+<http://w3id.org/polifonia/resource/JAMSObservation/BalladOfPersseOReilly5015/4_4_7_5_5_2@0.0> a jams:JAMSObservation,
+        jams:JAMSScoreObservation,
+        jams:ScorePatternOccurrence ;
+    rdfs:label [ ] ;
+    jams:hasDuration "0.0"^^xsd:float ;
+    jams:hasFrequency "1"^^xsd:int ;
+    jams:hasPatternType "pitch-class-values" ;
+    jams:ofPattern <http://w3id.org/polifonia/resource/pattern/4_4_7_5_5_2> .
+
+<http://w3id.org/polifonia/resource/JAMSObservation/BalladOfPersseOReilly5015/4_7_5_5_2_5@0.0> a jams:JAMSObservation,
+        jams:JAMSScoreObservation,
+        jams:ScorePatternOccurrence ;
+    rdfs:label [ ] ;
+    jams:hasDuration "0.0"^^xsd:float ;
+    jams:hasFrequency "1"^^xsd:int ;
+    jams:hasPatternType "pitch-class-values" ;
+    jams:ofPattern <http://w3id.org/polifonia/resource/pattern/4_7_5_5_2_5> .
+
+<http://w3id.org/polifonia/resource/JAMSObservation/BalladOfPersseOReilly5015/5_2_5_5_4_0@0.0> a jams:JAMSObservation,
+        jams:JAMSScoreObservation,
+        jams:ScorePatternOccurrence ;
+    rdfs:label [ ] ;
+    jams:hasDuration "0.0"^^xsd:float ;
+    jams:hasFrequency "2"^^xsd:int ;
+    jams:hasPatternType "pitch-class-values" ;
+    jams:ofPattern <http://w3id.org/polifonia/resource/pattern/5_2_5_5_4_0> .
+
+<http://w3id.org/polifonia/resource/JAMSObservation/BalladOfPersseOReilly5015/5_4_0_3_3_2@0.0> a jams:JAMSObservation,
+        jams:JAMSScoreObservation,
+        jams:ScorePatternOccurrence ;
+    rdfs:label [ ] ;
+    jams:hasDuration "0.0"^^xsd:float ;
+    jams:hasFrequency "2"^^xsd:int ;
+    jams:hasPatternType "pitch-class-values" ;
+    jams:ofPattern <http://w3id.org/polifonia/resource/pattern/5_4_0_3_3_2> .
+
+<http://w3id.org/polifonia/resource/JAMSObservation/BalladOfPersseOReilly5015/5_5_2_5_5_4@0.0> a jams:JAMSObservation,
+        jams:JAMSScoreObservation,
+        jams:ScorePatternOccurrence ;
+    rdfs:label [ ] ;
+    jams:hasDuration "0.0"^^xsd:float ;
+    jams:hasFrequency "2"^^xsd:int ;
+    jams:hasPatternType "pitch-class-values" ;
+    jams:ofPattern <http://w3id.org/polifonia/resource/pattern/5_5_2_5_5_4> .
+
+<http://w3id.org/polifonia/resource/JAMSObservation/BalladOfPersseOReilly5015/5_5_4_0_3_3@0.0> a jams:JAMSObservation,
+        jams:JAMSScoreObservation,
+        jams:ScorePatternOccurrence ;
+    rdfs:label [ ] ;
+    jams:hasDuration "0.0"^^xsd:float ;
+    jams:hasFrequency "2"^^xsd:int ;
+    jams:hasPatternType "pitch-class-values" ;
+    jams:ofPattern <http://w3id.org/polifonia/resource/pattern/5_5_4_0_3_3> .
+
+<http://w3id.org/polifonia/resource/JAMSObservation/BalladOfPersseOReilly5015/7_10_0_7_10_0@0.0> a jams:JAMSObservation,
+        jams:JAMSScoreObservation,
+        jams:ScorePatternOccurrence ;
+    rdfs:label [ ] ;
+    jams:hasDuration "0.0"^^xsd:float ;
+    jams:hasFrequency "1"^^xsd:int ;
+    jams:hasPatternType "pitch-class-values" ;
+    jams:ofPattern <http://w3id.org/polifonia/resource/pattern/7_10_0_7_10_0> .
+
+<http://w3id.org/polifonia/resource/JAMSObservation/BalladOfPersseOReilly5015/7_5_5_2_5_5@0.0> a jams:JAMSObservation,
+        jams:JAMSScoreObservation,
+        jams:ScorePatternOccurrence ;
+    rdfs:label [ ] ;
+    jams:hasDuration "0.0"^^xsd:float ;
+    jams:hasFrequency "2"^^xsd:int ;
+    jams:hasPatternType "pitch-class-values" ;
+    jams:ofPattern <http://w3id.org/polifonia/resource/pattern/7_5_5_2_5_5> .
+
+<http://w3id.org/polifonia/resource/JAMSObservation/BalladOfPersseOReilly5015/9_7_5_5_2_5@0.0> a jams:JAMSObservation,
+        jams:JAMSScoreObservation,
+        jams:ScorePatternOccurrence ;
+    rdfs:label [ ] ;
+    jams:hasDuration "0.0"^^xsd:float ;
+    jams:hasFrequency "1"^^xsd:int ;
+    jams:hasPatternType "pitch-class-values" ;
+    jams:ofPattern <http://w3id.org/polifonia/resource/pattern/9_7_5_5_2_5> .
+
+<http://w3id.org/polifonia/resource/MusicalComposition/12f184dd0ca77ca12ebea47a5e6df9c6d80e031d> a mc:MusicalComposition ;
+    rdfs:label "BalladOfPersseOReilly5015" ;
+    mc:title "BalladOfPersseOReilly5015" ;
+    prov:wasDerivedFrom <http://w3id.org/polifonia/resource/JAMSFile/BalladOfPersseOReilly5015.jams> .
+

@@ -1,0 +1,601 @@
+@prefix core: <http://w3id.org/polifonia/ontology/core/> .
+@prefix jams: <http://w3id.org/polifonia/ontology/jams/> .
+@prefix mc: <http://w3id.org/polifonia/ontology/musical-composition/> .
+@prefix pon-resource: <http://w3id.org/polifonia/resource/> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+pon-resource:Agent%2Fannotator_local_id a core:Agent ;
+    rdfs:label "FONN-Tool" ;
+    jams:hasAnnotatorType pon-resource:annotator-program ;
+    jams:hasName "FONN-Tool" .
+
+<http://w3id.org/polifonia/resource/JAMSAnnotation/86d01f04e6ff9e70912950ae9fb420f535408c41> a jams:JAMSAnnotation,
+        jams:JAMSScoreAnnotation ;
+    jams:includesObservation <http://w3id.org/polifonia/resource/JAMSObservation/FrancAPhoill39917/0_0_7_6_4_2@0.0>,
+        <http://w3id.org/polifonia/resource/JAMSObservation/FrancAPhoill39917/0_11_9_11_7_0@0.0>,
+        <http://w3id.org/polifonia/resource/JAMSObservation/FrancAPhoill39917/0_2_2_4_2_11@0.0>,
+        <http://w3id.org/polifonia/resource/JAMSObservation/FrancAPhoill39917/0_2_7_2_0_11@0.0>,
+        <http://w3id.org/polifonia/resource/JAMSObservation/FrancAPhoill39917/0_2_7_5_4_2@0.0>,
+        <http://w3id.org/polifonia/resource/JAMSObservation/FrancAPhoill39917/0_2_7_7_7_6@0.0>,
+        <http://w3id.org/polifonia/resource/JAMSObservation/FrancAPhoill39917/0_7_6_4_2_5@0.0>,
+        <http://w3id.org/polifonia/resource/JAMSObservation/FrancAPhoill39917/11_2_4_0_2_2@0.0>,
+        <http://w3id.org/polifonia/resource/JAMSObservation/FrancAPhoill39917/11_5_0_2_7_2@0.0>,
+        <http://w3id.org/polifonia/resource/JAMSObservation/FrancAPhoill39917/11_5_5_0_2_2@0.0>,
+        <http://w3id.org/polifonia/resource/JAMSObservation/FrancAPhoill39917/11_5_5_0_2_7@0.0>,
+        <http://w3id.org/polifonia/resource/JAMSObservation/FrancAPhoill39917/11_7_0_2_7_2@0.0>,
+        <http://w3id.org/polifonia/resource/JAMSObservation/FrancAPhoill39917/11_7_0_2_7_7@0.0>,
+        <http://w3id.org/polifonia/resource/JAMSObservation/FrancAPhoill39917/11_9_11_7_0_2@0.0>,
+        <http://w3id.org/polifonia/resource/JAMSObservation/FrancAPhoill39917/2_0_11_9_11_7@0.0>,
+        <http://w3id.org/polifonia/resource/JAMSObservation/FrancAPhoill39917/2_11_2_4_0_2@0.0>,
+        <http://w3id.org/polifonia/resource/JAMSObservation/FrancAPhoill39917/2_11_5_5_0_2@0.0>,
+        <http://w3id.org/polifonia/resource/JAMSObservation/FrancAPhoill39917/2_2_4_2_11_2@0.0>,
+        <http://w3id.org/polifonia/resource/JAMSObservation/FrancAPhoill39917/2_4_0_2_2_4@0.0>,
+        <http://w3id.org/polifonia/resource/JAMSObservation/FrancAPhoill39917/2_4_2_11_2_4@0.0>,
+        <http://w3id.org/polifonia/resource/JAMSObservation/FrancAPhoill39917/2_4_2_11_5_5@0.0>,
+        <http://w3id.org/polifonia/resource/JAMSObservation/FrancAPhoill39917/2_5_5_0_2_7@0.0>,
+        <http://w3id.org/polifonia/resource/JAMSObservation/FrancAPhoill39917/2_7_2_0_11_9@0.0>,
+        <http://w3id.org/polifonia/resource/JAMSObservation/FrancAPhoill39917/2_7_5_0_2_7@0.0>,
+        <http://w3id.org/polifonia/resource/JAMSObservation/FrancAPhoill39917/2_7_5_4_2_5@0.0>,
+        <http://w3id.org/polifonia/resource/JAMSObservation/FrancAPhoill39917/2_7_5_4_2_7@0.0>,
+        <http://w3id.org/polifonia/resource/JAMSObservation/FrancAPhoill39917/4_0_2_2_4_2@0.0>,
+        <http://w3id.org/polifonia/resource/JAMSObservation/FrancAPhoill39917/4_2_11_2_4_0@0.0>,
+        <http://w3id.org/polifonia/resource/JAMSObservation/FrancAPhoill39917/4_2_11_5_5_0@0.0>,
+        <http://w3id.org/polifonia/resource/JAMSObservation/FrancAPhoill39917/4_2_5_5_0_2@0.0>,
+        <http://w3id.org/polifonia/resource/JAMSObservation/FrancAPhoill39917/4_2_7_5_0_2@0.0>,
+        <http://w3id.org/polifonia/resource/JAMSObservation/FrancAPhoill39917/5_0_2_2_4_2@0.0>,
+        <http://w3id.org/polifonia/resource/JAMSObservation/FrancAPhoill39917/5_0_2_7_2_0@0.0>,
+        <http://w3id.org/polifonia/resource/JAMSObservation/FrancAPhoill39917/5_0_2_7_2_7@0.0>,
+        <http://w3id.org/polifonia/resource/JAMSObservation/FrancAPhoill39917/5_0_2_7_5_4@0.0>,
+        <http://w3id.org/polifonia/resource/JAMSObservation/FrancAPhoill39917/5_0_2_7_7_7@0.0>,
+        <http://w3id.org/polifonia/resource/JAMSObservation/FrancAPhoill39917/5_4_2_5_5_0@0.0>,
+        <http://w3id.org/polifonia/resource/JAMSObservation/FrancAPhoill39917/5_4_2_7_5_0@0.0>,
+        <http://w3id.org/polifonia/resource/JAMSObservation/FrancAPhoill39917/5_5_0_2_2_4@0.0>,
+        <http://w3id.org/polifonia/resource/JAMSObservation/FrancAPhoill39917/5_5_0_2_7_2@0.0>,
+        <http://w3id.org/polifonia/resource/JAMSObservation/FrancAPhoill39917/5_5_0_2_7_5@0.0>,
+        <http://w3id.org/polifonia/resource/JAMSObservation/FrancAPhoill39917/5_5_0_2_7_7@0.0>,
+        <http://w3id.org/polifonia/resource/JAMSObservation/FrancAPhoill39917/6_4_2_5_5_0@0.0>,
+        <http://w3id.org/polifonia/resource/JAMSObservation/FrancAPhoill39917/6_7_7_0_0_7@0.0>,
+        <http://w3id.org/polifonia/resource/JAMSObservation/FrancAPhoill39917/7_0_0_7_6_4@0.0>,
+        <http://w3id.org/polifonia/resource/JAMSObservation/FrancAPhoill39917/7_0_2_7_2_7@0.0>,
+        <http://w3id.org/polifonia/resource/JAMSObservation/FrancAPhoill39917/7_0_2_7_7_7@0.0>,
+        <http://w3id.org/polifonia/resource/JAMSObservation/FrancAPhoill39917/7_2_0_11_9_11@0.0>,
+        <http://w3id.org/polifonia/resource/JAMSObservation/FrancAPhoill39917/7_5_0_2_7_5@0.0>,
+        <http://w3id.org/polifonia/resource/JAMSObservation/FrancAPhoill39917/7_5_4_2_5_5@0.0>,
+        <http://w3id.org/polifonia/resource/JAMSObservation/FrancAPhoill39917/7_5_4_2_7_5@0.0>,
+        <http://w3id.org/polifonia/resource/JAMSObservation/FrancAPhoill39917/7_6_4_2_5_5@0.0>,
+        <http://w3id.org/polifonia/resource/JAMSObservation/FrancAPhoill39917/7_6_7_7_0_0@0.0>,
+        <http://w3id.org/polifonia/resource/JAMSObservation/FrancAPhoill39917/7_7_0_0_7_6@0.0>,
+        <http://w3id.org/polifonia/resource/JAMSObservation/FrancAPhoill39917/7_7_6_7_7_0@0.0>,
+        <http://w3id.org/polifonia/resource/JAMSObservation/FrancAPhoill39917/7_7_7_6_7_7@0.0>,
+        <http://w3id.org/polifonia/resource/JAMSObservation/FrancAPhoill39917/9_11_7_0_2_7@0.0> ;
+    jams:isJAMSAnnotationOf <http://w3id.org/polifonia/resource/MusicalComposition/86d01f04e6ff9e70912950ae9fb420f535408c41> .
+
+<http://w3id.org/polifonia/resource/Score/song_local_id> jams:hasJAMSAnnotation <http://w3id.org/polifonia/resource/MusicalComposition/86d01f04e6ff9e70912950ae9fb420f535408c41> .
+
+<http://w3id.org/polifonia/resource/JAMSFile/FrancAPhoill39917.jams> a jams:JAMSFile ;
+    jams:identifiers [ ] ;
+    jams:jamsVersion "0.3.4" ;
+    jams:release "" ;
+    prov:wasDerivedFrom "The Session" ;
+    prov:wasMemberOf <https://github.com/ashahidkhattak/thesession> .
+
+<http://w3id.org/polifonia/resource/JAMSObservation/FrancAPhoill39917/0_0_7_6_4_2@0.0> a jams:JAMSObservation,
+        jams:JAMSScoreObservation,
+        jams:ScorePatternOccurrence ;
+    rdfs:label [ ] ;
+    jams:hasDuration "0.0"^^xsd:float ;
+    jams:hasFrequency "2"^^xsd:int ;
+    jams:hasPatternType "pitch-class-values" ;
+    jams:ofPattern <http://w3id.org/polifonia/resource/pattern/0_0_7_6_4_2> .
+
+<http://w3id.org/polifonia/resource/JAMSObservation/FrancAPhoill39917/0_11_9_11_7_0@0.0> a jams:JAMSObservation,
+        jams:JAMSScoreObservation,
+        jams:ScorePatternOccurrence ;
+    rdfs:label [ ] ;
+    jams:hasDuration "0.0"^^xsd:float ;
+    jams:hasFrequency "2"^^xsd:int ;
+    jams:hasPatternType "pitch-class-values" ;
+    jams:ofPattern <http://w3id.org/polifonia/resource/pattern/0_11_9_11_7_0> .
+
+<http://w3id.org/polifonia/resource/JAMSObservation/FrancAPhoill39917/0_2_2_4_2_11@0.0> a jams:JAMSObservation,
+        jams:JAMSScoreObservation,
+        jams:ScorePatternOccurrence ;
+    rdfs:label [ ] ;
+    jams:hasDuration "0.0"^^xsd:float ;
+    jams:hasFrequency "3"^^xsd:int ;
+    jams:hasPatternType "pitch-class-values" ;
+    jams:ofPattern <http://w3id.org/polifonia/resource/pattern/0_2_2_4_2_11> .
+
+<http://w3id.org/polifonia/resource/JAMSObservation/FrancAPhoill39917/0_2_7_2_0_11@0.0> a jams:JAMSObservation,
+        jams:JAMSScoreObservation,
+        jams:ScorePatternOccurrence ;
+    rdfs:label [ ] ;
+    jams:hasDuration "0.0"^^xsd:float ;
+    jams:hasFrequency "2"^^xsd:int ;
+    jams:hasPatternType "pitch-class-values" ;
+    jams:ofPattern <http://w3id.org/polifonia/resource/pattern/0_2_7_2_0_11> .
+
+<http://w3id.org/polifonia/resource/JAMSObservation/FrancAPhoill39917/0_2_7_5_4_2@0.0> a jams:JAMSObservation,
+        jams:JAMSScoreObservation,
+        jams:ScorePatternOccurrence ;
+    rdfs:label [ ] ;
+    jams:hasDuration "0.0"^^xsd:float ;
+    jams:hasFrequency "4"^^xsd:int ;
+    jams:hasPatternType "pitch-class-values" ;
+    jams:ofPattern <http://w3id.org/polifonia/resource/pattern/0_2_7_5_4_2> .
+
+<http://w3id.org/polifonia/resource/JAMSObservation/FrancAPhoill39917/0_2_7_7_7_6@0.0> a jams:JAMSObservation,
+        jams:JAMSScoreObservation,
+        jams:ScorePatternOccurrence ;
+    rdfs:label [ ] ;
+    jams:hasDuration "0.0"^^xsd:float ;
+    jams:hasFrequency "2"^^xsd:int ;
+    jams:hasPatternType "pitch-class-values" ;
+    jams:ofPattern <http://w3id.org/polifonia/resource/pattern/0_2_7_7_7_6> .
+
+<http://w3id.org/polifonia/resource/JAMSObservation/FrancAPhoill39917/0_7_6_4_2_5@0.0> a jams:JAMSObservation,
+        jams:JAMSScoreObservation,
+        jams:ScorePatternOccurrence ;
+    rdfs:label [ ] ;
+    jams:hasDuration "0.0"^^xsd:float ;
+    jams:hasFrequency "2"^^xsd:int ;
+    jams:hasPatternType "pitch-class-values" ;
+    jams:ofPattern <http://w3id.org/polifonia/resource/pattern/0_7_6_4_2_5> .
+
+<http://w3id.org/polifonia/resource/JAMSObservation/FrancAPhoill39917/11_2_4_0_2_2@0.0> a jams:JAMSObservation,
+        jams:JAMSScoreObservation,
+        jams:ScorePatternOccurrence ;
+    rdfs:label [ ] ;
+    jams:hasDuration "0.0"^^xsd:float ;
+    jams:hasFrequency "2"^^xsd:int ;
+    jams:hasPatternType "pitch-class-values" ;
+    jams:ofPattern <http://w3id.org/polifonia/resource/pattern/11_2_4_0_2_2> .
+
+<http://w3id.org/polifonia/resource/JAMSObservation/FrancAPhoill39917/11_5_0_2_7_2@0.0> a jams:JAMSObservation,
+        jams:JAMSScoreObservation,
+        jams:ScorePatternOccurrence ;
+    rdfs:label [ ] ;
+    jams:hasDuration "0.0"^^xsd:float ;
+    jams:hasFrequency "2"^^xsd:int ;
+    jams:hasPatternType "pitch-class-values" ;
+    jams:ofPattern <http://w3id.org/polifonia/resource/pattern/11_5_0_2_7_2> .
+
+<http://w3id.org/polifonia/resource/JAMSObservation/FrancAPhoill39917/11_5_5_0_2_2@0.0> a jams:JAMSObservation,
+        jams:JAMSScoreObservation,
+        jams:ScorePatternOccurrence ;
+    rdfs:label [ ] ;
+    jams:hasDuration "0.0"^^xsd:float ;
+    jams:hasFrequency "1"^^xsd:int ;
+    jams:hasPatternType "pitch-class-values" ;
+    jams:ofPattern <http://w3id.org/polifonia/resource/pattern/11_5_5_0_2_2> .
+
+<http://w3id.org/polifonia/resource/JAMSObservation/FrancAPhoill39917/11_5_5_0_2_7@0.0> a jams:JAMSObservation,
+        jams:JAMSScoreObservation,
+        jams:ScorePatternOccurrence ;
+    rdfs:label [ ] ;
+    jams:hasDuration "0.0"^^xsd:float ;
+    jams:hasFrequency "1"^^xsd:int ;
+    jams:hasPatternType "pitch-class-values" ;
+    jams:ofPattern <http://w3id.org/polifonia/resource/pattern/11_5_5_0_2_7> .
+
+<http://w3id.org/polifonia/resource/JAMSObservation/FrancAPhoill39917/11_7_0_2_7_2@0.0> a jams:JAMSObservation,
+        jams:JAMSScoreObservation,
+        jams:ScorePatternOccurrence ;
+    rdfs:label [ ] ;
+    jams:hasDuration "0.0"^^xsd:float ;
+    jams:hasFrequency "1"^^xsd:int ;
+    jams:hasPatternType "pitch-class-values" ;
+    jams:ofPattern <http://w3id.org/polifonia/resource/pattern/11_7_0_2_7_2> .
+
+<http://w3id.org/polifonia/resource/JAMSObservation/FrancAPhoill39917/11_7_0_2_7_7@0.0> a jams:JAMSObservation,
+        jams:JAMSScoreObservation,
+        jams:ScorePatternOccurrence ;
+    rdfs:label [ ] ;
+    jams:hasDuration "0.0"^^xsd:float ;
+    jams:hasFrequency "1"^^xsd:int ;
+    jams:hasPatternType "pitch-class-values" ;
+    jams:ofPattern <http://w3id.org/polifonia/resource/pattern/11_7_0_2_7_7> .
+
+<http://w3id.org/polifonia/resource/JAMSObservation/FrancAPhoill39917/11_9_11_7_0_2@0.0> a jams:JAMSObservation,
+        jams:JAMSScoreObservation,
+        jams:ScorePatternOccurrence ;
+    rdfs:label [ ] ;
+    jams:hasDuration "0.0"^^xsd:float ;
+    jams:hasFrequency "2"^^xsd:int ;
+    jams:hasPatternType "pitch-class-values" ;
+    jams:ofPattern <http://w3id.org/polifonia/resource/pattern/11_9_11_7_0_2> .
+
+<http://w3id.org/polifonia/resource/JAMSObservation/FrancAPhoill39917/2_0_11_9_11_7@0.0> a jams:JAMSObservation,
+        jams:JAMSScoreObservation,
+        jams:ScorePatternOccurrence ;
+    rdfs:label [ ] ;
+    jams:hasDuration "0.0"^^xsd:float ;
+    jams:hasFrequency "2"^^xsd:int ;
+    jams:hasPatternType "pitch-class-values" ;
+    jams:ofPattern <http://w3id.org/polifonia/resource/pattern/2_0_11_9_11_7> .
+
+<http://w3id.org/polifonia/resource/JAMSObservation/FrancAPhoill39917/2_11_2_4_0_2@0.0> a jams:JAMSObservation,
+        jams:JAMSScoreObservation,
+        jams:ScorePatternOccurrence ;
+    rdfs:label [ ] ;
+    jams:hasDuration "0.0"^^xsd:float ;
+    jams:hasFrequency "2"^^xsd:int ;
+    jams:hasPatternType "pitch-class-values" ;
+    jams:ofPattern <http://w3id.org/polifonia/resource/pattern/2_11_2_4_0_2> .
+
+<http://w3id.org/polifonia/resource/JAMSObservation/FrancAPhoill39917/2_11_5_5_0_2@0.0> a jams:JAMSObservation,
+        jams:JAMSScoreObservation,
+        jams:ScorePatternOccurrence ;
+    rdfs:label [ ] ;
+    jams:hasDuration "0.0"^^xsd:float ;
+    jams:hasFrequency "2"^^xsd:int ;
+    jams:hasPatternType "pitch-class-values" ;
+    jams:ofPattern <http://w3id.org/polifonia/resource/pattern/2_11_5_5_0_2> .
+
+<http://w3id.org/polifonia/resource/JAMSObservation/FrancAPhoill39917/2_2_4_2_11_2@0.0> a jams:JAMSObservation,
+        jams:JAMSScoreObservation,
+        jams:ScorePatternOccurrence ;
+    rdfs:label [ ] ;
+    jams:hasDuration "0.0"^^xsd:float ;
+    jams:hasFrequency "1"^^xsd:int ;
+    jams:hasPatternType "pitch-class-values" ;
+    jams:ofPattern <http://w3id.org/polifonia/resource/pattern/2_2_4_2_11_2> .
+
+<http://w3id.org/polifonia/resource/JAMSObservation/FrancAPhoill39917/2_4_0_2_2_4@0.0> a jams:JAMSObservation,
+        jams:JAMSScoreObservation,
+        jams:ScorePatternOccurrence ;
+    rdfs:label [ ] ;
+    jams:hasDuration "0.0"^^xsd:float ;
+    jams:hasFrequency "2"^^xsd:int ;
+    jams:hasPatternType "pitch-class-values" ;
+    jams:ofPattern <http://w3id.org/polifonia/resource/pattern/2_4_0_2_2_4> .
+
+<http://w3id.org/polifonia/resource/JAMSObservation/FrancAPhoill39917/2_4_2_11_2_4@0.0> a jams:JAMSObservation,
+        jams:JAMSScoreObservation,
+        jams:ScorePatternOccurrence ;
+    rdfs:label [ ] ;
+    jams:hasDuration "0.0"^^xsd:float ;
+    jams:hasFrequency "2"^^xsd:int ;
+    jams:hasPatternType "pitch-class-values" ;
+    jams:ofPattern <http://w3id.org/polifonia/resource/pattern/2_4_2_11_2_4> .
+
+<http://w3id.org/polifonia/resource/JAMSObservation/FrancAPhoill39917/2_4_2_11_5_5@0.0> a jams:JAMSObservation,
+        jams:JAMSScoreObservation,
+        jams:ScorePatternOccurrence ;
+    rdfs:label [ ] ;
+    jams:hasDuration "0.0"^^xsd:float ;
+    jams:hasFrequency "2"^^xsd:int ;
+    jams:hasPatternType "pitch-class-values" ;
+    jams:ofPattern <http://w3id.org/polifonia/resource/pattern/2_4_2_11_5_5> .
+
+<http://w3id.org/polifonia/resource/JAMSObservation/FrancAPhoill39917/2_5_5_0_2_7@0.0> a jams:JAMSObservation,
+        jams:JAMSScoreObservation,
+        jams:ScorePatternOccurrence ;
+    rdfs:label [ ] ;
+    jams:hasDuration "0.0"^^xsd:float ;
+    jams:hasFrequency "3"^^xsd:int ;
+    jams:hasPatternType "pitch-class-values" ;
+    jams:ofPattern <http://w3id.org/polifonia/resource/pattern/2_5_5_0_2_7> .
+
+<http://w3id.org/polifonia/resource/JAMSObservation/FrancAPhoill39917/2_7_2_0_11_9@0.0> a jams:JAMSObservation,
+        jams:JAMSScoreObservation,
+        jams:ScorePatternOccurrence ;
+    rdfs:label [ ] ;
+    jams:hasDuration "0.0"^^xsd:float ;
+    jams:hasFrequency "2"^^xsd:int ;
+    jams:hasPatternType "pitch-class-values" ;
+    jams:ofPattern <http://w3id.org/polifonia/resource/pattern/2_7_2_0_11_9> .
+
+<http://w3id.org/polifonia/resource/JAMSObservation/FrancAPhoill39917/2_7_5_0_2_7@0.0> a jams:JAMSObservation,
+        jams:JAMSScoreObservation,
+        jams:ScorePatternOccurrence ;
+    rdfs:label [ ] ;
+    jams:hasDuration "0.0"^^xsd:float ;
+    jams:hasFrequency "2"^^xsd:int ;
+    jams:hasPatternType "pitch-class-values" ;
+    jams:ofPattern <http://w3id.org/polifonia/resource/pattern/2_7_5_0_2_7> .
+
+<http://w3id.org/polifonia/resource/JAMSObservation/FrancAPhoill39917/2_7_5_4_2_5@0.0> a jams:JAMSObservation,
+        jams:JAMSScoreObservation,
+        jams:ScorePatternOccurrence ;
+    rdfs:label [ ] ;
+    jams:hasDuration "0.0"^^xsd:float ;
+    jams:hasFrequency "2"^^xsd:int ;
+    jams:hasPatternType "pitch-class-values" ;
+    jams:ofPattern <http://w3id.org/polifonia/resource/pattern/2_7_5_4_2_5> .
+
+<http://w3id.org/polifonia/resource/JAMSObservation/FrancAPhoill39917/2_7_5_4_2_7@0.0> a jams:JAMSObservation,
+        jams:JAMSScoreObservation,
+        jams:ScorePatternOccurrence ;
+    rdfs:label [ ] ;
+    jams:hasDuration "0.0"^^xsd:float ;
+    jams:hasFrequency "2"^^xsd:int ;
+    jams:hasPatternType "pitch-class-values" ;
+    jams:ofPattern <http://w3id.org/polifonia/resource/pattern/2_7_5_4_2_7> .
+
+<http://w3id.org/polifonia/resource/JAMSObservation/FrancAPhoill39917/4_0_2_2_4_2@0.0> a jams:JAMSObservation,
+        jams:JAMSScoreObservation,
+        jams:ScorePatternOccurrence ;
+    rdfs:label [ ] ;
+    jams:hasDuration "0.0"^^xsd:float ;
+    jams:hasFrequency "2"^^xsd:int ;
+    jams:hasPatternType "pitch-class-values" ;
+    jams:ofPattern <http://w3id.org/polifonia/resource/pattern/4_0_2_2_4_2> .
+
+<http://w3id.org/polifonia/resource/JAMSObservation/FrancAPhoill39917/4_2_11_2_4_0@0.0> a jams:JAMSObservation,
+        jams:JAMSScoreObservation,
+        jams:ScorePatternOccurrence ;
+    rdfs:label [ ] ;
+    jams:hasDuration "0.0"^^xsd:float ;
+    jams:hasFrequency "2"^^xsd:int ;
+    jams:hasPatternType "pitch-class-values" ;
+    jams:ofPattern <http://w3id.org/polifonia/resource/pattern/4_2_11_2_4_0> .
+
+<http://w3id.org/polifonia/resource/JAMSObservation/FrancAPhoill39917/4_2_11_5_5_0@0.0> a jams:JAMSObservation,
+        jams:JAMSScoreObservation,
+        jams:ScorePatternOccurrence ;
+    rdfs:label [ ] ;
+    jams:hasDuration "0.0"^^xsd:float ;
+    jams:hasFrequency "2"^^xsd:int ;
+    jams:hasPatternType "pitch-class-values" ;
+    jams:ofPattern <http://w3id.org/polifonia/resource/pattern/4_2_11_5_5_0> .
+
+<http://w3id.org/polifonia/resource/JAMSObservation/FrancAPhoill39917/4_2_5_5_0_2@0.0> a jams:JAMSObservation,
+        jams:JAMSScoreObservation,
+        jams:ScorePatternOccurrence ;
+    rdfs:label [ ] ;
+    jams:hasDuration "0.0"^^xsd:float ;
+    jams:hasFrequency "4"^^xsd:int ;
+    jams:hasPatternType "pitch-class-values" ;
+    jams:ofPattern <http://w3id.org/polifonia/resource/pattern/4_2_5_5_0_2> .
+
+<http://w3id.org/polifonia/resource/JAMSObservation/FrancAPhoill39917/4_2_7_5_0_2@0.0> a jams:JAMSObservation,
+        jams:JAMSScoreObservation,
+        jams:ScorePatternOccurrence ;
+    rdfs:label [ ] ;
+    jams:hasDuration "0.0"^^xsd:float ;
+    jams:hasFrequency "2"^^xsd:int ;
+    jams:hasPatternType "pitch-class-values" ;
+    jams:ofPattern <http://w3id.org/polifonia/resource/pattern/4_2_7_5_0_2> .
+
+<http://w3id.org/polifonia/resource/JAMSObservation/FrancAPhoill39917/5_0_2_2_4_2@0.0> a jams:JAMSObservation,
+        jams:JAMSScoreObservation,
+        jams:ScorePatternOccurrence ;
+    rdfs:label [ ] ;
+    jams:hasDuration "0.0"^^xsd:float ;
+    jams:hasFrequency "1"^^xsd:int ;
+    jams:hasPatternType "pitch-class-values" ;
+    jams:ofPattern <http://w3id.org/polifonia/resource/pattern/5_0_2_2_4_2> .
+
+<http://w3id.org/polifonia/resource/JAMSObservation/FrancAPhoill39917/5_0_2_7_2_0@0.0> a jams:JAMSObservation,
+        jams:JAMSScoreObservation,
+        jams:ScorePatternOccurrence ;
+    rdfs:label [ ] ;
+    jams:hasDuration "0.0"^^xsd:float ;
+    jams:hasFrequency "2"^^xsd:int ;
+    jams:hasPatternType "pitch-class-values" ;
+    jams:ofPattern <http://w3id.org/polifonia/resource/pattern/5_0_2_7_2_0> .
+
+<http://w3id.org/polifonia/resource/JAMSObservation/FrancAPhoill39917/5_0_2_7_2_7@0.0> a jams:JAMSObservation,
+        jams:JAMSScoreObservation,
+        jams:ScorePatternOccurrence ;
+    rdfs:label [ ] ;
+    jams:hasDuration "0.0"^^xsd:float ;
+    jams:hasFrequency "1"^^xsd:int ;
+    jams:hasPatternType "pitch-class-values" ;
+    jams:ofPattern <http://w3id.org/polifonia/resource/pattern/5_0_2_7_2_7> .
+
+<http://w3id.org/polifonia/resource/JAMSObservation/FrancAPhoill39917/5_0_2_7_5_4@0.0> a jams:JAMSObservation,
+        jams:JAMSScoreObservation,
+        jams:ScorePatternOccurrence ;
+    rdfs:label [ ] ;
+    jams:hasDuration "0.0"^^xsd:float ;
+    jams:hasFrequency "4"^^xsd:int ;
+    jams:hasPatternType "pitch-class-values" ;
+    jams:ofPattern <http://w3id.org/polifonia/resource/pattern/5_0_2_7_5_4> .
+
+<http://w3id.org/polifonia/resource/JAMSObservation/FrancAPhoill39917/5_0_2_7_7_7@0.0> a jams:JAMSObservation,
+        jams:JAMSScoreObservation,
+        jams:ScorePatternOccurrence ;
+    rdfs:label [ ] ;
+    jams:hasDuration "0.0"^^xsd:float ;
+    jams:hasFrequency "1"^^xsd:int ;
+    jams:hasPatternType "pitch-class-values" ;
+    jams:ofPattern <http://w3id.org/polifonia/resource/pattern/5_0_2_7_7_7> .
+
+<http://w3id.org/polifonia/resource/JAMSObservation/FrancAPhoill39917/5_4_2_5_5_0@0.0> a jams:JAMSObservation,
+        jams:JAMSScoreObservation,
+        jams:ScorePatternOccurrence ;
+    rdfs:label [ ] ;
+    jams:hasDuration "0.0"^^xsd:float ;
+    jams:hasFrequency "2"^^xsd:int ;
+    jams:hasPatternType "pitch-class-values" ;
+    jams:ofPattern <http://w3id.org/polifonia/resource/pattern/5_4_2_5_5_0> .
+
+<http://w3id.org/polifonia/resource/JAMSObservation/FrancAPhoill39917/5_4_2_7_5_0@0.0> a jams:JAMSObservation,
+        jams:JAMSScoreObservation,
+        jams:ScorePatternOccurrence ;
+    rdfs:label [ ] ;
+    jams:hasDuration "0.0"^^xsd:float ;
+    jams:hasFrequency "2"^^xsd:int ;
+    jams:hasPatternType "pitch-class-values" ;
+    jams:ofPattern <http://w3id.org/polifonia/resource/pattern/5_4_2_7_5_0> .
+
+<http://w3id.org/polifonia/resource/JAMSObservation/FrancAPhoill39917/5_5_0_2_2_4@0.0> a jams:JAMSObservation,
+        jams:JAMSScoreObservation,
+        jams:ScorePatternOccurrence ;
+    rdfs:label [ ] ;
+    jams:hasDuration "0.0"^^xsd:float ;
+    jams:hasFrequency "1"^^xsd:int ;
+    jams:hasPatternType "pitch-class-values" ;
+    jams:ofPattern <http://w3id.org/polifonia/resource/pattern/5_5_0_2_2_4> .
+
+<http://w3id.org/polifonia/resource/JAMSObservation/FrancAPhoill39917/5_5_0_2_7_2@0.0> a jams:JAMSObservation,
+        jams:JAMSScoreObservation,
+        jams:ScorePatternOccurrence ;
+    rdfs:label [ ] ;
+    jams:hasDuration "0.0"^^xsd:float ;
+    jams:hasFrequency "1"^^xsd:int ;
+    jams:hasPatternType "pitch-class-values" ;
+    jams:ofPattern <http://w3id.org/polifonia/resource/pattern/5_5_0_2_7_2> .
+
+<http://w3id.org/polifonia/resource/JAMSObservation/FrancAPhoill39917/5_5_0_2_7_5@0.0> a jams:JAMSObservation,
+        jams:JAMSScoreObservation,
+        jams:ScorePatternOccurrence ;
+    rdfs:label [ ] ;
+    jams:hasDuration "0.0"^^xsd:float ;
+    jams:hasFrequency "2"^^xsd:int ;
+    jams:hasPatternType "pitch-class-values" ;
+    jams:ofPattern <http://w3id.org/polifonia/resource/pattern/5_5_0_2_7_5> .
+
+<http://w3id.org/polifonia/resource/JAMSObservation/FrancAPhoill39917/5_5_0_2_7_7@0.0> a jams:JAMSObservation,
+        jams:JAMSScoreObservation,
+        jams:ScorePatternOccurrence ;
+    rdfs:label [ ] ;
+    jams:hasDuration "0.0"^^xsd:float ;
+    jams:hasFrequency "1"^^xsd:int ;
+    jams:hasPatternType "pitch-class-values" ;
+    jams:ofPattern <http://w3id.org/polifonia/resource/pattern/5_5_0_2_7_7> .
+
+<http://w3id.org/polifonia/resource/JAMSObservation/FrancAPhoill39917/6_4_2_5_5_0@0.0> a jams:JAMSObservation,
+        jams:JAMSScoreObservation,
+        jams:ScorePatternOccurrence ;
+    rdfs:label [ ] ;
+    jams:hasDuration "0.0"^^xsd:float ;
+    jams:hasFrequency "2"^^xsd:int ;
+    jams:hasPatternType "pitch-class-values" ;
+    jams:ofPattern <http://w3id.org/polifonia/resource/pattern/6_4_2_5_5_0> .
+
+<http://w3id.org/polifonia/resource/JAMSObservation/FrancAPhoill39917/6_7_7_0_0_7@0.0> a jams:JAMSObservation,
+        jams:JAMSScoreObservation,
+        jams:ScorePatternOccurrence ;
+    rdfs:label [ ] ;
+    jams:hasDuration "0.0"^^xsd:float ;
+    jams:hasFrequency "2"^^xsd:int ;
+    jams:hasPatternType "pitch-class-values" ;
+    jams:ofPattern <http://w3id.org/polifonia/resource/pattern/6_7_7_0_0_7> .
+
+<http://w3id.org/polifonia/resource/JAMSObservation/FrancAPhoill39917/7_0_0_7_6_4@0.0> a jams:JAMSObservation,
+        jams:JAMSScoreObservation,
+        jams:ScorePatternOccurrence ;
+    rdfs:label [ ] ;
+    jams:hasDuration "0.0"^^xsd:float ;
+    jams:hasFrequency "2"^^xsd:int ;
+    jams:hasPatternType "pitch-class-values" ;
+    jams:ofPattern <http://w3id.org/polifonia/resource/pattern/7_0_0_7_6_4> .
+
+<http://w3id.org/polifonia/resource/JAMSObservation/FrancAPhoill39917/7_0_2_7_2_7@0.0> a jams:JAMSObservation,
+        jams:JAMSScoreObservation,
+        jams:ScorePatternOccurrence ;
+    rdfs:label [ ] ;
+    jams:hasDuration "0.0"^^xsd:float ;
+    jams:hasFrequency "1"^^xsd:int ;
+    jams:hasPatternType "pitch-class-values" ;
+    jams:ofPattern <http://w3id.org/polifonia/resource/pattern/7_0_2_7_2_7> .
+
+<http://w3id.org/polifonia/resource/JAMSObservation/FrancAPhoill39917/7_0_2_7_7_7@0.0> a jams:JAMSObservation,
+        jams:JAMSScoreObservation,
+        jams:ScorePatternOccurrence ;
+    rdfs:label [ ] ;
+    jams:hasDuration "0.0"^^xsd:float ;
+    jams:hasFrequency "1"^^xsd:int ;
+    jams:hasPatternType "pitch-class-values" ;
+    jams:ofPattern <http://w3id.org/polifonia/resource/pattern/7_0_2_7_7_7> .
+
+<http://w3id.org/polifonia/resource/JAMSObservation/FrancAPhoill39917/7_2_0_11_9_11@0.0> a jams:JAMSObservation,
+        jams:JAMSScoreObservation,
+        jams:ScorePatternOccurrence ;
+    rdfs:label [ ] ;
+    jams:hasDuration "0.0"^^xsd:float ;
+    jams:hasFrequency "2"^^xsd:int ;
+    jams:hasPatternType "pitch-class-values" ;
+    jams:ofPattern <http://w3id.org/polifonia/resource/pattern/7_2_0_11_9_11> .
+
+<http://w3id.org/polifonia/resource/JAMSObservation/FrancAPhoill39917/7_5_0_2_7_5@0.0> a jams:JAMSObservation,
+        jams:JAMSScoreObservation,
+        jams:ScorePatternOccurrence ;
+    rdfs:label [ ] ;
+    jams:hasDuration "0.0"^^xsd:float ;
+    jams:hasFrequency "2"^^xsd:int ;
+    jams:hasPatternType "pitch-class-values" ;
+    jams:ofPattern <http://w3id.org/polifonia/resource/pattern/7_5_0_2_7_5> .
+
+<http://w3id.org/polifonia/resource/JAMSObservation/FrancAPhoill39917/7_5_4_2_5_5@0.0> a jams:JAMSObservation,
+        jams:JAMSScoreObservation,
+        jams:ScorePatternOccurrence ;
+    rdfs:label [ ] ;
+    jams:hasDuration "0.0"^^xsd:float ;
+    jams:hasFrequency "2"^^xsd:int ;
+    jams:hasPatternType "pitch-class-values" ;
+    jams:ofPattern <http://w3id.org/polifonia/resource/pattern/7_5_4_2_5_5> .
+
+<http://w3id.org/polifonia/resource/JAMSObservation/FrancAPhoill39917/7_5_4_2_7_5@0.0> a jams:JAMSObservation,
+        jams:JAMSScoreObservation,
+        jams:ScorePatternOccurrence ;
+    rdfs:label [ ] ;
+    jams:hasDuration "0.0"^^xsd:float ;
+    jams:hasFrequency "2"^^xsd:int ;
+    jams:hasPatternType "pitch-class-values" ;
+    jams:ofPattern <http://w3id.org/polifonia/resource/pattern/7_5_4_2_7_5> .
+
+<http://w3id.org/polifonia/resource/JAMSObservation/FrancAPhoill39917/7_6_4_2_5_5@0.0> a jams:JAMSObservation,
+        jams:JAMSScoreObservation,
+        jams:ScorePatternOccurrence ;
+    rdfs:label [ ] ;
+    jams:hasDuration "0.0"^^xsd:float ;
+    jams:hasFrequency "2"^^xsd:int ;
+    jams:hasPatternType "pitch-class-values" ;
+    jams:ofPattern <http://w3id.org/polifonia/resource/pattern/7_6_4_2_5_5> .
+
+<http://w3id.org/polifonia/resource/JAMSObservation/FrancAPhoill39917/7_6_7_7_0_0@0.0> a jams:JAMSObservation,
+        jams:JAMSScoreObservation,
+        jams:ScorePatternOccurrence ;
+    rdfs:label [ ] ;
+    jams:hasDuration "0.0"^^xsd:float ;
+    jams:hasFrequency "2"^^xsd:int ;
+    jams:hasPatternType "pitch-class-values" ;
+    jams:ofPattern <http://w3id.org/polifonia/resource/pattern/7_6_7_7_0_0> .
+
+<http://w3id.org/polifonia/resource/JAMSObservation/FrancAPhoill39917/7_7_0_0_7_6@0.0> a jams:JAMSObservation,
+        jams:JAMSScoreObservation,
+        jams:ScorePatternOccurrence ;
+    rdfs:label [ ] ;
+    jams:hasDuration "0.0"^^xsd:float ;
+    jams:hasFrequency "2"^^xsd:int ;
+    jams:hasPatternType "pitch-class-values" ;
+    jams:ofPattern <http://w3id.org/polifonia/resource/pattern/7_7_0_0_7_6> .
+
+<http://w3id.org/polifonia/resource/JAMSObservation/FrancAPhoill39917/7_7_6_7_7_0@0.0> a jams:JAMSObservation,
+        jams:JAMSScoreObservation,
+        jams:ScorePatternOccurrence ;
+    rdfs:label [ ] ;
+    jams:hasDuration "0.0"^^xsd:float ;
+    jams:hasFrequency "2"^^xsd:int ;
+    jams:hasPatternType "pitch-class-values" ;
+    jams:ofPattern <http://w3id.org/polifonia/resource/pattern/7_7_6_7_7_0> .
+
+<http://w3id.org/polifonia/resource/JAMSObservation/FrancAPhoill39917/7_7_7_6_7_7@0.0> a jams:JAMSObservation,
+        jams:JAMSScoreObservation,
+        jams:ScorePatternOccurrence ;
+    rdfs:label [ ] ;
+    jams:hasDuration "0.0"^^xsd:float ;
+    jams:hasFrequency "2"^^xsd:int ;
+    jams:hasPatternType "pitch-class-values" ;
+    jams:ofPattern <http://w3id.org/polifonia/resource/pattern/7_7_7_6_7_7> .
+
+<http://w3id.org/polifonia/resource/JAMSObservation/FrancAPhoill39917/9_11_7_0_2_7@0.0> a jams:JAMSObservation,
+        jams:JAMSScoreObservation,
+        jams:ScorePatternOccurrence ;
+    rdfs:label [ ] ;
+    jams:hasDuration "0.0"^^xsd:float ;
+    jams:hasFrequency "2"^^xsd:int ;
+    jams:hasPatternType "pitch-class-values" ;
+    jams:ofPattern <http://w3id.org/polifonia/resource/pattern/9_11_7_0_2_7> .
+
+<http://w3id.org/polifonia/resource/MusicalComposition/86d01f04e6ff9e70912950ae9fb420f535408c41> a mc:MusicalComposition ;
+    rdfs:label "FrancAPhoill39917" ;
+    mc:title "FrancAPhoill39917" ;
+    prov:wasDerivedFrom <http://w3id.org/polifonia/resource/JAMSFile/FrancAPhoill39917.jams> .
+

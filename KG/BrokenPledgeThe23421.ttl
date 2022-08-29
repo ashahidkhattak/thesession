@@ -1,0 +1,341 @@
+@prefix core: <http://w3id.org/polifonia/ontology/core/> .
+@prefix jams: <http://w3id.org/polifonia/ontology/jams/> .
+@prefix mc: <http://w3id.org/polifonia/ontology/musical-composition/> .
+@prefix pon-resource: <http://w3id.org/polifonia/resource/> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+pon-resource:Agent%2Fannotator_local_id a core:Agent ;
+    rdfs:label "FONN-Tool" ;
+    jams:hasAnnotatorType pon-resource:annotator-program ;
+    jams:hasName "FONN-Tool" .
+
+<http://w3id.org/polifonia/resource/JAMSAnnotation/e7119e5a042841c5a38743fae48a341fc6dc4c56> a jams:JAMSAnnotation,
+        jams:JAMSScoreAnnotation ;
+    jams:includesObservation <http://w3id.org/polifonia/resource/JAMSObservation/BrokenPledgeThe23421/0_9_7_7_7_11@0.0>,
+        <http://w3id.org/polifonia/resource/JAMSObservation/BrokenPledgeThe23421/11_2_2_5_5_9@0.0>,
+        <http://w3id.org/polifonia/resource/JAMSObservation/BrokenPledgeThe23421/11_2_5_9_7_7@0.0>,
+        <http://w3id.org/polifonia/resource/JAMSObservation/BrokenPledgeThe23421/11_5_9_2_11_2@0.0>,
+        <http://w3id.org/polifonia/resource/JAMSObservation/BrokenPledgeThe23421/11_5_9_7_11_5@0.0>,
+        <http://w3id.org/polifonia/resource/JAMSObservation/BrokenPledgeThe23421/11_5_9_7_7_11@0.0>,
+        <http://w3id.org/polifonia/resource/JAMSObservation/BrokenPledgeThe23421/11_7_11_2_5_9@0.0>,
+        <http://w3id.org/polifonia/resource/JAMSObservation/BrokenPledgeThe23421/11_7_5_0_9_7@0.0>,
+        <http://w3id.org/polifonia/resource/JAMSObservation/BrokenPledgeThe23421/2_11_2_2_5_5@0.0>,
+        <http://w3id.org/polifonia/resource/JAMSObservation/BrokenPledgeThe23421/2_11_5_9_7_11@0.0>,
+        <http://w3id.org/polifonia/resource/JAMSObservation/BrokenPledgeThe23421/2_11_5_9_7_7@0.0>,
+        <http://w3id.org/polifonia/resource/JAMSObservation/BrokenPledgeThe23421/2_2_5_5_9_5@0.0>,
+        <http://w3id.org/polifonia/resource/JAMSObservation/BrokenPledgeThe23421/2_5_5_9_5_2@0.0>,
+        <http://w3id.org/polifonia/resource/JAMSObservation/BrokenPledgeThe23421/2_5_9_7_7_11@0.0>,
+        <http://w3id.org/polifonia/resource/JAMSObservation/BrokenPledgeThe23421/5_0_9_7_7_7@0.0>,
+        <http://w3id.org/polifonia/resource/JAMSObservation/BrokenPledgeThe23421/5_2_11_5_9_7@0.0>,
+        <http://w3id.org/polifonia/resource/JAMSObservation/BrokenPledgeThe23421/5_5_9_5_2_11@0.0>,
+        <http://w3id.org/polifonia/resource/JAMSObservation/BrokenPledgeThe23421/5_9_2_11_2_2@0.0>,
+        <http://w3id.org/polifonia/resource/JAMSObservation/BrokenPledgeThe23421/5_9_5_2_11_5@0.0>,
+        <http://w3id.org/polifonia/resource/JAMSObservation/BrokenPledgeThe23421/5_9_7_11_5_9@0.0>,
+        <http://w3id.org/polifonia/resource/JAMSObservation/BrokenPledgeThe23421/5_9_7_7_11_7@0.0>,
+        <http://w3id.org/polifonia/resource/JAMSObservation/BrokenPledgeThe23421/7_11_2_5_9_7@0.0>,
+        <http://w3id.org/polifonia/resource/JAMSObservation/BrokenPledgeThe23421/7_11_7_11_2_5@0.0>,
+        <http://w3id.org/polifonia/resource/JAMSObservation/BrokenPledgeThe23421/7_11_7_5_0_9@0.0>,
+        <http://w3id.org/polifonia/resource/JAMSObservation/BrokenPledgeThe23421/7_5_0_9_7_7@0.0>,
+        <http://w3id.org/polifonia/resource/JAMSObservation/BrokenPledgeThe23421/7_7_11_7_11_2@0.0>,
+        <http://w3id.org/polifonia/resource/JAMSObservation/BrokenPledgeThe23421/7_7_11_7_5_0@0.0>,
+        <http://w3id.org/polifonia/resource/JAMSObservation/BrokenPledgeThe23421/7_7_7_11_7_11@0.0>,
+        <http://w3id.org/polifonia/resource/JAMSObservation/BrokenPledgeThe23421/9_2_11_2_2_5@0.0>,
+        <http://w3id.org/polifonia/resource/JAMSObservation/BrokenPledgeThe23421/9_7_7_11_7_5@0.0>,
+        <http://w3id.org/polifonia/resource/JAMSObservation/BrokenPledgeThe23421/9_7_7_7_11_7@0.0> ;
+    jams:isJAMSAnnotationOf <http://w3id.org/polifonia/resource/MusicalComposition/e7119e5a042841c5a38743fae48a341fc6dc4c56> .
+
+<http://w3id.org/polifonia/resource/Score/song_local_id> jams:hasJAMSAnnotation <http://w3id.org/polifonia/resource/MusicalComposition/e7119e5a042841c5a38743fae48a341fc6dc4c56> .
+
+<http://w3id.org/polifonia/resource/JAMSFile/BrokenPledgeThe23421.jams> a jams:JAMSFile ;
+    jams:identifiers [ ] ;
+    jams:jamsVersion "0.3.4" ;
+    jams:release "" ;
+    prov:wasDerivedFrom "The Session" ;
+    prov:wasMemberOf <https://github.com/ashahidkhattak/thesession> .
+
+<http://w3id.org/polifonia/resource/JAMSObservation/BrokenPledgeThe23421/0_9_7_7_7_11@0.0> a jams:JAMSObservation,
+        jams:JAMSScoreObservation,
+        jams:ScorePatternOccurrence ;
+    rdfs:label [ ] ;
+    jams:hasDuration "0.0"^^xsd:float ;
+    jams:hasFrequency "2"^^xsd:int ;
+    jams:hasPatternType "pitch-class-values" ;
+    jams:ofPattern <http://w3id.org/polifonia/resource/pattern/0_9_7_7_7_11> .
+
+<http://w3id.org/polifonia/resource/JAMSObservation/BrokenPledgeThe23421/11_2_2_5_5_9@0.0> a jams:JAMSObservation,
+        jams:JAMSScoreObservation,
+        jams:ScorePatternOccurrence ;
+    rdfs:label [ ] ;
+    jams:hasDuration "0.0"^^xsd:float ;
+    jams:hasFrequency "2"^^xsd:int ;
+    jams:hasPatternType "pitch-class-values" ;
+    jams:ofPattern <http://w3id.org/polifonia/resource/pattern/11_2_2_5_5_9> .
+
+<http://w3id.org/polifonia/resource/JAMSObservation/BrokenPledgeThe23421/11_2_5_9_7_7@0.0> a jams:JAMSObservation,
+        jams:JAMSScoreObservation,
+        jams:ScorePatternOccurrence ;
+    rdfs:label [ ] ;
+    jams:hasDuration "0.0"^^xsd:float ;
+    jams:hasFrequency "1"^^xsd:int ;
+    jams:hasPatternType "pitch-class-values" ;
+    jams:ofPattern <http://w3id.org/polifonia/resource/pattern/11_2_5_9_7_7> .
+
+<http://w3id.org/polifonia/resource/JAMSObservation/BrokenPledgeThe23421/11_5_9_2_11_2@0.0> a jams:JAMSObservation,
+        jams:JAMSScoreObservation,
+        jams:ScorePatternOccurrence ;
+    rdfs:label [ ] ;
+    jams:hasDuration "0.0"^^xsd:float ;
+    jams:hasFrequency "2"^^xsd:int ;
+    jams:hasPatternType "pitch-class-values" ;
+    jams:ofPattern <http://w3id.org/polifonia/resource/pattern/11_5_9_2_11_2> .
+
+<http://w3id.org/polifonia/resource/JAMSObservation/BrokenPledgeThe23421/11_5_9_7_11_5@0.0> a jams:JAMSObservation,
+        jams:JAMSScoreObservation,
+        jams:ScorePatternOccurrence ;
+    rdfs:label [ ] ;
+    jams:hasDuration "0.0"^^xsd:float ;
+    jams:hasFrequency "1"^^xsd:int ;
+    jams:hasPatternType "pitch-class-values" ;
+    jams:ofPattern <http://w3id.org/polifonia/resource/pattern/11_5_9_7_11_5> .
+
+<http://w3id.org/polifonia/resource/JAMSObservation/BrokenPledgeThe23421/11_5_9_7_7_11@0.0> a jams:JAMSObservation,
+        jams:JAMSScoreObservation,
+        jams:ScorePatternOccurrence ;
+    rdfs:label [ ] ;
+    jams:hasDuration "0.0"^^xsd:float ;
+    jams:hasFrequency "1"^^xsd:int ;
+    jams:hasPatternType "pitch-class-values" ;
+    jams:ofPattern <http://w3id.org/polifonia/resource/pattern/11_5_9_7_7_11> .
+
+<http://w3id.org/polifonia/resource/JAMSObservation/BrokenPledgeThe23421/11_7_11_2_5_9@0.0> a jams:JAMSObservation,
+        jams:JAMSScoreObservation,
+        jams:ScorePatternOccurrence ;
+    rdfs:label [ ] ;
+    jams:hasDuration "0.0"^^xsd:float ;
+    jams:hasFrequency "2"^^xsd:int ;
+    jams:hasPatternType "pitch-class-values" ;
+    jams:ofPattern <http://w3id.org/polifonia/resource/pattern/11_7_11_2_5_9> .
+
+<http://w3id.org/polifonia/resource/JAMSObservation/BrokenPledgeThe23421/11_7_5_0_9_7@0.0> a jams:JAMSObservation,
+        jams:JAMSScoreObservation,
+        jams:ScorePatternOccurrence ;
+    rdfs:label [ ] ;
+    jams:hasDuration "0.0"^^xsd:float ;
+    jams:hasFrequency "2"^^xsd:int ;
+    jams:hasPatternType "pitch-class-values" ;
+    jams:ofPattern <http://w3id.org/polifonia/resource/pattern/11_7_5_0_9_7> .
+
+<http://w3id.org/polifonia/resource/JAMSObservation/BrokenPledgeThe23421/2_11_2_2_5_5@0.0> a jams:JAMSObservation,
+        jams:JAMSScoreObservation,
+        jams:ScorePatternOccurrence ;
+    rdfs:label [ ] ;
+    jams:hasDuration "0.0"^^xsd:float ;
+    jams:hasFrequency "2"^^xsd:int ;
+    jams:hasPatternType "pitch-class-values" ;
+    jams:ofPattern <http://w3id.org/polifonia/resource/pattern/2_11_2_2_5_5> .
+
+<http://w3id.org/polifonia/resource/JAMSObservation/BrokenPledgeThe23421/2_11_5_9_7_11@0.0> a jams:JAMSObservation,
+        jams:JAMSScoreObservation,
+        jams:ScorePatternOccurrence ;
+    rdfs:label [ ] ;
+    jams:hasDuration "0.0"^^xsd:float ;
+    jams:hasFrequency "1"^^xsd:int ;
+    jams:hasPatternType "pitch-class-values" ;
+    jams:ofPattern <http://w3id.org/polifonia/resource/pattern/2_11_5_9_7_11> .
+
+<http://w3id.org/polifonia/resource/JAMSObservation/BrokenPledgeThe23421/2_11_5_9_7_7@0.0> a jams:JAMSObservation,
+        jams:JAMSScoreObservation,
+        jams:ScorePatternOccurrence ;
+    rdfs:label [ ] ;
+    jams:hasDuration "0.0"^^xsd:float ;
+    jams:hasFrequency "1"^^xsd:int ;
+    jams:hasPatternType "pitch-class-values" ;
+    jams:ofPattern <http://w3id.org/polifonia/resource/pattern/2_11_5_9_7_7> .
+
+<http://w3id.org/polifonia/resource/JAMSObservation/BrokenPledgeThe23421/2_2_5_5_9_5@0.0> a jams:JAMSObservation,
+        jams:JAMSScoreObservation,
+        jams:ScorePatternOccurrence ;
+    rdfs:label [ ] ;
+    jams:hasDuration "0.0"^^xsd:float ;
+    jams:hasFrequency "2"^^xsd:int ;
+    jams:hasPatternType "pitch-class-values" ;
+    jams:ofPattern <http://w3id.org/polifonia/resource/pattern/2_2_5_5_9_5> .
+
+<http://w3id.org/polifonia/resource/JAMSObservation/BrokenPledgeThe23421/2_5_5_9_5_2@0.0> a jams:JAMSObservation,
+        jams:JAMSScoreObservation,
+        jams:ScorePatternOccurrence ;
+    rdfs:label [ ] ;
+    jams:hasDuration "0.0"^^xsd:float ;
+    jams:hasFrequency "2"^^xsd:int ;
+    jams:hasPatternType "pitch-class-values" ;
+    jams:ofPattern <http://w3id.org/polifonia/resource/pattern/2_5_5_9_5_2> .
+
+<http://w3id.org/polifonia/resource/JAMSObservation/BrokenPledgeThe23421/2_5_9_7_7_11@0.0> a jams:JAMSObservation,
+        jams:JAMSScoreObservation,
+        jams:ScorePatternOccurrence ;
+    rdfs:label [ ] ;
+    jams:hasDuration "0.0"^^xsd:float ;
+    jams:hasFrequency "1"^^xsd:int ;
+    jams:hasPatternType "pitch-class-values" ;
+    jams:ofPattern <http://w3id.org/polifonia/resource/pattern/2_5_9_7_7_11> .
+
+<http://w3id.org/polifonia/resource/JAMSObservation/BrokenPledgeThe23421/5_0_9_7_7_7@0.0> a jams:JAMSObservation,
+        jams:JAMSScoreObservation,
+        jams:ScorePatternOccurrence ;
+    rdfs:label [ ] ;
+    jams:hasDuration "0.0"^^xsd:float ;
+    jams:hasFrequency "2"^^xsd:int ;
+    jams:hasPatternType "pitch-class-values" ;
+    jams:ofPattern <http://w3id.org/polifonia/resource/pattern/5_0_9_7_7_7> .
+
+<http://w3id.org/polifonia/resource/JAMSObservation/BrokenPledgeThe23421/5_2_11_5_9_7@0.0> a jams:JAMSObservation,
+        jams:JAMSScoreObservation,
+        jams:ScorePatternOccurrence ;
+    rdfs:label [ ] ;
+    jams:hasDuration "0.0"^^xsd:float ;
+    jams:hasFrequency "2"^^xsd:int ;
+    jams:hasPatternType "pitch-class-values" ;
+    jams:ofPattern <http://w3id.org/polifonia/resource/pattern/5_2_11_5_9_7> .
+
+<http://w3id.org/polifonia/resource/JAMSObservation/BrokenPledgeThe23421/5_5_9_5_2_11@0.0> a jams:JAMSObservation,
+        jams:JAMSScoreObservation,
+        jams:ScorePatternOccurrence ;
+    rdfs:label [ ] ;
+    jams:hasDuration "0.0"^^xsd:float ;
+    jams:hasFrequency "2"^^xsd:int ;
+    jams:hasPatternType "pitch-class-values" ;
+    jams:ofPattern <http://w3id.org/polifonia/resource/pattern/5_5_9_5_2_11> .
+
+<http://w3id.org/polifonia/resource/JAMSObservation/BrokenPledgeThe23421/5_9_2_11_2_2@0.0> a jams:JAMSObservation,
+        jams:JAMSScoreObservation,
+        jams:ScorePatternOccurrence ;
+    rdfs:label [ ] ;
+    jams:hasDuration "0.0"^^xsd:float ;
+    jams:hasFrequency "2"^^xsd:int ;
+    jams:hasPatternType "pitch-class-values" ;
+    jams:ofPattern <http://w3id.org/polifonia/resource/pattern/5_9_2_11_2_2> .
+
+<http://w3id.org/polifonia/resource/JAMSObservation/BrokenPledgeThe23421/5_9_5_2_11_5@0.0> a jams:JAMSObservation,
+        jams:JAMSScoreObservation,
+        jams:ScorePatternOccurrence ;
+    rdfs:label [ ] ;
+    jams:hasDuration "0.0"^^xsd:float ;
+    jams:hasFrequency "2"^^xsd:int ;
+    jams:hasPatternType "pitch-class-values" ;
+    jams:ofPattern <http://w3id.org/polifonia/resource/pattern/5_9_5_2_11_5> .
+
+<http://w3id.org/polifonia/resource/JAMSObservation/BrokenPledgeThe23421/5_9_7_11_5_9@0.0> a jams:JAMSObservation,
+        jams:JAMSScoreObservation,
+        jams:ScorePatternOccurrence ;
+    rdfs:label [ ] ;
+    jams:hasDuration "0.0"^^xsd:float ;
+    jams:hasFrequency "1"^^xsd:int ;
+    jams:hasPatternType "pitch-class-values" ;
+    jams:ofPattern <http://w3id.org/polifonia/resource/pattern/5_9_7_11_5_9> .
+
+<http://w3id.org/polifonia/resource/JAMSObservation/BrokenPledgeThe23421/5_9_7_7_11_7@0.0> a jams:JAMSObservation,
+        jams:JAMSScoreObservation,
+        jams:ScorePatternOccurrence ;
+    rdfs:label [ ] ;
+    jams:hasDuration "0.0"^^xsd:float ;
+    jams:hasFrequency "2"^^xsd:int ;
+    jams:hasPatternType "pitch-class-values" ;
+    jams:ofPattern <http://w3id.org/polifonia/resource/pattern/5_9_7_7_11_7> .
+
+<http://w3id.org/polifonia/resource/JAMSObservation/BrokenPledgeThe23421/7_11_2_5_9_7@0.0> a jams:JAMSObservation,
+        jams:JAMSScoreObservation,
+        jams:ScorePatternOccurrence ;
+    rdfs:label [ ] ;
+    jams:hasDuration "0.0"^^xsd:float ;
+    jams:hasFrequency "1"^^xsd:int ;
+    jams:hasPatternType "pitch-class-values" ;
+    jams:ofPattern <http://w3id.org/polifonia/resource/pattern/7_11_2_5_9_7> .
+
+<http://w3id.org/polifonia/resource/JAMSObservation/BrokenPledgeThe23421/7_11_7_11_2_5@0.0> a jams:JAMSObservation,
+        jams:JAMSScoreObservation,
+        jams:ScorePatternOccurrence ;
+    rdfs:label [ ] ;
+    jams:hasDuration "0.0"^^xsd:float ;
+    jams:hasFrequency "2"^^xsd:int ;
+    jams:hasPatternType "pitch-class-values" ;
+    jams:ofPattern <http://w3id.org/polifonia/resource/pattern/7_11_7_11_2_5> .
+
+<http://w3id.org/polifonia/resource/JAMSObservation/BrokenPledgeThe23421/7_11_7_5_0_9@0.0> a jams:JAMSObservation,
+        jams:JAMSScoreObservation,
+        jams:ScorePatternOccurrence ;
+    rdfs:label [ ] ;
+    jams:hasDuration "0.0"^^xsd:float ;
+    jams:hasFrequency "2"^^xsd:int ;
+    jams:hasPatternType "pitch-class-values" ;
+    jams:ofPattern <http://w3id.org/polifonia/resource/pattern/7_11_7_5_0_9> .
+
+<http://w3id.org/polifonia/resource/JAMSObservation/BrokenPledgeThe23421/7_5_0_9_7_7@0.0> a jams:JAMSObservation,
+        jams:JAMSScoreObservation,
+        jams:ScorePatternOccurrence ;
+    rdfs:label [ ] ;
+    jams:hasDuration "0.0"^^xsd:float ;
+    jams:hasFrequency "2"^^xsd:int ;
+    jams:hasPatternType "pitch-class-values" ;
+    jams:ofPattern <http://w3id.org/polifonia/resource/pattern/7_5_0_9_7_7> .
+
+<http://w3id.org/polifonia/resource/JAMSObservation/BrokenPledgeThe23421/7_7_11_7_11_2@0.0> a jams:JAMSObservation,
+        jams:JAMSScoreObservation,
+        jams:ScorePatternOccurrence ;
+    rdfs:label [ ] ;
+    jams:hasDuration "0.0"^^xsd:float ;
+    jams:hasFrequency "2"^^xsd:int ;
+    jams:hasPatternType "pitch-class-values" ;
+    jams:ofPattern <http://w3id.org/polifonia/resource/pattern/7_7_11_7_11_2> .
+
+<http://w3id.org/polifonia/resource/JAMSObservation/BrokenPledgeThe23421/7_7_11_7_5_0@0.0> a jams:JAMSObservation,
+        jams:JAMSScoreObservation,
+        jams:ScorePatternOccurrence ;
+    rdfs:label [ ] ;
+    jams:hasDuration "0.0"^^xsd:float ;
+    jams:hasFrequency "2"^^xsd:int ;
+    jams:hasPatternType "pitch-class-values" ;
+    jams:ofPattern <http://w3id.org/polifonia/resource/pattern/7_7_11_7_5_0> .
+
+<http://w3id.org/polifonia/resource/JAMSObservation/BrokenPledgeThe23421/7_7_7_11_7_11@0.0> a jams:JAMSObservation,
+        jams:JAMSScoreObservation,
+        jams:ScorePatternOccurrence ;
+    rdfs:label [ ] ;
+    jams:hasDuration "0.0"^^xsd:float ;
+    jams:hasFrequency "2"^^xsd:int ;
+    jams:hasPatternType "pitch-class-values" ;
+    jams:ofPattern <http://w3id.org/polifonia/resource/pattern/7_7_7_11_7_11> .
+
+<http://w3id.org/polifonia/resource/JAMSObservation/BrokenPledgeThe23421/9_2_11_2_2_5@0.0> a jams:JAMSObservation,
+        jams:JAMSScoreObservation,
+        jams:ScorePatternOccurrence ;
+    rdfs:label [ ] ;
+    jams:hasDuration "0.0"^^xsd:float ;
+    jams:hasFrequency "2"^^xsd:int ;
+    jams:hasPatternType "pitch-class-values" ;
+    jams:ofPattern <http://w3id.org/polifonia/resource/pattern/9_2_11_2_2_5> .
+
+<http://w3id.org/polifonia/resource/JAMSObservation/BrokenPledgeThe23421/9_7_7_11_7_5@0.0> a jams:JAMSObservation,
+        jams:JAMSScoreObservation,
+        jams:ScorePatternOccurrence ;
+    rdfs:label [ ] ;
+    jams:hasDuration "0.0"^^xsd:float ;
+    jams:hasFrequency "2"^^xsd:int ;
+    jams:hasPatternType "pitch-class-values" ;
+    jams:ofPattern <http://w3id.org/polifonia/resource/pattern/9_7_7_11_7_5> .
+
+<http://w3id.org/polifonia/resource/JAMSObservation/BrokenPledgeThe23421/9_7_7_7_11_7@0.0> a jams:JAMSObservation,
+        jams:JAMSScoreObservation,
+        jams:ScorePatternOccurrence ;
+    rdfs:label [ ] ;
+    jams:hasDuration "0.0"^^xsd:float ;
+    jams:hasFrequency "2"^^xsd:int ;
+    jams:hasPatternType "pitch-class-values" ;
+    jams:ofPattern <http://w3id.org/polifonia/resource/pattern/9_7_7_7_11_7> .
+
+<http://w3id.org/polifonia/resource/MusicalComposition/e7119e5a042841c5a38743fae48a341fc6dc4c56> a mc:MusicalComposition ;
+    rdfs:label "BrokenPledgeThe23421" ;
+    mc:title "BrokenPledgeThe23421" ;
+    prov:wasDerivedFrom <http://w3id.org/polifonia/resource/JAMSFile/BrokenPledgeThe23421.jams> .
+

@@ -1,0 +1,681 @@
+@prefix core: <http://w3id.org/polifonia/ontology/core/> .
+@prefix jams: <http://w3id.org/polifonia/ontology/jams/> .
+@prefix mc: <http://w3id.org/polifonia/ontology/musical-composition/> .
+@prefix pon-resource: <http://w3id.org/polifonia/resource/> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+pon-resource:Agent%2Fannotator_local_id a core:Agent ;
+    rdfs:label "FONN-Tool" ;
+    jams:hasAnnotatorType pon-resource:annotator-program ;
+    jams:hasName "FONN-Tool" .
+
+<http://w3id.org/polifonia/resource/JAMSAnnotation/5ff56694d7e3c61b26ea13528ba04e0c4dfc4e93> a jams:JAMSAnnotation,
+        jams:JAMSScoreAnnotation ;
+    jams:includesObservation <http://w3id.org/polifonia/resource/JAMSObservation/GoldenMeanThe42232/0_0_0_9_0_9@0.0>,
+        <http://w3id.org/polifonia/resource/JAMSObservation/GoldenMeanThe42232/0_0_2_2_0_0@0.0>,
+        <http://w3id.org/polifonia/resource/JAMSObservation/GoldenMeanThe42232/0_0_2_4_0_0@0.0>,
+        <http://w3id.org/polifonia/resource/JAMSObservation/GoldenMeanThe42232/0_0_2_4_11_0@0.0>,
+        <http://w3id.org/polifonia/resource/JAMSObservation/GoldenMeanThe42232/0_0_2_9_0_7@0.0>,
+        <http://w3id.org/polifonia/resource/JAMSObservation/GoldenMeanThe42232/0_0_2_9_4_9@0.0>,
+        <http://w3id.org/polifonia/resource/JAMSObservation/GoldenMeanThe42232/0_0_9_0_9_4@0.0>,
+        <http://w3id.org/polifonia/resource/JAMSObservation/GoldenMeanThe42232/0_2_2_0_0_2@0.0>,
+        <http://w3id.org/polifonia/resource/JAMSObservation/GoldenMeanThe42232/0_2_4_0_0_2@0.0>,
+        <http://w3id.org/polifonia/resource/JAMSObservation/GoldenMeanThe42232/0_2_4_11_0_2@0.0>,
+        <http://w3id.org/polifonia/resource/JAMSObservation/GoldenMeanThe42232/0_2_9_0_7_0@0.0>,
+        <http://w3id.org/polifonia/resource/JAMSObservation/GoldenMeanThe42232/0_2_9_4_9_4@0.0>,
+        <http://w3id.org/polifonia/resource/JAMSObservation/GoldenMeanThe42232/0_4_0_0_2_4@0.0>,
+        <http://w3id.org/polifonia/resource/JAMSObservation/GoldenMeanThe42232/0_4_2_0_4_0@0.0>,
+        <http://w3id.org/polifonia/resource/JAMSObservation/GoldenMeanThe42232/0_4_2_0_9_4@0.0>,
+        <http://w3id.org/polifonia/resource/JAMSObservation/GoldenMeanThe42232/0_4_9_4_0_4@0.0>,
+        <http://w3id.org/polifonia/resource/JAMSObservation/GoldenMeanThe42232/0_7_0_9_0_9@0.0>,
+        <http://w3id.org/polifonia/resource/JAMSObservation/GoldenMeanThe42232/0_9_0_0_2_9@0.0>,
+        <http://w3id.org/polifonia/resource/JAMSObservation/GoldenMeanThe42232/0_9_0_9_4_9@0.0>,
+        <http://w3id.org/polifonia/resource/JAMSObservation/GoldenMeanThe42232/0_9_11_7_0_4@0.0>,
+        <http://w3id.org/polifonia/resource/JAMSObservation/GoldenMeanThe42232/0_9_4_9_11_7@0.0>,
+        <http://w3id.org/polifonia/resource/JAMSObservation/GoldenMeanThe42232/0_9_4_9_4_0@0.0>,
+        <http://w3id.org/polifonia/resource/JAMSObservation/GoldenMeanThe42232/0_9_4_9_4_7@0.0>,
+        <http://w3id.org/polifonia/resource/JAMSObservation/GoldenMeanThe42232/11_0_2_4_0_0@0.0>,
+        <http://w3id.org/polifonia/resource/JAMSObservation/GoldenMeanThe42232/11_7_0_4_9_4@0.0>,
+        <http://w3id.org/polifonia/resource/JAMSObservation/GoldenMeanThe42232/11_7_0_9_0_0@0.0>,
+        <http://w3id.org/polifonia/resource/JAMSObservation/GoldenMeanThe42232/2_0_0_2_4_11@0.0>,
+        <http://w3id.org/polifonia/resource/JAMSObservation/GoldenMeanThe42232/2_0_4_0_0_2@0.0>,
+        <http://w3id.org/polifonia/resource/JAMSObservation/GoldenMeanThe42232/2_0_9_4_9_4@0.0>,
+        <http://w3id.org/polifonia/resource/JAMSObservation/GoldenMeanThe42232/2_2_0_0_2_4@0.0>,
+        <http://w3id.org/polifonia/resource/JAMSObservation/GoldenMeanThe42232/2_4_0_0_2_2@0.0>,
+        <http://w3id.org/polifonia/resource/JAMSObservation/GoldenMeanThe42232/2_4_0_0_2_4@0.0>,
+        <http://w3id.org/polifonia/resource/JAMSObservation/GoldenMeanThe42232/2_4_11_0_2_4@0.0>,
+        <http://w3id.org/polifonia/resource/JAMSObservation/GoldenMeanThe42232/2_9_0_7_0_9@0.0>,
+        <http://w3id.org/polifonia/resource/JAMSObservation/GoldenMeanThe42232/2_9_4_9_4_0@0.0>,
+        <http://w3id.org/polifonia/resource/JAMSObservation/GoldenMeanThe42232/4_0_0_2_2_0@0.0>,
+        <http://w3id.org/polifonia/resource/JAMSObservation/GoldenMeanThe42232/4_0_0_2_4_0@0.0>,
+        <http://w3id.org/polifonia/resource/JAMSObservation/GoldenMeanThe42232/4_0_0_2_4_11@0.0>,
+        <http://w3id.org/polifonia/resource/JAMSObservation/GoldenMeanThe42232/4_0_4_2_0_4@0.0>,
+        <http://w3id.org/polifonia/resource/JAMSObservation/GoldenMeanThe42232/4_0_4_2_0_9@0.0>,
+        <http://w3id.org/polifonia/resource/JAMSObservation/GoldenMeanThe42232/4_0_9_11_7_0@0.0>,
+        <http://w3id.org/polifonia/resource/JAMSObservation/GoldenMeanThe42232/4_11_0_2_4_0@0.0>,
+        <http://w3id.org/polifonia/resource/JAMSObservation/GoldenMeanThe42232/4_2_0_4_0_0@0.0>,
+        <http://w3id.org/polifonia/resource/JAMSObservation/GoldenMeanThe42232/4_2_0_9_4_9@0.0>,
+        <http://w3id.org/polifonia/resource/JAMSObservation/GoldenMeanThe42232/4_7_0_9_0_0@0.0>,
+        <http://w3id.org/polifonia/resource/JAMSObservation/GoldenMeanThe42232/4_9_11_7_0_9@0.0>,
+        <http://w3id.org/polifonia/resource/JAMSObservation/GoldenMeanThe42232/4_9_4_0_4_2@0.0>,
+        <http://w3id.org/polifonia/resource/JAMSObservation/GoldenMeanThe42232/4_9_4_0_9_11@0.0>,
+        <http://w3id.org/polifonia/resource/JAMSObservation/GoldenMeanThe42232/4_9_4_7_0_9@0.0>,
+        <http://w3id.org/polifonia/resource/JAMSObservation/GoldenMeanThe42232/7_0_4_9_4_0@0.0>,
+        <http://w3id.org/polifonia/resource/JAMSObservation/GoldenMeanThe42232/7_0_9_0_0_2@0.0>,
+        <http://w3id.org/polifonia/resource/JAMSObservation/GoldenMeanThe42232/7_0_9_0_9_4@0.0>,
+        <http://w3id.org/polifonia/resource/JAMSObservation/GoldenMeanThe42232/9_0_0_2_9_0@0.0>,
+        <http://w3id.org/polifonia/resource/JAMSObservation/GoldenMeanThe42232/9_0_0_2_9_4@0.0>,
+        <http://w3id.org/polifonia/resource/JAMSObservation/GoldenMeanThe42232/9_0_7_0_9_0@0.0>,
+        <http://w3id.org/polifonia/resource/JAMSObservation/GoldenMeanThe42232/9_0_9_4_9_11@0.0>,
+        <http://w3id.org/polifonia/resource/JAMSObservation/GoldenMeanThe42232/9_0_9_4_9_4@0.0>,
+        <http://w3id.org/polifonia/resource/JAMSObservation/GoldenMeanThe42232/9_11_7_0_4_9@0.0>,
+        <http://w3id.org/polifonia/resource/JAMSObservation/GoldenMeanThe42232/9_11_7_0_9_0@0.0>,
+        <http://w3id.org/polifonia/resource/JAMSObservation/GoldenMeanThe42232/9_4_0_4_2_0@0.0>,
+        <http://w3id.org/polifonia/resource/JAMSObservation/GoldenMeanThe42232/9_4_0_9_11_7@0.0>,
+        <http://w3id.org/polifonia/resource/JAMSObservation/GoldenMeanThe42232/9_4_7_0_9_0@0.0>,
+        <http://w3id.org/polifonia/resource/JAMSObservation/GoldenMeanThe42232/9_4_9_11_7_0@0.0>,
+        <http://w3id.org/polifonia/resource/JAMSObservation/GoldenMeanThe42232/9_4_9_4_0_9@0.0>,
+        <http://w3id.org/polifonia/resource/JAMSObservation/GoldenMeanThe42232/9_4_9_4_7_0@0.0> ;
+    jams:isJAMSAnnotationOf <http://w3id.org/polifonia/resource/MusicalComposition/5ff56694d7e3c61b26ea13528ba04e0c4dfc4e93> .
+
+<http://w3id.org/polifonia/resource/Score/song_local_id> jams:hasJAMSAnnotation <http://w3id.org/polifonia/resource/MusicalComposition/5ff56694d7e3c61b26ea13528ba04e0c4dfc4e93> .
+
+<http://w3id.org/polifonia/resource/JAMSFile/GoldenMeanThe42232.jams> a jams:JAMSFile ;
+    jams:identifiers [ ] ;
+    jams:jamsVersion "0.3.4" ;
+    jams:release "" ;
+    prov:wasDerivedFrom "The Session" ;
+    prov:wasMemberOf <https://github.com/ashahidkhattak/thesession> .
+
+<http://w3id.org/polifonia/resource/JAMSObservation/GoldenMeanThe42232/0_0_0_9_0_9@0.0> a jams:JAMSObservation,
+        jams:JAMSScoreObservation,
+        jams:ScorePatternOccurrence ;
+    rdfs:label [ ] ;
+    jams:hasDuration "0.0"^^xsd:float ;
+    jams:hasFrequency "1"^^xsd:int ;
+    jams:hasPatternType "pitch-class-values" ;
+    jams:ofPattern <http://w3id.org/polifonia/resource/pattern/0_0_0_9_0_9> .
+
+<http://w3id.org/polifonia/resource/JAMSObservation/GoldenMeanThe42232/0_0_2_2_0_0@0.0> a jams:JAMSObservation,
+        jams:JAMSScoreObservation,
+        jams:ScorePatternOccurrence ;
+    rdfs:label [ ] ;
+    jams:hasDuration "0.0"^^xsd:float ;
+    jams:hasFrequency "1"^^xsd:int ;
+    jams:hasPatternType "pitch-class-values" ;
+    jams:ofPattern <http://w3id.org/polifonia/resource/pattern/0_0_2_2_0_0> .
+
+<http://w3id.org/polifonia/resource/JAMSObservation/GoldenMeanThe42232/0_0_2_4_0_0@0.0> a jams:JAMSObservation,
+        jams:JAMSScoreObservation,
+        jams:ScorePatternOccurrence ;
+    rdfs:label [ ] ;
+    jams:hasDuration "0.0"^^xsd:float ;
+    jams:hasFrequency "2"^^xsd:int ;
+    jams:hasPatternType "pitch-class-values" ;
+    jams:ofPattern <http://w3id.org/polifonia/resource/pattern/0_0_2_4_0_0> .
+
+<http://w3id.org/polifonia/resource/JAMSObservation/GoldenMeanThe42232/0_0_2_4_11_0@0.0> a jams:JAMSObservation,
+        jams:JAMSScoreObservation,
+        jams:ScorePatternOccurrence ;
+    rdfs:label [ ] ;
+    jams:hasDuration "0.0"^^xsd:float ;
+    jams:hasFrequency "2"^^xsd:int ;
+    jams:hasPatternType "pitch-class-values" ;
+    jams:ofPattern <http://w3id.org/polifonia/resource/pattern/0_0_2_4_11_0> .
+
+<http://w3id.org/polifonia/resource/JAMSObservation/GoldenMeanThe42232/0_0_2_9_0_7@0.0> a jams:JAMSObservation,
+        jams:JAMSScoreObservation,
+        jams:ScorePatternOccurrence ;
+    rdfs:label [ ] ;
+    jams:hasDuration "0.0"^^xsd:float ;
+    jams:hasFrequency "1"^^xsd:int ;
+    jams:hasPatternType "pitch-class-values" ;
+    jams:ofPattern <http://w3id.org/polifonia/resource/pattern/0_0_2_9_0_7> .
+
+<http://w3id.org/polifonia/resource/JAMSObservation/GoldenMeanThe42232/0_0_2_9_4_9@0.0> a jams:JAMSObservation,
+        jams:JAMSScoreObservation,
+        jams:ScorePatternOccurrence ;
+    rdfs:label [ ] ;
+    jams:hasDuration "0.0"^^xsd:float ;
+    jams:hasFrequency "1"^^xsd:int ;
+    jams:hasPatternType "pitch-class-values" ;
+    jams:ofPattern <http://w3id.org/polifonia/resource/pattern/0_0_2_9_4_9> .
+
+<http://w3id.org/polifonia/resource/JAMSObservation/GoldenMeanThe42232/0_0_9_0_9_4@0.0> a jams:JAMSObservation,
+        jams:JAMSScoreObservation,
+        jams:ScorePatternOccurrence ;
+    rdfs:label [ ] ;
+    jams:hasDuration "0.0"^^xsd:float ;
+    jams:hasFrequency "1"^^xsd:int ;
+    jams:hasPatternType "pitch-class-values" ;
+    jams:ofPattern <http://w3id.org/polifonia/resource/pattern/0_0_9_0_9_4> .
+
+<http://w3id.org/polifonia/resource/JAMSObservation/GoldenMeanThe42232/0_2_2_0_0_2@0.0> a jams:JAMSObservation,
+        jams:JAMSScoreObservation,
+        jams:ScorePatternOccurrence ;
+    rdfs:label [ ] ;
+    jams:hasDuration "0.0"^^xsd:float ;
+    jams:hasFrequency "1"^^xsd:int ;
+    jams:hasPatternType "pitch-class-values" ;
+    jams:ofPattern <http://w3id.org/polifonia/resource/pattern/0_2_2_0_0_2> .
+
+<http://w3id.org/polifonia/resource/JAMSObservation/GoldenMeanThe42232/0_2_4_0_0_2@0.0> a jams:JAMSObservation,
+        jams:JAMSScoreObservation,
+        jams:ScorePatternOccurrence ;
+    rdfs:label [ ] ;
+    jams:hasDuration "0.0"^^xsd:float ;
+    jams:hasFrequency "4"^^xsd:int ;
+    jams:hasPatternType "pitch-class-values" ;
+    jams:ofPattern <http://w3id.org/polifonia/resource/pattern/0_2_4_0_0_2> .
+
+<http://w3id.org/polifonia/resource/JAMSObservation/GoldenMeanThe42232/0_2_4_11_0_2@0.0> a jams:JAMSObservation,
+        jams:JAMSScoreObservation,
+        jams:ScorePatternOccurrence ;
+    rdfs:label [ ] ;
+    jams:hasDuration "0.0"^^xsd:float ;
+    jams:hasFrequency "2"^^xsd:int ;
+    jams:hasPatternType "pitch-class-values" ;
+    jams:ofPattern <http://w3id.org/polifonia/resource/pattern/0_2_4_11_0_2> .
+
+<http://w3id.org/polifonia/resource/JAMSObservation/GoldenMeanThe42232/0_2_9_0_7_0@0.0> a jams:JAMSObservation,
+        jams:JAMSScoreObservation,
+        jams:ScorePatternOccurrence ;
+    rdfs:label [ ] ;
+    jams:hasDuration "0.0"^^xsd:float ;
+    jams:hasFrequency "1"^^xsd:int ;
+    jams:hasPatternType "pitch-class-values" ;
+    jams:ofPattern <http://w3id.org/polifonia/resource/pattern/0_2_9_0_7_0> .
+
+<http://w3id.org/polifonia/resource/JAMSObservation/GoldenMeanThe42232/0_2_9_4_9_4@0.0> a jams:JAMSObservation,
+        jams:JAMSScoreObservation,
+        jams:ScorePatternOccurrence ;
+    rdfs:label [ ] ;
+    jams:hasDuration "0.0"^^xsd:float ;
+    jams:hasFrequency "1"^^xsd:int ;
+    jams:hasPatternType "pitch-class-values" ;
+    jams:ofPattern <http://w3id.org/polifonia/resource/pattern/0_2_9_4_9_4> .
+
+<http://w3id.org/polifonia/resource/JAMSObservation/GoldenMeanThe42232/0_4_0_0_2_4@0.0> a jams:JAMSObservation,
+        jams:JAMSScoreObservation,
+        jams:ScorePatternOccurrence ;
+    rdfs:label [ ] ;
+    jams:hasDuration "0.0"^^xsd:float ;
+    jams:hasFrequency "1"^^xsd:int ;
+    jams:hasPatternType "pitch-class-values" ;
+    jams:ofPattern <http://w3id.org/polifonia/resource/pattern/0_4_0_0_2_4> .
+
+<http://w3id.org/polifonia/resource/JAMSObservation/GoldenMeanThe42232/0_4_2_0_4_0@0.0> a jams:JAMSObservation,
+        jams:JAMSScoreObservation,
+        jams:ScorePatternOccurrence ;
+    rdfs:label [ ] ;
+    jams:hasDuration "0.0"^^xsd:float ;
+    jams:hasFrequency "1"^^xsd:int ;
+    jams:hasPatternType "pitch-class-values" ;
+    jams:ofPattern <http://w3id.org/polifonia/resource/pattern/0_4_2_0_4_0> .
+
+<http://w3id.org/polifonia/resource/JAMSObservation/GoldenMeanThe42232/0_4_2_0_9_4@0.0> a jams:JAMSObservation,
+        jams:JAMSScoreObservation,
+        jams:ScorePatternOccurrence ;
+    rdfs:label [ ] ;
+    jams:hasDuration "0.0"^^xsd:float ;
+    jams:hasFrequency "1"^^xsd:int ;
+    jams:hasPatternType "pitch-class-values" ;
+    jams:ofPattern <http://w3id.org/polifonia/resource/pattern/0_4_2_0_9_4> .
+
+<http://w3id.org/polifonia/resource/JAMSObservation/GoldenMeanThe42232/0_4_9_4_0_4@0.0> a jams:JAMSObservation,
+        jams:JAMSScoreObservation,
+        jams:ScorePatternOccurrence ;
+    rdfs:label [ ] ;
+    jams:hasDuration "0.0"^^xsd:float ;
+    jams:hasFrequency "2"^^xsd:int ;
+    jams:hasPatternType "pitch-class-values" ;
+    jams:ofPattern <http://w3id.org/polifonia/resource/pattern/0_4_9_4_0_4> .
+
+<http://w3id.org/polifonia/resource/JAMSObservation/GoldenMeanThe42232/0_7_0_9_0_9@0.0> a jams:JAMSObservation,
+        jams:JAMSScoreObservation,
+        jams:ScorePatternOccurrence ;
+    rdfs:label [ ] ;
+    jams:hasDuration "0.0"^^xsd:float ;
+    jams:hasFrequency "1"^^xsd:int ;
+    jams:hasPatternType "pitch-class-values" ;
+    jams:ofPattern <http://w3id.org/polifonia/resource/pattern/0_7_0_9_0_9> .
+
+<http://w3id.org/polifonia/resource/JAMSObservation/GoldenMeanThe42232/0_9_0_0_2_9@0.0> a jams:JAMSObservation,
+        jams:JAMSScoreObservation,
+        jams:ScorePatternOccurrence ;
+    rdfs:label [ ] ;
+    jams:hasDuration "0.0"^^xsd:float ;
+    jams:hasFrequency "2"^^xsd:int ;
+    jams:hasPatternType "pitch-class-values" ;
+    jams:ofPattern <http://w3id.org/polifonia/resource/pattern/0_9_0_0_2_9> .
+
+<http://w3id.org/polifonia/resource/JAMSObservation/GoldenMeanThe42232/0_9_0_9_4_9@0.0> a jams:JAMSObservation,
+        jams:JAMSScoreObservation,
+        jams:ScorePatternOccurrence ;
+    rdfs:label [ ] ;
+    jams:hasDuration "0.0"^^xsd:float ;
+    jams:hasFrequency "2"^^xsd:int ;
+    jams:hasPatternType "pitch-class-values" ;
+    jams:ofPattern <http://w3id.org/polifonia/resource/pattern/0_9_0_9_4_9> .
+
+<http://w3id.org/polifonia/resource/JAMSObservation/GoldenMeanThe42232/0_9_11_7_0_4@0.0> a jams:JAMSObservation,
+        jams:JAMSScoreObservation,
+        jams:ScorePatternOccurrence ;
+    rdfs:label [ ] ;
+    jams:hasDuration "0.0"^^xsd:float ;
+    jams:hasFrequency "2"^^xsd:int ;
+    jams:hasPatternType "pitch-class-values" ;
+    jams:ofPattern <http://w3id.org/polifonia/resource/pattern/0_9_11_7_0_4> .
+
+<http://w3id.org/polifonia/resource/JAMSObservation/GoldenMeanThe42232/0_9_4_9_11_7@0.0> a jams:JAMSObservation,
+        jams:JAMSScoreObservation,
+        jams:ScorePatternOccurrence ;
+    rdfs:label [ ] ;
+    jams:hasDuration "0.0"^^xsd:float ;
+    jams:hasFrequency "1"^^xsd:int ;
+    jams:hasPatternType "pitch-class-values" ;
+    jams:ofPattern <http://w3id.org/polifonia/resource/pattern/0_9_4_9_11_7> .
+
+<http://w3id.org/polifonia/resource/JAMSObservation/GoldenMeanThe42232/0_9_4_9_4_0@0.0> a jams:JAMSObservation,
+        jams:JAMSScoreObservation,
+        jams:ScorePatternOccurrence ;
+    rdfs:label [ ] ;
+    jams:hasDuration "0.0"^^xsd:float ;
+    jams:hasFrequency "1"^^xsd:int ;
+    jams:hasPatternType "pitch-class-values" ;
+    jams:ofPattern <http://w3id.org/polifonia/resource/pattern/0_9_4_9_4_0> .
+
+<http://w3id.org/polifonia/resource/JAMSObservation/GoldenMeanThe42232/0_9_4_9_4_7@0.0> a jams:JAMSObservation,
+        jams:JAMSScoreObservation,
+        jams:ScorePatternOccurrence ;
+    rdfs:label [ ] ;
+    jams:hasDuration "0.0"^^xsd:float ;
+    jams:hasFrequency "1"^^xsd:int ;
+    jams:hasPatternType "pitch-class-values" ;
+    jams:ofPattern <http://w3id.org/polifonia/resource/pattern/0_9_4_9_4_7> .
+
+<http://w3id.org/polifonia/resource/JAMSObservation/GoldenMeanThe42232/11_0_2_4_0_0@0.0> a jams:JAMSObservation,
+        jams:JAMSScoreObservation,
+        jams:ScorePatternOccurrence ;
+    rdfs:label [ ] ;
+    jams:hasDuration "0.0"^^xsd:float ;
+    jams:hasFrequency "2"^^xsd:int ;
+    jams:hasPatternType "pitch-class-values" ;
+    jams:ofPattern <http://w3id.org/polifonia/resource/pattern/11_0_2_4_0_0> .
+
+<http://w3id.org/polifonia/resource/JAMSObservation/GoldenMeanThe42232/11_7_0_4_9_4@0.0> a jams:JAMSObservation,
+        jams:JAMSScoreObservation,
+        jams:ScorePatternOccurrence ;
+    rdfs:label [ ] ;
+    jams:hasDuration "0.0"^^xsd:float ;
+    jams:hasFrequency "2"^^xsd:int ;
+    jams:hasPatternType "pitch-class-values" ;
+    jams:ofPattern <http://w3id.org/polifonia/resource/pattern/11_7_0_4_9_4> .
+
+<http://w3id.org/polifonia/resource/JAMSObservation/GoldenMeanThe42232/11_7_0_9_0_0@0.0> a jams:JAMSObservation,
+        jams:JAMSScoreObservation,
+        jams:ScorePatternOccurrence ;
+    rdfs:label [ ] ;
+    jams:hasDuration "0.0"^^xsd:float ;
+    jams:hasFrequency "1"^^xsd:int ;
+    jams:hasPatternType "pitch-class-values" ;
+    jams:ofPattern <http://w3id.org/polifonia/resource/pattern/11_7_0_9_0_0> .
+
+<http://w3id.org/polifonia/resource/JAMSObservation/GoldenMeanThe42232/2_0_0_2_4_11@0.0> a jams:JAMSObservation,
+        jams:JAMSScoreObservation,
+        jams:ScorePatternOccurrence ;
+    rdfs:label [ ] ;
+    jams:hasDuration "0.0"^^xsd:float ;
+    jams:hasFrequency "1"^^xsd:int ;
+    jams:hasPatternType "pitch-class-values" ;
+    jams:ofPattern <http://w3id.org/polifonia/resource/pattern/2_0_0_2_4_11> .
+
+<http://w3id.org/polifonia/resource/JAMSObservation/GoldenMeanThe42232/2_0_4_0_0_2@0.0> a jams:JAMSObservation,
+        jams:JAMSScoreObservation,
+        jams:ScorePatternOccurrence ;
+    rdfs:label [ ] ;
+    jams:hasDuration "0.0"^^xsd:float ;
+    jams:hasFrequency "1"^^xsd:int ;
+    jams:hasPatternType "pitch-class-values" ;
+    jams:ofPattern <http://w3id.org/polifonia/resource/pattern/2_0_4_0_0_2> .
+
+<http://w3id.org/polifonia/resource/JAMSObservation/GoldenMeanThe42232/2_0_9_4_9_4@0.0> a jams:JAMSObservation,
+        jams:JAMSScoreObservation,
+        jams:ScorePatternOccurrence ;
+    rdfs:label [ ] ;
+    jams:hasDuration "0.0"^^xsd:float ;
+    jams:hasFrequency "1"^^xsd:int ;
+    jams:hasPatternType "pitch-class-values" ;
+    jams:ofPattern <http://w3id.org/polifonia/resource/pattern/2_0_9_4_9_4> .
+
+<http://w3id.org/polifonia/resource/JAMSObservation/GoldenMeanThe42232/2_2_0_0_2_4@0.0> a jams:JAMSObservation,
+        jams:JAMSScoreObservation,
+        jams:ScorePatternOccurrence ;
+    rdfs:label [ ] ;
+    jams:hasDuration "0.0"^^xsd:float ;
+    jams:hasFrequency "1"^^xsd:int ;
+    jams:hasPatternType "pitch-class-values" ;
+    jams:ofPattern <http://w3id.org/polifonia/resource/pattern/2_2_0_0_2_4> .
+
+<http://w3id.org/polifonia/resource/JAMSObservation/GoldenMeanThe42232/2_4_0_0_2_2@0.0> a jams:JAMSObservation,
+        jams:JAMSScoreObservation,
+        jams:ScorePatternOccurrence ;
+    rdfs:label [ ] ;
+    jams:hasDuration "0.0"^^xsd:float ;
+    jams:hasFrequency "2"^^xsd:int ;
+    jams:hasPatternType "pitch-class-values" ;
+    jams:ofPattern <http://w3id.org/polifonia/resource/pattern/2_4_0_0_2_2> .
+
+<http://w3id.org/polifonia/resource/JAMSObservation/GoldenMeanThe42232/2_4_0_0_2_4@0.0> a jams:JAMSObservation,
+        jams:JAMSScoreObservation,
+        jams:ScorePatternOccurrence ;
+    rdfs:label [ ] ;
+    jams:hasDuration "0.0"^^xsd:float ;
+    jams:hasFrequency "2"^^xsd:int ;
+    jams:hasPatternType "pitch-class-values" ;
+    jams:ofPattern <http://w3id.org/polifonia/resource/pattern/2_4_0_0_2_4> .
+
+<http://w3id.org/polifonia/resource/JAMSObservation/GoldenMeanThe42232/2_4_11_0_2_4@0.0> a jams:JAMSObservation,
+        jams:JAMSScoreObservation,
+        jams:ScorePatternOccurrence ;
+    rdfs:label [ ] ;
+    jams:hasDuration "0.0"^^xsd:float ;
+    jams:hasFrequency "2"^^xsd:int ;
+    jams:hasPatternType "pitch-class-values" ;
+    jams:ofPattern <http://w3id.org/polifonia/resource/pattern/2_4_11_0_2_4> .
+
+<http://w3id.org/polifonia/resource/JAMSObservation/GoldenMeanThe42232/2_9_0_7_0_9@0.0> a jams:JAMSObservation,
+        jams:JAMSScoreObservation,
+        jams:ScorePatternOccurrence ;
+    rdfs:label [ ] ;
+    jams:hasDuration "0.0"^^xsd:float ;
+    jams:hasFrequency "1"^^xsd:int ;
+    jams:hasPatternType "pitch-class-values" ;
+    jams:ofPattern <http://w3id.org/polifonia/resource/pattern/2_9_0_7_0_9> .
+
+<http://w3id.org/polifonia/resource/JAMSObservation/GoldenMeanThe42232/2_9_4_9_4_0@0.0> a jams:JAMSObservation,
+        jams:JAMSScoreObservation,
+        jams:ScorePatternOccurrence ;
+    rdfs:label [ ] ;
+    jams:hasDuration "0.0"^^xsd:float ;
+    jams:hasFrequency "1"^^xsd:int ;
+    jams:hasPatternType "pitch-class-values" ;
+    jams:ofPattern <http://w3id.org/polifonia/resource/pattern/2_9_4_9_4_0> .
+
+<http://w3id.org/polifonia/resource/JAMSObservation/GoldenMeanThe42232/4_0_0_2_2_0@0.0> a jams:JAMSObservation,
+        jams:JAMSScoreObservation,
+        jams:ScorePatternOccurrence ;
+    rdfs:label [ ] ;
+    jams:hasDuration "0.0"^^xsd:float ;
+    jams:hasFrequency "1"^^xsd:int ;
+    jams:hasPatternType "pitch-class-values" ;
+    jams:ofPattern <http://w3id.org/polifonia/resource/pattern/4_0_0_2_2_0> .
+
+<http://w3id.org/polifonia/resource/JAMSObservation/GoldenMeanThe42232/4_0_0_2_4_0@0.0> a jams:JAMSObservation,
+        jams:JAMSScoreObservation,
+        jams:ScorePatternOccurrence ;
+    rdfs:label [ ] ;
+    jams:hasDuration "0.0"^^xsd:float ;
+    jams:hasFrequency "2"^^xsd:int ;
+    jams:hasPatternType "pitch-class-values" ;
+    jams:ofPattern <http://w3id.org/polifonia/resource/pattern/4_0_0_2_4_0> .
+
+<http://w3id.org/polifonia/resource/JAMSObservation/GoldenMeanThe42232/4_0_0_2_4_11@0.0> a jams:JAMSObservation,
+        jams:JAMSScoreObservation,
+        jams:ScorePatternOccurrence ;
+    rdfs:label [ ] ;
+    jams:hasDuration "0.0"^^xsd:float ;
+    jams:hasFrequency "1"^^xsd:int ;
+    jams:hasPatternType "pitch-class-values" ;
+    jams:ofPattern <http://w3id.org/polifonia/resource/pattern/4_0_0_2_4_11> .
+
+<http://w3id.org/polifonia/resource/JAMSObservation/GoldenMeanThe42232/4_0_4_2_0_4@0.0> a jams:JAMSObservation,
+        jams:JAMSScoreObservation,
+        jams:ScorePatternOccurrence ;
+    rdfs:label [ ] ;
+    jams:hasDuration "0.0"^^xsd:float ;
+    jams:hasFrequency "1"^^xsd:int ;
+    jams:hasPatternType "pitch-class-values" ;
+    jams:ofPattern <http://w3id.org/polifonia/resource/pattern/4_0_4_2_0_4> .
+
+<http://w3id.org/polifonia/resource/JAMSObservation/GoldenMeanThe42232/4_0_4_2_0_9@0.0> a jams:JAMSObservation,
+        jams:JAMSScoreObservation,
+        jams:ScorePatternOccurrence ;
+    rdfs:label [ ] ;
+    jams:hasDuration "0.0"^^xsd:float ;
+    jams:hasFrequency "1"^^xsd:int ;
+    jams:hasPatternType "pitch-class-values" ;
+    jams:ofPattern <http://w3id.org/polifonia/resource/pattern/4_0_4_2_0_9> .
+
+<http://w3id.org/polifonia/resource/JAMSObservation/GoldenMeanThe42232/4_0_9_11_7_0@0.0> a jams:JAMSObservation,
+        jams:JAMSScoreObservation,
+        jams:ScorePatternOccurrence ;
+    rdfs:label [ ] ;
+    jams:hasDuration "0.0"^^xsd:float ;
+    jams:hasFrequency "2"^^xsd:int ;
+    jams:hasPatternType "pitch-class-values" ;
+    jams:ofPattern <http://w3id.org/polifonia/resource/pattern/4_0_9_11_7_0> .
+
+<http://w3id.org/polifonia/resource/JAMSObservation/GoldenMeanThe42232/4_11_0_2_4_0@0.0> a jams:JAMSObservation,
+        jams:JAMSScoreObservation,
+        jams:ScorePatternOccurrence ;
+    rdfs:label [ ] ;
+    jams:hasDuration "0.0"^^xsd:float ;
+    jams:hasFrequency "2"^^xsd:int ;
+    jams:hasPatternType "pitch-class-values" ;
+    jams:ofPattern <http://w3id.org/polifonia/resource/pattern/4_11_0_2_4_0> .
+
+<http://w3id.org/polifonia/resource/JAMSObservation/GoldenMeanThe42232/4_2_0_4_0_0@0.0> a jams:JAMSObservation,
+        jams:JAMSScoreObservation,
+        jams:ScorePatternOccurrence ;
+    rdfs:label [ ] ;
+    jams:hasDuration "0.0"^^xsd:float ;
+    jams:hasFrequency "1"^^xsd:int ;
+    jams:hasPatternType "pitch-class-values" ;
+    jams:ofPattern <http://w3id.org/polifonia/resource/pattern/4_2_0_4_0_0> .
+
+<http://w3id.org/polifonia/resource/JAMSObservation/GoldenMeanThe42232/4_2_0_9_4_9@0.0> a jams:JAMSObservation,
+        jams:JAMSScoreObservation,
+        jams:ScorePatternOccurrence ;
+    rdfs:label [ ] ;
+    jams:hasDuration "0.0"^^xsd:float ;
+    jams:hasFrequency "1"^^xsd:int ;
+    jams:hasPatternType "pitch-class-values" ;
+    jams:ofPattern <http://w3id.org/polifonia/resource/pattern/4_2_0_9_4_9> .
+
+<http://w3id.org/polifonia/resource/JAMSObservation/GoldenMeanThe42232/4_7_0_9_0_0@0.0> a jams:JAMSObservation,
+        jams:JAMSScoreObservation,
+        jams:ScorePatternOccurrence ;
+    rdfs:label [ ] ;
+    jams:hasDuration "0.0"^^xsd:float ;
+    jams:hasFrequency "1"^^xsd:int ;
+    jams:hasPatternType "pitch-class-values" ;
+    jams:ofPattern <http://w3id.org/polifonia/resource/pattern/4_7_0_9_0_0> .
+
+<http://w3id.org/polifonia/resource/JAMSObservation/GoldenMeanThe42232/4_9_11_7_0_9@0.0> a jams:JAMSObservation,
+        jams:JAMSScoreObservation,
+        jams:ScorePatternOccurrence ;
+    rdfs:label [ ] ;
+    jams:hasDuration "0.0"^^xsd:float ;
+    jams:hasFrequency "1"^^xsd:int ;
+    jams:hasPatternType "pitch-class-values" ;
+    jams:ofPattern <http://w3id.org/polifonia/resource/pattern/4_9_11_7_0_9> .
+
+<http://w3id.org/polifonia/resource/JAMSObservation/GoldenMeanThe42232/4_9_4_0_4_2@0.0> a jams:JAMSObservation,
+        jams:JAMSScoreObservation,
+        jams:ScorePatternOccurrence ;
+    rdfs:label [ ] ;
+    jams:hasDuration "0.0"^^xsd:float ;
+    jams:hasFrequency "2"^^xsd:int ;
+    jams:hasPatternType "pitch-class-values" ;
+    jams:ofPattern <http://w3id.org/polifonia/resource/pattern/4_9_4_0_4_2> .
+
+<http://w3id.org/polifonia/resource/JAMSObservation/GoldenMeanThe42232/4_9_4_0_9_11@0.0> a jams:JAMSObservation,
+        jams:JAMSScoreObservation,
+        jams:ScorePatternOccurrence ;
+    rdfs:label [ ] ;
+    jams:hasDuration "0.0"^^xsd:float ;
+    jams:hasFrequency "2"^^xsd:int ;
+    jams:hasPatternType "pitch-class-values" ;
+    jams:ofPattern <http://w3id.org/polifonia/resource/pattern/4_9_4_0_9_11> .
+
+<http://w3id.org/polifonia/resource/JAMSObservation/GoldenMeanThe42232/4_9_4_7_0_9@0.0> a jams:JAMSObservation,
+        jams:JAMSScoreObservation,
+        jams:ScorePatternOccurrence ;
+    rdfs:label [ ] ;
+    jams:hasDuration "0.0"^^xsd:float ;
+    jams:hasFrequency "1"^^xsd:int ;
+    jams:hasPatternType "pitch-class-values" ;
+    jams:ofPattern <http://w3id.org/polifonia/resource/pattern/4_9_4_7_0_9> .
+
+<http://w3id.org/polifonia/resource/JAMSObservation/GoldenMeanThe42232/7_0_4_9_4_0@0.0> a jams:JAMSObservation,
+        jams:JAMSScoreObservation,
+        jams:ScorePatternOccurrence ;
+    rdfs:label [ ] ;
+    jams:hasDuration "0.0"^^xsd:float ;
+    jams:hasFrequency "2"^^xsd:int ;
+    jams:hasPatternType "pitch-class-values" ;
+    jams:ofPattern <http://w3id.org/polifonia/resource/pattern/7_0_4_9_4_0> .
+
+<http://w3id.org/polifonia/resource/JAMSObservation/GoldenMeanThe42232/7_0_9_0_0_2@0.0> a jams:JAMSObservation,
+        jams:JAMSScoreObservation,
+        jams:ScorePatternOccurrence ;
+    rdfs:label [ ] ;
+    jams:hasDuration "0.0"^^xsd:float ;
+    jams:hasFrequency "2"^^xsd:int ;
+    jams:hasPatternType "pitch-class-values" ;
+    jams:ofPattern <http://w3id.org/polifonia/resource/pattern/7_0_9_0_0_2> .
+
+<http://w3id.org/polifonia/resource/JAMSObservation/GoldenMeanThe42232/7_0_9_0_9_4@0.0> a jams:JAMSObservation,
+        jams:JAMSScoreObservation,
+        jams:ScorePatternOccurrence ;
+    rdfs:label [ ] ;
+    jams:hasDuration "0.0"^^xsd:float ;
+    jams:hasFrequency "1"^^xsd:int ;
+    jams:hasPatternType "pitch-class-values" ;
+    jams:ofPattern <http://w3id.org/polifonia/resource/pattern/7_0_9_0_9_4> .
+
+<http://w3id.org/polifonia/resource/JAMSObservation/GoldenMeanThe42232/9_0_0_2_9_0@0.0> a jams:JAMSObservation,
+        jams:JAMSScoreObservation,
+        jams:ScorePatternOccurrence ;
+    rdfs:label [ ] ;
+    jams:hasDuration "0.0"^^xsd:float ;
+    jams:hasFrequency "1"^^xsd:int ;
+    jams:hasPatternType "pitch-class-values" ;
+    jams:ofPattern <http://w3id.org/polifonia/resource/pattern/9_0_0_2_9_0> .
+
+<http://w3id.org/polifonia/resource/JAMSObservation/GoldenMeanThe42232/9_0_0_2_9_4@0.0> a jams:JAMSObservation,
+        jams:JAMSScoreObservation,
+        jams:ScorePatternOccurrence ;
+    rdfs:label [ ] ;
+    jams:hasDuration "0.0"^^xsd:float ;
+    jams:hasFrequency "1"^^xsd:int ;
+    jams:hasPatternType "pitch-class-values" ;
+    jams:ofPattern <http://w3id.org/polifonia/resource/pattern/9_0_0_2_9_4> .
+
+<http://w3id.org/polifonia/resource/JAMSObservation/GoldenMeanThe42232/9_0_7_0_9_0@0.0> a jams:JAMSObservation,
+        jams:JAMSScoreObservation,
+        jams:ScorePatternOccurrence ;
+    rdfs:label [ ] ;
+    jams:hasDuration "0.0"^^xsd:float ;
+    jams:hasFrequency "1"^^xsd:int ;
+    jams:hasPatternType "pitch-class-values" ;
+    jams:ofPattern <http://w3id.org/polifonia/resource/pattern/9_0_7_0_9_0> .
+
+<http://w3id.org/polifonia/resource/JAMSObservation/GoldenMeanThe42232/9_0_9_4_9_11@0.0> a jams:JAMSObservation,
+        jams:JAMSScoreObservation,
+        jams:ScorePatternOccurrence ;
+    rdfs:label [ ] ;
+    jams:hasDuration "0.0"^^xsd:float ;
+    jams:hasFrequency "1"^^xsd:int ;
+    jams:hasPatternType "pitch-class-values" ;
+    jams:ofPattern <http://w3id.org/polifonia/resource/pattern/9_0_9_4_9_11> .
+
+<http://w3id.org/polifonia/resource/JAMSObservation/GoldenMeanThe42232/9_0_9_4_9_4@0.0> a jams:JAMSObservation,
+        jams:JAMSScoreObservation,
+        jams:ScorePatternOccurrence ;
+    rdfs:label [ ] ;
+    jams:hasDuration "0.0"^^xsd:float ;
+    jams:hasFrequency "1"^^xsd:int ;
+    jams:hasPatternType "pitch-class-values" ;
+    jams:ofPattern <http://w3id.org/polifonia/resource/pattern/9_0_9_4_9_4> .
+
+<http://w3id.org/polifonia/resource/JAMSObservation/GoldenMeanThe42232/9_11_7_0_4_9@0.0> a jams:JAMSObservation,
+        jams:JAMSScoreObservation,
+        jams:ScorePatternOccurrence ;
+    rdfs:label [ ] ;
+    jams:hasDuration "0.0"^^xsd:float ;
+    jams:hasFrequency "2"^^xsd:int ;
+    jams:hasPatternType "pitch-class-values" ;
+    jams:ofPattern <http://w3id.org/polifonia/resource/pattern/9_11_7_0_4_9> .
+
+<http://w3id.org/polifonia/resource/JAMSObservation/GoldenMeanThe42232/9_11_7_0_9_0@0.0> a jams:JAMSObservation,
+        jams:JAMSScoreObservation,
+        jams:ScorePatternOccurrence ;
+    rdfs:label [ ] ;
+    jams:hasDuration "0.0"^^xsd:float ;
+    jams:hasFrequency "1"^^xsd:int ;
+    jams:hasPatternType "pitch-class-values" ;
+    jams:ofPattern <http://w3id.org/polifonia/resource/pattern/9_11_7_0_9_0> .
+
+<http://w3id.org/polifonia/resource/JAMSObservation/GoldenMeanThe42232/9_4_0_4_2_0@0.0> a jams:JAMSObservation,
+        jams:JAMSScoreObservation,
+        jams:ScorePatternOccurrence ;
+    rdfs:label [ ] ;
+    jams:hasDuration "0.0"^^xsd:float ;
+    jams:hasFrequency "2"^^xsd:int ;
+    jams:hasPatternType "pitch-class-values" ;
+    jams:ofPattern <http://w3id.org/polifonia/resource/pattern/9_4_0_4_2_0> .
+
+<http://w3id.org/polifonia/resource/JAMSObservation/GoldenMeanThe42232/9_4_0_9_11_7@0.0> a jams:JAMSObservation,
+        jams:JAMSScoreObservation,
+        jams:ScorePatternOccurrence ;
+    rdfs:label [ ] ;
+    jams:hasDuration "0.0"^^xsd:float ;
+    jams:hasFrequency "2"^^xsd:int ;
+    jams:hasPatternType "pitch-class-values" ;
+    jams:ofPattern <http://w3id.org/polifonia/resource/pattern/9_4_0_9_11_7> .
+
+<http://w3id.org/polifonia/resource/JAMSObservation/GoldenMeanThe42232/9_4_7_0_9_0@0.0> a jams:JAMSObservation,
+        jams:JAMSScoreObservation,
+        jams:ScorePatternOccurrence ;
+    rdfs:label [ ] ;
+    jams:hasDuration "0.0"^^xsd:float ;
+    jams:hasFrequency "1"^^xsd:int ;
+    jams:hasPatternType "pitch-class-values" ;
+    jams:ofPattern <http://w3id.org/polifonia/resource/pattern/9_4_7_0_9_0> .
+
+<http://w3id.org/polifonia/resource/JAMSObservation/GoldenMeanThe42232/9_4_9_11_7_0@0.0> a jams:JAMSObservation,
+        jams:JAMSScoreObservation,
+        jams:ScorePatternOccurrence ;
+    rdfs:label [ ] ;
+    jams:hasDuration "0.0"^^xsd:float ;
+    jams:hasFrequency "1"^^xsd:int ;
+    jams:hasPatternType "pitch-class-values" ;
+    jams:ofPattern <http://w3id.org/polifonia/resource/pattern/9_4_9_11_7_0> .
+
+<http://w3id.org/polifonia/resource/JAMSObservation/GoldenMeanThe42232/9_4_9_4_0_9@0.0> a jams:JAMSObservation,
+        jams:JAMSScoreObservation,
+        jams:ScorePatternOccurrence ;
+    rdfs:label [ ] ;
+    jams:hasDuration "0.0"^^xsd:float ;
+    jams:hasFrequency "2"^^xsd:int ;
+    jams:hasPatternType "pitch-class-values" ;
+    jams:ofPattern <http://w3id.org/polifonia/resource/pattern/9_4_9_4_0_9> .
+
+<http://w3id.org/polifonia/resource/JAMSObservation/GoldenMeanThe42232/9_4_9_4_7_0@0.0> a jams:JAMSObservation,
+        jams:JAMSScoreObservation,
+        jams:ScorePatternOccurrence ;
+    rdfs:label [ ] ;
+    jams:hasDuration "0.0"^^xsd:float ;
+    jams:hasFrequency "1"^^xsd:int ;
+    jams:hasPatternType "pitch-class-values" ;
+    jams:ofPattern <http://w3id.org/polifonia/resource/pattern/9_4_9_4_7_0> .
+
+<http://w3id.org/polifonia/resource/MusicalComposition/5ff56694d7e3c61b26ea13528ba04e0c4dfc4e93> a mc:MusicalComposition ;
+    rdfs:label "GoldenMeanThe42232" ;
+    mc:title "GoldenMeanThe42232" ;
+    prov:wasDerivedFrom <http://w3id.org/polifonia/resource/JAMSFile/GoldenMeanThe42232.jams> .
+

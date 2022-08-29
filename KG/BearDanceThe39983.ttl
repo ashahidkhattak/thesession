@@ -1,0 +1,201 @@
+@prefix core: <http://w3id.org/polifonia/ontology/core/> .
+@prefix jams: <http://w3id.org/polifonia/ontology/jams/> .
+@prefix mc: <http://w3id.org/polifonia/ontology/musical-composition/> .
+@prefix pon-resource: <http://w3id.org/polifonia/resource/> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+pon-resource:Agent%2Fannotator_local_id a core:Agent ;
+    rdfs:label "FONN-Tool" ;
+    jams:hasAnnotatorType pon-resource:annotator-program ;
+    jams:hasName "FONN-Tool" .
+
+<http://w3id.org/polifonia/resource/JAMSAnnotation/3f29a4535b24f4c511ff2d0e3283b1ea7028cb39> a jams:JAMSAnnotation,
+        jams:JAMSScoreAnnotation ;
+    jams:includesObservation <http://w3id.org/polifonia/resource/JAMSObservation/BearDanceThe39983/0_2_0_7_7_3@0.0>,
+        <http://w3id.org/polifonia/resource/JAMSObservation/BearDanceThe39983/0_7_3_7_7_3@0.0>,
+        <http://w3id.org/polifonia/resource/JAMSObservation/BearDanceThe39983/0_7_7_3_0_0@0.0>,
+        <http://w3id.org/polifonia/resource/JAMSObservation/BearDanceThe39983/0_7_7_3_0_2@0.0>,
+        <http://w3id.org/polifonia/resource/JAMSObservation/BearDanceThe39983/2_0_7_7_3_0@0.0>,
+        <http://w3id.org/polifonia/resource/JAMSObservation/BearDanceThe39983/3_0_0_0_0_0@0.0>,
+        <http://w3id.org/polifonia/resource/JAMSObservation/BearDanceThe39983/3_0_2_0_7_7@0.0>,
+        <http://w3id.org/polifonia/resource/JAMSObservation/BearDanceThe39983/3_0_7_3_7_7@0.0>,
+        <http://w3id.org/polifonia/resource/JAMSObservation/BearDanceThe39983/3_7_7_3_0_7@0.0>,
+        <http://w3id.org/polifonia/resource/JAMSObservation/BearDanceThe39983/7_3_0_0_0_0@0.0>,
+        <http://w3id.org/polifonia/resource/JAMSObservation/BearDanceThe39983/7_3_0_2_0_7@0.0>,
+        <http://w3id.org/polifonia/resource/JAMSObservation/BearDanceThe39983/7_3_0_7_3_7@0.0>,
+        <http://w3id.org/polifonia/resource/JAMSObservation/BearDanceThe39983/7_3_7_7_3_0@0.0>,
+        <http://w3id.org/polifonia/resource/JAMSObservation/BearDanceThe39983/7_7_3_0_0_0@0.0>,
+        <http://w3id.org/polifonia/resource/JAMSObservation/BearDanceThe39983/7_7_3_0_2_0@0.0>,
+        <http://w3id.org/polifonia/resource/JAMSObservation/BearDanceThe39983/7_7_3_0_7_3@0.0>,
+        <http://w3id.org/polifonia/resource/JAMSObservation/BearDanceThe39983/7_7_3_7_7_3@0.0> ;
+    jams:isJAMSAnnotationOf <http://w3id.org/polifonia/resource/MusicalComposition/3f29a4535b24f4c511ff2d0e3283b1ea7028cb39> .
+
+<http://w3id.org/polifonia/resource/Score/song_local_id> jams:hasJAMSAnnotation <http://w3id.org/polifonia/resource/MusicalComposition/3f29a4535b24f4c511ff2d0e3283b1ea7028cb39> .
+
+<http://w3id.org/polifonia/resource/JAMSFile/BearDanceThe39983.jams> a jams:JAMSFile ;
+    jams:identifiers [ ] ;
+    jams:jamsVersion "0.3.4" ;
+    jams:release "" ;
+    prov:wasDerivedFrom "The Session" ;
+    prov:wasMemberOf <https://github.com/ashahidkhattak/thesession> .
+
+<http://w3id.org/polifonia/resource/JAMSObservation/BearDanceThe39983/0_2_0_7_7_3@0.0> a jams:JAMSObservation,
+        jams:JAMSScoreObservation,
+        jams:ScorePatternOccurrence ;
+    rdfs:label [ ] ;
+    jams:hasDuration "0.0"^^xsd:float ;
+    jams:hasFrequency "2"^^xsd:int ;
+    jams:hasPatternType "pitch-class-values" ;
+    jams:ofPattern <http://w3id.org/polifonia/resource/pattern/0_2_0_7_7_3> .
+
+<http://w3id.org/polifonia/resource/JAMSObservation/BearDanceThe39983/0_7_3_7_7_3@0.0> a jams:JAMSObservation,
+        jams:JAMSScoreObservation,
+        jams:ScorePatternOccurrence ;
+    rdfs:label [ ] ;
+    jams:hasDuration "0.0"^^xsd:float ;
+    jams:hasFrequency "1"^^xsd:int ;
+    jams:hasPatternType "pitch-class-values" ;
+    jams:ofPattern <http://w3id.org/polifonia/resource/pattern/0_7_3_7_7_3> .
+
+<http://w3id.org/polifonia/resource/JAMSObservation/BearDanceThe39983/0_7_7_3_0_0@0.0> a jams:JAMSObservation,
+        jams:JAMSScoreObservation,
+        jams:ScorePatternOccurrence ;
+    rdfs:label [ ] ;
+    jams:hasDuration "0.0"^^xsd:float ;
+    jams:hasFrequency "1"^^xsd:int ;
+    jams:hasPatternType "pitch-class-values" ;
+    jams:ofPattern <http://w3id.org/polifonia/resource/pattern/0_7_7_3_0_0> .
+
+<http://w3id.org/polifonia/resource/JAMSObservation/BearDanceThe39983/0_7_7_3_0_2@0.0> a jams:JAMSObservation,
+        jams:JAMSScoreObservation,
+        jams:ScorePatternOccurrence ;
+    rdfs:label [ ] ;
+    jams:hasDuration "0.0"^^xsd:float ;
+    jams:hasFrequency "1"^^xsd:int ;
+    jams:hasPatternType "pitch-class-values" ;
+    jams:ofPattern <http://w3id.org/polifonia/resource/pattern/0_7_7_3_0_2> .
+
+<http://w3id.org/polifonia/resource/JAMSObservation/BearDanceThe39983/2_0_7_7_3_0@0.0> a jams:JAMSObservation,
+        jams:JAMSScoreObservation,
+        jams:ScorePatternOccurrence ;
+    rdfs:label [ ] ;
+    jams:hasDuration "0.0"^^xsd:float ;
+    jams:hasFrequency "2"^^xsd:int ;
+    jams:hasPatternType "pitch-class-values" ;
+    jams:ofPattern <http://w3id.org/polifonia/resource/pattern/2_0_7_7_3_0> .
+
+<http://w3id.org/polifonia/resource/JAMSObservation/BearDanceThe39983/3_0_0_0_0_0@0.0> a jams:JAMSObservation,
+        jams:JAMSScoreObservation,
+        jams:ScorePatternOccurrence ;
+    rdfs:label [ ] ;
+    jams:hasDuration "0.0"^^xsd:float ;
+    jams:hasFrequency "1"^^xsd:int ;
+    jams:hasPatternType "pitch-class-values" ;
+    jams:ofPattern <http://w3id.org/polifonia/resource/pattern/3_0_0_0_0_0> .
+
+<http://w3id.org/polifonia/resource/JAMSObservation/BearDanceThe39983/3_0_2_0_7_7@0.0> a jams:JAMSObservation,
+        jams:JAMSScoreObservation,
+        jams:ScorePatternOccurrence ;
+    rdfs:label [ ] ;
+    jams:hasDuration "0.0"^^xsd:float ;
+    jams:hasFrequency "2"^^xsd:int ;
+    jams:hasPatternType "pitch-class-values" ;
+    jams:ofPattern <http://w3id.org/polifonia/resource/pattern/3_0_2_0_7_7> .
+
+<http://w3id.org/polifonia/resource/JAMSObservation/BearDanceThe39983/3_0_7_3_7_7@0.0> a jams:JAMSObservation,
+        jams:JAMSScoreObservation,
+        jams:ScorePatternOccurrence ;
+    rdfs:label [ ] ;
+    jams:hasDuration "0.0"^^xsd:float ;
+    jams:hasFrequency "1"^^xsd:int ;
+    jams:hasPatternType "pitch-class-values" ;
+    jams:ofPattern <http://w3id.org/polifonia/resource/pattern/3_0_7_3_7_7> .
+
+<http://w3id.org/polifonia/resource/JAMSObservation/BearDanceThe39983/3_7_7_3_0_7@0.0> a jams:JAMSObservation,
+        jams:JAMSScoreObservation,
+        jams:ScorePatternOccurrence ;
+    rdfs:label [ ] ;
+    jams:hasDuration "0.0"^^xsd:float ;
+    jams:hasFrequency "1"^^xsd:int ;
+    jams:hasPatternType "pitch-class-values" ;
+    jams:ofPattern <http://w3id.org/polifonia/resource/pattern/3_7_7_3_0_7> .
+
+<http://w3id.org/polifonia/resource/JAMSObservation/BearDanceThe39983/7_3_0_0_0_0@0.0> a jams:JAMSObservation,
+        jams:JAMSScoreObservation,
+        jams:ScorePatternOccurrence ;
+    rdfs:label [ ] ;
+    jams:hasDuration "0.0"^^xsd:float ;
+    jams:hasFrequency "1"^^xsd:int ;
+    jams:hasPatternType "pitch-class-values" ;
+    jams:ofPattern <http://w3id.org/polifonia/resource/pattern/7_3_0_0_0_0> .
+
+<http://w3id.org/polifonia/resource/JAMSObservation/BearDanceThe39983/7_3_0_2_0_7@0.0> a jams:JAMSObservation,
+        jams:JAMSScoreObservation,
+        jams:ScorePatternOccurrence ;
+    rdfs:label [ ] ;
+    jams:hasDuration "0.0"^^xsd:float ;
+    jams:hasFrequency "2"^^xsd:int ;
+    jams:hasPatternType "pitch-class-values" ;
+    jams:ofPattern <http://w3id.org/polifonia/resource/pattern/7_3_0_2_0_7> .
+
+<http://w3id.org/polifonia/resource/JAMSObservation/BearDanceThe39983/7_3_0_7_3_7@0.0> a jams:JAMSObservation,
+        jams:JAMSScoreObservation,
+        jams:ScorePatternOccurrence ;
+    rdfs:label [ ] ;
+    jams:hasDuration "0.0"^^xsd:float ;
+    jams:hasFrequency "1"^^xsd:int ;
+    jams:hasPatternType "pitch-class-values" ;
+    jams:ofPattern <http://w3id.org/polifonia/resource/pattern/7_3_0_7_3_7> .
+
+<http://w3id.org/polifonia/resource/JAMSObservation/BearDanceThe39983/7_3_7_7_3_0@0.0> a jams:JAMSObservation,
+        jams:JAMSScoreObservation,
+        jams:ScorePatternOccurrence ;
+    rdfs:label [ ] ;
+    jams:hasDuration "0.0"^^xsd:float ;
+    jams:hasFrequency "2"^^xsd:int ;
+    jams:hasPatternType "pitch-class-values" ;
+    jams:ofPattern <http://w3id.org/polifonia/resource/pattern/7_3_7_7_3_0> .
+
+<http://w3id.org/polifonia/resource/JAMSObservation/BearDanceThe39983/7_7_3_0_0_0@0.0> a jams:JAMSObservation,
+        jams:JAMSScoreObservation,
+        jams:ScorePatternOccurrence ;
+    rdfs:label [ ] ;
+    jams:hasDuration "0.0"^^xsd:float ;
+    jams:hasFrequency "1"^^xsd:int ;
+    jams:hasPatternType "pitch-class-values" ;
+    jams:ofPattern <http://w3id.org/polifonia/resource/pattern/7_7_3_0_0_0> .
+
+<http://w3id.org/polifonia/resource/JAMSObservation/BearDanceThe39983/7_7_3_0_2_0@0.0> a jams:JAMSObservation,
+        jams:JAMSScoreObservation,
+        jams:ScorePatternOccurrence ;
+    rdfs:label [ ] ;
+    jams:hasDuration "0.0"^^xsd:float ;
+    jams:hasFrequency "2"^^xsd:int ;
+    jams:hasPatternType "pitch-class-values" ;
+    jams:ofPattern <http://w3id.org/polifonia/resource/pattern/7_7_3_0_2_0> .
+
+<http://w3id.org/polifonia/resource/JAMSObservation/BearDanceThe39983/7_7_3_0_7_3@0.0> a jams:JAMSObservation,
+        jams:JAMSScoreObservation,
+        jams:ScorePatternOccurrence ;
+    rdfs:label [ ] ;
+    jams:hasDuration "0.0"^^xsd:float ;
+    jams:hasFrequency "1"^^xsd:int ;
+    jams:hasPatternType "pitch-class-values" ;
+    jams:ofPattern <http://w3id.org/polifonia/resource/pattern/7_7_3_0_7_3> .
+
+<http://w3id.org/polifonia/resource/JAMSObservation/BearDanceThe39983/7_7_3_7_7_3@0.0> a jams:JAMSObservation,
+        jams:JAMSScoreObservation,
+        jams:ScorePatternOccurrence ;
+    rdfs:label [ ] ;
+    jams:hasDuration "0.0"^^xsd:float ;
+    jams:hasFrequency "1"^^xsd:int ;
+    jams:hasPatternType "pitch-class-values" ;
+    jams:ofPattern <http://w3id.org/polifonia/resource/pattern/7_7_3_7_7_3> .
+
+<http://w3id.org/polifonia/resource/MusicalComposition/3f29a4535b24f4c511ff2d0e3283b1ea7028cb39> a mc:MusicalComposition ;
+    rdfs:label "BearDanceThe39983" ;
+    mc:title "BearDanceThe39983" ;
+    prov:wasDerivedFrom <http://w3id.org/polifonia/resource/JAMSFile/BearDanceThe39983.jams> .
+

@@ -1,0 +1,311 @@
+@prefix core: <http://w3id.org/polifonia/ontology/core/> .
+@prefix jams: <http://w3id.org/polifonia/ontology/jams/> .
+@prefix mc: <http://w3id.org/polifonia/ontology/musical-composition/> .
+@prefix pon-resource: <http://w3id.org/polifonia/resource/> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+pon-resource:Agent%2Fannotator_local_id a core:Agent ;
+    rdfs:label "FONN-Tool" ;
+    jams:hasAnnotatorType pon-resource:annotator-program ;
+    jams:hasName "FONN-Tool" .
+
+<http://w3id.org/polifonia/resource/JAMSAnnotation/2807b6d82c49d6a02f09ba1238a5e2b7a380976f> a jams:JAMSAnnotation,
+        jams:JAMSScoreAnnotation ;
+    jams:includesObservation <http://w3id.org/polifonia/resource/JAMSObservation/HumoursOfBallydehobThe19506/0_4_2_4_4_7@0.0>,
+        <http://w3id.org/polifonia/resource/JAMSObservation/HumoursOfBallydehobThe19506/0_4_2_7_2_7@0.0>,
+        <http://w3id.org/polifonia/resource/JAMSObservation/HumoursOfBallydehobThe19506/2.0_7.0_2.0_4.0_9.0_4.0@0.0>,
+        <http://w3id.org/polifonia/resource/JAMSObservation/HumoursOfBallydehobThe19506/2_4_0_4_2_4@0.0>,
+        <http://w3id.org/polifonia/resource/JAMSObservation/HumoursOfBallydehobThe19506/2_4_0_4_2_7@0.0>,
+        <http://w3id.org/polifonia/resource/JAMSObservation/HumoursOfBallydehobThe19506/2_4_2_4_2_4@0.0>,
+        <http://w3id.org/polifonia/resource/JAMSObservation/HumoursOfBallydehobThe19506/2_4_2_4_4_7@0.0>,
+        <http://w3id.org/polifonia/resource/JAMSObservation/HumoursOfBallydehobThe19506/2_4_4_7_2_4@0.0>,
+        <http://w3id.org/polifonia/resource/JAMSObservation/HumoursOfBallydehobThe19506/2_4_9_4_2_7@0.0>,
+        <http://w3id.org/polifonia/resource/JAMSObservation/HumoursOfBallydehobThe19506/2_7_2_4_0_4@0.0>,
+        <http://w3id.org/polifonia/resource/JAMSObservation/HumoursOfBallydehobThe19506/2_7_2_7_2_4@0.0>,
+        <http://w3id.org/polifonia/resource/JAMSObservation/HumoursOfBallydehobThe19506/4.0_2.0_4.0_2.0_4.0_4.0@0.0>,
+        <http://w3id.org/polifonia/resource/JAMSObservation/HumoursOfBallydehobThe19506/4_0_4_2_4_4@0.0>,
+        <http://w3id.org/polifonia/resource/JAMSObservation/HumoursOfBallydehobThe19506/4_0_4_2_7_2@0.0>,
+        <http://w3id.org/polifonia/resource/JAMSObservation/HumoursOfBallydehobThe19506/4_2_4_4_7_2@0.0>,
+        <http://w3id.org/polifonia/resource/JAMSObservation/HumoursOfBallydehobThe19506/4_2_7_2_7_2@0.0>,
+        <http://w3id.org/polifonia/resource/JAMSObservation/HumoursOfBallydehobThe19506/4_4_7_2_4_0@0.0>,
+        <http://w3id.org/polifonia/resource/JAMSObservation/HumoursOfBallydehobThe19506/4_4_7_2_4_2@0.0>,
+        <http://w3id.org/polifonia/resource/JAMSObservation/HumoursOfBallydehobThe19506/4_7_2_4_0_4@0.0>,
+        <http://w3id.org/polifonia/resource/JAMSObservation/HumoursOfBallydehobThe19506/4_7_2_4_2_4@0.0>,
+        <http://w3id.org/polifonia/resource/JAMSObservation/HumoursOfBallydehobThe19506/4_9_4_2_7_2@0.0>,
+        <http://w3id.org/polifonia/resource/JAMSObservation/HumoursOfBallydehobThe19506/7.0_2.0_4.0_9.0_4.0_2.0@0.0>,
+        <http://w3id.org/polifonia/resource/JAMSObservation/HumoursOfBallydehobThe19506/7_2_4_0_4_2@0.0>,
+        <http://w3id.org/polifonia/resource/JAMSObservation/HumoursOfBallydehobThe19506/7_2_4_2_4_2@0.0>,
+        <http://w3id.org/polifonia/resource/JAMSObservation/HumoursOfBallydehobThe19506/7_2_7_2_4_0@0.0>,
+        <http://w3id.org/polifonia/resource/JAMSObservation/HumoursOfBallydehobThe19506/7_2_7_2_4_9@0.0>,
+        <http://w3id.org/polifonia/resource/JAMSObservation/HumoursOfBallydehobThe19506/7_4_2_7_2_7@0.0>,
+        <http://w3id.org/polifonia/resource/JAMSObservation/HumoursOfBallydehobThe19506/9_4_2_7_2_7@0.0> ;
+    jams:isJAMSAnnotationOf <http://w3id.org/polifonia/resource/MusicalComposition/2807b6d82c49d6a02f09ba1238a5e2b7a380976f> .
+
+<http://w3id.org/polifonia/resource/Score/song_local_id> jams:hasJAMSAnnotation <http://w3id.org/polifonia/resource/MusicalComposition/2807b6d82c49d6a02f09ba1238a5e2b7a380976f> .
+
+<http://w3id.org/polifonia/resource/JAMSFile/HumoursOfBallydehobThe19506.jams> a jams:JAMSFile ;
+    jams:identifiers [ ] ;
+    jams:jamsVersion "0.3.4" ;
+    jams:release "" ;
+    prov:wasDerivedFrom "The Session" ;
+    prov:wasMemberOf <https://github.com/ashahidkhattak/thesession> .
+
+<http://w3id.org/polifonia/resource/JAMSObservation/HumoursOfBallydehobThe19506/0_4_2_4_4_7@0.0> a jams:JAMSObservation,
+        jams:JAMSScoreObservation,
+        jams:ScorePatternOccurrence ;
+    rdfs:label [ ] ;
+    jams:hasDuration "0.0"^^xsd:float ;
+    jams:hasFrequency "2"^^xsd:int ;
+    jams:hasPatternType "pitch-class-values" ;
+    jams:ofPattern <http://w3id.org/polifonia/resource/pattern/0_4_2_4_4_7> .
+
+<http://w3id.org/polifonia/resource/JAMSObservation/HumoursOfBallydehobThe19506/0_4_2_7_2_7@0.0> a jams:JAMSObservation,
+        jams:JAMSScoreObservation,
+        jams:ScorePatternOccurrence ;
+    rdfs:label [ ] ;
+    jams:hasDuration "0.0"^^xsd:float ;
+    jams:hasFrequency "1"^^xsd:int ;
+    jams:hasPatternType "pitch-class-values" ;
+    jams:ofPattern <http://w3id.org/polifonia/resource/pattern/0_4_2_7_2_7> .
+
+<http://w3id.org/polifonia/resource/JAMSObservation/HumoursOfBallydehobThe19506/2.0_7.0_2.0_4.0_9.0_4.0@0.0> a jams:JAMSObservation,
+        jams:JAMSScoreObservation,
+        jams:ScorePatternOccurrence ;
+    rdfs:label [ ] ;
+    jams:hasDuration "0.0"^^xsd:float ;
+    jams:hasFrequency "2"^^xsd:int ;
+    jams:hasPatternType "pitch-class-values" ;
+    jams:ofPattern <http://w3id.org/polifonia/resource/pattern/2.0_7.0_2.0_4.0_9.0_4.0> .
+
+<http://w3id.org/polifonia/resource/JAMSObservation/HumoursOfBallydehobThe19506/2_4_0_4_2_4@0.0> a jams:JAMSObservation,
+        jams:JAMSScoreObservation,
+        jams:ScorePatternOccurrence ;
+    rdfs:label [ ] ;
+    jams:hasDuration "0.0"^^xsd:float ;
+    jams:hasFrequency "2"^^xsd:int ;
+    jams:hasPatternType "pitch-class-values" ;
+    jams:ofPattern <http://w3id.org/polifonia/resource/pattern/2_4_0_4_2_4> .
+
+<http://w3id.org/polifonia/resource/JAMSObservation/HumoursOfBallydehobThe19506/2_4_0_4_2_7@0.0> a jams:JAMSObservation,
+        jams:JAMSScoreObservation,
+        jams:ScorePatternOccurrence ;
+    rdfs:label [ ] ;
+    jams:hasDuration "0.0"^^xsd:float ;
+    jams:hasFrequency "1"^^xsd:int ;
+    jams:hasPatternType "pitch-class-values" ;
+    jams:ofPattern <http://w3id.org/polifonia/resource/pattern/2_4_0_4_2_7> .
+
+<http://w3id.org/polifonia/resource/JAMSObservation/HumoursOfBallydehobThe19506/2_4_2_4_2_4@0.0> a jams:JAMSObservation,
+        jams:JAMSScoreObservation,
+        jams:ScorePatternOccurrence ;
+    rdfs:label [ ] ;
+    jams:hasDuration "0.0"^^xsd:float ;
+    jams:hasFrequency "2"^^xsd:int ;
+    jams:hasPatternType "pitch-class-values" ;
+    jams:ofPattern <http://w3id.org/polifonia/resource/pattern/2_4_2_4_2_4> .
+
+<http://w3id.org/polifonia/resource/JAMSObservation/HumoursOfBallydehobThe19506/2_4_2_4_4_7@0.0> a jams:JAMSObservation,
+        jams:JAMSScoreObservation,
+        jams:ScorePatternOccurrence ;
+    rdfs:label [ ] ;
+    jams:hasDuration "0.0"^^xsd:float ;
+    jams:hasFrequency "2"^^xsd:int ;
+    jams:hasPatternType "pitch-class-values" ;
+    jams:ofPattern <http://w3id.org/polifonia/resource/pattern/2_4_2_4_4_7> .
+
+<http://w3id.org/polifonia/resource/JAMSObservation/HumoursOfBallydehobThe19506/2_4_4_7_2_4@0.0> a jams:JAMSObservation,
+        jams:JAMSScoreObservation,
+        jams:ScorePatternOccurrence ;
+    rdfs:label [ ] ;
+    jams:hasDuration "0.0"^^xsd:float ;
+    jams:hasFrequency "4"^^xsd:int ;
+    jams:hasPatternType "pitch-class-values" ;
+    jams:ofPattern <http://w3id.org/polifonia/resource/pattern/2_4_4_7_2_4> .
+
+<http://w3id.org/polifonia/resource/JAMSObservation/HumoursOfBallydehobThe19506/2_4_9_4_2_7@0.0> a jams:JAMSObservation,
+        jams:JAMSScoreObservation,
+        jams:ScorePatternOccurrence ;
+    rdfs:label [ ] ;
+    jams:hasDuration "0.0"^^xsd:float ;
+    jams:hasFrequency "2"^^xsd:int ;
+    jams:hasPatternType "pitch-class-values" ;
+    jams:ofPattern <http://w3id.org/polifonia/resource/pattern/2_4_9_4_2_7> .
+
+<http://w3id.org/polifonia/resource/JAMSObservation/HumoursOfBallydehobThe19506/2_7_2_4_0_4@0.0> a jams:JAMSObservation,
+        jams:JAMSScoreObservation,
+        jams:ScorePatternOccurrence ;
+    rdfs:label [ ] ;
+    jams:hasDuration "0.0"^^xsd:float ;
+    jams:hasFrequency "2"^^xsd:int ;
+    jams:hasPatternType "pitch-class-values" ;
+    jams:ofPattern <http://w3id.org/polifonia/resource/pattern/2_7_2_4_0_4> .
+
+<http://w3id.org/polifonia/resource/JAMSObservation/HumoursOfBallydehobThe19506/2_7_2_7_2_4@0.0> a jams:JAMSObservation,
+        jams:JAMSScoreObservation,
+        jams:ScorePatternOccurrence ;
+    rdfs:label [ ] ;
+    jams:hasDuration "0.0"^^xsd:float ;
+    jams:hasFrequency "4"^^xsd:int ;
+    jams:hasPatternType "pitch-class-values" ;
+    jams:ofPattern <http://w3id.org/polifonia/resource/pattern/2_7_2_7_2_4> .
+
+<http://w3id.org/polifonia/resource/JAMSObservation/HumoursOfBallydehobThe19506/4.0_2.0_4.0_2.0_4.0_4.0@0.0> a jams:JAMSObservation,
+        jams:JAMSScoreObservation,
+        jams:ScorePatternOccurrence ;
+    rdfs:label [ ] ;
+    jams:hasDuration "0.0"^^xsd:float ;
+    jams:hasFrequency "2"^^xsd:int ;
+    jams:hasPatternType "pitch-class-values" ;
+    jams:ofPattern <http://w3id.org/polifonia/resource/pattern/4.0_2.0_4.0_2.0_4.0_4.0> .
+
+<http://w3id.org/polifonia/resource/JAMSObservation/HumoursOfBallydehobThe19506/4_0_4_2_4_4@0.0> a jams:JAMSObservation,
+        jams:JAMSScoreObservation,
+        jams:ScorePatternOccurrence ;
+    rdfs:label [ ] ;
+    jams:hasDuration "0.0"^^xsd:float ;
+    jams:hasFrequency "2"^^xsd:int ;
+    jams:hasPatternType "pitch-class-values" ;
+    jams:ofPattern <http://w3id.org/polifonia/resource/pattern/4_0_4_2_4_4> .
+
+<http://w3id.org/polifonia/resource/JAMSObservation/HumoursOfBallydehobThe19506/4_0_4_2_7_2@0.0> a jams:JAMSObservation,
+        jams:JAMSScoreObservation,
+        jams:ScorePatternOccurrence ;
+    rdfs:label [ ] ;
+    jams:hasDuration "0.0"^^xsd:float ;
+    jams:hasFrequency "1"^^xsd:int ;
+    jams:hasPatternType "pitch-class-values" ;
+    jams:ofPattern <http://w3id.org/polifonia/resource/pattern/4_0_4_2_7_2> .
+
+<http://w3id.org/polifonia/resource/JAMSObservation/HumoursOfBallydehobThe19506/4_2_4_4_7_2@0.0> a jams:JAMSObservation,
+        jams:JAMSScoreObservation,
+        jams:ScorePatternOccurrence ;
+    rdfs:label [ ] ;
+    jams:hasDuration "0.0"^^xsd:float ;
+    jams:hasFrequency "4"^^xsd:int ;
+    jams:hasPatternType "pitch-class-values" ;
+    jams:ofPattern <http://w3id.org/polifonia/resource/pattern/4_2_4_4_7_2> .
+
+<http://w3id.org/polifonia/resource/JAMSObservation/HumoursOfBallydehobThe19506/4_2_7_2_7_2@0.0> a jams:JAMSObservation,
+        jams:JAMSScoreObservation,
+        jams:ScorePatternOccurrence ;
+    rdfs:label [ ] ;
+    jams:hasDuration "0.0"^^xsd:float ;
+    jams:hasFrequency "4"^^xsd:int ;
+    jams:hasPatternType "pitch-class-values" ;
+    jams:ofPattern <http://w3id.org/polifonia/resource/pattern/4_2_7_2_7_2> .
+
+<http://w3id.org/polifonia/resource/JAMSObservation/HumoursOfBallydehobThe19506/4_4_7_2_4_0@0.0> a jams:JAMSObservation,
+        jams:JAMSScoreObservation,
+        jams:ScorePatternOccurrence ;
+    rdfs:label [ ] ;
+    jams:hasDuration "0.0"^^xsd:float ;
+    jams:hasFrequency "2"^^xsd:int ;
+    jams:hasPatternType "pitch-class-values" ;
+    jams:ofPattern <http://w3id.org/polifonia/resource/pattern/4_4_7_2_4_0> .
+
+<http://w3id.org/polifonia/resource/JAMSObservation/HumoursOfBallydehobThe19506/4_4_7_2_4_2@0.0> a jams:JAMSObservation,
+        jams:JAMSScoreObservation,
+        jams:ScorePatternOccurrence ;
+    rdfs:label [ ] ;
+    jams:hasDuration "0.0"^^xsd:float ;
+    jams:hasFrequency "2"^^xsd:int ;
+    jams:hasPatternType "pitch-class-values" ;
+    jams:ofPattern <http://w3id.org/polifonia/resource/pattern/4_4_7_2_4_2> .
+
+<http://w3id.org/polifonia/resource/JAMSObservation/HumoursOfBallydehobThe19506/4_7_2_4_0_4@0.0> a jams:JAMSObservation,
+        jams:JAMSScoreObservation,
+        jams:ScorePatternOccurrence ;
+    rdfs:label [ ] ;
+    jams:hasDuration "0.0"^^xsd:float ;
+    jams:hasFrequency "1"^^xsd:int ;
+    jams:hasPatternType "pitch-class-values" ;
+    jams:ofPattern <http://w3id.org/polifonia/resource/pattern/4_7_2_4_0_4> .
+
+<http://w3id.org/polifonia/resource/JAMSObservation/HumoursOfBallydehobThe19506/4_7_2_4_2_4@0.0> a jams:JAMSObservation,
+        jams:JAMSScoreObservation,
+        jams:ScorePatternOccurrence ;
+    rdfs:label [ ] ;
+    jams:hasDuration "0.0"^^xsd:float ;
+    jams:hasFrequency "2"^^xsd:int ;
+    jams:hasPatternType "pitch-class-values" ;
+    jams:ofPattern <http://w3id.org/polifonia/resource/pattern/4_7_2_4_2_4> .
+
+<http://w3id.org/polifonia/resource/JAMSObservation/HumoursOfBallydehobThe19506/4_9_4_2_7_2@0.0> a jams:JAMSObservation,
+        jams:JAMSScoreObservation,
+        jams:ScorePatternOccurrence ;
+    rdfs:label [ ] ;
+    jams:hasDuration "0.0"^^xsd:float ;
+    jams:hasFrequency "2"^^xsd:int ;
+    jams:hasPatternType "pitch-class-values" ;
+    jams:ofPattern <http://w3id.org/polifonia/resource/pattern/4_9_4_2_7_2> .
+
+<http://w3id.org/polifonia/resource/JAMSObservation/HumoursOfBallydehobThe19506/7.0_2.0_4.0_9.0_4.0_2.0@0.0> a jams:JAMSObservation,
+        jams:JAMSScoreObservation,
+        jams:ScorePatternOccurrence ;
+    rdfs:label [ ] ;
+    jams:hasDuration "0.0"^^xsd:float ;
+    jams:hasFrequency "2"^^xsd:int ;
+    jams:hasPatternType "pitch-class-values" ;
+    jams:ofPattern <http://w3id.org/polifonia/resource/pattern/7.0_2.0_4.0_9.0_4.0_2.0> .
+
+<http://w3id.org/polifonia/resource/JAMSObservation/HumoursOfBallydehobThe19506/7_2_4_0_4_2@0.0> a jams:JAMSObservation,
+        jams:JAMSScoreObservation,
+        jams:ScorePatternOccurrence ;
+    rdfs:label [ ] ;
+    jams:hasDuration "0.0"^^xsd:float ;
+    jams:hasFrequency "3"^^xsd:int ;
+    jams:hasPatternType "pitch-class-values" ;
+    jams:ofPattern <http://w3id.org/polifonia/resource/pattern/7_2_4_0_4_2> .
+
+<http://w3id.org/polifonia/resource/JAMSObservation/HumoursOfBallydehobThe19506/7_2_4_2_4_2@0.0> a jams:JAMSObservation,
+        jams:JAMSScoreObservation,
+        jams:ScorePatternOccurrence ;
+    rdfs:label [ ] ;
+    jams:hasDuration "0.0"^^xsd:float ;
+    jams:hasFrequency "2"^^xsd:int ;
+    jams:hasPatternType "pitch-class-values" ;
+    jams:ofPattern <http://w3id.org/polifonia/resource/pattern/7_2_4_2_4_2> .
+
+<http://w3id.org/polifonia/resource/JAMSObservation/HumoursOfBallydehobThe19506/7_2_7_2_4_0@0.0> a jams:JAMSObservation,
+        jams:JAMSScoreObservation,
+        jams:ScorePatternOccurrence ;
+    rdfs:label [ ] ;
+    jams:hasDuration "0.0"^^xsd:float ;
+    jams:hasFrequency "2"^^xsd:int ;
+    jams:hasPatternType "pitch-class-values" ;
+    jams:ofPattern <http://w3id.org/polifonia/resource/pattern/7_2_7_2_4_0> .
+
+<http://w3id.org/polifonia/resource/JAMSObservation/HumoursOfBallydehobThe19506/7_2_7_2_4_9@0.0> a jams:JAMSObservation,
+        jams:JAMSScoreObservation,
+        jams:ScorePatternOccurrence ;
+    rdfs:label [ ] ;
+    jams:hasDuration "0.0"^^xsd:float ;
+    jams:hasFrequency "2"^^xsd:int ;
+    jams:hasPatternType "pitch-class-values" ;
+    jams:ofPattern <http://w3id.org/polifonia/resource/pattern/7_2_7_2_4_9> .
+
+<http://w3id.org/polifonia/resource/JAMSObservation/HumoursOfBallydehobThe19506/7_4_2_7_2_7@0.0> a jams:JAMSObservation,
+        jams:JAMSScoreObservation,
+        jams:ScorePatternOccurrence ;
+    rdfs:label [ ] ;
+    jams:hasDuration "0.0"^^xsd:float ;
+    jams:hasFrequency "1"^^xsd:int ;
+    jams:hasPatternType "pitch-class-values" ;
+    jams:ofPattern <http://w3id.org/polifonia/resource/pattern/7_4_2_7_2_7> .
+
+<http://w3id.org/polifonia/resource/JAMSObservation/HumoursOfBallydehobThe19506/9_4_2_7_2_7@0.0> a jams:JAMSObservation,
+        jams:JAMSScoreObservation,
+        jams:ScorePatternOccurrence ;
+    rdfs:label [ ] ;
+    jams:hasDuration "0.0"^^xsd:float ;
+    jams:hasFrequency "2"^^xsd:int ;
+    jams:hasPatternType "pitch-class-values" ;
+    jams:ofPattern <http://w3id.org/polifonia/resource/pattern/9_4_2_7_2_7> .
+
+<http://w3id.org/polifonia/resource/MusicalComposition/2807b6d82c49d6a02f09ba1238a5e2b7a380976f> a mc:MusicalComposition ;
+    rdfs:label "HumoursOfBallydehobThe19506" ;
+    mc:title "HumoursOfBallydehobThe19506" ;
+    prov:wasDerivedFrom <http://w3id.org/polifonia/resource/JAMSFile/HumoursOfBallydehobThe19506.jams> .
+

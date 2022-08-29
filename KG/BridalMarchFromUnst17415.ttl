@@ -1,0 +1,251 @@
+@prefix core: <http://w3id.org/polifonia/ontology/core/> .
+@prefix jams: <http://w3id.org/polifonia/ontology/jams/> .
+@prefix mc: <http://w3id.org/polifonia/ontology/musical-composition/> .
+@prefix pon-resource: <http://w3id.org/polifonia/resource/> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+pon-resource:Agent%2Fannotator_local_id a core:Agent ;
+    rdfs:label "FONN-Tool" ;
+    jams:hasAnnotatorType pon-resource:annotator-program ;
+    jams:hasName "FONN-Tool" .
+
+<http://w3id.org/polifonia/resource/JAMSAnnotation/722e000b6e95a2b55d7ed0d799834700a940a297> a jams:JAMSAnnotation,
+        jams:JAMSScoreAnnotation ;
+    jams:includesObservation <http://w3id.org/polifonia/resource/JAMSObservation/BridalMarchFromUnst17415/0_0_4_9_2_11@0.0>,
+        <http://w3id.org/polifonia/resource/JAMSObservation/BridalMarchFromUnst17415/0_4_9_2_11_7@0.0>,
+        <http://w3id.org/polifonia/resource/JAMSObservation/BridalMarchFromUnst17415/0_5_4_9_2_11@0.0>,
+        <http://w3id.org/polifonia/resource/JAMSObservation/BridalMarchFromUnst17415/0_9_9_9_9_9@0.0>,
+        <http://w3id.org/polifonia/resource/JAMSObservation/BridalMarchFromUnst17415/11_7_4_4_0_0@0.0>,
+        <http://w3id.org/polifonia/resource/JAMSObservation/BridalMarchFromUnst17415/11_7_4_4_0_9@0.0>,
+        <http://w3id.org/polifonia/resource/JAMSObservation/BridalMarchFromUnst17415/2_11_7_4_4_0@0.0>,
+        <http://w3id.org/polifonia/resource/JAMSObservation/BridalMarchFromUnst17415/4_0_0_4_9_2@0.0>,
+        <http://w3id.org/polifonia/resource/JAMSObservation/BridalMarchFromUnst17415/4_0_9_9_9_9@0.0>,
+        <http://w3id.org/polifonia/resource/JAMSObservation/BridalMarchFromUnst17415/4_4_0_0_4_9@0.0>,
+        <http://w3id.org/polifonia/resource/JAMSObservation/BridalMarchFromUnst17415/4_4_0_9_9_9@0.0>,
+        <http://w3id.org/polifonia/resource/JAMSObservation/BridalMarchFromUnst17415/4_9_2_11_7_4@0.0>,
+        <http://w3id.org/polifonia/resource/JAMSObservation/BridalMarchFromUnst17415/5_4_9_2_11_7@0.0>,
+        <http://w3id.org/polifonia/resource/JAMSObservation/BridalMarchFromUnst17415/7_4_4_0_0_4@0.0>,
+        <http://w3id.org/polifonia/resource/JAMSObservation/BridalMarchFromUnst17415/7_4_4_0_9_9@0.0>,
+        <http://w3id.org/polifonia/resource/JAMSObservation/BridalMarchFromUnst17415/9_0_5_4_9_2@0.0>,
+        <http://w3id.org/polifonia/resource/JAMSObservation/BridalMarchFromUnst17415/9_2_11_7_4_4@0.0>,
+        <http://w3id.org/polifonia/resource/JAMSObservation/BridalMarchFromUnst17415/9_9_0_5_4_9@0.0>,
+        <http://w3id.org/polifonia/resource/JAMSObservation/BridalMarchFromUnst17415/9_9_9_0_5_4@0.0>,
+        <http://w3id.org/polifonia/resource/JAMSObservation/BridalMarchFromUnst17415/9_9_9_9_0_5@0.0>,
+        <http://w3id.org/polifonia/resource/JAMSObservation/BridalMarchFromUnst17415/9_9_9_9_9_0@0.0>,
+        <http://w3id.org/polifonia/resource/JAMSObservation/BridalMarchFromUnst17415/9_9_9_9_9_9@0.0> ;
+    jams:isJAMSAnnotationOf <http://w3id.org/polifonia/resource/MusicalComposition/722e000b6e95a2b55d7ed0d799834700a940a297> .
+
+<http://w3id.org/polifonia/resource/Score/song_local_id> jams:hasJAMSAnnotation <http://w3id.org/polifonia/resource/MusicalComposition/722e000b6e95a2b55d7ed0d799834700a940a297> .
+
+<http://w3id.org/polifonia/resource/JAMSFile/BridalMarchFromUnst17415.jams> a jams:JAMSFile ;
+    jams:identifiers [ ] ;
+    jams:jamsVersion "0.3.4" ;
+    jams:release "" ;
+    prov:wasDerivedFrom "The Session" ;
+    prov:wasMemberOf <https://github.com/ashahidkhattak/thesession> .
+
+<http://w3id.org/polifonia/resource/JAMSObservation/BridalMarchFromUnst17415/0_0_4_9_2_11@0.0> a jams:JAMSObservation,
+        jams:JAMSScoreObservation,
+        jams:ScorePatternOccurrence ;
+    rdfs:label [ ] ;
+    jams:hasDuration "0.0"^^xsd:float ;
+    jams:hasFrequency "2"^^xsd:int ;
+    jams:hasPatternType "pitch-class-values" ;
+    jams:ofPattern <http://w3id.org/polifonia/resource/pattern/0_0_4_9_2_11> .
+
+<http://w3id.org/polifonia/resource/JAMSObservation/BridalMarchFromUnst17415/0_4_9_2_11_7@0.0> a jams:JAMSObservation,
+        jams:JAMSScoreObservation,
+        jams:ScorePatternOccurrence ;
+    rdfs:label [ ] ;
+    jams:hasDuration "0.0"^^xsd:float ;
+    jams:hasFrequency "2"^^xsd:int ;
+    jams:hasPatternType "pitch-class-values" ;
+    jams:ofPattern <http://w3id.org/polifonia/resource/pattern/0_4_9_2_11_7> .
+
+<http://w3id.org/polifonia/resource/JAMSObservation/BridalMarchFromUnst17415/0_5_4_9_2_11@0.0> a jams:JAMSObservation,
+        jams:JAMSScoreObservation,
+        jams:ScorePatternOccurrence ;
+    rdfs:label [ ] ;
+    jams:hasDuration "0.0"^^xsd:float ;
+    jams:hasFrequency "1"^^xsd:int ;
+    jams:hasPatternType "pitch-class-values" ;
+    jams:ofPattern <http://w3id.org/polifonia/resource/pattern/0_5_4_9_2_11> .
+
+<http://w3id.org/polifonia/resource/JAMSObservation/BridalMarchFromUnst17415/0_9_9_9_9_9@0.0> a jams:JAMSObservation,
+        jams:JAMSScoreObservation,
+        jams:ScorePatternOccurrence ;
+    rdfs:label [ ] ;
+    jams:hasDuration "0.0"^^xsd:float ;
+    jams:hasFrequency "1"^^xsd:int ;
+    jams:hasPatternType "pitch-class-values" ;
+    jams:ofPattern <http://w3id.org/polifonia/resource/pattern/0_9_9_9_9_9> .
+
+<http://w3id.org/polifonia/resource/JAMSObservation/BridalMarchFromUnst17415/11_7_4_4_0_0@0.0> a jams:JAMSObservation,
+        jams:JAMSScoreObservation,
+        jams:ScorePatternOccurrence ;
+    rdfs:label [ ] ;
+    jams:hasDuration "0.0"^^xsd:float ;
+    jams:hasFrequency "1"^^xsd:int ;
+    jams:hasPatternType "pitch-class-values" ;
+    jams:ofPattern <http://w3id.org/polifonia/resource/pattern/11_7_4_4_0_0> .
+
+<http://w3id.org/polifonia/resource/JAMSObservation/BridalMarchFromUnst17415/11_7_4_4_0_9@0.0> a jams:JAMSObservation,
+        jams:JAMSScoreObservation,
+        jams:ScorePatternOccurrence ;
+    rdfs:label [ ] ;
+    jams:hasDuration "0.0"^^xsd:float ;
+    jams:hasFrequency "1"^^xsd:int ;
+    jams:hasPatternType "pitch-class-values" ;
+    jams:ofPattern <http://w3id.org/polifonia/resource/pattern/11_7_4_4_0_9> .
+
+<http://w3id.org/polifonia/resource/JAMSObservation/BridalMarchFromUnst17415/2_11_7_4_4_0@0.0> a jams:JAMSObservation,
+        jams:JAMSScoreObservation,
+        jams:ScorePatternOccurrence ;
+    rdfs:label [ ] ;
+    jams:hasDuration "0.0"^^xsd:float ;
+    jams:hasFrequency "3"^^xsd:int ;
+    jams:hasPatternType "pitch-class-values" ;
+    jams:ofPattern <http://w3id.org/polifonia/resource/pattern/2_11_7_4_4_0> .
+
+<http://w3id.org/polifonia/resource/JAMSObservation/BridalMarchFromUnst17415/4_0_0_4_9_2@0.0> a jams:JAMSObservation,
+        jams:JAMSScoreObservation,
+        jams:ScorePatternOccurrence ;
+    rdfs:label [ ] ;
+    jams:hasDuration "0.0"^^xsd:float ;
+    jams:hasFrequency "1"^^xsd:int ;
+    jams:hasPatternType "pitch-class-values" ;
+    jams:ofPattern <http://w3id.org/polifonia/resource/pattern/4_0_0_4_9_2> .
+
+<http://w3id.org/polifonia/resource/JAMSObservation/BridalMarchFromUnst17415/4_0_9_9_9_9@0.0> a jams:JAMSObservation,
+        jams:JAMSScoreObservation,
+        jams:ScorePatternOccurrence ;
+    rdfs:label [ ] ;
+    jams:hasDuration "0.0"^^xsd:float ;
+    jams:hasFrequency "1"^^xsd:int ;
+    jams:hasPatternType "pitch-class-values" ;
+    jams:ofPattern <http://w3id.org/polifonia/resource/pattern/4_0_9_9_9_9> .
+
+<http://w3id.org/polifonia/resource/JAMSObservation/BridalMarchFromUnst17415/4_4_0_0_4_9@0.0> a jams:JAMSObservation,
+        jams:JAMSScoreObservation,
+        jams:ScorePatternOccurrence ;
+    rdfs:label [ ] ;
+    jams:hasDuration "0.0"^^xsd:float ;
+    jams:hasFrequency "1"^^xsd:int ;
+    jams:hasPatternType "pitch-class-values" ;
+    jams:ofPattern <http://w3id.org/polifonia/resource/pattern/4_4_0_0_4_9> .
+
+<http://w3id.org/polifonia/resource/JAMSObservation/BridalMarchFromUnst17415/4_4_0_9_9_9@0.0> a jams:JAMSObservation,
+        jams:JAMSScoreObservation,
+        jams:ScorePatternOccurrence ;
+    rdfs:label [ ] ;
+    jams:hasDuration "0.0"^^xsd:float ;
+    jams:hasFrequency "1"^^xsd:int ;
+    jams:hasPatternType "pitch-class-values" ;
+    jams:ofPattern <http://w3id.org/polifonia/resource/pattern/4_4_0_9_9_9> .
+
+<http://w3id.org/polifonia/resource/JAMSObservation/BridalMarchFromUnst17415/4_9_2_11_7_4@0.0> a jams:JAMSObservation,
+        jams:JAMSScoreObservation,
+        jams:ScorePatternOccurrence ;
+    rdfs:label [ ] ;
+    jams:hasDuration "0.0"^^xsd:float ;
+    jams:hasFrequency "3"^^xsd:int ;
+    jams:hasPatternType "pitch-class-values" ;
+    jams:ofPattern <http://w3id.org/polifonia/resource/pattern/4_9_2_11_7_4> .
+
+<http://w3id.org/polifonia/resource/JAMSObservation/BridalMarchFromUnst17415/5_4_9_2_11_7@0.0> a jams:JAMSObservation,
+        jams:JAMSScoreObservation,
+        jams:ScorePatternOccurrence ;
+    rdfs:label [ ] ;
+    jams:hasDuration "0.0"^^xsd:float ;
+    jams:hasFrequency "1"^^xsd:int ;
+    jams:hasPatternType "pitch-class-values" ;
+    jams:ofPattern <http://w3id.org/polifonia/resource/pattern/5_4_9_2_11_7> .
+
+<http://w3id.org/polifonia/resource/JAMSObservation/BridalMarchFromUnst17415/7_4_4_0_0_4@0.0> a jams:JAMSObservation,
+        jams:JAMSScoreObservation,
+        jams:ScorePatternOccurrence ;
+    rdfs:label [ ] ;
+    jams:hasDuration "0.0"^^xsd:float ;
+    jams:hasFrequency "1"^^xsd:int ;
+    jams:hasPatternType "pitch-class-values" ;
+    jams:ofPattern <http://w3id.org/polifonia/resource/pattern/7_4_4_0_0_4> .
+
+<http://w3id.org/polifonia/resource/JAMSObservation/BridalMarchFromUnst17415/7_4_4_0_9_9@0.0> a jams:JAMSObservation,
+        jams:JAMSScoreObservation,
+        jams:ScorePatternOccurrence ;
+    rdfs:label [ ] ;
+    jams:hasDuration "0.0"^^xsd:float ;
+    jams:hasFrequency "1"^^xsd:int ;
+    jams:hasPatternType "pitch-class-values" ;
+    jams:ofPattern <http://w3id.org/polifonia/resource/pattern/7_4_4_0_9_9> .
+
+<http://w3id.org/polifonia/resource/JAMSObservation/BridalMarchFromUnst17415/9_0_5_4_9_2@0.0> a jams:JAMSObservation,
+        jams:JAMSScoreObservation,
+        jams:ScorePatternOccurrence ;
+    rdfs:label [ ] ;
+    jams:hasDuration "0.0"^^xsd:float ;
+    jams:hasFrequency "1"^^xsd:int ;
+    jams:hasPatternType "pitch-class-values" ;
+    jams:ofPattern <http://w3id.org/polifonia/resource/pattern/9_0_5_4_9_2> .
+
+<http://w3id.org/polifonia/resource/JAMSObservation/BridalMarchFromUnst17415/9_2_11_7_4_4@0.0> a jams:JAMSObservation,
+        jams:JAMSScoreObservation,
+        jams:ScorePatternOccurrence ;
+    rdfs:label [ ] ;
+    jams:hasDuration "0.0"^^xsd:float ;
+    jams:hasFrequency "3"^^xsd:int ;
+    jams:hasPatternType "pitch-class-values" ;
+    jams:ofPattern <http://w3id.org/polifonia/resource/pattern/9_2_11_7_4_4> .
+
+<http://w3id.org/polifonia/resource/JAMSObservation/BridalMarchFromUnst17415/9_9_0_5_4_9@0.0> a jams:JAMSObservation,
+        jams:JAMSScoreObservation,
+        jams:ScorePatternOccurrence ;
+    rdfs:label [ ] ;
+    jams:hasDuration "0.0"^^xsd:float ;
+    jams:hasFrequency "1"^^xsd:int ;
+    jams:hasPatternType "pitch-class-values" ;
+    jams:ofPattern <http://w3id.org/polifonia/resource/pattern/9_9_0_5_4_9> .
+
+<http://w3id.org/polifonia/resource/JAMSObservation/BridalMarchFromUnst17415/9_9_9_0_5_4@0.0> a jams:JAMSObservation,
+        jams:JAMSScoreObservation,
+        jams:ScorePatternOccurrence ;
+    rdfs:label [ ] ;
+    jams:hasDuration "0.0"^^xsd:float ;
+    jams:hasFrequency "1"^^xsd:int ;
+    jams:hasPatternType "pitch-class-values" ;
+    jams:ofPattern <http://w3id.org/polifonia/resource/pattern/9_9_9_0_5_4> .
+
+<http://w3id.org/polifonia/resource/JAMSObservation/BridalMarchFromUnst17415/9_9_9_9_0_5@0.0> a jams:JAMSObservation,
+        jams:JAMSScoreObservation,
+        jams:ScorePatternOccurrence ;
+    rdfs:label [ ] ;
+    jams:hasDuration "0.0"^^xsd:float ;
+    jams:hasFrequency "1"^^xsd:int ;
+    jams:hasPatternType "pitch-class-values" ;
+    jams:ofPattern <http://w3id.org/polifonia/resource/pattern/9_9_9_9_0_5> .
+
+<http://w3id.org/polifonia/resource/JAMSObservation/BridalMarchFromUnst17415/9_9_9_9_9_0@0.0> a jams:JAMSObservation,
+        jams:JAMSScoreObservation,
+        jams:ScorePatternOccurrence ;
+    rdfs:label [ ] ;
+    jams:hasDuration "0.0"^^xsd:float ;
+    jams:hasFrequency "1"^^xsd:int ;
+    jams:hasPatternType "pitch-class-values" ;
+    jams:ofPattern <http://w3id.org/polifonia/resource/pattern/9_9_9_9_9_0> .
+
+<http://w3id.org/polifonia/resource/JAMSObservation/BridalMarchFromUnst17415/9_9_9_9_9_9@0.0> a jams:JAMSObservation,
+        jams:JAMSScoreObservation,
+        jams:ScorePatternOccurrence ;
+    rdfs:label [ ] ;
+    jams:hasDuration "0.0"^^xsd:float ;
+    jams:hasFrequency "2"^^xsd:int ;
+    jams:hasPatternType "pitch-class-values" ;
+    jams:ofPattern <http://w3id.org/polifonia/resource/pattern/9_9_9_9_9_9> .
+
+<http://w3id.org/polifonia/resource/MusicalComposition/722e000b6e95a2b55d7ed0d799834700a940a297> a mc:MusicalComposition ;
+    rdfs:label "BridalMarchFromUnst17415" ;
+    mc:title "BridalMarchFromUnst17415" ;
+    prov:wasDerivedFrom <http://w3id.org/polifonia/resource/JAMSFile/BridalMarchFromUnst17415.jams> .
+

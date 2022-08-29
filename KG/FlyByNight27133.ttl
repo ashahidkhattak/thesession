@@ -1,0 +1,241 @@
+@prefix core: <http://w3id.org/polifonia/ontology/core/> .
+@prefix jams: <http://w3id.org/polifonia/ontology/jams/> .
+@prefix mc: <http://w3id.org/polifonia/ontology/musical-composition/> .
+@prefix pon-resource: <http://w3id.org/polifonia/resource/> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+pon-resource:Agent%2Fannotator_local_id a core:Agent ;
+    rdfs:label "FONN-Tool" ;
+    jams:hasAnnotatorType pon-resource:annotator-program ;
+    jams:hasName "FONN-Tool" .
+
+<http://w3id.org/polifonia/resource/JAMSAnnotation/32b7321f58b8286701b388cc186a85aae11a1954> a jams:JAMSAnnotation,
+        jams:JAMSScoreAnnotation ;
+    jams:includesObservation <http://w3id.org/polifonia/resource/JAMSObservation/FlyByNight27133/0_3_5_7_3_7@0.0>,
+        <http://w3id.org/polifonia/resource/JAMSObservation/FlyByNight27133/10_7_11_2_5_8@0.0>,
+        <http://w3id.org/polifonia/resource/JAMSObservation/FlyByNight27133/11_2_5_8_9_3@0.0>,
+        <http://w3id.org/polifonia/resource/JAMSObservation/FlyByNight27133/2_5_8_9_3_10@0.0>,
+        <http://w3id.org/polifonia/resource/JAMSObservation/FlyByNight27133/2_7_0_3_5_7@0.0>,
+        <http://w3id.org/polifonia/resource/JAMSObservation/FlyByNight27133/3_10_7_11_2_5@0.0>,
+        <http://w3id.org/polifonia/resource/JAMSObservation/FlyByNight27133/3_5_7_3_7_2@0.0>,
+        <http://w3id.org/polifonia/resource/JAMSObservation/FlyByNight27133/3_7_2_7_0_3@0.0>,
+        <http://w3id.org/polifonia/resource/JAMSObservation/FlyByNight27133/3_7_3_7_2_7@0.0>,
+        <http://w3id.org/polifonia/resource/JAMSObservation/FlyByNight27133/5_7_3_7_2_5@0.0>,
+        <http://w3id.org/polifonia/resource/JAMSObservation/FlyByNight27133/5_8_3_3_10_7@0.0>,
+        <http://w3id.org/polifonia/resource/JAMSObservation/FlyByNight27133/5_8_3_7_3_7@0.0>,
+        <http://w3id.org/polifonia/resource/JAMSObservation/FlyByNight27133/5_8_9_3_10_7@0.0>,
+        <http://w3id.org/polifonia/resource/JAMSObservation/FlyByNight27133/7_0_3_5_7_3@0.0>,
+        <http://w3id.org/polifonia/resource/JAMSObservation/FlyByNight27133/7_11_2_5_8_3@0.0>,
+        <http://w3id.org/polifonia/resource/JAMSObservation/FlyByNight27133/7_11_2_5_8_9@0.0>,
+        <http://w3id.org/polifonia/resource/JAMSObservation/FlyByNight27133/7_2_7_0_3_5@0.0>,
+        <http://w3id.org/polifonia/resource/JAMSObservation/FlyByNight27133/7_3_7_2_7_0@0.0>,
+        <http://w3id.org/polifonia/resource/JAMSObservation/FlyByNight27133/8_3_7_3_7_2@0.0>,
+        <http://w3id.org/polifonia/resource/JAMSObservation/FlyByNight27133/8_9_3_10_7_11@0.0>,
+        <http://w3id.org/polifonia/resource/JAMSObservation/FlyByNight27133/9_3_10_7_11_2@0.0> ;
+    jams:isJAMSAnnotationOf <http://w3id.org/polifonia/resource/MusicalComposition/32b7321f58b8286701b388cc186a85aae11a1954> .
+
+<http://w3id.org/polifonia/resource/Score/song_local_id> jams:hasJAMSAnnotation <http://w3id.org/polifonia/resource/MusicalComposition/32b7321f58b8286701b388cc186a85aae11a1954> .
+
+<http://w3id.org/polifonia/resource/JAMSFile/FlyByNight27133.jams> a jams:JAMSFile ;
+    jams:identifiers [ ] ;
+    jams:jamsVersion "0.3.4" ;
+    jams:release "" ;
+    prov:wasDerivedFrom "The Session" ;
+    prov:wasMemberOf <https://github.com/ashahidkhattak/thesession> .
+
+<http://w3id.org/polifonia/resource/JAMSObservation/FlyByNight27133/0_3_5_7_3_7@0.0> a jams:JAMSObservation,
+        jams:JAMSScoreObservation,
+        jams:ScorePatternOccurrence ;
+    rdfs:label [ ] ;
+    jams:hasDuration "0.0"^^xsd:float ;
+    jams:hasFrequency "1"^^xsd:int ;
+    jams:hasPatternType "pitch-class-values" ;
+    jams:ofPattern <http://w3id.org/polifonia/resource/pattern/0_3_5_7_3_7> .
+
+<http://w3id.org/polifonia/resource/JAMSObservation/FlyByNight27133/10_7_11_2_5_8@0.0> a jams:JAMSObservation,
+        jams:JAMSScoreObservation,
+        jams:ScorePatternOccurrence ;
+    rdfs:label [ ] ;
+    jams:hasDuration "0.0"^^xsd:float ;
+    jams:hasFrequency "6"^^xsd:int ;
+    jams:hasPatternType "pitch-class-values" ;
+    jams:ofPattern <http://w3id.org/polifonia/resource/pattern/10_7_11_2_5_8> .
+
+<http://w3id.org/polifonia/resource/JAMSObservation/FlyByNight27133/11_2_5_8_9_3@0.0> a jams:JAMSObservation,
+        jams:JAMSScoreObservation,
+        jams:ScorePatternOccurrence ;
+    rdfs:label [ ] ;
+    jams:hasDuration "0.0"^^xsd:float ;
+    jams:hasFrequency "3"^^xsd:int ;
+    jams:hasPatternType "pitch-class-values" ;
+    jams:ofPattern <http://w3id.org/polifonia/resource/pattern/11_2_5_8_9_3> .
+
+<http://w3id.org/polifonia/resource/JAMSObservation/FlyByNight27133/2_5_8_9_3_10@0.0> a jams:JAMSObservation,
+        jams:JAMSScoreObservation,
+        jams:ScorePatternOccurrence ;
+    rdfs:label [ ] ;
+    jams:hasDuration "0.0"^^xsd:float ;
+    jams:hasFrequency "3"^^xsd:int ;
+    jams:hasPatternType "pitch-class-values" ;
+    jams:ofPattern <http://w3id.org/polifonia/resource/pattern/2_5_8_9_3_10> .
+
+<http://w3id.org/polifonia/resource/JAMSObservation/FlyByNight27133/2_7_0_3_5_7@0.0> a jams:JAMSObservation,
+        jams:JAMSScoreObservation,
+        jams:ScorePatternOccurrence ;
+    rdfs:label [ ] ;
+    jams:hasDuration "0.0"^^xsd:float ;
+    jams:hasFrequency "1"^^xsd:int ;
+    jams:hasPatternType "pitch-class-values" ;
+    jams:ofPattern <http://w3id.org/polifonia/resource/pattern/2_7_0_3_5_7> .
+
+<http://w3id.org/polifonia/resource/JAMSObservation/FlyByNight27133/3_10_7_11_2_5@0.0> a jams:JAMSObservation,
+        jams:JAMSScoreObservation,
+        jams:ScorePatternOccurrence ;
+    rdfs:label [ ] ;
+    jams:hasDuration "0.0"^^xsd:float ;
+    jams:hasFrequency "6"^^xsd:int ;
+    jams:hasPatternType "pitch-class-values" ;
+    jams:ofPattern <http://w3id.org/polifonia/resource/pattern/3_10_7_11_2_5> .
+
+<http://w3id.org/polifonia/resource/JAMSObservation/FlyByNight27133/3_5_7_3_7_2@0.0> a jams:JAMSObservation,
+        jams:JAMSScoreObservation,
+        jams:ScorePatternOccurrence ;
+    rdfs:label [ ] ;
+    jams:hasDuration "0.0"^^xsd:float ;
+    jams:hasFrequency "1"^^xsd:int ;
+    jams:hasPatternType "pitch-class-values" ;
+    jams:ofPattern <http://w3id.org/polifonia/resource/pattern/3_5_7_3_7_2> .
+
+<http://w3id.org/polifonia/resource/JAMSObservation/FlyByNight27133/3_7_2_7_0_3@0.0> a jams:JAMSObservation,
+        jams:JAMSScoreObservation,
+        jams:ScorePatternOccurrence ;
+    rdfs:label [ ] ;
+    jams:hasDuration "0.0"^^xsd:float ;
+    jams:hasFrequency "1"^^xsd:int ;
+    jams:hasPatternType "pitch-class-values" ;
+    jams:ofPattern <http://w3id.org/polifonia/resource/pattern/3_7_2_7_0_3> .
+
+<http://w3id.org/polifonia/resource/JAMSObservation/FlyByNight27133/3_7_3_7_2_7@0.0> a jams:JAMSObservation,
+        jams:JAMSScoreObservation,
+        jams:ScorePatternOccurrence ;
+    rdfs:label [ ] ;
+    jams:hasDuration "0.0"^^xsd:float ;
+    jams:hasFrequency "1"^^xsd:int ;
+    jams:hasPatternType "pitch-class-values" ;
+    jams:ofPattern <http://w3id.org/polifonia/resource/pattern/3_7_3_7_2_7> .
+
+<http://w3id.org/polifonia/resource/JAMSObservation/FlyByNight27133/5_7_3_7_2_5@0.0> a jams:JAMSObservation,
+        jams:JAMSScoreObservation,
+        jams:ScorePatternOccurrence ;
+    rdfs:label [ ] ;
+    jams:hasDuration "0.0"^^xsd:float ;
+    jams:hasFrequency "1"^^xsd:int ;
+    jams:hasPatternType "pitch-class-values" ;
+    jams:ofPattern <http://w3id.org/polifonia/resource/pattern/5_7_3_7_2_5> .
+
+<http://w3id.org/polifonia/resource/JAMSObservation/FlyByNight27133/5_8_3_3_10_7@0.0> a jams:JAMSObservation,
+        jams:JAMSScoreObservation,
+        jams:ScorePatternOccurrence ;
+    rdfs:label [ ] ;
+    jams:hasDuration "0.0"^^xsd:float ;
+    jams:hasFrequency "1"^^xsd:int ;
+    jams:hasPatternType "pitch-class-values" ;
+    jams:ofPattern <http://w3id.org/polifonia/resource/pattern/5_8_3_3_10_7> .
+
+<http://w3id.org/polifonia/resource/JAMSObservation/FlyByNight27133/5_8_3_7_3_7@0.0> a jams:JAMSObservation,
+        jams:JAMSScoreObservation,
+        jams:ScorePatternOccurrence ;
+    rdfs:label [ ] ;
+    jams:hasDuration "0.0"^^xsd:float ;
+    jams:hasFrequency "1"^^xsd:int ;
+    jams:hasPatternType "pitch-class-values" ;
+    jams:ofPattern <http://w3id.org/polifonia/resource/pattern/5_8_3_7_3_7> .
+
+<http://w3id.org/polifonia/resource/JAMSObservation/FlyByNight27133/5_8_9_3_10_7@0.0> a jams:JAMSObservation,
+        jams:JAMSScoreObservation,
+        jams:ScorePatternOccurrence ;
+    rdfs:label [ ] ;
+    jams:hasDuration "0.0"^^xsd:float ;
+    jams:hasFrequency "3"^^xsd:int ;
+    jams:hasPatternType "pitch-class-values" ;
+    jams:ofPattern <http://w3id.org/polifonia/resource/pattern/5_8_9_3_10_7> .
+
+<http://w3id.org/polifonia/resource/JAMSObservation/FlyByNight27133/7_0_3_5_7_3@0.0> a jams:JAMSObservation,
+        jams:JAMSScoreObservation,
+        jams:ScorePatternOccurrence ;
+    rdfs:label [ ] ;
+    jams:hasDuration "0.0"^^xsd:float ;
+    jams:hasFrequency "1"^^xsd:int ;
+    jams:hasPatternType "pitch-class-values" ;
+    jams:ofPattern <http://w3id.org/polifonia/resource/pattern/7_0_3_5_7_3> .
+
+<http://w3id.org/polifonia/resource/JAMSObservation/FlyByNight27133/7_11_2_5_8_3@0.0> a jams:JAMSObservation,
+        jams:JAMSScoreObservation,
+        jams:ScorePatternOccurrence ;
+    rdfs:label [ ] ;
+    jams:hasDuration "0.0"^^xsd:float ;
+    jams:hasFrequency "3"^^xsd:int ;
+    jams:hasPatternType "pitch-class-values" ;
+    jams:ofPattern <http://w3id.org/polifonia/resource/pattern/7_11_2_5_8_3> .
+
+<http://w3id.org/polifonia/resource/JAMSObservation/FlyByNight27133/7_11_2_5_8_9@0.0> a jams:JAMSObservation,
+        jams:JAMSScoreObservation,
+        jams:ScorePatternOccurrence ;
+    rdfs:label [ ] ;
+    jams:hasDuration "0.0"^^xsd:float ;
+    jams:hasFrequency "3"^^xsd:int ;
+    jams:hasPatternType "pitch-class-values" ;
+    jams:ofPattern <http://w3id.org/polifonia/resource/pattern/7_11_2_5_8_9> .
+
+<http://w3id.org/polifonia/resource/JAMSObservation/FlyByNight27133/7_2_7_0_3_5@0.0> a jams:JAMSObservation,
+        jams:JAMSScoreObservation,
+        jams:ScorePatternOccurrence ;
+    rdfs:label [ ] ;
+    jams:hasDuration "0.0"^^xsd:float ;
+    jams:hasFrequency "1"^^xsd:int ;
+    jams:hasPatternType "pitch-class-values" ;
+    jams:ofPattern <http://w3id.org/polifonia/resource/pattern/7_2_7_0_3_5> .
+
+<http://w3id.org/polifonia/resource/JAMSObservation/FlyByNight27133/7_3_7_2_7_0@0.0> a jams:JAMSObservation,
+        jams:JAMSScoreObservation,
+        jams:ScorePatternOccurrence ;
+    rdfs:label [ ] ;
+    jams:hasDuration "0.0"^^xsd:float ;
+    jams:hasFrequency "1"^^xsd:int ;
+    jams:hasPatternType "pitch-class-values" ;
+    jams:ofPattern <http://w3id.org/polifonia/resource/pattern/7_3_7_2_7_0> .
+
+<http://w3id.org/polifonia/resource/JAMSObservation/FlyByNight27133/8_3_7_3_7_2@0.0> a jams:JAMSObservation,
+        jams:JAMSScoreObservation,
+        jams:ScorePatternOccurrence ;
+    rdfs:label [ ] ;
+    jams:hasDuration "0.0"^^xsd:float ;
+    jams:hasFrequency "1"^^xsd:int ;
+    jams:hasPatternType "pitch-class-values" ;
+    jams:ofPattern <http://w3id.org/polifonia/resource/pattern/8_3_7_3_7_2> .
+
+<http://w3id.org/polifonia/resource/JAMSObservation/FlyByNight27133/8_9_3_10_7_11@0.0> a jams:JAMSObservation,
+        jams:JAMSScoreObservation,
+        jams:ScorePatternOccurrence ;
+    rdfs:label [ ] ;
+    jams:hasDuration "0.0"^^xsd:float ;
+    jams:hasFrequency "3"^^xsd:int ;
+    jams:hasPatternType "pitch-class-values" ;
+    jams:ofPattern <http://w3id.org/polifonia/resource/pattern/8_9_3_10_7_11> .
+
+<http://w3id.org/polifonia/resource/JAMSObservation/FlyByNight27133/9_3_10_7_11_2@0.0> a jams:JAMSObservation,
+        jams:JAMSScoreObservation,
+        jams:ScorePatternOccurrence ;
+    rdfs:label [ ] ;
+    jams:hasDuration "0.0"^^xsd:float ;
+    jams:hasFrequency "3"^^xsd:int ;
+    jams:hasPatternType "pitch-class-values" ;
+    jams:ofPattern <http://w3id.org/polifonia/resource/pattern/9_3_10_7_11_2> .
+
+<http://w3id.org/polifonia/resource/MusicalComposition/32b7321f58b8286701b388cc186a85aae11a1954> a mc:MusicalComposition ;
+    rdfs:label "FlyByNight27133" ;
+    mc:title "FlyByNight27133" ;
+    prov:wasDerivedFrom <http://w3id.org/polifonia/resource/JAMSFile/FlyByNight27133.jams> .
+

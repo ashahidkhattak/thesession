@@ -1,0 +1,241 @@
+@prefix core: <http://w3id.org/polifonia/ontology/core/> .
+@prefix jams: <http://w3id.org/polifonia/ontology/jams/> .
+@prefix mc: <http://w3id.org/polifonia/ontology/musical-composition/> .
+@prefix pon-resource: <http://w3id.org/polifonia/resource/> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+pon-resource:Agent%2Fannotator_local_id a core:Agent ;
+    rdfs:label "FONN-Tool" ;
+    jams:hasAnnotatorType pon-resource:annotator-program ;
+    jams:hasName "FONN-Tool" .
+
+<http://w3id.org/polifonia/resource/JAMSAnnotation/1bf0822b56150260b5b2c3b7f3fa766bcd95d71b> a jams:JAMSAnnotation,
+        jams:JAMSScoreAnnotation ;
+    jams:includesObservation <http://w3id.org/polifonia/resource/JAMSObservation/ChaseTheShoutingWind40838/0_0_8_10_0_0@0.0>,
+        <http://w3id.org/polifonia/resource/JAMSObservation/ChaseTheShoutingWind40838/0_0_8_10_0_3@0.0>,
+        <http://w3id.org/polifonia/resource/JAMSObservation/ChaseTheShoutingWind40838/0_0_8_8_0_0@0.0>,
+        <http://w3id.org/polifonia/resource/JAMSObservation/ChaseTheShoutingWind40838/0_3_3_5_0_3@0.0>,
+        <http://w3id.org/polifonia/resource/JAMSObservation/ChaseTheShoutingWind40838/0_3_8_5_0_3@0.0>,
+        <http://w3id.org/polifonia/resource/JAMSObservation/ChaseTheShoutingWind40838/0_8_10_0_0_8@0.0>,
+        <http://w3id.org/polifonia/resource/JAMSObservation/ChaseTheShoutingWind40838/0_8_10_0_3_3@0.0>,
+        <http://w3id.org/polifonia/resource/JAMSObservation/ChaseTheShoutingWind40838/0_8_8_0_0_8@0.0>,
+        <http://w3id.org/polifonia/resource/JAMSObservation/ChaseTheShoutingWind40838/10_0_0_8_8_0@0.0>,
+        <http://w3id.org/polifonia/resource/JAMSObservation/ChaseTheShoutingWind40838/10_0_3_3_5_0@0.0>,
+        <http://w3id.org/polifonia/resource/JAMSObservation/ChaseTheShoutingWind40838/3_3_5_0_3_8@0.0>,
+        <http://w3id.org/polifonia/resource/JAMSObservation/ChaseTheShoutingWind40838/3_5_0_3_8_3@0.0>,
+        <http://w3id.org/polifonia/resource/JAMSObservation/ChaseTheShoutingWind40838/3_5_0_3_8_5@0.0>,
+        <http://w3id.org/polifonia/resource/JAMSObservation/ChaseTheShoutingWind40838/3_8_5_0_3_3@0.0>,
+        <http://w3id.org/polifonia/resource/JAMSObservation/ChaseTheShoutingWind40838/5_0_3_3_5_0@0.0>,
+        <http://w3id.org/polifonia/resource/JAMSObservation/ChaseTheShoutingWind40838/5_0_3_8_5_0@0.0>,
+        <http://w3id.org/polifonia/resource/JAMSObservation/ChaseTheShoutingWind40838/8_0_0_8_10_0@0.0>,
+        <http://w3id.org/polifonia/resource/JAMSObservation/ChaseTheShoutingWind40838/8_10_0_0_8_8@0.0>,
+        <http://w3id.org/polifonia/resource/JAMSObservation/ChaseTheShoutingWind40838/8_10_0_3_3_5@0.0>,
+        <http://w3id.org/polifonia/resource/JAMSObservation/ChaseTheShoutingWind40838/8_5_0_3_3_5@0.0>,
+        <http://w3id.org/polifonia/resource/JAMSObservation/ChaseTheShoutingWind40838/8_8_0_0_8_10@0.0> ;
+    jams:isJAMSAnnotationOf <http://w3id.org/polifonia/resource/MusicalComposition/1bf0822b56150260b5b2c3b7f3fa766bcd95d71b> .
+
+<http://w3id.org/polifonia/resource/Score/song_local_id> jams:hasJAMSAnnotation <http://w3id.org/polifonia/resource/MusicalComposition/1bf0822b56150260b5b2c3b7f3fa766bcd95d71b> .
+
+<http://w3id.org/polifonia/resource/JAMSFile/ChaseTheShoutingWind40838.jams> a jams:JAMSFile ;
+    jams:identifiers [ ] ;
+    jams:jamsVersion "0.3.4" ;
+    jams:release "" ;
+    prov:wasDerivedFrom "The Session" ;
+    prov:wasMemberOf <https://github.com/ashahidkhattak/thesession> .
+
+<http://w3id.org/polifonia/resource/JAMSObservation/ChaseTheShoutingWind40838/0_0_8_10_0_0@0.0> a jams:JAMSObservation,
+        jams:JAMSScoreObservation,
+        jams:ScorePatternOccurrence ;
+    rdfs:label [ ] ;
+    jams:hasDuration "0.0"^^xsd:float ;
+    jams:hasFrequency "1"^^xsd:int ;
+    jams:hasPatternType "pitch-class-values" ;
+    jams:ofPattern <http://w3id.org/polifonia/resource/pattern/0_0_8_10_0_0> .
+
+<http://w3id.org/polifonia/resource/JAMSObservation/ChaseTheShoutingWind40838/0_0_8_10_0_3@0.0> a jams:JAMSObservation,
+        jams:JAMSScoreObservation,
+        jams:ScorePatternOccurrence ;
+    rdfs:label [ ] ;
+    jams:hasDuration "0.0"^^xsd:float ;
+    jams:hasFrequency "1"^^xsd:int ;
+    jams:hasPatternType "pitch-class-values" ;
+    jams:ofPattern <http://w3id.org/polifonia/resource/pattern/0_0_8_10_0_3> .
+
+<http://w3id.org/polifonia/resource/JAMSObservation/ChaseTheShoutingWind40838/0_0_8_8_0_0@0.0> a jams:JAMSObservation,
+        jams:JAMSScoreObservation,
+        jams:ScorePatternOccurrence ;
+    rdfs:label [ ] ;
+    jams:hasDuration "0.0"^^xsd:float ;
+    jams:hasFrequency "2"^^xsd:int ;
+    jams:hasPatternType "pitch-class-values" ;
+    jams:ofPattern <http://w3id.org/polifonia/resource/pattern/0_0_8_8_0_0> .
+
+<http://w3id.org/polifonia/resource/JAMSObservation/ChaseTheShoutingWind40838/0_3_3_5_0_3@0.0> a jams:JAMSObservation,
+        jams:JAMSScoreObservation,
+        jams:ScorePatternOccurrence ;
+    rdfs:label [ ] ;
+    jams:hasDuration "0.0"^^xsd:float ;
+    jams:hasFrequency "2"^^xsd:int ;
+    jams:hasPatternType "pitch-class-values" ;
+    jams:ofPattern <http://w3id.org/polifonia/resource/pattern/0_3_3_5_0_3> .
+
+<http://w3id.org/polifonia/resource/JAMSObservation/ChaseTheShoutingWind40838/0_3_8_5_0_3@0.0> a jams:JAMSObservation,
+        jams:JAMSScoreObservation,
+        jams:ScorePatternOccurrence ;
+    rdfs:label [ ] ;
+    jams:hasDuration "0.0"^^xsd:float ;
+    jams:hasFrequency "1"^^xsd:int ;
+    jams:hasPatternType "pitch-class-values" ;
+    jams:ofPattern <http://w3id.org/polifonia/resource/pattern/0_3_8_5_0_3> .
+
+<http://w3id.org/polifonia/resource/JAMSObservation/ChaseTheShoutingWind40838/0_8_10_0_0_8@0.0> a jams:JAMSObservation,
+        jams:JAMSScoreObservation,
+        jams:ScorePatternOccurrence ;
+    rdfs:label [ ] ;
+    jams:hasDuration "0.0"^^xsd:float ;
+    jams:hasFrequency "1"^^xsd:int ;
+    jams:hasPatternType "pitch-class-values" ;
+    jams:ofPattern <http://w3id.org/polifonia/resource/pattern/0_8_10_0_0_8> .
+
+<http://w3id.org/polifonia/resource/JAMSObservation/ChaseTheShoutingWind40838/0_8_10_0_3_3@0.0> a jams:JAMSObservation,
+        jams:JAMSScoreObservation,
+        jams:ScorePatternOccurrence ;
+    rdfs:label [ ] ;
+    jams:hasDuration "0.0"^^xsd:float ;
+    jams:hasFrequency "1"^^xsd:int ;
+    jams:hasPatternType "pitch-class-values" ;
+    jams:ofPattern <http://w3id.org/polifonia/resource/pattern/0_8_10_0_3_3> .
+
+<http://w3id.org/polifonia/resource/JAMSObservation/ChaseTheShoutingWind40838/0_8_8_0_0_8@0.0> a jams:JAMSObservation,
+        jams:JAMSScoreObservation,
+        jams:ScorePatternOccurrence ;
+    rdfs:label [ ] ;
+    jams:hasDuration "0.0"^^xsd:float ;
+    jams:hasFrequency "2"^^xsd:int ;
+    jams:hasPatternType "pitch-class-values" ;
+    jams:ofPattern <http://w3id.org/polifonia/resource/pattern/0_8_8_0_0_8> .
+
+<http://w3id.org/polifonia/resource/JAMSObservation/ChaseTheShoutingWind40838/10_0_0_8_8_0@0.0> a jams:JAMSObservation,
+        jams:JAMSScoreObservation,
+        jams:ScorePatternOccurrence ;
+    rdfs:label [ ] ;
+    jams:hasDuration "0.0"^^xsd:float ;
+    jams:hasFrequency "1"^^xsd:int ;
+    jams:hasPatternType "pitch-class-values" ;
+    jams:ofPattern <http://w3id.org/polifonia/resource/pattern/10_0_0_8_8_0> .
+
+<http://w3id.org/polifonia/resource/JAMSObservation/ChaseTheShoutingWind40838/10_0_3_3_5_0@0.0> a jams:JAMSObservation,
+        jams:JAMSScoreObservation,
+        jams:ScorePatternOccurrence ;
+    rdfs:label [ ] ;
+    jams:hasDuration "0.0"^^xsd:float ;
+    jams:hasFrequency "1"^^xsd:int ;
+    jams:hasPatternType "pitch-class-values" ;
+    jams:ofPattern <http://w3id.org/polifonia/resource/pattern/10_0_3_3_5_0> .
+
+<http://w3id.org/polifonia/resource/JAMSObservation/ChaseTheShoutingWind40838/3_3_5_0_3_8@0.0> a jams:JAMSObservation,
+        jams:JAMSScoreObservation,
+        jams:ScorePatternOccurrence ;
+    rdfs:label [ ] ;
+    jams:hasDuration "0.0"^^xsd:float ;
+    jams:hasFrequency "2"^^xsd:int ;
+    jams:hasPatternType "pitch-class-values" ;
+    jams:ofPattern <http://w3id.org/polifonia/resource/pattern/3_3_5_0_3_8> .
+
+<http://w3id.org/polifonia/resource/JAMSObservation/ChaseTheShoutingWind40838/3_5_0_3_8_3@0.0> a jams:JAMSObservation,
+        jams:JAMSScoreObservation,
+        jams:ScorePatternOccurrence ;
+    rdfs:label [ ] ;
+    jams:hasDuration "0.0"^^xsd:float ;
+    jams:hasFrequency "1"^^xsd:int ;
+    jams:hasPatternType "pitch-class-values" ;
+    jams:ofPattern <http://w3id.org/polifonia/resource/pattern/3_5_0_3_8_3> .
+
+<http://w3id.org/polifonia/resource/JAMSObservation/ChaseTheShoutingWind40838/3_5_0_3_8_5@0.0> a jams:JAMSObservation,
+        jams:JAMSScoreObservation,
+        jams:ScorePatternOccurrence ;
+    rdfs:label [ ] ;
+    jams:hasDuration "0.0"^^xsd:float ;
+    jams:hasFrequency "1"^^xsd:int ;
+    jams:hasPatternType "pitch-class-values" ;
+    jams:ofPattern <http://w3id.org/polifonia/resource/pattern/3_5_0_3_8_5> .
+
+<http://w3id.org/polifonia/resource/JAMSObservation/ChaseTheShoutingWind40838/3_8_5_0_3_3@0.0> a jams:JAMSObservation,
+        jams:JAMSScoreObservation,
+        jams:ScorePatternOccurrence ;
+    rdfs:label [ ] ;
+    jams:hasDuration "0.0"^^xsd:float ;
+    jams:hasFrequency "1"^^xsd:int ;
+    jams:hasPatternType "pitch-class-values" ;
+    jams:ofPattern <http://w3id.org/polifonia/resource/pattern/3_8_5_0_3_3> .
+
+<http://w3id.org/polifonia/resource/JAMSObservation/ChaseTheShoutingWind40838/5_0_3_3_5_0@0.0> a jams:JAMSObservation,
+        jams:JAMSScoreObservation,
+        jams:ScorePatternOccurrence ;
+    rdfs:label [ ] ;
+    jams:hasDuration "0.0"^^xsd:float ;
+    jams:hasFrequency "1"^^xsd:int ;
+    jams:hasPatternType "pitch-class-values" ;
+    jams:ofPattern <http://w3id.org/polifonia/resource/pattern/5_0_3_3_5_0> .
+
+<http://w3id.org/polifonia/resource/JAMSObservation/ChaseTheShoutingWind40838/5_0_3_8_5_0@0.0> a jams:JAMSObservation,
+        jams:JAMSScoreObservation,
+        jams:ScorePatternOccurrence ;
+    rdfs:label [ ] ;
+    jams:hasDuration "0.0"^^xsd:float ;
+    jams:hasFrequency "1"^^xsd:int ;
+    jams:hasPatternType "pitch-class-values" ;
+    jams:ofPattern <http://w3id.org/polifonia/resource/pattern/5_0_3_8_5_0> .
+
+<http://w3id.org/polifonia/resource/JAMSObservation/ChaseTheShoutingWind40838/8_0_0_8_10_0@0.0> a jams:JAMSObservation,
+        jams:JAMSScoreObservation,
+        jams:ScorePatternOccurrence ;
+    rdfs:label [ ] ;
+    jams:hasDuration "0.0"^^xsd:float ;
+    jams:hasFrequency "2"^^xsd:int ;
+    jams:hasPatternType "pitch-class-values" ;
+    jams:ofPattern <http://w3id.org/polifonia/resource/pattern/8_0_0_8_10_0> .
+
+<http://w3id.org/polifonia/resource/JAMSObservation/ChaseTheShoutingWind40838/8_10_0_0_8_8@0.0> a jams:JAMSObservation,
+        jams:JAMSScoreObservation,
+        jams:ScorePatternOccurrence ;
+    rdfs:label [ ] ;
+    jams:hasDuration "0.0"^^xsd:float ;
+    jams:hasFrequency "1"^^xsd:int ;
+    jams:hasPatternType "pitch-class-values" ;
+    jams:ofPattern <http://w3id.org/polifonia/resource/pattern/8_10_0_0_8_8> .
+
+<http://w3id.org/polifonia/resource/JAMSObservation/ChaseTheShoutingWind40838/8_10_0_3_3_5@0.0> a jams:JAMSObservation,
+        jams:JAMSScoreObservation,
+        jams:ScorePatternOccurrence ;
+    rdfs:label [ ] ;
+    jams:hasDuration "0.0"^^xsd:float ;
+    jams:hasFrequency "1"^^xsd:int ;
+    jams:hasPatternType "pitch-class-values" ;
+    jams:ofPattern <http://w3id.org/polifonia/resource/pattern/8_10_0_3_3_5> .
+
+<http://w3id.org/polifonia/resource/JAMSObservation/ChaseTheShoutingWind40838/8_5_0_3_3_5@0.0> a jams:JAMSObservation,
+        jams:JAMSScoreObservation,
+        jams:ScorePatternOccurrence ;
+    rdfs:label [ ] ;
+    jams:hasDuration "0.0"^^xsd:float ;
+    jams:hasFrequency "1"^^xsd:int ;
+    jams:hasPatternType "pitch-class-values" ;
+    jams:ofPattern <http://w3id.org/polifonia/resource/pattern/8_5_0_3_3_5> .
+
+<http://w3id.org/polifonia/resource/JAMSObservation/ChaseTheShoutingWind40838/8_8_0_0_8_10@0.0> a jams:JAMSObservation,
+        jams:JAMSScoreObservation,
+        jams:ScorePatternOccurrence ;
+    rdfs:label [ ] ;
+    jams:hasDuration "0.0"^^xsd:float ;
+    jams:hasFrequency "2"^^xsd:int ;
+    jams:hasPatternType "pitch-class-values" ;
+    jams:ofPattern <http://w3id.org/polifonia/resource/pattern/8_8_0_0_8_10> .
+
+<http://w3id.org/polifonia/resource/MusicalComposition/1bf0822b56150260b5b2c3b7f3fa766bcd95d71b> a mc:MusicalComposition ;
+    rdfs:label "ChaseTheShoutingWind40838" ;
+    mc:title "ChaseTheShoutingWind40838" ;
+    prov:wasDerivedFrom <http://w3id.org/polifonia/resource/JAMSFile/ChaseTheShoutingWind40838.jams> .
+

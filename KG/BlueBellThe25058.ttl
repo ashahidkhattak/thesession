@@ -1,0 +1,30 @@
+@prefix core: <http://w3id.org/polifonia/ontology/core/> .
+@prefix jams: <http://w3id.org/polifonia/ontology/jams/> .
+@prefix mc: <http://w3id.org/polifonia/ontology/musical-composition/> .
+@prefix pon-resource: <http://w3id.org/polifonia/resource/> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+pon-resource:Agent%2Fannotator_local_id a core:Agent ;
+    rdfs:label "FONN-Tool" ;
+    jams:hasAnnotatorType pon-resource:annotator-program ;
+    jams:hasName "FONN-Tool" .
+
+<http://w3id.org/polifonia/resource/JAMSAnnotation/d662d52f311c091d737c2a93e23b6fad17ee8be2> a jams:JAMSAnnotation,
+        jams:JAMSScoreAnnotation ;
+    jams:isJAMSAnnotationOf <http://w3id.org/polifonia/resource/MusicalComposition/d662d52f311c091d737c2a93e23b6fad17ee8be2> .
+
+<http://w3id.org/polifonia/resource/Score/song_local_id> jams:hasJAMSAnnotation <http://w3id.org/polifonia/resource/MusicalComposition/d662d52f311c091d737c2a93e23b6fad17ee8be2> .
+
+<http://w3id.org/polifonia/resource/JAMSFile/BlueBellThe25058.jams> a jams:JAMSFile ;
+    jams:identifiers [ ] ;
+    jams:jamsVersion "0.3.4" ;
+    jams:release "" ;
+    prov:wasDerivedFrom "The Session" ;
+    prov:wasMemberOf <https://github.com/ashahidkhattak/thesession> .
+
+<http://w3id.org/polifonia/resource/MusicalComposition/d662d52f311c091d737c2a93e23b6fad17ee8be2> a mc:MusicalComposition ;
+    rdfs:label "BlueBellThe25058" ;
+    mc:title "BlueBellThe25058" ;
+    prov:wasDerivedFrom <http://w3id.org/polifonia/resource/JAMSFile/BlueBellThe25058.jams> .
+

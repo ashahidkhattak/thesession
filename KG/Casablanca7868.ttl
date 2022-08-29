@@ -1,0 +1,201 @@
+@prefix core: <http://w3id.org/polifonia/ontology/core/> .
+@prefix jams: <http://w3id.org/polifonia/ontology/jams/> .
+@prefix mc: <http://w3id.org/polifonia/ontology/musical-composition/> .
+@prefix pon-resource: <http://w3id.org/polifonia/resource/> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+pon-resource:Agent%2Fannotator_local_id a core:Agent ;
+    rdfs:label "FONN-Tool" ;
+    jams:hasAnnotatorType pon-resource:annotator-program ;
+    jams:hasName "FONN-Tool" .
+
+<http://w3id.org/polifonia/resource/JAMSAnnotation/7601825b5b7a3c492974d3aa4cb0916a4e783797> a jams:JAMSAnnotation,
+        jams:JAMSScoreAnnotation ;
+    jams:includesObservation <http://w3id.org/polifonia/resource/JAMSObservation/Casablanca7868/0_7_2_2_2_7@0.0>,
+        <http://w3id.org/polifonia/resource/JAMSObservation/Casablanca7868/0_8_7_3_7_8@0.0>,
+        <http://w3id.org/polifonia/resource/JAMSObservation/Casablanca7868/2_2_2_7_2_5@0.0>,
+        <http://w3id.org/polifonia/resource/JAMSObservation/Casablanca7868/2_2_7_2_5_0@0.0>,
+        <http://w3id.org/polifonia/resource/JAMSObservation/Casablanca7868/2_5_0_7_2_2@0.0>,
+        <http://w3id.org/polifonia/resource/JAMSObservation/Casablanca7868/2_7_2_5_0_7@0.0>,
+        <http://w3id.org/polifonia/resource/JAMSObservation/Casablanca7868/2_7_2_5_0_8@0.0>,
+        <http://w3id.org/polifonia/resource/JAMSObservation/Casablanca7868/3_7_8_7_3_0@0.0>,
+        <http://w3id.org/polifonia/resource/JAMSObservation/Casablanca7868/5_0_7_2_2_2@0.0>,
+        <http://w3id.org/polifonia/resource/JAMSObservation/Casablanca7868/7_2_2_2_7_2@0.0>,
+        <http://w3id.org/polifonia/resource/JAMSObservation/Casablanca7868/7_2_5_0_7_2@0.0>,
+        <http://w3id.org/polifonia/resource/JAMSObservation/Casablanca7868/7_2_5_0_8_7@0.0>,
+        <http://w3id.org/polifonia/resource/JAMSObservation/Casablanca7868/7_3_0_8_7_3@0.0>,
+        <http://w3id.org/polifonia/resource/JAMSObservation/Casablanca7868/7_3_7_8_7_3@0.0>,
+        <http://w3id.org/polifonia/resource/JAMSObservation/Casablanca7868/7_8_7_3_0_8@0.0>,
+        <http://w3id.org/polifonia/resource/JAMSObservation/Casablanca7868/8_7_3_0_8_7@0.0>,
+        <http://w3id.org/polifonia/resource/JAMSObservation/Casablanca7868/8_7_3_7_8_7@0.0> ;
+    jams:isJAMSAnnotationOf <http://w3id.org/polifonia/resource/MusicalComposition/7601825b5b7a3c492974d3aa4cb0916a4e783797> .
+
+<http://w3id.org/polifonia/resource/Score/song_local_id> jams:hasJAMSAnnotation <http://w3id.org/polifonia/resource/MusicalComposition/7601825b5b7a3c492974d3aa4cb0916a4e783797> .
+
+<http://w3id.org/polifonia/resource/JAMSFile/Casablanca7868.jams> a jams:JAMSFile ;
+    jams:identifiers [ ] ;
+    jams:jamsVersion "0.3.4" ;
+    jams:release "" ;
+    prov:wasDerivedFrom "The Session" ;
+    prov:wasMemberOf <https://github.com/ashahidkhattak/thesession> .
+
+<http://w3id.org/polifonia/resource/JAMSObservation/Casablanca7868/0_7_2_2_2_7@0.0> a jams:JAMSObservation,
+        jams:JAMSScoreObservation,
+        jams:ScorePatternOccurrence ;
+    rdfs:label [ ] ;
+    jams:hasDuration "0.0"^^xsd:float ;
+    jams:hasFrequency "1"^^xsd:int ;
+    jams:hasPatternType "pitch-class-values" ;
+    jams:ofPattern <http://w3id.org/polifonia/resource/pattern/0_7_2_2_2_7> .
+
+<http://w3id.org/polifonia/resource/JAMSObservation/Casablanca7868/0_8_7_3_7_8@0.0> a jams:JAMSObservation,
+        jams:JAMSScoreObservation,
+        jams:ScorePatternOccurrence ;
+    rdfs:label [ ] ;
+    jams:hasDuration "0.0"^^xsd:float ;
+    jams:hasFrequency "2"^^xsd:int ;
+    jams:hasPatternType "pitch-class-values" ;
+    jams:ofPattern <http://w3id.org/polifonia/resource/pattern/0_8_7_3_7_8> .
+
+<http://w3id.org/polifonia/resource/JAMSObservation/Casablanca7868/2_2_2_7_2_5@0.0> a jams:JAMSObservation,
+        jams:JAMSScoreObservation,
+        jams:ScorePatternOccurrence ;
+    rdfs:label [ ] ;
+    jams:hasDuration "0.0"^^xsd:float ;
+    jams:hasFrequency "2"^^xsd:int ;
+    jams:hasPatternType "pitch-class-values" ;
+    jams:ofPattern <http://w3id.org/polifonia/resource/pattern/2_2_2_7_2_5> .
+
+<http://w3id.org/polifonia/resource/JAMSObservation/Casablanca7868/2_2_7_2_5_0@0.0> a jams:JAMSObservation,
+        jams:JAMSScoreObservation,
+        jams:ScorePatternOccurrence ;
+    rdfs:label [ ] ;
+    jams:hasDuration "0.0"^^xsd:float ;
+    jams:hasFrequency "2"^^xsd:int ;
+    jams:hasPatternType "pitch-class-values" ;
+    jams:ofPattern <http://w3id.org/polifonia/resource/pattern/2_2_7_2_5_0> .
+
+<http://w3id.org/polifonia/resource/JAMSObservation/Casablanca7868/2_5_0_7_2_2@0.0> a jams:JAMSObservation,
+        jams:JAMSScoreObservation,
+        jams:ScorePatternOccurrence ;
+    rdfs:label [ ] ;
+    jams:hasDuration "0.0"^^xsd:float ;
+    jams:hasFrequency "1"^^xsd:int ;
+    jams:hasPatternType "pitch-class-values" ;
+    jams:ofPattern <http://w3id.org/polifonia/resource/pattern/2_5_0_7_2_2> .
+
+<http://w3id.org/polifonia/resource/JAMSObservation/Casablanca7868/2_7_2_5_0_7@0.0> a jams:JAMSObservation,
+        jams:JAMSScoreObservation,
+        jams:ScorePatternOccurrence ;
+    rdfs:label [ ] ;
+    jams:hasDuration "0.0"^^xsd:float ;
+    jams:hasFrequency "1"^^xsd:int ;
+    jams:hasPatternType "pitch-class-values" ;
+    jams:ofPattern <http://w3id.org/polifonia/resource/pattern/2_7_2_5_0_7> .
+
+<http://w3id.org/polifonia/resource/JAMSObservation/Casablanca7868/2_7_2_5_0_8@0.0> a jams:JAMSObservation,
+        jams:JAMSScoreObservation,
+        jams:ScorePatternOccurrence ;
+    rdfs:label [ ] ;
+    jams:hasDuration "0.0"^^xsd:float ;
+    jams:hasFrequency "1"^^xsd:int ;
+    jams:hasPatternType "pitch-class-values" ;
+    jams:ofPattern <http://w3id.org/polifonia/resource/pattern/2_7_2_5_0_8> .
+
+<http://w3id.org/polifonia/resource/JAMSObservation/Casablanca7868/3_7_8_7_3_0@0.0> a jams:JAMSObservation,
+        jams:JAMSScoreObservation,
+        jams:ScorePatternOccurrence ;
+    rdfs:label [ ] ;
+    jams:hasDuration "0.0"^^xsd:float ;
+    jams:hasFrequency "2"^^xsd:int ;
+    jams:hasPatternType "pitch-class-values" ;
+    jams:ofPattern <http://w3id.org/polifonia/resource/pattern/3_7_8_7_3_0> .
+
+<http://w3id.org/polifonia/resource/JAMSObservation/Casablanca7868/5_0_7_2_2_2@0.0> a jams:JAMSObservation,
+        jams:JAMSScoreObservation,
+        jams:ScorePatternOccurrence ;
+    rdfs:label [ ] ;
+    jams:hasDuration "0.0"^^xsd:float ;
+    jams:hasFrequency "1"^^xsd:int ;
+    jams:hasPatternType "pitch-class-values" ;
+    jams:ofPattern <http://w3id.org/polifonia/resource/pattern/5_0_7_2_2_2> .
+
+<http://w3id.org/polifonia/resource/JAMSObservation/Casablanca7868/7_2_2_2_7_2@0.0> a jams:JAMSObservation,
+        jams:JAMSScoreObservation,
+        jams:ScorePatternOccurrence ;
+    rdfs:label [ ] ;
+    jams:hasDuration "0.0"^^xsd:float ;
+    jams:hasFrequency "2"^^xsd:int ;
+    jams:hasPatternType "pitch-class-values" ;
+    jams:ofPattern <http://w3id.org/polifonia/resource/pattern/7_2_2_2_7_2> .
+
+<http://w3id.org/polifonia/resource/JAMSObservation/Casablanca7868/7_2_5_0_7_2@0.0> a jams:JAMSObservation,
+        jams:JAMSScoreObservation,
+        jams:ScorePatternOccurrence ;
+    rdfs:label [ ] ;
+    jams:hasDuration "0.0"^^xsd:float ;
+    jams:hasFrequency "1"^^xsd:int ;
+    jams:hasPatternType "pitch-class-values" ;
+    jams:ofPattern <http://w3id.org/polifonia/resource/pattern/7_2_5_0_7_2> .
+
+<http://w3id.org/polifonia/resource/JAMSObservation/Casablanca7868/7_2_5_0_8_7@0.0> a jams:JAMSObservation,
+        jams:JAMSScoreObservation,
+        jams:ScorePatternOccurrence ;
+    rdfs:label [ ] ;
+    jams:hasDuration "0.0"^^xsd:float ;
+    jams:hasFrequency "1"^^xsd:int ;
+    jams:hasPatternType "pitch-class-values" ;
+    jams:ofPattern <http://w3id.org/polifonia/resource/pattern/7_2_5_0_8_7> .
+
+<http://w3id.org/polifonia/resource/JAMSObservation/Casablanca7868/7_3_0_8_7_3@0.0> a jams:JAMSObservation,
+        jams:JAMSScoreObservation,
+        jams:ScorePatternOccurrence ;
+    rdfs:label [ ] ;
+    jams:hasDuration "0.0"^^xsd:float ;
+    jams:hasFrequency "1"^^xsd:int ;
+    jams:hasPatternType "pitch-class-values" ;
+    jams:ofPattern <http://w3id.org/polifonia/resource/pattern/7_3_0_8_7_3> .
+
+<http://w3id.org/polifonia/resource/JAMSObservation/Casablanca7868/7_3_7_8_7_3@0.0> a jams:JAMSObservation,
+        jams:JAMSScoreObservation,
+        jams:ScorePatternOccurrence ;
+    rdfs:label [ ] ;
+    jams:hasDuration "0.0"^^xsd:float ;
+    jams:hasFrequency "2"^^xsd:int ;
+    jams:hasPatternType "pitch-class-values" ;
+    jams:ofPattern <http://w3id.org/polifonia/resource/pattern/7_3_7_8_7_3> .
+
+<http://w3id.org/polifonia/resource/JAMSObservation/Casablanca7868/7_8_7_3_0_8@0.0> a jams:JAMSObservation,
+        jams:JAMSScoreObservation,
+        jams:ScorePatternOccurrence ;
+    rdfs:label [ ] ;
+    jams:hasDuration "0.0"^^xsd:float ;
+    jams:hasFrequency "1"^^xsd:int ;
+    jams:hasPatternType "pitch-class-values" ;
+    jams:ofPattern <http://w3id.org/polifonia/resource/pattern/7_8_7_3_0_8> .
+
+<http://w3id.org/polifonia/resource/JAMSObservation/Casablanca7868/8_7_3_0_8_7@0.0> a jams:JAMSObservation,
+        jams:JAMSScoreObservation,
+        jams:ScorePatternOccurrence ;
+    rdfs:label [ ] ;
+    jams:hasDuration "0.0"^^xsd:float ;
+    jams:hasFrequency "1"^^xsd:int ;
+    jams:hasPatternType "pitch-class-values" ;
+    jams:ofPattern <http://w3id.org/polifonia/resource/pattern/8_7_3_0_8_7> .
+
+<http://w3id.org/polifonia/resource/JAMSObservation/Casablanca7868/8_7_3_7_8_7@0.0> a jams:JAMSObservation,
+        jams:JAMSScoreObservation,
+        jams:ScorePatternOccurrence ;
+    rdfs:label [ ] ;
+    jams:hasDuration "0.0"^^xsd:float ;
+    jams:hasFrequency "2"^^xsd:int ;
+    jams:hasPatternType "pitch-class-values" ;
+    jams:ofPattern <http://w3id.org/polifonia/resource/pattern/8_7_3_7_8_7> .
+
+<http://w3id.org/polifonia/resource/MusicalComposition/7601825b5b7a3c492974d3aa4cb0916a4e783797> a mc:MusicalComposition ;
+    rdfs:label "Casablanca7868" ;
+    mc:title "Casablanca7868" ;
+    prov:wasDerivedFrom <http://w3id.org/polifonia/resource/JAMSFile/Casablanca7868.jams> .
+

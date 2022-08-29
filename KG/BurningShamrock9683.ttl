@@ -1,0 +1,261 @@
+@prefix core: <http://w3id.org/polifonia/ontology/core/> .
+@prefix jams: <http://w3id.org/polifonia/ontology/jams/> .
+@prefix mc: <http://w3id.org/polifonia/ontology/musical-composition/> .
+@prefix pon-resource: <http://w3id.org/polifonia/resource/> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+pon-resource:Agent%2Fannotator_local_id a core:Agent ;
+    rdfs:label "FONN-Tool" ;
+    jams:hasAnnotatorType pon-resource:annotator-program ;
+    jams:hasName "FONN-Tool" .
+
+<http://w3id.org/polifonia/resource/JAMSAnnotation/e4768fd507e7a4a02f14bd3f61cc1a19309aeddd> a jams:JAMSAnnotation,
+        jams:JAMSScoreAnnotation ;
+    jams:includesObservation <http://w3id.org/polifonia/resource/JAMSObservation/BurningShamrock9683/0_11_9_2_0_2@0.0>,
+        <http://w3id.org/polifonia/resource/JAMSObservation/BurningShamrock9683/0_2_2_0_11_9@0.0>,
+        <http://w3id.org/polifonia/resource/JAMSObservation/BurningShamrock9683/0_7_2_7_7_0@0.0>,
+        <http://w3id.org/polifonia/resource/JAMSObservation/BurningShamrock9683/0_9_5_4_2_7@0.0>,
+        <http://w3id.org/polifonia/resource/JAMSObservation/BurningShamrock9683/0_9_5_4_9_2@0.0>,
+        <http://w3id.org/polifonia/resource/JAMSObservation/BurningShamrock9683/2_0_11_9_2_0@0.0>,
+        <http://w3id.org/polifonia/resource/JAMSObservation/BurningShamrock9683/2_0_2_2_0_11@0.0>,
+        <http://w3id.org/polifonia/resource/JAMSObservation/BurningShamrock9683/2_2_0_11_9_2@0.0>,
+        <http://w3id.org/polifonia/resource/JAMSObservation/BurningShamrock9683/2_7_0_7_2_7@0.0>,
+        <http://w3id.org/polifonia/resource/JAMSObservation/BurningShamrock9683/2_7_7_0_9_5@0.0>,
+        <http://w3id.org/polifonia/resource/JAMSObservation/BurningShamrock9683/4.0_2.0_7.0_0.0_7.0_2.0@0.0>,
+        <http://w3id.org/polifonia/resource/JAMSObservation/BurningShamrock9683/4_9_2_0_2_2@0.0>,
+        <http://w3id.org/polifonia/resource/JAMSObservation/BurningShamrock9683/5_4_2_7_0_7@0.0>,
+        <http://w3id.org/polifonia/resource/JAMSObservation/BurningShamrock9683/5_4_9_2_0_2@0.0>,
+        <http://w3id.org/polifonia/resource/JAMSObservation/BurningShamrock9683/7.0_0.0_9.0_5.0_4.0_2.0@0.0>,
+        <http://w3id.org/polifonia/resource/JAMSObservation/BurningShamrock9683/7.0_7.0_0.0_9.0_5.0_4.0@0.0>,
+        <http://w3id.org/polifonia/resource/JAMSObservation/BurningShamrock9683/7_0_7_2_7_7@0.0>,
+        <http://w3id.org/polifonia/resource/JAMSObservation/BurningShamrock9683/7_0_9_5_4_9@0.0>,
+        <http://w3id.org/polifonia/resource/JAMSObservation/BurningShamrock9683/7_2_7_7_0_9@0.0>,
+        <http://w3id.org/polifonia/resource/JAMSObservation/BurningShamrock9683/9_2_0_2_2_0@0.0>,
+        <http://w3id.org/polifonia/resource/JAMSObservation/BurningShamrock9683/9_2_0_2_5_9@0.0>,
+        <http://w3id.org/polifonia/resource/JAMSObservation/BurningShamrock9683/9_5_4_2_7_0@0.0>,
+        <http://w3id.org/polifonia/resource/JAMSObservation/BurningShamrock9683/9_5_4_9_2_0@0.0> ;
+    jams:isJAMSAnnotationOf <http://w3id.org/polifonia/resource/MusicalComposition/e4768fd507e7a4a02f14bd3f61cc1a19309aeddd> .
+
+<http://w3id.org/polifonia/resource/Score/song_local_id> jams:hasJAMSAnnotation <http://w3id.org/polifonia/resource/MusicalComposition/e4768fd507e7a4a02f14bd3f61cc1a19309aeddd> .
+
+<http://w3id.org/polifonia/resource/JAMSFile/BurningShamrock9683.jams> a jams:JAMSFile ;
+    jams:identifiers [ ] ;
+    jams:jamsVersion "0.3.4" ;
+    jams:release "" ;
+    prov:wasDerivedFrom "The Session" ;
+    prov:wasMemberOf <https://github.com/ashahidkhattak/thesession> .
+
+<http://w3id.org/polifonia/resource/JAMSObservation/BurningShamrock9683/0_11_9_2_0_2@0.0> a jams:JAMSObservation,
+        jams:JAMSScoreObservation,
+        jams:ScorePatternOccurrence ;
+    rdfs:label [ ] ;
+    jams:hasDuration "0.0"^^xsd:float ;
+    jams:hasFrequency "1"^^xsd:int ;
+    jams:hasPatternType "pitch-class-values" ;
+    jams:ofPattern <http://w3id.org/polifonia/resource/pattern/0_11_9_2_0_2> .
+
+<http://w3id.org/polifonia/resource/JAMSObservation/BurningShamrock9683/0_2_2_0_11_9@0.0> a jams:JAMSObservation,
+        jams:JAMSScoreObservation,
+        jams:ScorePatternOccurrence ;
+    rdfs:label [ ] ;
+    jams:hasDuration "0.0"^^xsd:float ;
+    jams:hasFrequency "1"^^xsd:int ;
+    jams:hasPatternType "pitch-class-values" ;
+    jams:ofPattern <http://w3id.org/polifonia/resource/pattern/0_2_2_0_11_9> .
+
+<http://w3id.org/polifonia/resource/JAMSObservation/BurningShamrock9683/0_7_2_7_7_0@0.0> a jams:JAMSObservation,
+        jams:JAMSScoreObservation,
+        jams:ScorePatternOccurrence ;
+    rdfs:label [ ] ;
+    jams:hasDuration "0.0"^^xsd:float ;
+    jams:hasFrequency "2"^^xsd:int ;
+    jams:hasPatternType "pitch-class-values" ;
+    jams:ofPattern <http://w3id.org/polifonia/resource/pattern/0_7_2_7_7_0> .
+
+<http://w3id.org/polifonia/resource/JAMSObservation/BurningShamrock9683/0_9_5_4_2_7@0.0> a jams:JAMSObservation,
+        jams:JAMSScoreObservation,
+        jams:ScorePatternOccurrence ;
+    rdfs:label [ ] ;
+    jams:hasDuration "0.0"^^xsd:float ;
+    jams:hasFrequency "1"^^xsd:int ;
+    jams:hasPatternType "pitch-class-values" ;
+    jams:ofPattern <http://w3id.org/polifonia/resource/pattern/0_9_5_4_2_7> .
+
+<http://w3id.org/polifonia/resource/JAMSObservation/BurningShamrock9683/0_9_5_4_9_2@0.0> a jams:JAMSObservation,
+        jams:JAMSScoreObservation,
+        jams:ScorePatternOccurrence ;
+    rdfs:label [ ] ;
+    jams:hasDuration "0.0"^^xsd:float ;
+    jams:hasFrequency "1"^^xsd:int ;
+    jams:hasPatternType "pitch-class-values" ;
+    jams:ofPattern <http://w3id.org/polifonia/resource/pattern/0_9_5_4_9_2> .
+
+<http://w3id.org/polifonia/resource/JAMSObservation/BurningShamrock9683/2_0_11_9_2_0@0.0> a jams:JAMSObservation,
+        jams:JAMSScoreObservation,
+        jams:ScorePatternOccurrence ;
+    rdfs:label [ ] ;
+    jams:hasDuration "0.0"^^xsd:float ;
+    jams:hasFrequency "1"^^xsd:int ;
+    jams:hasPatternType "pitch-class-values" ;
+    jams:ofPattern <http://w3id.org/polifonia/resource/pattern/2_0_11_9_2_0> .
+
+<http://w3id.org/polifonia/resource/JAMSObservation/BurningShamrock9683/2_0_2_2_0_11@0.0> a jams:JAMSObservation,
+        jams:JAMSScoreObservation,
+        jams:ScorePatternOccurrence ;
+    rdfs:label [ ] ;
+    jams:hasDuration "0.0"^^xsd:float ;
+    jams:hasFrequency "1"^^xsd:int ;
+    jams:hasPatternType "pitch-class-values" ;
+    jams:ofPattern <http://w3id.org/polifonia/resource/pattern/2_0_2_2_0_11> .
+
+<http://w3id.org/polifonia/resource/JAMSObservation/BurningShamrock9683/2_2_0_11_9_2@0.0> a jams:JAMSObservation,
+        jams:JAMSScoreObservation,
+        jams:ScorePatternOccurrence ;
+    rdfs:label [ ] ;
+    jams:hasDuration "0.0"^^xsd:float ;
+    jams:hasFrequency "1"^^xsd:int ;
+    jams:hasPatternType "pitch-class-values" ;
+    jams:ofPattern <http://w3id.org/polifonia/resource/pattern/2_2_0_11_9_2> .
+
+<http://w3id.org/polifonia/resource/JAMSObservation/BurningShamrock9683/2_7_0_7_2_7@0.0> a jams:JAMSObservation,
+        jams:JAMSScoreObservation,
+        jams:ScorePatternOccurrence ;
+    rdfs:label [ ] ;
+    jams:hasDuration "0.0"^^xsd:float ;
+    jams:hasFrequency "2"^^xsd:int ;
+    jams:hasPatternType "pitch-class-values" ;
+    jams:ofPattern <http://w3id.org/polifonia/resource/pattern/2_7_0_7_2_7> .
+
+<http://w3id.org/polifonia/resource/JAMSObservation/BurningShamrock9683/2_7_7_0_9_5@0.0> a jams:JAMSObservation,
+        jams:JAMSScoreObservation,
+        jams:ScorePatternOccurrence ;
+    rdfs:label [ ] ;
+    jams:hasDuration "0.0"^^xsd:float ;
+    jams:hasFrequency "2"^^xsd:int ;
+    jams:hasPatternType "pitch-class-values" ;
+    jams:ofPattern <http://w3id.org/polifonia/resource/pattern/2_7_7_0_9_5> .
+
+<http://w3id.org/polifonia/resource/JAMSObservation/BurningShamrock9683/4.0_2.0_7.0_0.0_7.0_2.0@0.0> a jams:JAMSObservation,
+        jams:JAMSScoreObservation,
+        jams:ScorePatternOccurrence ;
+    rdfs:label [ ] ;
+    jams:hasDuration "0.0"^^xsd:float ;
+    jams:hasFrequency "1"^^xsd:int ;
+    jams:hasPatternType "pitch-class-values" ;
+    jams:ofPattern <http://w3id.org/polifonia/resource/pattern/4.0_2.0_7.0_0.0_7.0_2.0> .
+
+<http://w3id.org/polifonia/resource/JAMSObservation/BurningShamrock9683/4_9_2_0_2_2@0.0> a jams:JAMSObservation,
+        jams:JAMSScoreObservation,
+        jams:ScorePatternOccurrence ;
+    rdfs:label [ ] ;
+    jams:hasDuration "0.0"^^xsd:float ;
+    jams:hasFrequency "1"^^xsd:int ;
+    jams:hasPatternType "pitch-class-values" ;
+    jams:ofPattern <http://w3id.org/polifonia/resource/pattern/4_9_2_0_2_2> .
+
+<http://w3id.org/polifonia/resource/JAMSObservation/BurningShamrock9683/5_4_2_7_0_7@0.0> a jams:JAMSObservation,
+        jams:JAMSScoreObservation,
+        jams:ScorePatternOccurrence ;
+    rdfs:label [ ] ;
+    jams:hasDuration "0.0"^^xsd:float ;
+    jams:hasFrequency "1"^^xsd:int ;
+    jams:hasPatternType "pitch-class-values" ;
+    jams:ofPattern <http://w3id.org/polifonia/resource/pattern/5_4_2_7_0_7> .
+
+<http://w3id.org/polifonia/resource/JAMSObservation/BurningShamrock9683/5_4_9_2_0_2@0.0> a jams:JAMSObservation,
+        jams:JAMSScoreObservation,
+        jams:ScorePatternOccurrence ;
+    rdfs:label [ ] ;
+    jams:hasDuration "0.0"^^xsd:float ;
+    jams:hasFrequency "1"^^xsd:int ;
+    jams:hasPatternType "pitch-class-values" ;
+    jams:ofPattern <http://w3id.org/polifonia/resource/pattern/5_4_9_2_0_2> .
+
+<http://w3id.org/polifonia/resource/JAMSObservation/BurningShamrock9683/7.0_0.0_9.0_5.0_4.0_2.0@0.0> a jams:JAMSObservation,
+        jams:JAMSScoreObservation,
+        jams:ScorePatternOccurrence ;
+    rdfs:label [ ] ;
+    jams:hasDuration "0.0"^^xsd:float ;
+    jams:hasFrequency "1"^^xsd:int ;
+    jams:hasPatternType "pitch-class-values" ;
+    jams:ofPattern <http://w3id.org/polifonia/resource/pattern/7.0_0.0_9.0_5.0_4.0_2.0> .
+
+<http://w3id.org/polifonia/resource/JAMSObservation/BurningShamrock9683/7.0_7.0_0.0_9.0_5.0_4.0@0.0> a jams:JAMSObservation,
+        jams:JAMSScoreObservation,
+        jams:ScorePatternOccurrence ;
+    rdfs:label [ ] ;
+    jams:hasDuration "0.0"^^xsd:float ;
+    jams:hasFrequency "2"^^xsd:int ;
+    jams:hasPatternType "pitch-class-values" ;
+    jams:ofPattern <http://w3id.org/polifonia/resource/pattern/7.0_7.0_0.0_9.0_5.0_4.0> .
+
+<http://w3id.org/polifonia/resource/JAMSObservation/BurningShamrock9683/7_0_7_2_7_7@0.0> a jams:JAMSObservation,
+        jams:JAMSScoreObservation,
+        jams:ScorePatternOccurrence ;
+    rdfs:label [ ] ;
+    jams:hasDuration "0.0"^^xsd:float ;
+    jams:hasFrequency "2"^^xsd:int ;
+    jams:hasPatternType "pitch-class-values" ;
+    jams:ofPattern <http://w3id.org/polifonia/resource/pattern/7_0_7_2_7_7> .
+
+<http://w3id.org/polifonia/resource/JAMSObservation/BurningShamrock9683/7_0_9_5_4_9@0.0> a jams:JAMSObservation,
+        jams:JAMSScoreObservation,
+        jams:ScorePatternOccurrence ;
+    rdfs:label [ ] ;
+    jams:hasDuration "0.0"^^xsd:float ;
+    jams:hasFrequency "1"^^xsd:int ;
+    jams:hasPatternType "pitch-class-values" ;
+    jams:ofPattern <http://w3id.org/polifonia/resource/pattern/7_0_9_5_4_9> .
+
+<http://w3id.org/polifonia/resource/JAMSObservation/BurningShamrock9683/7_2_7_7_0_9@0.0> a jams:JAMSObservation,
+        jams:JAMSScoreObservation,
+        jams:ScorePatternOccurrence ;
+    rdfs:label [ ] ;
+    jams:hasDuration "0.0"^^xsd:float ;
+    jams:hasFrequency "2"^^xsd:int ;
+    jams:hasPatternType "pitch-class-values" ;
+    jams:ofPattern <http://w3id.org/polifonia/resource/pattern/7_2_7_7_0_9> .
+
+<http://w3id.org/polifonia/resource/JAMSObservation/BurningShamrock9683/9_2_0_2_2_0@0.0> a jams:JAMSObservation,
+        jams:JAMSScoreObservation,
+        jams:ScorePatternOccurrence ;
+    rdfs:label [ ] ;
+    jams:hasDuration "0.0"^^xsd:float ;
+    jams:hasFrequency "1"^^xsd:int ;
+    jams:hasPatternType "pitch-class-values" ;
+    jams:ofPattern <http://w3id.org/polifonia/resource/pattern/9_2_0_2_2_0> .
+
+<http://w3id.org/polifonia/resource/JAMSObservation/BurningShamrock9683/9_2_0_2_5_9@0.0> a jams:JAMSObservation,
+        jams:JAMSScoreObservation,
+        jams:ScorePatternOccurrence ;
+    rdfs:label [ ] ;
+    jams:hasDuration "0.0"^^xsd:float ;
+    jams:hasFrequency "1"^^xsd:int ;
+    jams:hasPatternType "pitch-class-values" ;
+    jams:ofPattern <http://w3id.org/polifonia/resource/pattern/9_2_0_2_5_9> .
+
+<http://w3id.org/polifonia/resource/JAMSObservation/BurningShamrock9683/9_5_4_2_7_0@0.0> a jams:JAMSObservation,
+        jams:JAMSScoreObservation,
+        jams:ScorePatternOccurrence ;
+    rdfs:label [ ] ;
+    jams:hasDuration "0.0"^^xsd:float ;
+    jams:hasFrequency "1"^^xsd:int ;
+    jams:hasPatternType "pitch-class-values" ;
+    jams:ofPattern <http://w3id.org/polifonia/resource/pattern/9_5_4_2_7_0> .
+
+<http://w3id.org/polifonia/resource/JAMSObservation/BurningShamrock9683/9_5_4_9_2_0@0.0> a jams:JAMSObservation,
+        jams:JAMSScoreObservation,
+        jams:ScorePatternOccurrence ;
+    rdfs:label [ ] ;
+    jams:hasDuration "0.0"^^xsd:float ;
+    jams:hasFrequency "1"^^xsd:int ;
+    jams:hasPatternType "pitch-class-values" ;
+    jams:ofPattern <http://w3id.org/polifonia/resource/pattern/9_5_4_9_2_0> .
+
+<http://w3id.org/polifonia/resource/MusicalComposition/e4768fd507e7a4a02f14bd3f61cc1a19309aeddd> a mc:MusicalComposition ;
+    rdfs:label "BurningShamrock9683" ;
+    mc:title "BurningShamrock9683" ;
+    prov:wasDerivedFrom <http://w3id.org/polifonia/resource/JAMSFile/BurningShamrock9683.jams> .
+

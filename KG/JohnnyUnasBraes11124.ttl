@@ -1,0 +1,311 @@
+@prefix core: <http://w3id.org/polifonia/ontology/core/> .
+@prefix jams: <http://w3id.org/polifonia/ontology/jams/> .
+@prefix mc: <http://w3id.org/polifonia/ontology/musical-composition/> .
+@prefix pon-resource: <http://w3id.org/polifonia/resource/> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+pon-resource:Agent%2Fannotator_local_id a core:Agent ;
+    rdfs:label "FONN-Tool" ;
+    jams:hasAnnotatorType pon-resource:annotator-program ;
+    jams:hasName "FONN-Tool" .
+
+<http://w3id.org/polifonia/resource/JAMSAnnotation/37058425f7c1bc0cf4c7a110e11187c46b303a38> a jams:JAMSAnnotation,
+        jams:JAMSScoreAnnotation ;
+    jams:includesObservation <http://w3id.org/polifonia/resource/JAMSObservation/JohnnyUnasBraes11124/0_0_7_4_0_5@0.0>,
+        <http://w3id.org/polifonia/resource/JAMSObservation/JohnnyUnasBraes11124/0_0_9_2_7_4@0.0>,
+        <http://w3id.org/polifonia/resource/JAMSObservation/JohnnyUnasBraes11124/0_5_2_11_7_0@0.0>,
+        <http://w3id.org/polifonia/resource/JAMSObservation/JohnnyUnasBraes11124/0_5_5_11_5_5@0.0>,
+        <http://w3id.org/polifonia/resource/JAMSObservation/JohnnyUnasBraes11124/0_7_4_0_5_2@0.0>,
+        <http://w3id.org/polifonia/resource/JAMSObservation/JohnnyUnasBraes11124/0_9_2_7_4_5@0.0>,
+        <http://w3id.org/polifonia/resource/JAMSObservation/JohnnyUnasBraes11124/11_5_0_0_9_2@0.0>,
+        <http://w3id.org/polifonia/resource/JAMSObservation/JohnnyUnasBraes11124/11_7_0_9_2_7@0.0>,
+        <http://w3id.org/polifonia/resource/JAMSObservation/JohnnyUnasBraes11124/2_11_7_0_9_2@0.0>,
+        <http://w3id.org/polifonia/resource/JAMSObservation/JohnnyUnasBraes11124/2_7_4_5_5_0@0.0>,
+        <http://w3id.org/polifonia/resource/JAMSObservation/JohnnyUnasBraes11124/4_0_5_2_11_7@0.0>,
+        <http://w3id.org/polifonia/resource/JAMSObservation/JohnnyUnasBraes11124/4_0_7_4_0_5@0.0>,
+        <http://w3id.org/polifonia/resource/JAMSObservation/JohnnyUnasBraes11124/4_5_5_0_0_7@0.0>,
+        <http://w3id.org/polifonia/resource/JAMSObservation/JohnnyUnasBraes11124/4_5_5_0_5_5@0.0>,
+        <http://w3id.org/polifonia/resource/JAMSObservation/JohnnyUnasBraes11124/5_0_0_7_4_0@0.0>,
+        <http://w3id.org/polifonia/resource/JAMSObservation/JohnnyUnasBraes11124/5_0_0_9_2_7@0.0>,
+        <http://w3id.org/polifonia/resource/JAMSObservation/JohnnyUnasBraes11124/5_0_5_5_11_5@0.0>,
+        <http://w3id.org/polifonia/resource/JAMSObservation/JohnnyUnasBraes11124/5_11_5_0_0_9@0.0>,
+        <http://w3id.org/polifonia/resource/JAMSObservation/JohnnyUnasBraes11124/5_11_5_5_11_5@0.0>,
+        <http://w3id.org/polifonia/resource/JAMSObservation/JohnnyUnasBraes11124/5_2_11_7_0_9@0.0>,
+        <http://w3id.org/polifonia/resource/JAMSObservation/JohnnyUnasBraes11124/5_5_0_0_7_4@0.0>,
+        <http://w3id.org/polifonia/resource/JAMSObservation/JohnnyUnasBraes11124/5_5_0_5_5_11@0.0>,
+        <http://w3id.org/polifonia/resource/JAMSObservation/JohnnyUnasBraes11124/5_5_11_5_0_0@0.0>,
+        <http://w3id.org/polifonia/resource/JAMSObservation/JohnnyUnasBraes11124/5_5_11_5_5_11@0.0>,
+        <http://w3id.org/polifonia/resource/JAMSObservation/JohnnyUnasBraes11124/7_0_9_2_7_4@0.0>,
+        <http://w3id.org/polifonia/resource/JAMSObservation/JohnnyUnasBraes11124/7_4_0_5_2_11@0.0>,
+        <http://w3id.org/polifonia/resource/JAMSObservation/JohnnyUnasBraes11124/7_4_5_5_0_0@0.0>,
+        <http://w3id.org/polifonia/resource/JAMSObservation/JohnnyUnasBraes11124/9_2_7_4_5_5@0.0> ;
+    jams:isJAMSAnnotationOf <http://w3id.org/polifonia/resource/MusicalComposition/37058425f7c1bc0cf4c7a110e11187c46b303a38> .
+
+<http://w3id.org/polifonia/resource/Score/song_local_id> jams:hasJAMSAnnotation <http://w3id.org/polifonia/resource/MusicalComposition/37058425f7c1bc0cf4c7a110e11187c46b303a38> .
+
+<http://w3id.org/polifonia/resource/JAMSFile/JohnnyUnasBraes11124.jams> a jams:JAMSFile ;
+    jams:identifiers [ ] ;
+    jams:jamsVersion "0.3.4" ;
+    jams:release "" ;
+    prov:wasDerivedFrom "The Session" ;
+    prov:wasMemberOf <https://github.com/ashahidkhattak/thesession> .
+
+<http://w3id.org/polifonia/resource/JAMSObservation/JohnnyUnasBraes11124/0_0_7_4_0_5@0.0> a jams:JAMSObservation,
+        jams:JAMSScoreObservation,
+        jams:ScorePatternOccurrence ;
+    rdfs:label [ ] ;
+    jams:hasDuration "0.0"^^xsd:float ;
+    jams:hasFrequency "1"^^xsd:int ;
+    jams:hasPatternType "pitch-class-values" ;
+    jams:ofPattern <http://w3id.org/polifonia/resource/pattern/0_0_7_4_0_5> .
+
+<http://w3id.org/polifonia/resource/JAMSObservation/JohnnyUnasBraes11124/0_0_9_2_7_4@0.0> a jams:JAMSObservation,
+        jams:JAMSScoreObservation,
+        jams:ScorePatternOccurrence ;
+    rdfs:label [ ] ;
+    jams:hasDuration "0.0"^^xsd:float ;
+    jams:hasFrequency "2"^^xsd:int ;
+    jams:hasPatternType "pitch-class-values" ;
+    jams:ofPattern <http://w3id.org/polifonia/resource/pattern/0_0_9_2_7_4> .
+
+<http://w3id.org/polifonia/resource/JAMSObservation/JohnnyUnasBraes11124/0_5_2_11_7_0@0.0> a jams:JAMSObservation,
+        jams:JAMSScoreObservation,
+        jams:ScorePatternOccurrence ;
+    rdfs:label [ ] ;
+    jams:hasDuration "0.0"^^xsd:float ;
+    jams:hasFrequency "2"^^xsd:int ;
+    jams:hasPatternType "pitch-class-values" ;
+    jams:ofPattern <http://w3id.org/polifonia/resource/pattern/0_5_2_11_7_0> .
+
+<http://w3id.org/polifonia/resource/JAMSObservation/JohnnyUnasBraes11124/0_5_5_11_5_5@0.0> a jams:JAMSObservation,
+        jams:JAMSScoreObservation,
+        jams:ScorePatternOccurrence ;
+    rdfs:label [ ] ;
+    jams:hasDuration "0.0"^^xsd:float ;
+    jams:hasFrequency "2"^^xsd:int ;
+    jams:hasPatternType "pitch-class-values" ;
+    jams:ofPattern <http://w3id.org/polifonia/resource/pattern/0_5_5_11_5_5> .
+
+<http://w3id.org/polifonia/resource/JAMSObservation/JohnnyUnasBraes11124/0_7_4_0_5_2@0.0> a jams:JAMSObservation,
+        jams:JAMSScoreObservation,
+        jams:ScorePatternOccurrence ;
+    rdfs:label [ ] ;
+    jams:hasDuration "0.0"^^xsd:float ;
+    jams:hasFrequency "2"^^xsd:int ;
+    jams:hasPatternType "pitch-class-values" ;
+    jams:ofPattern <http://w3id.org/polifonia/resource/pattern/0_7_4_0_5_2> .
+
+<http://w3id.org/polifonia/resource/JAMSObservation/JohnnyUnasBraes11124/0_9_2_7_4_5@0.0> a jams:JAMSObservation,
+        jams:JAMSScoreObservation,
+        jams:ScorePatternOccurrence ;
+    rdfs:label [ ] ;
+    jams:hasDuration "0.0"^^xsd:float ;
+    jams:hasFrequency "4"^^xsd:int ;
+    jams:hasPatternType "pitch-class-values" ;
+    jams:ofPattern <http://w3id.org/polifonia/resource/pattern/0_9_2_7_4_5> .
+
+<http://w3id.org/polifonia/resource/JAMSObservation/JohnnyUnasBraes11124/11_5_0_0_9_2@0.0> a jams:JAMSObservation,
+        jams:JAMSScoreObservation,
+        jams:ScorePatternOccurrence ;
+    rdfs:label [ ] ;
+    jams:hasDuration "0.0"^^xsd:float ;
+    jams:hasFrequency "2"^^xsd:int ;
+    jams:hasPatternType "pitch-class-values" ;
+    jams:ofPattern <http://w3id.org/polifonia/resource/pattern/11_5_0_0_9_2> .
+
+<http://w3id.org/polifonia/resource/JAMSObservation/JohnnyUnasBraes11124/11_7_0_9_2_7@0.0> a jams:JAMSObservation,
+        jams:JAMSScoreObservation,
+        jams:ScorePatternOccurrence ;
+    rdfs:label [ ] ;
+    jams:hasDuration "0.0"^^xsd:float ;
+    jams:hasFrequency "2"^^xsd:int ;
+    jams:hasPatternType "pitch-class-values" ;
+    jams:ofPattern <http://w3id.org/polifonia/resource/pattern/11_7_0_9_2_7> .
+
+<http://w3id.org/polifonia/resource/JAMSObservation/JohnnyUnasBraes11124/2_11_7_0_9_2@0.0> a jams:JAMSObservation,
+        jams:JAMSScoreObservation,
+        jams:ScorePatternOccurrence ;
+    rdfs:label [ ] ;
+    jams:hasDuration "0.0"^^xsd:float ;
+    jams:hasFrequency "2"^^xsd:int ;
+    jams:hasPatternType "pitch-class-values" ;
+    jams:ofPattern <http://w3id.org/polifonia/resource/pattern/2_11_7_0_9_2> .
+
+<http://w3id.org/polifonia/resource/JAMSObservation/JohnnyUnasBraes11124/2_7_4_5_5_0@0.0> a jams:JAMSObservation,
+        jams:JAMSScoreObservation,
+        jams:ScorePatternOccurrence ;
+    rdfs:label [ ] ;
+    jams:hasDuration "0.0"^^xsd:float ;
+    jams:hasFrequency "4"^^xsd:int ;
+    jams:hasPatternType "pitch-class-values" ;
+    jams:ofPattern <http://w3id.org/polifonia/resource/pattern/2_7_4_5_5_0> .
+
+<http://w3id.org/polifonia/resource/JAMSObservation/JohnnyUnasBraes11124/4_0_5_2_11_7@0.0> a jams:JAMSObservation,
+        jams:JAMSScoreObservation,
+        jams:ScorePatternOccurrence ;
+    rdfs:label [ ] ;
+    jams:hasDuration "0.0"^^xsd:float ;
+    jams:hasFrequency "2"^^xsd:int ;
+    jams:hasPatternType "pitch-class-values" ;
+    jams:ofPattern <http://w3id.org/polifonia/resource/pattern/4_0_5_2_11_7> .
+
+<http://w3id.org/polifonia/resource/JAMSObservation/JohnnyUnasBraes11124/4_0_7_4_0_5@0.0> a jams:JAMSObservation,
+        jams:JAMSScoreObservation,
+        jams:ScorePatternOccurrence ;
+    rdfs:label [ ] ;
+    jams:hasDuration "0.0"^^xsd:float ;
+    jams:hasFrequency "1"^^xsd:int ;
+    jams:hasPatternType "pitch-class-values" ;
+    jams:ofPattern <http://w3id.org/polifonia/resource/pattern/4_0_7_4_0_5> .
+
+<http://w3id.org/polifonia/resource/JAMSObservation/JohnnyUnasBraes11124/4_5_5_0_0_7@0.0> a jams:JAMSObservation,
+        jams:JAMSScoreObservation,
+        jams:ScorePatternOccurrence ;
+    rdfs:label [ ] ;
+    jams:hasDuration "0.0"^^xsd:float ;
+    jams:hasFrequency "1"^^xsd:int ;
+    jams:hasPatternType "pitch-class-values" ;
+    jams:ofPattern <http://w3id.org/polifonia/resource/pattern/4_5_5_0_0_7> .
+
+<http://w3id.org/polifonia/resource/JAMSObservation/JohnnyUnasBraes11124/4_5_5_0_5_5@0.0> a jams:JAMSObservation,
+        jams:JAMSScoreObservation,
+        jams:ScorePatternOccurrence ;
+    rdfs:label [ ] ;
+    jams:hasDuration "0.0"^^xsd:float ;
+    jams:hasFrequency "2"^^xsd:int ;
+    jams:hasPatternType "pitch-class-values" ;
+    jams:ofPattern <http://w3id.org/polifonia/resource/pattern/4_5_5_0_5_5> .
+
+<http://w3id.org/polifonia/resource/JAMSObservation/JohnnyUnasBraes11124/5_0_0_7_4_0@0.0> a jams:JAMSObservation,
+        jams:JAMSScoreObservation,
+        jams:ScorePatternOccurrence ;
+    rdfs:label [ ] ;
+    jams:hasDuration "0.0"^^xsd:float ;
+    jams:hasFrequency "1"^^xsd:int ;
+    jams:hasPatternType "pitch-class-values" ;
+    jams:ofPattern <http://w3id.org/polifonia/resource/pattern/5_0_0_7_4_0> .
+
+<http://w3id.org/polifonia/resource/JAMSObservation/JohnnyUnasBraes11124/5_0_0_9_2_7@0.0> a jams:JAMSObservation,
+        jams:JAMSScoreObservation,
+        jams:ScorePatternOccurrence ;
+    rdfs:label [ ] ;
+    jams:hasDuration "0.0"^^xsd:float ;
+    jams:hasFrequency "2"^^xsd:int ;
+    jams:hasPatternType "pitch-class-values" ;
+    jams:ofPattern <http://w3id.org/polifonia/resource/pattern/5_0_0_9_2_7> .
+
+<http://w3id.org/polifonia/resource/JAMSObservation/JohnnyUnasBraes11124/5_0_5_5_11_5@0.0> a jams:JAMSObservation,
+        jams:JAMSScoreObservation,
+        jams:ScorePatternOccurrence ;
+    rdfs:label [ ] ;
+    jams:hasDuration "0.0"^^xsd:float ;
+    jams:hasFrequency "2"^^xsd:int ;
+    jams:hasPatternType "pitch-class-values" ;
+    jams:ofPattern <http://w3id.org/polifonia/resource/pattern/5_0_5_5_11_5> .
+
+<http://w3id.org/polifonia/resource/JAMSObservation/JohnnyUnasBraes11124/5_11_5_0_0_9@0.0> a jams:JAMSObservation,
+        jams:JAMSScoreObservation,
+        jams:ScorePatternOccurrence ;
+    rdfs:label [ ] ;
+    jams:hasDuration "0.0"^^xsd:float ;
+    jams:hasFrequency "2"^^xsd:int ;
+    jams:hasPatternType "pitch-class-values" ;
+    jams:ofPattern <http://w3id.org/polifonia/resource/pattern/5_11_5_0_0_9> .
+
+<http://w3id.org/polifonia/resource/JAMSObservation/JohnnyUnasBraes11124/5_11_5_5_11_5@0.0> a jams:JAMSObservation,
+        jams:JAMSScoreObservation,
+        jams:ScorePatternOccurrence ;
+    rdfs:label [ ] ;
+    jams:hasDuration "0.0"^^xsd:float ;
+    jams:hasFrequency "2"^^xsd:int ;
+    jams:hasPatternType "pitch-class-values" ;
+    jams:ofPattern <http://w3id.org/polifonia/resource/pattern/5_11_5_5_11_5> .
+
+<http://w3id.org/polifonia/resource/JAMSObservation/JohnnyUnasBraes11124/5_2_11_7_0_9@0.0> a jams:JAMSObservation,
+        jams:JAMSScoreObservation,
+        jams:ScorePatternOccurrence ;
+    rdfs:label [ ] ;
+    jams:hasDuration "0.0"^^xsd:float ;
+    jams:hasFrequency "2"^^xsd:int ;
+    jams:hasPatternType "pitch-class-values" ;
+    jams:ofPattern <http://w3id.org/polifonia/resource/pattern/5_2_11_7_0_9> .
+
+<http://w3id.org/polifonia/resource/JAMSObservation/JohnnyUnasBraes11124/5_5_0_0_7_4@0.0> a jams:JAMSObservation,
+        jams:JAMSScoreObservation,
+        jams:ScorePatternOccurrence ;
+    rdfs:label [ ] ;
+    jams:hasDuration "0.0"^^xsd:float ;
+    jams:hasFrequency "1"^^xsd:int ;
+    jams:hasPatternType "pitch-class-values" ;
+    jams:ofPattern <http://w3id.org/polifonia/resource/pattern/5_5_0_0_7_4> .
+
+<http://w3id.org/polifonia/resource/JAMSObservation/JohnnyUnasBraes11124/5_5_0_5_5_11@0.0> a jams:JAMSObservation,
+        jams:JAMSScoreObservation,
+        jams:ScorePatternOccurrence ;
+    rdfs:label [ ] ;
+    jams:hasDuration "0.0"^^xsd:float ;
+    jams:hasFrequency "2"^^xsd:int ;
+    jams:hasPatternType "pitch-class-values" ;
+    jams:ofPattern <http://w3id.org/polifonia/resource/pattern/5_5_0_5_5_11> .
+
+<http://w3id.org/polifonia/resource/JAMSObservation/JohnnyUnasBraes11124/5_5_11_5_0_0@0.0> a jams:JAMSObservation,
+        jams:JAMSScoreObservation,
+        jams:ScorePatternOccurrence ;
+    rdfs:label [ ] ;
+    jams:hasDuration "0.0"^^xsd:float ;
+    jams:hasFrequency "2"^^xsd:int ;
+    jams:hasPatternType "pitch-class-values" ;
+    jams:ofPattern <http://w3id.org/polifonia/resource/pattern/5_5_11_5_0_0> .
+
+<http://w3id.org/polifonia/resource/JAMSObservation/JohnnyUnasBraes11124/5_5_11_5_5_11@0.0> a jams:JAMSObservation,
+        jams:JAMSScoreObservation,
+        jams:ScorePatternOccurrence ;
+    rdfs:label [ ] ;
+    jams:hasDuration "0.0"^^xsd:float ;
+    jams:hasFrequency "2"^^xsd:int ;
+    jams:hasPatternType "pitch-class-values" ;
+    jams:ofPattern <http://w3id.org/polifonia/resource/pattern/5_5_11_5_5_11> .
+
+<http://w3id.org/polifonia/resource/JAMSObservation/JohnnyUnasBraes11124/7_0_9_2_7_4@0.0> a jams:JAMSObservation,
+        jams:JAMSScoreObservation,
+        jams:ScorePatternOccurrence ;
+    rdfs:label [ ] ;
+    jams:hasDuration "0.0"^^xsd:float ;
+    jams:hasFrequency "2"^^xsd:int ;
+    jams:hasPatternType "pitch-class-values" ;
+    jams:ofPattern <http://w3id.org/polifonia/resource/pattern/7_0_9_2_7_4> .
+
+<http://w3id.org/polifonia/resource/JAMSObservation/JohnnyUnasBraes11124/7_4_0_5_2_11@0.0> a jams:JAMSObservation,
+        jams:JAMSScoreObservation,
+        jams:ScorePatternOccurrence ;
+    rdfs:label [ ] ;
+    jams:hasDuration "0.0"^^xsd:float ;
+    jams:hasFrequency "2"^^xsd:int ;
+    jams:hasPatternType "pitch-class-values" ;
+    jams:ofPattern <http://w3id.org/polifonia/resource/pattern/7_4_0_5_2_11> .
+
+<http://w3id.org/polifonia/resource/JAMSObservation/JohnnyUnasBraes11124/7_4_5_5_0_0@0.0> a jams:JAMSObservation,
+        jams:JAMSScoreObservation,
+        jams:ScorePatternOccurrence ;
+    rdfs:label [ ] ;
+    jams:hasDuration "0.0"^^xsd:float ;
+    jams:hasFrequency "1"^^xsd:int ;
+    jams:hasPatternType "pitch-class-values" ;
+    jams:ofPattern <http://w3id.org/polifonia/resource/pattern/7_4_5_5_0_0> .
+
+<http://w3id.org/polifonia/resource/JAMSObservation/JohnnyUnasBraes11124/9_2_7_4_5_5@0.0> a jams:JAMSObservation,
+        jams:JAMSScoreObservation,
+        jams:ScorePatternOccurrence ;
+    rdfs:label [ ] ;
+    jams:hasDuration "0.0"^^xsd:float ;
+    jams:hasFrequency "4"^^xsd:int ;
+    jams:hasPatternType "pitch-class-values" ;
+    jams:ofPattern <http://w3id.org/polifonia/resource/pattern/9_2_7_4_5_5> .
+
+<http://w3id.org/polifonia/resource/MusicalComposition/37058425f7c1bc0cf4c7a110e11187c46b303a38> a mc:MusicalComposition ;
+    rdfs:label "JohnnyUnasBraes11124" ;
+    mc:title "JohnnyUnasBraes11124" ;
+    prov:wasDerivedFrom <http://w3id.org/polifonia/resource/JAMSFile/JohnnyUnasBraes11124.jams> .
+

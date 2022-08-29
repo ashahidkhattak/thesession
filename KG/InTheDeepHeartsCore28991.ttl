@@ -1,0 +1,121 @@
+@prefix core: <http://w3id.org/polifonia/ontology/core/> .
+@prefix jams: <http://w3id.org/polifonia/ontology/jams/> .
+@prefix mc: <http://w3id.org/polifonia/ontology/musical-composition/> .
+@prefix pon-resource: <http://w3id.org/polifonia/resource/> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+pon-resource:Agent%2Fannotator_local_id a core:Agent ;
+    rdfs:label "FONN-Tool" ;
+    jams:hasAnnotatorType pon-resource:annotator-program ;
+    jams:hasName "FONN-Tool" .
+
+<http://w3id.org/polifonia/resource/JAMSAnnotation/b65b57c3d9214f36f43bdd6169c4e4919415bddf> a jams:JAMSAnnotation,
+        jams:JAMSScoreAnnotation ;
+    jams:includesObservation <http://w3id.org/polifonia/resource/JAMSObservation/InTheDeepHeartsCore28991/0_5_3_5_0_0@0.0>,
+        <http://w3id.org/polifonia/resource/JAMSObservation/InTheDeepHeartsCore28991/10_8_3_3_5_8@0.0>,
+        <http://w3id.org/polifonia/resource/JAMSObservation/InTheDeepHeartsCore28991/3_0_5_3_5_0@0.0>,
+        <http://w3id.org/polifonia/resource/JAMSObservation/InTheDeepHeartsCore28991/3_3_5_8_5_8@0.0>,
+        <http://w3id.org/polifonia/resource/JAMSObservation/InTheDeepHeartsCore28991/3_5_0_0_5_5@0.0>,
+        <http://w3id.org/polifonia/resource/JAMSObservation/InTheDeepHeartsCore28991/5_0_0_10_8_3@0.0>,
+        <http://w3id.org/polifonia/resource/JAMSObservation/InTheDeepHeartsCore28991/5_5_3_0_5_3@0.0>,
+        <http://w3id.org/polifonia/resource/JAMSObservation/InTheDeepHeartsCore28991/5_8_7_8_5_5@0.0>,
+        <http://w3id.org/polifonia/resource/JAMSObservation/InTheDeepHeartsCore28991/8_5_8_7_8_5@0.0> ;
+    jams:isJAMSAnnotationOf <http://w3id.org/polifonia/resource/MusicalComposition/b65b57c3d9214f36f43bdd6169c4e4919415bddf> .
+
+<http://w3id.org/polifonia/resource/Score/song_local_id> jams:hasJAMSAnnotation <http://w3id.org/polifonia/resource/MusicalComposition/b65b57c3d9214f36f43bdd6169c4e4919415bddf> .
+
+<http://w3id.org/polifonia/resource/JAMSFile/InTheDeepHeartsCore28991.jams> a jams:JAMSFile ;
+    jams:identifiers [ ] ;
+    jams:jamsVersion "0.3.4" ;
+    jams:release "" ;
+    prov:wasDerivedFrom "The Session" ;
+    prov:wasMemberOf <https://github.com/ashahidkhattak/thesession> .
+
+<http://w3id.org/polifonia/resource/JAMSObservation/InTheDeepHeartsCore28991/0_5_3_5_0_0@0.0> a jams:JAMSObservation,
+        jams:JAMSScoreObservation,
+        jams:ScorePatternOccurrence ;
+    rdfs:label [ ] ;
+    jams:hasDuration "0.0"^^xsd:float ;
+    jams:hasFrequency "1"^^xsd:int ;
+    jams:hasPatternType "pitch-class-values" ;
+    jams:ofPattern <http://w3id.org/polifonia/resource/pattern/0_5_3_5_0_0> .
+
+<http://w3id.org/polifonia/resource/JAMSObservation/InTheDeepHeartsCore28991/10_8_3_3_5_8@0.0> a jams:JAMSObservation,
+        jams:JAMSScoreObservation,
+        jams:ScorePatternOccurrence ;
+    rdfs:label [ ] ;
+    jams:hasDuration "0.0"^^xsd:float ;
+    jams:hasFrequency "1"^^xsd:int ;
+    jams:hasPatternType "pitch-class-values" ;
+    jams:ofPattern <http://w3id.org/polifonia/resource/pattern/10_8_3_3_5_8> .
+
+<http://w3id.org/polifonia/resource/JAMSObservation/InTheDeepHeartsCore28991/3_0_5_3_5_0@0.0> a jams:JAMSObservation,
+        jams:JAMSScoreObservation,
+        jams:ScorePatternOccurrence ;
+    rdfs:label [ ] ;
+    jams:hasDuration "0.0"^^xsd:float ;
+    jams:hasFrequency "1"^^xsd:int ;
+    jams:hasPatternType "pitch-class-values" ;
+    jams:ofPattern <http://w3id.org/polifonia/resource/pattern/3_0_5_3_5_0> .
+
+<http://w3id.org/polifonia/resource/JAMSObservation/InTheDeepHeartsCore28991/3_3_5_8_5_8@0.0> a jams:JAMSObservation,
+        jams:JAMSScoreObservation,
+        jams:ScorePatternOccurrence ;
+    rdfs:label [ ] ;
+    jams:hasDuration "0.0"^^xsd:float ;
+    jams:hasFrequency "1"^^xsd:int ;
+    jams:hasPatternType "pitch-class-values" ;
+    jams:ofPattern <http://w3id.org/polifonia/resource/pattern/3_3_5_8_5_8> .
+
+<http://w3id.org/polifonia/resource/JAMSObservation/InTheDeepHeartsCore28991/3_5_0_0_5_5@0.0> a jams:JAMSObservation,
+        jams:JAMSScoreObservation,
+        jams:ScorePatternOccurrence ;
+    rdfs:label [ ] ;
+    jams:hasDuration "0.0"^^xsd:float ;
+    jams:hasFrequency "1"^^xsd:int ;
+    jams:hasPatternType "pitch-class-values" ;
+    jams:ofPattern <http://w3id.org/polifonia/resource/pattern/3_5_0_0_5_5> .
+
+<http://w3id.org/polifonia/resource/JAMSObservation/InTheDeepHeartsCore28991/5_0_0_10_8_3@0.0> a jams:JAMSObservation,
+        jams:JAMSScoreObservation,
+        jams:ScorePatternOccurrence ;
+    rdfs:label [ ] ;
+    jams:hasDuration "0.0"^^xsd:float ;
+    jams:hasFrequency "1"^^xsd:int ;
+    jams:hasPatternType "pitch-class-values" ;
+    jams:ofPattern <http://w3id.org/polifonia/resource/pattern/5_0_0_10_8_3> .
+
+<http://w3id.org/polifonia/resource/JAMSObservation/InTheDeepHeartsCore28991/5_5_3_0_5_3@0.0> a jams:JAMSObservation,
+        jams:JAMSScoreObservation,
+        jams:ScorePatternOccurrence ;
+    rdfs:label [ ] ;
+    jams:hasDuration "0.0"^^xsd:float ;
+    jams:hasFrequency "1"^^xsd:int ;
+    jams:hasPatternType "pitch-class-values" ;
+    jams:ofPattern <http://w3id.org/polifonia/resource/pattern/5_5_3_0_5_3> .
+
+<http://w3id.org/polifonia/resource/JAMSObservation/InTheDeepHeartsCore28991/5_8_7_8_5_5@0.0> a jams:JAMSObservation,
+        jams:JAMSScoreObservation,
+        jams:ScorePatternOccurrence ;
+    rdfs:label [ ] ;
+    jams:hasDuration "0.0"^^xsd:float ;
+    jams:hasFrequency "1"^^xsd:int ;
+    jams:hasPatternType "pitch-class-values" ;
+    jams:ofPattern <http://w3id.org/polifonia/resource/pattern/5_8_7_8_5_5> .
+
+<http://w3id.org/polifonia/resource/JAMSObservation/InTheDeepHeartsCore28991/8_5_8_7_8_5@0.0> a jams:JAMSObservation,
+        jams:JAMSScoreObservation,
+        jams:ScorePatternOccurrence ;
+    rdfs:label [ ] ;
+    jams:hasDuration "0.0"^^xsd:float ;
+    jams:hasFrequency "1"^^xsd:int ;
+    jams:hasPatternType "pitch-class-values" ;
+    jams:ofPattern <http://w3id.org/polifonia/resource/pattern/8_5_8_7_8_5> .
+
+<http://w3id.org/polifonia/resource/MusicalComposition/b65b57c3d9214f36f43bdd6169c4e4919415bddf> a mc:MusicalComposition ;
+    rdfs:label "InTheDeepHeartsCore28991" ;
+    mc:title "InTheDeepHeartsCore28991" ;
+    prov:wasDerivedFrom <http://w3id.org/polifonia/resource/JAMSFile/InTheDeepHeartsCore28991.jams> .
+

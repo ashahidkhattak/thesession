@@ -1,0 +1,401 @@
+@prefix core: <http://w3id.org/polifonia/ontology/core/> .
+@prefix jams: <http://w3id.org/polifonia/ontology/jams/> .
+@prefix mc: <http://w3id.org/polifonia/ontology/musical-composition/> .
+@prefix pon-resource: <http://w3id.org/polifonia/resource/> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+pon-resource:Agent%2Fannotator_local_id a core:Agent ;
+    rdfs:label "FONN-Tool" ;
+    jams:hasAnnotatorType pon-resource:annotator-program ;
+    jams:hasName "FONN-Tool" .
+
+<http://w3id.org/polifonia/resource/JAMSAnnotation/fada703b5a1bc04a9c79053eeb43f92f1166f273> a jams:JAMSAnnotation,
+        jams:JAMSScoreAnnotation ;
+    jams:includesObservation <http://w3id.org/polifonia/resource/JAMSObservation/79thsFarewellToGibraltar5318/11_2_2_4_4_4@0.0>,
+        <http://w3id.org/polifonia/resource/JAMSObservation/79thsFarewellToGibraltar5318/11_2_7_4_11_2@0.0>,
+        <http://w3id.org/polifonia/resource/JAMSObservation/79thsFarewellToGibraltar5318/11_2_7_4_11_4@0.0>,
+        <http://w3id.org/polifonia/resource/JAMSObservation/79thsFarewellToGibraltar5318/11_4_4_4_4_4@0.0>,
+        <http://w3id.org/polifonia/resource/JAMSObservation/79thsFarewellToGibraltar5318/11_7_4_7_4_7@0.0>,
+        <http://w3id.org/polifonia/resource/JAMSObservation/79thsFarewellToGibraltar5318/2_2_4_4_4_4@0.0>,
+        <http://w3id.org/polifonia/resource/JAMSObservation/79thsFarewellToGibraltar5318/2_4_4_4_4_4@0.0>,
+        <http://w3id.org/polifonia/resource/JAMSObservation/79thsFarewellToGibraltar5318/2_7_4_11_2_7@0.0>,
+        <http://w3id.org/polifonia/resource/JAMSObservation/79thsFarewellToGibraltar5318/2_7_4_11_4_4@0.0>,
+        <http://w3id.org/polifonia/resource/JAMSObservation/79thsFarewellToGibraltar5318/4_11_2_2_4_4@0.0>,
+        <http://w3id.org/polifonia/resource/JAMSObservation/79thsFarewellToGibraltar5318/4_11_2_7_4_11@0.0>,
+        <http://w3id.org/polifonia/resource/JAMSObservation/79thsFarewellToGibraltar5318/4_11_4_4_4_4@0.0>,
+        <http://w3id.org/polifonia/resource/JAMSObservation/79thsFarewellToGibraltar5318/4_11_7_4_7_4@0.0>,
+        <http://w3id.org/polifonia/resource/JAMSObservation/79thsFarewellToGibraltar5318/4_4_11_2_2_4@0.0>,
+        <http://w3id.org/polifonia/resource/JAMSObservation/79thsFarewellToGibraltar5318/4_4_11_4_4_4@0.0>,
+        <http://w3id.org/polifonia/resource/JAMSObservation/79thsFarewellToGibraltar5318/4_4_11_7_4_7@0.0>,
+        <http://w3id.org/polifonia/resource/JAMSObservation/79thsFarewellToGibraltar5318/4_4_4_11_2_2@0.0>,
+        <http://w3id.org/polifonia/resource/JAMSObservation/79thsFarewellToGibraltar5318/4_4_4_11_4_4@0.0>,
+        <http://w3id.org/polifonia/resource/JAMSObservation/79thsFarewellToGibraltar5318/4_4_4_11_7_4@0.0>,
+        <http://w3id.org/polifonia/resource/JAMSObservation/79thsFarewellToGibraltar5318/4_4_4_4_11_2@0.0>,
+        <http://w3id.org/polifonia/resource/JAMSObservation/79thsFarewellToGibraltar5318/4_4_4_4_11_4@0.0>,
+        <http://w3id.org/polifonia/resource/JAMSObservation/79thsFarewellToGibraltar5318/4_4_4_4_11_7@0.0>,
+        <http://w3id.org/polifonia/resource/JAMSObservation/79thsFarewellToGibraltar5318/4_4_4_4_4_11@0.0>,
+        <http://w3id.org/polifonia/resource/JAMSObservation/79thsFarewellToGibraltar5318/4_4_4_4_4_4@0.0>,
+        <http://w3id.org/polifonia/resource/JAMSObservation/79thsFarewellToGibraltar5318/4_7_11_2_2_4@0.0>,
+        <http://w3id.org/polifonia/resource/JAMSObservation/79thsFarewellToGibraltar5318/4_7_11_7_4_7@0.0>,
+        <http://w3id.org/polifonia/resource/JAMSObservation/79thsFarewellToGibraltar5318/4_7_4_7_11_2@0.0>,
+        <http://w3id.org/polifonia/resource/JAMSObservation/79thsFarewellToGibraltar5318/4_7_4_7_11_7@0.0>,
+        <http://w3id.org/polifonia/resource/JAMSObservation/79thsFarewellToGibraltar5318/4_7_4_7_4_7@0.0>,
+        <http://w3id.org/polifonia/resource/JAMSObservation/79thsFarewellToGibraltar5318/7_11_2_2_4_4@0.0>,
+        <http://w3id.org/polifonia/resource/JAMSObservation/79thsFarewellToGibraltar5318/7_11_7_4_7_4@0.0>,
+        <http://w3id.org/polifonia/resource/JAMSObservation/79thsFarewellToGibraltar5318/7_4_11_2_7_4@0.0>,
+        <http://w3id.org/polifonia/resource/JAMSObservation/79thsFarewellToGibraltar5318/7_4_11_4_4_4@0.0>,
+        <http://w3id.org/polifonia/resource/JAMSObservation/79thsFarewellToGibraltar5318/7_4_7_11_2_2@0.0>,
+        <http://w3id.org/polifonia/resource/JAMSObservation/79thsFarewellToGibraltar5318/7_4_7_11_7_4@0.0>,
+        <http://w3id.org/polifonia/resource/JAMSObservation/79thsFarewellToGibraltar5318/7_4_7_4_7_11@0.0>,
+        <http://w3id.org/polifonia/resource/JAMSObservation/79thsFarewellToGibraltar5318/7_4_7_4_7_4@0.0> ;
+    jams:isJAMSAnnotationOf <http://w3id.org/polifonia/resource/MusicalComposition/fada703b5a1bc04a9c79053eeb43f92f1166f273> .
+
+<http://w3id.org/polifonia/resource/Score/song_local_id> jams:hasJAMSAnnotation <http://w3id.org/polifonia/resource/MusicalComposition/fada703b5a1bc04a9c79053eeb43f92f1166f273> .
+
+<http://w3id.org/polifonia/resource/JAMSFile/79thsFarewellToGibraltar5318.jams> a jams:JAMSFile ;
+    jams:identifiers [ ] ;
+    jams:jamsVersion "0.3.4" ;
+    jams:release "" ;
+    prov:wasDerivedFrom "The Session" ;
+    prov:wasMemberOf <https://github.com/ashahidkhattak/thesession> .
+
+<http://w3id.org/polifonia/resource/JAMSObservation/79thsFarewellToGibraltar5318/11_2_2_4_4_4@0.0> a jams:JAMSObservation,
+        jams:JAMSScoreObservation,
+        jams:ScorePatternOccurrence ;
+    rdfs:label [ ] ;
+    jams:hasDuration "0.0"^^xsd:float ;
+    jams:hasFrequency "2"^^xsd:int ;
+    jams:hasPatternType "pitch-class-values" ;
+    jams:ofPattern <http://w3id.org/polifonia/resource/pattern/11_2_2_4_4_4> .
+
+<http://w3id.org/polifonia/resource/JAMSObservation/79thsFarewellToGibraltar5318/11_2_7_4_11_2@0.0> a jams:JAMSObservation,
+        jams:JAMSScoreObservation,
+        jams:ScorePatternOccurrence ;
+    rdfs:label [ ] ;
+    jams:hasDuration "0.0"^^xsd:float ;
+    jams:hasFrequency "3"^^xsd:int ;
+    jams:hasPatternType "pitch-class-values" ;
+    jams:ofPattern <http://w3id.org/polifonia/resource/pattern/11_2_7_4_11_2> .
+
+<http://w3id.org/polifonia/resource/JAMSObservation/79thsFarewellToGibraltar5318/11_2_7_4_11_4@0.0> a jams:JAMSObservation,
+        jams:JAMSScoreObservation,
+        jams:ScorePatternOccurrence ;
+    rdfs:label [ ] ;
+    jams:hasDuration "0.0"^^xsd:float ;
+    jams:hasFrequency "1"^^xsd:int ;
+    jams:hasPatternType "pitch-class-values" ;
+    jams:ofPattern <http://w3id.org/polifonia/resource/pattern/11_2_7_4_11_4> .
+
+<http://w3id.org/polifonia/resource/JAMSObservation/79thsFarewellToGibraltar5318/11_4_4_4_4_4@0.0> a jams:JAMSObservation,
+        jams:JAMSScoreObservation,
+        jams:ScorePatternOccurrence ;
+    rdfs:label [ ] ;
+    jams:hasDuration "0.0"^^xsd:float ;
+    jams:hasFrequency "2"^^xsd:int ;
+    jams:hasPatternType "pitch-class-values" ;
+    jams:ofPattern <http://w3id.org/polifonia/resource/pattern/11_4_4_4_4_4> .
+
+<http://w3id.org/polifonia/resource/JAMSObservation/79thsFarewellToGibraltar5318/11_7_4_7_4_7@0.0> a jams:JAMSObservation,
+        jams:JAMSScoreObservation,
+        jams:ScorePatternOccurrence ;
+    rdfs:label [ ] ;
+    jams:hasDuration "0.0"^^xsd:float ;
+    jams:hasFrequency "2"^^xsd:int ;
+    jams:hasPatternType "pitch-class-values" ;
+    jams:ofPattern <http://w3id.org/polifonia/resource/pattern/11_7_4_7_4_7> .
+
+<http://w3id.org/polifonia/resource/JAMSObservation/79thsFarewellToGibraltar5318/2_2_4_4_4_4@0.0> a jams:JAMSObservation,
+        jams:JAMSScoreObservation,
+        jams:ScorePatternOccurrence ;
+    rdfs:label [ ] ;
+    jams:hasDuration "0.0"^^xsd:float ;
+    jams:hasFrequency "2"^^xsd:int ;
+    jams:hasPatternType "pitch-class-values" ;
+    jams:ofPattern <http://w3id.org/polifonia/resource/pattern/2_2_4_4_4_4> .
+
+<http://w3id.org/polifonia/resource/JAMSObservation/79thsFarewellToGibraltar5318/2_4_4_4_4_4@0.0> a jams:JAMSObservation,
+        jams:JAMSScoreObservation,
+        jams:ScorePatternOccurrence ;
+    rdfs:label [ ] ;
+    jams:hasDuration "0.0"^^xsd:float ;
+    jams:hasFrequency "2"^^xsd:int ;
+    jams:hasPatternType "pitch-class-values" ;
+    jams:ofPattern <http://w3id.org/polifonia/resource/pattern/2_4_4_4_4_4> .
+
+<http://w3id.org/polifonia/resource/JAMSObservation/79thsFarewellToGibraltar5318/2_7_4_11_2_7@0.0> a jams:JAMSObservation,
+        jams:JAMSScoreObservation,
+        jams:ScorePatternOccurrence ;
+    rdfs:label [ ] ;
+    jams:hasDuration "0.0"^^xsd:float ;
+    jams:hasFrequency "3"^^xsd:int ;
+    jams:hasPatternType "pitch-class-values" ;
+    jams:ofPattern <http://w3id.org/polifonia/resource/pattern/2_7_4_11_2_7> .
+
+<http://w3id.org/polifonia/resource/JAMSObservation/79thsFarewellToGibraltar5318/2_7_4_11_4_4@0.0> a jams:JAMSObservation,
+        jams:JAMSScoreObservation,
+        jams:ScorePatternOccurrence ;
+    rdfs:label [ ] ;
+    jams:hasDuration "0.0"^^xsd:float ;
+    jams:hasFrequency "1"^^xsd:int ;
+    jams:hasPatternType "pitch-class-values" ;
+    jams:ofPattern <http://w3id.org/polifonia/resource/pattern/2_7_4_11_4_4> .
+
+<http://w3id.org/polifonia/resource/JAMSObservation/79thsFarewellToGibraltar5318/4_11_2_2_4_4@0.0> a jams:JAMSObservation,
+        jams:JAMSScoreObservation,
+        jams:ScorePatternOccurrence ;
+    rdfs:label [ ] ;
+    jams:hasDuration "0.0"^^xsd:float ;
+    jams:hasFrequency "1"^^xsd:int ;
+    jams:hasPatternType "pitch-class-values" ;
+    jams:ofPattern <http://w3id.org/polifonia/resource/pattern/4_11_2_2_4_4> .
+
+<http://w3id.org/polifonia/resource/JAMSObservation/79thsFarewellToGibraltar5318/4_11_2_7_4_11@0.0> a jams:JAMSObservation,
+        jams:JAMSScoreObservation,
+        jams:ScorePatternOccurrence ;
+    rdfs:label [ ] ;
+    jams:hasDuration "0.0"^^xsd:float ;
+    jams:hasFrequency "3"^^xsd:int ;
+    jams:hasPatternType "pitch-class-values" ;
+    jams:ofPattern <http://w3id.org/polifonia/resource/pattern/4_11_2_7_4_11> .
+
+<http://w3id.org/polifonia/resource/JAMSObservation/79thsFarewellToGibraltar5318/4_11_4_4_4_4@0.0> a jams:JAMSObservation,
+        jams:JAMSScoreObservation,
+        jams:ScorePatternOccurrence ;
+    rdfs:label [ ] ;
+    jams:hasDuration "0.0"^^xsd:float ;
+    jams:hasFrequency "2"^^xsd:int ;
+    jams:hasPatternType "pitch-class-values" ;
+    jams:ofPattern <http://w3id.org/polifonia/resource/pattern/4_11_4_4_4_4> .
+
+<http://w3id.org/polifonia/resource/JAMSObservation/79thsFarewellToGibraltar5318/4_11_7_4_7_4@0.0> a jams:JAMSObservation,
+        jams:JAMSScoreObservation,
+        jams:ScorePatternOccurrence ;
+    rdfs:label [ ] ;
+    jams:hasDuration "0.0"^^xsd:float ;
+    jams:hasFrequency "1"^^xsd:int ;
+    jams:hasPatternType "pitch-class-values" ;
+    jams:ofPattern <http://w3id.org/polifonia/resource/pattern/4_11_7_4_7_4> .
+
+<http://w3id.org/polifonia/resource/JAMSObservation/79thsFarewellToGibraltar5318/4_4_11_2_2_4@0.0> a jams:JAMSObservation,
+        jams:JAMSScoreObservation,
+        jams:ScorePatternOccurrence ;
+    rdfs:label [ ] ;
+    jams:hasDuration "0.0"^^xsd:float ;
+    jams:hasFrequency "1"^^xsd:int ;
+    jams:hasPatternType "pitch-class-values" ;
+    jams:ofPattern <http://w3id.org/polifonia/resource/pattern/4_4_11_2_2_4> .
+
+<http://w3id.org/polifonia/resource/JAMSObservation/79thsFarewellToGibraltar5318/4_4_11_4_4_4@0.0> a jams:JAMSObservation,
+        jams:JAMSScoreObservation,
+        jams:ScorePatternOccurrence ;
+    rdfs:label [ ] ;
+    jams:hasDuration "0.0"^^xsd:float ;
+    jams:hasFrequency "1"^^xsd:int ;
+    jams:hasPatternType "pitch-class-values" ;
+    jams:ofPattern <http://w3id.org/polifonia/resource/pattern/4_4_11_4_4_4> .
+
+<http://w3id.org/polifonia/resource/JAMSObservation/79thsFarewellToGibraltar5318/4_4_11_7_4_7@0.0> a jams:JAMSObservation,
+        jams:JAMSScoreObservation,
+        jams:ScorePatternOccurrence ;
+    rdfs:label [ ] ;
+    jams:hasDuration "0.0"^^xsd:float ;
+    jams:hasFrequency "1"^^xsd:int ;
+    jams:hasPatternType "pitch-class-values" ;
+    jams:ofPattern <http://w3id.org/polifonia/resource/pattern/4_4_11_7_4_7> .
+
+<http://w3id.org/polifonia/resource/JAMSObservation/79thsFarewellToGibraltar5318/4_4_4_11_2_2@0.0> a jams:JAMSObservation,
+        jams:JAMSScoreObservation,
+        jams:ScorePatternOccurrence ;
+    rdfs:label [ ] ;
+    jams:hasDuration "0.0"^^xsd:float ;
+    jams:hasFrequency "1"^^xsd:int ;
+    jams:hasPatternType "pitch-class-values" ;
+    jams:ofPattern <http://w3id.org/polifonia/resource/pattern/4_4_4_11_2_2> .
+
+<http://w3id.org/polifonia/resource/JAMSObservation/79thsFarewellToGibraltar5318/4_4_4_11_4_4@0.0> a jams:JAMSObservation,
+        jams:JAMSScoreObservation,
+        jams:ScorePatternOccurrence ;
+    rdfs:label [ ] ;
+    jams:hasDuration "0.0"^^xsd:float ;
+    jams:hasFrequency "1"^^xsd:int ;
+    jams:hasPatternType "pitch-class-values" ;
+    jams:ofPattern <http://w3id.org/polifonia/resource/pattern/4_4_4_11_4_4> .
+
+<http://w3id.org/polifonia/resource/JAMSObservation/79thsFarewellToGibraltar5318/4_4_4_11_7_4@0.0> a jams:JAMSObservation,
+        jams:JAMSScoreObservation,
+        jams:ScorePatternOccurrence ;
+    rdfs:label [ ] ;
+    jams:hasDuration "0.0"^^xsd:float ;
+    jams:hasFrequency "1"^^xsd:int ;
+    jams:hasPatternType "pitch-class-values" ;
+    jams:ofPattern <http://w3id.org/polifonia/resource/pattern/4_4_4_11_7_4> .
+
+<http://w3id.org/polifonia/resource/JAMSObservation/79thsFarewellToGibraltar5318/4_4_4_4_11_2@0.0> a jams:JAMSObservation,
+        jams:JAMSScoreObservation,
+        jams:ScorePatternOccurrence ;
+    rdfs:label [ ] ;
+    jams:hasDuration "0.0"^^xsd:float ;
+    jams:hasFrequency "1"^^xsd:int ;
+    jams:hasPatternType "pitch-class-values" ;
+    jams:ofPattern <http://w3id.org/polifonia/resource/pattern/4_4_4_4_11_2> .
+
+<http://w3id.org/polifonia/resource/JAMSObservation/79thsFarewellToGibraltar5318/4_4_4_4_11_4@0.0> a jams:JAMSObservation,
+        jams:JAMSScoreObservation,
+        jams:ScorePatternOccurrence ;
+    rdfs:label [ ] ;
+    jams:hasDuration "0.0"^^xsd:float ;
+    jams:hasFrequency "1"^^xsd:int ;
+    jams:hasPatternType "pitch-class-values" ;
+    jams:ofPattern <http://w3id.org/polifonia/resource/pattern/4_4_4_4_11_4> .
+
+<http://w3id.org/polifonia/resource/JAMSObservation/79thsFarewellToGibraltar5318/4_4_4_4_11_7@0.0> a jams:JAMSObservation,
+        jams:JAMSScoreObservation,
+        jams:ScorePatternOccurrence ;
+    rdfs:label [ ] ;
+    jams:hasDuration "0.0"^^xsd:float ;
+    jams:hasFrequency "1"^^xsd:int ;
+    jams:hasPatternType "pitch-class-values" ;
+    jams:ofPattern <http://w3id.org/polifonia/resource/pattern/4_4_4_4_11_7> .
+
+<http://w3id.org/polifonia/resource/JAMSObservation/79thsFarewellToGibraltar5318/4_4_4_4_4_11@0.0> a jams:JAMSObservation,
+        jams:JAMSScoreObservation,
+        jams:ScorePatternOccurrence ;
+    rdfs:label [ ] ;
+    jams:hasDuration "0.0"^^xsd:float ;
+    jams:hasFrequency "4"^^xsd:int ;
+    jams:hasPatternType "pitch-class-values" ;
+    jams:ofPattern <http://w3id.org/polifonia/resource/pattern/4_4_4_4_4_11> .
+
+<http://w3id.org/polifonia/resource/JAMSObservation/79thsFarewellToGibraltar5318/4_4_4_4_4_4@0.0> a jams:JAMSObservation,
+        jams:JAMSScoreObservation,
+        jams:ScorePatternOccurrence ;
+    rdfs:label [ ] ;
+    jams:hasDuration "0.0"^^xsd:float ;
+    jams:hasFrequency "4"^^xsd:int ;
+    jams:hasPatternType "pitch-class-values" ;
+    jams:ofPattern <http://w3id.org/polifonia/resource/pattern/4_4_4_4_4_4> .
+
+<http://w3id.org/polifonia/resource/JAMSObservation/79thsFarewellToGibraltar5318/4_7_11_2_2_4@0.0> a jams:JAMSObservation,
+        jams:JAMSScoreObservation,
+        jams:ScorePatternOccurrence ;
+    rdfs:label [ ] ;
+    jams:hasDuration "0.0"^^xsd:float ;
+    jams:hasFrequency "1"^^xsd:int ;
+    jams:hasPatternType "pitch-class-values" ;
+    jams:ofPattern <http://w3id.org/polifonia/resource/pattern/4_7_11_2_2_4> .
+
+<http://w3id.org/polifonia/resource/JAMSObservation/79thsFarewellToGibraltar5318/4_7_11_7_4_7@0.0> a jams:JAMSObservation,
+        jams:JAMSScoreObservation,
+        jams:ScorePatternOccurrence ;
+    rdfs:label [ ] ;
+    jams:hasDuration "0.0"^^xsd:float ;
+    jams:hasFrequency "1"^^xsd:int ;
+    jams:hasPatternType "pitch-class-values" ;
+    jams:ofPattern <http://w3id.org/polifonia/resource/pattern/4_7_11_7_4_7> .
+
+<http://w3id.org/polifonia/resource/JAMSObservation/79thsFarewellToGibraltar5318/4_7_4_7_11_2@0.0> a jams:JAMSObservation,
+        jams:JAMSScoreObservation,
+        jams:ScorePatternOccurrence ;
+    rdfs:label [ ] ;
+    jams:hasDuration "0.0"^^xsd:float ;
+    jams:hasFrequency "1"^^xsd:int ;
+    jams:hasPatternType "pitch-class-values" ;
+    jams:ofPattern <http://w3id.org/polifonia/resource/pattern/4_7_4_7_11_2> .
+
+<http://w3id.org/polifonia/resource/JAMSObservation/79thsFarewellToGibraltar5318/4_7_4_7_11_7@0.0> a jams:JAMSObservation,
+        jams:JAMSScoreObservation,
+        jams:ScorePatternOccurrence ;
+    rdfs:label [ ] ;
+    jams:hasDuration "0.0"^^xsd:float ;
+    jams:hasFrequency "1"^^xsd:int ;
+    jams:hasPatternType "pitch-class-values" ;
+    jams:ofPattern <http://w3id.org/polifonia/resource/pattern/4_7_4_7_11_7> .
+
+<http://w3id.org/polifonia/resource/JAMSObservation/79thsFarewellToGibraltar5318/4_7_4_7_4_7@0.0> a jams:JAMSObservation,
+        jams:JAMSScoreObservation,
+        jams:ScorePatternOccurrence ;
+    rdfs:label [ ] ;
+    jams:hasDuration "0.0"^^xsd:float ;
+    jams:hasFrequency "2"^^xsd:int ;
+    jams:hasPatternType "pitch-class-values" ;
+    jams:ofPattern <http://w3id.org/polifonia/resource/pattern/4_7_4_7_4_7> .
+
+<http://w3id.org/polifonia/resource/JAMSObservation/79thsFarewellToGibraltar5318/7_11_2_2_4_4@0.0> a jams:JAMSObservation,
+        jams:JAMSScoreObservation,
+        jams:ScorePatternOccurrence ;
+    rdfs:label [ ] ;
+    jams:hasDuration "0.0"^^xsd:float ;
+    jams:hasFrequency "1"^^xsd:int ;
+    jams:hasPatternType "pitch-class-values" ;
+    jams:ofPattern <http://w3id.org/polifonia/resource/pattern/7_11_2_2_4_4> .
+
+<http://w3id.org/polifonia/resource/JAMSObservation/79thsFarewellToGibraltar5318/7_11_7_4_7_4@0.0> a jams:JAMSObservation,
+        jams:JAMSScoreObservation,
+        jams:ScorePatternOccurrence ;
+    rdfs:label [ ] ;
+    jams:hasDuration "0.0"^^xsd:float ;
+    jams:hasFrequency "1"^^xsd:int ;
+    jams:hasPatternType "pitch-class-values" ;
+    jams:ofPattern <http://w3id.org/polifonia/resource/pattern/7_11_7_4_7_4> .
+
+<http://w3id.org/polifonia/resource/JAMSObservation/79thsFarewellToGibraltar5318/7_4_11_2_7_4@0.0> a jams:JAMSObservation,
+        jams:JAMSScoreObservation,
+        jams:ScorePatternOccurrence ;
+    rdfs:label [ ] ;
+    jams:hasDuration "0.0"^^xsd:float ;
+    jams:hasFrequency "3"^^xsd:int ;
+    jams:hasPatternType "pitch-class-values" ;
+    jams:ofPattern <http://w3id.org/polifonia/resource/pattern/7_4_11_2_7_4> .
+
+<http://w3id.org/polifonia/resource/JAMSObservation/79thsFarewellToGibraltar5318/7_4_11_4_4_4@0.0> a jams:JAMSObservation,
+        jams:JAMSScoreObservation,
+        jams:ScorePatternOccurrence ;
+    rdfs:label [ ] ;
+    jams:hasDuration "0.0"^^xsd:float ;
+    jams:hasFrequency "1"^^xsd:int ;
+    jams:hasPatternType "pitch-class-values" ;
+    jams:ofPattern <http://w3id.org/polifonia/resource/pattern/7_4_11_4_4_4> .
+
+<http://w3id.org/polifonia/resource/JAMSObservation/79thsFarewellToGibraltar5318/7_4_7_11_2_2@0.0> a jams:JAMSObservation,
+        jams:JAMSScoreObservation,
+        jams:ScorePatternOccurrence ;
+    rdfs:label [ ] ;
+    jams:hasDuration "0.0"^^xsd:float ;
+    jams:hasFrequency "1"^^xsd:int ;
+    jams:hasPatternType "pitch-class-values" ;
+    jams:ofPattern <http://w3id.org/polifonia/resource/pattern/7_4_7_11_2_2> .
+
+<http://w3id.org/polifonia/resource/JAMSObservation/79thsFarewellToGibraltar5318/7_4_7_11_7_4@0.0> a jams:JAMSObservation,
+        jams:JAMSScoreObservation,
+        jams:ScorePatternOccurrence ;
+    rdfs:label [ ] ;
+    jams:hasDuration "0.0"^^xsd:float ;
+    jams:hasFrequency "1"^^xsd:int ;
+    jams:hasPatternType "pitch-class-values" ;
+    jams:ofPattern <http://w3id.org/polifonia/resource/pattern/7_4_7_11_7_4> .
+
+<http://w3id.org/polifonia/resource/JAMSObservation/79thsFarewellToGibraltar5318/7_4_7_4_7_11@0.0> a jams:JAMSObservation,
+        jams:JAMSScoreObservation,
+        jams:ScorePatternOccurrence ;
+    rdfs:label [ ] ;
+    jams:hasDuration "0.0"^^xsd:float ;
+    jams:hasFrequency "2"^^xsd:int ;
+    jams:hasPatternType "pitch-class-values" ;
+    jams:ofPattern <http://w3id.org/polifonia/resource/pattern/7_4_7_4_7_11> .
+
+<http://w3id.org/polifonia/resource/JAMSObservation/79thsFarewellToGibraltar5318/7_4_7_4_7_4@0.0> a jams:JAMSObservation,
+        jams:JAMSScoreObservation,
+        jams:ScorePatternOccurrence ;
+    rdfs:label [ ] ;
+    jams:hasDuration "0.0"^^xsd:float ;
+    jams:hasFrequency "2"^^xsd:int ;
+    jams:hasPatternType "pitch-class-values" ;
+    jams:ofPattern <http://w3id.org/polifonia/resource/pattern/7_4_7_4_7_4> .
+
+<http://w3id.org/polifonia/resource/MusicalComposition/fada703b5a1bc04a9c79053eeb43f92f1166f273> a mc:MusicalComposition ;
+    rdfs:label "79thsFarewellToGibraltar5318" ;
+    mc:title "79thsFarewellToGibraltar5318" ;
+    prov:wasDerivedFrom <http://w3id.org/polifonia/resource/JAMSFile/79thsFarewellToGibraltar5318.jams> .
+

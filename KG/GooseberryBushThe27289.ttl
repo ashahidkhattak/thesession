@@ -1,0 +1,501 @@
+@prefix core: <http://w3id.org/polifonia/ontology/core/> .
+@prefix jams: <http://w3id.org/polifonia/ontology/jams/> .
+@prefix mc: <http://w3id.org/polifonia/ontology/musical-composition/> .
+@prefix pon-resource: <http://w3id.org/polifonia/resource/> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+pon-resource:Agent%2Fannotator_local_id a core:Agent ;
+    rdfs:label "FONN-Tool" ;
+    jams:hasAnnotatorType pon-resource:annotator-program ;
+    jams:hasName "FONN-Tool" .
+
+<http://w3id.org/polifonia/resource/JAMSAnnotation/dead7614f7f834a88f236b6bc36c1d44d8796e7e> a jams:JAMSAnnotation,
+        jams:JAMSScoreAnnotation ;
+    jams:includesObservation <http://w3id.org/polifonia/resource/JAMSObservation/GooseberryBushThe27289/0_0_5_2_10_7@0.0>,
+        <http://w3id.org/polifonia/resource/JAMSObservation/GooseberryBushThe27289/0_11_2_7_2_7@0.0>,
+        <http://w3id.org/polifonia/resource/JAMSObservation/GooseberryBushThe27289/0_2_5_0_2_7@0.0>,
+        <http://w3id.org/polifonia/resource/JAMSObservation/GooseberryBushThe27289/0_2_7_0_4_0@0.0>,
+        <http://w3id.org/polifonia/resource/JAMSObservation/GooseberryBushThe27289/0_4_0_11_2_7@0.0>,
+        <http://w3id.org/polifonia/resource/JAMSObservation/GooseberryBushThe27289/0_5_2_10_7_0@0.0>,
+        <http://w3id.org/polifonia/resource/JAMSObservation/GooseberryBushThe27289/0_7_0_7_4_10@0.0>,
+        <http://w3id.org/polifonia/resource/JAMSObservation/GooseberryBushThe27289/0_7_0_7_4_2@0.0>,
+        <http://w3id.org/polifonia/resource/JAMSObservation/GooseberryBushThe27289/0_7_4_10_10_7@0.0>,
+        <http://w3id.org/polifonia/resource/JAMSObservation/GooseberryBushThe27289/0_7_4_2_7_9@0.0>,
+        <http://w3id.org/polifonia/resource/JAMSObservation/GooseberryBushThe27289/10_10_7_0_7_0@0.0>,
+        <http://w3id.org/polifonia/resource/JAMSObservation/GooseberryBushThe27289/10_10_7_5_4_10@0.0>,
+        <http://w3id.org/polifonia/resource/JAMSObservation/GooseberryBushThe27289/10_7_0_2_5_0@0.0>,
+        <http://w3id.org/polifonia/resource/JAMSObservation/GooseberryBushThe27289/10_7_0_7_0_7@0.0>,
+        <http://w3id.org/polifonia/resource/JAMSObservation/GooseberryBushThe27289/10_7_4_10_10_7@0.0>,
+        <http://w3id.org/polifonia/resource/JAMSObservation/GooseberryBushThe27289/10_7_5_4_10_7@0.0>,
+        <http://w3id.org/polifonia/resource/JAMSObservation/GooseberryBushThe27289/2_10_7_0_7_0@0.0>,
+        <http://w3id.org/polifonia/resource/JAMSObservation/GooseberryBushThe27289/2_5_0_2_7_0@0.0>,
+        <http://w3id.org/polifonia/resource/JAMSObservation/GooseberryBushThe27289/2_7_0_4_0_11@0.0>,
+        <http://w3id.org/polifonia/resource/JAMSObservation/GooseberryBushThe27289/2_7_10_7_0_2@0.0>,
+        <http://w3id.org/polifonia/resource/JAMSObservation/GooseberryBushThe27289/2_7_2_7_10_7@0.0>,
+        <http://w3id.org/polifonia/resource/JAMSObservation/GooseberryBushThe27289/2_7_4_10_10_7@0.0>,
+        <http://w3id.org/polifonia/resource/JAMSObservation/GooseberryBushThe27289/2_7_9_5_5_0@0.0>,
+        <http://w3id.org/polifonia/resource/JAMSObservation/GooseberryBushThe27289/4_0_11_2_7_2@0.0>,
+        <http://w3id.org/polifonia/resource/JAMSObservation/GooseberryBushThe27289/4_0_11_2_7_4@0.0>,
+        <http://w3id.org/polifonia/resource/JAMSObservation/GooseberryBushThe27289/4_10_10_7_0_7@0.0>,
+        <http://w3id.org/polifonia/resource/JAMSObservation/GooseberryBushThe27289/4_10_10_7_5_4@0.0>,
+        <http://w3id.org/polifonia/resource/JAMSObservation/GooseberryBushThe27289/4_10_7_4_10_10@0.0>,
+        <http://w3id.org/polifonia/resource/JAMSObservation/GooseberryBushThe27289/4_2_7_9_5_5@0.0>,
+        <http://w3id.org/polifonia/resource/JAMSObservation/GooseberryBushThe27289/5_0_0_5_2_10@0.0>,
+        <http://w3id.org/polifonia/resource/JAMSObservation/GooseberryBushThe27289/5_0_2_7_0_4@0.0>,
+        <http://w3id.org/polifonia/resource/JAMSObservation/GooseberryBushThe27289/5_2_10_7_0_7@0.0>,
+        <http://w3id.org/polifonia/resource/JAMSObservation/GooseberryBushThe27289/5_4_10_7_4_10@0.0>,
+        <http://w3id.org/polifonia/resource/JAMSObservation/GooseberryBushThe27289/5_5_0_0_5_2@0.0>,
+        <http://w3id.org/polifonia/resource/JAMSObservation/GooseberryBushThe27289/7_0_2_5_0_2@0.0>,
+        <http://w3id.org/polifonia/resource/JAMSObservation/GooseberryBushThe27289/7_0_4_0_11_2@0.0>,
+        <http://w3id.org/polifonia/resource/JAMSObservation/GooseberryBushThe27289/7_0_7_0_7_4@0.0>,
+        <http://w3id.org/polifonia/resource/JAMSObservation/GooseberryBushThe27289/7_0_7_4_10_10@0.0>,
+        <http://w3id.org/polifonia/resource/JAMSObservation/GooseberryBushThe27289/7_0_7_4_2_7@0.0>,
+        <http://w3id.org/polifonia/resource/JAMSObservation/GooseberryBushThe27289/7_10_7_0_2_5@0.0>,
+        <http://w3id.org/polifonia/resource/JAMSObservation/GooseberryBushThe27289/7_2_7_10_7_0@0.0>,
+        <http://w3id.org/polifonia/resource/JAMSObservation/GooseberryBushThe27289/7_4_10_10_7_0@0.0>,
+        <http://w3id.org/polifonia/resource/JAMSObservation/GooseberryBushThe27289/7_4_10_10_7_5@0.0>,
+        <http://w3id.org/polifonia/resource/JAMSObservation/GooseberryBushThe27289/7_4_2_7_9_5@0.0>,
+        <http://w3id.org/polifonia/resource/JAMSObservation/GooseberryBushThe27289/7_5_4_10_7_4@0.0>,
+        <http://w3id.org/polifonia/resource/JAMSObservation/GooseberryBushThe27289/7_9_5_5_0_0@0.0>,
+        <http://w3id.org/polifonia/resource/JAMSObservation/GooseberryBushThe27289/9_5_5_0_0_5@0.0> ;
+    jams:isJAMSAnnotationOf <http://w3id.org/polifonia/resource/MusicalComposition/dead7614f7f834a88f236b6bc36c1d44d8796e7e> .
+
+<http://w3id.org/polifonia/resource/Score/song_local_id> jams:hasJAMSAnnotation <http://w3id.org/polifonia/resource/MusicalComposition/dead7614f7f834a88f236b6bc36c1d44d8796e7e> .
+
+<http://w3id.org/polifonia/resource/JAMSFile/GooseberryBushThe27289.jams> a jams:JAMSFile ;
+    jams:identifiers [ ] ;
+    jams:jamsVersion "0.3.4" ;
+    jams:release "" ;
+    prov:wasDerivedFrom "The Session" ;
+    prov:wasMemberOf <https://github.com/ashahidkhattak/thesession> .
+
+<http://w3id.org/polifonia/resource/JAMSObservation/GooseberryBushThe27289/0_0_5_2_10_7@0.0> a jams:JAMSObservation,
+        jams:JAMSScoreObservation,
+        jams:ScorePatternOccurrence ;
+    rdfs:label [ ] ;
+    jams:hasDuration "0.0"^^xsd:float ;
+    jams:hasFrequency "2"^^xsd:int ;
+    jams:hasPatternType "pitch-class-values" ;
+    jams:ofPattern <http://w3id.org/polifonia/resource/pattern/0_0_5_2_10_7> .
+
+<http://w3id.org/polifonia/resource/JAMSObservation/GooseberryBushThe27289/0_11_2_7_2_7@0.0> a jams:JAMSObservation,
+        jams:JAMSScoreObservation,
+        jams:ScorePatternOccurrence ;
+    rdfs:label [ ] ;
+    jams:hasDuration "0.0"^^xsd:float ;
+    jams:hasFrequency "1"^^xsd:int ;
+    jams:hasPatternType "pitch-class-values" ;
+    jams:ofPattern <http://w3id.org/polifonia/resource/pattern/0_11_2_7_2_7> .
+
+<http://w3id.org/polifonia/resource/JAMSObservation/GooseberryBushThe27289/0_2_5_0_2_7@0.0> a jams:JAMSObservation,
+        jams:JAMSScoreObservation,
+        jams:ScorePatternOccurrence ;
+    rdfs:label [ ] ;
+    jams:hasDuration "0.0"^^xsd:float ;
+    jams:hasFrequency "2"^^xsd:int ;
+    jams:hasPatternType "pitch-class-values" ;
+    jams:ofPattern <http://w3id.org/polifonia/resource/pattern/0_2_5_0_2_7> .
+
+<http://w3id.org/polifonia/resource/JAMSObservation/GooseberryBushThe27289/0_2_7_0_4_0@0.0> a jams:JAMSObservation,
+        jams:JAMSScoreObservation,
+        jams:ScorePatternOccurrence ;
+    rdfs:label [ ] ;
+    jams:hasDuration "0.0"^^xsd:float ;
+    jams:hasFrequency "2"^^xsd:int ;
+    jams:hasPatternType "pitch-class-values" ;
+    jams:ofPattern <http://w3id.org/polifonia/resource/pattern/0_2_7_0_4_0> .
+
+<http://w3id.org/polifonia/resource/JAMSObservation/GooseberryBushThe27289/0_4_0_11_2_7@0.0> a jams:JAMSObservation,
+        jams:JAMSScoreObservation,
+        jams:ScorePatternOccurrence ;
+    rdfs:label [ ] ;
+    jams:hasDuration "0.0"^^xsd:float ;
+    jams:hasFrequency "2"^^xsd:int ;
+    jams:hasPatternType "pitch-class-values" ;
+    jams:ofPattern <http://w3id.org/polifonia/resource/pattern/0_4_0_11_2_7> .
+
+<http://w3id.org/polifonia/resource/JAMSObservation/GooseberryBushThe27289/0_5_2_10_7_0@0.0> a jams:JAMSObservation,
+        jams:JAMSScoreObservation,
+        jams:ScorePatternOccurrence ;
+    rdfs:label [ ] ;
+    jams:hasDuration "0.0"^^xsd:float ;
+    jams:hasFrequency "2"^^xsd:int ;
+    jams:hasPatternType "pitch-class-values" ;
+    jams:ofPattern <http://w3id.org/polifonia/resource/pattern/0_5_2_10_7_0> .
+
+<http://w3id.org/polifonia/resource/JAMSObservation/GooseberryBushThe27289/0_7_0_7_4_10@0.0> a jams:JAMSObservation,
+        jams:JAMSScoreObservation,
+        jams:ScorePatternOccurrence ;
+    rdfs:label [ ] ;
+    jams:hasDuration "0.0"^^xsd:float ;
+    jams:hasFrequency "1"^^xsd:int ;
+    jams:hasPatternType "pitch-class-values" ;
+    jams:ofPattern <http://w3id.org/polifonia/resource/pattern/0_7_0_7_4_10> .
+
+<http://w3id.org/polifonia/resource/JAMSObservation/GooseberryBushThe27289/0_7_0_7_4_2@0.0> a jams:JAMSObservation,
+        jams:JAMSScoreObservation,
+        jams:ScorePatternOccurrence ;
+    rdfs:label [ ] ;
+    jams:hasDuration "0.0"^^xsd:float ;
+    jams:hasFrequency "2"^^xsd:int ;
+    jams:hasPatternType "pitch-class-values" ;
+    jams:ofPattern <http://w3id.org/polifonia/resource/pattern/0_7_0_7_4_2> .
+
+<http://w3id.org/polifonia/resource/JAMSObservation/GooseberryBushThe27289/0_7_4_10_10_7@0.0> a jams:JAMSObservation,
+        jams:JAMSScoreObservation,
+        jams:ScorePatternOccurrence ;
+    rdfs:label [ ] ;
+    jams:hasDuration "0.0"^^xsd:float ;
+    jams:hasFrequency "1"^^xsd:int ;
+    jams:hasPatternType "pitch-class-values" ;
+    jams:ofPattern <http://w3id.org/polifonia/resource/pattern/0_7_4_10_10_7> .
+
+<http://w3id.org/polifonia/resource/JAMSObservation/GooseberryBushThe27289/0_7_4_2_7_9@0.0> a jams:JAMSObservation,
+        jams:JAMSScoreObservation,
+        jams:ScorePatternOccurrence ;
+    rdfs:label [ ] ;
+    jams:hasDuration "0.0"^^xsd:float ;
+    jams:hasFrequency "2"^^xsd:int ;
+    jams:hasPatternType "pitch-class-values" ;
+    jams:ofPattern <http://w3id.org/polifonia/resource/pattern/0_7_4_2_7_9> .
+
+<http://w3id.org/polifonia/resource/JAMSObservation/GooseberryBushThe27289/10_10_7_0_7_0@0.0> a jams:JAMSObservation,
+        jams:JAMSScoreObservation,
+        jams:ScorePatternOccurrence ;
+    rdfs:label [ ] ;
+    jams:hasDuration "0.0"^^xsd:float ;
+    jams:hasFrequency "2"^^xsd:int ;
+    jams:hasPatternType "pitch-class-values" ;
+    jams:ofPattern <http://w3id.org/polifonia/resource/pattern/10_10_7_0_7_0> .
+
+<http://w3id.org/polifonia/resource/JAMSObservation/GooseberryBushThe27289/10_10_7_5_4_10@0.0> a jams:JAMSObservation,
+        jams:JAMSScoreObservation,
+        jams:ScorePatternOccurrence ;
+    rdfs:label [ ] ;
+    jams:hasDuration "0.0"^^xsd:float ;
+    jams:hasFrequency "2"^^xsd:int ;
+    jams:hasPatternType "pitch-class-values" ;
+    jams:ofPattern <http://w3id.org/polifonia/resource/pattern/10_10_7_5_4_10> .
+
+<http://w3id.org/polifonia/resource/JAMSObservation/GooseberryBushThe27289/10_7_0_2_5_0@0.0> a jams:JAMSObservation,
+        jams:JAMSScoreObservation,
+        jams:ScorePatternOccurrence ;
+    rdfs:label [ ] ;
+    jams:hasDuration "0.0"^^xsd:float ;
+    jams:hasFrequency "2"^^xsd:int ;
+    jams:hasPatternType "pitch-class-values" ;
+    jams:ofPattern <http://w3id.org/polifonia/resource/pattern/10_7_0_2_5_0> .
+
+<http://w3id.org/polifonia/resource/JAMSObservation/GooseberryBushThe27289/10_7_0_7_0_7@0.0> a jams:JAMSObservation,
+        jams:JAMSScoreObservation,
+        jams:ScorePatternOccurrence ;
+    rdfs:label [ ] ;
+    jams:hasDuration "0.0"^^xsd:float ;
+    jams:hasFrequency "3"^^xsd:int ;
+    jams:hasPatternType "pitch-class-values" ;
+    jams:ofPattern <http://w3id.org/polifonia/resource/pattern/10_7_0_7_0_7> .
+
+<http://w3id.org/polifonia/resource/JAMSObservation/GooseberryBushThe27289/10_7_4_10_10_7@0.0> a jams:JAMSObservation,
+        jams:JAMSScoreObservation,
+        jams:ScorePatternOccurrence ;
+    rdfs:label [ ] ;
+    jams:hasDuration "0.0"^^xsd:float ;
+    jams:hasFrequency "2"^^xsd:int ;
+    jams:hasPatternType "pitch-class-values" ;
+    jams:ofPattern <http://w3id.org/polifonia/resource/pattern/10_7_4_10_10_7> .
+
+<http://w3id.org/polifonia/resource/JAMSObservation/GooseberryBushThe27289/10_7_5_4_10_7@0.0> a jams:JAMSObservation,
+        jams:JAMSScoreObservation,
+        jams:ScorePatternOccurrence ;
+    rdfs:label [ ] ;
+    jams:hasDuration "0.0"^^xsd:float ;
+    jams:hasFrequency "2"^^xsd:int ;
+    jams:hasPatternType "pitch-class-values" ;
+    jams:ofPattern <http://w3id.org/polifonia/resource/pattern/10_7_5_4_10_7> .
+
+<http://w3id.org/polifonia/resource/JAMSObservation/GooseberryBushThe27289/2_10_7_0_7_0@0.0> a jams:JAMSObservation,
+        jams:JAMSScoreObservation,
+        jams:ScorePatternOccurrence ;
+    rdfs:label [ ] ;
+    jams:hasDuration "0.0"^^xsd:float ;
+    jams:hasFrequency "2"^^xsd:int ;
+    jams:hasPatternType "pitch-class-values" ;
+    jams:ofPattern <http://w3id.org/polifonia/resource/pattern/2_10_7_0_7_0> .
+
+<http://w3id.org/polifonia/resource/JAMSObservation/GooseberryBushThe27289/2_5_0_2_7_0@0.0> a jams:JAMSObservation,
+        jams:JAMSScoreObservation,
+        jams:ScorePatternOccurrence ;
+    rdfs:label [ ] ;
+    jams:hasDuration "0.0"^^xsd:float ;
+    jams:hasFrequency "2"^^xsd:int ;
+    jams:hasPatternType "pitch-class-values" ;
+    jams:ofPattern <http://w3id.org/polifonia/resource/pattern/2_5_0_2_7_0> .
+
+<http://w3id.org/polifonia/resource/JAMSObservation/GooseberryBushThe27289/2_7_0_4_0_11@0.0> a jams:JAMSObservation,
+        jams:JAMSScoreObservation,
+        jams:ScorePatternOccurrence ;
+    rdfs:label [ ] ;
+    jams:hasDuration "0.0"^^xsd:float ;
+    jams:hasFrequency "2"^^xsd:int ;
+    jams:hasPatternType "pitch-class-values" ;
+    jams:ofPattern <http://w3id.org/polifonia/resource/pattern/2_7_0_4_0_11> .
+
+<http://w3id.org/polifonia/resource/JAMSObservation/GooseberryBushThe27289/2_7_10_7_0_2@0.0> a jams:JAMSObservation,
+        jams:JAMSScoreObservation,
+        jams:ScorePatternOccurrence ;
+    rdfs:label [ ] ;
+    jams:hasDuration "0.0"^^xsd:float ;
+    jams:hasFrequency "2"^^xsd:int ;
+    jams:hasPatternType "pitch-class-values" ;
+    jams:ofPattern <http://w3id.org/polifonia/resource/pattern/2_7_10_7_0_2> .
+
+<http://w3id.org/polifonia/resource/JAMSObservation/GooseberryBushThe27289/2_7_2_7_10_7@0.0> a jams:JAMSObservation,
+        jams:JAMSScoreObservation,
+        jams:ScorePatternOccurrence ;
+    rdfs:label [ ] ;
+    jams:hasDuration "0.0"^^xsd:float ;
+    jams:hasFrequency "1"^^xsd:int ;
+    jams:hasPatternType "pitch-class-values" ;
+    jams:ofPattern <http://w3id.org/polifonia/resource/pattern/2_7_2_7_10_7> .
+
+<http://w3id.org/polifonia/resource/JAMSObservation/GooseberryBushThe27289/2_7_4_10_10_7@0.0> a jams:JAMSObservation,
+        jams:JAMSScoreObservation,
+        jams:ScorePatternOccurrence ;
+    rdfs:label [ ] ;
+    jams:hasDuration "0.0"^^xsd:float ;
+    jams:hasFrequency "1"^^xsd:int ;
+    jams:hasPatternType "pitch-class-values" ;
+    jams:ofPattern <http://w3id.org/polifonia/resource/pattern/2_7_4_10_10_7> .
+
+<http://w3id.org/polifonia/resource/JAMSObservation/GooseberryBushThe27289/2_7_9_5_5_0@0.0> a jams:JAMSObservation,
+        jams:JAMSScoreObservation,
+        jams:ScorePatternOccurrence ;
+    rdfs:label [ ] ;
+    jams:hasDuration "0.0"^^xsd:float ;
+    jams:hasFrequency "2"^^xsd:int ;
+    jams:hasPatternType "pitch-class-values" ;
+    jams:ofPattern <http://w3id.org/polifonia/resource/pattern/2_7_9_5_5_0> .
+
+<http://w3id.org/polifonia/resource/JAMSObservation/GooseberryBushThe27289/4_0_11_2_7_2@0.0> a jams:JAMSObservation,
+        jams:JAMSScoreObservation,
+        jams:ScorePatternOccurrence ;
+    rdfs:label [ ] ;
+    jams:hasDuration "0.0"^^xsd:float ;
+    jams:hasFrequency "1"^^xsd:int ;
+    jams:hasPatternType "pitch-class-values" ;
+    jams:ofPattern <http://w3id.org/polifonia/resource/pattern/4_0_11_2_7_2> .
+
+<http://w3id.org/polifonia/resource/JAMSObservation/GooseberryBushThe27289/4_0_11_2_7_4@0.0> a jams:JAMSObservation,
+        jams:JAMSScoreObservation,
+        jams:ScorePatternOccurrence ;
+    rdfs:label [ ] ;
+    jams:hasDuration "0.0"^^xsd:float ;
+    jams:hasFrequency "1"^^xsd:int ;
+    jams:hasPatternType "pitch-class-values" ;
+    jams:ofPattern <http://w3id.org/polifonia/resource/pattern/4_0_11_2_7_4> .
+
+<http://w3id.org/polifonia/resource/JAMSObservation/GooseberryBushThe27289/4_10_10_7_0_7@0.0> a jams:JAMSObservation,
+        jams:JAMSScoreObservation,
+        jams:ScorePatternOccurrence ;
+    rdfs:label [ ] ;
+    jams:hasDuration "0.0"^^xsd:float ;
+    jams:hasFrequency "2"^^xsd:int ;
+    jams:hasPatternType "pitch-class-values" ;
+    jams:ofPattern <http://w3id.org/polifonia/resource/pattern/4_10_10_7_0_7> .
+
+<http://w3id.org/polifonia/resource/JAMSObservation/GooseberryBushThe27289/4_10_10_7_5_4@0.0> a jams:JAMSObservation,
+        jams:JAMSScoreObservation,
+        jams:ScorePatternOccurrence ;
+    rdfs:label [ ] ;
+    jams:hasDuration "0.0"^^xsd:float ;
+    jams:hasFrequency "2"^^xsd:int ;
+    jams:hasPatternType "pitch-class-values" ;
+    jams:ofPattern <http://w3id.org/polifonia/resource/pattern/4_10_10_7_5_4> .
+
+<http://w3id.org/polifonia/resource/JAMSObservation/GooseberryBushThe27289/4_10_7_4_10_10@0.0> a jams:JAMSObservation,
+        jams:JAMSScoreObservation,
+        jams:ScorePatternOccurrence ;
+    rdfs:label [ ] ;
+    jams:hasDuration "0.0"^^xsd:float ;
+    jams:hasFrequency "2"^^xsd:int ;
+    jams:hasPatternType "pitch-class-values" ;
+    jams:ofPattern <http://w3id.org/polifonia/resource/pattern/4_10_7_4_10_10> .
+
+<http://w3id.org/polifonia/resource/JAMSObservation/GooseberryBushThe27289/4_2_7_9_5_5@0.0> a jams:JAMSObservation,
+        jams:JAMSScoreObservation,
+        jams:ScorePatternOccurrence ;
+    rdfs:label [ ] ;
+    jams:hasDuration "0.0"^^xsd:float ;
+    jams:hasFrequency "2"^^xsd:int ;
+    jams:hasPatternType "pitch-class-values" ;
+    jams:ofPattern <http://w3id.org/polifonia/resource/pattern/4_2_7_9_5_5> .
+
+<http://w3id.org/polifonia/resource/JAMSObservation/GooseberryBushThe27289/5_0_0_5_2_10@0.0> a jams:JAMSObservation,
+        jams:JAMSScoreObservation,
+        jams:ScorePatternOccurrence ;
+    rdfs:label [ ] ;
+    jams:hasDuration "0.0"^^xsd:float ;
+    jams:hasFrequency "2"^^xsd:int ;
+    jams:hasPatternType "pitch-class-values" ;
+    jams:ofPattern <http://w3id.org/polifonia/resource/pattern/5_0_0_5_2_10> .
+
+<http://w3id.org/polifonia/resource/JAMSObservation/GooseberryBushThe27289/5_0_2_7_0_4@0.0> a jams:JAMSObservation,
+        jams:JAMSScoreObservation,
+        jams:ScorePatternOccurrence ;
+    rdfs:label [ ] ;
+    jams:hasDuration "0.0"^^xsd:float ;
+    jams:hasFrequency "2"^^xsd:int ;
+    jams:hasPatternType "pitch-class-values" ;
+    jams:ofPattern <http://w3id.org/polifonia/resource/pattern/5_0_2_7_0_4> .
+
+<http://w3id.org/polifonia/resource/JAMSObservation/GooseberryBushThe27289/5_2_10_7_0_7@0.0> a jams:JAMSObservation,
+        jams:JAMSScoreObservation,
+        jams:ScorePatternOccurrence ;
+    rdfs:label [ ] ;
+    jams:hasDuration "0.0"^^xsd:float ;
+    jams:hasFrequency "2"^^xsd:int ;
+    jams:hasPatternType "pitch-class-values" ;
+    jams:ofPattern <http://w3id.org/polifonia/resource/pattern/5_2_10_7_0_7> .
+
+<http://w3id.org/polifonia/resource/JAMSObservation/GooseberryBushThe27289/5_4_10_7_4_10@0.0> a jams:JAMSObservation,
+        jams:JAMSScoreObservation,
+        jams:ScorePatternOccurrence ;
+    rdfs:label [ ] ;
+    jams:hasDuration "0.0"^^xsd:float ;
+    jams:hasFrequency "2"^^xsd:int ;
+    jams:hasPatternType "pitch-class-values" ;
+    jams:ofPattern <http://w3id.org/polifonia/resource/pattern/5_4_10_7_4_10> .
+
+<http://w3id.org/polifonia/resource/JAMSObservation/GooseberryBushThe27289/5_5_0_0_5_2@0.0> a jams:JAMSObservation,
+        jams:JAMSScoreObservation,
+        jams:ScorePatternOccurrence ;
+    rdfs:label [ ] ;
+    jams:hasDuration "0.0"^^xsd:float ;
+    jams:hasFrequency "2"^^xsd:int ;
+    jams:hasPatternType "pitch-class-values" ;
+    jams:ofPattern <http://w3id.org/polifonia/resource/pattern/5_5_0_0_5_2> .
+
+<http://w3id.org/polifonia/resource/JAMSObservation/GooseberryBushThe27289/7_0_2_5_0_2@0.0> a jams:JAMSObservation,
+        jams:JAMSScoreObservation,
+        jams:ScorePatternOccurrence ;
+    rdfs:label [ ] ;
+    jams:hasDuration "0.0"^^xsd:float ;
+    jams:hasFrequency "2"^^xsd:int ;
+    jams:hasPatternType "pitch-class-values" ;
+    jams:ofPattern <http://w3id.org/polifonia/resource/pattern/7_0_2_5_0_2> .
+
+<http://w3id.org/polifonia/resource/JAMSObservation/GooseberryBushThe27289/7_0_4_0_11_2@0.0> a jams:JAMSObservation,
+        jams:JAMSScoreObservation,
+        jams:ScorePatternOccurrence ;
+    rdfs:label [ ] ;
+    jams:hasDuration "0.0"^^xsd:float ;
+    jams:hasFrequency "2"^^xsd:int ;
+    jams:hasPatternType "pitch-class-values" ;
+    jams:ofPattern <http://w3id.org/polifonia/resource/pattern/7_0_4_0_11_2> .
+
+<http://w3id.org/polifonia/resource/JAMSObservation/GooseberryBushThe27289/7_0_7_0_7_4@0.0> a jams:JAMSObservation,
+        jams:JAMSScoreObservation,
+        jams:ScorePatternOccurrence ;
+    rdfs:label [ ] ;
+    jams:hasDuration "0.0"^^xsd:float ;
+    jams:hasFrequency "3"^^xsd:int ;
+    jams:hasPatternType "pitch-class-values" ;
+    jams:ofPattern <http://w3id.org/polifonia/resource/pattern/7_0_7_0_7_4> .
+
+<http://w3id.org/polifonia/resource/JAMSObservation/GooseberryBushThe27289/7_0_7_4_10_10@0.0> a jams:JAMSObservation,
+        jams:JAMSScoreObservation,
+        jams:ScorePatternOccurrence ;
+    rdfs:label [ ] ;
+    jams:hasDuration "0.0"^^xsd:float ;
+    jams:hasFrequency "1"^^xsd:int ;
+    jams:hasPatternType "pitch-class-values" ;
+    jams:ofPattern <http://w3id.org/polifonia/resource/pattern/7_0_7_4_10_10> .
+
+<http://w3id.org/polifonia/resource/JAMSObservation/GooseberryBushThe27289/7_0_7_4_2_7@0.0> a jams:JAMSObservation,
+        jams:JAMSScoreObservation,
+        jams:ScorePatternOccurrence ;
+    rdfs:label [ ] ;
+    jams:hasDuration "0.0"^^xsd:float ;
+    jams:hasFrequency "2"^^xsd:int ;
+    jams:hasPatternType "pitch-class-values" ;
+    jams:ofPattern <http://w3id.org/polifonia/resource/pattern/7_0_7_4_2_7> .
+
+<http://w3id.org/polifonia/resource/JAMSObservation/GooseberryBushThe27289/7_10_7_0_2_5@0.0> a jams:JAMSObservation,
+        jams:JAMSScoreObservation,
+        jams:ScorePatternOccurrence ;
+    rdfs:label [ ] ;
+    jams:hasDuration "0.0"^^xsd:float ;
+    jams:hasFrequency "2"^^xsd:int ;
+    jams:hasPatternType "pitch-class-values" ;
+    jams:ofPattern <http://w3id.org/polifonia/resource/pattern/7_10_7_0_2_5> .
+
+<http://w3id.org/polifonia/resource/JAMSObservation/GooseberryBushThe27289/7_2_7_10_7_0@0.0> a jams:JAMSObservation,
+        jams:JAMSScoreObservation,
+        jams:ScorePatternOccurrence ;
+    rdfs:label [ ] ;
+    jams:hasDuration "0.0"^^xsd:float ;
+    jams:hasFrequency "2"^^xsd:int ;
+    jams:hasPatternType "pitch-class-values" ;
+    jams:ofPattern <http://w3id.org/polifonia/resource/pattern/7_2_7_10_7_0> .
+
+<http://w3id.org/polifonia/resource/JAMSObservation/GooseberryBushThe27289/7_4_10_10_7_0@0.0> a jams:JAMSObservation,
+        jams:JAMSScoreObservation,
+        jams:ScorePatternOccurrence ;
+    rdfs:label [ ] ;
+    jams:hasDuration "0.0"^^xsd:float ;
+    jams:hasFrequency "2"^^xsd:int ;
+    jams:hasPatternType "pitch-class-values" ;
+    jams:ofPattern <http://w3id.org/polifonia/resource/pattern/7_4_10_10_7_0> .
+
+<http://w3id.org/polifonia/resource/JAMSObservation/GooseberryBushThe27289/7_4_10_10_7_5@0.0> a jams:JAMSObservation,
+        jams:JAMSScoreObservation,
+        jams:ScorePatternOccurrence ;
+    rdfs:label [ ] ;
+    jams:hasDuration "0.0"^^xsd:float ;
+    jams:hasFrequency "2"^^xsd:int ;
+    jams:hasPatternType "pitch-class-values" ;
+    jams:ofPattern <http://w3id.org/polifonia/resource/pattern/7_4_10_10_7_5> .
+
+<http://w3id.org/polifonia/resource/JAMSObservation/GooseberryBushThe27289/7_4_2_7_9_5@0.0> a jams:JAMSObservation,
+        jams:JAMSScoreObservation,
+        jams:ScorePatternOccurrence ;
+    rdfs:label [ ] ;
+    jams:hasDuration "0.0"^^xsd:float ;
+    jams:hasFrequency "2"^^xsd:int ;
+    jams:hasPatternType "pitch-class-values" ;
+    jams:ofPattern <http://w3id.org/polifonia/resource/pattern/7_4_2_7_9_5> .
+
+<http://w3id.org/polifonia/resource/JAMSObservation/GooseberryBushThe27289/7_5_4_10_7_4@0.0> a jams:JAMSObservation,
+        jams:JAMSScoreObservation,
+        jams:ScorePatternOccurrence ;
+    rdfs:label [ ] ;
+    jams:hasDuration "0.0"^^xsd:float ;
+    jams:hasFrequency "2"^^xsd:int ;
+    jams:hasPatternType "pitch-class-values" ;
+    jams:ofPattern <http://w3id.org/polifonia/resource/pattern/7_5_4_10_7_4> .
+
+<http://w3id.org/polifonia/resource/JAMSObservation/GooseberryBushThe27289/7_9_5_5_0_0@0.0> a jams:JAMSObservation,
+        jams:JAMSScoreObservation,
+        jams:ScorePatternOccurrence ;
+    rdfs:label [ ] ;
+    jams:hasDuration "0.0"^^xsd:float ;
+    jams:hasFrequency "2"^^xsd:int ;
+    jams:hasPatternType "pitch-class-values" ;
+    jams:ofPattern <http://w3id.org/polifonia/resource/pattern/7_9_5_5_0_0> .
+
+<http://w3id.org/polifonia/resource/JAMSObservation/GooseberryBushThe27289/9_5_5_0_0_5@0.0> a jams:JAMSObservation,
+        jams:JAMSScoreObservation,
+        jams:ScorePatternOccurrence ;
+    rdfs:label [ ] ;
+    jams:hasDuration "0.0"^^xsd:float ;
+    jams:hasFrequency "2"^^xsd:int ;
+    jams:hasPatternType "pitch-class-values" ;
+    jams:ofPattern <http://w3id.org/polifonia/resource/pattern/9_5_5_0_0_5> .
+
+<http://w3id.org/polifonia/resource/MusicalComposition/dead7614f7f834a88f236b6bc36c1d44d8796e7e> a mc:MusicalComposition ;
+    rdfs:label "GooseberryBushThe27289" ;
+    mc:title "GooseberryBushThe27289" ;
+    prov:wasDerivedFrom <http://w3id.org/polifonia/resource/JAMSFile/GooseberryBushThe27289.jams> .
+

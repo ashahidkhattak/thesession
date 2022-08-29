@@ -1,0 +1,371 @@
+@prefix core: <http://w3id.org/polifonia/ontology/core/> .
+@prefix jams: <http://w3id.org/polifonia/ontology/jams/> .
+@prefix mc: <http://w3id.org/polifonia/ontology/musical-composition/> .
+@prefix pon-resource: <http://w3id.org/polifonia/resource/> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+pon-resource:Agent%2Fannotator_local_id a core:Agent ;
+    rdfs:label "FONN-Tool" ;
+    jams:hasAnnotatorType pon-resource:annotator-program ;
+    jams:hasName "FONN-Tool" .
+
+<http://w3id.org/polifonia/resource/JAMSAnnotation/85e5b4ce0660b1cad35df87bd26db5a79e7971fa> a jams:JAMSAnnotation,
+        jams:JAMSScoreAnnotation ;
+    jams:includesObservation <http://w3id.org/polifonia/resource/JAMSObservation/FirstOfMayThe11689/0_0_0_5_4_5@0.0>,
+        <http://w3id.org/polifonia/resource/JAMSObservation/FirstOfMayThe11689/0_0_5_4_5_4@0.0>,
+        <http://w3id.org/polifonia/resource/JAMSObservation/FirstOfMayThe11689/0_0_7_2_7_2@0.0>,
+        <http://w3id.org/polifonia/resource/JAMSObservation/FirstOfMayThe11689/0_5_4_5_4_2@0.0>,
+        <http://w3id.org/polifonia/resource/JAMSObservation/FirstOfMayThe11689/0_5_4_5_4_5@0.0>,
+        <http://w3id.org/polifonia/resource/JAMSObservation/FirstOfMayThe11689/0_7_2_7_2_7@0.0>,
+        <http://w3id.org/polifonia/resource/JAMSObservation/FirstOfMayThe11689/2_0_0_0_5_4@0.0>,
+        <http://w3id.org/polifonia/resource/JAMSObservation/FirstOfMayThe11689/2_0_0_7_2_7@0.0>,
+        <http://w3id.org/polifonia/resource/JAMSObservation/FirstOfMayThe11689/2_0_5_4_5_4@0.0>,
+        <http://w3id.org/polifonia/resource/JAMSObservation/FirstOfMayThe11689/2_2_7_9_9_7@0.0>,
+        <http://w3id.org/polifonia/resource/JAMSObservation/FirstOfMayThe11689/2_7_2_2_7_9@0.0>,
+        <http://w3id.org/polifonia/resource/JAMSObservation/FirstOfMayThe11689/2_7_2_7_2_2@0.0>,
+        <http://w3id.org/polifonia/resource/JAMSObservation/FirstOfMayThe11689/2_7_9_9_7_7@0.0>,
+        <http://w3id.org/polifonia/resource/JAMSObservation/FirstOfMayThe11689/4_2_0_0_0_5@0.0>,
+        <http://w3id.org/polifonia/resource/JAMSObservation/FirstOfMayThe11689/4_2_0_0_7_2@0.0>,
+        <http://w3id.org/polifonia/resource/JAMSObservation/FirstOfMayThe11689/4_2_0_5_4_5@0.0>,
+        <http://w3id.org/polifonia/resource/JAMSObservation/FirstOfMayThe11689/4_5_4_2_0_0@0.0>,
+        <http://w3id.org/polifonia/resource/JAMSObservation/FirstOfMayThe11689/4_5_4_2_0_5@0.0>,
+        <http://w3id.org/polifonia/resource/JAMSObservation/FirstOfMayThe11689/4_5_4_5_4_2@0.0>,
+        <http://w3id.org/polifonia/resource/JAMSObservation/FirstOfMayThe11689/5_4_2_0_0_0@0.0>,
+        <http://w3id.org/polifonia/resource/JAMSObservation/FirstOfMayThe11689/5_4_2_0_0_7@0.0>,
+        <http://w3id.org/polifonia/resource/JAMSObservation/FirstOfMayThe11689/5_4_2_0_5_4@0.0>,
+        <http://w3id.org/polifonia/resource/JAMSObservation/FirstOfMayThe11689/5_4_5_4_2_0@0.0>,
+        <http://w3id.org/polifonia/resource/JAMSObservation/FirstOfMayThe11689/5_4_5_4_5_4@0.0>,
+        <http://w3id.org/polifonia/resource/JAMSObservation/FirstOfMayThe11689/7_0_0_7_2_7@0.0>,
+        <http://w3id.org/polifonia/resource/JAMSObservation/FirstOfMayThe11689/7_2_2_7_9_9@0.0>,
+        <http://w3id.org/polifonia/resource/JAMSObservation/FirstOfMayThe11689/7_2_7_2_2_7@0.0>,
+        <http://w3id.org/polifonia/resource/JAMSObservation/FirstOfMayThe11689/7_2_7_2_7_2@0.0>,
+        <http://w3id.org/polifonia/resource/JAMSObservation/FirstOfMayThe11689/7_7_0_0_7_2@0.0>,
+        <http://w3id.org/polifonia/resource/JAMSObservation/FirstOfMayThe11689/7_7_7_0_0_7@0.0>,
+        <http://w3id.org/polifonia/resource/JAMSObservation/FirstOfMayThe11689/7_7_7_7_0_0@0.0>,
+        <http://w3id.org/polifonia/resource/JAMSObservation/FirstOfMayThe11689/7_9_9_7_7_7@0.0>,
+        <http://w3id.org/polifonia/resource/JAMSObservation/FirstOfMayThe11689/9_7_7_7_7_0@0.0>,
+        <http://w3id.org/polifonia/resource/JAMSObservation/FirstOfMayThe11689/9_9_7_7_7_7@0.0> ;
+    jams:isJAMSAnnotationOf <http://w3id.org/polifonia/resource/MusicalComposition/85e5b4ce0660b1cad35df87bd26db5a79e7971fa> .
+
+<http://w3id.org/polifonia/resource/Score/song_local_id> jams:hasJAMSAnnotation <http://w3id.org/polifonia/resource/MusicalComposition/85e5b4ce0660b1cad35df87bd26db5a79e7971fa> .
+
+<http://w3id.org/polifonia/resource/JAMSFile/FirstOfMayThe11689.jams> a jams:JAMSFile ;
+    jams:identifiers [ ] ;
+    jams:jamsVersion "0.3.4" ;
+    jams:release "" ;
+    prov:wasDerivedFrom "The Session" ;
+    prov:wasMemberOf <https://github.com/ashahidkhattak/thesession> .
+
+<http://w3id.org/polifonia/resource/JAMSObservation/FirstOfMayThe11689/0_0_0_5_4_5@0.0> a jams:JAMSObservation,
+        jams:JAMSScoreObservation,
+        jams:ScorePatternOccurrence ;
+    rdfs:label [ ] ;
+    jams:hasDuration "0.0"^^xsd:float ;
+    jams:hasFrequency "1"^^xsd:int ;
+    jams:hasPatternType "pitch-class-values" ;
+    jams:ofPattern <http://w3id.org/polifonia/resource/pattern/0_0_0_5_4_5> .
+
+<http://w3id.org/polifonia/resource/JAMSObservation/FirstOfMayThe11689/0_0_5_4_5_4@0.0> a jams:JAMSObservation,
+        jams:JAMSScoreObservation,
+        jams:ScorePatternOccurrence ;
+    rdfs:label [ ] ;
+    jams:hasDuration "0.0"^^xsd:float ;
+    jams:hasFrequency "1"^^xsd:int ;
+    jams:hasPatternType "pitch-class-values" ;
+    jams:ofPattern <http://w3id.org/polifonia/resource/pattern/0_0_5_4_5_4> .
+
+<http://w3id.org/polifonia/resource/JAMSObservation/FirstOfMayThe11689/0_0_7_2_7_2@0.0> a jams:JAMSObservation,
+        jams:JAMSScoreObservation,
+        jams:ScorePatternOccurrence ;
+    rdfs:label [ ] ;
+    jams:hasDuration "0.0"^^xsd:float ;
+    jams:hasFrequency "2"^^xsd:int ;
+    jams:hasPatternType "pitch-class-values" ;
+    jams:ofPattern <http://w3id.org/polifonia/resource/pattern/0_0_7_2_7_2> .
+
+<http://w3id.org/polifonia/resource/JAMSObservation/FirstOfMayThe11689/0_5_4_5_4_2@0.0> a jams:JAMSObservation,
+        jams:JAMSScoreObservation,
+        jams:ScorePatternOccurrence ;
+    rdfs:label [ ] ;
+    jams:hasDuration "0.0"^^xsd:float ;
+    jams:hasFrequency "2"^^xsd:int ;
+    jams:hasPatternType "pitch-class-values" ;
+    jams:ofPattern <http://w3id.org/polifonia/resource/pattern/0_5_4_5_4_2> .
+
+<http://w3id.org/polifonia/resource/JAMSObservation/FirstOfMayThe11689/0_5_4_5_4_5@0.0> a jams:JAMSObservation,
+        jams:JAMSScoreObservation,
+        jams:ScorePatternOccurrence ;
+    rdfs:label [ ] ;
+    jams:hasDuration "0.0"^^xsd:float ;
+    jams:hasFrequency "2"^^xsd:int ;
+    jams:hasPatternType "pitch-class-values" ;
+    jams:ofPattern <http://w3id.org/polifonia/resource/pattern/0_5_4_5_4_5> .
+
+<http://w3id.org/polifonia/resource/JAMSObservation/FirstOfMayThe11689/0_7_2_7_2_7@0.0> a jams:JAMSObservation,
+        jams:JAMSScoreObservation,
+        jams:ScorePatternOccurrence ;
+    rdfs:label [ ] ;
+    jams:hasDuration "0.0"^^xsd:float ;
+    jams:hasFrequency "2"^^xsd:int ;
+    jams:hasPatternType "pitch-class-values" ;
+    jams:ofPattern <http://w3id.org/polifonia/resource/pattern/0_7_2_7_2_7> .
+
+<http://w3id.org/polifonia/resource/JAMSObservation/FirstOfMayThe11689/2_0_0_0_5_4@0.0> a jams:JAMSObservation,
+        jams:JAMSScoreObservation,
+        jams:ScorePatternOccurrence ;
+    rdfs:label [ ] ;
+    jams:hasDuration "0.0"^^xsd:float ;
+    jams:hasFrequency "1"^^xsd:int ;
+    jams:hasPatternType "pitch-class-values" ;
+    jams:ofPattern <http://w3id.org/polifonia/resource/pattern/2_0_0_0_5_4> .
+
+<http://w3id.org/polifonia/resource/JAMSObservation/FirstOfMayThe11689/2_0_0_7_2_7@0.0> a jams:JAMSObservation,
+        jams:JAMSScoreObservation,
+        jams:ScorePatternOccurrence ;
+    rdfs:label [ ] ;
+    jams:hasDuration "0.0"^^xsd:float ;
+    jams:hasFrequency "1"^^xsd:int ;
+    jams:hasPatternType "pitch-class-values" ;
+    jams:ofPattern <http://w3id.org/polifonia/resource/pattern/2_0_0_7_2_7> .
+
+<http://w3id.org/polifonia/resource/JAMSObservation/FirstOfMayThe11689/2_0_5_4_5_4@0.0> a jams:JAMSObservation,
+        jams:JAMSScoreObservation,
+        jams:ScorePatternOccurrence ;
+    rdfs:label [ ] ;
+    jams:hasDuration "0.0"^^xsd:float ;
+    jams:hasFrequency "2"^^xsd:int ;
+    jams:hasPatternType "pitch-class-values" ;
+    jams:ofPattern <http://w3id.org/polifonia/resource/pattern/2_0_5_4_5_4> .
+
+<http://w3id.org/polifonia/resource/JAMSObservation/FirstOfMayThe11689/2_2_7_9_9_7@0.0> a jams:JAMSObservation,
+        jams:JAMSScoreObservation,
+        jams:ScorePatternOccurrence ;
+    rdfs:label [ ] ;
+    jams:hasDuration "0.0"^^xsd:float ;
+    jams:hasFrequency "2"^^xsd:int ;
+    jams:hasPatternType "pitch-class-values" ;
+    jams:ofPattern <http://w3id.org/polifonia/resource/pattern/2_2_7_9_9_7> .
+
+<http://w3id.org/polifonia/resource/JAMSObservation/FirstOfMayThe11689/2_7_2_2_7_9@0.0> a jams:JAMSObservation,
+        jams:JAMSScoreObservation,
+        jams:ScorePatternOccurrence ;
+    rdfs:label [ ] ;
+    jams:hasDuration "0.0"^^xsd:float ;
+    jams:hasFrequency "2"^^xsd:int ;
+    jams:hasPatternType "pitch-class-values" ;
+    jams:ofPattern <http://w3id.org/polifonia/resource/pattern/2_7_2_2_7_9> .
+
+<http://w3id.org/polifonia/resource/JAMSObservation/FirstOfMayThe11689/2_7_2_7_2_2@0.0> a jams:JAMSObservation,
+        jams:JAMSScoreObservation,
+        jams:ScorePatternOccurrence ;
+    rdfs:label [ ] ;
+    jams:hasDuration "0.0"^^xsd:float ;
+    jams:hasFrequency "2"^^xsd:int ;
+    jams:hasPatternType "pitch-class-values" ;
+    jams:ofPattern <http://w3id.org/polifonia/resource/pattern/2_7_2_7_2_2> .
+
+<http://w3id.org/polifonia/resource/JAMSObservation/FirstOfMayThe11689/2_7_9_9_7_7@0.0> a jams:JAMSObservation,
+        jams:JAMSScoreObservation,
+        jams:ScorePatternOccurrence ;
+    rdfs:label [ ] ;
+    jams:hasDuration "0.0"^^xsd:float ;
+    jams:hasFrequency "2"^^xsd:int ;
+    jams:hasPatternType "pitch-class-values" ;
+    jams:ofPattern <http://w3id.org/polifonia/resource/pattern/2_7_9_9_7_7> .
+
+<http://w3id.org/polifonia/resource/JAMSObservation/FirstOfMayThe11689/4_2_0_0_0_5@0.0> a jams:JAMSObservation,
+        jams:JAMSScoreObservation,
+        jams:ScorePatternOccurrence ;
+    rdfs:label [ ] ;
+    jams:hasDuration "0.0"^^xsd:float ;
+    jams:hasFrequency "1"^^xsd:int ;
+    jams:hasPatternType "pitch-class-values" ;
+    jams:ofPattern <http://w3id.org/polifonia/resource/pattern/4_2_0_0_0_5> .
+
+<http://w3id.org/polifonia/resource/JAMSObservation/FirstOfMayThe11689/4_2_0_0_7_2@0.0> a jams:JAMSObservation,
+        jams:JAMSScoreObservation,
+        jams:ScorePatternOccurrence ;
+    rdfs:label [ ] ;
+    jams:hasDuration "0.0"^^xsd:float ;
+    jams:hasFrequency "1"^^xsd:int ;
+    jams:hasPatternType "pitch-class-values" ;
+    jams:ofPattern <http://w3id.org/polifonia/resource/pattern/4_2_0_0_7_2> .
+
+<http://w3id.org/polifonia/resource/JAMSObservation/FirstOfMayThe11689/4_2_0_5_4_5@0.0> a jams:JAMSObservation,
+        jams:JAMSScoreObservation,
+        jams:ScorePatternOccurrence ;
+    rdfs:label [ ] ;
+    jams:hasDuration "0.0"^^xsd:float ;
+    jams:hasFrequency "2"^^xsd:int ;
+    jams:hasPatternType "pitch-class-values" ;
+    jams:ofPattern <http://w3id.org/polifonia/resource/pattern/4_2_0_5_4_5> .
+
+<http://w3id.org/polifonia/resource/JAMSObservation/FirstOfMayThe11689/4_5_4_2_0_0@0.0> a jams:JAMSObservation,
+        jams:JAMSScoreObservation,
+        jams:ScorePatternOccurrence ;
+    rdfs:label [ ] ;
+    jams:hasDuration "0.0"^^xsd:float ;
+    jams:hasFrequency "2"^^xsd:int ;
+    jams:hasPatternType "pitch-class-values" ;
+    jams:ofPattern <http://w3id.org/polifonia/resource/pattern/4_5_4_2_0_0> .
+
+<http://w3id.org/polifonia/resource/JAMSObservation/FirstOfMayThe11689/4_5_4_2_0_5@0.0> a jams:JAMSObservation,
+        jams:JAMSScoreObservation,
+        jams:ScorePatternOccurrence ;
+    rdfs:label [ ] ;
+    jams:hasDuration "0.0"^^xsd:float ;
+    jams:hasFrequency "2"^^xsd:int ;
+    jams:hasPatternType "pitch-class-values" ;
+    jams:ofPattern <http://w3id.org/polifonia/resource/pattern/4_5_4_2_0_5> .
+
+<http://w3id.org/polifonia/resource/JAMSObservation/FirstOfMayThe11689/4_5_4_5_4_2@0.0> a jams:JAMSObservation,
+        jams:JAMSScoreObservation,
+        jams:ScorePatternOccurrence ;
+    rdfs:label [ ] ;
+    jams:hasDuration "0.0"^^xsd:float ;
+    jams:hasFrequency "2"^^xsd:int ;
+    jams:hasPatternType "pitch-class-values" ;
+    jams:ofPattern <http://w3id.org/polifonia/resource/pattern/4_5_4_5_4_2> .
+
+<http://w3id.org/polifonia/resource/JAMSObservation/FirstOfMayThe11689/5_4_2_0_0_0@0.0> a jams:JAMSObservation,
+        jams:JAMSScoreObservation,
+        jams:ScorePatternOccurrence ;
+    rdfs:label [ ] ;
+    jams:hasDuration "0.0"^^xsd:float ;
+    jams:hasFrequency "1"^^xsd:int ;
+    jams:hasPatternType "pitch-class-values" ;
+    jams:ofPattern <http://w3id.org/polifonia/resource/pattern/5_4_2_0_0_0> .
+
+<http://w3id.org/polifonia/resource/JAMSObservation/FirstOfMayThe11689/5_4_2_0_0_7@0.0> a jams:JAMSObservation,
+        jams:JAMSScoreObservation,
+        jams:ScorePatternOccurrence ;
+    rdfs:label [ ] ;
+    jams:hasDuration "0.0"^^xsd:float ;
+    jams:hasFrequency "1"^^xsd:int ;
+    jams:hasPatternType "pitch-class-values" ;
+    jams:ofPattern <http://w3id.org/polifonia/resource/pattern/5_4_2_0_0_7> .
+
+<http://w3id.org/polifonia/resource/JAMSObservation/FirstOfMayThe11689/5_4_2_0_5_4@0.0> a jams:JAMSObservation,
+        jams:JAMSScoreObservation,
+        jams:ScorePatternOccurrence ;
+    rdfs:label [ ] ;
+    jams:hasDuration "0.0"^^xsd:float ;
+    jams:hasFrequency "2"^^xsd:int ;
+    jams:hasPatternType "pitch-class-values" ;
+    jams:ofPattern <http://w3id.org/polifonia/resource/pattern/5_4_2_0_5_4> .
+
+<http://w3id.org/polifonia/resource/JAMSObservation/FirstOfMayThe11689/5_4_5_4_2_0@0.0> a jams:JAMSObservation,
+        jams:JAMSScoreObservation,
+        jams:ScorePatternOccurrence ;
+    rdfs:label [ ] ;
+    jams:hasDuration "0.0"^^xsd:float ;
+    jams:hasFrequency "4"^^xsd:int ;
+    jams:hasPatternType "pitch-class-values" ;
+    jams:ofPattern <http://w3id.org/polifonia/resource/pattern/5_4_5_4_2_0> .
+
+<http://w3id.org/polifonia/resource/JAMSObservation/FirstOfMayThe11689/5_4_5_4_5_4@0.0> a jams:JAMSObservation,
+        jams:JAMSScoreObservation,
+        jams:ScorePatternOccurrence ;
+    rdfs:label [ ] ;
+    jams:hasDuration "0.0"^^xsd:float ;
+    jams:hasFrequency "2"^^xsd:int ;
+    jams:hasPatternType "pitch-class-values" ;
+    jams:ofPattern <http://w3id.org/polifonia/resource/pattern/5_4_5_4_5_4> .
+
+<http://w3id.org/polifonia/resource/JAMSObservation/FirstOfMayThe11689/7_0_0_7_2_7@0.0> a jams:JAMSObservation,
+        jams:JAMSScoreObservation,
+        jams:ScorePatternOccurrence ;
+    rdfs:label [ ] ;
+    jams:hasDuration "0.0"^^xsd:float ;
+    jams:hasFrequency "1"^^xsd:int ;
+    jams:hasPatternType "pitch-class-values" ;
+    jams:ofPattern <http://w3id.org/polifonia/resource/pattern/7_0_0_7_2_7> .
+
+<http://w3id.org/polifonia/resource/JAMSObservation/FirstOfMayThe11689/7_2_2_7_9_9@0.0> a jams:JAMSObservation,
+        jams:JAMSScoreObservation,
+        jams:ScorePatternOccurrence ;
+    rdfs:label [ ] ;
+    jams:hasDuration "0.0"^^xsd:float ;
+    jams:hasFrequency "2"^^xsd:int ;
+    jams:hasPatternType "pitch-class-values" ;
+    jams:ofPattern <http://w3id.org/polifonia/resource/pattern/7_2_2_7_9_9> .
+
+<http://w3id.org/polifonia/resource/JAMSObservation/FirstOfMayThe11689/7_2_7_2_2_7@0.0> a jams:JAMSObservation,
+        jams:JAMSScoreObservation,
+        jams:ScorePatternOccurrence ;
+    rdfs:label [ ] ;
+    jams:hasDuration "0.0"^^xsd:float ;
+    jams:hasFrequency "2"^^xsd:int ;
+    jams:hasPatternType "pitch-class-values" ;
+    jams:ofPattern <http://w3id.org/polifonia/resource/pattern/7_2_7_2_2_7> .
+
+<http://w3id.org/polifonia/resource/JAMSObservation/FirstOfMayThe11689/7_2_7_2_7_2@0.0> a jams:JAMSObservation,
+        jams:JAMSScoreObservation,
+        jams:ScorePatternOccurrence ;
+    rdfs:label [ ] ;
+    jams:hasDuration "0.0"^^xsd:float ;
+    jams:hasFrequency "2"^^xsd:int ;
+    jams:hasPatternType "pitch-class-values" ;
+    jams:ofPattern <http://w3id.org/polifonia/resource/pattern/7_2_7_2_7_2> .
+
+<http://w3id.org/polifonia/resource/JAMSObservation/FirstOfMayThe11689/7_7_0_0_7_2@0.0> a jams:JAMSObservation,
+        jams:JAMSScoreObservation,
+        jams:ScorePatternOccurrence ;
+    rdfs:label [ ] ;
+    jams:hasDuration "0.0"^^xsd:float ;
+    jams:hasFrequency "1"^^xsd:int ;
+    jams:hasPatternType "pitch-class-values" ;
+    jams:ofPattern <http://w3id.org/polifonia/resource/pattern/7_7_0_0_7_2> .
+
+<http://w3id.org/polifonia/resource/JAMSObservation/FirstOfMayThe11689/7_7_7_0_0_7@0.0> a jams:JAMSObservation,
+        jams:JAMSScoreObservation,
+        jams:ScorePatternOccurrence ;
+    rdfs:label [ ] ;
+    jams:hasDuration "0.0"^^xsd:float ;
+    jams:hasFrequency "1"^^xsd:int ;
+    jams:hasPatternType "pitch-class-values" ;
+    jams:ofPattern <http://w3id.org/polifonia/resource/pattern/7_7_7_0_0_7> .
+
+<http://w3id.org/polifonia/resource/JAMSObservation/FirstOfMayThe11689/7_7_7_7_0_0@0.0> a jams:JAMSObservation,
+        jams:JAMSScoreObservation,
+        jams:ScorePatternOccurrence ;
+    rdfs:label [ ] ;
+    jams:hasDuration "0.0"^^xsd:float ;
+    jams:hasFrequency "2"^^xsd:int ;
+    jams:hasPatternType "pitch-class-values" ;
+    jams:ofPattern <http://w3id.org/polifonia/resource/pattern/7_7_7_7_0_0> .
+
+<http://w3id.org/polifonia/resource/JAMSObservation/FirstOfMayThe11689/7_9_9_7_7_7@0.0> a jams:JAMSObservation,
+        jams:JAMSScoreObservation,
+        jams:ScorePatternOccurrence ;
+    rdfs:label [ ] ;
+    jams:hasDuration "0.0"^^xsd:float ;
+    jams:hasFrequency "2"^^xsd:int ;
+    jams:hasPatternType "pitch-class-values" ;
+    jams:ofPattern <http://w3id.org/polifonia/resource/pattern/7_9_9_7_7_7> .
+
+<http://w3id.org/polifonia/resource/JAMSObservation/FirstOfMayThe11689/9_7_7_7_7_0@0.0> a jams:JAMSObservation,
+        jams:JAMSScoreObservation,
+        jams:ScorePatternOccurrence ;
+    rdfs:label [ ] ;
+    jams:hasDuration "0.0"^^xsd:float ;
+    jams:hasFrequency "2"^^xsd:int ;
+    jams:hasPatternType "pitch-class-values" ;
+    jams:ofPattern <http://w3id.org/polifonia/resource/pattern/9_7_7_7_7_0> .
+
+<http://w3id.org/polifonia/resource/JAMSObservation/FirstOfMayThe11689/9_9_7_7_7_7@0.0> a jams:JAMSObservation,
+        jams:JAMSScoreObservation,
+        jams:ScorePatternOccurrence ;
+    rdfs:label [ ] ;
+    jams:hasDuration "0.0"^^xsd:float ;
+    jams:hasFrequency "2"^^xsd:int ;
+    jams:hasPatternType "pitch-class-values" ;
+    jams:ofPattern <http://w3id.org/polifonia/resource/pattern/9_9_7_7_7_7> .
+
+<http://w3id.org/polifonia/resource/MusicalComposition/85e5b4ce0660b1cad35df87bd26db5a79e7971fa> a mc:MusicalComposition ;
+    rdfs:label "FirstOfMayThe11689" ;
+    mc:title "FirstOfMayThe11689" ;
+    prov:wasDerivedFrom <http://w3id.org/polifonia/resource/JAMSFile/FirstOfMayThe11689.jams> .
+

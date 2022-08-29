@@ -1,0 +1,281 @@
+@prefix core: <http://w3id.org/polifonia/ontology/core/> .
+@prefix jams: <http://w3id.org/polifonia/ontology/jams/> .
+@prefix mc: <http://w3id.org/polifonia/ontology/musical-composition/> .
+@prefix pon-resource: <http://w3id.org/polifonia/resource/> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+pon-resource:Agent%2Fannotator_local_id a core:Agent ;
+    rdfs:label "FONN-Tool" ;
+    jams:hasAnnotatorType pon-resource:annotator-program ;
+    jams:hasName "FONN-Tool" .
+
+<http://w3id.org/polifonia/resource/JAMSAnnotation/68cbab012f80c40991cc3b6e5b1549d688e30b6b> a jams:JAMSAnnotation,
+        jams:JAMSScoreAnnotation ;
+    jams:includesObservation <http://w3id.org/polifonia/resource/JAMSObservation/AGoodNightsSleep20799/0_2_11_4_0_5@0.0>,
+        <http://w3id.org/polifonia/resource/JAMSObservation/AGoodNightsSleep20799/0_2_7_0_3_5@0.0>,
+        <http://w3id.org/polifonia/resource/JAMSObservation/AGoodNightsSleep20799/0_2_7_11_7_0@0.0>,
+        <http://w3id.org/polifonia/resource/JAMSObservation/AGoodNightsSleep20799/0_3_5_5_2_0@0.0>,
+        <http://w3id.org/polifonia/resource/JAMSObservation/AGoodNightsSleep20799/0_5_2_0_2_11@0.0>,
+        <http://w3id.org/polifonia/resource/JAMSObservation/AGoodNightsSleep20799/0_5_5_2_0_2@0.0>,
+        <http://w3id.org/polifonia/resource/JAMSObservation/AGoodNightsSleep20799/11_4_0_5_5_2@0.0>,
+        <http://w3id.org/polifonia/resource/JAMSObservation/AGoodNightsSleep20799/11_7_0_5_2_0@0.0>,
+        <http://w3id.org/polifonia/resource/JAMSObservation/AGoodNightsSleep20799/2_0_2_11_4_0@0.0>,
+        <http://w3id.org/polifonia/resource/JAMSObservation/AGoodNightsSleep20799/2_0_2_7_0_3@0.0>,
+        <http://w3id.org/polifonia/resource/JAMSObservation/AGoodNightsSleep20799/2_0_2_7_11_7@0.0>,
+        <http://w3id.org/polifonia/resource/JAMSObservation/AGoodNightsSleep20799/2_11_4_0_5_5@0.0>,
+        <http://w3id.org/polifonia/resource/JAMSObservation/AGoodNightsSleep20799/2_7_0_3_5_5@0.0>,
+        <http://w3id.org/polifonia/resource/JAMSObservation/AGoodNightsSleep20799/2_7_11_7_0_5@0.0>,
+        <http://w3id.org/polifonia/resource/JAMSObservation/AGoodNightsSleep20799/3_5_5_2_0_2@0.0>,
+        <http://w3id.org/polifonia/resource/JAMSObservation/AGoodNightsSleep20799/4_0_5_5_2_0@0.0>,
+        <http://w3id.org/polifonia/resource/JAMSObservation/AGoodNightsSleep20799/5_2_0_2_11_4@0.0>,
+        <http://w3id.org/polifonia/resource/JAMSObservation/AGoodNightsSleep20799/5_2_0_2_7_0@0.0>,
+        <http://w3id.org/polifonia/resource/JAMSObservation/AGoodNightsSleep20799/5_2_0_2_7_11@0.0>,
+        <http://w3id.org/polifonia/resource/JAMSObservation/AGoodNightsSleep20799/5_5_2_0_2_11@0.0>,
+        <http://w3id.org/polifonia/resource/JAMSObservation/AGoodNightsSleep20799/5_5_2_0_2_7@0.0>,
+        <http://w3id.org/polifonia/resource/JAMSObservation/AGoodNightsSleep20799/7_0_3_5_5_2@0.0>,
+        <http://w3id.org/polifonia/resource/JAMSObservation/AGoodNightsSleep20799/7_0_5_2_0_2@0.0>,
+        <http://w3id.org/polifonia/resource/JAMSObservation/AGoodNightsSleep20799/7_11_7_0_5_2@0.0>,
+        <http://w3id.org/polifonia/resource/JAMSObservation/AGoodNightsSleep20799/9_2_0_2_7_11@0.0> ;
+    jams:isJAMSAnnotationOf <http://w3id.org/polifonia/resource/MusicalComposition/68cbab012f80c40991cc3b6e5b1549d688e30b6b> .
+
+<http://w3id.org/polifonia/resource/Score/song_local_id> jams:hasJAMSAnnotation <http://w3id.org/polifonia/resource/MusicalComposition/68cbab012f80c40991cc3b6e5b1549d688e30b6b> .
+
+<http://w3id.org/polifonia/resource/JAMSFile/AGoodNightsSleep20799.jams> a jams:JAMSFile ;
+    jams:identifiers [ ] ;
+    jams:jamsVersion "0.3.4" ;
+    jams:release "" ;
+    prov:wasDerivedFrom "The Session" ;
+    prov:wasMemberOf <https://github.com/ashahidkhattak/thesession> .
+
+<http://w3id.org/polifonia/resource/JAMSObservation/AGoodNightsSleep20799/0_2_11_4_0_5@0.0> a jams:JAMSObservation,
+        jams:JAMSScoreObservation,
+        jams:ScorePatternOccurrence ;
+    rdfs:label [ ] ;
+    jams:hasDuration "0.0"^^xsd:float ;
+    jams:hasFrequency "4"^^xsd:int ;
+    jams:hasPatternType "pitch-class-values" ;
+    jams:ofPattern <http://w3id.org/polifonia/resource/pattern/0_2_11_4_0_5> .
+
+<http://w3id.org/polifonia/resource/JAMSObservation/AGoodNightsSleep20799/0_2_7_0_3_5@0.0> a jams:JAMSObservation,
+        jams:JAMSScoreObservation,
+        jams:ScorePatternOccurrence ;
+    rdfs:label [ ] ;
+    jams:hasDuration "0.0"^^xsd:float ;
+    jams:hasFrequency "2"^^xsd:int ;
+    jams:hasPatternType "pitch-class-values" ;
+    jams:ofPattern <http://w3id.org/polifonia/resource/pattern/0_2_7_0_3_5> .
+
+<http://w3id.org/polifonia/resource/JAMSObservation/AGoodNightsSleep20799/0_2_7_11_7_0@0.0> a jams:JAMSObservation,
+        jams:JAMSScoreObservation,
+        jams:ScorePatternOccurrence ;
+    rdfs:label [ ] ;
+    jams:hasDuration "0.0"^^xsd:float ;
+    jams:hasFrequency "2"^^xsd:int ;
+    jams:hasPatternType "pitch-class-values" ;
+    jams:ofPattern <http://w3id.org/polifonia/resource/pattern/0_2_7_11_7_0> .
+
+<http://w3id.org/polifonia/resource/JAMSObservation/AGoodNightsSleep20799/0_3_5_5_2_0@0.0> a jams:JAMSObservation,
+        jams:JAMSScoreObservation,
+        jams:ScorePatternOccurrence ;
+    rdfs:label [ ] ;
+    jams:hasDuration "0.0"^^xsd:float ;
+    jams:hasFrequency "2"^^xsd:int ;
+    jams:hasPatternType "pitch-class-values" ;
+    jams:ofPattern <http://w3id.org/polifonia/resource/pattern/0_3_5_5_2_0> .
+
+<http://w3id.org/polifonia/resource/JAMSObservation/AGoodNightsSleep20799/0_5_2_0_2_11@0.0> a jams:JAMSObservation,
+        jams:JAMSScoreObservation,
+        jams:ScorePatternOccurrence ;
+    rdfs:label [ ] ;
+    jams:hasDuration "0.0"^^xsd:float ;
+    jams:hasFrequency "2"^^xsd:int ;
+    jams:hasPatternType "pitch-class-values" ;
+    jams:ofPattern <http://w3id.org/polifonia/resource/pattern/0_5_2_0_2_11> .
+
+<http://w3id.org/polifonia/resource/JAMSObservation/AGoodNightsSleep20799/0_5_5_2_0_2@0.0> a jams:JAMSObservation,
+        jams:JAMSScoreObservation,
+        jams:ScorePatternOccurrence ;
+    rdfs:label [ ] ;
+    jams:hasDuration "0.0"^^xsd:float ;
+    jams:hasFrequency "3"^^xsd:int ;
+    jams:hasPatternType "pitch-class-values" ;
+    jams:ofPattern <http://w3id.org/polifonia/resource/pattern/0_5_5_2_0_2> .
+
+<http://w3id.org/polifonia/resource/JAMSObservation/AGoodNightsSleep20799/11_4_0_5_5_2@0.0> a jams:JAMSObservation,
+        jams:JAMSScoreObservation,
+        jams:ScorePatternOccurrence ;
+    rdfs:label [ ] ;
+    jams:hasDuration "0.0"^^xsd:float ;
+    jams:hasFrequency "3"^^xsd:int ;
+    jams:hasPatternType "pitch-class-values" ;
+    jams:ofPattern <http://w3id.org/polifonia/resource/pattern/11_4_0_5_5_2> .
+
+<http://w3id.org/polifonia/resource/JAMSObservation/AGoodNightsSleep20799/11_7_0_5_2_0@0.0> a jams:JAMSObservation,
+        jams:JAMSScoreObservation,
+        jams:ScorePatternOccurrence ;
+    rdfs:label [ ] ;
+    jams:hasDuration "0.0"^^xsd:float ;
+    jams:hasFrequency "2"^^xsd:int ;
+    jams:hasPatternType "pitch-class-values" ;
+    jams:ofPattern <http://w3id.org/polifonia/resource/pattern/11_7_0_5_2_0> .
+
+<http://w3id.org/polifonia/resource/JAMSObservation/AGoodNightsSleep20799/2_0_2_11_4_0@0.0> a jams:JAMSObservation,
+        jams:JAMSScoreObservation,
+        jams:ScorePatternOccurrence ;
+    rdfs:label [ ] ;
+    jams:hasDuration "0.0"^^xsd:float ;
+    jams:hasFrequency "4"^^xsd:int ;
+    jams:hasPatternType "pitch-class-values" ;
+    jams:ofPattern <http://w3id.org/polifonia/resource/pattern/2_0_2_11_4_0> .
+
+<http://w3id.org/polifonia/resource/JAMSObservation/AGoodNightsSleep20799/2_0_2_7_0_3@0.0> a jams:JAMSObservation,
+        jams:JAMSScoreObservation,
+        jams:ScorePatternOccurrence ;
+    rdfs:label [ ] ;
+    jams:hasDuration "0.0"^^xsd:float ;
+    jams:hasFrequency "2"^^xsd:int ;
+    jams:hasPatternType "pitch-class-values" ;
+    jams:ofPattern <http://w3id.org/polifonia/resource/pattern/2_0_2_7_0_3> .
+
+<http://w3id.org/polifonia/resource/JAMSObservation/AGoodNightsSleep20799/2_0_2_7_11_7@0.0> a jams:JAMSObservation,
+        jams:JAMSScoreObservation,
+        jams:ScorePatternOccurrence ;
+    rdfs:label [ ] ;
+    jams:hasDuration "0.0"^^xsd:float ;
+    jams:hasFrequency "2"^^xsd:int ;
+    jams:hasPatternType "pitch-class-values" ;
+    jams:ofPattern <http://w3id.org/polifonia/resource/pattern/2_0_2_7_11_7> .
+
+<http://w3id.org/polifonia/resource/JAMSObservation/AGoodNightsSleep20799/2_11_4_0_5_5@0.0> a jams:JAMSObservation,
+        jams:JAMSScoreObservation,
+        jams:ScorePatternOccurrence ;
+    rdfs:label [ ] ;
+    jams:hasDuration "0.0"^^xsd:float ;
+    jams:hasFrequency "4"^^xsd:int ;
+    jams:hasPatternType "pitch-class-values" ;
+    jams:ofPattern <http://w3id.org/polifonia/resource/pattern/2_11_4_0_5_5> .
+
+<http://w3id.org/polifonia/resource/JAMSObservation/AGoodNightsSleep20799/2_7_0_3_5_5@0.0> a jams:JAMSObservation,
+        jams:JAMSScoreObservation,
+        jams:ScorePatternOccurrence ;
+    rdfs:label [ ] ;
+    jams:hasDuration "0.0"^^xsd:float ;
+    jams:hasFrequency "2"^^xsd:int ;
+    jams:hasPatternType "pitch-class-values" ;
+    jams:ofPattern <http://w3id.org/polifonia/resource/pattern/2_7_0_3_5_5> .
+
+<http://w3id.org/polifonia/resource/JAMSObservation/AGoodNightsSleep20799/2_7_11_7_0_5@0.0> a jams:JAMSObservation,
+        jams:JAMSScoreObservation,
+        jams:ScorePatternOccurrence ;
+    rdfs:label [ ] ;
+    jams:hasDuration "0.0"^^xsd:float ;
+    jams:hasFrequency "2"^^xsd:int ;
+    jams:hasPatternType "pitch-class-values" ;
+    jams:ofPattern <http://w3id.org/polifonia/resource/pattern/2_7_11_7_0_5> .
+
+<http://w3id.org/polifonia/resource/JAMSObservation/AGoodNightsSleep20799/3_5_5_2_0_2@0.0> a jams:JAMSObservation,
+        jams:JAMSScoreObservation,
+        jams:ScorePatternOccurrence ;
+    rdfs:label [ ] ;
+    jams:hasDuration "0.0"^^xsd:float ;
+    jams:hasFrequency "2"^^xsd:int ;
+    jams:hasPatternType "pitch-class-values" ;
+    jams:ofPattern <http://w3id.org/polifonia/resource/pattern/3_5_5_2_0_2> .
+
+<http://w3id.org/polifonia/resource/JAMSObservation/AGoodNightsSleep20799/4_0_5_5_2_0@0.0> a jams:JAMSObservation,
+        jams:JAMSScoreObservation,
+        jams:ScorePatternOccurrence ;
+    rdfs:label [ ] ;
+    jams:hasDuration "0.0"^^xsd:float ;
+    jams:hasFrequency "3"^^xsd:int ;
+    jams:hasPatternType "pitch-class-values" ;
+    jams:ofPattern <http://w3id.org/polifonia/resource/pattern/4_0_5_5_2_0> .
+
+<http://w3id.org/polifonia/resource/JAMSObservation/AGoodNightsSleep20799/5_2_0_2_11_4@0.0> a jams:JAMSObservation,
+        jams:JAMSScoreObservation,
+        jams:ScorePatternOccurrence ;
+    rdfs:label [ ] ;
+    jams:hasDuration "0.0"^^xsd:float ;
+    jams:hasFrequency "4"^^xsd:int ;
+    jams:hasPatternType "pitch-class-values" ;
+    jams:ofPattern <http://w3id.org/polifonia/resource/pattern/5_2_0_2_11_4> .
+
+<http://w3id.org/polifonia/resource/JAMSObservation/AGoodNightsSleep20799/5_2_0_2_7_0@0.0> a jams:JAMSObservation,
+        jams:JAMSScoreObservation,
+        jams:ScorePatternOccurrence ;
+    rdfs:label [ ] ;
+    jams:hasDuration "0.0"^^xsd:float ;
+    jams:hasFrequency "2"^^xsd:int ;
+    jams:hasPatternType "pitch-class-values" ;
+    jams:ofPattern <http://w3id.org/polifonia/resource/pattern/5_2_0_2_7_0> .
+
+<http://w3id.org/polifonia/resource/JAMSObservation/AGoodNightsSleep20799/5_2_0_2_7_11@0.0> a jams:JAMSObservation,
+        jams:JAMSScoreObservation,
+        jams:ScorePatternOccurrence ;
+    rdfs:label [ ] ;
+    jams:hasDuration "0.0"^^xsd:float ;
+    jams:hasFrequency "1"^^xsd:int ;
+    jams:hasPatternType "pitch-class-values" ;
+    jams:ofPattern <http://w3id.org/polifonia/resource/pattern/5_2_0_2_7_11> .
+
+<http://w3id.org/polifonia/resource/JAMSObservation/AGoodNightsSleep20799/5_5_2_0_2_11@0.0> a jams:JAMSObservation,
+        jams:JAMSScoreObservation,
+        jams:ScorePatternOccurrence ;
+    rdfs:label [ ] ;
+    jams:hasDuration "0.0"^^xsd:float ;
+    jams:hasFrequency "2"^^xsd:int ;
+    jams:hasPatternType "pitch-class-values" ;
+    jams:ofPattern <http://w3id.org/polifonia/resource/pattern/5_5_2_0_2_11> .
+
+<http://w3id.org/polifonia/resource/JAMSObservation/AGoodNightsSleep20799/5_5_2_0_2_7@0.0> a jams:JAMSObservation,
+        jams:JAMSScoreObservation,
+        jams:ScorePatternOccurrence ;
+    rdfs:label [ ] ;
+    jams:hasDuration "0.0"^^xsd:float ;
+    jams:hasFrequency "3"^^xsd:int ;
+    jams:hasPatternType "pitch-class-values" ;
+    jams:ofPattern <http://w3id.org/polifonia/resource/pattern/5_5_2_0_2_7> .
+
+<http://w3id.org/polifonia/resource/JAMSObservation/AGoodNightsSleep20799/7_0_3_5_5_2@0.0> a jams:JAMSObservation,
+        jams:JAMSScoreObservation,
+        jams:ScorePatternOccurrence ;
+    rdfs:label [ ] ;
+    jams:hasDuration "0.0"^^xsd:float ;
+    jams:hasFrequency "2"^^xsd:int ;
+    jams:hasPatternType "pitch-class-values" ;
+    jams:ofPattern <http://w3id.org/polifonia/resource/pattern/7_0_3_5_5_2> .
+
+<http://w3id.org/polifonia/resource/JAMSObservation/AGoodNightsSleep20799/7_0_5_2_0_2@0.0> a jams:JAMSObservation,
+        jams:JAMSScoreObservation,
+        jams:ScorePatternOccurrence ;
+    rdfs:label [ ] ;
+    jams:hasDuration "0.0"^^xsd:float ;
+    jams:hasFrequency "2"^^xsd:int ;
+    jams:hasPatternType "pitch-class-values" ;
+    jams:ofPattern <http://w3id.org/polifonia/resource/pattern/7_0_5_2_0_2> .
+
+<http://w3id.org/polifonia/resource/JAMSObservation/AGoodNightsSleep20799/7_11_7_0_5_2@0.0> a jams:JAMSObservation,
+        jams:JAMSScoreObservation,
+        jams:ScorePatternOccurrence ;
+    rdfs:label [ ] ;
+    jams:hasDuration "0.0"^^xsd:float ;
+    jams:hasFrequency "2"^^xsd:int ;
+    jams:hasPatternType "pitch-class-values" ;
+    jams:ofPattern <http://w3id.org/polifonia/resource/pattern/7_11_7_0_5_2> .
+
+<http://w3id.org/polifonia/resource/JAMSObservation/AGoodNightsSleep20799/9_2_0_2_7_11@0.0> a jams:JAMSObservation,
+        jams:JAMSScoreObservation,
+        jams:ScorePatternOccurrence ;
+    rdfs:label [ ] ;
+    jams:hasDuration "0.0"^^xsd:float ;
+    jams:hasFrequency "1"^^xsd:int ;
+    jams:hasPatternType "pitch-class-values" ;
+    jams:ofPattern <http://w3id.org/polifonia/resource/pattern/9_2_0_2_7_11> .
+
+<http://w3id.org/polifonia/resource/MusicalComposition/68cbab012f80c40991cc3b6e5b1549d688e30b6b> a mc:MusicalComposition ;
+    rdfs:label "AGoodNightsSleep20799" ;
+    mc:title "AGoodNightsSleep20799" ;
+    prov:wasDerivedFrom <http://w3id.org/polifonia/resource/JAMSFile/AGoodNightsSleep20799.jams> .
+

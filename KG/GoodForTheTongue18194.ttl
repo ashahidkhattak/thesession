@@ -1,0 +1,241 @@
+@prefix core: <http://w3id.org/polifonia/ontology/core/> .
+@prefix jams: <http://w3id.org/polifonia/ontology/jams/> .
+@prefix mc: <http://w3id.org/polifonia/ontology/musical-composition/> .
+@prefix pon-resource: <http://w3id.org/polifonia/resource/> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+pon-resource:Agent%2Fannotator_local_id a core:Agent ;
+    rdfs:label "FONN-Tool" ;
+    jams:hasAnnotatorType pon-resource:annotator-program ;
+    jams:hasName "FONN-Tool" .
+
+<http://w3id.org/polifonia/resource/JAMSAnnotation/ced9ea7662e47d40e1d8efa9e165f35dfd55e23d> a jams:JAMSAnnotation,
+        jams:JAMSScoreAnnotation ;
+    jams:includesObservation <http://w3id.org/polifonia/resource/JAMSObservation/GoodForTheTongue18194/0_0_7_9_0_9@0.0>,
+        <http://w3id.org/polifonia/resource/JAMSObservation/GoodForTheTongue18194/0_7_5_5_11_7@0.0>,
+        <http://w3id.org/polifonia/resource/JAMSObservation/GoodForTheTongue18194/0_7_9_0_7_5@0.0>,
+        <http://w3id.org/polifonia/resource/JAMSObservation/GoodForTheTongue18194/0_7_9_0_9_5@0.0>,
+        <http://w3id.org/polifonia/resource/JAMSObservation/GoodForTheTongue18194/0_9_5_2_0_0@0.0>,
+        <http://w3id.org/polifonia/resource/JAMSObservation/GoodForTheTongue18194/0_9_5_2_0_7@0.0>,
+        <http://w3id.org/polifonia/resource/JAMSObservation/GoodForTheTongue18194/11_7_0_7_9_0@0.0>,
+        <http://w3id.org/polifonia/resource/JAMSObservation/GoodForTheTongue18194/2_0_0_7_9_0@0.0>,
+        <http://w3id.org/polifonia/resource/JAMSObservation/GoodForTheTongue18194/2_0_7_9_0_7@0.0>,
+        <http://w3id.org/polifonia/resource/JAMSObservation/GoodForTheTongue18194/5_11_7_0_7_9@0.0>,
+        <http://w3id.org/polifonia/resource/JAMSObservation/GoodForTheTongue18194/5_2_0_0_7_9@0.0>,
+        <http://w3id.org/polifonia/resource/JAMSObservation/GoodForTheTongue18194/5_2_0_7_9_0@0.0>,
+        <http://w3id.org/polifonia/resource/JAMSObservation/GoodForTheTongue18194/5_5_11_7_0_7@0.0>,
+        <http://w3id.org/polifonia/resource/JAMSObservation/GoodForTheTongue18194/7_0_7_9_0_9@0.0>,
+        <http://w3id.org/polifonia/resource/JAMSObservation/GoodForTheTongue18194/7_5_5_11_7_0@0.0>,
+        <http://w3id.org/polifonia/resource/JAMSObservation/GoodForTheTongue18194/7_9_0_7_5_5@0.0>,
+        <http://w3id.org/polifonia/resource/JAMSObservation/GoodForTheTongue18194/7_9_0_9_5_2@0.0>,
+        <http://w3id.org/polifonia/resource/JAMSObservation/GoodForTheTongue18194/9_0_7_5_5_11@0.0>,
+        <http://w3id.org/polifonia/resource/JAMSObservation/GoodForTheTongue18194/9_0_9_5_2_0@0.0>,
+        <http://w3id.org/polifonia/resource/JAMSObservation/GoodForTheTongue18194/9_5_2_0_0_7@0.0>,
+        <http://w3id.org/polifonia/resource/JAMSObservation/GoodForTheTongue18194/9_5_2_0_7_9@0.0> ;
+    jams:isJAMSAnnotationOf <http://w3id.org/polifonia/resource/MusicalComposition/ced9ea7662e47d40e1d8efa9e165f35dfd55e23d> .
+
+<http://w3id.org/polifonia/resource/Score/song_local_id> jams:hasJAMSAnnotation <http://w3id.org/polifonia/resource/MusicalComposition/ced9ea7662e47d40e1d8efa9e165f35dfd55e23d> .
+
+<http://w3id.org/polifonia/resource/JAMSFile/GoodForTheTongue18194.jams> a jams:JAMSFile ;
+    jams:identifiers [ ] ;
+    jams:jamsVersion "0.3.4" ;
+    jams:release "" ;
+    prov:wasDerivedFrom "The Session" ;
+    prov:wasMemberOf <https://github.com/ashahidkhattak/thesession> .
+
+<http://w3id.org/polifonia/resource/JAMSObservation/GoodForTheTongue18194/0_0_7_9_0_9@0.0> a jams:JAMSObservation,
+        jams:JAMSScoreObservation,
+        jams:ScorePatternOccurrence ;
+    rdfs:label [ ] ;
+    jams:hasDuration "0.0"^^xsd:float ;
+    jams:hasFrequency "3"^^xsd:int ;
+    jams:hasPatternType "pitch-class-values" ;
+    jams:ofPattern <http://w3id.org/polifonia/resource/pattern/0_0_7_9_0_9> .
+
+<http://w3id.org/polifonia/resource/JAMSObservation/GoodForTheTongue18194/0_7_5_5_11_7@0.0> a jams:JAMSObservation,
+        jams:JAMSScoreObservation,
+        jams:ScorePatternOccurrence ;
+    rdfs:label [ ] ;
+    jams:hasDuration "0.0"^^xsd:float ;
+    jams:hasFrequency "2"^^xsd:int ;
+    jams:hasPatternType "pitch-class-values" ;
+    jams:ofPattern <http://w3id.org/polifonia/resource/pattern/0_7_5_5_11_7> .
+
+<http://w3id.org/polifonia/resource/JAMSObservation/GoodForTheTongue18194/0_7_9_0_7_5@0.0> a jams:JAMSObservation,
+        jams:JAMSScoreObservation,
+        jams:ScorePatternOccurrence ;
+    rdfs:label [ ] ;
+    jams:hasDuration "0.0"^^xsd:float ;
+    jams:hasFrequency "2"^^xsd:int ;
+    jams:hasPatternType "pitch-class-values" ;
+    jams:ofPattern <http://w3id.org/polifonia/resource/pattern/0_7_9_0_7_5> .
+
+<http://w3id.org/polifonia/resource/JAMSObservation/GoodForTheTongue18194/0_7_9_0_9_5@0.0> a jams:JAMSObservation,
+        jams:JAMSScoreObservation,
+        jams:ScorePatternOccurrence ;
+    rdfs:label [ ] ;
+    jams:hasDuration "0.0"^^xsd:float ;
+    jams:hasFrequency "6"^^xsd:int ;
+    jams:hasPatternType "pitch-class-values" ;
+    jams:ofPattern <http://w3id.org/polifonia/resource/pattern/0_7_9_0_9_5> .
+
+<http://w3id.org/polifonia/resource/JAMSObservation/GoodForTheTongue18194/0_9_5_2_0_0@0.0> a jams:JAMSObservation,
+        jams:JAMSScoreObservation,
+        jams:ScorePatternOccurrence ;
+    rdfs:label [ ] ;
+    jams:hasDuration "0.0"^^xsd:float ;
+    jams:hasFrequency "3"^^xsd:int ;
+    jams:hasPatternType "pitch-class-values" ;
+    jams:ofPattern <http://w3id.org/polifonia/resource/pattern/0_9_5_2_0_0> .
+
+<http://w3id.org/polifonia/resource/JAMSObservation/GoodForTheTongue18194/0_9_5_2_0_7@0.0> a jams:JAMSObservation,
+        jams:JAMSScoreObservation,
+        jams:ScorePatternOccurrence ;
+    rdfs:label [ ] ;
+    jams:hasDuration "0.0"^^xsd:float ;
+    jams:hasFrequency "2"^^xsd:int ;
+    jams:hasPatternType "pitch-class-values" ;
+    jams:ofPattern <http://w3id.org/polifonia/resource/pattern/0_9_5_2_0_7> .
+
+<http://w3id.org/polifonia/resource/JAMSObservation/GoodForTheTongue18194/11_7_0_7_9_0@0.0> a jams:JAMSObservation,
+        jams:JAMSScoreObservation,
+        jams:ScorePatternOccurrence ;
+    rdfs:label [ ] ;
+    jams:hasDuration "0.0"^^xsd:float ;
+    jams:hasFrequency "2"^^xsd:int ;
+    jams:hasPatternType "pitch-class-values" ;
+    jams:ofPattern <http://w3id.org/polifonia/resource/pattern/11_7_0_7_9_0> .
+
+<http://w3id.org/polifonia/resource/JAMSObservation/GoodForTheTongue18194/2_0_0_7_9_0@0.0> a jams:JAMSObservation,
+        jams:JAMSScoreObservation,
+        jams:ScorePatternOccurrence ;
+    rdfs:label [ ] ;
+    jams:hasDuration "0.0"^^xsd:float ;
+    jams:hasFrequency "3"^^xsd:int ;
+    jams:hasPatternType "pitch-class-values" ;
+    jams:ofPattern <http://w3id.org/polifonia/resource/pattern/2_0_0_7_9_0> .
+
+<http://w3id.org/polifonia/resource/JAMSObservation/GoodForTheTongue18194/2_0_7_9_0_7@0.0> a jams:JAMSObservation,
+        jams:JAMSScoreObservation,
+        jams:ScorePatternOccurrence ;
+    rdfs:label [ ] ;
+    jams:hasDuration "0.0"^^xsd:float ;
+    jams:hasFrequency "2"^^xsd:int ;
+    jams:hasPatternType "pitch-class-values" ;
+    jams:ofPattern <http://w3id.org/polifonia/resource/pattern/2_0_7_9_0_7> .
+
+<http://w3id.org/polifonia/resource/JAMSObservation/GoodForTheTongue18194/5_11_7_0_7_9@0.0> a jams:JAMSObservation,
+        jams:JAMSScoreObservation,
+        jams:ScorePatternOccurrence ;
+    rdfs:label [ ] ;
+    jams:hasDuration "0.0"^^xsd:float ;
+    jams:hasFrequency "2"^^xsd:int ;
+    jams:hasPatternType "pitch-class-values" ;
+    jams:ofPattern <http://w3id.org/polifonia/resource/pattern/5_11_7_0_7_9> .
+
+<http://w3id.org/polifonia/resource/JAMSObservation/GoodForTheTongue18194/5_2_0_0_7_9@0.0> a jams:JAMSObservation,
+        jams:JAMSScoreObservation,
+        jams:ScorePatternOccurrence ;
+    rdfs:label [ ] ;
+    jams:hasDuration "0.0"^^xsd:float ;
+    jams:hasFrequency "3"^^xsd:int ;
+    jams:hasPatternType "pitch-class-values" ;
+    jams:ofPattern <http://w3id.org/polifonia/resource/pattern/5_2_0_0_7_9> .
+
+<http://w3id.org/polifonia/resource/JAMSObservation/GoodForTheTongue18194/5_2_0_7_9_0@0.0> a jams:JAMSObservation,
+        jams:JAMSScoreObservation,
+        jams:ScorePatternOccurrence ;
+    rdfs:label [ ] ;
+    jams:hasDuration "0.0"^^xsd:float ;
+    jams:hasFrequency "2"^^xsd:int ;
+    jams:hasPatternType "pitch-class-values" ;
+    jams:ofPattern <http://w3id.org/polifonia/resource/pattern/5_2_0_7_9_0> .
+
+<http://w3id.org/polifonia/resource/JAMSObservation/GoodForTheTongue18194/5_5_11_7_0_7@0.0> a jams:JAMSObservation,
+        jams:JAMSScoreObservation,
+        jams:ScorePatternOccurrence ;
+    rdfs:label [ ] ;
+    jams:hasDuration "0.0"^^xsd:float ;
+    jams:hasFrequency "2"^^xsd:int ;
+    jams:hasPatternType "pitch-class-values" ;
+    jams:ofPattern <http://w3id.org/polifonia/resource/pattern/5_5_11_7_0_7> .
+
+<http://w3id.org/polifonia/resource/JAMSObservation/GoodForTheTongue18194/7_0_7_9_0_9@0.0> a jams:JAMSObservation,
+        jams:JAMSScoreObservation,
+        jams:ScorePatternOccurrence ;
+    rdfs:label [ ] ;
+    jams:hasDuration "0.0"^^xsd:float ;
+    jams:hasFrequency "3"^^xsd:int ;
+    jams:hasPatternType "pitch-class-values" ;
+    jams:ofPattern <http://w3id.org/polifonia/resource/pattern/7_0_7_9_0_9> .
+
+<http://w3id.org/polifonia/resource/JAMSObservation/GoodForTheTongue18194/7_5_5_11_7_0@0.0> a jams:JAMSObservation,
+        jams:JAMSScoreObservation,
+        jams:ScorePatternOccurrence ;
+    rdfs:label [ ] ;
+    jams:hasDuration "0.0"^^xsd:float ;
+    jams:hasFrequency "2"^^xsd:int ;
+    jams:hasPatternType "pitch-class-values" ;
+    jams:ofPattern <http://w3id.org/polifonia/resource/pattern/7_5_5_11_7_0> .
+
+<http://w3id.org/polifonia/resource/JAMSObservation/GoodForTheTongue18194/7_9_0_7_5_5@0.0> a jams:JAMSObservation,
+        jams:JAMSScoreObservation,
+        jams:ScorePatternOccurrence ;
+    rdfs:label [ ] ;
+    jams:hasDuration "0.0"^^xsd:float ;
+    jams:hasFrequency "2"^^xsd:int ;
+    jams:hasPatternType "pitch-class-values" ;
+    jams:ofPattern <http://w3id.org/polifonia/resource/pattern/7_9_0_7_5_5> .
+
+<http://w3id.org/polifonia/resource/JAMSObservation/GoodForTheTongue18194/7_9_0_9_5_2@0.0> a jams:JAMSObservation,
+        jams:JAMSScoreObservation,
+        jams:ScorePatternOccurrence ;
+    rdfs:label [ ] ;
+    jams:hasDuration "0.0"^^xsd:float ;
+    jams:hasFrequency "6"^^xsd:int ;
+    jams:hasPatternType "pitch-class-values" ;
+    jams:ofPattern <http://w3id.org/polifonia/resource/pattern/7_9_0_9_5_2> .
+
+<http://w3id.org/polifonia/resource/JAMSObservation/GoodForTheTongue18194/9_0_7_5_5_11@0.0> a jams:JAMSObservation,
+        jams:JAMSScoreObservation,
+        jams:ScorePatternOccurrence ;
+    rdfs:label [ ] ;
+    jams:hasDuration "0.0"^^xsd:float ;
+    jams:hasFrequency "2"^^xsd:int ;
+    jams:hasPatternType "pitch-class-values" ;
+    jams:ofPattern <http://w3id.org/polifonia/resource/pattern/9_0_7_5_5_11> .
+
+<http://w3id.org/polifonia/resource/JAMSObservation/GoodForTheTongue18194/9_0_9_5_2_0@0.0> a jams:JAMSObservation,
+        jams:JAMSScoreObservation,
+        jams:ScorePatternOccurrence ;
+    rdfs:label [ ] ;
+    jams:hasDuration "0.0"^^xsd:float ;
+    jams:hasFrequency "6"^^xsd:int ;
+    jams:hasPatternType "pitch-class-values" ;
+    jams:ofPattern <http://w3id.org/polifonia/resource/pattern/9_0_9_5_2_0> .
+
+<http://w3id.org/polifonia/resource/JAMSObservation/GoodForTheTongue18194/9_5_2_0_0_7@0.0> a jams:JAMSObservation,
+        jams:JAMSScoreObservation,
+        jams:ScorePatternOccurrence ;
+    rdfs:label [ ] ;
+    jams:hasDuration "0.0"^^xsd:float ;
+    jams:hasFrequency "3"^^xsd:int ;
+    jams:hasPatternType "pitch-class-values" ;
+    jams:ofPattern <http://w3id.org/polifonia/resource/pattern/9_5_2_0_0_7> .
+
+<http://w3id.org/polifonia/resource/JAMSObservation/GoodForTheTongue18194/9_5_2_0_7_9@0.0> a jams:JAMSObservation,
+        jams:JAMSScoreObservation,
+        jams:ScorePatternOccurrence ;
+    rdfs:label [ ] ;
+    jams:hasDuration "0.0"^^xsd:float ;
+    jams:hasFrequency "2"^^xsd:int ;
+    jams:hasPatternType "pitch-class-values" ;
+    jams:ofPattern <http://w3id.org/polifonia/resource/pattern/9_5_2_0_7_9> .
+
+<http://w3id.org/polifonia/resource/MusicalComposition/ced9ea7662e47d40e1d8efa9e165f35dfd55e23d> a mc:MusicalComposition ;
+    rdfs:label "GoodForTheTongue18194" ;
+    mc:title "GoodForTheTongue18194" ;
+    prov:wasDerivedFrom <http://w3id.org/polifonia/resource/JAMSFile/GoodForTheTongue18194.jams> .
+

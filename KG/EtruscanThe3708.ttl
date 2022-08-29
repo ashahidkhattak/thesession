@@ -1,0 +1,131 @@
+@prefix core: <http://w3id.org/polifonia/ontology/core/> .
+@prefix jams: <http://w3id.org/polifonia/ontology/jams/> .
+@prefix mc: <http://w3id.org/polifonia/ontology/musical-composition/> .
+@prefix pon-resource: <http://w3id.org/polifonia/resource/> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+pon-resource:Agent%2Fannotator_local_id a core:Agent ;
+    rdfs:label "FONN-Tool" ;
+    jams:hasAnnotatorType pon-resource:annotator-program ;
+    jams:hasName "FONN-Tool" .
+
+<http://w3id.org/polifonia/resource/JAMSAnnotation/d1d1656d2aa595a93c9987eea50cfae94cfd6b8c> a jams:JAMSAnnotation,
+        jams:JAMSScoreAnnotation ;
+    jams:includesObservation <http://w3id.org/polifonia/resource/JAMSObservation/EtruscanThe3708/0_1_0_5_4_1@0.0>,
+        <http://w3id.org/polifonia/resource/JAMSObservation/EtruscanThe3708/0_4_4_5_0_4@0.0>,
+        <http://w3id.org/polifonia/resource/JAMSObservation/EtruscanThe3708/0_5_4_1_0_5@0.0>,
+        <http://w3id.org/polifonia/resource/JAMSObservation/EtruscanThe3708/1_0_5_4_1_0@0.0>,
+        <http://w3id.org/polifonia/resource/JAMSObservation/EtruscanThe3708/4_4_5_0_4_4@0.0>,
+        <http://w3id.org/polifonia/resource/JAMSObservation/EtruscanThe3708/4_5_0_4_4_5@0.0>,
+        <http://w3id.org/polifonia/resource/JAMSObservation/EtruscanThe3708/5_0_1_0_5_4@0.0>,
+        <http://w3id.org/polifonia/resource/JAMSObservation/EtruscanThe3708/5_0_4_4_5_0@0.0>,
+        <http://w3id.org/polifonia/resource/JAMSObservation/EtruscanThe3708/5_4_1_0_5_0@0.0>,
+        <http://w3id.org/polifonia/resource/JAMSObservation/EtruscanThe3708/9_4_4_5_0_4@0.0> ;
+    jams:isJAMSAnnotationOf <http://w3id.org/polifonia/resource/MusicalComposition/d1d1656d2aa595a93c9987eea50cfae94cfd6b8c> .
+
+<http://w3id.org/polifonia/resource/Score/song_local_id> jams:hasJAMSAnnotation <http://w3id.org/polifonia/resource/MusicalComposition/d1d1656d2aa595a93c9987eea50cfae94cfd6b8c> .
+
+<http://w3id.org/polifonia/resource/JAMSFile/EtruscanThe3708.jams> a jams:JAMSFile ;
+    jams:identifiers [ ] ;
+    jams:jamsVersion "0.3.4" ;
+    jams:release "" ;
+    prov:wasDerivedFrom "The Session" ;
+    prov:wasMemberOf <https://github.com/ashahidkhattak/thesession> .
+
+<http://w3id.org/polifonia/resource/JAMSObservation/EtruscanThe3708/0_1_0_5_4_1@0.0> a jams:JAMSObservation,
+        jams:JAMSScoreObservation,
+        jams:ScorePatternOccurrence ;
+    rdfs:label [ ] ;
+    jams:hasDuration "0.0"^^xsd:float ;
+    jams:hasFrequency "2"^^xsd:int ;
+    jams:hasPatternType "pitch-class-values" ;
+    jams:ofPattern <http://w3id.org/polifonia/resource/pattern/0_1_0_5_4_1> .
+
+<http://w3id.org/polifonia/resource/JAMSObservation/EtruscanThe3708/0_4_4_5_0_4@0.0> a jams:JAMSObservation,
+        jams:JAMSScoreObservation,
+        jams:ScorePatternOccurrence ;
+    rdfs:label [ ] ;
+    jams:hasDuration "0.0"^^xsd:float ;
+    jams:hasFrequency "2"^^xsd:int ;
+    jams:hasPatternType "pitch-class-values" ;
+    jams:ofPattern <http://w3id.org/polifonia/resource/pattern/0_4_4_5_0_4> .
+
+<http://w3id.org/polifonia/resource/JAMSObservation/EtruscanThe3708/0_5_4_1_0_5@0.0> a jams:JAMSObservation,
+        jams:JAMSScoreObservation,
+        jams:ScorePatternOccurrence ;
+    rdfs:label [ ] ;
+    jams:hasDuration "0.0"^^xsd:float ;
+    jams:hasFrequency "2"^^xsd:int ;
+    jams:hasPatternType "pitch-class-values" ;
+    jams:ofPattern <http://w3id.org/polifonia/resource/pattern/0_5_4_1_0_5> .
+
+<http://w3id.org/polifonia/resource/JAMSObservation/EtruscanThe3708/1_0_5_4_1_0@0.0> a jams:JAMSObservation,
+        jams:JAMSScoreObservation,
+        jams:ScorePatternOccurrence ;
+    rdfs:label [ ] ;
+    jams:hasDuration "0.0"^^xsd:float ;
+    jams:hasFrequency "2"^^xsd:int ;
+    jams:hasPatternType "pitch-class-values" ;
+    jams:ofPattern <http://w3id.org/polifonia/resource/pattern/1_0_5_4_1_0> .
+
+<http://w3id.org/polifonia/resource/JAMSObservation/EtruscanThe3708/4_4_5_0_4_4@0.0> a jams:JAMSObservation,
+        jams:JAMSScoreObservation,
+        jams:ScorePatternOccurrence ;
+    rdfs:label [ ] ;
+    jams:hasDuration "0.0"^^xsd:float ;
+    jams:hasFrequency "3"^^xsd:int ;
+    jams:hasPatternType "pitch-class-values" ;
+    jams:ofPattern <http://w3id.org/polifonia/resource/pattern/4_4_5_0_4_4> .
+
+<http://w3id.org/polifonia/resource/JAMSObservation/EtruscanThe3708/4_5_0_4_4_5@0.0> a jams:JAMSObservation,
+        jams:JAMSScoreObservation,
+        jams:ScorePatternOccurrence ;
+    rdfs:label [ ] ;
+    jams:hasDuration "0.0"^^xsd:float ;
+    jams:hasFrequency "3"^^xsd:int ;
+    jams:hasPatternType "pitch-class-values" ;
+    jams:ofPattern <http://w3id.org/polifonia/resource/pattern/4_5_0_4_4_5> .
+
+<http://w3id.org/polifonia/resource/JAMSObservation/EtruscanThe3708/5_0_1_0_5_4@0.0> a jams:JAMSObservation,
+        jams:JAMSScoreObservation,
+        jams:ScorePatternOccurrence ;
+    rdfs:label [ ] ;
+    jams:hasDuration "0.0"^^xsd:float ;
+    jams:hasFrequency "2"^^xsd:int ;
+    jams:hasPatternType "pitch-class-values" ;
+    jams:ofPattern <http://w3id.org/polifonia/resource/pattern/5_0_1_0_5_4> .
+
+<http://w3id.org/polifonia/resource/JAMSObservation/EtruscanThe3708/5_0_4_4_5_0@0.0> a jams:JAMSObservation,
+        jams:JAMSScoreObservation,
+        jams:ScorePatternOccurrence ;
+    rdfs:label [ ] ;
+    jams:hasDuration "0.0"^^xsd:float ;
+    jams:hasFrequency "3"^^xsd:int ;
+    jams:hasPatternType "pitch-class-values" ;
+    jams:ofPattern <http://w3id.org/polifonia/resource/pattern/5_0_4_4_5_0> .
+
+<http://w3id.org/polifonia/resource/JAMSObservation/EtruscanThe3708/5_4_1_0_5_0@0.0> a jams:JAMSObservation,
+        jams:JAMSScoreObservation,
+        jams:ScorePatternOccurrence ;
+    rdfs:label [ ] ;
+    jams:hasDuration "0.0"^^xsd:float ;
+    jams:hasFrequency "2"^^xsd:int ;
+    jams:hasPatternType "pitch-class-values" ;
+    jams:ofPattern <http://w3id.org/polifonia/resource/pattern/5_4_1_0_5_0> .
+
+<http://w3id.org/polifonia/resource/JAMSObservation/EtruscanThe3708/9_4_4_5_0_4@0.0> a jams:JAMSObservation,
+        jams:JAMSScoreObservation,
+        jams:ScorePatternOccurrence ;
+    rdfs:label [ ] ;
+    jams:hasDuration "0.0"^^xsd:float ;
+    jams:hasFrequency "1"^^xsd:int ;
+    jams:hasPatternType "pitch-class-values" ;
+    jams:ofPattern <http://w3id.org/polifonia/resource/pattern/9_4_4_5_0_4> .
+
+<http://w3id.org/polifonia/resource/MusicalComposition/d1d1656d2aa595a93c9987eea50cfae94cfd6b8c> a mc:MusicalComposition ;
+    rdfs:label "EtruscanThe3708" ;
+    mc:title "EtruscanThe3708" ;
+    prov:wasDerivedFrom <http://w3id.org/polifonia/resource/JAMSFile/EtruscanThe3708.jams> .
+

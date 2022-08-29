@@ -1,0 +1,511 @@
+@prefix core: <http://w3id.org/polifonia/ontology/core/> .
+@prefix jams: <http://w3id.org/polifonia/ontology/jams/> .
+@prefix mc: <http://w3id.org/polifonia/ontology/musical-composition/> .
+@prefix pon-resource: <http://w3id.org/polifonia/resource/> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+pon-resource:Agent%2Fannotator_local_id a core:Agent ;
+    rdfs:label "FONN-Tool" ;
+    jams:hasAnnotatorType pon-resource:annotator-program ;
+    jams:hasName "FONN-Tool" .
+
+<http://w3id.org/polifonia/resource/JAMSAnnotation/993eccd161ab34e15da1a1a473c8e219d8054f3c> a jams:JAMSAnnotation,
+        jams:JAMSScoreAnnotation ;
+    jams:includesObservation <http://w3id.org/polifonia/resource/JAMSObservation/KingOfTheCannibalIslandsThe22491/0_0_0_0_0_2@0.0>,
+        <http://w3id.org/polifonia/resource/JAMSObservation/KingOfTheCannibalIslandsThe22491/0_0_0_0_2_11@0.0>,
+        <http://w3id.org/polifonia/resource/JAMSObservation/KingOfTheCannibalIslandsThe22491/0_0_0_2_11_7@0.0>,
+        <http://w3id.org/polifonia/resource/JAMSObservation/KingOfTheCannibalIslandsThe22491/0_0_11_9_0_2@0.0>,
+        <http://w3id.org/polifonia/resource/JAMSObservation/KingOfTheCannibalIslandsThe22491/0_0_2_11_7_0@0.0>,
+        <http://w3id.org/polifonia/resource/JAMSObservation/KingOfTheCannibalIslandsThe22491/0_11_7_0_4_4@0.0>,
+        <http://w3id.org/polifonia/resource/JAMSObservation/KingOfTheCannibalIslandsThe22491/0_11_7_5_2_4@0.0>,
+        <http://w3id.org/polifonia/resource/JAMSObservation/KingOfTheCannibalIslandsThe22491/0_11_9_0_0_11@0.0>,
+        <http://w3id.org/polifonia/resource/JAMSObservation/KingOfTheCannibalIslandsThe22491/0_11_9_0_2_2@0.0>,
+        <http://w3id.org/polifonia/resource/JAMSObservation/KingOfTheCannibalIslandsThe22491/0_2_11_7_0_11@0.0>,
+        <http://w3id.org/polifonia/resource/JAMSObservation/KingOfTheCannibalIslandsThe22491/0_2_2_2_2_2@0.0>,
+        <http://w3id.org/polifonia/resource/JAMSObservation/KingOfTheCannibalIslandsThe22491/0_4_4_4_4_4@0.0>,
+        <http://w3id.org/polifonia/resource/JAMSObservation/KingOfTheCannibalIslandsThe22491/0_7_0_11_7_0@0.0>,
+        <http://w3id.org/polifonia/resource/JAMSObservation/KingOfTheCannibalIslandsThe22491/11_0_11_9_0_0@0.0>,
+        <http://w3id.org/polifonia/resource/JAMSObservation/KingOfTheCannibalIslandsThe22491/11_7_0_11_9_0@0.0>,
+        <http://w3id.org/polifonia/resource/JAMSObservation/KingOfTheCannibalIslandsThe22491/11_7_0_4_4_4@0.0>,
+        <http://w3id.org/polifonia/resource/JAMSObservation/KingOfTheCannibalIslandsThe22491/11_7_5_2_4_7@0.0>,
+        <http://w3id.org/polifonia/resource/JAMSObservation/KingOfTheCannibalIslandsThe22491/11_9_0_0_11_9@0.0>,
+        <http://w3id.org/polifonia/resource/JAMSObservation/KingOfTheCannibalIslandsThe22491/11_9_0_2_2_2@0.0>,
+        <http://w3id.org/polifonia/resource/JAMSObservation/KingOfTheCannibalIslandsThe22491/2_0_0_0_0_0@0.0>,
+        <http://w3id.org/polifonia/resource/JAMSObservation/KingOfTheCannibalIslandsThe22491/2_11_0_11_9_0@0.0>,
+        <http://w3id.org/polifonia/resource/JAMSObservation/KingOfTheCannibalIslandsThe22491/2_11_7_0_11_9@0.0>,
+        <http://w3id.org/polifonia/resource/JAMSObservation/KingOfTheCannibalIslandsThe22491/2_2_0_0_0_0@0.0>,
+        <http://w3id.org/polifonia/resource/JAMSObservation/KingOfTheCannibalIslandsThe22491/2_2_2_2_2_4@0.0>,
+        <http://w3id.org/polifonia/resource/JAMSObservation/KingOfTheCannibalIslandsThe22491/2_2_2_2_4_2@0.0>,
+        <http://w3id.org/polifonia/resource/JAMSObservation/KingOfTheCannibalIslandsThe22491/2_2_2_4_2_11@0.0>,
+        <http://w3id.org/polifonia/resource/JAMSObservation/KingOfTheCannibalIslandsThe22491/2_2_4_2_11_0@0.0>,
+        <http://w3id.org/polifonia/resource/JAMSObservation/KingOfTheCannibalIslandsThe22491/2_4_0_11_7_5@0.0>,
+        <http://w3id.org/polifonia/resource/JAMSObservation/KingOfTheCannibalIslandsThe22491/2_4_2_11_0_11@0.0>,
+        <http://w3id.org/polifonia/resource/JAMSObservation/KingOfTheCannibalIslandsThe22491/2_4_7_9_0_7@0.0>,
+        <http://w3id.org/polifonia/resource/JAMSObservation/KingOfTheCannibalIslandsThe22491/4_0_11_7_5_2@0.0>,
+        <http://w3id.org/polifonia/resource/JAMSObservation/KingOfTheCannibalIslandsThe22491/4_2_11_0_11_9@0.0>,
+        <http://w3id.org/polifonia/resource/JAMSObservation/KingOfTheCannibalIslandsThe22491/4_4_4_4_4_5@0.0>,
+        <http://w3id.org/polifonia/resource/JAMSObservation/KingOfTheCannibalIslandsThe22491/4_4_4_4_5_2@0.0>,
+        <http://w3id.org/polifonia/resource/JAMSObservation/KingOfTheCannibalIslandsThe22491/4_4_4_5_2_2@0.0>,
+        <http://w3id.org/polifonia/resource/JAMSObservation/KingOfTheCannibalIslandsThe22491/4_4_5_2_2_0@0.0>,
+        <http://w3id.org/polifonia/resource/JAMSObservation/KingOfTheCannibalIslandsThe22491/4_5_2_2_0_0@0.0>,
+        <http://w3id.org/polifonia/resource/JAMSObservation/KingOfTheCannibalIslandsThe22491/4_7_9_0_7_0@0.0>,
+        <http://w3id.org/polifonia/resource/JAMSObservation/KingOfTheCannibalIslandsThe22491/5_2_2_0_0_0@0.0>,
+        <http://w3id.org/polifonia/resource/JAMSObservation/KingOfTheCannibalIslandsThe22491/5_2_4_7_9_0@0.0>,
+        <http://w3id.org/polifonia/resource/JAMSObservation/KingOfTheCannibalIslandsThe22491/7_0_11_7_0_4@0.0>,
+        <http://w3id.org/polifonia/resource/JAMSObservation/KingOfTheCannibalIslandsThe22491/7_0_11_9_0_0@0.0>,
+        <http://w3id.org/polifonia/resource/JAMSObservation/KingOfTheCannibalIslandsThe22491/7_0_4_4_4_4@0.0>,
+        <http://w3id.org/polifonia/resource/JAMSObservation/KingOfTheCannibalIslandsThe22491/7_5_2_4_7_9@0.0>,
+        <http://w3id.org/polifonia/resource/JAMSObservation/KingOfTheCannibalIslandsThe22491/7_9_0_7_0_11@0.0>,
+        <http://w3id.org/polifonia/resource/JAMSObservation/KingOfTheCannibalIslandsThe22491/9_0_0_11_9_0@0.0>,
+        <http://w3id.org/polifonia/resource/JAMSObservation/KingOfTheCannibalIslandsThe22491/9_0_2_2_2_2@0.0>,
+        <http://w3id.org/polifonia/resource/JAMSObservation/KingOfTheCannibalIslandsThe22491/9_0_7_0_11_7@0.0> ;
+    jams:isJAMSAnnotationOf <http://w3id.org/polifonia/resource/MusicalComposition/993eccd161ab34e15da1a1a473c8e219d8054f3c> .
+
+<http://w3id.org/polifonia/resource/Score/song_local_id> jams:hasJAMSAnnotation <http://w3id.org/polifonia/resource/MusicalComposition/993eccd161ab34e15da1a1a473c8e219d8054f3c> .
+
+<http://w3id.org/polifonia/resource/JAMSFile/KingOfTheCannibalIslandsThe22491.jams> a jams:JAMSFile ;
+    jams:identifiers [ ] ;
+    jams:jamsVersion "0.3.4" ;
+    jams:release "" ;
+    prov:wasDerivedFrom "The Session" ;
+    prov:wasMemberOf <https://github.com/ashahidkhattak/thesession> .
+
+<http://w3id.org/polifonia/resource/JAMSObservation/KingOfTheCannibalIslandsThe22491/0_0_0_0_0_2@0.0> a jams:JAMSObservation,
+        jams:JAMSScoreObservation,
+        jams:ScorePatternOccurrence ;
+    rdfs:label [ ] ;
+    jams:hasDuration "0.0"^^xsd:float ;
+    jams:hasFrequency "1"^^xsd:int ;
+    jams:hasPatternType "pitch-class-values" ;
+    jams:ofPattern <http://w3id.org/polifonia/resource/pattern/0_0_0_0_0_2> .
+
+<http://w3id.org/polifonia/resource/JAMSObservation/KingOfTheCannibalIslandsThe22491/0_0_0_0_2_11@0.0> a jams:JAMSObservation,
+        jams:JAMSScoreObservation,
+        jams:ScorePatternOccurrence ;
+    rdfs:label [ ] ;
+    jams:hasDuration "0.0"^^xsd:float ;
+    jams:hasFrequency "1"^^xsd:int ;
+    jams:hasPatternType "pitch-class-values" ;
+    jams:ofPattern <http://w3id.org/polifonia/resource/pattern/0_0_0_0_2_11> .
+
+<http://w3id.org/polifonia/resource/JAMSObservation/KingOfTheCannibalIslandsThe22491/0_0_0_2_11_7@0.0> a jams:JAMSObservation,
+        jams:JAMSScoreObservation,
+        jams:ScorePatternOccurrence ;
+    rdfs:label [ ] ;
+    jams:hasDuration "0.0"^^xsd:float ;
+    jams:hasFrequency "1"^^xsd:int ;
+    jams:hasPatternType "pitch-class-values" ;
+    jams:ofPattern <http://w3id.org/polifonia/resource/pattern/0_0_0_2_11_7> .
+
+<http://w3id.org/polifonia/resource/JAMSObservation/KingOfTheCannibalIslandsThe22491/0_0_11_9_0_2@0.0> a jams:JAMSObservation,
+        jams:JAMSScoreObservation,
+        jams:ScorePatternOccurrence ;
+    rdfs:label [ ] ;
+    jams:hasDuration "0.0"^^xsd:float ;
+    jams:hasFrequency "2"^^xsd:int ;
+    jams:hasPatternType "pitch-class-values" ;
+    jams:ofPattern <http://w3id.org/polifonia/resource/pattern/0_0_11_9_0_2> .
+
+<http://w3id.org/polifonia/resource/JAMSObservation/KingOfTheCannibalIslandsThe22491/0_0_2_11_7_0@0.0> a jams:JAMSObservation,
+        jams:JAMSScoreObservation,
+        jams:ScorePatternOccurrence ;
+    rdfs:label [ ] ;
+    jams:hasDuration "0.0"^^xsd:float ;
+    jams:hasFrequency "1"^^xsd:int ;
+    jams:hasPatternType "pitch-class-values" ;
+    jams:ofPattern <http://w3id.org/polifonia/resource/pattern/0_0_2_11_7_0> .
+
+<http://w3id.org/polifonia/resource/JAMSObservation/KingOfTheCannibalIslandsThe22491/0_11_7_0_4_4@0.0> a jams:JAMSObservation,
+        jams:JAMSScoreObservation,
+        jams:ScorePatternOccurrence ;
+    rdfs:label [ ] ;
+    jams:hasDuration "0.0"^^xsd:float ;
+    jams:hasFrequency "1"^^xsd:int ;
+    jams:hasPatternType "pitch-class-values" ;
+    jams:ofPattern <http://w3id.org/polifonia/resource/pattern/0_11_7_0_4_4> .
+
+<http://w3id.org/polifonia/resource/JAMSObservation/KingOfTheCannibalIslandsThe22491/0_11_7_5_2_4@0.0> a jams:JAMSObservation,
+        jams:JAMSScoreObservation,
+        jams:ScorePatternOccurrence ;
+    rdfs:label [ ] ;
+    jams:hasDuration "0.0"^^xsd:float ;
+    jams:hasFrequency "1"^^xsd:int ;
+    jams:hasPatternType "pitch-class-values" ;
+    jams:ofPattern <http://w3id.org/polifonia/resource/pattern/0_11_7_5_2_4> .
+
+<http://w3id.org/polifonia/resource/JAMSObservation/KingOfTheCannibalIslandsThe22491/0_11_9_0_0_11@0.0> a jams:JAMSObservation,
+        jams:JAMSScoreObservation,
+        jams:ScorePatternOccurrence ;
+    rdfs:label [ ] ;
+    jams:hasDuration "0.0"^^xsd:float ;
+    jams:hasFrequency "2"^^xsd:int ;
+    jams:hasPatternType "pitch-class-values" ;
+    jams:ofPattern <http://w3id.org/polifonia/resource/pattern/0_11_9_0_0_11> .
+
+<http://w3id.org/polifonia/resource/JAMSObservation/KingOfTheCannibalIslandsThe22491/0_11_9_0_2_2@0.0> a jams:JAMSObservation,
+        jams:JAMSScoreObservation,
+        jams:ScorePatternOccurrence ;
+    rdfs:label [ ] ;
+    jams:hasDuration "0.0"^^xsd:float ;
+    jams:hasFrequency "2"^^xsd:int ;
+    jams:hasPatternType "pitch-class-values" ;
+    jams:ofPattern <http://w3id.org/polifonia/resource/pattern/0_11_9_0_2_2> .
+
+<http://w3id.org/polifonia/resource/JAMSObservation/KingOfTheCannibalIslandsThe22491/0_2_11_7_0_11@0.0> a jams:JAMSObservation,
+        jams:JAMSScoreObservation,
+        jams:ScorePatternOccurrence ;
+    rdfs:label [ ] ;
+    jams:hasDuration "0.0"^^xsd:float ;
+    jams:hasFrequency "1"^^xsd:int ;
+    jams:hasPatternType "pitch-class-values" ;
+    jams:ofPattern <http://w3id.org/polifonia/resource/pattern/0_2_11_7_0_11> .
+
+<http://w3id.org/polifonia/resource/JAMSObservation/KingOfTheCannibalIslandsThe22491/0_2_2_2_2_2@0.0> a jams:JAMSObservation,
+        jams:JAMSScoreObservation,
+        jams:ScorePatternOccurrence ;
+    rdfs:label [ ] ;
+    jams:hasDuration "0.0"^^xsd:float ;
+    jams:hasFrequency "2"^^xsd:int ;
+    jams:hasPatternType "pitch-class-values" ;
+    jams:ofPattern <http://w3id.org/polifonia/resource/pattern/0_2_2_2_2_2> .
+
+<http://w3id.org/polifonia/resource/JAMSObservation/KingOfTheCannibalIslandsThe22491/0_4_4_4_4_4@0.0> a jams:JAMSObservation,
+        jams:JAMSScoreObservation,
+        jams:ScorePatternOccurrence ;
+    rdfs:label [ ] ;
+    jams:hasDuration "0.0"^^xsd:float ;
+    jams:hasFrequency "1"^^xsd:int ;
+    jams:hasPatternType "pitch-class-values" ;
+    jams:ofPattern <http://w3id.org/polifonia/resource/pattern/0_4_4_4_4_4> .
+
+<http://w3id.org/polifonia/resource/JAMSObservation/KingOfTheCannibalIslandsThe22491/0_7_0_11_7_0@0.0> a jams:JAMSObservation,
+        jams:JAMSScoreObservation,
+        jams:ScorePatternOccurrence ;
+    rdfs:label [ ] ;
+    jams:hasDuration "0.0"^^xsd:float ;
+    jams:hasFrequency "1"^^xsd:int ;
+    jams:hasPatternType "pitch-class-values" ;
+    jams:ofPattern <http://w3id.org/polifonia/resource/pattern/0_7_0_11_7_0> .
+
+<http://w3id.org/polifonia/resource/JAMSObservation/KingOfTheCannibalIslandsThe22491/11_0_11_9_0_0@0.0> a jams:JAMSObservation,
+        jams:JAMSScoreObservation,
+        jams:ScorePatternOccurrence ;
+    rdfs:label [ ] ;
+    jams:hasDuration "0.0"^^xsd:float ;
+    jams:hasFrequency "1"^^xsd:int ;
+    jams:hasPatternType "pitch-class-values" ;
+    jams:ofPattern <http://w3id.org/polifonia/resource/pattern/11_0_11_9_0_0> .
+
+<http://w3id.org/polifonia/resource/JAMSObservation/KingOfTheCannibalIslandsThe22491/11_7_0_11_9_0@0.0> a jams:JAMSObservation,
+        jams:JAMSScoreObservation,
+        jams:ScorePatternOccurrence ;
+    rdfs:label [ ] ;
+    jams:hasDuration "0.0"^^xsd:float ;
+    jams:hasFrequency "1"^^xsd:int ;
+    jams:hasPatternType "pitch-class-values" ;
+    jams:ofPattern <http://w3id.org/polifonia/resource/pattern/11_7_0_11_9_0> .
+
+<http://w3id.org/polifonia/resource/JAMSObservation/KingOfTheCannibalIslandsThe22491/11_7_0_4_4_4@0.0> a jams:JAMSObservation,
+        jams:JAMSScoreObservation,
+        jams:ScorePatternOccurrence ;
+    rdfs:label [ ] ;
+    jams:hasDuration "0.0"^^xsd:float ;
+    jams:hasFrequency "1"^^xsd:int ;
+    jams:hasPatternType "pitch-class-values" ;
+    jams:ofPattern <http://w3id.org/polifonia/resource/pattern/11_7_0_4_4_4> .
+
+<http://w3id.org/polifonia/resource/JAMSObservation/KingOfTheCannibalIslandsThe22491/11_7_5_2_4_7@0.0> a jams:JAMSObservation,
+        jams:JAMSScoreObservation,
+        jams:ScorePatternOccurrence ;
+    rdfs:label [ ] ;
+    jams:hasDuration "0.0"^^xsd:float ;
+    jams:hasFrequency "1"^^xsd:int ;
+    jams:hasPatternType "pitch-class-values" ;
+    jams:ofPattern <http://w3id.org/polifonia/resource/pattern/11_7_5_2_4_7> .
+
+<http://w3id.org/polifonia/resource/JAMSObservation/KingOfTheCannibalIslandsThe22491/11_9_0_0_11_9@0.0> a jams:JAMSObservation,
+        jams:JAMSScoreObservation,
+        jams:ScorePatternOccurrence ;
+    rdfs:label [ ] ;
+    jams:hasDuration "0.0"^^xsd:float ;
+    jams:hasFrequency "2"^^xsd:int ;
+    jams:hasPatternType "pitch-class-values" ;
+    jams:ofPattern <http://w3id.org/polifonia/resource/pattern/11_9_0_0_11_9> .
+
+<http://w3id.org/polifonia/resource/JAMSObservation/KingOfTheCannibalIslandsThe22491/11_9_0_2_2_2@0.0> a jams:JAMSObservation,
+        jams:JAMSScoreObservation,
+        jams:ScorePatternOccurrence ;
+    rdfs:label [ ] ;
+    jams:hasDuration "0.0"^^xsd:float ;
+    jams:hasFrequency "2"^^xsd:int ;
+    jams:hasPatternType "pitch-class-values" ;
+    jams:ofPattern <http://w3id.org/polifonia/resource/pattern/11_9_0_2_2_2> .
+
+<http://w3id.org/polifonia/resource/JAMSObservation/KingOfTheCannibalIslandsThe22491/2_0_0_0_0_0@0.0> a jams:JAMSObservation,
+        jams:JAMSScoreObservation,
+        jams:ScorePatternOccurrence ;
+    rdfs:label [ ] ;
+    jams:hasDuration "0.0"^^xsd:float ;
+    jams:hasFrequency "1"^^xsd:int ;
+    jams:hasPatternType "pitch-class-values" ;
+    jams:ofPattern <http://w3id.org/polifonia/resource/pattern/2_0_0_0_0_0> .
+
+<http://w3id.org/polifonia/resource/JAMSObservation/KingOfTheCannibalIslandsThe22491/2_11_0_11_9_0@0.0> a jams:JAMSObservation,
+        jams:JAMSScoreObservation,
+        jams:ScorePatternOccurrence ;
+    rdfs:label [ ] ;
+    jams:hasDuration "0.0"^^xsd:float ;
+    jams:hasFrequency "1"^^xsd:int ;
+    jams:hasPatternType "pitch-class-values" ;
+    jams:ofPattern <http://w3id.org/polifonia/resource/pattern/2_11_0_11_9_0> .
+
+<http://w3id.org/polifonia/resource/JAMSObservation/KingOfTheCannibalIslandsThe22491/2_11_7_0_11_9@0.0> a jams:JAMSObservation,
+        jams:JAMSScoreObservation,
+        jams:ScorePatternOccurrence ;
+    rdfs:label [ ] ;
+    jams:hasDuration "0.0"^^xsd:float ;
+    jams:hasFrequency "1"^^xsd:int ;
+    jams:hasPatternType "pitch-class-values" ;
+    jams:ofPattern <http://w3id.org/polifonia/resource/pattern/2_11_7_0_11_9> .
+
+<http://w3id.org/polifonia/resource/JAMSObservation/KingOfTheCannibalIslandsThe22491/2_2_0_0_0_0@0.0> a jams:JAMSObservation,
+        jams:JAMSScoreObservation,
+        jams:ScorePatternOccurrence ;
+    rdfs:label [ ] ;
+    jams:hasDuration "0.0"^^xsd:float ;
+    jams:hasFrequency "1"^^xsd:int ;
+    jams:hasPatternType "pitch-class-values" ;
+    jams:ofPattern <http://w3id.org/polifonia/resource/pattern/2_2_0_0_0_0> .
+
+<http://w3id.org/polifonia/resource/JAMSObservation/KingOfTheCannibalIslandsThe22491/2_2_2_2_2_4@0.0> a jams:JAMSObservation,
+        jams:JAMSScoreObservation,
+        jams:ScorePatternOccurrence ;
+    rdfs:label [ ] ;
+    jams:hasDuration "0.0"^^xsd:float ;
+    jams:hasFrequency "2"^^xsd:int ;
+    jams:hasPatternType "pitch-class-values" ;
+    jams:ofPattern <http://w3id.org/polifonia/resource/pattern/2_2_2_2_2_4> .
+
+<http://w3id.org/polifonia/resource/JAMSObservation/KingOfTheCannibalIslandsThe22491/2_2_2_2_4_2@0.0> a jams:JAMSObservation,
+        jams:JAMSScoreObservation,
+        jams:ScorePatternOccurrence ;
+    rdfs:label [ ] ;
+    jams:hasDuration "0.0"^^xsd:float ;
+    jams:hasFrequency "2"^^xsd:int ;
+    jams:hasPatternType "pitch-class-values" ;
+    jams:ofPattern <http://w3id.org/polifonia/resource/pattern/2_2_2_2_4_2> .
+
+<http://w3id.org/polifonia/resource/JAMSObservation/KingOfTheCannibalIslandsThe22491/2_2_2_4_2_11@0.0> a jams:JAMSObservation,
+        jams:JAMSScoreObservation,
+        jams:ScorePatternOccurrence ;
+    rdfs:label [ ] ;
+    jams:hasDuration "0.0"^^xsd:float ;
+    jams:hasFrequency "2"^^xsd:int ;
+    jams:hasPatternType "pitch-class-values" ;
+    jams:ofPattern <http://w3id.org/polifonia/resource/pattern/2_2_2_4_2_11> .
+
+<http://w3id.org/polifonia/resource/JAMSObservation/KingOfTheCannibalIslandsThe22491/2_2_4_2_11_0@0.0> a jams:JAMSObservation,
+        jams:JAMSScoreObservation,
+        jams:ScorePatternOccurrence ;
+    rdfs:label [ ] ;
+    jams:hasDuration "0.0"^^xsd:float ;
+    jams:hasFrequency "1"^^xsd:int ;
+    jams:hasPatternType "pitch-class-values" ;
+    jams:ofPattern <http://w3id.org/polifonia/resource/pattern/2_2_4_2_11_0> .
+
+<http://w3id.org/polifonia/resource/JAMSObservation/KingOfTheCannibalIslandsThe22491/2_4_0_11_7_5@0.0> a jams:JAMSObservation,
+        jams:JAMSScoreObservation,
+        jams:ScorePatternOccurrence ;
+    rdfs:label [ ] ;
+    jams:hasDuration "0.0"^^xsd:float ;
+    jams:hasFrequency "1"^^xsd:int ;
+    jams:hasPatternType "pitch-class-values" ;
+    jams:ofPattern <http://w3id.org/polifonia/resource/pattern/2_4_0_11_7_5> .
+
+<http://w3id.org/polifonia/resource/JAMSObservation/KingOfTheCannibalIslandsThe22491/2_4_2_11_0_11@0.0> a jams:JAMSObservation,
+        jams:JAMSScoreObservation,
+        jams:ScorePatternOccurrence ;
+    rdfs:label [ ] ;
+    jams:hasDuration "0.0"^^xsd:float ;
+    jams:hasFrequency "1"^^xsd:int ;
+    jams:hasPatternType "pitch-class-values" ;
+    jams:ofPattern <http://w3id.org/polifonia/resource/pattern/2_4_2_11_0_11> .
+
+<http://w3id.org/polifonia/resource/JAMSObservation/KingOfTheCannibalIslandsThe22491/2_4_7_9_0_7@0.0> a jams:JAMSObservation,
+        jams:JAMSScoreObservation,
+        jams:ScorePatternOccurrence ;
+    rdfs:label [ ] ;
+    jams:hasDuration "0.0"^^xsd:float ;
+    jams:hasFrequency "1"^^xsd:int ;
+    jams:hasPatternType "pitch-class-values" ;
+    jams:ofPattern <http://w3id.org/polifonia/resource/pattern/2_4_7_9_0_7> .
+
+<http://w3id.org/polifonia/resource/JAMSObservation/KingOfTheCannibalIslandsThe22491/4_0_11_7_5_2@0.0> a jams:JAMSObservation,
+        jams:JAMSScoreObservation,
+        jams:ScorePatternOccurrence ;
+    rdfs:label [ ] ;
+    jams:hasDuration "0.0"^^xsd:float ;
+    jams:hasFrequency "1"^^xsd:int ;
+    jams:hasPatternType "pitch-class-values" ;
+    jams:ofPattern <http://w3id.org/polifonia/resource/pattern/4_0_11_7_5_2> .
+
+<http://w3id.org/polifonia/resource/JAMSObservation/KingOfTheCannibalIslandsThe22491/4_2_11_0_11_9@0.0> a jams:JAMSObservation,
+        jams:JAMSScoreObservation,
+        jams:ScorePatternOccurrence ;
+    rdfs:label [ ] ;
+    jams:hasDuration "0.0"^^xsd:float ;
+    jams:hasFrequency "1"^^xsd:int ;
+    jams:hasPatternType "pitch-class-values" ;
+    jams:ofPattern <http://w3id.org/polifonia/resource/pattern/4_2_11_0_11_9> .
+
+<http://w3id.org/polifonia/resource/JAMSObservation/KingOfTheCannibalIslandsThe22491/4_4_4_4_4_5@0.0> a jams:JAMSObservation,
+        jams:JAMSScoreObservation,
+        jams:ScorePatternOccurrence ;
+    rdfs:label [ ] ;
+    jams:hasDuration "0.0"^^xsd:float ;
+    jams:hasFrequency "1"^^xsd:int ;
+    jams:hasPatternType "pitch-class-values" ;
+    jams:ofPattern <http://w3id.org/polifonia/resource/pattern/4_4_4_4_4_5> .
+
+<http://w3id.org/polifonia/resource/JAMSObservation/KingOfTheCannibalIslandsThe22491/4_4_4_4_5_2@0.0> a jams:JAMSObservation,
+        jams:JAMSScoreObservation,
+        jams:ScorePatternOccurrence ;
+    rdfs:label [ ] ;
+    jams:hasDuration "0.0"^^xsd:float ;
+    jams:hasFrequency "1"^^xsd:int ;
+    jams:hasPatternType "pitch-class-values" ;
+    jams:ofPattern <http://w3id.org/polifonia/resource/pattern/4_4_4_4_5_2> .
+
+<http://w3id.org/polifonia/resource/JAMSObservation/KingOfTheCannibalIslandsThe22491/4_4_4_5_2_2@0.0> a jams:JAMSObservation,
+        jams:JAMSScoreObservation,
+        jams:ScorePatternOccurrence ;
+    rdfs:label [ ] ;
+    jams:hasDuration "0.0"^^xsd:float ;
+    jams:hasFrequency "1"^^xsd:int ;
+    jams:hasPatternType "pitch-class-values" ;
+    jams:ofPattern <http://w3id.org/polifonia/resource/pattern/4_4_4_5_2_2> .
+
+<http://w3id.org/polifonia/resource/JAMSObservation/KingOfTheCannibalIslandsThe22491/4_4_5_2_2_0@0.0> a jams:JAMSObservation,
+        jams:JAMSScoreObservation,
+        jams:ScorePatternOccurrence ;
+    rdfs:label [ ] ;
+    jams:hasDuration "0.0"^^xsd:float ;
+    jams:hasFrequency "1"^^xsd:int ;
+    jams:hasPatternType "pitch-class-values" ;
+    jams:ofPattern <http://w3id.org/polifonia/resource/pattern/4_4_5_2_2_0> .
+
+<http://w3id.org/polifonia/resource/JAMSObservation/KingOfTheCannibalIslandsThe22491/4_5_2_2_0_0@0.0> a jams:JAMSObservation,
+        jams:JAMSScoreObservation,
+        jams:ScorePatternOccurrence ;
+    rdfs:label [ ] ;
+    jams:hasDuration "0.0"^^xsd:float ;
+    jams:hasFrequency "1"^^xsd:int ;
+    jams:hasPatternType "pitch-class-values" ;
+    jams:ofPattern <http://w3id.org/polifonia/resource/pattern/4_5_2_2_0_0> .
+
+<http://w3id.org/polifonia/resource/JAMSObservation/KingOfTheCannibalIslandsThe22491/4_7_9_0_7_0@0.0> a jams:JAMSObservation,
+        jams:JAMSScoreObservation,
+        jams:ScorePatternOccurrence ;
+    rdfs:label [ ] ;
+    jams:hasDuration "0.0"^^xsd:float ;
+    jams:hasFrequency "1"^^xsd:int ;
+    jams:hasPatternType "pitch-class-values" ;
+    jams:ofPattern <http://w3id.org/polifonia/resource/pattern/4_7_9_0_7_0> .
+
+<http://w3id.org/polifonia/resource/JAMSObservation/KingOfTheCannibalIslandsThe22491/5_2_2_0_0_0@0.0> a jams:JAMSObservation,
+        jams:JAMSScoreObservation,
+        jams:ScorePatternOccurrence ;
+    rdfs:label [ ] ;
+    jams:hasDuration "0.0"^^xsd:float ;
+    jams:hasFrequency "1"^^xsd:int ;
+    jams:hasPatternType "pitch-class-values" ;
+    jams:ofPattern <http://w3id.org/polifonia/resource/pattern/5_2_2_0_0_0> .
+
+<http://w3id.org/polifonia/resource/JAMSObservation/KingOfTheCannibalIslandsThe22491/5_2_4_7_9_0@0.0> a jams:JAMSObservation,
+        jams:JAMSScoreObservation,
+        jams:ScorePatternOccurrence ;
+    rdfs:label [ ] ;
+    jams:hasDuration "0.0"^^xsd:float ;
+    jams:hasFrequency "1"^^xsd:int ;
+    jams:hasPatternType "pitch-class-values" ;
+    jams:ofPattern <http://w3id.org/polifonia/resource/pattern/5_2_4_7_9_0> .
+
+<http://w3id.org/polifonia/resource/JAMSObservation/KingOfTheCannibalIslandsThe22491/7_0_11_7_0_4@0.0> a jams:JAMSObservation,
+        jams:JAMSScoreObservation,
+        jams:ScorePatternOccurrence ;
+    rdfs:label [ ] ;
+    jams:hasDuration "0.0"^^xsd:float ;
+    jams:hasFrequency "1"^^xsd:int ;
+    jams:hasPatternType "pitch-class-values" ;
+    jams:ofPattern <http://w3id.org/polifonia/resource/pattern/7_0_11_7_0_4> .
+
+<http://w3id.org/polifonia/resource/JAMSObservation/KingOfTheCannibalIslandsThe22491/7_0_11_9_0_0@0.0> a jams:JAMSObservation,
+        jams:JAMSScoreObservation,
+        jams:ScorePatternOccurrence ;
+    rdfs:label [ ] ;
+    jams:hasDuration "0.0"^^xsd:float ;
+    jams:hasFrequency "1"^^xsd:int ;
+    jams:hasPatternType "pitch-class-values" ;
+    jams:ofPattern <http://w3id.org/polifonia/resource/pattern/7_0_11_9_0_0> .
+
+<http://w3id.org/polifonia/resource/JAMSObservation/KingOfTheCannibalIslandsThe22491/7_0_4_4_4_4@0.0> a jams:JAMSObservation,
+        jams:JAMSScoreObservation,
+        jams:ScorePatternOccurrence ;
+    rdfs:label [ ] ;
+    jams:hasDuration "0.0"^^xsd:float ;
+    jams:hasFrequency "1"^^xsd:int ;
+    jams:hasPatternType "pitch-class-values" ;
+    jams:ofPattern <http://w3id.org/polifonia/resource/pattern/7_0_4_4_4_4> .
+
+<http://w3id.org/polifonia/resource/JAMSObservation/KingOfTheCannibalIslandsThe22491/7_5_2_4_7_9@0.0> a jams:JAMSObservation,
+        jams:JAMSScoreObservation,
+        jams:ScorePatternOccurrence ;
+    rdfs:label [ ] ;
+    jams:hasDuration "0.0"^^xsd:float ;
+    jams:hasFrequency "1"^^xsd:int ;
+    jams:hasPatternType "pitch-class-values" ;
+    jams:ofPattern <http://w3id.org/polifonia/resource/pattern/7_5_2_4_7_9> .
+
+<http://w3id.org/polifonia/resource/JAMSObservation/KingOfTheCannibalIslandsThe22491/7_9_0_7_0_11@0.0> a jams:JAMSObservation,
+        jams:JAMSScoreObservation,
+        jams:ScorePatternOccurrence ;
+    rdfs:label [ ] ;
+    jams:hasDuration "0.0"^^xsd:float ;
+    jams:hasFrequency "1"^^xsd:int ;
+    jams:hasPatternType "pitch-class-values" ;
+    jams:ofPattern <http://w3id.org/polifonia/resource/pattern/7_9_0_7_0_11> .
+
+<http://w3id.org/polifonia/resource/JAMSObservation/KingOfTheCannibalIslandsThe22491/9_0_0_11_9_0@0.0> a jams:JAMSObservation,
+        jams:JAMSScoreObservation,
+        jams:ScorePatternOccurrence ;
+    rdfs:label [ ] ;
+    jams:hasDuration "0.0"^^xsd:float ;
+    jams:hasFrequency "2"^^xsd:int ;
+    jams:hasPatternType "pitch-class-values" ;
+    jams:ofPattern <http://w3id.org/polifonia/resource/pattern/9_0_0_11_9_0> .
+
+<http://w3id.org/polifonia/resource/JAMSObservation/KingOfTheCannibalIslandsThe22491/9_0_2_2_2_2@0.0> a jams:JAMSObservation,
+        jams:JAMSScoreObservation,
+        jams:ScorePatternOccurrence ;
+    rdfs:label [ ] ;
+    jams:hasDuration "0.0"^^xsd:float ;
+    jams:hasFrequency "2"^^xsd:int ;
+    jams:hasPatternType "pitch-class-values" ;
+    jams:ofPattern <http://w3id.org/polifonia/resource/pattern/9_0_2_2_2_2> .
+
+<http://w3id.org/polifonia/resource/JAMSObservation/KingOfTheCannibalIslandsThe22491/9_0_7_0_11_7@0.0> a jams:JAMSObservation,
+        jams:JAMSScoreObservation,
+        jams:ScorePatternOccurrence ;
+    rdfs:label [ ] ;
+    jams:hasDuration "0.0"^^xsd:float ;
+    jams:hasFrequency "1"^^xsd:int ;
+    jams:hasPatternType "pitch-class-values" ;
+    jams:ofPattern <http://w3id.org/polifonia/resource/pattern/9_0_7_0_11_7> .
+
+<http://w3id.org/polifonia/resource/MusicalComposition/993eccd161ab34e15da1a1a473c8e219d8054f3c> a mc:MusicalComposition ;
+    rdfs:label "KingOfTheCannibalIslandsThe22491" ;
+    mc:title "KingOfTheCannibalIslandsThe22491" ;
+    prov:wasDerivedFrom <http://w3id.org/polifonia/resource/JAMSFile/KingOfTheCannibalIslandsThe22491.jams> .
+

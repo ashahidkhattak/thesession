@@ -1,0 +1,661 @@
+@prefix core: <http://w3id.org/polifonia/ontology/core/> .
+@prefix jams: <http://w3id.org/polifonia/ontology/jams/> .
+@prefix mc: <http://w3id.org/polifonia/ontology/musical-composition/> .
+@prefix pon-resource: <http://w3id.org/polifonia/resource/> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+pon-resource:Agent%2Fannotator_local_id a core:Agent ;
+    rdfs:label "FONN-Tool" ;
+    jams:hasAnnotatorType pon-resource:annotator-program ;
+    jams:hasName "FONN-Tool" .
+
+<http://w3id.org/polifonia/resource/JAMSAnnotation/3d187746f365efb8e863beaaa224b1c7e8b59eda> a jams:JAMSAnnotation,
+        jams:JAMSScoreAnnotation ;
+    jams:includesObservation <http://w3id.org/polifonia/resource/JAMSObservation/JackieDalys28787/0_7_5_5_11_11@0.0>,
+        <http://w3id.org/polifonia/resource/JAMSObservation/JackieDalys28787/0_7_9_9_2_7@0.0>,
+        <http://w3id.org/polifonia/resource/JAMSObservation/JackieDalys28787/0_9_2_7_5_9@0.0>,
+        <http://w3id.org/polifonia/resource/JAMSObservation/JackieDalys28787/11_11_0_9_2_7@0.0>,
+        <http://w3id.org/polifonia/resource/JAMSObservation/JackieDalys28787/11_11_11_2_5_7@0.0>,
+        <http://w3id.org/polifonia/resource/JAMSObservation/JackieDalys28787/11_11_2_9_2_7@0.0>,
+        <http://w3id.org/polifonia/resource/JAMSObservation/JackieDalys28787/11_11_4_5_7_2@0.0>,
+        <http://w3id.org/polifonia/resource/JAMSObservation/JackieDalys28787/11_2_5_7_2_4@0.0>,
+        <http://w3id.org/polifonia/resource/JAMSObservation/JackieDalys28787/11_2_9_2_9_5@0.0>,
+        <http://w3id.org/polifonia/resource/JAMSObservation/JackieDalys28787/11_4_5_7_2_4@0.0>,
+        <http://w3id.org/polifonia/resource/JAMSObservation/JackieDalys28787/11_5_11_11_11_2@0.0>,
+        <http://w3id.org/polifonia/resource/JAMSObservation/JackieDalys28787/11_5_11_11_2_9@0.0>,
+        <http://w3id.org/polifonia/resource/JAMSObservation/JackieDalys28787/2_4_5_5_5_9@0.0>,
+        <http://w3id.org/polifonia/resource/JAMSObservation/JackieDalys28787/2_4_5_7_2_4@0.0>,
+        <http://w3id.org/polifonia/resource/JAMSObservation/JackieDalys28787/2_5_11_11_0_9@0.0>,
+        <http://w3id.org/polifonia/resource/JAMSObservation/JackieDalys28787/2_5_7_2_4_5@0.0>,
+        <http://w3id.org/polifonia/resource/JAMSObservation/JackieDalys28787/2_7_0_5_11_11@0.0>,
+        <http://w3id.org/polifonia/resource/JAMSObservation/JackieDalys28787/2_7_11_5_11_11@0.0>,
+        <http://w3id.org/polifonia/resource/JAMSObservation/JackieDalys28787/2_7_5_5_11_11@0.0>,
+        <http://w3id.org/polifonia/resource/JAMSObservation/JackieDalys28787/2_7_5_9_0_7@0.0>,
+        <http://w3id.org/polifonia/resource/JAMSObservation/JackieDalys28787/2_9_2_5_11_11@0.0>,
+        <http://w3id.org/polifonia/resource/JAMSObservation/JackieDalys28787/2_9_2_7_5_9@0.0>,
+        <http://w3id.org/polifonia/resource/JAMSObservation/JackieDalys28787/2_9_2_9_5_9@0.0>,
+        <http://w3id.org/polifonia/resource/JAMSObservation/JackieDalys28787/2_9_5_9_0_7@0.0>,
+        <http://w3id.org/polifonia/resource/JAMSObservation/JackieDalys28787/4_5_5_5_9_0@0.0>,
+        <http://w3id.org/polifonia/resource/JAMSObservation/JackieDalys28787/4_5_5_5_9_2@0.0>,
+        <http://w3id.org/polifonia/resource/JAMSObservation/JackieDalys28787/4_5_7_2_4_5@0.0>,
+        <http://w3id.org/polifonia/resource/JAMSObservation/JackieDalys28787/5_11_11_11_2_5@0.0>,
+        <http://w3id.org/polifonia/resource/JAMSObservation/JackieDalys28787/5_11_11_2_9_2@0.0>,
+        <http://w3id.org/polifonia/resource/JAMSObservation/JackieDalys28787/5_5_11_11_2_9@0.0>,
+        <http://w3id.org/polifonia/resource/JAMSObservation/JackieDalys28787/5_5_5_9_0_7@0.0>,
+        <http://w3id.org/polifonia/resource/JAMSObservation/JackieDalys28787/5_5_5_9_2_7@0.0>,
+        <http://w3id.org/polifonia/resource/JAMSObservation/JackieDalys28787/5_5_5_9_2_9@0.0>,
+        <http://w3id.org/polifonia/resource/JAMSObservation/JackieDalys28787/5_5_9_0_7_2@0.0>,
+        <http://w3id.org/polifonia/resource/JAMSObservation/JackieDalys28787/5_5_9_0_7_5@0.0>,
+        <http://w3id.org/polifonia/resource/JAMSObservation/JackieDalys28787/5_5_9_2_7_5@0.0>,
+        <http://w3id.org/polifonia/resource/JAMSObservation/JackieDalys28787/5_5_9_2_9_2@0.0>,
+        <http://w3id.org/polifonia/resource/JAMSObservation/JackieDalys28787/5_7_2_4_5_5@0.0>,
+        <http://w3id.org/polifonia/resource/JAMSObservation/JackieDalys28787/5_9_0_7_2_5@0.0>,
+        <http://w3id.org/polifonia/resource/JAMSObservation/JackieDalys28787/5_9_0_7_5_5@0.0>,
+        <http://w3id.org/polifonia/resource/JAMSObservation/JackieDalys28787/5_9_0_7_9_9@0.0>,
+        <http://w3id.org/polifonia/resource/JAMSObservation/JackieDalys28787/5_9_2_7_5_5@0.0>,
+        <http://w3id.org/polifonia/resource/JAMSObservation/JackieDalys28787/5_9_2_9_2_5@0.0>,
+        <http://w3id.org/polifonia/resource/JAMSObservation/JackieDalys28787/7_0_5_11_11_0@0.0>,
+        <http://w3id.org/polifonia/resource/JAMSObservation/JackieDalys28787/7_11_5_11_11_11@0.0>,
+        <http://w3id.org/polifonia/resource/JAMSObservation/JackieDalys28787/7_2_4_5_5_5@0.0>,
+        <http://w3id.org/polifonia/resource/JAMSObservation/JackieDalys28787/7_2_5_11_11_0@0.0>,
+        <http://w3id.org/polifonia/resource/JAMSObservation/JackieDalys28787/7_5_5_11_11_2@0.0>,
+        <http://w3id.org/polifonia/resource/JAMSObservation/JackieDalys28787/7_5_9_0_7_9@0.0>,
+        <http://w3id.org/polifonia/resource/JAMSObservation/JackieDalys28787/7_9_9_2_7_0@0.0>,
+        <http://w3id.org/polifonia/resource/JAMSObservation/JackieDalys28787/7_9_9_2_7_11@0.0>,
+        <http://w3id.org/polifonia/resource/JAMSObservation/JackieDalys28787/7_9_9_2_7_2@0.0>,
+        <http://w3id.org/polifonia/resource/JAMSObservation/JackieDalys28787/9.0_2.0_7.0_0.0_5.0_11.0@0.0>,
+        <http://w3id.org/polifonia/resource/JAMSObservation/JackieDalys28787/9_0_7_2_5_11@0.0>,
+        <http://w3id.org/polifonia/resource/JAMSObservation/JackieDalys28787/9_0_7_5_5_11@0.0>,
+        <http://w3id.org/polifonia/resource/JAMSObservation/JackieDalys28787/9_0_7_9_9_2@0.0>,
+        <http://w3id.org/polifonia/resource/JAMSObservation/JackieDalys28787/9_2_7_2_5_11@0.0>,
+        <http://w3id.org/polifonia/resource/JAMSObservation/JackieDalys28787/9_2_7_5_9_0@0.0>,
+        <http://w3id.org/polifonia/resource/JAMSObservation/JackieDalys28787/9_2_9_2_5_11@0.0>,
+        <http://w3id.org/polifonia/resource/JAMSObservation/JackieDalys28787/9_2_9_5_9_0@0.0>,
+        <http://w3id.org/polifonia/resource/JAMSObservation/JackieDalys28787/9_5_9_0_7_9@0.0>,
+        <http://w3id.org/polifonia/resource/JAMSObservation/JackieDalys28787/9_9_2_7_0_5@0.0>,
+        <http://w3id.org/polifonia/resource/JAMSObservation/JackieDalys28787/9_9_2_7_2_5@0.0> ;
+    jams:isJAMSAnnotationOf <http://w3id.org/polifonia/resource/MusicalComposition/3d187746f365efb8e863beaaa224b1c7e8b59eda> .
+
+<http://w3id.org/polifonia/resource/Score/song_local_id> jams:hasJAMSAnnotation <http://w3id.org/polifonia/resource/MusicalComposition/3d187746f365efb8e863beaaa224b1c7e8b59eda> .
+
+<http://w3id.org/polifonia/resource/JAMSFile/JackieDalys28787.jams> a jams:JAMSFile ;
+    jams:identifiers [ ] ;
+    jams:jamsVersion "0.3.4" ;
+    jams:release "" ;
+    prov:wasDerivedFrom "The Session" ;
+    prov:wasMemberOf <https://github.com/ashahidkhattak/thesession> .
+
+<http://w3id.org/polifonia/resource/JAMSObservation/JackieDalys28787/0_7_5_5_11_11@0.0> a jams:JAMSObservation,
+        jams:JAMSScoreObservation,
+        jams:ScorePatternOccurrence ;
+    rdfs:label [ ] ;
+    jams:hasDuration "0.0"^^xsd:float ;
+    jams:hasFrequency "1"^^xsd:int ;
+    jams:hasPatternType "pitch-class-values" ;
+    jams:ofPattern <http://w3id.org/polifonia/resource/pattern/0_7_5_5_11_11> .
+
+<http://w3id.org/polifonia/resource/JAMSObservation/JackieDalys28787/0_7_9_9_2_7@0.0> a jams:JAMSObservation,
+        jams:JAMSScoreObservation,
+        jams:ScorePatternOccurrence ;
+    rdfs:label [ ] ;
+    jams:hasDuration "0.0"^^xsd:float ;
+    jams:hasFrequency "4"^^xsd:int ;
+    jams:hasPatternType "pitch-class-values" ;
+    jams:ofPattern <http://w3id.org/polifonia/resource/pattern/0_7_9_9_2_7> .
+
+<http://w3id.org/polifonia/resource/JAMSObservation/JackieDalys28787/0_9_2_7_5_9@0.0> a jams:JAMSObservation,
+        jams:JAMSScoreObservation,
+        jams:ScorePatternOccurrence ;
+    rdfs:label [ ] ;
+    jams:hasDuration "0.0"^^xsd:float ;
+    jams:hasFrequency "1"^^xsd:int ;
+    jams:hasPatternType "pitch-class-values" ;
+    jams:ofPattern <http://w3id.org/polifonia/resource/pattern/0_9_2_7_5_9> .
+
+<http://w3id.org/polifonia/resource/JAMSObservation/JackieDalys28787/11_11_0_9_2_7@0.0> a jams:JAMSObservation,
+        jams:JAMSScoreObservation,
+        jams:ScorePatternOccurrence ;
+    rdfs:label [ ] ;
+    jams:hasDuration "0.0"^^xsd:float ;
+    jams:hasFrequency "1"^^xsd:int ;
+    jams:hasPatternType "pitch-class-values" ;
+    jams:ofPattern <http://w3id.org/polifonia/resource/pattern/11_11_0_9_2_7> .
+
+<http://w3id.org/polifonia/resource/JAMSObservation/JackieDalys28787/11_11_11_2_5_7@0.0> a jams:JAMSObservation,
+        jams:JAMSScoreObservation,
+        jams:ScorePatternOccurrence ;
+    rdfs:label [ ] ;
+    jams:hasDuration "0.0"^^xsd:float ;
+    jams:hasFrequency "2"^^xsd:int ;
+    jams:hasPatternType "pitch-class-values" ;
+    jams:ofPattern <http://w3id.org/polifonia/resource/pattern/11_11_11_2_5_7> .
+
+<http://w3id.org/polifonia/resource/JAMSObservation/JackieDalys28787/11_11_2_9_2_7@0.0> a jams:JAMSObservation,
+        jams:JAMSScoreObservation,
+        jams:ScorePatternOccurrence ;
+    rdfs:label [ ] ;
+    jams:hasDuration "0.0"^^xsd:float ;
+    jams:hasFrequency "1"^^xsd:int ;
+    jams:hasPatternType "pitch-class-values" ;
+    jams:ofPattern <http://w3id.org/polifonia/resource/pattern/11_11_2_9_2_7> .
+
+<http://w3id.org/polifonia/resource/JAMSObservation/JackieDalys28787/11_11_4_5_7_2@0.0> a jams:JAMSObservation,
+        jams:JAMSScoreObservation,
+        jams:ScorePatternOccurrence ;
+    rdfs:label [ ] ;
+    jams:hasDuration "0.0"^^xsd:float ;
+    jams:hasFrequency "1"^^xsd:int ;
+    jams:hasPatternType "pitch-class-values" ;
+    jams:ofPattern <http://w3id.org/polifonia/resource/pattern/11_11_4_5_7_2> .
+
+<http://w3id.org/polifonia/resource/JAMSObservation/JackieDalys28787/11_2_5_7_2_4@0.0> a jams:JAMSObservation,
+        jams:JAMSScoreObservation,
+        jams:ScorePatternOccurrence ;
+    rdfs:label [ ] ;
+    jams:hasDuration "0.0"^^xsd:float ;
+    jams:hasFrequency "2"^^xsd:int ;
+    jams:hasPatternType "pitch-class-values" ;
+    jams:ofPattern <http://w3id.org/polifonia/resource/pattern/11_2_5_7_2_4> .
+
+<http://w3id.org/polifonia/resource/JAMSObservation/JackieDalys28787/11_2_9_2_9_5@0.0> a jams:JAMSObservation,
+        jams:JAMSScoreObservation,
+        jams:ScorePatternOccurrence ;
+    rdfs:label [ ] ;
+    jams:hasDuration "0.0"^^xsd:float ;
+    jams:hasFrequency "2"^^xsd:int ;
+    jams:hasPatternType "pitch-class-values" ;
+    jams:ofPattern <http://w3id.org/polifonia/resource/pattern/11_2_9_2_9_5> .
+
+<http://w3id.org/polifonia/resource/JAMSObservation/JackieDalys28787/11_4_5_7_2_4@0.0> a jams:JAMSObservation,
+        jams:JAMSScoreObservation,
+        jams:ScorePatternOccurrence ;
+    rdfs:label [ ] ;
+    jams:hasDuration "0.0"^^xsd:float ;
+    jams:hasFrequency "1"^^xsd:int ;
+    jams:hasPatternType "pitch-class-values" ;
+    jams:ofPattern <http://w3id.org/polifonia/resource/pattern/11_4_5_7_2_4> .
+
+<http://w3id.org/polifonia/resource/JAMSObservation/JackieDalys28787/11_5_11_11_11_2@0.0> a jams:JAMSObservation,
+        jams:JAMSScoreObservation,
+        jams:ScorePatternOccurrence ;
+    rdfs:label [ ] ;
+    jams:hasDuration "0.0"^^xsd:float ;
+    jams:hasFrequency "1"^^xsd:int ;
+    jams:hasPatternType "pitch-class-values" ;
+    jams:ofPattern <http://w3id.org/polifonia/resource/pattern/11_5_11_11_11_2> .
+
+<http://w3id.org/polifonia/resource/JAMSObservation/JackieDalys28787/11_5_11_11_2_9@0.0> a jams:JAMSObservation,
+        jams:JAMSScoreObservation,
+        jams:ScorePatternOccurrence ;
+    rdfs:label [ ] ;
+    jams:hasDuration "0.0"^^xsd:float ;
+    jams:hasFrequency "1"^^xsd:int ;
+    jams:hasPatternType "pitch-class-values" ;
+    jams:ofPattern <http://w3id.org/polifonia/resource/pattern/11_5_11_11_2_9> .
+
+<http://w3id.org/polifonia/resource/JAMSObservation/JackieDalys28787/2_4_5_5_5_9@0.0> a jams:JAMSObservation,
+        jams:JAMSScoreObservation,
+        jams:ScorePatternOccurrence ;
+    rdfs:label [ ] ;
+    jams:hasDuration "0.0"^^xsd:float ;
+    jams:hasFrequency "4"^^xsd:int ;
+    jams:hasPatternType "pitch-class-values" ;
+    jams:ofPattern <http://w3id.org/polifonia/resource/pattern/2_4_5_5_5_9> .
+
+<http://w3id.org/polifonia/resource/JAMSObservation/JackieDalys28787/2_4_5_7_2_4@0.0> a jams:JAMSObservation,
+        jams:JAMSScoreObservation,
+        jams:ScorePatternOccurrence ;
+    rdfs:label [ ] ;
+    jams:hasDuration "0.0"^^xsd:float ;
+    jams:hasFrequency "1"^^xsd:int ;
+    jams:hasPatternType "pitch-class-values" ;
+    jams:ofPattern <http://w3id.org/polifonia/resource/pattern/2_4_5_7_2_4> .
+
+<http://w3id.org/polifonia/resource/JAMSObservation/JackieDalys28787/2_5_11_11_0_9@0.0> a jams:JAMSObservation,
+        jams:JAMSScoreObservation,
+        jams:ScorePatternOccurrence ;
+    rdfs:label [ ] ;
+    jams:hasDuration "0.0"^^xsd:float ;
+    jams:hasFrequency "1"^^xsd:int ;
+    jams:hasPatternType "pitch-class-values" ;
+    jams:ofPattern <http://w3id.org/polifonia/resource/pattern/2_5_11_11_0_9> .
+
+<http://w3id.org/polifonia/resource/JAMSObservation/JackieDalys28787/2_5_7_2_4_5@0.0> a jams:JAMSObservation,
+        jams:JAMSScoreObservation,
+        jams:ScorePatternOccurrence ;
+    rdfs:label [ ] ;
+    jams:hasDuration "0.0"^^xsd:float ;
+    jams:hasFrequency "2"^^xsd:int ;
+    jams:hasPatternType "pitch-class-values" ;
+    jams:ofPattern <http://w3id.org/polifonia/resource/pattern/2_5_7_2_4_5> .
+
+<http://w3id.org/polifonia/resource/JAMSObservation/JackieDalys28787/2_7_0_5_11_11@0.0> a jams:JAMSObservation,
+        jams:JAMSScoreObservation,
+        jams:ScorePatternOccurrence ;
+    rdfs:label [ ] ;
+    jams:hasDuration "0.0"^^xsd:float ;
+    jams:hasFrequency "1"^^xsd:int ;
+    jams:hasPatternType "pitch-class-values" ;
+    jams:ofPattern <http://w3id.org/polifonia/resource/pattern/2_7_0_5_11_11> .
+
+<http://w3id.org/polifonia/resource/JAMSObservation/JackieDalys28787/2_7_11_5_11_11@0.0> a jams:JAMSObservation,
+        jams:JAMSScoreObservation,
+        jams:ScorePatternOccurrence ;
+    rdfs:label [ ] ;
+    jams:hasDuration "0.0"^^xsd:float ;
+    jams:hasFrequency "2"^^xsd:int ;
+    jams:hasPatternType "pitch-class-values" ;
+    jams:ofPattern <http://w3id.org/polifonia/resource/pattern/2_7_11_5_11_11> .
+
+<http://w3id.org/polifonia/resource/JAMSObservation/JackieDalys28787/2_7_5_5_11_11@0.0> a jams:JAMSObservation,
+        jams:JAMSScoreObservation,
+        jams:ScorePatternOccurrence ;
+    rdfs:label [ ] ;
+    jams:hasDuration "0.0"^^xsd:float ;
+    jams:hasFrequency "1"^^xsd:int ;
+    jams:hasPatternType "pitch-class-values" ;
+    jams:ofPattern <http://w3id.org/polifonia/resource/pattern/2_7_5_5_11_11> .
+
+<http://w3id.org/polifonia/resource/JAMSObservation/JackieDalys28787/2_7_5_9_0_7@0.0> a jams:JAMSObservation,
+        jams:JAMSScoreObservation,
+        jams:ScorePatternOccurrence ;
+    rdfs:label [ ] ;
+    jams:hasDuration "0.0"^^xsd:float ;
+    jams:hasFrequency "2"^^xsd:int ;
+    jams:hasPatternType "pitch-class-values" ;
+    jams:ofPattern <http://w3id.org/polifonia/resource/pattern/2_7_5_9_0_7> .
+
+<http://w3id.org/polifonia/resource/JAMSObservation/JackieDalys28787/2_9_2_5_11_11@0.0> a jams:JAMSObservation,
+        jams:JAMSScoreObservation,
+        jams:ScorePatternOccurrence ;
+    rdfs:label [ ] ;
+    jams:hasDuration "0.0"^^xsd:float ;
+    jams:hasFrequency "1"^^xsd:int ;
+    jams:hasPatternType "pitch-class-values" ;
+    jams:ofPattern <http://w3id.org/polifonia/resource/pattern/2_9_2_5_11_11> .
+
+<http://w3id.org/polifonia/resource/JAMSObservation/JackieDalys28787/2_9_2_7_5_9@0.0> a jams:JAMSObservation,
+        jams:JAMSScoreObservation,
+        jams:ScorePatternOccurrence ;
+    rdfs:label [ ] ;
+    jams:hasDuration "0.0"^^xsd:float ;
+    jams:hasFrequency "1"^^xsd:int ;
+    jams:hasPatternType "pitch-class-values" ;
+    jams:ofPattern <http://w3id.org/polifonia/resource/pattern/2_9_2_7_5_9> .
+
+<http://w3id.org/polifonia/resource/JAMSObservation/JackieDalys28787/2_9_2_9_5_9@0.0> a jams:JAMSObservation,
+        jams:JAMSScoreObservation,
+        jams:ScorePatternOccurrence ;
+    rdfs:label [ ] ;
+    jams:hasDuration "0.0"^^xsd:float ;
+    jams:hasFrequency "2"^^xsd:int ;
+    jams:hasPatternType "pitch-class-values" ;
+    jams:ofPattern <http://w3id.org/polifonia/resource/pattern/2_9_2_9_5_9> .
+
+<http://w3id.org/polifonia/resource/JAMSObservation/JackieDalys28787/2_9_5_9_0_7@0.0> a jams:JAMSObservation,
+        jams:JAMSScoreObservation,
+        jams:ScorePatternOccurrence ;
+    rdfs:label [ ] ;
+    jams:hasDuration "0.0"^^xsd:float ;
+    jams:hasFrequency "2"^^xsd:int ;
+    jams:hasPatternType "pitch-class-values" ;
+    jams:ofPattern <http://w3id.org/polifonia/resource/pattern/2_9_5_9_0_7> .
+
+<http://w3id.org/polifonia/resource/JAMSObservation/JackieDalys28787/4_5_5_5_9_0@0.0> a jams:JAMSObservation,
+        jams:JAMSScoreObservation,
+        jams:ScorePatternOccurrence ;
+    rdfs:label [ ] ;
+    jams:hasDuration "0.0"^^xsd:float ;
+    jams:hasFrequency "2"^^xsd:int ;
+    jams:hasPatternType "pitch-class-values" ;
+    jams:ofPattern <http://w3id.org/polifonia/resource/pattern/4_5_5_5_9_0> .
+
+<http://w3id.org/polifonia/resource/JAMSObservation/JackieDalys28787/4_5_5_5_9_2@0.0> a jams:JAMSObservation,
+        jams:JAMSScoreObservation,
+        jams:ScorePatternOccurrence ;
+    rdfs:label [ ] ;
+    jams:hasDuration "0.0"^^xsd:float ;
+    jams:hasFrequency "2"^^xsd:int ;
+    jams:hasPatternType "pitch-class-values" ;
+    jams:ofPattern <http://w3id.org/polifonia/resource/pattern/4_5_5_5_9_2> .
+
+<http://w3id.org/polifonia/resource/JAMSObservation/JackieDalys28787/4_5_7_2_4_5@0.0> a jams:JAMSObservation,
+        jams:JAMSScoreObservation,
+        jams:ScorePatternOccurrence ;
+    rdfs:label [ ] ;
+    jams:hasDuration "0.0"^^xsd:float ;
+    jams:hasFrequency "2"^^xsd:int ;
+    jams:hasPatternType "pitch-class-values" ;
+    jams:ofPattern <http://w3id.org/polifonia/resource/pattern/4_5_7_2_4_5> .
+
+<http://w3id.org/polifonia/resource/JAMSObservation/JackieDalys28787/5_11_11_11_2_5@0.0> a jams:JAMSObservation,
+        jams:JAMSScoreObservation,
+        jams:ScorePatternOccurrence ;
+    rdfs:label [ ] ;
+    jams:hasDuration "0.0"^^xsd:float ;
+    jams:hasFrequency "2"^^xsd:int ;
+    jams:hasPatternType "pitch-class-values" ;
+    jams:ofPattern <http://w3id.org/polifonia/resource/pattern/5_11_11_11_2_5> .
+
+<http://w3id.org/polifonia/resource/JAMSObservation/JackieDalys28787/5_11_11_2_9_2@0.0> a jams:JAMSObservation,
+        jams:JAMSScoreObservation,
+        jams:ScorePatternOccurrence ;
+    rdfs:label [ ] ;
+    jams:hasDuration "0.0"^^xsd:float ;
+    jams:hasFrequency "3"^^xsd:int ;
+    jams:hasPatternType "pitch-class-values" ;
+    jams:ofPattern <http://w3id.org/polifonia/resource/pattern/5_11_11_2_9_2> .
+
+<http://w3id.org/polifonia/resource/JAMSObservation/JackieDalys28787/5_5_11_11_2_9@0.0> a jams:JAMSObservation,
+        jams:JAMSScoreObservation,
+        jams:ScorePatternOccurrence ;
+    rdfs:label [ ] ;
+    jams:hasDuration "0.0"^^xsd:float ;
+    jams:hasFrequency "1"^^xsd:int ;
+    jams:hasPatternType "pitch-class-values" ;
+    jams:ofPattern <http://w3id.org/polifonia/resource/pattern/5_5_11_11_2_9> .
+
+<http://w3id.org/polifonia/resource/JAMSObservation/JackieDalys28787/5_5_5_9_0_7@0.0> a jams:JAMSObservation,
+        jams:JAMSScoreObservation,
+        jams:ScorePatternOccurrence ;
+    rdfs:label [ ] ;
+    jams:hasDuration "0.0"^^xsd:float ;
+    jams:hasFrequency "2"^^xsd:int ;
+    jams:hasPatternType "pitch-class-values" ;
+    jams:ofPattern <http://w3id.org/polifonia/resource/pattern/5_5_5_9_0_7> .
+
+<http://w3id.org/polifonia/resource/JAMSObservation/JackieDalys28787/5_5_5_9_2_7@0.0> a jams:JAMSObservation,
+        jams:JAMSScoreObservation,
+        jams:ScorePatternOccurrence ;
+    rdfs:label [ ] ;
+    jams:hasDuration "0.0"^^xsd:float ;
+    jams:hasFrequency "1"^^xsd:int ;
+    jams:hasPatternType "pitch-class-values" ;
+    jams:ofPattern <http://w3id.org/polifonia/resource/pattern/5_5_5_9_2_7> .
+
+<http://w3id.org/polifonia/resource/JAMSObservation/JackieDalys28787/5_5_5_9_2_9@0.0> a jams:JAMSObservation,
+        jams:JAMSScoreObservation,
+        jams:ScorePatternOccurrence ;
+    rdfs:label [ ] ;
+    jams:hasDuration "0.0"^^xsd:float ;
+    jams:hasFrequency "1"^^xsd:int ;
+    jams:hasPatternType "pitch-class-values" ;
+    jams:ofPattern <http://w3id.org/polifonia/resource/pattern/5_5_5_9_2_9> .
+
+<http://w3id.org/polifonia/resource/JAMSObservation/JackieDalys28787/5_5_9_0_7_2@0.0> a jams:JAMSObservation,
+        jams:JAMSScoreObservation,
+        jams:ScorePatternOccurrence ;
+    rdfs:label [ ] ;
+    jams:hasDuration "0.0"^^xsd:float ;
+    jams:hasFrequency "1"^^xsd:int ;
+    jams:hasPatternType "pitch-class-values" ;
+    jams:ofPattern <http://w3id.org/polifonia/resource/pattern/5_5_9_0_7_2> .
+
+<http://w3id.org/polifonia/resource/JAMSObservation/JackieDalys28787/5_5_9_0_7_5@0.0> a jams:JAMSObservation,
+        jams:JAMSScoreObservation,
+        jams:ScorePatternOccurrence ;
+    rdfs:label [ ] ;
+    jams:hasDuration "0.0"^^xsd:float ;
+    jams:hasFrequency "1"^^xsd:int ;
+    jams:hasPatternType "pitch-class-values" ;
+    jams:ofPattern <http://w3id.org/polifonia/resource/pattern/5_5_9_0_7_5> .
+
+<http://w3id.org/polifonia/resource/JAMSObservation/JackieDalys28787/5_5_9_2_7_5@0.0> a jams:JAMSObservation,
+        jams:JAMSScoreObservation,
+        jams:ScorePatternOccurrence ;
+    rdfs:label [ ] ;
+    jams:hasDuration "0.0"^^xsd:float ;
+    jams:hasFrequency "1"^^xsd:int ;
+    jams:hasPatternType "pitch-class-values" ;
+    jams:ofPattern <http://w3id.org/polifonia/resource/pattern/5_5_9_2_7_5> .
+
+<http://w3id.org/polifonia/resource/JAMSObservation/JackieDalys28787/5_5_9_2_9_2@0.0> a jams:JAMSObservation,
+        jams:JAMSScoreObservation,
+        jams:ScorePatternOccurrence ;
+    rdfs:label [ ] ;
+    jams:hasDuration "0.0"^^xsd:float ;
+    jams:hasFrequency "1"^^xsd:int ;
+    jams:hasPatternType "pitch-class-values" ;
+    jams:ofPattern <http://w3id.org/polifonia/resource/pattern/5_5_9_2_9_2> .
+
+<http://w3id.org/polifonia/resource/JAMSObservation/JackieDalys28787/5_7_2_4_5_5@0.0> a jams:JAMSObservation,
+        jams:JAMSScoreObservation,
+        jams:ScorePatternOccurrence ;
+    rdfs:label [ ] ;
+    jams:hasDuration "0.0"^^xsd:float ;
+    jams:hasFrequency "4"^^xsd:int ;
+    jams:hasPatternType "pitch-class-values" ;
+    jams:ofPattern <http://w3id.org/polifonia/resource/pattern/5_7_2_4_5_5> .
+
+<http://w3id.org/polifonia/resource/JAMSObservation/JackieDalys28787/5_9_0_7_2_5@0.0> a jams:JAMSObservation,
+        jams:JAMSScoreObservation,
+        jams:ScorePatternOccurrence ;
+    rdfs:label [ ] ;
+    jams:hasDuration "0.0"^^xsd:float ;
+    jams:hasFrequency "1"^^xsd:int ;
+    jams:hasPatternType "pitch-class-values" ;
+    jams:ofPattern <http://w3id.org/polifonia/resource/pattern/5_9_0_7_2_5> .
+
+<http://w3id.org/polifonia/resource/JAMSObservation/JackieDalys28787/5_9_0_7_5_5@0.0> a jams:JAMSObservation,
+        jams:JAMSScoreObservation,
+        jams:ScorePatternOccurrence ;
+    rdfs:label [ ] ;
+    jams:hasDuration "0.0"^^xsd:float ;
+    jams:hasFrequency "1"^^xsd:int ;
+    jams:hasPatternType "pitch-class-values" ;
+    jams:ofPattern <http://w3id.org/polifonia/resource/pattern/5_9_0_7_5_5> .
+
+<http://w3id.org/polifonia/resource/JAMSObservation/JackieDalys28787/5_9_0_7_9_9@0.0> a jams:JAMSObservation,
+        jams:JAMSScoreObservation,
+        jams:ScorePatternOccurrence ;
+    rdfs:label [ ] ;
+    jams:hasDuration "0.0"^^xsd:float ;
+    jams:hasFrequency "4"^^xsd:int ;
+    jams:hasPatternType "pitch-class-values" ;
+    jams:ofPattern <http://w3id.org/polifonia/resource/pattern/5_9_0_7_9_9> .
+
+<http://w3id.org/polifonia/resource/JAMSObservation/JackieDalys28787/5_9_2_7_5_5@0.0> a jams:JAMSObservation,
+        jams:JAMSScoreObservation,
+        jams:ScorePatternOccurrence ;
+    rdfs:label [ ] ;
+    jams:hasDuration "0.0"^^xsd:float ;
+    jams:hasFrequency "1"^^xsd:int ;
+    jams:hasPatternType "pitch-class-values" ;
+    jams:ofPattern <http://w3id.org/polifonia/resource/pattern/5_9_2_7_5_5> .
+
+<http://w3id.org/polifonia/resource/JAMSObservation/JackieDalys28787/5_9_2_9_2_5@0.0> a jams:JAMSObservation,
+        jams:JAMSScoreObservation,
+        jams:ScorePatternOccurrence ;
+    rdfs:label [ ] ;
+    jams:hasDuration "0.0"^^xsd:float ;
+    jams:hasFrequency "1"^^xsd:int ;
+    jams:hasPatternType "pitch-class-values" ;
+    jams:ofPattern <http://w3id.org/polifonia/resource/pattern/5_9_2_9_2_5> .
+
+<http://w3id.org/polifonia/resource/JAMSObservation/JackieDalys28787/7_0_5_11_11_0@0.0> a jams:JAMSObservation,
+        jams:JAMSScoreObservation,
+        jams:ScorePatternOccurrence ;
+    rdfs:label [ ] ;
+    jams:hasDuration "0.0"^^xsd:float ;
+    jams:hasFrequency "1"^^xsd:int ;
+    jams:hasPatternType "pitch-class-values" ;
+    jams:ofPattern <http://w3id.org/polifonia/resource/pattern/7_0_5_11_11_0> .
+
+<http://w3id.org/polifonia/resource/JAMSObservation/JackieDalys28787/7_11_5_11_11_11@0.0> a jams:JAMSObservation,
+        jams:JAMSScoreObservation,
+        jams:ScorePatternOccurrence ;
+    rdfs:label [ ] ;
+    jams:hasDuration "0.0"^^xsd:float ;
+    jams:hasFrequency "1"^^xsd:int ;
+    jams:hasPatternType "pitch-class-values" ;
+    jams:ofPattern <http://w3id.org/polifonia/resource/pattern/7_11_5_11_11_11> .
+
+<http://w3id.org/polifonia/resource/JAMSObservation/JackieDalys28787/7_2_4_5_5_5@0.0> a jams:JAMSObservation,
+        jams:JAMSScoreObservation,
+        jams:ScorePatternOccurrence ;
+    rdfs:label [ ] ;
+    jams:hasDuration "0.0"^^xsd:float ;
+    jams:hasFrequency "4"^^xsd:int ;
+    jams:hasPatternType "pitch-class-values" ;
+    jams:ofPattern <http://w3id.org/polifonia/resource/pattern/7_2_4_5_5_5> .
+
+<http://w3id.org/polifonia/resource/JAMSObservation/JackieDalys28787/7_2_5_11_11_0@0.0> a jams:JAMSObservation,
+        jams:JAMSScoreObservation,
+        jams:ScorePatternOccurrence ;
+    rdfs:label [ ] ;
+    jams:hasDuration "0.0"^^xsd:float ;
+    jams:hasFrequency "1"^^xsd:int ;
+    jams:hasPatternType "pitch-class-values" ;
+    jams:ofPattern <http://w3id.org/polifonia/resource/pattern/7_2_5_11_11_0> .
+
+<http://w3id.org/polifonia/resource/JAMSObservation/JackieDalys28787/7_5_5_11_11_2@0.0> a jams:JAMSObservation,
+        jams:JAMSScoreObservation,
+        jams:ScorePatternOccurrence ;
+    rdfs:label [ ] ;
+    jams:hasDuration "0.0"^^xsd:float ;
+    jams:hasFrequency "1"^^xsd:int ;
+    jams:hasPatternType "pitch-class-values" ;
+    jams:ofPattern <http://w3id.org/polifonia/resource/pattern/7_5_5_11_11_2> .
+
+<http://w3id.org/polifonia/resource/JAMSObservation/JackieDalys28787/7_5_9_0_7_9@0.0> a jams:JAMSObservation,
+        jams:JAMSScoreObservation,
+        jams:ScorePatternOccurrence ;
+    rdfs:label [ ] ;
+    jams:hasDuration "0.0"^^xsd:float ;
+    jams:hasFrequency "2"^^xsd:int ;
+    jams:hasPatternType "pitch-class-values" ;
+    jams:ofPattern <http://w3id.org/polifonia/resource/pattern/7_5_9_0_7_9> .
+
+<http://w3id.org/polifonia/resource/JAMSObservation/JackieDalys28787/7_9_9_2_7_0@0.0> a jams:JAMSObservation,
+        jams:JAMSScoreObservation,
+        jams:ScorePatternOccurrence ;
+    rdfs:label [ ] ;
+    jams:hasDuration "0.0"^^xsd:float ;
+    jams:hasFrequency "1"^^xsd:int ;
+    jams:hasPatternType "pitch-class-values" ;
+    jams:ofPattern <http://w3id.org/polifonia/resource/pattern/7_9_9_2_7_0> .
+
+<http://w3id.org/polifonia/resource/JAMSObservation/JackieDalys28787/7_9_9_2_7_11@0.0> a jams:JAMSObservation,
+        jams:JAMSScoreObservation,
+        jams:ScorePatternOccurrence ;
+    rdfs:label [ ] ;
+    jams:hasDuration "0.0"^^xsd:float ;
+    jams:hasFrequency "2"^^xsd:int ;
+    jams:hasPatternType "pitch-class-values" ;
+    jams:ofPattern <http://w3id.org/polifonia/resource/pattern/7_9_9_2_7_11> .
+
+<http://w3id.org/polifonia/resource/JAMSObservation/JackieDalys28787/7_9_9_2_7_2@0.0> a jams:JAMSObservation,
+        jams:JAMSScoreObservation,
+        jams:ScorePatternOccurrence ;
+    rdfs:label [ ] ;
+    jams:hasDuration "0.0"^^xsd:float ;
+    jams:hasFrequency "1"^^xsd:int ;
+    jams:hasPatternType "pitch-class-values" ;
+    jams:ofPattern <http://w3id.org/polifonia/resource/pattern/7_9_9_2_7_2> .
+
+<http://w3id.org/polifonia/resource/JAMSObservation/JackieDalys28787/9.0_2.0_7.0_0.0_5.0_11.0@0.0> a jams:JAMSObservation,
+        jams:JAMSScoreObservation,
+        jams:ScorePatternOccurrence ;
+    rdfs:label [ ] ;
+    jams:hasDuration "0.0"^^xsd:float ;
+    jams:hasFrequency "1"^^xsd:int ;
+    jams:hasPatternType "pitch-class-values" ;
+    jams:ofPattern <http://w3id.org/polifonia/resource/pattern/9.0_2.0_7.0_0.0_5.0_11.0> .
+
+<http://w3id.org/polifonia/resource/JAMSObservation/JackieDalys28787/9_0_7_2_5_11@0.0> a jams:JAMSObservation,
+        jams:JAMSScoreObservation,
+        jams:ScorePatternOccurrence ;
+    rdfs:label [ ] ;
+    jams:hasDuration "0.0"^^xsd:float ;
+    jams:hasFrequency "1"^^xsd:int ;
+    jams:hasPatternType "pitch-class-values" ;
+    jams:ofPattern <http://w3id.org/polifonia/resource/pattern/9_0_7_2_5_11> .
+
+<http://w3id.org/polifonia/resource/JAMSObservation/JackieDalys28787/9_0_7_5_5_11@0.0> a jams:JAMSObservation,
+        jams:JAMSScoreObservation,
+        jams:ScorePatternOccurrence ;
+    rdfs:label [ ] ;
+    jams:hasDuration "0.0"^^xsd:float ;
+    jams:hasFrequency "1"^^xsd:int ;
+    jams:hasPatternType "pitch-class-values" ;
+    jams:ofPattern <http://w3id.org/polifonia/resource/pattern/9_0_7_5_5_11> .
+
+<http://w3id.org/polifonia/resource/JAMSObservation/JackieDalys28787/9_0_7_9_9_2@0.0> a jams:JAMSObservation,
+        jams:JAMSScoreObservation,
+        jams:ScorePatternOccurrence ;
+    rdfs:label [ ] ;
+    jams:hasDuration "0.0"^^xsd:float ;
+    jams:hasFrequency "4"^^xsd:int ;
+    jams:hasPatternType "pitch-class-values" ;
+    jams:ofPattern <http://w3id.org/polifonia/resource/pattern/9_0_7_9_9_2> .
+
+<http://w3id.org/polifonia/resource/JAMSObservation/JackieDalys28787/9_2_7_2_5_11@0.0> a jams:JAMSObservation,
+        jams:JAMSScoreObservation,
+        jams:ScorePatternOccurrence ;
+    rdfs:label [ ] ;
+    jams:hasDuration "0.0"^^xsd:float ;
+    jams:hasFrequency "1"^^xsd:int ;
+    jams:hasPatternType "pitch-class-values" ;
+    jams:ofPattern <http://w3id.org/polifonia/resource/pattern/9_2_7_2_5_11> .
+
+<http://w3id.org/polifonia/resource/JAMSObservation/JackieDalys28787/9_2_7_5_9_0@0.0> a jams:JAMSObservation,
+        jams:JAMSScoreObservation,
+        jams:ScorePatternOccurrence ;
+    rdfs:label [ ] ;
+    jams:hasDuration "0.0"^^xsd:float ;
+    jams:hasFrequency "2"^^xsd:int ;
+    jams:hasPatternType "pitch-class-values" ;
+    jams:ofPattern <http://w3id.org/polifonia/resource/pattern/9_2_7_5_9_0> .
+
+<http://w3id.org/polifonia/resource/JAMSObservation/JackieDalys28787/9_2_9_2_5_11@0.0> a jams:JAMSObservation,
+        jams:JAMSScoreObservation,
+        jams:ScorePatternOccurrence ;
+    rdfs:label [ ] ;
+    jams:hasDuration "0.0"^^xsd:float ;
+    jams:hasFrequency "1"^^xsd:int ;
+    jams:hasPatternType "pitch-class-values" ;
+    jams:ofPattern <http://w3id.org/polifonia/resource/pattern/9_2_9_2_5_11> .
+
+<http://w3id.org/polifonia/resource/JAMSObservation/JackieDalys28787/9_2_9_5_9_0@0.0> a jams:JAMSObservation,
+        jams:JAMSScoreObservation,
+        jams:ScorePatternOccurrence ;
+    rdfs:label [ ] ;
+    jams:hasDuration "0.0"^^xsd:float ;
+    jams:hasFrequency "2"^^xsd:int ;
+    jams:hasPatternType "pitch-class-values" ;
+    jams:ofPattern <http://w3id.org/polifonia/resource/pattern/9_2_9_5_9_0> .
+
+<http://w3id.org/polifonia/resource/JAMSObservation/JackieDalys28787/9_5_9_0_7_9@0.0> a jams:JAMSObservation,
+        jams:JAMSScoreObservation,
+        jams:ScorePatternOccurrence ;
+    rdfs:label [ ] ;
+    jams:hasDuration "0.0"^^xsd:float ;
+    jams:hasFrequency "2"^^xsd:int ;
+    jams:hasPatternType "pitch-class-values" ;
+    jams:ofPattern <http://w3id.org/polifonia/resource/pattern/9_5_9_0_7_9> .
+
+<http://w3id.org/polifonia/resource/JAMSObservation/JackieDalys28787/9_9_2_7_0_5@0.0> a jams:JAMSObservation,
+        jams:JAMSScoreObservation,
+        jams:ScorePatternOccurrence ;
+    rdfs:label [ ] ;
+    jams:hasDuration "0.0"^^xsd:float ;
+    jams:hasFrequency "1"^^xsd:int ;
+    jams:hasPatternType "pitch-class-values" ;
+    jams:ofPattern <http://w3id.org/polifonia/resource/pattern/9_9_2_7_0_5> .
+
+<http://w3id.org/polifonia/resource/JAMSObservation/JackieDalys28787/9_9_2_7_2_5@0.0> a jams:JAMSObservation,
+        jams:JAMSScoreObservation,
+        jams:ScorePatternOccurrence ;
+    rdfs:label [ ] ;
+    jams:hasDuration "0.0"^^xsd:float ;
+    jams:hasFrequency "1"^^xsd:int ;
+    jams:hasPatternType "pitch-class-values" ;
+    jams:ofPattern <http://w3id.org/polifonia/resource/pattern/9_9_2_7_2_5> .
+
+<http://w3id.org/polifonia/resource/MusicalComposition/3d187746f365efb8e863beaaa224b1c7e8b59eda> a mc:MusicalComposition ;
+    rdfs:label "JackieDalys28787" ;
+    mc:title "JackieDalys28787" ;
+    prov:wasDerivedFrom <http://w3id.org/polifonia/resource/JAMSFile/JackieDalys28787.jams> .
+

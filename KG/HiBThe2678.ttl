@@ -1,0 +1,131 @@
+@prefix core: <http://w3id.org/polifonia/ontology/core/> .
+@prefix jams: <http://w3id.org/polifonia/ontology/jams/> .
+@prefix mc: <http://w3id.org/polifonia/ontology/musical-composition/> .
+@prefix pon-resource: <http://w3id.org/polifonia/resource/> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+pon-resource:Agent%2Fannotator_local_id a core:Agent ;
+    rdfs:label "FONN-Tool" ;
+    jams:hasAnnotatorType pon-resource:annotator-program ;
+    jams:hasName "FONN-Tool" .
+
+<http://w3id.org/polifonia/resource/JAMSAnnotation/167d8a33464593b10bac8609a71736e8a41d66db> a jams:JAMSAnnotation,
+        jams:JAMSScoreAnnotation ;
+    jams:includesObservation <http://w3id.org/polifonia/resource/JAMSObservation/HiBThe2678/0_7_0_3_2_2@0.0>,
+        <http://w3id.org/polifonia/resource/JAMSObservation/HiBThe2678/0_8_8_7_5_3@0.0>,
+        <http://w3id.org/polifonia/resource/JAMSObservation/HiBThe2678/2_2_7_8_10_0@0.0>,
+        <http://w3id.org/polifonia/resource/JAMSObservation/HiBThe2678/2_7_8_0_7_0@0.0>,
+        <http://w3id.org/polifonia/resource/JAMSObservation/HiBThe2678/3_2_2_7_8_10@0.0>,
+        <http://w3id.org/polifonia/resource/JAMSObservation/HiBThe2678/5_3_0_11_0_8@0.0>,
+        <http://w3id.org/polifonia/resource/JAMSObservation/HiBThe2678/7_0_3_2_2_7@0.0>,
+        <http://w3id.org/polifonia/resource/JAMSObservation/HiBThe2678/7_5_3_0_11_0@0.0>,
+        <http://w3id.org/polifonia/resource/JAMSObservation/HiBThe2678/7_8_0_7_0_3@0.0>,
+        <http://w3id.org/polifonia/resource/JAMSObservation/HiBThe2678/8_8_7_5_3_0@0.0> ;
+    jams:isJAMSAnnotationOf <http://w3id.org/polifonia/resource/MusicalComposition/167d8a33464593b10bac8609a71736e8a41d66db> .
+
+<http://w3id.org/polifonia/resource/Score/song_local_id> jams:hasJAMSAnnotation <http://w3id.org/polifonia/resource/MusicalComposition/167d8a33464593b10bac8609a71736e8a41d66db> .
+
+<http://w3id.org/polifonia/resource/JAMSFile/HiBThe2678.jams> a jams:JAMSFile ;
+    jams:identifiers [ ] ;
+    jams:jamsVersion "0.3.4" ;
+    jams:release "" ;
+    prov:wasDerivedFrom "The Session" ;
+    prov:wasMemberOf <https://github.com/ashahidkhattak/thesession> .
+
+<http://w3id.org/polifonia/resource/JAMSObservation/HiBThe2678/0_7_0_3_2_2@0.0> a jams:JAMSObservation,
+        jams:JAMSScoreObservation,
+        jams:ScorePatternOccurrence ;
+    rdfs:label [ ] ;
+    jams:hasDuration "0.0"^^xsd:float ;
+    jams:hasFrequency "2"^^xsd:int ;
+    jams:hasPatternType "pitch-class-values" ;
+    jams:ofPattern <http://w3id.org/polifonia/resource/pattern/0_7_0_3_2_2> .
+
+<http://w3id.org/polifonia/resource/JAMSObservation/HiBThe2678/0_8_8_7_5_3@0.0> a jams:JAMSObservation,
+        jams:JAMSScoreObservation,
+        jams:ScorePatternOccurrence ;
+    rdfs:label [ ] ;
+    jams:hasDuration "0.0"^^xsd:float ;
+    jams:hasFrequency "2"^^xsd:int ;
+    jams:hasPatternType "pitch-class-values" ;
+    jams:ofPattern <http://w3id.org/polifonia/resource/pattern/0_8_8_7_5_3> .
+
+<http://w3id.org/polifonia/resource/JAMSObservation/HiBThe2678/2_2_7_8_10_0@0.0> a jams:JAMSObservation,
+        jams:JAMSScoreObservation,
+        jams:ScorePatternOccurrence ;
+    rdfs:label [ ] ;
+    jams:hasDuration "0.0"^^xsd:float ;
+    jams:hasFrequency "1"^^xsd:int ;
+    jams:hasPatternType "pitch-class-values" ;
+    jams:ofPattern <http://w3id.org/polifonia/resource/pattern/2_2_7_8_10_0> .
+
+<http://w3id.org/polifonia/resource/JAMSObservation/HiBThe2678/2_7_8_0_7_0@0.0> a jams:JAMSObservation,
+        jams:JAMSScoreObservation,
+        jams:ScorePatternOccurrence ;
+    rdfs:label [ ] ;
+    jams:hasDuration "0.0"^^xsd:float ;
+    jams:hasFrequency "3"^^xsd:int ;
+    jams:hasPatternType "pitch-class-values" ;
+    jams:ofPattern <http://w3id.org/polifonia/resource/pattern/2_7_8_0_7_0> .
+
+<http://w3id.org/polifonia/resource/JAMSObservation/HiBThe2678/3_2_2_7_8_10@0.0> a jams:JAMSObservation,
+        jams:JAMSScoreObservation,
+        jams:ScorePatternOccurrence ;
+    rdfs:label [ ] ;
+    jams:hasDuration "0.0"^^xsd:float ;
+    jams:hasFrequency "1"^^xsd:int ;
+    jams:hasPatternType "pitch-class-values" ;
+    jams:ofPattern <http://w3id.org/polifonia/resource/pattern/3_2_2_7_8_10> .
+
+<http://w3id.org/polifonia/resource/JAMSObservation/HiBThe2678/5_3_0_11_0_8@0.0> a jams:JAMSObservation,
+        jams:JAMSScoreObservation,
+        jams:ScorePatternOccurrence ;
+    rdfs:label [ ] ;
+    jams:hasDuration "0.0"^^xsd:float ;
+    jams:hasFrequency "2"^^xsd:int ;
+    jams:hasPatternType "pitch-class-values" ;
+    jams:ofPattern <http://w3id.org/polifonia/resource/pattern/5_3_0_11_0_8> .
+
+<http://w3id.org/polifonia/resource/JAMSObservation/HiBThe2678/7_0_3_2_2_7@0.0> a jams:JAMSObservation,
+        jams:JAMSScoreObservation,
+        jams:ScorePatternOccurrence ;
+    rdfs:label [ ] ;
+    jams:hasDuration "0.0"^^xsd:float ;
+    jams:hasFrequency "2"^^xsd:int ;
+    jams:hasPatternType "pitch-class-values" ;
+    jams:ofPattern <http://w3id.org/polifonia/resource/pattern/7_0_3_2_2_7> .
+
+<http://w3id.org/polifonia/resource/JAMSObservation/HiBThe2678/7_5_3_0_11_0@0.0> a jams:JAMSObservation,
+        jams:JAMSScoreObservation,
+        jams:ScorePatternOccurrence ;
+    rdfs:label [ ] ;
+    jams:hasDuration "0.0"^^xsd:float ;
+    jams:hasFrequency "2"^^xsd:int ;
+    jams:hasPatternType "pitch-class-values" ;
+    jams:ofPattern <http://w3id.org/polifonia/resource/pattern/7_5_3_0_11_0> .
+
+<http://w3id.org/polifonia/resource/JAMSObservation/HiBThe2678/7_8_0_7_0_3@0.0> a jams:JAMSObservation,
+        jams:JAMSScoreObservation,
+        jams:ScorePatternOccurrence ;
+    rdfs:label [ ] ;
+    jams:hasDuration "0.0"^^xsd:float ;
+    jams:hasFrequency "3"^^xsd:int ;
+    jams:hasPatternType "pitch-class-values" ;
+    jams:ofPattern <http://w3id.org/polifonia/resource/pattern/7_8_0_7_0_3> .
+
+<http://w3id.org/polifonia/resource/JAMSObservation/HiBThe2678/8_8_7_5_3_0@0.0> a jams:JAMSObservation,
+        jams:JAMSScoreObservation,
+        jams:ScorePatternOccurrence ;
+    rdfs:label [ ] ;
+    jams:hasDuration "0.0"^^xsd:float ;
+    jams:hasFrequency "2"^^xsd:int ;
+    jams:hasPatternType "pitch-class-values" ;
+    jams:ofPattern <http://w3id.org/polifonia/resource/pattern/8_8_7_5_3_0> .
+
+<http://w3id.org/polifonia/resource/MusicalComposition/167d8a33464593b10bac8609a71736e8a41d66db> a mc:MusicalComposition ;
+    rdfs:label "HiBThe2678" ;
+    mc:title "HiBThe2678" ;
+    prov:wasDerivedFrom <http://w3id.org/polifonia/resource/JAMSFile/HiBThe2678.jams> .
+

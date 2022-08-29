@@ -1,0 +1,261 @@
+@prefix core: <http://w3id.org/polifonia/ontology/core/> .
+@prefix jams: <http://w3id.org/polifonia/ontology/jams/> .
+@prefix mc: <http://w3id.org/polifonia/ontology/musical-composition/> .
+@prefix pon-resource: <http://w3id.org/polifonia/resource/> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+pon-resource:Agent%2Fannotator_local_id a core:Agent ;
+    rdfs:label "FONN-Tool" ;
+    jams:hasAnnotatorType pon-resource:annotator-program ;
+    jams:hasName "FONN-Tool" .
+
+<http://w3id.org/polifonia/resource/JAMSAnnotation/49aeb657d9314b78966a3c3759313a44ce7e953b> a jams:JAMSAnnotation,
+        jams:JAMSScoreAnnotation ;
+    jams:includesObservation <http://w3id.org/polifonia/resource/JAMSObservation/IslandAngel21263/0_0_0_7_0_4@0.0>,
+        <http://w3id.org/polifonia/resource/JAMSObservation/IslandAngel21263/0_0_4_4_5_0@0.0>,
+        <http://w3id.org/polifonia/resource/JAMSObservation/IslandAngel21263/0_0_5_2_4_0@0.0>,
+        <http://w3id.org/polifonia/resource/JAMSObservation/IslandAngel21263/0_0_7_0_4_10@0.0>,
+        <http://w3id.org/polifonia/resource/JAMSObservation/IslandAngel21263/0_4_4_0_0_0@0.0>,
+        <http://w3id.org/polifonia/resource/JAMSObservation/IslandAngel21263/0_4_4_0_0_4@0.0>,
+        <http://w3id.org/polifonia/resource/JAMSObservation/IslandAngel21263/0_4_4_5_0_4@0.0>,
+        <http://w3id.org/polifonia/resource/JAMSObservation/IslandAngel21263/0_7_0_0_5_2@0.0>,
+        <http://w3id.org/polifonia/resource/JAMSObservation/IslandAngel21263/0_7_0_4_10_5@0.0>,
+        <http://w3id.org/polifonia/resource/JAMSObservation/IslandAngel21263/10_0_7_0_0_5@0.0>,
+        <http://w3id.org/polifonia/resource/JAMSObservation/IslandAngel21263/10_10_0_7_0_0@0.0>,
+        <http://w3id.org/polifonia/resource/JAMSObservation/IslandAngel21263/10_5_10_10_0_7@0.0>,
+        <http://w3id.org/polifonia/resource/JAMSObservation/IslandAngel21263/4_0_0_0_7_0@0.0>,
+        <http://w3id.org/polifonia/resource/JAMSObservation/IslandAngel21263/4_0_0_4_4_5@0.0>,
+        <http://w3id.org/polifonia/resource/JAMSObservation/IslandAngel21263/4_10_5_10_10_0@0.0>,
+        <http://w3id.org/polifonia/resource/JAMSObservation/IslandAngel21263/4_4_0_0_0_7@0.0>,
+        <http://w3id.org/polifonia/resource/JAMSObservation/IslandAngel21263/4_4_0_0_4_4@0.0>,
+        <http://w3id.org/polifonia/resource/JAMSObservation/IslandAngel21263/4_4_5_0_4_4@0.0>,
+        <http://w3id.org/polifonia/resource/JAMSObservation/IslandAngel21263/4_5_0_4_4_0@0.0>,
+        <http://w3id.org/polifonia/resource/JAMSObservation/IslandAngel21263/5_0_4_4_0_0@0.0>,
+        <http://w3id.org/polifonia/resource/JAMSObservation/IslandAngel21263/5_10_10_0_7_0@0.0>,
+        <http://w3id.org/polifonia/resource/JAMSObservation/IslandAngel21263/7_0_0_5_2_4@0.0>,
+        <http://w3id.org/polifonia/resource/JAMSObservation/IslandAngel21263/7_0_4_10_5_10@0.0> ;
+    jams:isJAMSAnnotationOf <http://w3id.org/polifonia/resource/MusicalComposition/49aeb657d9314b78966a3c3759313a44ce7e953b> .
+
+<http://w3id.org/polifonia/resource/Score/song_local_id> jams:hasJAMSAnnotation <http://w3id.org/polifonia/resource/MusicalComposition/49aeb657d9314b78966a3c3759313a44ce7e953b> .
+
+<http://w3id.org/polifonia/resource/JAMSFile/IslandAngel21263.jams> a jams:JAMSFile ;
+    jams:identifiers [ ] ;
+    jams:jamsVersion "0.3.4" ;
+    jams:release "" ;
+    prov:wasDerivedFrom "The Session" ;
+    prov:wasMemberOf <https://github.com/ashahidkhattak/thesession> .
+
+<http://w3id.org/polifonia/resource/JAMSObservation/IslandAngel21263/0_0_0_7_0_4@0.0> a jams:JAMSObservation,
+        jams:JAMSScoreObservation,
+        jams:ScorePatternOccurrence ;
+    rdfs:label [ ] ;
+    jams:hasDuration "0.0"^^xsd:float ;
+    jams:hasFrequency "1"^^xsd:int ;
+    jams:hasPatternType "pitch-class-values" ;
+    jams:ofPattern <http://w3id.org/polifonia/resource/pattern/0_0_0_7_0_4> .
+
+<http://w3id.org/polifonia/resource/JAMSObservation/IslandAngel21263/0_0_4_4_5_0@0.0> a jams:JAMSObservation,
+        jams:JAMSScoreObservation,
+        jams:ScorePatternOccurrence ;
+    rdfs:label [ ] ;
+    jams:hasDuration "0.0"^^xsd:float ;
+    jams:hasFrequency "1"^^xsd:int ;
+    jams:hasPatternType "pitch-class-values" ;
+    jams:ofPattern <http://w3id.org/polifonia/resource/pattern/0_0_4_4_5_0> .
+
+<http://w3id.org/polifonia/resource/JAMSObservation/IslandAngel21263/0_0_5_2_4_0@0.0> a jams:JAMSObservation,
+        jams:JAMSScoreObservation,
+        jams:ScorePatternOccurrence ;
+    rdfs:label [ ] ;
+    jams:hasDuration "0.0"^^xsd:float ;
+    jams:hasFrequency "1"^^xsd:int ;
+    jams:hasPatternType "pitch-class-values" ;
+    jams:ofPattern <http://w3id.org/polifonia/resource/pattern/0_0_5_2_4_0> .
+
+<http://w3id.org/polifonia/resource/JAMSObservation/IslandAngel21263/0_0_7_0_4_10@0.0> a jams:JAMSObservation,
+        jams:JAMSScoreObservation,
+        jams:ScorePatternOccurrence ;
+    rdfs:label [ ] ;
+    jams:hasDuration "0.0"^^xsd:float ;
+    jams:hasFrequency "1"^^xsd:int ;
+    jams:hasPatternType "pitch-class-values" ;
+    jams:ofPattern <http://w3id.org/polifonia/resource/pattern/0_0_7_0_4_10> .
+
+<http://w3id.org/polifonia/resource/JAMSObservation/IslandAngel21263/0_4_4_0_0_0@0.0> a jams:JAMSObservation,
+        jams:JAMSScoreObservation,
+        jams:ScorePatternOccurrence ;
+    rdfs:label [ ] ;
+    jams:hasDuration "0.0"^^xsd:float ;
+    jams:hasFrequency "1"^^xsd:int ;
+    jams:hasPatternType "pitch-class-values" ;
+    jams:ofPattern <http://w3id.org/polifonia/resource/pattern/0_4_4_0_0_0> .
+
+<http://w3id.org/polifonia/resource/JAMSObservation/IslandAngel21263/0_4_4_0_0_4@0.0> a jams:JAMSObservation,
+        jams:JAMSScoreObservation,
+        jams:ScorePatternOccurrence ;
+    rdfs:label [ ] ;
+    jams:hasDuration "0.0"^^xsd:float ;
+    jams:hasFrequency "1"^^xsd:int ;
+    jams:hasPatternType "pitch-class-values" ;
+    jams:ofPattern <http://w3id.org/polifonia/resource/pattern/0_4_4_0_0_4> .
+
+<http://w3id.org/polifonia/resource/JAMSObservation/IslandAngel21263/0_4_4_5_0_4@0.0> a jams:JAMSObservation,
+        jams:JAMSScoreObservation,
+        jams:ScorePatternOccurrence ;
+    rdfs:label [ ] ;
+    jams:hasDuration "0.0"^^xsd:float ;
+    jams:hasFrequency "1"^^xsd:int ;
+    jams:hasPatternType "pitch-class-values" ;
+    jams:ofPattern <http://w3id.org/polifonia/resource/pattern/0_4_4_5_0_4> .
+
+<http://w3id.org/polifonia/resource/JAMSObservation/IslandAngel21263/0_7_0_0_5_2@0.0> a jams:JAMSObservation,
+        jams:JAMSScoreObservation,
+        jams:ScorePatternOccurrence ;
+    rdfs:label [ ] ;
+    jams:hasDuration "0.0"^^xsd:float ;
+    jams:hasFrequency "1"^^xsd:int ;
+    jams:hasPatternType "pitch-class-values" ;
+    jams:ofPattern <http://w3id.org/polifonia/resource/pattern/0_7_0_0_5_2> .
+
+<http://w3id.org/polifonia/resource/JAMSObservation/IslandAngel21263/0_7_0_4_10_5@0.0> a jams:JAMSObservation,
+        jams:JAMSScoreObservation,
+        jams:ScorePatternOccurrence ;
+    rdfs:label [ ] ;
+    jams:hasDuration "0.0"^^xsd:float ;
+    jams:hasFrequency "1"^^xsd:int ;
+    jams:hasPatternType "pitch-class-values" ;
+    jams:ofPattern <http://w3id.org/polifonia/resource/pattern/0_7_0_4_10_5> .
+
+<http://w3id.org/polifonia/resource/JAMSObservation/IslandAngel21263/10_0_7_0_0_5@0.0> a jams:JAMSObservation,
+        jams:JAMSScoreObservation,
+        jams:ScorePatternOccurrence ;
+    rdfs:label [ ] ;
+    jams:hasDuration "0.0"^^xsd:float ;
+    jams:hasFrequency "1"^^xsd:int ;
+    jams:hasPatternType "pitch-class-values" ;
+    jams:ofPattern <http://w3id.org/polifonia/resource/pattern/10_0_7_0_0_5> .
+
+<http://w3id.org/polifonia/resource/JAMSObservation/IslandAngel21263/10_10_0_7_0_0@0.0> a jams:JAMSObservation,
+        jams:JAMSScoreObservation,
+        jams:ScorePatternOccurrence ;
+    rdfs:label [ ] ;
+    jams:hasDuration "0.0"^^xsd:float ;
+    jams:hasFrequency "1"^^xsd:int ;
+    jams:hasPatternType "pitch-class-values" ;
+    jams:ofPattern <http://w3id.org/polifonia/resource/pattern/10_10_0_7_0_0> .
+
+<http://w3id.org/polifonia/resource/JAMSObservation/IslandAngel21263/10_5_10_10_0_7@0.0> a jams:JAMSObservation,
+        jams:JAMSScoreObservation,
+        jams:ScorePatternOccurrence ;
+    rdfs:label [ ] ;
+    jams:hasDuration "0.0"^^xsd:float ;
+    jams:hasFrequency "1"^^xsd:int ;
+    jams:hasPatternType "pitch-class-values" ;
+    jams:ofPattern <http://w3id.org/polifonia/resource/pattern/10_5_10_10_0_7> .
+
+<http://w3id.org/polifonia/resource/JAMSObservation/IslandAngel21263/4_0_0_0_7_0@0.0> a jams:JAMSObservation,
+        jams:JAMSScoreObservation,
+        jams:ScorePatternOccurrence ;
+    rdfs:label [ ] ;
+    jams:hasDuration "0.0"^^xsd:float ;
+    jams:hasFrequency "1"^^xsd:int ;
+    jams:hasPatternType "pitch-class-values" ;
+    jams:ofPattern <http://w3id.org/polifonia/resource/pattern/4_0_0_0_7_0> .
+
+<http://w3id.org/polifonia/resource/JAMSObservation/IslandAngel21263/4_0_0_4_4_5@0.0> a jams:JAMSObservation,
+        jams:JAMSScoreObservation,
+        jams:ScorePatternOccurrence ;
+    rdfs:label [ ] ;
+    jams:hasDuration "0.0"^^xsd:float ;
+    jams:hasFrequency "1"^^xsd:int ;
+    jams:hasPatternType "pitch-class-values" ;
+    jams:ofPattern <http://w3id.org/polifonia/resource/pattern/4_0_0_4_4_5> .
+
+<http://w3id.org/polifonia/resource/JAMSObservation/IslandAngel21263/4_10_5_10_10_0@0.0> a jams:JAMSObservation,
+        jams:JAMSScoreObservation,
+        jams:ScorePatternOccurrence ;
+    rdfs:label [ ] ;
+    jams:hasDuration "0.0"^^xsd:float ;
+    jams:hasFrequency "1"^^xsd:int ;
+    jams:hasPatternType "pitch-class-values" ;
+    jams:ofPattern <http://w3id.org/polifonia/resource/pattern/4_10_5_10_10_0> .
+
+<http://w3id.org/polifonia/resource/JAMSObservation/IslandAngel21263/4_4_0_0_0_7@0.0> a jams:JAMSObservation,
+        jams:JAMSScoreObservation,
+        jams:ScorePatternOccurrence ;
+    rdfs:label [ ] ;
+    jams:hasDuration "0.0"^^xsd:float ;
+    jams:hasFrequency "1"^^xsd:int ;
+    jams:hasPatternType "pitch-class-values" ;
+    jams:ofPattern <http://w3id.org/polifonia/resource/pattern/4_4_0_0_0_7> .
+
+<http://w3id.org/polifonia/resource/JAMSObservation/IslandAngel21263/4_4_0_0_4_4@0.0> a jams:JAMSObservation,
+        jams:JAMSScoreObservation,
+        jams:ScorePatternOccurrence ;
+    rdfs:label [ ] ;
+    jams:hasDuration "0.0"^^xsd:float ;
+    jams:hasFrequency "1"^^xsd:int ;
+    jams:hasPatternType "pitch-class-values" ;
+    jams:ofPattern <http://w3id.org/polifonia/resource/pattern/4_4_0_0_4_4> .
+
+<http://w3id.org/polifonia/resource/JAMSObservation/IslandAngel21263/4_4_5_0_4_4@0.0> a jams:JAMSObservation,
+        jams:JAMSScoreObservation,
+        jams:ScorePatternOccurrence ;
+    rdfs:label [ ] ;
+    jams:hasDuration "0.0"^^xsd:float ;
+    jams:hasFrequency "2"^^xsd:int ;
+    jams:hasPatternType "pitch-class-values" ;
+    jams:ofPattern <http://w3id.org/polifonia/resource/pattern/4_4_5_0_4_4> .
+
+<http://w3id.org/polifonia/resource/JAMSObservation/IslandAngel21263/4_5_0_4_4_0@0.0> a jams:JAMSObservation,
+        jams:JAMSScoreObservation,
+        jams:ScorePatternOccurrence ;
+    rdfs:label [ ] ;
+    jams:hasDuration "0.0"^^xsd:float ;
+    jams:hasFrequency "2"^^xsd:int ;
+    jams:hasPatternType "pitch-class-values" ;
+    jams:ofPattern <http://w3id.org/polifonia/resource/pattern/4_5_0_4_4_0> .
+
+<http://w3id.org/polifonia/resource/JAMSObservation/IslandAngel21263/5_0_4_4_0_0@0.0> a jams:JAMSObservation,
+        jams:JAMSScoreObservation,
+        jams:ScorePatternOccurrence ;
+    rdfs:label [ ] ;
+    jams:hasDuration "0.0"^^xsd:float ;
+    jams:hasFrequency "2"^^xsd:int ;
+    jams:hasPatternType "pitch-class-values" ;
+    jams:ofPattern <http://w3id.org/polifonia/resource/pattern/5_0_4_4_0_0> .
+
+<http://w3id.org/polifonia/resource/JAMSObservation/IslandAngel21263/5_10_10_0_7_0@0.0> a jams:JAMSObservation,
+        jams:JAMSScoreObservation,
+        jams:ScorePatternOccurrence ;
+    rdfs:label [ ] ;
+    jams:hasDuration "0.0"^^xsd:float ;
+    jams:hasFrequency "1"^^xsd:int ;
+    jams:hasPatternType "pitch-class-values" ;
+    jams:ofPattern <http://w3id.org/polifonia/resource/pattern/5_10_10_0_7_0> .
+
+<http://w3id.org/polifonia/resource/JAMSObservation/IslandAngel21263/7_0_0_5_2_4@0.0> a jams:JAMSObservation,
+        jams:JAMSScoreObservation,
+        jams:ScorePatternOccurrence ;
+    rdfs:label [ ] ;
+    jams:hasDuration "0.0"^^xsd:float ;
+    jams:hasFrequency "1"^^xsd:int ;
+    jams:hasPatternType "pitch-class-values" ;
+    jams:ofPattern <http://w3id.org/polifonia/resource/pattern/7_0_0_5_2_4> .
+
+<http://w3id.org/polifonia/resource/JAMSObservation/IslandAngel21263/7_0_4_10_5_10@0.0> a jams:JAMSObservation,
+        jams:JAMSScoreObservation,
+        jams:ScorePatternOccurrence ;
+    rdfs:label [ ] ;
+    jams:hasDuration "0.0"^^xsd:float ;
+    jams:hasFrequency "1"^^xsd:int ;
+    jams:hasPatternType "pitch-class-values" ;
+    jams:ofPattern <http://w3id.org/polifonia/resource/pattern/7_0_4_10_5_10> .
+
+<http://w3id.org/polifonia/resource/MusicalComposition/49aeb657d9314b78966a3c3759313a44ce7e953b> a mc:MusicalComposition ;
+    rdfs:label "IslandAngel21263" ;
+    mc:title "IslandAngel21263" ;
+    prov:wasDerivedFrom <http://w3id.org/polifonia/resource/JAMSFile/IslandAngel21263.jams> .
+
