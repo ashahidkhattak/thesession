@@ -1,0 +1,291 @@
+@prefix core: <http://w3id.org/polifonia/ontology/core/> .
+@prefix jams: <http://w3id.org/polifonia/ontology/jams/> .
+@prefix mc: <http://w3id.org/polifonia/ontology/musical-composition/> .
+@prefix pon-resource: <http://w3id.org/polifonia/resource/> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+pon-resource:Agent%2Fannotator_local_id a core:Agent ;
+    rdfs:label "FONN-Tool" ;
+    jams:hasAnnotatorType pon-resource:annotator-program ;
+    jams:hasName "FONN-Tool" .
+
+<http://w3id.org/polifonia/resource/JAMSAnnotation/17104664ec280e75e0e99740880dbfc8b67bdb9c> a jams:JAMSAnnotation,
+        jams:JAMSScoreAnnotation ;
+    jams:includesObservation <http://w3id.org/polifonia/resource/JAMSObservation/PaddyOnTheTurnpike35648/0_4_4_9_5_4@0.0>,
+        <http://w3id.org/polifonia/resource/JAMSObservation/PaddyOnTheTurnpike35648/0_4_9_9_2_5@0.0>,
+        <http://w3id.org/polifonia/resource/JAMSObservation/PaddyOnTheTurnpike35648/0_7_5_9_9_2@0.0>,
+        <http://w3id.org/polifonia/resource/JAMSObservation/PaddyOnTheTurnpike35648/0_9_7_5_9_9@0.0>,
+        <http://w3id.org/polifonia/resource/JAMSObservation/PaddyOnTheTurnpike35648/2_5_5_7_0_4@0.0>,
+        <http://w3id.org/polifonia/resource/JAMSObservation/PaddyOnTheTurnpike35648/2_5_9_0_7_5@0.0>,
+        <http://w3id.org/polifonia/resource/JAMSObservation/PaddyOnTheTurnpike35648/4_0_9_7_5_9@0.0>,
+        <http://w3id.org/polifonia/resource/JAMSObservation/PaddyOnTheTurnpike35648/4_4_9_5_4_0@0.0>,
+        <http://w3id.org/polifonia/resource/JAMSObservation/PaddyOnTheTurnpike35648/4_9_5_4_0_9@0.0>,
+        <http://w3id.org/polifonia/resource/JAMSObservation/PaddyOnTheTurnpike35648/4_9_9_2_5_9@0.0>,
+        <http://w3id.org/polifonia/resource/JAMSObservation/PaddyOnTheTurnpike35648/5_4_0_9_7_5@0.0>,
+        <http://w3id.org/polifonia/resource/JAMSObservation/PaddyOnTheTurnpike35648/5_5_7_0_4_4@0.0>,
+        <http://w3id.org/polifonia/resource/JAMSObservation/PaddyOnTheTurnpike35648/5_7_0_4_4_9@0.0>,
+        <http://w3id.org/polifonia/resource/JAMSObservation/PaddyOnTheTurnpike35648/5_9_0_7_5_9@0.0>,
+        <http://w3id.org/polifonia/resource/JAMSObservation/PaddyOnTheTurnpike35648/5_9_9_2_5_10@0.0>,
+        <http://w3id.org/polifonia/resource/JAMSObservation/PaddyOnTheTurnpike35648/5_9_9_2_5_5@0.0>,
+        <http://w3id.org/polifonia/resource/JAMSObservation/PaddyOnTheTurnpike35648/7_0_4_4_9_5@0.0>,
+        <http://w3id.org/polifonia/resource/JAMSObservation/PaddyOnTheTurnpike35648/7_0_4_9_9_2@0.0>,
+        <http://w3id.org/polifonia/resource/JAMSObservation/PaddyOnTheTurnpike35648/7_5_9_9_2_5@0.0>,
+        <http://w3id.org/polifonia/resource/JAMSObservation/PaddyOnTheTurnpike35648/9_0_7_5_9_9@0.0>,
+        <http://w3id.org/polifonia/resource/JAMSObservation/PaddyOnTheTurnpike35648/9_2_5_5_7_0@0.0>,
+        <http://w3id.org/polifonia/resource/JAMSObservation/PaddyOnTheTurnpike35648/9_2_5_9_0_7@0.0>,
+        <http://w3id.org/polifonia/resource/JAMSObservation/PaddyOnTheTurnpike35648/9_5_4_0_9_7@0.0>,
+        <http://w3id.org/polifonia/resource/JAMSObservation/PaddyOnTheTurnpike35648/9_7_5_9_9_2@0.0>,
+        <http://w3id.org/polifonia/resource/JAMSObservation/PaddyOnTheTurnpike35648/9_9_2_5_5_7@0.0>,
+        <http://w3id.org/polifonia/resource/JAMSObservation/PaddyOnTheTurnpike35648/9_9_2_5_9_0@0.0> ;
+    jams:isJAMSAnnotationOf <http://w3id.org/polifonia/resource/MusicalComposition/17104664ec280e75e0e99740880dbfc8b67bdb9c> .
+
+<http://w3id.org/polifonia/resource/Score/song_local_id> jams:hasJAMSAnnotation <http://w3id.org/polifonia/resource/MusicalComposition/17104664ec280e75e0e99740880dbfc8b67bdb9c> .
+
+<http://w3id.org/polifonia/resource/JAMSFile/PaddyOnTheTurnpike35648.jams> a jams:JAMSFile ;
+    jams:identifiers [ ] ;
+    jams:jamsVersion "0.3.4" ;
+    jams:release "" ;
+    prov:wasDerivedFrom "The Session" ;
+    prov:wasMemberOf <https://github.com/ashahidkhattak/thesession> .
+
+<http://w3id.org/polifonia/resource/JAMSObservation/PaddyOnTheTurnpike35648/0_4_4_9_5_4@0.0> a jams:JAMSObservation,
+        jams:JAMSScoreObservation,
+        jams:ScorePatternOccurrence ;
+    rdfs:label [ ] ;
+    jams:hasDuration "0.0"^^xsd:float ;
+    jams:hasFrequency "2"^^xsd:int ;
+    jams:hasPatternType "pitch-class-values" ;
+    jams:ofPattern <http://w3id.org/polifonia/resource/pattern/0_4_4_9_5_4> .
+
+<http://w3id.org/polifonia/resource/JAMSObservation/PaddyOnTheTurnpike35648/0_4_9_9_2_5@0.0> a jams:JAMSObservation,
+        jams:JAMSScoreObservation,
+        jams:ScorePatternOccurrence ;
+    rdfs:label [ ] ;
+    jams:hasDuration "0.0"^^xsd:float ;
+    jams:hasFrequency "2"^^xsd:int ;
+    jams:hasPatternType "pitch-class-values" ;
+    jams:ofPattern <http://w3id.org/polifonia/resource/pattern/0_4_9_9_2_5> .
+
+<http://w3id.org/polifonia/resource/JAMSObservation/PaddyOnTheTurnpike35648/0_7_5_9_9_2@0.0> a jams:JAMSObservation,
+        jams:JAMSScoreObservation,
+        jams:ScorePatternOccurrence ;
+    rdfs:label [ ] ;
+    jams:hasDuration "0.0"^^xsd:float ;
+    jams:hasFrequency "2"^^xsd:int ;
+    jams:hasPatternType "pitch-class-values" ;
+    jams:ofPattern <http://w3id.org/polifonia/resource/pattern/0_7_5_9_9_2> .
+
+<http://w3id.org/polifonia/resource/JAMSObservation/PaddyOnTheTurnpike35648/0_9_7_5_9_9@0.0> a jams:JAMSObservation,
+        jams:JAMSScoreObservation,
+        jams:ScorePatternOccurrence ;
+    rdfs:label [ ] ;
+    jams:hasDuration "0.0"^^xsd:float ;
+    jams:hasFrequency "1"^^xsd:int ;
+    jams:hasPatternType "pitch-class-values" ;
+    jams:ofPattern <http://w3id.org/polifonia/resource/pattern/0_9_7_5_9_9> .
+
+<http://w3id.org/polifonia/resource/JAMSObservation/PaddyOnTheTurnpike35648/2_5_5_7_0_4@0.0> a jams:JAMSObservation,
+        jams:JAMSScoreObservation,
+        jams:ScorePatternOccurrence ;
+    rdfs:label [ ] ;
+    jams:hasDuration "0.0"^^xsd:float ;
+    jams:hasFrequency "2"^^xsd:int ;
+    jams:hasPatternType "pitch-class-values" ;
+    jams:ofPattern <http://w3id.org/polifonia/resource/pattern/2_5_5_7_0_4> .
+
+<http://w3id.org/polifonia/resource/JAMSObservation/PaddyOnTheTurnpike35648/2_5_9_0_7_5@0.0> a jams:JAMSObservation,
+        jams:JAMSScoreObservation,
+        jams:ScorePatternOccurrence ;
+    rdfs:label [ ] ;
+    jams:hasDuration "0.0"^^xsd:float ;
+    jams:hasFrequency "2"^^xsd:int ;
+    jams:hasPatternType "pitch-class-values" ;
+    jams:ofPattern <http://w3id.org/polifonia/resource/pattern/2_5_9_0_7_5> .
+
+<http://w3id.org/polifonia/resource/JAMSObservation/PaddyOnTheTurnpike35648/4_0_9_7_5_9@0.0> a jams:JAMSObservation,
+        jams:JAMSScoreObservation,
+        jams:ScorePatternOccurrence ;
+    rdfs:label [ ] ;
+    jams:hasDuration "0.0"^^xsd:float ;
+    jams:hasFrequency "2"^^xsd:int ;
+    jams:hasPatternType "pitch-class-values" ;
+    jams:ofPattern <http://w3id.org/polifonia/resource/pattern/4_0_9_7_5_9> .
+
+<http://w3id.org/polifonia/resource/JAMSObservation/PaddyOnTheTurnpike35648/4_4_9_5_4_0@0.0> a jams:JAMSObservation,
+        jams:JAMSScoreObservation,
+        jams:ScorePatternOccurrence ;
+    rdfs:label [ ] ;
+    jams:hasDuration "0.0"^^xsd:float ;
+    jams:hasFrequency "2"^^xsd:int ;
+    jams:hasPatternType "pitch-class-values" ;
+    jams:ofPattern <http://w3id.org/polifonia/resource/pattern/4_4_9_5_4_0> .
+
+<http://w3id.org/polifonia/resource/JAMSObservation/PaddyOnTheTurnpike35648/4_9_5_4_0_9@0.0> a jams:JAMSObservation,
+        jams:JAMSScoreObservation,
+        jams:ScorePatternOccurrence ;
+    rdfs:label [ ] ;
+    jams:hasDuration "0.0"^^xsd:float ;
+    jams:hasFrequency "2"^^xsd:int ;
+    jams:hasPatternType "pitch-class-values" ;
+    jams:ofPattern <http://w3id.org/polifonia/resource/pattern/4_9_5_4_0_9> .
+
+<http://w3id.org/polifonia/resource/JAMSObservation/PaddyOnTheTurnpike35648/4_9_9_2_5_9@0.0> a jams:JAMSObservation,
+        jams:JAMSScoreObservation,
+        jams:ScorePatternOccurrence ;
+    rdfs:label [ ] ;
+    jams:hasDuration "0.0"^^xsd:float ;
+    jams:hasFrequency "2"^^xsd:int ;
+    jams:hasPatternType "pitch-class-values" ;
+    jams:ofPattern <http://w3id.org/polifonia/resource/pattern/4_9_9_2_5_9> .
+
+<http://w3id.org/polifonia/resource/JAMSObservation/PaddyOnTheTurnpike35648/5_4_0_9_7_5@0.0> a jams:JAMSObservation,
+        jams:JAMSScoreObservation,
+        jams:ScorePatternOccurrence ;
+    rdfs:label [ ] ;
+    jams:hasDuration "0.0"^^xsd:float ;
+    jams:hasFrequency "2"^^xsd:int ;
+    jams:hasPatternType "pitch-class-values" ;
+    jams:ofPattern <http://w3id.org/polifonia/resource/pattern/5_4_0_9_7_5> .
+
+<http://w3id.org/polifonia/resource/JAMSObservation/PaddyOnTheTurnpike35648/5_5_7_0_4_4@0.0> a jams:JAMSObservation,
+        jams:JAMSScoreObservation,
+        jams:ScorePatternOccurrence ;
+    rdfs:label [ ] ;
+    jams:hasDuration "0.0"^^xsd:float ;
+    jams:hasFrequency "2"^^xsd:int ;
+    jams:hasPatternType "pitch-class-values" ;
+    jams:ofPattern <http://w3id.org/polifonia/resource/pattern/5_5_7_0_4_4> .
+
+<http://w3id.org/polifonia/resource/JAMSObservation/PaddyOnTheTurnpike35648/5_7_0_4_4_9@0.0> a jams:JAMSObservation,
+        jams:JAMSScoreObservation,
+        jams:ScorePatternOccurrence ;
+    rdfs:label [ ] ;
+    jams:hasDuration "0.0"^^xsd:float ;
+    jams:hasFrequency "2"^^xsd:int ;
+    jams:hasPatternType "pitch-class-values" ;
+    jams:ofPattern <http://w3id.org/polifonia/resource/pattern/5_7_0_4_4_9> .
+
+<http://w3id.org/polifonia/resource/JAMSObservation/PaddyOnTheTurnpike35648/5_9_0_7_5_9@0.0> a jams:JAMSObservation,
+        jams:JAMSScoreObservation,
+        jams:ScorePatternOccurrence ;
+    rdfs:label [ ] ;
+    jams:hasDuration "0.0"^^xsd:float ;
+    jams:hasFrequency "2"^^xsd:int ;
+    jams:hasPatternType "pitch-class-values" ;
+    jams:ofPattern <http://w3id.org/polifonia/resource/pattern/5_9_0_7_5_9> .
+
+<http://w3id.org/polifonia/resource/JAMSObservation/PaddyOnTheTurnpike35648/5_9_9_2_5_10@0.0> a jams:JAMSObservation,
+        jams:JAMSScoreObservation,
+        jams:ScorePatternOccurrence ;
+    rdfs:label [ ] ;
+    jams:hasDuration "0.0"^^xsd:float ;
+    jams:hasFrequency "1"^^xsd:int ;
+    jams:hasPatternType "pitch-class-values" ;
+    jams:ofPattern <http://w3id.org/polifonia/resource/pattern/5_9_9_2_5_10> .
+
+<http://w3id.org/polifonia/resource/JAMSObservation/PaddyOnTheTurnpike35648/5_9_9_2_5_5@0.0> a jams:JAMSObservation,
+        jams:JAMSScoreObservation,
+        jams:ScorePatternOccurrence ;
+    rdfs:label [ ] ;
+    jams:hasDuration "0.0"^^xsd:float ;
+    jams:hasFrequency "2"^^xsd:int ;
+    jams:hasPatternType "pitch-class-values" ;
+    jams:ofPattern <http://w3id.org/polifonia/resource/pattern/5_9_9_2_5_5> .
+
+<http://w3id.org/polifonia/resource/JAMSObservation/PaddyOnTheTurnpike35648/7_0_4_4_9_5@0.0> a jams:JAMSObservation,
+        jams:JAMSScoreObservation,
+        jams:ScorePatternOccurrence ;
+    rdfs:label [ ] ;
+    jams:hasDuration "0.0"^^xsd:float ;
+    jams:hasFrequency "2"^^xsd:int ;
+    jams:hasPatternType "pitch-class-values" ;
+    jams:ofPattern <http://w3id.org/polifonia/resource/pattern/7_0_4_4_9_5> .
+
+<http://w3id.org/polifonia/resource/JAMSObservation/PaddyOnTheTurnpike35648/7_0_4_9_9_2@0.0> a jams:JAMSObservation,
+        jams:JAMSScoreObservation,
+        jams:ScorePatternOccurrence ;
+    rdfs:label [ ] ;
+    jams:hasDuration "0.0"^^xsd:float ;
+    jams:hasFrequency "2"^^xsd:int ;
+    jams:hasPatternType "pitch-class-values" ;
+    jams:ofPattern <http://w3id.org/polifonia/resource/pattern/7_0_4_9_9_2> .
+
+<http://w3id.org/polifonia/resource/JAMSObservation/PaddyOnTheTurnpike35648/7_5_9_9_2_5@0.0> a jams:JAMSObservation,
+        jams:JAMSScoreObservation,
+        jams:ScorePatternOccurrence ;
+    rdfs:label [ ] ;
+    jams:hasDuration "0.0"^^xsd:float ;
+    jams:hasFrequency "3"^^xsd:int ;
+    jams:hasPatternType "pitch-class-values" ;
+    jams:ofPattern <http://w3id.org/polifonia/resource/pattern/7_5_9_9_2_5> .
+
+<http://w3id.org/polifonia/resource/JAMSObservation/PaddyOnTheTurnpike35648/9_0_7_5_9_9@0.0> a jams:JAMSObservation,
+        jams:JAMSScoreObservation,
+        jams:ScorePatternOccurrence ;
+    rdfs:label [ ] ;
+    jams:hasDuration "0.0"^^xsd:float ;
+    jams:hasFrequency "2"^^xsd:int ;
+    jams:hasPatternType "pitch-class-values" ;
+    jams:ofPattern <http://w3id.org/polifonia/resource/pattern/9_0_7_5_9_9> .
+
+<http://w3id.org/polifonia/resource/JAMSObservation/PaddyOnTheTurnpike35648/9_2_5_5_7_0@0.0> a jams:JAMSObservation,
+        jams:JAMSScoreObservation,
+        jams:ScorePatternOccurrence ;
+    rdfs:label [ ] ;
+    jams:hasDuration "0.0"^^xsd:float ;
+    jams:hasFrequency "2"^^xsd:int ;
+    jams:hasPatternType "pitch-class-values" ;
+    jams:ofPattern <http://w3id.org/polifonia/resource/pattern/9_2_5_5_7_0> .
+
+<http://w3id.org/polifonia/resource/JAMSObservation/PaddyOnTheTurnpike35648/9_2_5_9_0_7@0.0> a jams:JAMSObservation,
+        jams:JAMSScoreObservation,
+        jams:ScorePatternOccurrence ;
+    rdfs:label [ ] ;
+    jams:hasDuration "0.0"^^xsd:float ;
+    jams:hasFrequency "2"^^xsd:int ;
+    jams:hasPatternType "pitch-class-values" ;
+    jams:ofPattern <http://w3id.org/polifonia/resource/pattern/9_2_5_9_0_7> .
+
+<http://w3id.org/polifonia/resource/JAMSObservation/PaddyOnTheTurnpike35648/9_5_4_0_9_7@0.0> a jams:JAMSObservation,
+        jams:JAMSScoreObservation,
+        jams:ScorePatternOccurrence ;
+    rdfs:label [ ] ;
+    jams:hasDuration "0.0"^^xsd:float ;
+    jams:hasFrequency "2"^^xsd:int ;
+    jams:hasPatternType "pitch-class-values" ;
+    jams:ofPattern <http://w3id.org/polifonia/resource/pattern/9_5_4_0_9_7> .
+
+<http://w3id.org/polifonia/resource/JAMSObservation/PaddyOnTheTurnpike35648/9_7_5_9_9_2@0.0> a jams:JAMSObservation,
+        jams:JAMSScoreObservation,
+        jams:ScorePatternOccurrence ;
+    rdfs:label [ ] ;
+    jams:hasDuration "0.0"^^xsd:float ;
+    jams:hasFrequency "1"^^xsd:int ;
+    jams:hasPatternType "pitch-class-values" ;
+    jams:ofPattern <http://w3id.org/polifonia/resource/pattern/9_7_5_9_9_2> .
+
+<http://w3id.org/polifonia/resource/JAMSObservation/PaddyOnTheTurnpike35648/9_9_2_5_5_7@0.0> a jams:JAMSObservation,
+        jams:JAMSScoreObservation,
+        jams:ScorePatternOccurrence ;
+    rdfs:label [ ] ;
+    jams:hasDuration "0.0"^^xsd:float ;
+    jams:hasFrequency "2"^^xsd:int ;
+    jams:hasPatternType "pitch-class-values" ;
+    jams:ofPattern <http://w3id.org/polifonia/resource/pattern/9_9_2_5_5_7> .
+
+<http://w3id.org/polifonia/resource/JAMSObservation/PaddyOnTheTurnpike35648/9_9_2_5_9_0@0.0> a jams:JAMSObservation,
+        jams:JAMSScoreObservation,
+        jams:ScorePatternOccurrence ;
+    rdfs:label [ ] ;
+    jams:hasDuration "0.0"^^xsd:float ;
+    jams:hasFrequency "2"^^xsd:int ;
+    jams:hasPatternType "pitch-class-values" ;
+    jams:ofPattern <http://w3id.org/polifonia/resource/pattern/9_9_2_5_9_0> .
+
+<http://w3id.org/polifonia/resource/MusicalComposition/17104664ec280e75e0e99740880dbfc8b67bdb9c> a mc:MusicalComposition ;
+    rdfs:label "PaddyOnTheTurnpike35648" ;
+    mc:title "PaddyOnTheTurnpike35648" ;
+    prov:wasDerivedFrom <http://w3id.org/polifonia/resource/JAMSFile/PaddyOnTheTurnpike35648.jams> .
+

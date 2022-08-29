@@ -1,0 +1,321 @@
+@prefix core: <http://w3id.org/polifonia/ontology/core/> .
+@prefix jams: <http://w3id.org/polifonia/ontology/jams/> .
+@prefix mc: <http://w3id.org/polifonia/ontology/musical-composition/> .
+@prefix pon-resource: <http://w3id.org/polifonia/resource/> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+pon-resource:Agent%2Fannotator_local_id a core:Agent ;
+    rdfs:label "FONN-Tool" ;
+    jams:hasAnnotatorType pon-resource:annotator-program ;
+    jams:hasName "FONN-Tool" .
+
+<http://w3id.org/polifonia/resource/JAMSAnnotation/051437b31e5814b1132b2ddc68ec42e9ca1b11a8> a jams:JAMSAnnotation,
+        jams:JAMSScoreAnnotation ;
+    jams:includesObservation <http://w3id.org/polifonia/resource/JAMSObservation/LetterkennyBlacksmithThe4743/0_2_0_9_0_2@0.0>,
+        <http://w3id.org/polifonia/resource/JAMSObservation/LetterkennyBlacksmithThe4743/0_2_0_9_0_9@0.0>,
+        <http://w3id.org/polifonia/resource/JAMSObservation/LetterkennyBlacksmithThe4743/0_2_9_11_0_2@0.0>,
+        <http://w3id.org/polifonia/resource/JAMSObservation/LetterkennyBlacksmithThe4743/0_9_0_2_9_11@0.0>,
+        <http://w3id.org/polifonia/resource/JAMSObservation/LetterkennyBlacksmithThe4743/0_9_0_9_4_4@0.0>,
+        <http://w3id.org/polifonia/resource/JAMSObservation/LetterkennyBlacksmithThe4743/0_9_4_4_0_2@0.0>,
+        <http://w3id.org/polifonia/resource/JAMSObservation/LetterkennyBlacksmithThe4743/0_9_4_4_4_4@0.0>,
+        <http://w3id.org/polifonia/resource/JAMSObservation/LetterkennyBlacksmithThe4743/11_0_2_0_9_0@0.0>,
+        <http://w3id.org/polifonia/resource/JAMSObservation/LetterkennyBlacksmithThe4743/11_4_4_4_6_6@0.0>,
+        <http://w3id.org/polifonia/resource/JAMSObservation/LetterkennyBlacksmithThe4743/2_0_9_0_2_9@0.0>,
+        <http://w3id.org/polifonia/resource/JAMSObservation/LetterkennyBlacksmithThe4743/2_0_9_0_9_4@0.0>,
+        <http://w3id.org/polifonia/resource/JAMSObservation/LetterkennyBlacksmithThe4743/2_9_11_0_2_0@0.0>,
+        <http://w3id.org/polifonia/resource/JAMSObservation/LetterkennyBlacksmithThe4743/4_0_2_0_9_0@0.0>,
+        <http://w3id.org/polifonia/resource/JAMSObservation/LetterkennyBlacksmithThe4743/4_11_4_4_4_6@0.0>,
+        <http://w3id.org/polifonia/resource/JAMSObservation/LetterkennyBlacksmithThe4743/4_4_0_2_0_9@0.0>,
+        <http://w3id.org/polifonia/resource/JAMSObservation/LetterkennyBlacksmithThe4743/4_4_11_4_4_4@0.0>,
+        <http://w3id.org/polifonia/resource/JAMSObservation/LetterkennyBlacksmithThe4743/4_4_4_6_6_4@0.0>,
+        <http://w3id.org/polifonia/resource/JAMSObservation/LetterkennyBlacksmithThe4743/4_4_4_6_6_9@0.0>,
+        <http://w3id.org/polifonia/resource/JAMSObservation/LetterkennyBlacksmithThe4743/4_4_6_6_4_4@0.0>,
+        <http://w3id.org/polifonia/resource/JAMSObservation/LetterkennyBlacksmithThe4743/4_4_6_6_9_0@0.0>,
+        <http://w3id.org/polifonia/resource/JAMSObservation/LetterkennyBlacksmithThe4743/4_6_6_4_4_11@0.0>,
+        <http://w3id.org/polifonia/resource/JAMSObservation/LetterkennyBlacksmithThe4743/4_6_6_9_0_11@0.0>,
+        <http://w3id.org/polifonia/resource/JAMSObservation/LetterkennyBlacksmithThe4743/6_4_4_11_4_4@0.0>,
+        <http://w3id.org/polifonia/resource/JAMSObservation/LetterkennyBlacksmithThe4743/6_6_4_4_11_4@0.0>,
+        <http://w3id.org/polifonia/resource/JAMSObservation/LetterkennyBlacksmithThe4743/9_0_2_9_11_0@0.0>,
+        <http://w3id.org/polifonia/resource/JAMSObservation/LetterkennyBlacksmithThe4743/9_0_9_4_4_0@0.0>,
+        <http://w3id.org/polifonia/resource/JAMSObservation/LetterkennyBlacksmithThe4743/9_0_9_4_4_4@0.0>,
+        <http://w3id.org/polifonia/resource/JAMSObservation/LetterkennyBlacksmithThe4743/9_11_0_2_0_9@0.0>,
+        <http://w3id.org/polifonia/resource/JAMSObservation/LetterkennyBlacksmithThe4743/9_4_4_0_2_0@0.0> ;
+    jams:isJAMSAnnotationOf <http://w3id.org/polifonia/resource/MusicalComposition/051437b31e5814b1132b2ddc68ec42e9ca1b11a8> .
+
+<http://w3id.org/polifonia/resource/Score/song_local_id> jams:hasJAMSAnnotation <http://w3id.org/polifonia/resource/MusicalComposition/051437b31e5814b1132b2ddc68ec42e9ca1b11a8> .
+
+<http://w3id.org/polifonia/resource/JAMSFile/LetterkennyBlacksmithThe4743.jams> a jams:JAMSFile ;
+    jams:identifiers [ ] ;
+    jams:jamsVersion "0.3.4" ;
+    jams:release "" ;
+    prov:wasDerivedFrom "The Session" ;
+    prov:wasMemberOf <https://github.com/ashahidkhattak/thesession> .
+
+<http://w3id.org/polifonia/resource/JAMSObservation/LetterkennyBlacksmithThe4743/0_2_0_9_0_2@0.0> a jams:JAMSObservation,
+        jams:JAMSScoreObservation,
+        jams:ScorePatternOccurrence ;
+    rdfs:label [ ] ;
+    jams:hasDuration "0.0"^^xsd:float ;
+    jams:hasFrequency "2"^^xsd:int ;
+    jams:hasPatternType "pitch-class-values" ;
+    jams:ofPattern <http://w3id.org/polifonia/resource/pattern/0_2_0_9_0_2> .
+
+<http://w3id.org/polifonia/resource/JAMSObservation/LetterkennyBlacksmithThe4743/0_2_0_9_0_9@0.0> a jams:JAMSObservation,
+        jams:JAMSScoreObservation,
+        jams:ScorePatternOccurrence ;
+    rdfs:label [ ] ;
+    jams:hasDuration "0.0"^^xsd:float ;
+    jams:hasFrequency "2"^^xsd:int ;
+    jams:hasPatternType "pitch-class-values" ;
+    jams:ofPattern <http://w3id.org/polifonia/resource/pattern/0_2_0_9_0_9> .
+
+<http://w3id.org/polifonia/resource/JAMSObservation/LetterkennyBlacksmithThe4743/0_2_9_11_0_2@0.0> a jams:JAMSObservation,
+        jams:JAMSScoreObservation,
+        jams:ScorePatternOccurrence ;
+    rdfs:label [ ] ;
+    jams:hasDuration "0.0"^^xsd:float ;
+    jams:hasFrequency "2"^^xsd:int ;
+    jams:hasPatternType "pitch-class-values" ;
+    jams:ofPattern <http://w3id.org/polifonia/resource/pattern/0_2_9_11_0_2> .
+
+<http://w3id.org/polifonia/resource/JAMSObservation/LetterkennyBlacksmithThe4743/0_9_0_2_9_11@0.0> a jams:JAMSObservation,
+        jams:JAMSScoreObservation,
+        jams:ScorePatternOccurrence ;
+    rdfs:label [ ] ;
+    jams:hasDuration "0.0"^^xsd:float ;
+    jams:hasFrequency "2"^^xsd:int ;
+    jams:hasPatternType "pitch-class-values" ;
+    jams:ofPattern <http://w3id.org/polifonia/resource/pattern/0_9_0_2_9_11> .
+
+<http://w3id.org/polifonia/resource/JAMSObservation/LetterkennyBlacksmithThe4743/0_9_0_9_4_4@0.0> a jams:JAMSObservation,
+        jams:JAMSScoreObservation,
+        jams:ScorePatternOccurrence ;
+    rdfs:label [ ] ;
+    jams:hasDuration "0.0"^^xsd:float ;
+    jams:hasFrequency "2"^^xsd:int ;
+    jams:hasPatternType "pitch-class-values" ;
+    jams:ofPattern <http://w3id.org/polifonia/resource/pattern/0_9_0_9_4_4> .
+
+<http://w3id.org/polifonia/resource/JAMSObservation/LetterkennyBlacksmithThe4743/0_9_4_4_0_2@0.0> a jams:JAMSObservation,
+        jams:JAMSScoreObservation,
+        jams:ScorePatternOccurrence ;
+    rdfs:label [ ] ;
+    jams:hasDuration "0.0"^^xsd:float ;
+    jams:hasFrequency "1"^^xsd:int ;
+    jams:hasPatternType "pitch-class-values" ;
+    jams:ofPattern <http://w3id.org/polifonia/resource/pattern/0_9_4_4_0_2> .
+
+<http://w3id.org/polifonia/resource/JAMSObservation/LetterkennyBlacksmithThe4743/0_9_4_4_4_4@0.0> a jams:JAMSObservation,
+        jams:JAMSScoreObservation,
+        jams:ScorePatternOccurrence ;
+    rdfs:label [ ] ;
+    jams:hasDuration "0.0"^^xsd:float ;
+    jams:hasFrequency "1"^^xsd:int ;
+    jams:hasPatternType "pitch-class-values" ;
+    jams:ofPattern <http://w3id.org/polifonia/resource/pattern/0_9_4_4_4_4> .
+
+<http://w3id.org/polifonia/resource/JAMSObservation/LetterkennyBlacksmithThe4743/11_0_2_0_9_0@0.0> a jams:JAMSObservation,
+        jams:JAMSScoreObservation,
+        jams:ScorePatternOccurrence ;
+    rdfs:label [ ] ;
+    jams:hasDuration "0.0"^^xsd:float ;
+    jams:hasFrequency "2"^^xsd:int ;
+    jams:hasPatternType "pitch-class-values" ;
+    jams:ofPattern <http://w3id.org/polifonia/resource/pattern/11_0_2_0_9_0> .
+
+<http://w3id.org/polifonia/resource/JAMSObservation/LetterkennyBlacksmithThe4743/11_4_4_4_6_6@0.0> a jams:JAMSObservation,
+        jams:JAMSScoreObservation,
+        jams:ScorePatternOccurrence ;
+    rdfs:label [ ] ;
+    jams:hasDuration "0.0"^^xsd:float ;
+    jams:hasFrequency "1"^^xsd:int ;
+    jams:hasPatternType "pitch-class-values" ;
+    jams:ofPattern <http://w3id.org/polifonia/resource/pattern/11_4_4_4_6_6> .
+
+<http://w3id.org/polifonia/resource/JAMSObservation/LetterkennyBlacksmithThe4743/2_0_9_0_2_9@0.0> a jams:JAMSObservation,
+        jams:JAMSScoreObservation,
+        jams:ScorePatternOccurrence ;
+    rdfs:label [ ] ;
+    jams:hasDuration "0.0"^^xsd:float ;
+    jams:hasFrequency "2"^^xsd:int ;
+    jams:hasPatternType "pitch-class-values" ;
+    jams:ofPattern <http://w3id.org/polifonia/resource/pattern/2_0_9_0_2_9> .
+
+<http://w3id.org/polifonia/resource/JAMSObservation/LetterkennyBlacksmithThe4743/2_0_9_0_9_4@0.0> a jams:JAMSObservation,
+        jams:JAMSScoreObservation,
+        jams:ScorePatternOccurrence ;
+    rdfs:label [ ] ;
+    jams:hasDuration "0.0"^^xsd:float ;
+    jams:hasFrequency "2"^^xsd:int ;
+    jams:hasPatternType "pitch-class-values" ;
+    jams:ofPattern <http://w3id.org/polifonia/resource/pattern/2_0_9_0_9_4> .
+
+<http://w3id.org/polifonia/resource/JAMSObservation/LetterkennyBlacksmithThe4743/2_9_11_0_2_0@0.0> a jams:JAMSObservation,
+        jams:JAMSScoreObservation,
+        jams:ScorePatternOccurrence ;
+    rdfs:label [ ] ;
+    jams:hasDuration "0.0"^^xsd:float ;
+    jams:hasFrequency "2"^^xsd:int ;
+    jams:hasPatternType "pitch-class-values" ;
+    jams:ofPattern <http://w3id.org/polifonia/resource/pattern/2_9_11_0_2_0> .
+
+<http://w3id.org/polifonia/resource/JAMSObservation/LetterkennyBlacksmithThe4743/4_0_2_0_9_0@0.0> a jams:JAMSObservation,
+        jams:JAMSScoreObservation,
+        jams:ScorePatternOccurrence ;
+    rdfs:label [ ] ;
+    jams:hasDuration "0.0"^^xsd:float ;
+    jams:hasFrequency "1"^^xsd:int ;
+    jams:hasPatternType "pitch-class-values" ;
+    jams:ofPattern <http://w3id.org/polifonia/resource/pattern/4_0_2_0_9_0> .
+
+<http://w3id.org/polifonia/resource/JAMSObservation/LetterkennyBlacksmithThe4743/4_11_4_4_4_6@0.0> a jams:JAMSObservation,
+        jams:JAMSScoreObservation,
+        jams:ScorePatternOccurrence ;
+    rdfs:label [ ] ;
+    jams:hasDuration "0.0"^^xsd:float ;
+    jams:hasFrequency "1"^^xsd:int ;
+    jams:hasPatternType "pitch-class-values" ;
+    jams:ofPattern <http://w3id.org/polifonia/resource/pattern/4_11_4_4_4_6> .
+
+<http://w3id.org/polifonia/resource/JAMSObservation/LetterkennyBlacksmithThe4743/4_4_0_2_0_9@0.0> a jams:JAMSObservation,
+        jams:JAMSScoreObservation,
+        jams:ScorePatternOccurrence ;
+    rdfs:label [ ] ;
+    jams:hasDuration "0.0"^^xsd:float ;
+    jams:hasFrequency "1"^^xsd:int ;
+    jams:hasPatternType "pitch-class-values" ;
+    jams:ofPattern <http://w3id.org/polifonia/resource/pattern/4_4_0_2_0_9> .
+
+<http://w3id.org/polifonia/resource/JAMSObservation/LetterkennyBlacksmithThe4743/4_4_11_4_4_4@0.0> a jams:JAMSObservation,
+        jams:JAMSScoreObservation,
+        jams:ScorePatternOccurrence ;
+    rdfs:label [ ] ;
+    jams:hasDuration "0.0"^^xsd:float ;
+    jams:hasFrequency "1"^^xsd:int ;
+    jams:hasPatternType "pitch-class-values" ;
+    jams:ofPattern <http://w3id.org/polifonia/resource/pattern/4_4_11_4_4_4> .
+
+<http://w3id.org/polifonia/resource/JAMSObservation/LetterkennyBlacksmithThe4743/4_4_4_6_6_4@0.0> a jams:JAMSObservation,
+        jams:JAMSScoreObservation,
+        jams:ScorePatternOccurrence ;
+    rdfs:label [ ] ;
+    jams:hasDuration "0.0"^^xsd:float ;
+    jams:hasFrequency "1"^^xsd:int ;
+    jams:hasPatternType "pitch-class-values" ;
+    jams:ofPattern <http://w3id.org/polifonia/resource/pattern/4_4_4_6_6_4> .
+
+<http://w3id.org/polifonia/resource/JAMSObservation/LetterkennyBlacksmithThe4743/4_4_4_6_6_9@0.0> a jams:JAMSObservation,
+        jams:JAMSScoreObservation,
+        jams:ScorePatternOccurrence ;
+    rdfs:label [ ] ;
+    jams:hasDuration "0.0"^^xsd:float ;
+    jams:hasFrequency "1"^^xsd:int ;
+    jams:hasPatternType "pitch-class-values" ;
+    jams:ofPattern <http://w3id.org/polifonia/resource/pattern/4_4_4_6_6_9> .
+
+<http://w3id.org/polifonia/resource/JAMSObservation/LetterkennyBlacksmithThe4743/4_4_6_6_4_4@0.0> a jams:JAMSObservation,
+        jams:JAMSScoreObservation,
+        jams:ScorePatternOccurrence ;
+    rdfs:label [ ] ;
+    jams:hasDuration "0.0"^^xsd:float ;
+    jams:hasFrequency "1"^^xsd:int ;
+    jams:hasPatternType "pitch-class-values" ;
+    jams:ofPattern <http://w3id.org/polifonia/resource/pattern/4_4_6_6_4_4> .
+
+<http://w3id.org/polifonia/resource/JAMSObservation/LetterkennyBlacksmithThe4743/4_4_6_6_9_0@0.0> a jams:JAMSObservation,
+        jams:JAMSScoreObservation,
+        jams:ScorePatternOccurrence ;
+    rdfs:label [ ] ;
+    jams:hasDuration "0.0"^^xsd:float ;
+    jams:hasFrequency "1"^^xsd:int ;
+    jams:hasPatternType "pitch-class-values" ;
+    jams:ofPattern <http://w3id.org/polifonia/resource/pattern/4_4_6_6_9_0> .
+
+<http://w3id.org/polifonia/resource/JAMSObservation/LetterkennyBlacksmithThe4743/4_6_6_4_4_11@0.0> a jams:JAMSObservation,
+        jams:JAMSScoreObservation,
+        jams:ScorePatternOccurrence ;
+    rdfs:label [ ] ;
+    jams:hasDuration "0.0"^^xsd:float ;
+    jams:hasFrequency "1"^^xsd:int ;
+    jams:hasPatternType "pitch-class-values" ;
+    jams:ofPattern <http://w3id.org/polifonia/resource/pattern/4_6_6_4_4_11> .
+
+<http://w3id.org/polifonia/resource/JAMSObservation/LetterkennyBlacksmithThe4743/4_6_6_9_0_11@0.0> a jams:JAMSObservation,
+        jams:JAMSScoreObservation,
+        jams:ScorePatternOccurrence ;
+    rdfs:label [ ] ;
+    jams:hasDuration "0.0"^^xsd:float ;
+    jams:hasFrequency "1"^^xsd:int ;
+    jams:hasPatternType "pitch-class-values" ;
+    jams:ofPattern <http://w3id.org/polifonia/resource/pattern/4_6_6_9_0_11> .
+
+<http://w3id.org/polifonia/resource/JAMSObservation/LetterkennyBlacksmithThe4743/6_4_4_11_4_4@0.0> a jams:JAMSObservation,
+        jams:JAMSScoreObservation,
+        jams:ScorePatternOccurrence ;
+    rdfs:label [ ] ;
+    jams:hasDuration "0.0"^^xsd:float ;
+    jams:hasFrequency "1"^^xsd:int ;
+    jams:hasPatternType "pitch-class-values" ;
+    jams:ofPattern <http://w3id.org/polifonia/resource/pattern/6_4_4_11_4_4> .
+
+<http://w3id.org/polifonia/resource/JAMSObservation/LetterkennyBlacksmithThe4743/6_6_4_4_11_4@0.0> a jams:JAMSObservation,
+        jams:JAMSScoreObservation,
+        jams:ScorePatternOccurrence ;
+    rdfs:label [ ] ;
+    jams:hasDuration "0.0"^^xsd:float ;
+    jams:hasFrequency "1"^^xsd:int ;
+    jams:hasPatternType "pitch-class-values" ;
+    jams:ofPattern <http://w3id.org/polifonia/resource/pattern/6_6_4_4_11_4> .
+
+<http://w3id.org/polifonia/resource/JAMSObservation/LetterkennyBlacksmithThe4743/9_0_2_9_11_0@0.0> a jams:JAMSObservation,
+        jams:JAMSScoreObservation,
+        jams:ScorePatternOccurrence ;
+    rdfs:label [ ] ;
+    jams:hasDuration "0.0"^^xsd:float ;
+    jams:hasFrequency "2"^^xsd:int ;
+    jams:hasPatternType "pitch-class-values" ;
+    jams:ofPattern <http://w3id.org/polifonia/resource/pattern/9_0_2_9_11_0> .
+
+<http://w3id.org/polifonia/resource/JAMSObservation/LetterkennyBlacksmithThe4743/9_0_9_4_4_0@0.0> a jams:JAMSObservation,
+        jams:JAMSScoreObservation,
+        jams:ScorePatternOccurrence ;
+    rdfs:label [ ] ;
+    jams:hasDuration "0.0"^^xsd:float ;
+    jams:hasFrequency "1"^^xsd:int ;
+    jams:hasPatternType "pitch-class-values" ;
+    jams:ofPattern <http://w3id.org/polifonia/resource/pattern/9_0_9_4_4_0> .
+
+<http://w3id.org/polifonia/resource/JAMSObservation/LetterkennyBlacksmithThe4743/9_0_9_4_4_4@0.0> a jams:JAMSObservation,
+        jams:JAMSScoreObservation,
+        jams:ScorePatternOccurrence ;
+    rdfs:label [ ] ;
+    jams:hasDuration "0.0"^^xsd:float ;
+    jams:hasFrequency "1"^^xsd:int ;
+    jams:hasPatternType "pitch-class-values" ;
+    jams:ofPattern <http://w3id.org/polifonia/resource/pattern/9_0_9_4_4_4> .
+
+<http://w3id.org/polifonia/resource/JAMSObservation/LetterkennyBlacksmithThe4743/9_11_0_2_0_9@0.0> a jams:JAMSObservation,
+        jams:JAMSScoreObservation,
+        jams:ScorePatternOccurrence ;
+    rdfs:label [ ] ;
+    jams:hasDuration "0.0"^^xsd:float ;
+    jams:hasFrequency "2"^^xsd:int ;
+    jams:hasPatternType "pitch-class-values" ;
+    jams:ofPattern <http://w3id.org/polifonia/resource/pattern/9_11_0_2_0_9> .
+
+<http://w3id.org/polifonia/resource/JAMSObservation/LetterkennyBlacksmithThe4743/9_4_4_0_2_0@0.0> a jams:JAMSObservation,
+        jams:JAMSScoreObservation,
+        jams:ScorePatternOccurrence ;
+    rdfs:label [ ] ;
+    jams:hasDuration "0.0"^^xsd:float ;
+    jams:hasFrequency "1"^^xsd:int ;
+    jams:hasPatternType "pitch-class-values" ;
+    jams:ofPattern <http://w3id.org/polifonia/resource/pattern/9_4_4_0_2_0> .
+
+<http://w3id.org/polifonia/resource/MusicalComposition/051437b31e5814b1132b2ddc68ec42e9ca1b11a8> a mc:MusicalComposition ;
+    rdfs:label "LetterkennyBlacksmithThe4743" ;
+    mc:title "LetterkennyBlacksmithThe4743" ;
+    prov:wasDerivedFrom <http://w3id.org/polifonia/resource/JAMSFile/LetterkennyBlacksmithThe4743.jams> .
+

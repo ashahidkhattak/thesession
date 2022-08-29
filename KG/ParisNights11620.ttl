@@ -1,0 +1,411 @@
+@prefix core: <http://w3id.org/polifonia/ontology/core/> .
+@prefix jams: <http://w3id.org/polifonia/ontology/jams/> .
+@prefix mc: <http://w3id.org/polifonia/ontology/musical-composition/> .
+@prefix pon-resource: <http://w3id.org/polifonia/resource/> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+pon-resource:Agent%2Fannotator_local_id a core:Agent ;
+    rdfs:label "FONN-Tool" ;
+    jams:hasAnnotatorType pon-resource:annotator-program ;
+    jams:hasName "FONN-Tool" .
+
+<http://w3id.org/polifonia/resource/JAMSAnnotation/f58c3c16e12f0f3570b85f0562f68409e249f240> a jams:JAMSAnnotation,
+        jams:JAMSScoreAnnotation ;
+    jams:includesObservation <http://w3id.org/polifonia/resource/JAMSObservation/ParisNights11620/0_0_0_0_11_3@0.0>,
+        <http://w3id.org/polifonia/resource/JAMSObservation/ParisNights11620/0_0_0_11_3_0@0.0>,
+        <http://w3id.org/polifonia/resource/JAMSObservation/ParisNights11620/0_0_10_10_8_7@0.0>,
+        <http://w3id.org/polifonia/resource/JAMSObservation/ParisNights11620/0_0_11_3_0_0@0.0>,
+        <http://w3id.org/polifonia/resource/JAMSObservation/ParisNights11620/0_0_3_5_3_3@0.0>,
+        <http://w3id.org/polifonia/resource/JAMSObservation/ParisNights11620/0_3_5_3_3_7@0.0>,
+        <http://w3id.org/polifonia/resource/JAMSObservation/ParisNights11620/10_10_8_7_7_7@0.0>,
+        <http://w3id.org/polifonia/resource/JAMSObservation/ParisNights11620/10_8_7_10_8_7@0.0>,
+        <http://w3id.org/polifonia/resource/JAMSObservation/ParisNights11620/10_8_7_7_7_3@0.0>,
+        <http://w3id.org/polifonia/resource/JAMSObservation/ParisNights11620/1_8_0_0_0_0@0.0>,
+        <http://w3id.org/polifonia/resource/JAMSObservation/ParisNights11620/2_3_5_3_4_1@0.0>,
+        <http://w3id.org/polifonia/resource/JAMSObservation/ParisNights11620/2_8_2_3_5_3@0.0>,
+        <http://w3id.org/polifonia/resource/JAMSObservation/ParisNights11620/3_0_0_10_10_8@0.0>,
+        <http://w3id.org/polifonia/resource/JAMSObservation/ParisNights11620/3_0_0_3_5_3@0.0>,
+        <http://w3id.org/polifonia/resource/JAMSObservation/ParisNights11620/3_3_7_8_5_8@0.0>,
+        <http://w3id.org/polifonia/resource/JAMSObservation/ParisNights11620/3_4_1_8_0_0@0.0>,
+        <http://w3id.org/polifonia/resource/JAMSObservation/ParisNights11620/3_5_3_3_7_8@0.0>,
+        <http://w3id.org/polifonia/resource/JAMSObservation/ParisNights11620/3_5_3_4_1_8@0.0>,
+        <http://w3id.org/polifonia/resource/JAMSObservation/ParisNights11620/3_7_8_5_8_7@0.0>,
+        <http://w3id.org/polifonia/resource/JAMSObservation/ParisNights11620/3_8_8_7_7_2@0.0>,
+        <http://w3id.org/polifonia/resource/JAMSObservation/ParisNights11620/4_1_8_0_0_0@0.0>,
+        <http://w3id.org/polifonia/resource/JAMSObservation/ParisNights11620/5_3_3_7_8_5@0.0>,
+        <http://w3id.org/polifonia/resource/JAMSObservation/ParisNights11620/5_3_4_1_8_0@0.0>,
+        <http://w3id.org/polifonia/resource/JAMSObservation/ParisNights11620/5_8_7_7_2_8@0.0>,
+        <http://w3id.org/polifonia/resource/JAMSObservation/ParisNights11620/7_2_8_2_3_5@0.0>,
+        <http://w3id.org/polifonia/resource/JAMSObservation/ParisNights11620/7_3_5_3_3_7@0.0>,
+        <http://w3id.org/polifonia/resource/JAMSObservation/ParisNights11620/7_3_8_8_7_7@0.0>,
+        <http://w3id.org/polifonia/resource/JAMSObservation/ParisNights11620/7_7_2_5_0_0@0.0>,
+        <http://w3id.org/polifonia/resource/JAMSObservation/ParisNights11620/7_7_2_8_2_3@0.0>,
+        <http://w3id.org/polifonia/resource/JAMSObservation/ParisNights11620/7_7_7_3_8_8@0.0>,
+        <http://w3id.org/polifonia/resource/JAMSObservation/ParisNights11620/7_8_0_7_3_2@0.0>,
+        <http://w3id.org/polifonia/resource/JAMSObservation/ParisNights11620/7_8_5_8_7_7@0.0>,
+        <http://w3id.org/polifonia/resource/JAMSObservation/ParisNights11620/8_0_0_0_0_11@0.0>,
+        <http://w3id.org/polifonia/resource/JAMSObservation/ParisNights11620/8_2_3_5_3_4@0.0>,
+        <http://w3id.org/polifonia/resource/JAMSObservation/ParisNights11620/8_5_8_7_7_2@0.0>,
+        <http://w3id.org/polifonia/resource/JAMSObservation/ParisNights11620/8_7_7_2_5_0@0.0>,
+        <http://w3id.org/polifonia/resource/JAMSObservation/ParisNights11620/8_7_7_2_8_2@0.0>,
+        <http://w3id.org/polifonia/resource/JAMSObservation/ParisNights11620/8_8_7_7_2_5@0.0> ;
+    jams:isJAMSAnnotationOf <http://w3id.org/polifonia/resource/MusicalComposition/f58c3c16e12f0f3570b85f0562f68409e249f240> .
+
+<http://w3id.org/polifonia/resource/Score/song_local_id> jams:hasJAMSAnnotation <http://w3id.org/polifonia/resource/MusicalComposition/f58c3c16e12f0f3570b85f0562f68409e249f240> .
+
+<http://w3id.org/polifonia/resource/JAMSFile/ParisNights11620.jams> a jams:JAMSFile ;
+    jams:identifiers [ ] ;
+    jams:jamsVersion "0.3.4" ;
+    jams:release "" ;
+    prov:wasDerivedFrom "The Session" ;
+    prov:wasMemberOf <https://github.com/ashahidkhattak/thesession> .
+
+<http://w3id.org/polifonia/resource/JAMSObservation/ParisNights11620/0_0_0_0_11_3@0.0> a jams:JAMSObservation,
+        jams:JAMSScoreObservation,
+        jams:ScorePatternOccurrence ;
+    rdfs:label [ ] ;
+    jams:hasDuration "0.0"^^xsd:float ;
+    jams:hasFrequency "2"^^xsd:int ;
+    jams:hasPatternType "pitch-class-values" ;
+    jams:ofPattern <http://w3id.org/polifonia/resource/pattern/0_0_0_0_11_3> .
+
+<http://w3id.org/polifonia/resource/JAMSObservation/ParisNights11620/0_0_0_11_3_0@0.0> a jams:JAMSObservation,
+        jams:JAMSScoreObservation,
+        jams:ScorePatternOccurrence ;
+    rdfs:label [ ] ;
+    jams:hasDuration "0.0"^^xsd:float ;
+    jams:hasFrequency "2"^^xsd:int ;
+    jams:hasPatternType "pitch-class-values" ;
+    jams:ofPattern <http://w3id.org/polifonia/resource/pattern/0_0_0_11_3_0> .
+
+<http://w3id.org/polifonia/resource/JAMSObservation/ParisNights11620/0_0_10_10_8_7@0.0> a jams:JAMSObservation,
+        jams:JAMSScoreObservation,
+        jams:ScorePatternOccurrence ;
+    rdfs:label [ ] ;
+    jams:hasDuration "0.0"^^xsd:float ;
+    jams:hasFrequency "1"^^xsd:int ;
+    jams:hasPatternType "pitch-class-values" ;
+    jams:ofPattern <http://w3id.org/polifonia/resource/pattern/0_0_10_10_8_7> .
+
+<http://w3id.org/polifonia/resource/JAMSObservation/ParisNights11620/0_0_11_3_0_0@0.0> a jams:JAMSObservation,
+        jams:JAMSScoreObservation,
+        jams:ScorePatternOccurrence ;
+    rdfs:label [ ] ;
+    jams:hasDuration "0.0"^^xsd:float ;
+    jams:hasFrequency "2"^^xsd:int ;
+    jams:hasPatternType "pitch-class-values" ;
+    jams:ofPattern <http://w3id.org/polifonia/resource/pattern/0_0_11_3_0_0> .
+
+<http://w3id.org/polifonia/resource/JAMSObservation/ParisNights11620/0_0_3_5_3_3@0.0> a jams:JAMSObservation,
+        jams:JAMSScoreObservation,
+        jams:ScorePatternOccurrence ;
+    rdfs:label [ ] ;
+    jams:hasDuration "0.0"^^xsd:float ;
+    jams:hasFrequency "1"^^xsd:int ;
+    jams:hasPatternType "pitch-class-values" ;
+    jams:ofPattern <http://w3id.org/polifonia/resource/pattern/0_0_3_5_3_3> .
+
+<http://w3id.org/polifonia/resource/JAMSObservation/ParisNights11620/0_3_5_3_3_7@0.0> a jams:JAMSObservation,
+        jams:JAMSScoreObservation,
+        jams:ScorePatternOccurrence ;
+    rdfs:label [ ] ;
+    jams:hasDuration "0.0"^^xsd:float ;
+    jams:hasFrequency "1"^^xsd:int ;
+    jams:hasPatternType "pitch-class-values" ;
+    jams:ofPattern <http://w3id.org/polifonia/resource/pattern/0_3_5_3_3_7> .
+
+<http://w3id.org/polifonia/resource/JAMSObservation/ParisNights11620/10_10_8_7_7_7@0.0> a jams:JAMSObservation,
+        jams:JAMSScoreObservation,
+        jams:ScorePatternOccurrence ;
+    rdfs:label [ ] ;
+    jams:hasDuration "0.0"^^xsd:float ;
+    jams:hasFrequency "1"^^xsd:int ;
+    jams:hasPatternType "pitch-class-values" ;
+    jams:ofPattern <http://w3id.org/polifonia/resource/pattern/10_10_8_7_7_7> .
+
+<http://w3id.org/polifonia/resource/JAMSObservation/ParisNights11620/10_8_7_10_8_7@0.0> a jams:JAMSObservation,
+        jams:JAMSScoreObservation,
+        jams:ScorePatternOccurrence ;
+    rdfs:label [ ] ;
+    jams:hasDuration "0.0"^^xsd:float ;
+    jams:hasFrequency "1"^^xsd:int ;
+    jams:hasPatternType "pitch-class-values" ;
+    jams:ofPattern <http://w3id.org/polifonia/resource/pattern/10_8_7_10_8_7> .
+
+<http://w3id.org/polifonia/resource/JAMSObservation/ParisNights11620/10_8_7_7_7_3@0.0> a jams:JAMSObservation,
+        jams:JAMSScoreObservation,
+        jams:ScorePatternOccurrence ;
+    rdfs:label [ ] ;
+    jams:hasDuration "0.0"^^xsd:float ;
+    jams:hasFrequency "1"^^xsd:int ;
+    jams:hasPatternType "pitch-class-values" ;
+    jams:ofPattern <http://w3id.org/polifonia/resource/pattern/10_8_7_7_7_3> .
+
+<http://w3id.org/polifonia/resource/JAMSObservation/ParisNights11620/1_8_0_0_0_0@0.0> a jams:JAMSObservation,
+        jams:JAMSScoreObservation,
+        jams:ScorePatternOccurrence ;
+    rdfs:label [ ] ;
+    jams:hasDuration "0.0"^^xsd:float ;
+    jams:hasFrequency "2"^^xsd:int ;
+    jams:hasPatternType "pitch-class-values" ;
+    jams:ofPattern <http://w3id.org/polifonia/resource/pattern/1_8_0_0_0_0> .
+
+<http://w3id.org/polifonia/resource/JAMSObservation/ParisNights11620/2_3_5_3_4_1@0.0> a jams:JAMSObservation,
+        jams:JAMSScoreObservation,
+        jams:ScorePatternOccurrence ;
+    rdfs:label [ ] ;
+    jams:hasDuration "0.0"^^xsd:float ;
+    jams:hasFrequency "2"^^xsd:int ;
+    jams:hasPatternType "pitch-class-values" ;
+    jams:ofPattern <http://w3id.org/polifonia/resource/pattern/2_3_5_3_4_1> .
+
+<http://w3id.org/polifonia/resource/JAMSObservation/ParisNights11620/2_8_2_3_5_3@0.0> a jams:JAMSObservation,
+        jams:JAMSScoreObservation,
+        jams:ScorePatternOccurrence ;
+    rdfs:label [ ] ;
+    jams:hasDuration "0.0"^^xsd:float ;
+    jams:hasFrequency "2"^^xsd:int ;
+    jams:hasPatternType "pitch-class-values" ;
+    jams:ofPattern <http://w3id.org/polifonia/resource/pattern/2_8_2_3_5_3> .
+
+<http://w3id.org/polifonia/resource/JAMSObservation/ParisNights11620/3_0_0_10_10_8@0.0> a jams:JAMSObservation,
+        jams:JAMSScoreObservation,
+        jams:ScorePatternOccurrence ;
+    rdfs:label [ ] ;
+    jams:hasDuration "0.0"^^xsd:float ;
+    jams:hasFrequency "1"^^xsd:int ;
+    jams:hasPatternType "pitch-class-values" ;
+    jams:ofPattern <http://w3id.org/polifonia/resource/pattern/3_0_0_10_10_8> .
+
+<http://w3id.org/polifonia/resource/JAMSObservation/ParisNights11620/3_0_0_3_5_3@0.0> a jams:JAMSObservation,
+        jams:JAMSScoreObservation,
+        jams:ScorePatternOccurrence ;
+    rdfs:label [ ] ;
+    jams:hasDuration "0.0"^^xsd:float ;
+    jams:hasFrequency "1"^^xsd:int ;
+    jams:hasPatternType "pitch-class-values" ;
+    jams:ofPattern <http://w3id.org/polifonia/resource/pattern/3_0_0_3_5_3> .
+
+<http://w3id.org/polifonia/resource/JAMSObservation/ParisNights11620/3_3_7_8_5_8@0.0> a jams:JAMSObservation,
+        jams:JAMSScoreObservation,
+        jams:ScorePatternOccurrence ;
+    rdfs:label [ ] ;
+    jams:hasDuration "0.0"^^xsd:float ;
+    jams:hasFrequency "2"^^xsd:int ;
+    jams:hasPatternType "pitch-class-values" ;
+    jams:ofPattern <http://w3id.org/polifonia/resource/pattern/3_3_7_8_5_8> .
+
+<http://w3id.org/polifonia/resource/JAMSObservation/ParisNights11620/3_4_1_8_0_0@0.0> a jams:JAMSObservation,
+        jams:JAMSScoreObservation,
+        jams:ScorePatternOccurrence ;
+    rdfs:label [ ] ;
+    jams:hasDuration "0.0"^^xsd:float ;
+    jams:hasFrequency "2"^^xsd:int ;
+    jams:hasPatternType "pitch-class-values" ;
+    jams:ofPattern <http://w3id.org/polifonia/resource/pattern/3_4_1_8_0_0> .
+
+<http://w3id.org/polifonia/resource/JAMSObservation/ParisNights11620/3_5_3_3_7_8@0.0> a jams:JAMSObservation,
+        jams:JAMSScoreObservation,
+        jams:ScorePatternOccurrence ;
+    rdfs:label [ ] ;
+    jams:hasDuration "0.0"^^xsd:float ;
+    jams:hasFrequency "2"^^xsd:int ;
+    jams:hasPatternType "pitch-class-values" ;
+    jams:ofPattern <http://w3id.org/polifonia/resource/pattern/3_5_3_3_7_8> .
+
+<http://w3id.org/polifonia/resource/JAMSObservation/ParisNights11620/3_5_3_4_1_8@0.0> a jams:JAMSObservation,
+        jams:JAMSScoreObservation,
+        jams:ScorePatternOccurrence ;
+    rdfs:label [ ] ;
+    jams:hasDuration "0.0"^^xsd:float ;
+    jams:hasFrequency "2"^^xsd:int ;
+    jams:hasPatternType "pitch-class-values" ;
+    jams:ofPattern <http://w3id.org/polifonia/resource/pattern/3_5_3_4_1_8> .
+
+<http://w3id.org/polifonia/resource/JAMSObservation/ParisNights11620/3_7_8_5_8_7@0.0> a jams:JAMSObservation,
+        jams:JAMSScoreObservation,
+        jams:ScorePatternOccurrence ;
+    rdfs:label [ ] ;
+    jams:hasDuration "0.0"^^xsd:float ;
+    jams:hasFrequency "2"^^xsd:int ;
+    jams:hasPatternType "pitch-class-values" ;
+    jams:ofPattern <http://w3id.org/polifonia/resource/pattern/3_7_8_5_8_7> .
+
+<http://w3id.org/polifonia/resource/JAMSObservation/ParisNights11620/3_8_8_7_7_2@0.0> a jams:JAMSObservation,
+        jams:JAMSScoreObservation,
+        jams:ScorePatternOccurrence ;
+    rdfs:label [ ] ;
+    jams:hasDuration "0.0"^^xsd:float ;
+    jams:hasFrequency "1"^^xsd:int ;
+    jams:hasPatternType "pitch-class-values" ;
+    jams:ofPattern <http://w3id.org/polifonia/resource/pattern/3_8_8_7_7_2> .
+
+<http://w3id.org/polifonia/resource/JAMSObservation/ParisNights11620/4_1_8_0_0_0@0.0> a jams:JAMSObservation,
+        jams:JAMSScoreObservation,
+        jams:ScorePatternOccurrence ;
+    rdfs:label [ ] ;
+    jams:hasDuration "0.0"^^xsd:float ;
+    jams:hasFrequency "2"^^xsd:int ;
+    jams:hasPatternType "pitch-class-values" ;
+    jams:ofPattern <http://w3id.org/polifonia/resource/pattern/4_1_8_0_0_0> .
+
+<http://w3id.org/polifonia/resource/JAMSObservation/ParisNights11620/5_3_3_7_8_5@0.0> a jams:JAMSObservation,
+        jams:JAMSScoreObservation,
+        jams:ScorePatternOccurrence ;
+    rdfs:label [ ] ;
+    jams:hasDuration "0.0"^^xsd:float ;
+    jams:hasFrequency "2"^^xsd:int ;
+    jams:hasPatternType "pitch-class-values" ;
+    jams:ofPattern <http://w3id.org/polifonia/resource/pattern/5_3_3_7_8_5> .
+
+<http://w3id.org/polifonia/resource/JAMSObservation/ParisNights11620/5_3_4_1_8_0@0.0> a jams:JAMSObservation,
+        jams:JAMSScoreObservation,
+        jams:ScorePatternOccurrence ;
+    rdfs:label [ ] ;
+    jams:hasDuration "0.0"^^xsd:float ;
+    jams:hasFrequency "2"^^xsd:int ;
+    jams:hasPatternType "pitch-class-values" ;
+    jams:ofPattern <http://w3id.org/polifonia/resource/pattern/5_3_4_1_8_0> .
+
+<http://w3id.org/polifonia/resource/JAMSObservation/ParisNights11620/5_8_7_7_2_8@0.0> a jams:JAMSObservation,
+        jams:JAMSScoreObservation,
+        jams:ScorePatternOccurrence ;
+    rdfs:label [ ] ;
+    jams:hasDuration "0.0"^^xsd:float ;
+    jams:hasFrequency "2"^^xsd:int ;
+    jams:hasPatternType "pitch-class-values" ;
+    jams:ofPattern <http://w3id.org/polifonia/resource/pattern/5_8_7_7_2_8> .
+
+<http://w3id.org/polifonia/resource/JAMSObservation/ParisNights11620/7_2_8_2_3_5@0.0> a jams:JAMSObservation,
+        jams:JAMSScoreObservation,
+        jams:ScorePatternOccurrence ;
+    rdfs:label [ ] ;
+    jams:hasDuration "0.0"^^xsd:float ;
+    jams:hasFrequency "2"^^xsd:int ;
+    jams:hasPatternType "pitch-class-values" ;
+    jams:ofPattern <http://w3id.org/polifonia/resource/pattern/7_2_8_2_3_5> .
+
+<http://w3id.org/polifonia/resource/JAMSObservation/ParisNights11620/7_3_5_3_3_7@0.0> a jams:JAMSObservation,
+        jams:JAMSScoreObservation,
+        jams:ScorePatternOccurrence ;
+    rdfs:label [ ] ;
+    jams:hasDuration "0.0"^^xsd:float ;
+    jams:hasFrequency "1"^^xsd:int ;
+    jams:hasPatternType "pitch-class-values" ;
+    jams:ofPattern <http://w3id.org/polifonia/resource/pattern/7_3_5_3_3_7> .
+
+<http://w3id.org/polifonia/resource/JAMSObservation/ParisNights11620/7_3_8_8_7_7@0.0> a jams:JAMSObservation,
+        jams:JAMSScoreObservation,
+        jams:ScorePatternOccurrence ;
+    rdfs:label [ ] ;
+    jams:hasDuration "0.0"^^xsd:float ;
+    jams:hasFrequency "1"^^xsd:int ;
+    jams:hasPatternType "pitch-class-values" ;
+    jams:ofPattern <http://w3id.org/polifonia/resource/pattern/7_3_8_8_7_7> .
+
+<http://w3id.org/polifonia/resource/JAMSObservation/ParisNights11620/7_7_2_5_0_0@0.0> a jams:JAMSObservation,
+        jams:JAMSScoreObservation,
+        jams:ScorePatternOccurrence ;
+    rdfs:label [ ] ;
+    jams:hasDuration "0.0"^^xsd:float ;
+    jams:hasFrequency "1"^^xsd:int ;
+    jams:hasPatternType "pitch-class-values" ;
+    jams:ofPattern <http://w3id.org/polifonia/resource/pattern/7_7_2_5_0_0> .
+
+<http://w3id.org/polifonia/resource/JAMSObservation/ParisNights11620/7_7_2_8_2_3@0.0> a jams:JAMSObservation,
+        jams:JAMSScoreObservation,
+        jams:ScorePatternOccurrence ;
+    rdfs:label [ ] ;
+    jams:hasDuration "0.0"^^xsd:float ;
+    jams:hasFrequency "2"^^xsd:int ;
+    jams:hasPatternType "pitch-class-values" ;
+    jams:ofPattern <http://w3id.org/polifonia/resource/pattern/7_7_2_8_2_3> .
+
+<http://w3id.org/polifonia/resource/JAMSObservation/ParisNights11620/7_7_7_3_8_8@0.0> a jams:JAMSObservation,
+        jams:JAMSScoreObservation,
+        jams:ScorePatternOccurrence ;
+    rdfs:label [ ] ;
+    jams:hasDuration "0.0"^^xsd:float ;
+    jams:hasFrequency "1"^^xsd:int ;
+    jams:hasPatternType "pitch-class-values" ;
+    jams:ofPattern <http://w3id.org/polifonia/resource/pattern/7_7_7_3_8_8> .
+
+<http://w3id.org/polifonia/resource/JAMSObservation/ParisNights11620/7_8_0_7_3_2@0.0> a jams:JAMSObservation,
+        jams:JAMSScoreObservation,
+        jams:ScorePatternOccurrence ;
+    rdfs:label [ ] ;
+    jams:hasDuration "0.0"^^xsd:float ;
+    jams:hasFrequency "1"^^xsd:int ;
+    jams:hasPatternType "pitch-class-values" ;
+    jams:ofPattern <http://w3id.org/polifonia/resource/pattern/7_8_0_7_3_2> .
+
+<http://w3id.org/polifonia/resource/JAMSObservation/ParisNights11620/7_8_5_8_7_7@0.0> a jams:JAMSObservation,
+        jams:JAMSScoreObservation,
+        jams:ScorePatternOccurrence ;
+    rdfs:label [ ] ;
+    jams:hasDuration "0.0"^^xsd:float ;
+    jams:hasFrequency "2"^^xsd:int ;
+    jams:hasPatternType "pitch-class-values" ;
+    jams:ofPattern <http://w3id.org/polifonia/resource/pattern/7_8_5_8_7_7> .
+
+<http://w3id.org/polifonia/resource/JAMSObservation/ParisNights11620/8_0_0_0_0_11@0.0> a jams:JAMSObservation,
+        jams:JAMSScoreObservation,
+        jams:ScorePatternOccurrence ;
+    rdfs:label [ ] ;
+    jams:hasDuration "0.0"^^xsd:float ;
+    jams:hasFrequency "2"^^xsd:int ;
+    jams:hasPatternType "pitch-class-values" ;
+    jams:ofPattern <http://w3id.org/polifonia/resource/pattern/8_0_0_0_0_11> .
+
+<http://w3id.org/polifonia/resource/JAMSObservation/ParisNights11620/8_2_3_5_3_4@0.0> a jams:JAMSObservation,
+        jams:JAMSScoreObservation,
+        jams:ScorePatternOccurrence ;
+    rdfs:label [ ] ;
+    jams:hasDuration "0.0"^^xsd:float ;
+    jams:hasFrequency "2"^^xsd:int ;
+    jams:hasPatternType "pitch-class-values" ;
+    jams:ofPattern <http://w3id.org/polifonia/resource/pattern/8_2_3_5_3_4> .
+
+<http://w3id.org/polifonia/resource/JAMSObservation/ParisNights11620/8_5_8_7_7_2@0.0> a jams:JAMSObservation,
+        jams:JAMSScoreObservation,
+        jams:ScorePatternOccurrence ;
+    rdfs:label [ ] ;
+    jams:hasDuration "0.0"^^xsd:float ;
+    jams:hasFrequency "2"^^xsd:int ;
+    jams:hasPatternType "pitch-class-values" ;
+    jams:ofPattern <http://w3id.org/polifonia/resource/pattern/8_5_8_7_7_2> .
+
+<http://w3id.org/polifonia/resource/JAMSObservation/ParisNights11620/8_7_7_2_5_0@0.0> a jams:JAMSObservation,
+        jams:JAMSScoreObservation,
+        jams:ScorePatternOccurrence ;
+    rdfs:label [ ] ;
+    jams:hasDuration "0.0"^^xsd:float ;
+    jams:hasFrequency "1"^^xsd:int ;
+    jams:hasPatternType "pitch-class-values" ;
+    jams:ofPattern <http://w3id.org/polifonia/resource/pattern/8_7_7_2_5_0> .
+
+<http://w3id.org/polifonia/resource/JAMSObservation/ParisNights11620/8_7_7_2_8_2@0.0> a jams:JAMSObservation,
+        jams:JAMSScoreObservation,
+        jams:ScorePatternOccurrence ;
+    rdfs:label [ ] ;
+    jams:hasDuration "0.0"^^xsd:float ;
+    jams:hasFrequency "2"^^xsd:int ;
+    jams:hasPatternType "pitch-class-values" ;
+    jams:ofPattern <http://w3id.org/polifonia/resource/pattern/8_7_7_2_8_2> .
+
+<http://w3id.org/polifonia/resource/JAMSObservation/ParisNights11620/8_8_7_7_2_5@0.0> a jams:JAMSObservation,
+        jams:JAMSScoreObservation,
+        jams:ScorePatternOccurrence ;
+    rdfs:label [ ] ;
+    jams:hasDuration "0.0"^^xsd:float ;
+    jams:hasFrequency "1"^^xsd:int ;
+    jams:hasPatternType "pitch-class-values" ;
+    jams:ofPattern <http://w3id.org/polifonia/resource/pattern/8_8_7_7_2_5> .
+
+<http://w3id.org/polifonia/resource/MusicalComposition/f58c3c16e12f0f3570b85f0562f68409e249f240> a mc:MusicalComposition ;
+    rdfs:label "ParisNights11620" ;
+    mc:title "ParisNights11620" ;
+    prov:wasDerivedFrom <http://w3id.org/polifonia/resource/JAMSFile/ParisNights11620.jams> .
+

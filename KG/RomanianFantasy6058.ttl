@@ -1,0 +1,401 @@
+@prefix core: <http://w3id.org/polifonia/ontology/core/> .
+@prefix jams: <http://w3id.org/polifonia/ontology/jams/> .
+@prefix mc: <http://w3id.org/polifonia/ontology/musical-composition/> .
+@prefix pon-resource: <http://w3id.org/polifonia/resource/> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+pon-resource:Agent%2Fannotator_local_id a core:Agent ;
+    rdfs:label "FONN-Tool" ;
+    jams:hasAnnotatorType pon-resource:annotator-program ;
+    jams:hasName "FONN-Tool" .
+
+<http://w3id.org/polifonia/resource/JAMSAnnotation/31aae3592d8e254f96aeea1bf30705e04376b4fc> a jams:JAMSAnnotation,
+        jams:JAMSScoreAnnotation ;
+    jams:includesObservation <http://w3id.org/polifonia/resource/JAMSObservation/RomanianFantasy6058/0_0_0_2_10_0@0.0>,
+        <http://w3id.org/polifonia/resource/JAMSObservation/RomanianFantasy6058/0_0_2_10_0_10@0.0>,
+        <http://w3id.org/polifonia/resource/JAMSObservation/RomanianFantasy6058/0_10_9_7_7_0@0.0>,
+        <http://w3id.org/polifonia/resource/JAMSObservation/RomanianFantasy6058/0_10_9_7_7_5@0.0>,
+        <http://w3id.org/polifonia/resource/JAMSObservation/RomanianFantasy6058/0_5_7_7_3_5@0.0>,
+        <http://w3id.org/polifonia/resource/JAMSObservation/RomanianFantasy6058/0_7_5_7_7_3@0.0>,
+        <http://w3id.org/polifonia/resource/JAMSObservation/RomanianFantasy6058/0_7_7_7_5_7@0.0>,
+        <http://w3id.org/polifonia/resource/JAMSObservation/RomanianFantasy6058/0_7_7_7_5_8@0.0>,
+        <http://w3id.org/polifonia/resource/JAMSObservation/RomanianFantasy6058/10_0_10_9_7_7@0.0>,
+        <http://w3id.org/polifonia/resource/JAMSObservation/RomanianFantasy6058/10_9_7_7_0_2@0.0>,
+        <http://w3id.org/polifonia/resource/JAMSObservation/RomanianFantasy6058/2_0_0_0_2_10@0.0>,
+        <http://w3id.org/polifonia/resource/JAMSObservation/RomanianFantasy6058/3_0_5_7_7_3@0.0>,
+        <http://w3id.org/polifonia/resource/JAMSObservation/RomanianFantasy6058/3_0_7_5_7_7@0.0>,
+        <http://w3id.org/polifonia/resource/JAMSObservation/RomanianFantasy6058/3_2_0_0_0_2@0.0>,
+        <http://w3id.org/polifonia/resource/JAMSObservation/RomanianFantasy6058/3_5_3_0_5_7@0.0>,
+        <http://w3id.org/polifonia/resource/JAMSObservation/RomanianFantasy6058/3_5_3_0_7_5@0.0>,
+        <http://w3id.org/polifonia/resource/JAMSObservation/RomanianFantasy6058/3_5_3_2_0_0@0.0>,
+        <http://w3id.org/polifonia/resource/JAMSObservation/RomanianFantasy6058/3_5_3_5_3_2@0.0>,
+        <http://w3id.org/polifonia/resource/JAMSObservation/RomanianFantasy6058/5_3_0_7_5_7@0.0>,
+        <http://w3id.org/polifonia/resource/JAMSObservation/RomanianFantasy6058/5_3_2_0_0_0@0.0>,
+        <http://w3id.org/polifonia/resource/JAMSObservation/RomanianFantasy6058/5_3_5_3_2_0@0.0>,
+        <http://w3id.org/polifonia/resource/JAMSObservation/RomanianFantasy6058/5_7_7_3_0_7@0.0>,
+        <http://w3id.org/polifonia/resource/JAMSObservation/RomanianFantasy6058/5_7_7_3_5_3@0.0>,
+        <http://w3id.org/polifonia/resource/JAMSObservation/RomanianFantasy6058/7_3_5_3_0_5@0.0>,
+        <http://w3id.org/polifonia/resource/JAMSObservation/RomanianFantasy6058/7_3_5_3_0_7@0.0>,
+        <http://w3id.org/polifonia/resource/JAMSObservation/RomanianFantasy6058/7_3_5_3_5_3@0.0>,
+        <http://w3id.org/polifonia/resource/JAMSObservation/RomanianFantasy6058/7_5_7_7_3_0@0.0>,
+        <http://w3id.org/polifonia/resource/JAMSObservation/RomanianFantasy6058/7_5_7_7_3_5@0.0>,
+        <http://w3id.org/polifonia/resource/JAMSObservation/RomanianFantasy6058/7_5_8_8_8_0@0.0>,
+        <http://w3id.org/polifonia/resource/JAMSObservation/RomanianFantasy6058/7_7_0_2_10_0@0.0>,
+        <http://w3id.org/polifonia/resource/JAMSObservation/RomanianFantasy6058/7_7_3_0_7_0@0.0>,
+        <http://w3id.org/polifonia/resource/JAMSObservation/RomanianFantasy6058/7_7_3_5_3_0@0.0>,
+        <http://w3id.org/polifonia/resource/JAMSObservation/RomanianFantasy6058/7_7_5_7_7_3@0.0>,
+        <http://w3id.org/polifonia/resource/JAMSObservation/RomanianFantasy6058/7_7_7_5_7_7@0.0>,
+        <http://w3id.org/polifonia/resource/JAMSObservation/RomanianFantasy6058/7_7_7_5_8_8@0.0>,
+        <http://w3id.org/polifonia/resource/JAMSObservation/RomanianFantasy6058/8_8_0_7_7_7@0.0>,
+        <http://w3id.org/polifonia/resource/JAMSObservation/RomanianFantasy6058/8_8_8_0_7_7@0.0> ;
+    jams:isJAMSAnnotationOf <http://w3id.org/polifonia/resource/MusicalComposition/31aae3592d8e254f96aeea1bf30705e04376b4fc> .
+
+<http://w3id.org/polifonia/resource/Score/song_local_id> jams:hasJAMSAnnotation <http://w3id.org/polifonia/resource/MusicalComposition/31aae3592d8e254f96aeea1bf30705e04376b4fc> .
+
+<http://w3id.org/polifonia/resource/JAMSFile/RomanianFantasy6058.jams> a jams:JAMSFile ;
+    jams:identifiers [ ] ;
+    jams:jamsVersion "0.3.4" ;
+    jams:release "" ;
+    prov:wasDerivedFrom "The Session" ;
+    prov:wasMemberOf <https://github.com/ashahidkhattak/thesession> .
+
+<http://w3id.org/polifonia/resource/JAMSObservation/RomanianFantasy6058/0_0_0_2_10_0@0.0> a jams:JAMSObservation,
+        jams:JAMSScoreObservation,
+        jams:ScorePatternOccurrence ;
+    rdfs:label [ ] ;
+    jams:hasDuration "0.0"^^xsd:float ;
+    jams:hasFrequency "1"^^xsd:int ;
+    jams:hasPatternType "pitch-class-values" ;
+    jams:ofPattern <http://w3id.org/polifonia/resource/pattern/0_0_0_2_10_0> .
+
+<http://w3id.org/polifonia/resource/JAMSObservation/RomanianFantasy6058/0_0_2_10_0_10@0.0> a jams:JAMSObservation,
+        jams:JAMSScoreObservation,
+        jams:ScorePatternOccurrence ;
+    rdfs:label [ ] ;
+    jams:hasDuration "0.0"^^xsd:float ;
+    jams:hasFrequency "1"^^xsd:int ;
+    jams:hasPatternType "pitch-class-values" ;
+    jams:ofPattern <http://w3id.org/polifonia/resource/pattern/0_0_2_10_0_10> .
+
+<http://w3id.org/polifonia/resource/JAMSObservation/RomanianFantasy6058/0_10_9_7_7_0@0.0> a jams:JAMSObservation,
+        jams:JAMSScoreObservation,
+        jams:ScorePatternOccurrence ;
+    rdfs:label [ ] ;
+    jams:hasDuration "0.0"^^xsd:float ;
+    jams:hasFrequency "1"^^xsd:int ;
+    jams:hasPatternType "pitch-class-values" ;
+    jams:ofPattern <http://w3id.org/polifonia/resource/pattern/0_10_9_7_7_0> .
+
+<http://w3id.org/polifonia/resource/JAMSObservation/RomanianFantasy6058/0_10_9_7_7_5@0.0> a jams:JAMSObservation,
+        jams:JAMSScoreObservation,
+        jams:ScorePatternOccurrence ;
+    rdfs:label [ ] ;
+    jams:hasDuration "0.0"^^xsd:float ;
+    jams:hasFrequency "1"^^xsd:int ;
+    jams:hasPatternType "pitch-class-values" ;
+    jams:ofPattern <http://w3id.org/polifonia/resource/pattern/0_10_9_7_7_5> .
+
+<http://w3id.org/polifonia/resource/JAMSObservation/RomanianFantasy6058/0_5_7_7_3_5@0.0> a jams:JAMSObservation,
+        jams:JAMSScoreObservation,
+        jams:ScorePatternOccurrence ;
+    rdfs:label [ ] ;
+    jams:hasDuration "0.0"^^xsd:float ;
+    jams:hasFrequency "1"^^xsd:int ;
+    jams:hasPatternType "pitch-class-values" ;
+    jams:ofPattern <http://w3id.org/polifonia/resource/pattern/0_5_7_7_3_5> .
+
+<http://w3id.org/polifonia/resource/JAMSObservation/RomanianFantasy6058/0_7_5_7_7_3@0.0> a jams:JAMSObservation,
+        jams:JAMSScoreObservation,
+        jams:ScorePatternOccurrence ;
+    rdfs:label [ ] ;
+    jams:hasDuration "0.0"^^xsd:float ;
+    jams:hasFrequency "1"^^xsd:int ;
+    jams:hasPatternType "pitch-class-values" ;
+    jams:ofPattern <http://w3id.org/polifonia/resource/pattern/0_7_5_7_7_3> .
+
+<http://w3id.org/polifonia/resource/JAMSObservation/RomanianFantasy6058/0_7_7_7_5_7@0.0> a jams:JAMSObservation,
+        jams:JAMSScoreObservation,
+        jams:ScorePatternOccurrence ;
+    rdfs:label [ ] ;
+    jams:hasDuration "0.0"^^xsd:float ;
+    jams:hasFrequency "1"^^xsd:int ;
+    jams:hasPatternType "pitch-class-values" ;
+    jams:ofPattern <http://w3id.org/polifonia/resource/pattern/0_7_7_7_5_7> .
+
+<http://w3id.org/polifonia/resource/JAMSObservation/RomanianFantasy6058/0_7_7_7_5_8@0.0> a jams:JAMSObservation,
+        jams:JAMSScoreObservation,
+        jams:ScorePatternOccurrence ;
+    rdfs:label [ ] ;
+    jams:hasDuration "0.0"^^xsd:float ;
+    jams:hasFrequency "1"^^xsd:int ;
+    jams:hasPatternType "pitch-class-values" ;
+    jams:ofPattern <http://w3id.org/polifonia/resource/pattern/0_7_7_7_5_8> .
+
+<http://w3id.org/polifonia/resource/JAMSObservation/RomanianFantasy6058/10_0_10_9_7_7@0.0> a jams:JAMSObservation,
+        jams:JAMSScoreObservation,
+        jams:ScorePatternOccurrence ;
+    rdfs:label [ ] ;
+    jams:hasDuration "0.0"^^xsd:float ;
+    jams:hasFrequency "2"^^xsd:int ;
+    jams:hasPatternType "pitch-class-values" ;
+    jams:ofPattern <http://w3id.org/polifonia/resource/pattern/10_0_10_9_7_7> .
+
+<http://w3id.org/polifonia/resource/JAMSObservation/RomanianFantasy6058/10_9_7_7_0_2@0.0> a jams:JAMSObservation,
+        jams:JAMSScoreObservation,
+        jams:ScorePatternOccurrence ;
+    rdfs:label [ ] ;
+    jams:hasDuration "0.0"^^xsd:float ;
+    jams:hasFrequency "1"^^xsd:int ;
+    jams:hasPatternType "pitch-class-values" ;
+    jams:ofPattern <http://w3id.org/polifonia/resource/pattern/10_9_7_7_0_2> .
+
+<http://w3id.org/polifonia/resource/JAMSObservation/RomanianFantasy6058/2_0_0_0_2_10@0.0> a jams:JAMSObservation,
+        jams:JAMSScoreObservation,
+        jams:ScorePatternOccurrence ;
+    rdfs:label [ ] ;
+    jams:hasDuration "0.0"^^xsd:float ;
+    jams:hasFrequency "1"^^xsd:int ;
+    jams:hasPatternType "pitch-class-values" ;
+    jams:ofPattern <http://w3id.org/polifonia/resource/pattern/2_0_0_0_2_10> .
+
+<http://w3id.org/polifonia/resource/JAMSObservation/RomanianFantasy6058/3_0_5_7_7_3@0.0> a jams:JAMSObservation,
+        jams:JAMSScoreObservation,
+        jams:ScorePatternOccurrence ;
+    rdfs:label [ ] ;
+    jams:hasDuration "0.0"^^xsd:float ;
+    jams:hasFrequency "1"^^xsd:int ;
+    jams:hasPatternType "pitch-class-values" ;
+    jams:ofPattern <http://w3id.org/polifonia/resource/pattern/3_0_5_7_7_3> .
+
+<http://w3id.org/polifonia/resource/JAMSObservation/RomanianFantasy6058/3_0_7_5_7_7@0.0> a jams:JAMSObservation,
+        jams:JAMSScoreObservation,
+        jams:ScorePatternOccurrence ;
+    rdfs:label [ ] ;
+    jams:hasDuration "0.0"^^xsd:float ;
+    jams:hasFrequency "1"^^xsd:int ;
+    jams:hasPatternType "pitch-class-values" ;
+    jams:ofPattern <http://w3id.org/polifonia/resource/pattern/3_0_7_5_7_7> .
+
+<http://w3id.org/polifonia/resource/JAMSObservation/RomanianFantasy6058/3_2_0_0_0_2@0.0> a jams:JAMSObservation,
+        jams:JAMSScoreObservation,
+        jams:ScorePatternOccurrence ;
+    rdfs:label [ ] ;
+    jams:hasDuration "0.0"^^xsd:float ;
+    jams:hasFrequency "1"^^xsd:int ;
+    jams:hasPatternType "pitch-class-values" ;
+    jams:ofPattern <http://w3id.org/polifonia/resource/pattern/3_2_0_0_0_2> .
+
+<http://w3id.org/polifonia/resource/JAMSObservation/RomanianFantasy6058/3_5_3_0_5_7@0.0> a jams:JAMSObservation,
+        jams:JAMSScoreObservation,
+        jams:ScorePatternOccurrence ;
+    rdfs:label [ ] ;
+    jams:hasDuration "0.0"^^xsd:float ;
+    jams:hasFrequency "1"^^xsd:int ;
+    jams:hasPatternType "pitch-class-values" ;
+    jams:ofPattern <http://w3id.org/polifonia/resource/pattern/3_5_3_0_5_7> .
+
+<http://w3id.org/polifonia/resource/JAMSObservation/RomanianFantasy6058/3_5_3_0_7_5@0.0> a jams:JAMSObservation,
+        jams:JAMSScoreObservation,
+        jams:ScorePatternOccurrence ;
+    rdfs:label [ ] ;
+    jams:hasDuration "0.0"^^xsd:float ;
+    jams:hasFrequency "1"^^xsd:int ;
+    jams:hasPatternType "pitch-class-values" ;
+    jams:ofPattern <http://w3id.org/polifonia/resource/pattern/3_5_3_0_7_5> .
+
+<http://w3id.org/polifonia/resource/JAMSObservation/RomanianFantasy6058/3_5_3_2_0_0@0.0> a jams:JAMSObservation,
+        jams:JAMSScoreObservation,
+        jams:ScorePatternOccurrence ;
+    rdfs:label [ ] ;
+    jams:hasDuration "0.0"^^xsd:float ;
+    jams:hasFrequency "1"^^xsd:int ;
+    jams:hasPatternType "pitch-class-values" ;
+    jams:ofPattern <http://w3id.org/polifonia/resource/pattern/3_5_3_2_0_0> .
+
+<http://w3id.org/polifonia/resource/JAMSObservation/RomanianFantasy6058/3_5_3_5_3_2@0.0> a jams:JAMSObservation,
+        jams:JAMSScoreObservation,
+        jams:ScorePatternOccurrence ;
+    rdfs:label [ ] ;
+    jams:hasDuration "0.0"^^xsd:float ;
+    jams:hasFrequency "1"^^xsd:int ;
+    jams:hasPatternType "pitch-class-values" ;
+    jams:ofPattern <http://w3id.org/polifonia/resource/pattern/3_5_3_5_3_2> .
+
+<http://w3id.org/polifonia/resource/JAMSObservation/RomanianFantasy6058/5_3_0_7_5_7@0.0> a jams:JAMSObservation,
+        jams:JAMSScoreObservation,
+        jams:ScorePatternOccurrence ;
+    rdfs:label [ ] ;
+    jams:hasDuration "0.0"^^xsd:float ;
+    jams:hasFrequency "1"^^xsd:int ;
+    jams:hasPatternType "pitch-class-values" ;
+    jams:ofPattern <http://w3id.org/polifonia/resource/pattern/5_3_0_7_5_7> .
+
+<http://w3id.org/polifonia/resource/JAMSObservation/RomanianFantasy6058/5_3_2_0_0_0@0.0> a jams:JAMSObservation,
+        jams:JAMSScoreObservation,
+        jams:ScorePatternOccurrence ;
+    rdfs:label [ ] ;
+    jams:hasDuration "0.0"^^xsd:float ;
+    jams:hasFrequency "1"^^xsd:int ;
+    jams:hasPatternType "pitch-class-values" ;
+    jams:ofPattern <http://w3id.org/polifonia/resource/pattern/5_3_2_0_0_0> .
+
+<http://w3id.org/polifonia/resource/JAMSObservation/RomanianFantasy6058/5_3_5_3_2_0@0.0> a jams:JAMSObservation,
+        jams:JAMSScoreObservation,
+        jams:ScorePatternOccurrence ;
+    rdfs:label [ ] ;
+    jams:hasDuration "0.0"^^xsd:float ;
+    jams:hasFrequency "1"^^xsd:int ;
+    jams:hasPatternType "pitch-class-values" ;
+    jams:ofPattern <http://w3id.org/polifonia/resource/pattern/5_3_5_3_2_0> .
+
+<http://w3id.org/polifonia/resource/JAMSObservation/RomanianFantasy6058/5_7_7_3_0_7@0.0> a jams:JAMSObservation,
+        jams:JAMSScoreObservation,
+        jams:ScorePatternOccurrence ;
+    rdfs:label [ ] ;
+    jams:hasDuration "0.0"^^xsd:float ;
+    jams:hasFrequency "1"^^xsd:int ;
+    jams:hasPatternType "pitch-class-values" ;
+    jams:ofPattern <http://w3id.org/polifonia/resource/pattern/5_7_7_3_0_7> .
+
+<http://w3id.org/polifonia/resource/JAMSObservation/RomanianFantasy6058/5_7_7_3_5_3@0.0> a jams:JAMSObservation,
+        jams:JAMSScoreObservation,
+        jams:ScorePatternOccurrence ;
+    rdfs:label [ ] ;
+    jams:hasDuration "0.0"^^xsd:float ;
+    jams:hasFrequency "3"^^xsd:int ;
+    jams:hasPatternType "pitch-class-values" ;
+    jams:ofPattern <http://w3id.org/polifonia/resource/pattern/5_7_7_3_5_3> .
+
+<http://w3id.org/polifonia/resource/JAMSObservation/RomanianFantasy6058/7_3_5_3_0_5@0.0> a jams:JAMSObservation,
+        jams:JAMSScoreObservation,
+        jams:ScorePatternOccurrence ;
+    rdfs:label [ ] ;
+    jams:hasDuration "0.0"^^xsd:float ;
+    jams:hasFrequency "1"^^xsd:int ;
+    jams:hasPatternType "pitch-class-values" ;
+    jams:ofPattern <http://w3id.org/polifonia/resource/pattern/7_3_5_3_0_5> .
+
+<http://w3id.org/polifonia/resource/JAMSObservation/RomanianFantasy6058/7_3_5_3_0_7@0.0> a jams:JAMSObservation,
+        jams:JAMSScoreObservation,
+        jams:ScorePatternOccurrence ;
+    rdfs:label [ ] ;
+    jams:hasDuration "0.0"^^xsd:float ;
+    jams:hasFrequency "1"^^xsd:int ;
+    jams:hasPatternType "pitch-class-values" ;
+    jams:ofPattern <http://w3id.org/polifonia/resource/pattern/7_3_5_3_0_7> .
+
+<http://w3id.org/polifonia/resource/JAMSObservation/RomanianFantasy6058/7_3_5_3_5_3@0.0> a jams:JAMSObservation,
+        jams:JAMSScoreObservation,
+        jams:ScorePatternOccurrence ;
+    rdfs:label [ ] ;
+    jams:hasDuration "0.0"^^xsd:float ;
+    jams:hasFrequency "1"^^xsd:int ;
+    jams:hasPatternType "pitch-class-values" ;
+    jams:ofPattern <http://w3id.org/polifonia/resource/pattern/7_3_5_3_5_3> .
+
+<http://w3id.org/polifonia/resource/JAMSObservation/RomanianFantasy6058/7_5_7_7_3_0@0.0> a jams:JAMSObservation,
+        jams:JAMSScoreObservation,
+        jams:ScorePatternOccurrence ;
+    rdfs:label [ ] ;
+    jams:hasDuration "0.0"^^xsd:float ;
+    jams:hasFrequency "1"^^xsd:int ;
+    jams:hasPatternType "pitch-class-values" ;
+    jams:ofPattern <http://w3id.org/polifonia/resource/pattern/7_5_7_7_3_0> .
+
+<http://w3id.org/polifonia/resource/JAMSObservation/RomanianFantasy6058/7_5_7_7_3_5@0.0> a jams:JAMSObservation,
+        jams:JAMSScoreObservation,
+        jams:ScorePatternOccurrence ;
+    rdfs:label [ ] ;
+    jams:hasDuration "0.0"^^xsd:float ;
+    jams:hasFrequency "1"^^xsd:int ;
+    jams:hasPatternType "pitch-class-values" ;
+    jams:ofPattern <http://w3id.org/polifonia/resource/pattern/7_5_7_7_3_5> .
+
+<http://w3id.org/polifonia/resource/JAMSObservation/RomanianFantasy6058/7_5_8_8_8_0@0.0> a jams:JAMSObservation,
+        jams:JAMSScoreObservation,
+        jams:ScorePatternOccurrence ;
+    rdfs:label [ ] ;
+    jams:hasDuration "0.0"^^xsd:float ;
+    jams:hasFrequency "2"^^xsd:int ;
+    jams:hasPatternType "pitch-class-values" ;
+    jams:ofPattern <http://w3id.org/polifonia/resource/pattern/7_5_8_8_8_0> .
+
+<http://w3id.org/polifonia/resource/JAMSObservation/RomanianFantasy6058/7_7_0_2_10_0@0.0> a jams:JAMSObservation,
+        jams:JAMSScoreObservation,
+        jams:ScorePatternOccurrence ;
+    rdfs:label [ ] ;
+    jams:hasDuration "0.0"^^xsd:float ;
+    jams:hasFrequency "1"^^xsd:int ;
+    jams:hasPatternType "pitch-class-values" ;
+    jams:ofPattern <http://w3id.org/polifonia/resource/pattern/7_7_0_2_10_0> .
+
+<http://w3id.org/polifonia/resource/JAMSObservation/RomanianFantasy6058/7_7_3_0_7_0@0.0> a jams:JAMSObservation,
+        jams:JAMSScoreObservation,
+        jams:ScorePatternOccurrence ;
+    rdfs:label [ ] ;
+    jams:hasDuration "0.0"^^xsd:float ;
+    jams:hasFrequency "1"^^xsd:int ;
+    jams:hasPatternType "pitch-class-values" ;
+    jams:ofPattern <http://w3id.org/polifonia/resource/pattern/7_7_3_0_7_0> .
+
+<http://w3id.org/polifonia/resource/JAMSObservation/RomanianFantasy6058/7_7_3_5_3_0@0.0> a jams:JAMSObservation,
+        jams:JAMSScoreObservation,
+        jams:ScorePatternOccurrence ;
+    rdfs:label [ ] ;
+    jams:hasDuration "0.0"^^xsd:float ;
+    jams:hasFrequency "2"^^xsd:int ;
+    jams:hasPatternType "pitch-class-values" ;
+    jams:ofPattern <http://w3id.org/polifonia/resource/pattern/7_7_3_5_3_0> .
+
+<http://w3id.org/polifonia/resource/JAMSObservation/RomanianFantasy6058/7_7_5_7_7_3@0.0> a jams:JAMSObservation,
+        jams:JAMSScoreObservation,
+        jams:ScorePatternOccurrence ;
+    rdfs:label [ ] ;
+    jams:hasDuration "0.0"^^xsd:float ;
+    jams:hasFrequency "1"^^xsd:int ;
+    jams:hasPatternType "pitch-class-values" ;
+    jams:ofPattern <http://w3id.org/polifonia/resource/pattern/7_7_5_7_7_3> .
+
+<http://w3id.org/polifonia/resource/JAMSObservation/RomanianFantasy6058/7_7_7_5_7_7@0.0> a jams:JAMSObservation,
+        jams:JAMSScoreObservation,
+        jams:ScorePatternOccurrence ;
+    rdfs:label [ ] ;
+    jams:hasDuration "0.0"^^xsd:float ;
+    jams:hasFrequency "1"^^xsd:int ;
+    jams:hasPatternType "pitch-class-values" ;
+    jams:ofPattern <http://w3id.org/polifonia/resource/pattern/7_7_7_5_7_7> .
+
+<http://w3id.org/polifonia/resource/JAMSObservation/RomanianFantasy6058/7_7_7_5_8_8@0.0> a jams:JAMSObservation,
+        jams:JAMSScoreObservation,
+        jams:ScorePatternOccurrence ;
+    rdfs:label [ ] ;
+    jams:hasDuration "0.0"^^xsd:float ;
+    jams:hasFrequency "1"^^xsd:int ;
+    jams:hasPatternType "pitch-class-values" ;
+    jams:ofPattern <http://w3id.org/polifonia/resource/pattern/7_7_7_5_8_8> .
+
+<http://w3id.org/polifonia/resource/JAMSObservation/RomanianFantasy6058/8_8_0_7_7_7@0.0> a jams:JAMSObservation,
+        jams:JAMSScoreObservation,
+        jams:ScorePatternOccurrence ;
+    rdfs:label [ ] ;
+    jams:hasDuration "0.0"^^xsd:float ;
+    jams:hasFrequency "2"^^xsd:int ;
+    jams:hasPatternType "pitch-class-values" ;
+    jams:ofPattern <http://w3id.org/polifonia/resource/pattern/8_8_0_7_7_7> .
+
+<http://w3id.org/polifonia/resource/JAMSObservation/RomanianFantasy6058/8_8_8_0_7_7@0.0> a jams:JAMSObservation,
+        jams:JAMSScoreObservation,
+        jams:ScorePatternOccurrence ;
+    rdfs:label [ ] ;
+    jams:hasDuration "0.0"^^xsd:float ;
+    jams:hasFrequency "2"^^xsd:int ;
+    jams:hasPatternType "pitch-class-values" ;
+    jams:ofPattern <http://w3id.org/polifonia/resource/pattern/8_8_8_0_7_7> .
+
+<http://w3id.org/polifonia/resource/MusicalComposition/31aae3592d8e254f96aeea1bf30705e04376b4fc> a mc:MusicalComposition ;
+    rdfs:label "RomanianFantasy6058" ;
+    mc:title "RomanianFantasy6058" ;
+    prov:wasDerivedFrom <http://w3id.org/polifonia/resource/JAMSFile/RomanianFantasy6058.jams> .
+

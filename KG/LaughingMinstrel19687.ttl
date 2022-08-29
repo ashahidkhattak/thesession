@@ -1,0 +1,151 @@
+@prefix core: <http://w3id.org/polifonia/ontology/core/> .
+@prefix jams: <http://w3id.org/polifonia/ontology/jams/> .
+@prefix mc: <http://w3id.org/polifonia/ontology/musical-composition/> .
+@prefix pon-resource: <http://w3id.org/polifonia/resource/> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+pon-resource:Agent%2Fannotator_local_id a core:Agent ;
+    rdfs:label "FONN-Tool" ;
+    jams:hasAnnotatorType pon-resource:annotator-program ;
+    jams:hasName "FONN-Tool" .
+
+<http://w3id.org/polifonia/resource/JAMSAnnotation/90f0a45fc20ae66ebee382b546815efec91b5536> a jams:JAMSAnnotation,
+        jams:JAMSScoreAnnotation ;
+    jams:includesObservation <http://w3id.org/polifonia/resource/JAMSObservation/LaughingMinstrel19687/0_3_8_11_4_7@0.0>,
+        <http://w3id.org/polifonia/resource/JAMSObservation/LaughingMinstrel19687/11_4_7_11_7_4@0.0>,
+        <http://w3id.org/polifonia/resource/JAMSObservation/LaughingMinstrel19687/11_7_4_5_6_11@0.0>,
+        <http://w3id.org/polifonia/resource/JAMSObservation/LaughingMinstrel19687/3_8_11_4_7_11@0.0>,
+        <http://w3id.org/polifonia/resource/JAMSObservation/LaughingMinstrel19687/4_5_6_11_4_9@0.0>,
+        <http://w3id.org/polifonia/resource/JAMSObservation/LaughingMinstrel19687/4_7_11_7_4_5@0.0>,
+        <http://w3id.org/polifonia/resource/JAMSObservation/LaughingMinstrel19687/5_6_11_4_9_0@0.0>,
+        <http://w3id.org/polifonia/resource/JAMSObservation/LaughingMinstrel19687/6_11_4_9_0_0@0.0>,
+        <http://w3id.org/polifonia/resource/JAMSObservation/LaughingMinstrel19687/7_0_3_8_11_4@0.0>,
+        <http://w3id.org/polifonia/resource/JAMSObservation/LaughingMinstrel19687/7_11_7_4_5_6@0.0>,
+        <http://w3id.org/polifonia/resource/JAMSObservation/LaughingMinstrel19687/7_4_5_6_11_4@0.0>,
+        <http://w3id.org/polifonia/resource/JAMSObservation/LaughingMinstrel19687/8_11_4_7_11_7@0.0> ;
+    jams:isJAMSAnnotationOf <http://w3id.org/polifonia/resource/MusicalComposition/90f0a45fc20ae66ebee382b546815efec91b5536> .
+
+<http://w3id.org/polifonia/resource/Score/song_local_id> jams:hasJAMSAnnotation <http://w3id.org/polifonia/resource/MusicalComposition/90f0a45fc20ae66ebee382b546815efec91b5536> .
+
+<http://w3id.org/polifonia/resource/JAMSFile/LaughingMinstrel19687.jams> a jams:JAMSFile ;
+    jams:identifiers [ ] ;
+    jams:jamsVersion "0.3.4" ;
+    jams:release "" ;
+    prov:wasDerivedFrom "The Session" ;
+    prov:wasMemberOf <https://github.com/ashahidkhattak/thesession> .
+
+<http://w3id.org/polifonia/resource/JAMSObservation/LaughingMinstrel19687/0_3_8_11_4_7@0.0> a jams:JAMSObservation,
+        jams:JAMSScoreObservation,
+        jams:ScorePatternOccurrence ;
+    rdfs:label [ ] ;
+    jams:hasDuration "0.0"^^xsd:float ;
+    jams:hasFrequency "1"^^xsd:int ;
+    jams:hasPatternType "pitch-class-values" ;
+    jams:ofPattern <http://w3id.org/polifonia/resource/pattern/0_3_8_11_4_7> .
+
+<http://w3id.org/polifonia/resource/JAMSObservation/LaughingMinstrel19687/11_4_7_11_7_4@0.0> a jams:JAMSObservation,
+        jams:JAMSScoreObservation,
+        jams:ScorePatternOccurrence ;
+    rdfs:label [ ] ;
+    jams:hasDuration "0.0"^^xsd:float ;
+    jams:hasFrequency "1"^^xsd:int ;
+    jams:hasPatternType "pitch-class-values" ;
+    jams:ofPattern <http://w3id.org/polifonia/resource/pattern/11_4_7_11_7_4> .
+
+<http://w3id.org/polifonia/resource/JAMSObservation/LaughingMinstrel19687/11_7_4_5_6_11@0.0> a jams:JAMSObservation,
+        jams:JAMSScoreObservation,
+        jams:ScorePatternOccurrence ;
+    rdfs:label [ ] ;
+    jams:hasDuration "0.0"^^xsd:float ;
+    jams:hasFrequency "1"^^xsd:int ;
+    jams:hasPatternType "pitch-class-values" ;
+    jams:ofPattern <http://w3id.org/polifonia/resource/pattern/11_7_4_5_6_11> .
+
+<http://w3id.org/polifonia/resource/JAMSObservation/LaughingMinstrel19687/3_8_11_4_7_11@0.0> a jams:JAMSObservation,
+        jams:JAMSScoreObservation,
+        jams:ScorePatternOccurrence ;
+    rdfs:label [ ] ;
+    jams:hasDuration "0.0"^^xsd:float ;
+    jams:hasFrequency "1"^^xsd:int ;
+    jams:hasPatternType "pitch-class-values" ;
+    jams:ofPattern <http://w3id.org/polifonia/resource/pattern/3_8_11_4_7_11> .
+
+<http://w3id.org/polifonia/resource/JAMSObservation/LaughingMinstrel19687/4_5_6_11_4_9@0.0> a jams:JAMSObservation,
+        jams:JAMSScoreObservation,
+        jams:ScorePatternOccurrence ;
+    rdfs:label [ ] ;
+    jams:hasDuration "0.0"^^xsd:float ;
+    jams:hasFrequency "1"^^xsd:int ;
+    jams:hasPatternType "pitch-class-values" ;
+    jams:ofPattern <http://w3id.org/polifonia/resource/pattern/4_5_6_11_4_9> .
+
+<http://w3id.org/polifonia/resource/JAMSObservation/LaughingMinstrel19687/4_7_11_7_4_5@0.0> a jams:JAMSObservation,
+        jams:JAMSScoreObservation,
+        jams:ScorePatternOccurrence ;
+    rdfs:label [ ] ;
+    jams:hasDuration "0.0"^^xsd:float ;
+    jams:hasFrequency "1"^^xsd:int ;
+    jams:hasPatternType "pitch-class-values" ;
+    jams:ofPattern <http://w3id.org/polifonia/resource/pattern/4_7_11_7_4_5> .
+
+<http://w3id.org/polifonia/resource/JAMSObservation/LaughingMinstrel19687/5_6_11_4_9_0@0.0> a jams:JAMSObservation,
+        jams:JAMSScoreObservation,
+        jams:ScorePatternOccurrence ;
+    rdfs:label [ ] ;
+    jams:hasDuration "0.0"^^xsd:float ;
+    jams:hasFrequency "1"^^xsd:int ;
+    jams:hasPatternType "pitch-class-values" ;
+    jams:ofPattern <http://w3id.org/polifonia/resource/pattern/5_6_11_4_9_0> .
+
+<http://w3id.org/polifonia/resource/JAMSObservation/LaughingMinstrel19687/6_11_4_9_0_0@0.0> a jams:JAMSObservation,
+        jams:JAMSScoreObservation,
+        jams:ScorePatternOccurrence ;
+    rdfs:label [ ] ;
+    jams:hasDuration "0.0"^^xsd:float ;
+    jams:hasFrequency "1"^^xsd:int ;
+    jams:hasPatternType "pitch-class-values" ;
+    jams:ofPattern <http://w3id.org/polifonia/resource/pattern/6_11_4_9_0_0> .
+
+<http://w3id.org/polifonia/resource/JAMSObservation/LaughingMinstrel19687/7_0_3_8_11_4@0.0> a jams:JAMSObservation,
+        jams:JAMSScoreObservation,
+        jams:ScorePatternOccurrence ;
+    rdfs:label [ ] ;
+    jams:hasDuration "0.0"^^xsd:float ;
+    jams:hasFrequency "1"^^xsd:int ;
+    jams:hasPatternType "pitch-class-values" ;
+    jams:ofPattern <http://w3id.org/polifonia/resource/pattern/7_0_3_8_11_4> .
+
+<http://w3id.org/polifonia/resource/JAMSObservation/LaughingMinstrel19687/7_11_7_4_5_6@0.0> a jams:JAMSObservation,
+        jams:JAMSScoreObservation,
+        jams:ScorePatternOccurrence ;
+    rdfs:label [ ] ;
+    jams:hasDuration "0.0"^^xsd:float ;
+    jams:hasFrequency "1"^^xsd:int ;
+    jams:hasPatternType "pitch-class-values" ;
+    jams:ofPattern <http://w3id.org/polifonia/resource/pattern/7_11_7_4_5_6> .
+
+<http://w3id.org/polifonia/resource/JAMSObservation/LaughingMinstrel19687/7_4_5_6_11_4@0.0> a jams:JAMSObservation,
+        jams:JAMSScoreObservation,
+        jams:ScorePatternOccurrence ;
+    rdfs:label [ ] ;
+    jams:hasDuration "0.0"^^xsd:float ;
+    jams:hasFrequency "1"^^xsd:int ;
+    jams:hasPatternType "pitch-class-values" ;
+    jams:ofPattern <http://w3id.org/polifonia/resource/pattern/7_4_5_6_11_4> .
+
+<http://w3id.org/polifonia/resource/JAMSObservation/LaughingMinstrel19687/8_11_4_7_11_7@0.0> a jams:JAMSObservation,
+        jams:JAMSScoreObservation,
+        jams:ScorePatternOccurrence ;
+    rdfs:label [ ] ;
+    jams:hasDuration "0.0"^^xsd:float ;
+    jams:hasFrequency "1"^^xsd:int ;
+    jams:hasPatternType "pitch-class-values" ;
+    jams:ofPattern <http://w3id.org/polifonia/resource/pattern/8_11_4_7_11_7> .
+
+<http://w3id.org/polifonia/resource/MusicalComposition/90f0a45fc20ae66ebee382b546815efec91b5536> a mc:MusicalComposition ;
+    rdfs:label "LaughingMinstrel19687" ;
+    mc:title "LaughingMinstrel19687" ;
+    prov:wasDerivedFrom <http://w3id.org/polifonia/resource/JAMSFile/LaughingMinstrel19687.jams> .
+

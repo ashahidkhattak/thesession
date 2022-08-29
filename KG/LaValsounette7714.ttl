@@ -1,0 +1,351 @@
+@prefix core: <http://w3id.org/polifonia/ontology/core/> .
+@prefix jams: <http://w3id.org/polifonia/ontology/jams/> .
+@prefix mc: <http://w3id.org/polifonia/ontology/musical-composition/> .
+@prefix pon-resource: <http://w3id.org/polifonia/resource/> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+pon-resource:Agent%2Fannotator_local_id a core:Agent ;
+    rdfs:label "FONN-Tool" ;
+    jams:hasAnnotatorType pon-resource:annotator-program ;
+    jams:hasName "FONN-Tool" .
+
+<http://w3id.org/polifonia/resource/JAMSAnnotation/11b3cdb2378180343d203c245c38d14fafbe2da3> a jams:JAMSAnnotation,
+        jams:JAMSScoreAnnotation ;
+    jams:includesObservation <http://w3id.org/polifonia/resource/JAMSObservation/LaValsounette7714/0_2_2_3_3_2@0.0>,
+        <http://w3id.org/polifonia/resource/JAMSObservation/LaValsounette7714/0_3_10_9_11_11@0.0>,
+        <http://w3id.org/polifonia/resource/JAMSObservation/LaValsounette7714/0_3_5_2_7_0@0.0>,
+        <http://w3id.org/polifonia/resource/JAMSObservation/LaValsounette7714/0_7_8_0_3_10@0.0>,
+        <http://w3id.org/polifonia/resource/JAMSObservation/LaValsounette7714/10_9_11_11_7_8@0.0>,
+        <http://w3id.org/polifonia/resource/JAMSObservation/LaValsounette7714/11_11_7_8_0_3@0.0>,
+        <http://w3id.org/polifonia/resource/JAMSObservation/LaValsounette7714/11_7_8_0_3_5@0.0>,
+        <http://w3id.org/polifonia/resource/JAMSObservation/LaValsounette7714/2_2_3_3_2_2@0.0>,
+        <http://w3id.org/polifonia/resource/JAMSObservation/LaValsounette7714/2_2_3_3_5_2@0.0>,
+        <http://w3id.org/polifonia/resource/JAMSObservation/LaValsounette7714/2_2_8_3_2_2@0.0>,
+        <http://w3id.org/polifonia/resource/JAMSObservation/LaValsounette7714/2_3_3_2_2_8@0.0>,
+        <http://w3id.org/polifonia/resource/JAMSObservation/LaValsounette7714/2_3_3_5_2_7@0.0>,
+        <http://w3id.org/polifonia/resource/JAMSObservation/LaValsounette7714/2_7_0_2_2_3@0.0>,
+        <http://w3id.org/polifonia/resource/JAMSObservation/LaValsounette7714/2_7_0_7_8_0@0.0>,
+        <http://w3id.org/polifonia/resource/JAMSObservation/LaValsounette7714/2_8_3_2_2_3@0.0>,
+        <http://w3id.org/polifonia/resource/JAMSObservation/LaValsounette7714/3_10_9_11_11_7@0.0>,
+        <http://w3id.org/polifonia/resource/JAMSObservation/LaValsounette7714/3_2_2_3_3_5@0.0>,
+        <http://w3id.org/polifonia/resource/JAMSObservation/LaValsounette7714/3_2_2_8_3_2@0.0>,
+        <http://w3id.org/polifonia/resource/JAMSObservation/LaValsounette7714/3_3_2_2_8_3@0.0>,
+        <http://w3id.org/polifonia/resource/JAMSObservation/LaValsounette7714/3_3_5_2_7_0@0.0>,
+        <http://w3id.org/polifonia/resource/JAMSObservation/LaValsounette7714/3_5_2_7_0_2@0.0>,
+        <http://w3id.org/polifonia/resource/JAMSObservation/LaValsounette7714/3_5_2_7_0_7@0.0>,
+        <http://w3id.org/polifonia/resource/JAMSObservation/LaValsounette7714/5_2_7_0_2_2@0.0>,
+        <http://w3id.org/polifonia/resource/JAMSObservation/LaValsounette7714/5_2_7_0_7_8@0.0>,
+        <http://w3id.org/polifonia/resource/JAMSObservation/LaValsounette7714/7_0_2_2_3_3@0.0>,
+        <http://w3id.org/polifonia/resource/JAMSObservation/LaValsounette7714/7_0_7_8_0_3@0.0>,
+        <http://w3id.org/polifonia/resource/JAMSObservation/LaValsounette7714/7_8_0_3_10_9@0.0>,
+        <http://w3id.org/polifonia/resource/JAMSObservation/LaValsounette7714/7_8_0_3_5_2@0.0>,
+        <http://w3id.org/polifonia/resource/JAMSObservation/LaValsounette7714/8_0_3_10_9_11@0.0>,
+        <http://w3id.org/polifonia/resource/JAMSObservation/LaValsounette7714/8_0_3_5_2_7@0.0>,
+        <http://w3id.org/polifonia/resource/JAMSObservation/LaValsounette7714/8_3_2_2_3_3@0.0>,
+        <http://w3id.org/polifonia/resource/JAMSObservation/LaValsounette7714/9_11_11_7_8_0@0.0> ;
+    jams:isJAMSAnnotationOf <http://w3id.org/polifonia/resource/MusicalComposition/11b3cdb2378180343d203c245c38d14fafbe2da3> .
+
+<http://w3id.org/polifonia/resource/Score/song_local_id> jams:hasJAMSAnnotation <http://w3id.org/polifonia/resource/MusicalComposition/11b3cdb2378180343d203c245c38d14fafbe2da3> .
+
+<http://w3id.org/polifonia/resource/JAMSFile/LaValsounette7714.jams> a jams:JAMSFile ;
+    jams:identifiers [ ] ;
+    jams:jamsVersion "0.3.4" ;
+    jams:release "" ;
+    prov:wasDerivedFrom "The Session" ;
+    prov:wasMemberOf <https://github.com/ashahidkhattak/thesession> .
+
+<http://w3id.org/polifonia/resource/JAMSObservation/LaValsounette7714/0_2_2_3_3_2@0.0> a jams:JAMSObservation,
+        jams:JAMSScoreObservation,
+        jams:ScorePatternOccurrence ;
+    rdfs:label [ ] ;
+    jams:hasDuration "0.0"^^xsd:float ;
+    jams:hasFrequency "3"^^xsd:int ;
+    jams:hasPatternType "pitch-class-values" ;
+    jams:ofPattern <http://w3id.org/polifonia/resource/pattern/0_2_2_3_3_2> .
+
+<http://w3id.org/polifonia/resource/JAMSObservation/LaValsounette7714/0_3_10_9_11_11@0.0> a jams:JAMSObservation,
+        jams:JAMSScoreObservation,
+        jams:ScorePatternOccurrence ;
+    rdfs:label [ ] ;
+    jams:hasDuration "0.0"^^xsd:float ;
+    jams:hasFrequency "4"^^xsd:int ;
+    jams:hasPatternType "pitch-class-values" ;
+    jams:ofPattern <http://w3id.org/polifonia/resource/pattern/0_3_10_9_11_11> .
+
+<http://w3id.org/polifonia/resource/JAMSObservation/LaValsounette7714/0_3_5_2_7_0@0.0> a jams:JAMSObservation,
+        jams:JAMSScoreObservation,
+        jams:ScorePatternOccurrence ;
+    rdfs:label [ ] ;
+    jams:hasDuration "0.0"^^xsd:float ;
+    jams:hasFrequency "4"^^xsd:int ;
+    jams:hasPatternType "pitch-class-values" ;
+    jams:ofPattern <http://w3id.org/polifonia/resource/pattern/0_3_5_2_7_0> .
+
+<http://w3id.org/polifonia/resource/JAMSObservation/LaValsounette7714/0_7_8_0_3_10@0.0> a jams:JAMSObservation,
+        jams:JAMSScoreObservation,
+        jams:ScorePatternOccurrence ;
+    rdfs:label [ ] ;
+    jams:hasDuration "0.0"^^xsd:float ;
+    jams:hasFrequency "3"^^xsd:int ;
+    jams:hasPatternType "pitch-class-values" ;
+    jams:ofPattern <http://w3id.org/polifonia/resource/pattern/0_7_8_0_3_10> .
+
+<http://w3id.org/polifonia/resource/JAMSObservation/LaValsounette7714/10_9_11_11_7_8@0.0> a jams:JAMSObservation,
+        jams:JAMSScoreObservation,
+        jams:ScorePatternOccurrence ;
+    rdfs:label [ ] ;
+    jams:hasDuration "0.0"^^xsd:float ;
+    jams:hasFrequency "4"^^xsd:int ;
+    jams:hasPatternType "pitch-class-values" ;
+    jams:ofPattern <http://w3id.org/polifonia/resource/pattern/10_9_11_11_7_8> .
+
+<http://w3id.org/polifonia/resource/JAMSObservation/LaValsounette7714/11_11_7_8_0_3@0.0> a jams:JAMSObservation,
+        jams:JAMSScoreObservation,
+        jams:ScorePatternOccurrence ;
+    rdfs:label [ ] ;
+    jams:hasDuration "0.0"^^xsd:float ;
+    jams:hasFrequency "4"^^xsd:int ;
+    jams:hasPatternType "pitch-class-values" ;
+    jams:ofPattern <http://w3id.org/polifonia/resource/pattern/11_11_7_8_0_3> .
+
+<http://w3id.org/polifonia/resource/JAMSObservation/LaValsounette7714/11_7_8_0_3_5@0.0> a jams:JAMSObservation,
+        jams:JAMSScoreObservation,
+        jams:ScorePatternOccurrence ;
+    rdfs:label [ ] ;
+    jams:hasDuration "0.0"^^xsd:float ;
+    jams:hasFrequency "4"^^xsd:int ;
+    jams:hasPatternType "pitch-class-values" ;
+    jams:ofPattern <http://w3id.org/polifonia/resource/pattern/11_7_8_0_3_5> .
+
+<http://w3id.org/polifonia/resource/JAMSObservation/LaValsounette7714/2_2_3_3_2_2@0.0> a jams:JAMSObservation,
+        jams:JAMSScoreObservation,
+        jams:ScorePatternOccurrence ;
+    rdfs:label [ ] ;
+    jams:hasDuration "0.0"^^xsd:float ;
+    jams:hasFrequency "3"^^xsd:int ;
+    jams:hasPatternType "pitch-class-values" ;
+    jams:ofPattern <http://w3id.org/polifonia/resource/pattern/2_2_3_3_2_2> .
+
+<http://w3id.org/polifonia/resource/JAMSObservation/LaValsounette7714/2_2_3_3_5_2@0.0> a jams:JAMSObservation,
+        jams:JAMSScoreObservation,
+        jams:ScorePatternOccurrence ;
+    rdfs:label [ ] ;
+    jams:hasDuration "0.0"^^xsd:float ;
+    jams:hasFrequency "3"^^xsd:int ;
+    jams:hasPatternType "pitch-class-values" ;
+    jams:ofPattern <http://w3id.org/polifonia/resource/pattern/2_2_3_3_5_2> .
+
+<http://w3id.org/polifonia/resource/JAMSObservation/LaValsounette7714/2_2_8_3_2_2@0.0> a jams:JAMSObservation,
+        jams:JAMSScoreObservation,
+        jams:ScorePatternOccurrence ;
+    rdfs:label [ ] ;
+    jams:hasDuration "0.0"^^xsd:float ;
+    jams:hasFrequency "3"^^xsd:int ;
+    jams:hasPatternType "pitch-class-values" ;
+    jams:ofPattern <http://w3id.org/polifonia/resource/pattern/2_2_8_3_2_2> .
+
+<http://w3id.org/polifonia/resource/JAMSObservation/LaValsounette7714/2_3_3_2_2_8@0.0> a jams:JAMSObservation,
+        jams:JAMSScoreObservation,
+        jams:ScorePatternOccurrence ;
+    rdfs:label [ ] ;
+    jams:hasDuration "0.0"^^xsd:float ;
+    jams:hasFrequency "3"^^xsd:int ;
+    jams:hasPatternType "pitch-class-values" ;
+    jams:ofPattern <http://w3id.org/polifonia/resource/pattern/2_3_3_2_2_8> .
+
+<http://w3id.org/polifonia/resource/JAMSObservation/LaValsounette7714/2_3_3_5_2_7@0.0> a jams:JAMSObservation,
+        jams:JAMSScoreObservation,
+        jams:ScorePatternOccurrence ;
+    rdfs:label [ ] ;
+    jams:hasDuration "0.0"^^xsd:float ;
+    jams:hasFrequency "3"^^xsd:int ;
+    jams:hasPatternType "pitch-class-values" ;
+    jams:ofPattern <http://w3id.org/polifonia/resource/pattern/2_3_3_5_2_7> .
+
+<http://w3id.org/polifonia/resource/JAMSObservation/LaValsounette7714/2_7_0_2_2_3@0.0> a jams:JAMSObservation,
+        jams:JAMSScoreObservation,
+        jams:ScorePatternOccurrence ;
+    rdfs:label [ ] ;
+    jams:hasDuration "0.0"^^xsd:float ;
+    jams:hasFrequency "3"^^xsd:int ;
+    jams:hasPatternType "pitch-class-values" ;
+    jams:ofPattern <http://w3id.org/polifonia/resource/pattern/2_7_0_2_2_3> .
+
+<http://w3id.org/polifonia/resource/JAMSObservation/LaValsounette7714/2_7_0_7_8_0@0.0> a jams:JAMSObservation,
+        jams:JAMSScoreObservation,
+        jams:ScorePatternOccurrence ;
+    rdfs:label [ ] ;
+    jams:hasDuration "0.0"^^xsd:float ;
+    jams:hasFrequency "3"^^xsd:int ;
+    jams:hasPatternType "pitch-class-values" ;
+    jams:ofPattern <http://w3id.org/polifonia/resource/pattern/2_7_0_7_8_0> .
+
+<http://w3id.org/polifonia/resource/JAMSObservation/LaValsounette7714/2_8_3_2_2_3@0.0> a jams:JAMSObservation,
+        jams:JAMSScoreObservation,
+        jams:ScorePatternOccurrence ;
+    rdfs:label [ ] ;
+    jams:hasDuration "0.0"^^xsd:float ;
+    jams:hasFrequency "3"^^xsd:int ;
+    jams:hasPatternType "pitch-class-values" ;
+    jams:ofPattern <http://w3id.org/polifonia/resource/pattern/2_8_3_2_2_3> .
+
+<http://w3id.org/polifonia/resource/JAMSObservation/LaValsounette7714/3_10_9_11_11_7@0.0> a jams:JAMSObservation,
+        jams:JAMSScoreObservation,
+        jams:ScorePatternOccurrence ;
+    rdfs:label [ ] ;
+    jams:hasDuration "0.0"^^xsd:float ;
+    jams:hasFrequency "4"^^xsd:int ;
+    jams:hasPatternType "pitch-class-values" ;
+    jams:ofPattern <http://w3id.org/polifonia/resource/pattern/3_10_9_11_11_7> .
+
+<http://w3id.org/polifonia/resource/JAMSObservation/LaValsounette7714/3_2_2_3_3_5@0.0> a jams:JAMSObservation,
+        jams:JAMSScoreObservation,
+        jams:ScorePatternOccurrence ;
+    rdfs:label [ ] ;
+    jams:hasDuration "0.0"^^xsd:float ;
+    jams:hasFrequency "3"^^xsd:int ;
+    jams:hasPatternType "pitch-class-values" ;
+    jams:ofPattern <http://w3id.org/polifonia/resource/pattern/3_2_2_3_3_5> .
+
+<http://w3id.org/polifonia/resource/JAMSObservation/LaValsounette7714/3_2_2_8_3_2@0.0> a jams:JAMSObservation,
+        jams:JAMSScoreObservation,
+        jams:ScorePatternOccurrence ;
+    rdfs:label [ ] ;
+    jams:hasDuration "0.0"^^xsd:float ;
+    jams:hasFrequency "3"^^xsd:int ;
+    jams:hasPatternType "pitch-class-values" ;
+    jams:ofPattern <http://w3id.org/polifonia/resource/pattern/3_2_2_8_3_2> .
+
+<http://w3id.org/polifonia/resource/JAMSObservation/LaValsounette7714/3_3_2_2_8_3@0.0> a jams:JAMSObservation,
+        jams:JAMSScoreObservation,
+        jams:ScorePatternOccurrence ;
+    rdfs:label [ ] ;
+    jams:hasDuration "0.0"^^xsd:float ;
+    jams:hasFrequency "3"^^xsd:int ;
+    jams:hasPatternType "pitch-class-values" ;
+    jams:ofPattern <http://w3id.org/polifonia/resource/pattern/3_3_2_2_8_3> .
+
+<http://w3id.org/polifonia/resource/JAMSObservation/LaValsounette7714/3_3_5_2_7_0@0.0> a jams:JAMSObservation,
+        jams:JAMSScoreObservation,
+        jams:ScorePatternOccurrence ;
+    rdfs:label [ ] ;
+    jams:hasDuration "0.0"^^xsd:float ;
+    jams:hasFrequency "3"^^xsd:int ;
+    jams:hasPatternType "pitch-class-values" ;
+    jams:ofPattern <http://w3id.org/polifonia/resource/pattern/3_3_5_2_7_0> .
+
+<http://w3id.org/polifonia/resource/JAMSObservation/LaValsounette7714/3_5_2_7_0_2@0.0> a jams:JAMSObservation,
+        jams:JAMSScoreObservation,
+        jams:ScorePatternOccurrence ;
+    rdfs:label [ ] ;
+    jams:hasDuration "0.0"^^xsd:float ;
+    jams:hasFrequency "3"^^xsd:int ;
+    jams:hasPatternType "pitch-class-values" ;
+    jams:ofPattern <http://w3id.org/polifonia/resource/pattern/3_5_2_7_0_2> .
+
+<http://w3id.org/polifonia/resource/JAMSObservation/LaValsounette7714/3_5_2_7_0_7@0.0> a jams:JAMSObservation,
+        jams:JAMSScoreObservation,
+        jams:ScorePatternOccurrence ;
+    rdfs:label [ ] ;
+    jams:hasDuration "0.0"^^xsd:float ;
+    jams:hasFrequency "3"^^xsd:int ;
+    jams:hasPatternType "pitch-class-values" ;
+    jams:ofPattern <http://w3id.org/polifonia/resource/pattern/3_5_2_7_0_7> .
+
+<http://w3id.org/polifonia/resource/JAMSObservation/LaValsounette7714/5_2_7_0_2_2@0.0> a jams:JAMSObservation,
+        jams:JAMSScoreObservation,
+        jams:ScorePatternOccurrence ;
+    rdfs:label [ ] ;
+    jams:hasDuration "0.0"^^xsd:float ;
+    jams:hasFrequency "3"^^xsd:int ;
+    jams:hasPatternType "pitch-class-values" ;
+    jams:ofPattern <http://w3id.org/polifonia/resource/pattern/5_2_7_0_2_2> .
+
+<http://w3id.org/polifonia/resource/JAMSObservation/LaValsounette7714/5_2_7_0_7_8@0.0> a jams:JAMSObservation,
+        jams:JAMSScoreObservation,
+        jams:ScorePatternOccurrence ;
+    rdfs:label [ ] ;
+    jams:hasDuration "0.0"^^xsd:float ;
+    jams:hasFrequency "3"^^xsd:int ;
+    jams:hasPatternType "pitch-class-values" ;
+    jams:ofPattern <http://w3id.org/polifonia/resource/pattern/5_2_7_0_7_8> .
+
+<http://w3id.org/polifonia/resource/JAMSObservation/LaValsounette7714/7_0_2_2_3_3@0.0> a jams:JAMSObservation,
+        jams:JAMSScoreObservation,
+        jams:ScorePatternOccurrence ;
+    rdfs:label [ ] ;
+    jams:hasDuration "0.0"^^xsd:float ;
+    jams:hasFrequency "3"^^xsd:int ;
+    jams:hasPatternType "pitch-class-values" ;
+    jams:ofPattern <http://w3id.org/polifonia/resource/pattern/7_0_2_2_3_3> .
+
+<http://w3id.org/polifonia/resource/JAMSObservation/LaValsounette7714/7_0_7_8_0_3@0.0> a jams:JAMSObservation,
+        jams:JAMSScoreObservation,
+        jams:ScorePatternOccurrence ;
+    rdfs:label [ ] ;
+    jams:hasDuration "0.0"^^xsd:float ;
+    jams:hasFrequency "3"^^xsd:int ;
+    jams:hasPatternType "pitch-class-values" ;
+    jams:ofPattern <http://w3id.org/polifonia/resource/pattern/7_0_7_8_0_3> .
+
+<http://w3id.org/polifonia/resource/JAMSObservation/LaValsounette7714/7_8_0_3_10_9@0.0> a jams:JAMSObservation,
+        jams:JAMSScoreObservation,
+        jams:ScorePatternOccurrence ;
+    rdfs:label [ ] ;
+    jams:hasDuration "0.0"^^xsd:float ;
+    jams:hasFrequency "4"^^xsd:int ;
+    jams:hasPatternType "pitch-class-values" ;
+    jams:ofPattern <http://w3id.org/polifonia/resource/pattern/7_8_0_3_10_9> .
+
+<http://w3id.org/polifonia/resource/JAMSObservation/LaValsounette7714/7_8_0_3_5_2@0.0> a jams:JAMSObservation,
+        jams:JAMSScoreObservation,
+        jams:ScorePatternOccurrence ;
+    rdfs:label [ ] ;
+    jams:hasDuration "0.0"^^xsd:float ;
+    jams:hasFrequency "4"^^xsd:int ;
+    jams:hasPatternType "pitch-class-values" ;
+    jams:ofPattern <http://w3id.org/polifonia/resource/pattern/7_8_0_3_5_2> .
+
+<http://w3id.org/polifonia/resource/JAMSObservation/LaValsounette7714/8_0_3_10_9_11@0.0> a jams:JAMSObservation,
+        jams:JAMSScoreObservation,
+        jams:ScorePatternOccurrence ;
+    rdfs:label [ ] ;
+    jams:hasDuration "0.0"^^xsd:float ;
+    jams:hasFrequency "4"^^xsd:int ;
+    jams:hasPatternType "pitch-class-values" ;
+    jams:ofPattern <http://w3id.org/polifonia/resource/pattern/8_0_3_10_9_11> .
+
+<http://w3id.org/polifonia/resource/JAMSObservation/LaValsounette7714/8_0_3_5_2_7@0.0> a jams:JAMSObservation,
+        jams:JAMSScoreObservation,
+        jams:ScorePatternOccurrence ;
+    rdfs:label [ ] ;
+    jams:hasDuration "0.0"^^xsd:float ;
+    jams:hasFrequency "4"^^xsd:int ;
+    jams:hasPatternType "pitch-class-values" ;
+    jams:ofPattern <http://w3id.org/polifonia/resource/pattern/8_0_3_5_2_7> .
+
+<http://w3id.org/polifonia/resource/JAMSObservation/LaValsounette7714/8_3_2_2_3_3@0.0> a jams:JAMSObservation,
+        jams:JAMSScoreObservation,
+        jams:ScorePatternOccurrence ;
+    rdfs:label [ ] ;
+    jams:hasDuration "0.0"^^xsd:float ;
+    jams:hasFrequency "3"^^xsd:int ;
+    jams:hasPatternType "pitch-class-values" ;
+    jams:ofPattern <http://w3id.org/polifonia/resource/pattern/8_3_2_2_3_3> .
+
+<http://w3id.org/polifonia/resource/JAMSObservation/LaValsounette7714/9_11_11_7_8_0@0.0> a jams:JAMSObservation,
+        jams:JAMSScoreObservation,
+        jams:ScorePatternOccurrence ;
+    rdfs:label [ ] ;
+    jams:hasDuration "0.0"^^xsd:float ;
+    jams:hasFrequency "4"^^xsd:int ;
+    jams:hasPatternType "pitch-class-values" ;
+    jams:ofPattern <http://w3id.org/polifonia/resource/pattern/9_11_11_7_8_0> .
+
+<http://w3id.org/polifonia/resource/MusicalComposition/11b3cdb2378180343d203c245c38d14fafbe2da3> a mc:MusicalComposition ;
+    rdfs:label "LaValsounette7714" ;
+    mc:title "LaValsounette7714" ;
+    prov:wasDerivedFrom <http://w3id.org/polifonia/resource/JAMSFile/LaValsounette7714.jams> .
+

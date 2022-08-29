@@ -1,0 +1,271 @@
+@prefix core: <http://w3id.org/polifonia/ontology/core/> .
+@prefix jams: <http://w3id.org/polifonia/ontology/jams/> .
+@prefix mc: <http://w3id.org/polifonia/ontology/musical-composition/> .
+@prefix pon-resource: <http://w3id.org/polifonia/resource/> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+pon-resource:Agent%2Fannotator_local_id a core:Agent ;
+    rdfs:label "FONN-Tool" ;
+    jams:hasAnnotatorType pon-resource:annotator-program ;
+    jams:hasName "FONN-Tool" .
+
+<http://w3id.org/polifonia/resource/JAMSAnnotation/71736a58d11ea8d417872c6fb51d89259bf4be1d> a jams:JAMSAnnotation,
+        jams:JAMSScoreAnnotation ;
+    jams:includesObservation <http://w3id.org/polifonia/resource/JAMSObservation/TamLin12963/0_3_0_3_8_0@0.0>,
+        <http://w3id.org/polifonia/resource/JAMSObservation/TamLin12963/0_3_0_7_7_0@0.0>,
+        <http://w3id.org/polifonia/resource/JAMSObservation/TamLin12963/0_3_10_10_10_10@0.0>,
+        <http://w3id.org/polifonia/resource/JAMSObservation/TamLin12963/0_3_8_0_3_0@0.0>,
+        <http://w3id.org/polifonia/resource/JAMSObservation/TamLin12963/0_7_7_0_3_10@0.0>,
+        <http://w3id.org/polifonia/resource/JAMSObservation/TamLin12963/0_8_3_10_5_3@0.0>,
+        <http://w3id.org/polifonia/resource/JAMSObservation/TamLin12963/10_0_3_0_3_8@0.0>,
+        <http://w3id.org/polifonia/resource/JAMSObservation/TamLin12963/10_10_0_3_0_3@0.0>,
+        <http://w3id.org/polifonia/resource/JAMSObservation/TamLin12963/10_10_10_0_3_0@0.0>,
+        <http://w3id.org/polifonia/resource/JAMSObservation/TamLin12963/10_10_10_10_0_3@0.0>,
+        <http://w3id.org/polifonia/resource/JAMSObservation/TamLin12963/10_5_3_0_0_0@0.0>,
+        <http://w3id.org/polifonia/resource/JAMSObservation/TamLin12963/10_5_3_0_7_7@0.0>,
+        <http://w3id.org/polifonia/resource/JAMSObservation/TamLin12963/3_0_3_8_0_3@0.0>,
+        <http://w3id.org/polifonia/resource/JAMSObservation/TamLin12963/3_0_7_7_0_3@0.0>,
+        <http://w3id.org/polifonia/resource/JAMSObservation/TamLin12963/3_10_10_10_10_0@0.0>,
+        <http://w3id.org/polifonia/resource/JAMSObservation/TamLin12963/3_10_5_3_0_0@0.0>,
+        <http://w3id.org/polifonia/resource/JAMSObservation/TamLin12963/3_10_5_3_0_7@0.0>,
+        <http://w3id.org/polifonia/resource/JAMSObservation/TamLin12963/5_3_0_0_0_8@0.0>,
+        <http://w3id.org/polifonia/resource/JAMSObservation/TamLin12963/5_3_0_7_7_0@0.0>,
+        <http://w3id.org/polifonia/resource/JAMSObservation/TamLin12963/7_0_3_10_10_10@0.0>,
+        <http://w3id.org/polifonia/resource/JAMSObservation/TamLin12963/7_7_0_3_10_10@0.0>,
+        <http://w3id.org/polifonia/resource/JAMSObservation/TamLin12963/7_7_8_3_10_5@0.0>,
+        <http://w3id.org/polifonia/resource/JAMSObservation/TamLin12963/7_8_3_10_5_3@0.0>,
+        <http://w3id.org/polifonia/resource/JAMSObservation/TamLin12963/8_3_10_5_3_0@0.0> ;
+    jams:isJAMSAnnotationOf <http://w3id.org/polifonia/resource/MusicalComposition/71736a58d11ea8d417872c6fb51d89259bf4be1d> .
+
+<http://w3id.org/polifonia/resource/Score/song_local_id> jams:hasJAMSAnnotation <http://w3id.org/polifonia/resource/MusicalComposition/71736a58d11ea8d417872c6fb51d89259bf4be1d> .
+
+<http://w3id.org/polifonia/resource/JAMSFile/TamLin12963.jams> a jams:JAMSFile ;
+    jams:identifiers [ ] ;
+    jams:jamsVersion "0.3.4" ;
+    jams:release "" ;
+    prov:wasDerivedFrom "The Session" ;
+    prov:wasMemberOf <https://github.com/ashahidkhattak/thesession> .
+
+<http://w3id.org/polifonia/resource/JAMSObservation/TamLin12963/0_3_0_3_8_0@0.0> a jams:JAMSObservation,
+        jams:JAMSScoreObservation,
+        jams:ScorePatternOccurrence ;
+    rdfs:label [ ] ;
+    jams:hasDuration "0.0"^^xsd:float ;
+    jams:hasFrequency "2"^^xsd:int ;
+    jams:hasPatternType "pitch-class-values" ;
+    jams:ofPattern <http://w3id.org/polifonia/resource/pattern/0_3_0_3_8_0> .
+
+<http://w3id.org/polifonia/resource/JAMSObservation/TamLin12963/0_3_0_7_7_0@0.0> a jams:JAMSObservation,
+        jams:JAMSScoreObservation,
+        jams:ScorePatternOccurrence ;
+    rdfs:label [ ] ;
+    jams:hasDuration "0.0"^^xsd:float ;
+    jams:hasFrequency "1"^^xsd:int ;
+    jams:hasPatternType "pitch-class-values" ;
+    jams:ofPattern <http://w3id.org/polifonia/resource/pattern/0_3_0_7_7_0> .
+
+<http://w3id.org/polifonia/resource/JAMSObservation/TamLin12963/0_3_10_10_10_10@0.0> a jams:JAMSObservation,
+        jams:JAMSScoreObservation,
+        jams:ScorePatternOccurrence ;
+    rdfs:label [ ] ;
+    jams:hasDuration "0.0"^^xsd:float ;
+    jams:hasFrequency "2"^^xsd:int ;
+    jams:hasPatternType "pitch-class-values" ;
+    jams:ofPattern <http://w3id.org/polifonia/resource/pattern/0_3_10_10_10_10> .
+
+<http://w3id.org/polifonia/resource/JAMSObservation/TamLin12963/0_3_8_0_3_0@0.0> a jams:JAMSObservation,
+        jams:JAMSScoreObservation,
+        jams:ScorePatternOccurrence ;
+    rdfs:label [ ] ;
+    jams:hasDuration "0.0"^^xsd:float ;
+    jams:hasFrequency "2"^^xsd:int ;
+    jams:hasPatternType "pitch-class-values" ;
+    jams:ofPattern <http://w3id.org/polifonia/resource/pattern/0_3_8_0_3_0> .
+
+<http://w3id.org/polifonia/resource/JAMSObservation/TamLin12963/0_7_7_0_3_10@0.0> a jams:JAMSObservation,
+        jams:JAMSScoreObservation,
+        jams:ScorePatternOccurrence ;
+    rdfs:label [ ] ;
+    jams:hasDuration "0.0"^^xsd:float ;
+    jams:hasFrequency "2"^^xsd:int ;
+    jams:hasPatternType "pitch-class-values" ;
+    jams:ofPattern <http://w3id.org/polifonia/resource/pattern/0_7_7_0_3_10> .
+
+<http://w3id.org/polifonia/resource/JAMSObservation/TamLin12963/0_8_3_10_5_3@0.0> a jams:JAMSObservation,
+        jams:JAMSScoreObservation,
+        jams:ScorePatternOccurrence ;
+    rdfs:label [ ] ;
+    jams:hasDuration "0.0"^^xsd:float ;
+    jams:hasFrequency "1"^^xsd:int ;
+    jams:hasPatternType "pitch-class-values" ;
+    jams:ofPattern <http://w3id.org/polifonia/resource/pattern/0_8_3_10_5_3> .
+
+<http://w3id.org/polifonia/resource/JAMSObservation/TamLin12963/10_0_3_0_3_8@0.0> a jams:JAMSObservation,
+        jams:JAMSScoreObservation,
+        jams:ScorePatternOccurrence ;
+    rdfs:label [ ] ;
+    jams:hasDuration "0.0"^^xsd:float ;
+    jams:hasFrequency "2"^^xsd:int ;
+    jams:hasPatternType "pitch-class-values" ;
+    jams:ofPattern <http://w3id.org/polifonia/resource/pattern/10_0_3_0_3_8> .
+
+<http://w3id.org/polifonia/resource/JAMSObservation/TamLin12963/10_10_0_3_0_3@0.0> a jams:JAMSObservation,
+        jams:JAMSScoreObservation,
+        jams:ScorePatternOccurrence ;
+    rdfs:label [ ] ;
+    jams:hasDuration "0.0"^^xsd:float ;
+    jams:hasFrequency "2"^^xsd:int ;
+    jams:hasPatternType "pitch-class-values" ;
+    jams:ofPattern <http://w3id.org/polifonia/resource/pattern/10_10_0_3_0_3> .
+
+<http://w3id.org/polifonia/resource/JAMSObservation/TamLin12963/10_10_10_0_3_0@0.0> a jams:JAMSObservation,
+        jams:JAMSScoreObservation,
+        jams:ScorePatternOccurrence ;
+    rdfs:label [ ] ;
+    jams:hasDuration "0.0"^^xsd:float ;
+    jams:hasFrequency "2"^^xsd:int ;
+    jams:hasPatternType "pitch-class-values" ;
+    jams:ofPattern <http://w3id.org/polifonia/resource/pattern/10_10_10_0_3_0> .
+
+<http://w3id.org/polifonia/resource/JAMSObservation/TamLin12963/10_10_10_10_0_3@0.0> a jams:JAMSObservation,
+        jams:JAMSScoreObservation,
+        jams:ScorePatternOccurrence ;
+    rdfs:label [ ] ;
+    jams:hasDuration "0.0"^^xsd:float ;
+    jams:hasFrequency "2"^^xsd:int ;
+    jams:hasPatternType "pitch-class-values" ;
+    jams:ofPattern <http://w3id.org/polifonia/resource/pattern/10_10_10_10_0_3> .
+
+<http://w3id.org/polifonia/resource/JAMSObservation/TamLin12963/10_5_3_0_0_0@0.0> a jams:JAMSObservation,
+        jams:JAMSScoreObservation,
+        jams:ScorePatternOccurrence ;
+    rdfs:label [ ] ;
+    jams:hasDuration "0.0"^^xsd:float ;
+    jams:hasFrequency "1"^^xsd:int ;
+    jams:hasPatternType "pitch-class-values" ;
+    jams:ofPattern <http://w3id.org/polifonia/resource/pattern/10_5_3_0_0_0> .
+
+<http://w3id.org/polifonia/resource/JAMSObservation/TamLin12963/10_5_3_0_7_7@0.0> a jams:JAMSObservation,
+        jams:JAMSScoreObservation,
+        jams:ScorePatternOccurrence ;
+    rdfs:label [ ] ;
+    jams:hasDuration "0.0"^^xsd:float ;
+    jams:hasFrequency "3"^^xsd:int ;
+    jams:hasPatternType "pitch-class-values" ;
+    jams:ofPattern <http://w3id.org/polifonia/resource/pattern/10_5_3_0_7_7> .
+
+<http://w3id.org/polifonia/resource/JAMSObservation/TamLin12963/3_0_3_8_0_3@0.0> a jams:JAMSObservation,
+        jams:JAMSScoreObservation,
+        jams:ScorePatternOccurrence ;
+    rdfs:label [ ] ;
+    jams:hasDuration "0.0"^^xsd:float ;
+    jams:hasFrequency "2"^^xsd:int ;
+    jams:hasPatternType "pitch-class-values" ;
+    jams:ofPattern <http://w3id.org/polifonia/resource/pattern/3_0_3_8_0_3> .
+
+<http://w3id.org/polifonia/resource/JAMSObservation/TamLin12963/3_0_7_7_0_3@0.0> a jams:JAMSObservation,
+        jams:JAMSScoreObservation,
+        jams:ScorePatternOccurrence ;
+    rdfs:label [ ] ;
+    jams:hasDuration "0.0"^^xsd:float ;
+    jams:hasFrequency "2"^^xsd:int ;
+    jams:hasPatternType "pitch-class-values" ;
+    jams:ofPattern <http://w3id.org/polifonia/resource/pattern/3_0_7_7_0_3> .
+
+<http://w3id.org/polifonia/resource/JAMSObservation/TamLin12963/3_10_10_10_10_0@0.0> a jams:JAMSObservation,
+        jams:JAMSScoreObservation,
+        jams:ScorePatternOccurrence ;
+    rdfs:label [ ] ;
+    jams:hasDuration "0.0"^^xsd:float ;
+    jams:hasFrequency "2"^^xsd:int ;
+    jams:hasPatternType "pitch-class-values" ;
+    jams:ofPattern <http://w3id.org/polifonia/resource/pattern/3_10_10_10_10_0> .
+
+<http://w3id.org/polifonia/resource/JAMSObservation/TamLin12963/3_10_5_3_0_0@0.0> a jams:JAMSObservation,
+        jams:JAMSScoreObservation,
+        jams:ScorePatternOccurrence ;
+    rdfs:label [ ] ;
+    jams:hasDuration "0.0"^^xsd:float ;
+    jams:hasFrequency "1"^^xsd:int ;
+    jams:hasPatternType "pitch-class-values" ;
+    jams:ofPattern <http://w3id.org/polifonia/resource/pattern/3_10_5_3_0_0> .
+
+<http://w3id.org/polifonia/resource/JAMSObservation/TamLin12963/3_10_5_3_0_7@0.0> a jams:JAMSObservation,
+        jams:JAMSScoreObservation,
+        jams:ScorePatternOccurrence ;
+    rdfs:label [ ] ;
+    jams:hasDuration "0.0"^^xsd:float ;
+    jams:hasFrequency "3"^^xsd:int ;
+    jams:hasPatternType "pitch-class-values" ;
+    jams:ofPattern <http://w3id.org/polifonia/resource/pattern/3_10_5_3_0_7> .
+
+<http://w3id.org/polifonia/resource/JAMSObservation/TamLin12963/5_3_0_0_0_8@0.0> a jams:JAMSObservation,
+        jams:JAMSScoreObservation,
+        jams:ScorePatternOccurrence ;
+    rdfs:label [ ] ;
+    jams:hasDuration "0.0"^^xsd:float ;
+    jams:hasFrequency "1"^^xsd:int ;
+    jams:hasPatternType "pitch-class-values" ;
+    jams:ofPattern <http://w3id.org/polifonia/resource/pattern/5_3_0_0_0_8> .
+
+<http://w3id.org/polifonia/resource/JAMSObservation/TamLin12963/5_3_0_7_7_0@0.0> a jams:JAMSObservation,
+        jams:JAMSScoreObservation,
+        jams:ScorePatternOccurrence ;
+    rdfs:label [ ] ;
+    jams:hasDuration "0.0"^^xsd:float ;
+    jams:hasFrequency "1"^^xsd:int ;
+    jams:hasPatternType "pitch-class-values" ;
+    jams:ofPattern <http://w3id.org/polifonia/resource/pattern/5_3_0_7_7_0> .
+
+<http://w3id.org/polifonia/resource/JAMSObservation/TamLin12963/7_0_3_10_10_10@0.0> a jams:JAMSObservation,
+        jams:JAMSScoreObservation,
+        jams:ScorePatternOccurrence ;
+    rdfs:label [ ] ;
+    jams:hasDuration "0.0"^^xsd:float ;
+    jams:hasFrequency "2"^^xsd:int ;
+    jams:hasPatternType "pitch-class-values" ;
+    jams:ofPattern <http://w3id.org/polifonia/resource/pattern/7_0_3_10_10_10> .
+
+<http://w3id.org/polifonia/resource/JAMSObservation/TamLin12963/7_7_0_3_10_10@0.0> a jams:JAMSObservation,
+        jams:JAMSScoreObservation,
+        jams:ScorePatternOccurrence ;
+    rdfs:label [ ] ;
+    jams:hasDuration "0.0"^^xsd:float ;
+    jams:hasFrequency "2"^^xsd:int ;
+    jams:hasPatternType "pitch-class-values" ;
+    jams:ofPattern <http://w3id.org/polifonia/resource/pattern/7_7_0_3_10_10> .
+
+<http://w3id.org/polifonia/resource/JAMSObservation/TamLin12963/7_7_8_3_10_5@0.0> a jams:JAMSObservation,
+        jams:JAMSScoreObservation,
+        jams:ScorePatternOccurrence ;
+    rdfs:label [ ] ;
+    jams:hasDuration "0.0"^^xsd:float ;
+    jams:hasFrequency "3"^^xsd:int ;
+    jams:hasPatternType "pitch-class-values" ;
+    jams:ofPattern <http://w3id.org/polifonia/resource/pattern/7_7_8_3_10_5> .
+
+<http://w3id.org/polifonia/resource/JAMSObservation/TamLin12963/7_8_3_10_5_3@0.0> a jams:JAMSObservation,
+        jams:JAMSScoreObservation,
+        jams:ScorePatternOccurrence ;
+    rdfs:label [ ] ;
+    jams:hasDuration "0.0"^^xsd:float ;
+    jams:hasFrequency "3"^^xsd:int ;
+    jams:hasPatternType "pitch-class-values" ;
+    jams:ofPattern <http://w3id.org/polifonia/resource/pattern/7_8_3_10_5_3> .
+
+<http://w3id.org/polifonia/resource/JAMSObservation/TamLin12963/8_3_10_5_3_0@0.0> a jams:JAMSObservation,
+        jams:JAMSScoreObservation,
+        jams:ScorePatternOccurrence ;
+    rdfs:label [ ] ;
+    jams:hasDuration "0.0"^^xsd:float ;
+    jams:hasFrequency "4"^^xsd:int ;
+    jams:hasPatternType "pitch-class-values" ;
+    jams:ofPattern <http://w3id.org/polifonia/resource/pattern/8_3_10_5_3_0> .
+
+<http://w3id.org/polifonia/resource/MusicalComposition/71736a58d11ea8d417872c6fb51d89259bf4be1d> a mc:MusicalComposition ;
+    rdfs:label "TamLin12963" ;
+    mc:title "TamLin12963" ;
+    prov:wasDerivedFrom <http://w3id.org/polifonia/resource/JAMSFile/TamLin12963.jams> .
+

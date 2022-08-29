@@ -1,0 +1,421 @@
+@prefix core: <http://w3id.org/polifonia/ontology/core/> .
+@prefix jams: <http://w3id.org/polifonia/ontology/jams/> .
+@prefix mc: <http://w3id.org/polifonia/ontology/musical-composition/> .
+@prefix pon-resource: <http://w3id.org/polifonia/resource/> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+pon-resource:Agent%2Fannotator_local_id a core:Agent ;
+    rdfs:label "FONN-Tool" ;
+    jams:hasAnnotatorType pon-resource:annotator-program ;
+    jams:hasName "FONN-Tool" .
+
+<http://w3id.org/polifonia/resource/JAMSAnnotation/f810b0fa5d8678719ee922e0de0e6d9c0e2c34a3> a jams:JAMSAnnotation,
+        jams:JAMSScoreAnnotation ;
+    jams:includesObservation <http://w3id.org/polifonia/resource/JAMSObservation/SterlingTom10053/0_0_0_0_11_11@0.0>,
+        <http://w3id.org/polifonia/resource/JAMSObservation/SterlingTom10053/0_0_0_11_11_0@0.0>,
+        <http://w3id.org/polifonia/resource/JAMSObservation/SterlingTom10053/0_0_11_11_0_0@0.0>,
+        <http://w3id.org/polifonia/resource/JAMSObservation/SterlingTom10053/0_0_11_11_0_4@0.0>,
+        <http://w3id.org/polifonia/resource/JAMSObservation/SterlingTom10053/0_0_9_0_4_4@0.0>,
+        <http://w3id.org/polifonia/resource/JAMSObservation/SterlingTom10053/0_0_9_4_0_0@0.0>,
+        <http://w3id.org/polifonia/resource/JAMSObservation/SterlingTom10053/0_11_11_0_0_9@0.0>,
+        <http://w3id.org/polifonia/resource/JAMSObservation/SterlingTom10053/0_11_11_0_4_0@0.0>,
+        <http://w3id.org/polifonia/resource/JAMSObservation/SterlingTom10053/0_4_0_0_0_0@0.0>,
+        <http://w3id.org/polifonia/resource/JAMSObservation/SterlingTom10053/0_4_0_0_9_0@0.0>,
+        <http://w3id.org/polifonia/resource/JAMSObservation/SterlingTom10053/0_4_2_0_9_0@0.0>,
+        <http://w3id.org/polifonia/resource/JAMSObservation/SterlingTom10053/0_4_2_0_9_2@0.0>,
+        <http://w3id.org/polifonia/resource/JAMSObservation/SterlingTom10053/0_4_4_9_0_4@0.0>,
+        <http://w3id.org/polifonia/resource/JAMSObservation/SterlingTom10053/0_4_9_9_0_4@0.0>,
+        <http://w3id.org/polifonia/resource/JAMSObservation/SterlingTom10053/0_9_0_4_4_9@0.0>,
+        <http://w3id.org/polifonia/resource/JAMSObservation/SterlingTom10053/0_9_0_9_9_0@0.0>,
+        <http://w3id.org/polifonia/resource/JAMSObservation/SterlingTom10053/0_9_4_0_0_11@0.0>,
+        <http://w3id.org/polifonia/resource/JAMSObservation/SterlingTom10053/0_9_9_0_4_4@0.0>,
+        <http://w3id.org/polifonia/resource/JAMSObservation/SterlingTom10053/11_0_0_9_4_0@0.0>,
+        <http://w3id.org/polifonia/resource/JAMSObservation/SterlingTom10053/11_0_4_0_0_0@0.0>,
+        <http://w3id.org/polifonia/resource/JAMSObservation/SterlingTom10053/11_0_4_0_0_9@0.0>,
+        <http://w3id.org/polifonia/resource/JAMSObservation/SterlingTom10053/11_11_0_0_9_4@0.0>,
+        <http://w3id.org/polifonia/resource/JAMSObservation/SterlingTom10053/11_11_0_4_0_0@0.0>,
+        <http://w3id.org/polifonia/resource/JAMSObservation/SterlingTom10053/2_0_9_0_9_9@0.0>,
+        <http://w3id.org/polifonia/resource/JAMSObservation/SterlingTom10053/4_0_0_0_0_11@0.0>,
+        <http://w3id.org/polifonia/resource/JAMSObservation/SterlingTom10053/4_0_0_11_11_0@0.0>,
+        <http://w3id.org/polifonia/resource/JAMSObservation/SterlingTom10053/4_0_0_9_0_4@0.0>,
+        <http://w3id.org/polifonia/resource/JAMSObservation/SterlingTom10053/4_2_0_9_0_9@0.0>,
+        <http://w3id.org/polifonia/resource/JAMSObservation/SterlingTom10053/4_2_0_9_2_9@0.0>,
+        <http://w3id.org/polifonia/resource/JAMSObservation/SterlingTom10053/4_4_9_0_4_9@0.0>,
+        <http://w3id.org/polifonia/resource/JAMSObservation/SterlingTom10053/4_9_0_4_9_9@0.0>,
+        <http://w3id.org/polifonia/resource/JAMSObservation/SterlingTom10053/4_9_9_0_4_2@0.0>,
+        <http://w3id.org/polifonia/resource/JAMSObservation/SterlingTom10053/9_0_4_2_0_9@0.0>,
+        <http://w3id.org/polifonia/resource/JAMSObservation/SterlingTom10053/9_0_4_4_9_0@0.0>,
+        <http://w3id.org/polifonia/resource/JAMSObservation/SterlingTom10053/9_0_4_9_9_0@0.0>,
+        <http://w3id.org/polifonia/resource/JAMSObservation/SterlingTom10053/9_0_9_9_0_4@0.0>,
+        <http://w3id.org/polifonia/resource/JAMSObservation/SterlingTom10053/9_4_0_0_11_11@0.0>,
+        <http://w3id.org/polifonia/resource/JAMSObservation/SterlingTom10053/9_9_0_4_2_0@0.0>,
+        <http://w3id.org/polifonia/resource/JAMSObservation/SterlingTom10053/9_9_0_4_4_9@0.0> ;
+    jams:isJAMSAnnotationOf <http://w3id.org/polifonia/resource/MusicalComposition/f810b0fa5d8678719ee922e0de0e6d9c0e2c34a3> .
+
+<http://w3id.org/polifonia/resource/Score/song_local_id> jams:hasJAMSAnnotation <http://w3id.org/polifonia/resource/MusicalComposition/f810b0fa5d8678719ee922e0de0e6d9c0e2c34a3> .
+
+<http://w3id.org/polifonia/resource/JAMSFile/SterlingTom10053.jams> a jams:JAMSFile ;
+    jams:identifiers [ ] ;
+    jams:jamsVersion "0.3.4" ;
+    jams:release "" ;
+    prov:wasDerivedFrom "The Session" ;
+    prov:wasMemberOf <https://github.com/ashahidkhattak/thesession> .
+
+<http://w3id.org/polifonia/resource/JAMSObservation/SterlingTom10053/0_0_0_0_11_11@0.0> a jams:JAMSObservation,
+        jams:JAMSScoreObservation,
+        jams:ScorePatternOccurrence ;
+    rdfs:label [ ] ;
+    jams:hasDuration "0.0"^^xsd:float ;
+    jams:hasFrequency "1"^^xsd:int ;
+    jams:hasPatternType "pitch-class-values" ;
+    jams:ofPattern <http://w3id.org/polifonia/resource/pattern/0_0_0_0_11_11> .
+
+<http://w3id.org/polifonia/resource/JAMSObservation/SterlingTom10053/0_0_0_11_11_0@0.0> a jams:JAMSObservation,
+        jams:JAMSScoreObservation,
+        jams:ScorePatternOccurrence ;
+    rdfs:label [ ] ;
+    jams:hasDuration "0.0"^^xsd:float ;
+    jams:hasFrequency "2"^^xsd:int ;
+    jams:hasPatternType "pitch-class-values" ;
+    jams:ofPattern <http://w3id.org/polifonia/resource/pattern/0_0_0_11_11_0> .
+
+<http://w3id.org/polifonia/resource/JAMSObservation/SterlingTom10053/0_0_11_11_0_0@0.0> a jams:JAMSObservation,
+        jams:JAMSScoreObservation,
+        jams:ScorePatternOccurrence ;
+    rdfs:label [ ] ;
+    jams:hasDuration "0.0"^^xsd:float ;
+    jams:hasFrequency "2"^^xsd:int ;
+    jams:hasPatternType "pitch-class-values" ;
+    jams:ofPattern <http://w3id.org/polifonia/resource/pattern/0_0_11_11_0_0> .
+
+<http://w3id.org/polifonia/resource/JAMSObservation/SterlingTom10053/0_0_11_11_0_4@0.0> a jams:JAMSObservation,
+        jams:JAMSScoreObservation,
+        jams:ScorePatternOccurrence ;
+    rdfs:label [ ] ;
+    jams:hasDuration "0.0"^^xsd:float ;
+    jams:hasFrequency "2"^^xsd:int ;
+    jams:hasPatternType "pitch-class-values" ;
+    jams:ofPattern <http://w3id.org/polifonia/resource/pattern/0_0_11_11_0_4> .
+
+<http://w3id.org/polifonia/resource/JAMSObservation/SterlingTom10053/0_0_9_0_4_4@0.0> a jams:JAMSObservation,
+        jams:JAMSScoreObservation,
+        jams:ScorePatternOccurrence ;
+    rdfs:label [ ] ;
+    jams:hasDuration "0.0"^^xsd:float ;
+    jams:hasFrequency "1"^^xsd:int ;
+    jams:hasPatternType "pitch-class-values" ;
+    jams:ofPattern <http://w3id.org/polifonia/resource/pattern/0_0_9_0_4_4> .
+
+<http://w3id.org/polifonia/resource/JAMSObservation/SterlingTom10053/0_0_9_4_0_0@0.0> a jams:JAMSObservation,
+        jams:JAMSScoreObservation,
+        jams:ScorePatternOccurrence ;
+    rdfs:label [ ] ;
+    jams:hasDuration "0.0"^^xsd:float ;
+    jams:hasFrequency "2"^^xsd:int ;
+    jams:hasPatternType "pitch-class-values" ;
+    jams:ofPattern <http://w3id.org/polifonia/resource/pattern/0_0_9_4_0_0> .
+
+<http://w3id.org/polifonia/resource/JAMSObservation/SterlingTom10053/0_11_11_0_0_9@0.0> a jams:JAMSObservation,
+        jams:JAMSScoreObservation,
+        jams:ScorePatternOccurrence ;
+    rdfs:label [ ] ;
+    jams:hasDuration "0.0"^^xsd:float ;
+    jams:hasFrequency "2"^^xsd:int ;
+    jams:hasPatternType "pitch-class-values" ;
+    jams:ofPattern <http://w3id.org/polifonia/resource/pattern/0_11_11_0_0_9> .
+
+<http://w3id.org/polifonia/resource/JAMSObservation/SterlingTom10053/0_11_11_0_4_0@0.0> a jams:JAMSObservation,
+        jams:JAMSScoreObservation,
+        jams:ScorePatternOccurrence ;
+    rdfs:label [ ] ;
+    jams:hasDuration "0.0"^^xsd:float ;
+    jams:hasFrequency "2"^^xsd:int ;
+    jams:hasPatternType "pitch-class-values" ;
+    jams:ofPattern <http://w3id.org/polifonia/resource/pattern/0_11_11_0_4_0> .
+
+<http://w3id.org/polifonia/resource/JAMSObservation/SterlingTom10053/0_4_0_0_0_0@0.0> a jams:JAMSObservation,
+        jams:JAMSScoreObservation,
+        jams:ScorePatternOccurrence ;
+    rdfs:label [ ] ;
+    jams:hasDuration "0.0"^^xsd:float ;
+    jams:hasFrequency "1"^^xsd:int ;
+    jams:hasPatternType "pitch-class-values" ;
+    jams:ofPattern <http://w3id.org/polifonia/resource/pattern/0_4_0_0_0_0> .
+
+<http://w3id.org/polifonia/resource/JAMSObservation/SterlingTom10053/0_4_0_0_9_0@0.0> a jams:JAMSObservation,
+        jams:JAMSScoreObservation,
+        jams:ScorePatternOccurrence ;
+    rdfs:label [ ] ;
+    jams:hasDuration "0.0"^^xsd:float ;
+    jams:hasFrequency "1"^^xsd:int ;
+    jams:hasPatternType "pitch-class-values" ;
+    jams:ofPattern <http://w3id.org/polifonia/resource/pattern/0_4_0_0_9_0> .
+
+<http://w3id.org/polifonia/resource/JAMSObservation/SterlingTom10053/0_4_2_0_9_0@0.0> a jams:JAMSObservation,
+        jams:JAMSScoreObservation,
+        jams:ScorePatternOccurrence ;
+    rdfs:label [ ] ;
+    jams:hasDuration "0.0"^^xsd:float ;
+    jams:hasFrequency "1"^^xsd:int ;
+    jams:hasPatternType "pitch-class-values" ;
+    jams:ofPattern <http://w3id.org/polifonia/resource/pattern/0_4_2_0_9_0> .
+
+<http://w3id.org/polifonia/resource/JAMSObservation/SterlingTom10053/0_4_2_0_9_2@0.0> a jams:JAMSObservation,
+        jams:JAMSScoreObservation,
+        jams:ScorePatternOccurrence ;
+    rdfs:label [ ] ;
+    jams:hasDuration "0.0"^^xsd:float ;
+    jams:hasFrequency "1"^^xsd:int ;
+    jams:hasPatternType "pitch-class-values" ;
+    jams:ofPattern <http://w3id.org/polifonia/resource/pattern/0_4_2_0_9_2> .
+
+<http://w3id.org/polifonia/resource/JAMSObservation/SterlingTom10053/0_4_4_9_0_4@0.0> a jams:JAMSObservation,
+        jams:JAMSScoreObservation,
+        jams:ScorePatternOccurrence ;
+    rdfs:label [ ] ;
+    jams:hasDuration "0.0"^^xsd:float ;
+    jams:hasFrequency "2"^^xsd:int ;
+    jams:hasPatternType "pitch-class-values" ;
+    jams:ofPattern <http://w3id.org/polifonia/resource/pattern/0_4_4_9_0_4> .
+
+<http://w3id.org/polifonia/resource/JAMSObservation/SterlingTom10053/0_4_9_9_0_4@0.0> a jams:JAMSObservation,
+        jams:JAMSScoreObservation,
+        jams:ScorePatternOccurrence ;
+    rdfs:label [ ] ;
+    jams:hasDuration "0.0"^^xsd:float ;
+    jams:hasFrequency "2"^^xsd:int ;
+    jams:hasPatternType "pitch-class-values" ;
+    jams:ofPattern <http://w3id.org/polifonia/resource/pattern/0_4_9_9_0_4> .
+
+<http://w3id.org/polifonia/resource/JAMSObservation/SterlingTom10053/0_9_0_4_4_9@0.0> a jams:JAMSObservation,
+        jams:JAMSScoreObservation,
+        jams:ScorePatternOccurrence ;
+    rdfs:label [ ] ;
+    jams:hasDuration "0.0"^^xsd:float ;
+    jams:hasFrequency "1"^^xsd:int ;
+    jams:hasPatternType "pitch-class-values" ;
+    jams:ofPattern <http://w3id.org/polifonia/resource/pattern/0_9_0_4_4_9> .
+
+<http://w3id.org/polifonia/resource/JAMSObservation/SterlingTom10053/0_9_0_9_9_0@0.0> a jams:JAMSObservation,
+        jams:JAMSScoreObservation,
+        jams:ScorePatternOccurrence ;
+    rdfs:label [ ] ;
+    jams:hasDuration "0.0"^^xsd:float ;
+    jams:hasFrequency "1"^^xsd:int ;
+    jams:hasPatternType "pitch-class-values" ;
+    jams:ofPattern <http://w3id.org/polifonia/resource/pattern/0_9_0_9_9_0> .
+
+<http://w3id.org/polifonia/resource/JAMSObservation/SterlingTom10053/0_9_4_0_0_11@0.0> a jams:JAMSObservation,
+        jams:JAMSScoreObservation,
+        jams:ScorePatternOccurrence ;
+    rdfs:label [ ] ;
+    jams:hasDuration "0.0"^^xsd:float ;
+    jams:hasFrequency "2"^^xsd:int ;
+    jams:hasPatternType "pitch-class-values" ;
+    jams:ofPattern <http://w3id.org/polifonia/resource/pattern/0_9_4_0_0_11> .
+
+<http://w3id.org/polifonia/resource/JAMSObservation/SterlingTom10053/0_9_9_0_4_4@0.0> a jams:JAMSObservation,
+        jams:JAMSScoreObservation,
+        jams:ScorePatternOccurrence ;
+    rdfs:label [ ] ;
+    jams:hasDuration "0.0"^^xsd:float ;
+    jams:hasFrequency "1"^^xsd:int ;
+    jams:hasPatternType "pitch-class-values" ;
+    jams:ofPattern <http://w3id.org/polifonia/resource/pattern/0_9_9_0_4_4> .
+
+<http://w3id.org/polifonia/resource/JAMSObservation/SterlingTom10053/11_0_0_9_4_0@0.0> a jams:JAMSObservation,
+        jams:JAMSScoreObservation,
+        jams:ScorePatternOccurrence ;
+    rdfs:label [ ] ;
+    jams:hasDuration "0.0"^^xsd:float ;
+    jams:hasFrequency "2"^^xsd:int ;
+    jams:hasPatternType "pitch-class-values" ;
+    jams:ofPattern <http://w3id.org/polifonia/resource/pattern/11_0_0_9_4_0> .
+
+<http://w3id.org/polifonia/resource/JAMSObservation/SterlingTom10053/11_0_4_0_0_0@0.0> a jams:JAMSObservation,
+        jams:JAMSScoreObservation,
+        jams:ScorePatternOccurrence ;
+    rdfs:label [ ] ;
+    jams:hasDuration "0.0"^^xsd:float ;
+    jams:hasFrequency "1"^^xsd:int ;
+    jams:hasPatternType "pitch-class-values" ;
+    jams:ofPattern <http://w3id.org/polifonia/resource/pattern/11_0_4_0_0_0> .
+
+<http://w3id.org/polifonia/resource/JAMSObservation/SterlingTom10053/11_0_4_0_0_9@0.0> a jams:JAMSObservation,
+        jams:JAMSScoreObservation,
+        jams:ScorePatternOccurrence ;
+    rdfs:label [ ] ;
+    jams:hasDuration "0.0"^^xsd:float ;
+    jams:hasFrequency "1"^^xsd:int ;
+    jams:hasPatternType "pitch-class-values" ;
+    jams:ofPattern <http://w3id.org/polifonia/resource/pattern/11_0_4_0_0_9> .
+
+<http://w3id.org/polifonia/resource/JAMSObservation/SterlingTom10053/11_11_0_0_9_4@0.0> a jams:JAMSObservation,
+        jams:JAMSScoreObservation,
+        jams:ScorePatternOccurrence ;
+    rdfs:label [ ] ;
+    jams:hasDuration "0.0"^^xsd:float ;
+    jams:hasFrequency "2"^^xsd:int ;
+    jams:hasPatternType "pitch-class-values" ;
+    jams:ofPattern <http://w3id.org/polifonia/resource/pattern/11_11_0_0_9_4> .
+
+<http://w3id.org/polifonia/resource/JAMSObservation/SterlingTom10053/11_11_0_4_0_0@0.0> a jams:JAMSObservation,
+        jams:JAMSScoreObservation,
+        jams:ScorePatternOccurrence ;
+    rdfs:label [ ] ;
+    jams:hasDuration "0.0"^^xsd:float ;
+    jams:hasFrequency "2"^^xsd:int ;
+    jams:hasPatternType "pitch-class-values" ;
+    jams:ofPattern <http://w3id.org/polifonia/resource/pattern/11_11_0_4_0_0> .
+
+<http://w3id.org/polifonia/resource/JAMSObservation/SterlingTom10053/2_0_9_0_9_9@0.0> a jams:JAMSObservation,
+        jams:JAMSScoreObservation,
+        jams:ScorePatternOccurrence ;
+    rdfs:label [ ] ;
+    jams:hasDuration "0.0"^^xsd:float ;
+    jams:hasFrequency "1"^^xsd:int ;
+    jams:hasPatternType "pitch-class-values" ;
+    jams:ofPattern <http://w3id.org/polifonia/resource/pattern/2_0_9_0_9_9> .
+
+<http://w3id.org/polifonia/resource/JAMSObservation/SterlingTom10053/4_0_0_0_0_11@0.0> a jams:JAMSObservation,
+        jams:JAMSScoreObservation,
+        jams:ScorePatternOccurrence ;
+    rdfs:label [ ] ;
+    jams:hasDuration "0.0"^^xsd:float ;
+    jams:hasFrequency "1"^^xsd:int ;
+    jams:hasPatternType "pitch-class-values" ;
+    jams:ofPattern <http://w3id.org/polifonia/resource/pattern/4_0_0_0_0_11> .
+
+<http://w3id.org/polifonia/resource/JAMSObservation/SterlingTom10053/4_0_0_11_11_0@0.0> a jams:JAMSObservation,
+        jams:JAMSScoreObservation,
+        jams:ScorePatternOccurrence ;
+    rdfs:label [ ] ;
+    jams:hasDuration "0.0"^^xsd:float ;
+    jams:hasFrequency "2"^^xsd:int ;
+    jams:hasPatternType "pitch-class-values" ;
+    jams:ofPattern <http://w3id.org/polifonia/resource/pattern/4_0_0_11_11_0> .
+
+<http://w3id.org/polifonia/resource/JAMSObservation/SterlingTom10053/4_0_0_9_0_4@0.0> a jams:JAMSObservation,
+        jams:JAMSScoreObservation,
+        jams:ScorePatternOccurrence ;
+    rdfs:label [ ] ;
+    jams:hasDuration "0.0"^^xsd:float ;
+    jams:hasFrequency "1"^^xsd:int ;
+    jams:hasPatternType "pitch-class-values" ;
+    jams:ofPattern <http://w3id.org/polifonia/resource/pattern/4_0_0_9_0_4> .
+
+<http://w3id.org/polifonia/resource/JAMSObservation/SterlingTom10053/4_2_0_9_0_9@0.0> a jams:JAMSObservation,
+        jams:JAMSScoreObservation,
+        jams:ScorePatternOccurrence ;
+    rdfs:label [ ] ;
+    jams:hasDuration "0.0"^^xsd:float ;
+    jams:hasFrequency "1"^^xsd:int ;
+    jams:hasPatternType "pitch-class-values" ;
+    jams:ofPattern <http://w3id.org/polifonia/resource/pattern/4_2_0_9_0_9> .
+
+<http://w3id.org/polifonia/resource/JAMSObservation/SterlingTom10053/4_2_0_9_2_9@0.0> a jams:JAMSObservation,
+        jams:JAMSScoreObservation,
+        jams:ScorePatternOccurrence ;
+    rdfs:label [ ] ;
+    jams:hasDuration "0.0"^^xsd:float ;
+    jams:hasFrequency "1"^^xsd:int ;
+    jams:hasPatternType "pitch-class-values" ;
+    jams:ofPattern <http://w3id.org/polifonia/resource/pattern/4_2_0_9_2_9> .
+
+<http://w3id.org/polifonia/resource/JAMSObservation/SterlingTom10053/4_4_9_0_4_9@0.0> a jams:JAMSObservation,
+        jams:JAMSScoreObservation,
+        jams:ScorePatternOccurrence ;
+    rdfs:label [ ] ;
+    jams:hasDuration "0.0"^^xsd:float ;
+    jams:hasFrequency "2"^^xsd:int ;
+    jams:hasPatternType "pitch-class-values" ;
+    jams:ofPattern <http://w3id.org/polifonia/resource/pattern/4_4_9_0_4_9> .
+
+<http://w3id.org/polifonia/resource/JAMSObservation/SterlingTom10053/4_9_0_4_9_9@0.0> a jams:JAMSObservation,
+        jams:JAMSScoreObservation,
+        jams:ScorePatternOccurrence ;
+    rdfs:label [ ] ;
+    jams:hasDuration "0.0"^^xsd:float ;
+    jams:hasFrequency "2"^^xsd:int ;
+    jams:hasPatternType "pitch-class-values" ;
+    jams:ofPattern <http://w3id.org/polifonia/resource/pattern/4_9_0_4_9_9> .
+
+<http://w3id.org/polifonia/resource/JAMSObservation/SterlingTom10053/4_9_9_0_4_2@0.0> a jams:JAMSObservation,
+        jams:JAMSScoreObservation,
+        jams:ScorePatternOccurrence ;
+    rdfs:label [ ] ;
+    jams:hasDuration "0.0"^^xsd:float ;
+    jams:hasFrequency "2"^^xsd:int ;
+    jams:hasPatternType "pitch-class-values" ;
+    jams:ofPattern <http://w3id.org/polifonia/resource/pattern/4_9_9_0_4_2> .
+
+<http://w3id.org/polifonia/resource/JAMSObservation/SterlingTom10053/9_0_4_2_0_9@0.0> a jams:JAMSObservation,
+        jams:JAMSScoreObservation,
+        jams:ScorePatternOccurrence ;
+    rdfs:label [ ] ;
+    jams:hasDuration "0.0"^^xsd:float ;
+    jams:hasFrequency "2"^^xsd:int ;
+    jams:hasPatternType "pitch-class-values" ;
+    jams:ofPattern <http://w3id.org/polifonia/resource/pattern/9_0_4_2_0_9> .
+
+<http://w3id.org/polifonia/resource/JAMSObservation/SterlingTom10053/9_0_4_4_9_0@0.0> a jams:JAMSObservation,
+        jams:JAMSScoreObservation,
+        jams:ScorePatternOccurrence ;
+    rdfs:label [ ] ;
+    jams:hasDuration "0.0"^^xsd:float ;
+    jams:hasFrequency "2"^^xsd:int ;
+    jams:hasPatternType "pitch-class-values" ;
+    jams:ofPattern <http://w3id.org/polifonia/resource/pattern/9_0_4_4_9_0> .
+
+<http://w3id.org/polifonia/resource/JAMSObservation/SterlingTom10053/9_0_4_9_9_0@0.0> a jams:JAMSObservation,
+        jams:JAMSScoreObservation,
+        jams:ScorePatternOccurrence ;
+    rdfs:label [ ] ;
+    jams:hasDuration "0.0"^^xsd:float ;
+    jams:hasFrequency "2"^^xsd:int ;
+    jams:hasPatternType "pitch-class-values" ;
+    jams:ofPattern <http://w3id.org/polifonia/resource/pattern/9_0_4_9_9_0> .
+
+<http://w3id.org/polifonia/resource/JAMSObservation/SterlingTom10053/9_0_9_9_0_4@0.0> a jams:JAMSObservation,
+        jams:JAMSScoreObservation,
+        jams:ScorePatternOccurrence ;
+    rdfs:label [ ] ;
+    jams:hasDuration "0.0"^^xsd:float ;
+    jams:hasFrequency "1"^^xsd:int ;
+    jams:hasPatternType "pitch-class-values" ;
+    jams:ofPattern <http://w3id.org/polifonia/resource/pattern/9_0_9_9_0_4> .
+
+<http://w3id.org/polifonia/resource/JAMSObservation/SterlingTom10053/9_4_0_0_11_11@0.0> a jams:JAMSObservation,
+        jams:JAMSScoreObservation,
+        jams:ScorePatternOccurrence ;
+    rdfs:label [ ] ;
+    jams:hasDuration "0.0"^^xsd:float ;
+    jams:hasFrequency "2"^^xsd:int ;
+    jams:hasPatternType "pitch-class-values" ;
+    jams:ofPattern <http://w3id.org/polifonia/resource/pattern/9_4_0_0_11_11> .
+
+<http://w3id.org/polifonia/resource/JAMSObservation/SterlingTom10053/9_9_0_4_2_0@0.0> a jams:JAMSObservation,
+        jams:JAMSScoreObservation,
+        jams:ScorePatternOccurrence ;
+    rdfs:label [ ] ;
+    jams:hasDuration "0.0"^^xsd:float ;
+    jams:hasFrequency "2"^^xsd:int ;
+    jams:hasPatternType "pitch-class-values" ;
+    jams:ofPattern <http://w3id.org/polifonia/resource/pattern/9_9_0_4_2_0> .
+
+<http://w3id.org/polifonia/resource/JAMSObservation/SterlingTom10053/9_9_0_4_4_9@0.0> a jams:JAMSObservation,
+        jams:JAMSScoreObservation,
+        jams:ScorePatternOccurrence ;
+    rdfs:label [ ] ;
+    jams:hasDuration "0.0"^^xsd:float ;
+    jams:hasFrequency "1"^^xsd:int ;
+    jams:hasPatternType "pitch-class-values" ;
+    jams:ofPattern <http://w3id.org/polifonia/resource/pattern/9_9_0_4_4_9> .
+
+<http://w3id.org/polifonia/resource/MusicalComposition/f810b0fa5d8678719ee922e0de0e6d9c0e2c34a3> a mc:MusicalComposition ;
+    rdfs:label "SterlingTom10053" ;
+    mc:title "SterlingTom10053" ;
+    prov:wasDerivedFrom <http://w3id.org/polifonia/resource/JAMSFile/SterlingTom10053.jams> .
+

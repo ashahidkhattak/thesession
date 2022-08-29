@@ -1,0 +1,311 @@
+@prefix core: <http://w3id.org/polifonia/ontology/core/> .
+@prefix jams: <http://w3id.org/polifonia/ontology/jams/> .
+@prefix mc: <http://w3id.org/polifonia/ontology/musical-composition/> .
+@prefix pon-resource: <http://w3id.org/polifonia/resource/> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+pon-resource:Agent%2Fannotator_local_id a core:Agent ;
+    rdfs:label "FONN-Tool" ;
+    jams:hasAnnotatorType pon-resource:annotator-program ;
+    jams:hasName "FONN-Tool" .
+
+<http://w3id.org/polifonia/resource/JAMSAnnotation/85c8abfc9b6d587e63980232065cf410f9533f9f> a jams:JAMSAnnotation,
+        jams:JAMSScoreAnnotation ;
+    jams:includesObservation <http://w3id.org/polifonia/resource/JAMSObservation/MaidenThatJiggedItInStyleThe26387/0_0_0_4_9_5@0.0>,
+        <http://w3id.org/polifonia/resource/JAMSObservation/MaidenThatJiggedItInStyleThe26387/0_0_4_9_5_2@0.0>,
+        <http://w3id.org/polifonia/resource/JAMSObservation/MaidenThatJiggedItInStyleThe26387/0_0_5_5_9_2@0.0>,
+        <http://w3id.org/polifonia/resource/JAMSObservation/MaidenThatJiggedItInStyleThe26387/0_4_9_5_2_0@0.0>,
+        <http://w3id.org/polifonia/resource/JAMSObservation/MaidenThatJiggedItInStyleThe26387/0_4_9_5_2_7@0.0>,
+        <http://w3id.org/polifonia/resource/JAMSObservation/MaidenThatJiggedItInStyleThe26387/0_5_2_0_0_5@0.0>,
+        <http://w3id.org/polifonia/resource/JAMSObservation/MaidenThatJiggedItInStyleThe26387/0_5_5_9_2_0@0.0>,
+        <http://w3id.org/polifonia/resource/JAMSObservation/MaidenThatJiggedItInStyleThe26387/0_7_2_10_5_5@0.0>,
+        <http://w3id.org/polifonia/resource/JAMSObservation/MaidenThatJiggedItInStyleThe26387/10_5_5_9_0_5@0.0>,
+        <http://w3id.org/polifonia/resource/JAMSObservation/MaidenThatJiggedItInStyleThe26387/2_0_0_5_5_9@0.0>,
+        <http://w3id.org/polifonia/resource/JAMSObservation/MaidenThatJiggedItInStyleThe26387/2_0_7_2_10_5@0.0>,
+        <http://w3id.org/polifonia/resource/JAMSObservation/MaidenThatJiggedItInStyleThe26387/2_10_5_5_9_0@0.0>,
+        <http://w3id.org/polifonia/resource/JAMSObservation/MaidenThatJiggedItInStyleThe26387/2_7_0_0_0_4@0.0>,
+        <http://w3id.org/polifonia/resource/JAMSObservation/MaidenThatJiggedItInStyleThe26387/4_9_5_2_0_0@0.0>,
+        <http://w3id.org/polifonia/resource/JAMSObservation/MaidenThatJiggedItInStyleThe26387/4_9_5_2_7_0@0.0>,
+        <http://w3id.org/polifonia/resource/JAMSObservation/MaidenThatJiggedItInStyleThe26387/5_2_0_0_5_5@0.0>,
+        <http://w3id.org/polifonia/resource/JAMSObservation/MaidenThatJiggedItInStyleThe26387/5_2_7_0_0_0@0.0>,
+        <http://w3id.org/polifonia/resource/JAMSObservation/MaidenThatJiggedItInStyleThe26387/5_5_9_0_5_2@0.0>,
+        <http://w3id.org/polifonia/resource/JAMSObservation/MaidenThatJiggedItInStyleThe26387/5_5_9_2_0_7@0.0>,
+        <http://w3id.org/polifonia/resource/JAMSObservation/MaidenThatJiggedItInStyleThe26387/5_9_0_5_2_0@0.0>,
+        <http://w3id.org/polifonia/resource/JAMSObservation/MaidenThatJiggedItInStyleThe26387/5_9_2_0_7_2@0.0>,
+        <http://w3id.org/polifonia/resource/JAMSObservation/MaidenThatJiggedItInStyleThe26387/7_0_0_0_4_9@0.0>,
+        <http://w3id.org/polifonia/resource/JAMSObservation/MaidenThatJiggedItInStyleThe26387/7_2_10_5_5_9@0.0>,
+        <http://w3id.org/polifonia/resource/JAMSObservation/MaidenThatJiggedItInStyleThe26387/9_0_5_2_0_0@0.0>,
+        <http://w3id.org/polifonia/resource/JAMSObservation/MaidenThatJiggedItInStyleThe26387/9_2_0_7_2_10@0.0>,
+        <http://w3id.org/polifonia/resource/JAMSObservation/MaidenThatJiggedItInStyleThe26387/9_5_2_0_0_5@0.0>,
+        <http://w3id.org/polifonia/resource/JAMSObservation/MaidenThatJiggedItInStyleThe26387/9_5_2_7_0_0@0.0>,
+        <http://w3id.org/polifonia/resource/JAMSObservation/MaidenThatJiggedItInStyleThe26387/9_7_0_0_0_4@0.0> ;
+    jams:isJAMSAnnotationOf <http://w3id.org/polifonia/resource/MusicalComposition/85c8abfc9b6d587e63980232065cf410f9533f9f> .
+
+<http://w3id.org/polifonia/resource/Score/song_local_id> jams:hasJAMSAnnotation <http://w3id.org/polifonia/resource/MusicalComposition/85c8abfc9b6d587e63980232065cf410f9533f9f> .
+
+<http://w3id.org/polifonia/resource/JAMSFile/MaidenThatJiggedItInStyleThe26387.jams> a jams:JAMSFile ;
+    jams:identifiers [ ] ;
+    jams:jamsVersion "0.3.4" ;
+    jams:release "" ;
+    prov:wasDerivedFrom "The Session" ;
+    prov:wasMemberOf <https://github.com/ashahidkhattak/thesession> .
+
+<http://w3id.org/polifonia/resource/JAMSObservation/MaidenThatJiggedItInStyleThe26387/0_0_0_4_9_5@0.0> a jams:JAMSObservation,
+        jams:JAMSScoreObservation,
+        jams:ScorePatternOccurrence ;
+    rdfs:label [ ] ;
+    jams:hasDuration "0.0"^^xsd:float ;
+    jams:hasFrequency "4"^^xsd:int ;
+    jams:hasPatternType "pitch-class-values" ;
+    jams:ofPattern <http://w3id.org/polifonia/resource/pattern/0_0_0_4_9_5> .
+
+<http://w3id.org/polifonia/resource/JAMSObservation/MaidenThatJiggedItInStyleThe26387/0_0_4_9_5_2@0.0> a jams:JAMSObservation,
+        jams:JAMSScoreObservation,
+        jams:ScorePatternOccurrence ;
+    rdfs:label [ ] ;
+    jams:hasDuration "0.0"^^xsd:float ;
+    jams:hasFrequency "4"^^xsd:int ;
+    jams:hasPatternType "pitch-class-values" ;
+    jams:ofPattern <http://w3id.org/polifonia/resource/pattern/0_0_4_9_5_2> .
+
+<http://w3id.org/polifonia/resource/JAMSObservation/MaidenThatJiggedItInStyleThe26387/0_0_5_5_9_2@0.0> a jams:JAMSObservation,
+        jams:JAMSScoreObservation,
+        jams:ScorePatternOccurrence ;
+    rdfs:label [ ] ;
+    jams:hasDuration "0.0"^^xsd:float ;
+    jams:hasFrequency "2"^^xsd:int ;
+    jams:hasPatternType "pitch-class-values" ;
+    jams:ofPattern <http://w3id.org/polifonia/resource/pattern/0_0_5_5_9_2> .
+
+<http://w3id.org/polifonia/resource/JAMSObservation/MaidenThatJiggedItInStyleThe26387/0_4_9_5_2_0@0.0> a jams:JAMSObservation,
+        jams:JAMSScoreObservation,
+        jams:ScorePatternOccurrence ;
+    rdfs:label [ ] ;
+    jams:hasDuration "0.0"^^xsd:float ;
+    jams:hasFrequency "1"^^xsd:int ;
+    jams:hasPatternType "pitch-class-values" ;
+    jams:ofPattern <http://w3id.org/polifonia/resource/pattern/0_4_9_5_2_0> .
+
+<http://w3id.org/polifonia/resource/JAMSObservation/MaidenThatJiggedItInStyleThe26387/0_4_9_5_2_7@0.0> a jams:JAMSObservation,
+        jams:JAMSScoreObservation,
+        jams:ScorePatternOccurrence ;
+    rdfs:label [ ] ;
+    jams:hasDuration "0.0"^^xsd:float ;
+    jams:hasFrequency "3"^^xsd:int ;
+    jams:hasPatternType "pitch-class-values" ;
+    jams:ofPattern <http://w3id.org/polifonia/resource/pattern/0_4_9_5_2_7> .
+
+<http://w3id.org/polifonia/resource/JAMSObservation/MaidenThatJiggedItInStyleThe26387/0_5_2_0_0_5@0.0> a jams:JAMSObservation,
+        jams:JAMSScoreObservation,
+        jams:ScorePatternOccurrence ;
+    rdfs:label [ ] ;
+    jams:hasDuration "0.0"^^xsd:float ;
+    jams:hasFrequency "1"^^xsd:int ;
+    jams:hasPatternType "pitch-class-values" ;
+    jams:ofPattern <http://w3id.org/polifonia/resource/pattern/0_5_2_0_0_5> .
+
+<http://w3id.org/polifonia/resource/JAMSObservation/MaidenThatJiggedItInStyleThe26387/0_5_5_9_2_0@0.0> a jams:JAMSObservation,
+        jams:JAMSScoreObservation,
+        jams:ScorePatternOccurrence ;
+    rdfs:label [ ] ;
+    jams:hasDuration "0.0"^^xsd:float ;
+    jams:hasFrequency "2"^^xsd:int ;
+    jams:hasPatternType "pitch-class-values" ;
+    jams:ofPattern <http://w3id.org/polifonia/resource/pattern/0_5_5_9_2_0> .
+
+<http://w3id.org/polifonia/resource/JAMSObservation/MaidenThatJiggedItInStyleThe26387/0_7_2_10_5_5@0.0> a jams:JAMSObservation,
+        jams:JAMSScoreObservation,
+        jams:ScorePatternOccurrence ;
+    rdfs:label [ ] ;
+    jams:hasDuration "0.0"^^xsd:float ;
+    jams:hasFrequency "2"^^xsd:int ;
+    jams:hasPatternType "pitch-class-values" ;
+    jams:ofPattern <http://w3id.org/polifonia/resource/pattern/0_7_2_10_5_5> .
+
+<http://w3id.org/polifonia/resource/JAMSObservation/MaidenThatJiggedItInStyleThe26387/10_5_5_9_0_5@0.0> a jams:JAMSObservation,
+        jams:JAMSScoreObservation,
+        jams:ScorePatternOccurrence ;
+    rdfs:label [ ] ;
+    jams:hasDuration "0.0"^^xsd:float ;
+    jams:hasFrequency "2"^^xsd:int ;
+    jams:hasPatternType "pitch-class-values" ;
+    jams:ofPattern <http://w3id.org/polifonia/resource/pattern/10_5_5_9_0_5> .
+
+<http://w3id.org/polifonia/resource/JAMSObservation/MaidenThatJiggedItInStyleThe26387/2_0_0_5_5_9@0.0> a jams:JAMSObservation,
+        jams:JAMSScoreObservation,
+        jams:ScorePatternOccurrence ;
+    rdfs:label [ ] ;
+    jams:hasDuration "0.0"^^xsd:float ;
+    jams:hasFrequency "2"^^xsd:int ;
+    jams:hasPatternType "pitch-class-values" ;
+    jams:ofPattern <http://w3id.org/polifonia/resource/pattern/2_0_0_5_5_9> .
+
+<http://w3id.org/polifonia/resource/JAMSObservation/MaidenThatJiggedItInStyleThe26387/2_0_7_2_10_5@0.0> a jams:JAMSObservation,
+        jams:JAMSScoreObservation,
+        jams:ScorePatternOccurrence ;
+    rdfs:label [ ] ;
+    jams:hasDuration "0.0"^^xsd:float ;
+    jams:hasFrequency "2"^^xsd:int ;
+    jams:hasPatternType "pitch-class-values" ;
+    jams:ofPattern <http://w3id.org/polifonia/resource/pattern/2_0_7_2_10_5> .
+
+<http://w3id.org/polifonia/resource/JAMSObservation/MaidenThatJiggedItInStyleThe26387/2_10_5_5_9_0@0.0> a jams:JAMSObservation,
+        jams:JAMSScoreObservation,
+        jams:ScorePatternOccurrence ;
+    rdfs:label [ ] ;
+    jams:hasDuration "0.0"^^xsd:float ;
+    jams:hasFrequency "2"^^xsd:int ;
+    jams:hasPatternType "pitch-class-values" ;
+    jams:ofPattern <http://w3id.org/polifonia/resource/pattern/2_10_5_5_9_0> .
+
+<http://w3id.org/polifonia/resource/JAMSObservation/MaidenThatJiggedItInStyleThe26387/2_7_0_0_0_4@0.0> a jams:JAMSObservation,
+        jams:JAMSScoreObservation,
+        jams:ScorePatternOccurrence ;
+    rdfs:label [ ] ;
+    jams:hasDuration "0.0"^^xsd:float ;
+    jams:hasFrequency "3"^^xsd:int ;
+    jams:hasPatternType "pitch-class-values" ;
+    jams:ofPattern <http://w3id.org/polifonia/resource/pattern/2_7_0_0_0_4> .
+
+<http://w3id.org/polifonia/resource/JAMSObservation/MaidenThatJiggedItInStyleThe26387/4_9_5_2_0_0@0.0> a jams:JAMSObservation,
+        jams:JAMSScoreObservation,
+        jams:ScorePatternOccurrence ;
+    rdfs:label [ ] ;
+    jams:hasDuration "0.0"^^xsd:float ;
+    jams:hasFrequency "1"^^xsd:int ;
+    jams:hasPatternType "pitch-class-values" ;
+    jams:ofPattern <http://w3id.org/polifonia/resource/pattern/4_9_5_2_0_0> .
+
+<http://w3id.org/polifonia/resource/JAMSObservation/MaidenThatJiggedItInStyleThe26387/4_9_5_2_7_0@0.0> a jams:JAMSObservation,
+        jams:JAMSScoreObservation,
+        jams:ScorePatternOccurrence ;
+    rdfs:label [ ] ;
+    jams:hasDuration "0.0"^^xsd:float ;
+    jams:hasFrequency "3"^^xsd:int ;
+    jams:hasPatternType "pitch-class-values" ;
+    jams:ofPattern <http://w3id.org/polifonia/resource/pattern/4_9_5_2_7_0> .
+
+<http://w3id.org/polifonia/resource/JAMSObservation/MaidenThatJiggedItInStyleThe26387/5_2_0_0_5_5@0.0> a jams:JAMSObservation,
+        jams:JAMSScoreObservation,
+        jams:ScorePatternOccurrence ;
+    rdfs:label [ ] ;
+    jams:hasDuration "0.0"^^xsd:float ;
+    jams:hasFrequency "2"^^xsd:int ;
+    jams:hasPatternType "pitch-class-values" ;
+    jams:ofPattern <http://w3id.org/polifonia/resource/pattern/5_2_0_0_5_5> .
+
+<http://w3id.org/polifonia/resource/JAMSObservation/MaidenThatJiggedItInStyleThe26387/5_2_7_0_0_0@0.0> a jams:JAMSObservation,
+        jams:JAMSScoreObservation,
+        jams:ScorePatternOccurrence ;
+    rdfs:label [ ] ;
+    jams:hasDuration "0.0"^^xsd:float ;
+    jams:hasFrequency "3"^^xsd:int ;
+    jams:hasPatternType "pitch-class-values" ;
+    jams:ofPattern <http://w3id.org/polifonia/resource/pattern/5_2_7_0_0_0> .
+
+<http://w3id.org/polifonia/resource/JAMSObservation/MaidenThatJiggedItInStyleThe26387/5_5_9_0_5_2@0.0> a jams:JAMSObservation,
+        jams:JAMSScoreObservation,
+        jams:ScorePatternOccurrence ;
+    rdfs:label [ ] ;
+    jams:hasDuration "0.0"^^xsd:float ;
+    jams:hasFrequency "2"^^xsd:int ;
+    jams:hasPatternType "pitch-class-values" ;
+    jams:ofPattern <http://w3id.org/polifonia/resource/pattern/5_5_9_0_5_2> .
+
+<http://w3id.org/polifonia/resource/JAMSObservation/MaidenThatJiggedItInStyleThe26387/5_5_9_2_0_7@0.0> a jams:JAMSObservation,
+        jams:JAMSScoreObservation,
+        jams:ScorePatternOccurrence ;
+    rdfs:label [ ] ;
+    jams:hasDuration "0.0"^^xsd:float ;
+    jams:hasFrequency "2"^^xsd:int ;
+    jams:hasPatternType "pitch-class-values" ;
+    jams:ofPattern <http://w3id.org/polifonia/resource/pattern/5_5_9_2_0_7> .
+
+<http://w3id.org/polifonia/resource/JAMSObservation/MaidenThatJiggedItInStyleThe26387/5_9_0_5_2_0@0.0> a jams:JAMSObservation,
+        jams:JAMSScoreObservation,
+        jams:ScorePatternOccurrence ;
+    rdfs:label [ ] ;
+    jams:hasDuration "0.0"^^xsd:float ;
+    jams:hasFrequency "1"^^xsd:int ;
+    jams:hasPatternType "pitch-class-values" ;
+    jams:ofPattern <http://w3id.org/polifonia/resource/pattern/5_9_0_5_2_0> .
+
+<http://w3id.org/polifonia/resource/JAMSObservation/MaidenThatJiggedItInStyleThe26387/5_9_2_0_7_2@0.0> a jams:JAMSObservation,
+        jams:JAMSScoreObservation,
+        jams:ScorePatternOccurrence ;
+    rdfs:label [ ] ;
+    jams:hasDuration "0.0"^^xsd:float ;
+    jams:hasFrequency "2"^^xsd:int ;
+    jams:hasPatternType "pitch-class-values" ;
+    jams:ofPattern <http://w3id.org/polifonia/resource/pattern/5_9_2_0_7_2> .
+
+<http://w3id.org/polifonia/resource/JAMSObservation/MaidenThatJiggedItInStyleThe26387/7_0_0_0_4_9@0.0> a jams:JAMSObservation,
+        jams:JAMSScoreObservation,
+        jams:ScorePatternOccurrence ;
+    rdfs:label [ ] ;
+    jams:hasDuration "0.0"^^xsd:float ;
+    jams:hasFrequency "4"^^xsd:int ;
+    jams:hasPatternType "pitch-class-values" ;
+    jams:ofPattern <http://w3id.org/polifonia/resource/pattern/7_0_0_0_4_9> .
+
+<http://w3id.org/polifonia/resource/JAMSObservation/MaidenThatJiggedItInStyleThe26387/7_2_10_5_5_9@0.0> a jams:JAMSObservation,
+        jams:JAMSScoreObservation,
+        jams:ScorePatternOccurrence ;
+    rdfs:label [ ] ;
+    jams:hasDuration "0.0"^^xsd:float ;
+    jams:hasFrequency "2"^^xsd:int ;
+    jams:hasPatternType "pitch-class-values" ;
+    jams:ofPattern <http://w3id.org/polifonia/resource/pattern/7_2_10_5_5_9> .
+
+<http://w3id.org/polifonia/resource/JAMSObservation/MaidenThatJiggedItInStyleThe26387/9_0_5_2_0_0@0.0> a jams:JAMSObservation,
+        jams:JAMSScoreObservation,
+        jams:ScorePatternOccurrence ;
+    rdfs:label [ ] ;
+    jams:hasDuration "0.0"^^xsd:float ;
+    jams:hasFrequency "1"^^xsd:int ;
+    jams:hasPatternType "pitch-class-values" ;
+    jams:ofPattern <http://w3id.org/polifonia/resource/pattern/9_0_5_2_0_0> .
+
+<http://w3id.org/polifonia/resource/JAMSObservation/MaidenThatJiggedItInStyleThe26387/9_2_0_7_2_10@0.0> a jams:JAMSObservation,
+        jams:JAMSScoreObservation,
+        jams:ScorePatternOccurrence ;
+    rdfs:label [ ] ;
+    jams:hasDuration "0.0"^^xsd:float ;
+    jams:hasFrequency "2"^^xsd:int ;
+    jams:hasPatternType "pitch-class-values" ;
+    jams:ofPattern <http://w3id.org/polifonia/resource/pattern/9_2_0_7_2_10> .
+
+<http://w3id.org/polifonia/resource/JAMSObservation/MaidenThatJiggedItInStyleThe26387/9_5_2_0_0_5@0.0> a jams:JAMSObservation,
+        jams:JAMSScoreObservation,
+        jams:ScorePatternOccurrence ;
+    rdfs:label [ ] ;
+    jams:hasDuration "0.0"^^xsd:float ;
+    jams:hasFrequency "1"^^xsd:int ;
+    jams:hasPatternType "pitch-class-values" ;
+    jams:ofPattern <http://w3id.org/polifonia/resource/pattern/9_5_2_0_0_5> .
+
+<http://w3id.org/polifonia/resource/JAMSObservation/MaidenThatJiggedItInStyleThe26387/9_5_2_7_0_0@0.0> a jams:JAMSObservation,
+        jams:JAMSScoreObservation,
+        jams:ScorePatternOccurrence ;
+    rdfs:label [ ] ;
+    jams:hasDuration "0.0"^^xsd:float ;
+    jams:hasFrequency "3"^^xsd:int ;
+    jams:hasPatternType "pitch-class-values" ;
+    jams:ofPattern <http://w3id.org/polifonia/resource/pattern/9_5_2_7_0_0> .
+
+<http://w3id.org/polifonia/resource/JAMSObservation/MaidenThatJiggedItInStyleThe26387/9_7_0_0_0_4@0.0> a jams:JAMSObservation,
+        jams:JAMSScoreObservation,
+        jams:ScorePatternOccurrence ;
+    rdfs:label [ ] ;
+    jams:hasDuration "0.0"^^xsd:float ;
+    jams:hasFrequency "1"^^xsd:int ;
+    jams:hasPatternType "pitch-class-values" ;
+    jams:ofPattern <http://w3id.org/polifonia/resource/pattern/9_7_0_0_0_4> .
+
+<http://w3id.org/polifonia/resource/MusicalComposition/85c8abfc9b6d587e63980232065cf410f9533f9f> a mc:MusicalComposition ;
+    rdfs:label "MaidenThatJiggedItInStyleThe26387" ;
+    mc:title "MaidenThatJiggedItInStyleThe26387" ;
+    prov:wasDerivedFrom <http://w3id.org/polifonia/resource/JAMSFile/MaidenThatJiggedItInStyleThe26387.jams> .
+

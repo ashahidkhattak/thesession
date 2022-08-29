@@ -1,0 +1,521 @@
+@prefix core: <http://w3id.org/polifonia/ontology/core/> .
+@prefix jams: <http://w3id.org/polifonia/ontology/jams/> .
+@prefix mc: <http://w3id.org/polifonia/ontology/musical-composition/> .
+@prefix pon-resource: <http://w3id.org/polifonia/resource/> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+pon-resource:Agent%2Fannotator_local_id a core:Agent ;
+    rdfs:label "FONN-Tool" ;
+    jams:hasAnnotatorType pon-resource:annotator-program ;
+    jams:hasName "FONN-Tool" .
+
+<http://w3id.org/polifonia/resource/JAMSAnnotation/7323c9f322d33d626fbd5fb7dfbbec8c63264594> a jams:JAMSAnnotation,
+        jams:JAMSScoreAnnotation ;
+    jams:includesObservation <http://w3id.org/polifonia/resource/JAMSObservation/SirkkojenTanssi23683/0_0_0_3_7_3@0.0>,
+        <http://w3id.org/polifonia/resource/JAMSObservation/SirkkojenTanssi23683/0_0_10_8_10_10@0.0>,
+        <http://w3id.org/polifonia/resource/JAMSObservation/SirkkojenTanssi23683/0_0_11_2_0_7@0.0>,
+        <http://w3id.org/polifonia/resource/JAMSObservation/SirkkojenTanssi23683/0_0_3_7_3_8@0.0>,
+        <http://w3id.org/polifonia/resource/JAMSObservation/SirkkojenTanssi23683/0_10_8_10_10_8@0.0>,
+        <http://w3id.org/polifonia/resource/JAMSObservation/SirkkojenTanssi23683/0_11_2_0_7_6@0.0>,
+        <http://w3id.org/polifonia/resource/JAMSObservation/SirkkojenTanssi23683/0_3_7_3_8_5@0.0>,
+        <http://w3id.org/polifonia/resource/JAMSObservation/SirkkojenTanssi23683/0_3_7_7_0_0@0.0>,
+        <http://w3id.org/polifonia/resource/JAMSObservation/SirkkojenTanssi23683/0_7_6_9_7_11@0.0>,
+        <http://w3id.org/polifonia/resource/JAMSObservation/SirkkojenTanssi23683/10_10_8_7_11_2@0.0>,
+        <http://w3id.org/polifonia/resource/JAMSObservation/SirkkojenTanssi23683/10_8_10_10_8_7@0.0>,
+        <http://w3id.org/polifonia/resource/JAMSObservation/SirkkojenTanssi23683/10_8_7_11_2_0@0.0>,
+        <http://w3id.org/polifonia/resource/JAMSObservation/SirkkojenTanssi23683/11_0_0_10_8_10@0.0>,
+        <http://w3id.org/polifonia/resource/JAMSObservation/SirkkojenTanssi23683/11_0_0_11_2_0@0.0>,
+        <http://w3id.org/polifonia/resource/JAMSObservation/SirkkojenTanssi23683/11_2_0_3_7_7@0.0>,
+        <http://w3id.org/polifonia/resource/JAMSObservation/SirkkojenTanssi23683/11_2_0_7_6_9@0.0>,
+        <http://w3id.org/polifonia/resource/JAMSObservation/SirkkojenTanssi23683/2_0_3_7_7_0@0.0>,
+        <http://w3id.org/polifonia/resource/JAMSObservation/SirkkojenTanssi23683/2_0_7_6_9_7@0.0>,
+        <http://w3id.org/polifonia/resource/JAMSObservation/SirkkojenTanssi23683/2_11_0_0_0_3@0.0>,
+        <http://w3id.org/polifonia/resource/JAMSObservation/SirkkojenTanssi23683/2_11_0_0_11_2@0.0>,
+        <http://w3id.org/polifonia/resource/JAMSObservation/SirkkojenTanssi23683/2_3_7_7_0_3@0.0>,
+        <http://w3id.org/polifonia/resource/JAMSObservation/SirkkojenTanssi23683/3_2_11_0_0_0@0.0>,
+        <http://w3id.org/polifonia/resource/JAMSObservation/SirkkojenTanssi23683/3_2_3_7_7_0@0.0>,
+        <http://w3id.org/polifonia/resource/JAMSObservation/SirkkojenTanssi23683/3_7_3_8_5_7@0.0>,
+        <http://w3id.org/polifonia/resource/JAMSObservation/SirkkojenTanssi23683/3_7_7_0_0_11@0.0>,
+        <http://w3id.org/polifonia/resource/JAMSObservation/SirkkojenTanssi23683/3_7_7_0_3_7@0.0>,
+        <http://w3id.org/polifonia/resource/JAMSObservation/SirkkojenTanssi23683/3_8_5_7_7_7@0.0>,
+        <http://w3id.org/polifonia/resource/JAMSObservation/SirkkojenTanssi23683/5_3_2_11_0_0@0.0>,
+        <http://w3id.org/polifonia/resource/JAMSObservation/SirkkojenTanssi23683/5_3_2_3_7_7@0.0>,
+        <http://w3id.org/polifonia/resource/JAMSObservation/SirkkojenTanssi23683/5_5_3_2_11_0@0.0>,
+        <http://w3id.org/polifonia/resource/JAMSObservation/SirkkojenTanssi23683/5_5_3_2_3_7@0.0>,
+        <http://w3id.org/polifonia/resource/JAMSObservation/SirkkojenTanssi23683/5_7_7_7_5_5@0.0>,
+        <http://w3id.org/polifonia/resource/JAMSObservation/SirkkojenTanssi23683/6_9_7_11_0_0@0.0>,
+        <http://w3id.org/polifonia/resource/JAMSObservation/SirkkojenTanssi23683/7_0_0_11_2_0@0.0>,
+        <http://w3id.org/polifonia/resource/JAMSObservation/SirkkojenTanssi23683/7_0_3_7_3_8@0.0>,
+        <http://w3id.org/polifonia/resource/JAMSObservation/SirkkojenTanssi23683/7_11_0_0_10_8@0.0>,
+        <http://w3id.org/polifonia/resource/JAMSObservation/SirkkojenTanssi23683/7_11_2_0_3_7@0.0>,
+        <http://w3id.org/polifonia/resource/JAMSObservation/SirkkojenTanssi23683/7_3_8_5_7_7@0.0>,
+        <http://w3id.org/polifonia/resource/JAMSObservation/SirkkojenTanssi23683/7_5_5_3_2_11@0.0>,
+        <http://w3id.org/polifonia/resource/JAMSObservation/SirkkojenTanssi23683/7_5_5_3_2_3@0.0>,
+        <http://w3id.org/polifonia/resource/JAMSObservation/SirkkojenTanssi23683/7_6_9_7_11_0@0.0>,
+        <http://w3id.org/polifonia/resource/JAMSObservation/SirkkojenTanssi23683/7_7_0_0_11_2@0.0>,
+        <http://w3id.org/polifonia/resource/JAMSObservation/SirkkojenTanssi23683/7_7_0_3_7_3@0.0>,
+        <http://w3id.org/polifonia/resource/JAMSObservation/SirkkojenTanssi23683/7_7_5_5_3_2@0.0>,
+        <http://w3id.org/polifonia/resource/JAMSObservation/SirkkojenTanssi23683/7_7_7_5_5_3@0.0>,
+        <http://w3id.org/polifonia/resource/JAMSObservation/SirkkojenTanssi23683/8_10_10_8_7_11@0.0>,
+        <http://w3id.org/polifonia/resource/JAMSObservation/SirkkojenTanssi23683/8_5_7_7_7_5@0.0>,
+        <http://w3id.org/polifonia/resource/JAMSObservation/SirkkojenTanssi23683/8_7_11_2_0_3@0.0>,
+        <http://w3id.org/polifonia/resource/JAMSObservation/SirkkojenTanssi23683/9_7_11_0_0_10@0.0> ;
+    jams:isJAMSAnnotationOf <http://w3id.org/polifonia/resource/MusicalComposition/7323c9f322d33d626fbd5fb7dfbbec8c63264594> .
+
+<http://w3id.org/polifonia/resource/Score/song_local_id> jams:hasJAMSAnnotation <http://w3id.org/polifonia/resource/MusicalComposition/7323c9f322d33d626fbd5fb7dfbbec8c63264594> .
+
+<http://w3id.org/polifonia/resource/JAMSFile/SirkkojenTanssi23683.jams> a jams:JAMSFile ;
+    jams:identifiers [ ] ;
+    jams:jamsVersion "0.3.4" ;
+    jams:release "" ;
+    prov:wasDerivedFrom "The Session" ;
+    prov:wasMemberOf <https://github.com/ashahidkhattak/thesession> .
+
+<http://w3id.org/polifonia/resource/JAMSObservation/SirkkojenTanssi23683/0_0_0_3_7_3@0.0> a jams:JAMSObservation,
+        jams:JAMSScoreObservation,
+        jams:ScorePatternOccurrence ;
+    rdfs:label [ ] ;
+    jams:hasDuration "0.0"^^xsd:float ;
+    jams:hasFrequency "1"^^xsd:int ;
+    jams:hasPatternType "pitch-class-values" ;
+    jams:ofPattern <http://w3id.org/polifonia/resource/pattern/0_0_0_3_7_3> .
+
+<http://w3id.org/polifonia/resource/JAMSObservation/SirkkojenTanssi23683/0_0_10_8_10_10@0.0> a jams:JAMSObservation,
+        jams:JAMSScoreObservation,
+        jams:ScorePatternOccurrence ;
+    rdfs:label [ ] ;
+    jams:hasDuration "0.0"^^xsd:float ;
+    jams:hasFrequency "2"^^xsd:int ;
+    jams:hasPatternType "pitch-class-values" ;
+    jams:ofPattern <http://w3id.org/polifonia/resource/pattern/0_0_10_8_10_10> .
+
+<http://w3id.org/polifonia/resource/JAMSObservation/SirkkojenTanssi23683/0_0_11_2_0_7@0.0> a jams:JAMSObservation,
+        jams:JAMSScoreObservation,
+        jams:ScorePatternOccurrence ;
+    rdfs:label [ ] ;
+    jams:hasDuration "0.0"^^xsd:float ;
+    jams:hasFrequency "2"^^xsd:int ;
+    jams:hasPatternType "pitch-class-values" ;
+    jams:ofPattern <http://w3id.org/polifonia/resource/pattern/0_0_11_2_0_7> .
+
+<http://w3id.org/polifonia/resource/JAMSObservation/SirkkojenTanssi23683/0_0_3_7_3_8@0.0> a jams:JAMSObservation,
+        jams:JAMSScoreObservation,
+        jams:ScorePatternOccurrence ;
+    rdfs:label [ ] ;
+    jams:hasDuration "0.0"^^xsd:float ;
+    jams:hasFrequency "1"^^xsd:int ;
+    jams:hasPatternType "pitch-class-values" ;
+    jams:ofPattern <http://w3id.org/polifonia/resource/pattern/0_0_3_7_3_8> .
+
+<http://w3id.org/polifonia/resource/JAMSObservation/SirkkojenTanssi23683/0_10_8_10_10_8@0.0> a jams:JAMSObservation,
+        jams:JAMSScoreObservation,
+        jams:ScorePatternOccurrence ;
+    rdfs:label [ ] ;
+    jams:hasDuration "0.0"^^xsd:float ;
+    jams:hasFrequency "2"^^xsd:int ;
+    jams:hasPatternType "pitch-class-values" ;
+    jams:ofPattern <http://w3id.org/polifonia/resource/pattern/0_10_8_10_10_8> .
+
+<http://w3id.org/polifonia/resource/JAMSObservation/SirkkojenTanssi23683/0_11_2_0_7_6@0.0> a jams:JAMSObservation,
+        jams:JAMSScoreObservation,
+        jams:ScorePatternOccurrence ;
+    rdfs:label [ ] ;
+    jams:hasDuration "0.0"^^xsd:float ;
+    jams:hasFrequency "2"^^xsd:int ;
+    jams:hasPatternType "pitch-class-values" ;
+    jams:ofPattern <http://w3id.org/polifonia/resource/pattern/0_11_2_0_7_6> .
+
+<http://w3id.org/polifonia/resource/JAMSObservation/SirkkojenTanssi23683/0_3_7_3_8_5@0.0> a jams:JAMSObservation,
+        jams:JAMSScoreObservation,
+        jams:ScorePatternOccurrence ;
+    rdfs:label [ ] ;
+    jams:hasDuration "0.0"^^xsd:float ;
+    jams:hasFrequency "4"^^xsd:int ;
+    jams:hasPatternType "pitch-class-values" ;
+    jams:ofPattern <http://w3id.org/polifonia/resource/pattern/0_3_7_3_8_5> .
+
+<http://w3id.org/polifonia/resource/JAMSObservation/SirkkojenTanssi23683/0_3_7_7_0_0@0.0> a jams:JAMSObservation,
+        jams:JAMSScoreObservation,
+        jams:ScorePatternOccurrence ;
+    rdfs:label [ ] ;
+    jams:hasDuration "0.0"^^xsd:float ;
+    jams:hasFrequency "2"^^xsd:int ;
+    jams:hasPatternType "pitch-class-values" ;
+    jams:ofPattern <http://w3id.org/polifonia/resource/pattern/0_3_7_7_0_0> .
+
+<http://w3id.org/polifonia/resource/JAMSObservation/SirkkojenTanssi23683/0_7_6_9_7_11@0.0> a jams:JAMSObservation,
+        jams:JAMSScoreObservation,
+        jams:ScorePatternOccurrence ;
+    rdfs:label [ ] ;
+    jams:hasDuration "0.0"^^xsd:float ;
+    jams:hasFrequency "2"^^xsd:int ;
+    jams:hasPatternType "pitch-class-values" ;
+    jams:ofPattern <http://w3id.org/polifonia/resource/pattern/0_7_6_9_7_11> .
+
+<http://w3id.org/polifonia/resource/JAMSObservation/SirkkojenTanssi23683/10_10_8_7_11_2@0.0> a jams:JAMSObservation,
+        jams:JAMSScoreObservation,
+        jams:ScorePatternOccurrence ;
+    rdfs:label [ ] ;
+    jams:hasDuration "0.0"^^xsd:float ;
+    jams:hasFrequency "2"^^xsd:int ;
+    jams:hasPatternType "pitch-class-values" ;
+    jams:ofPattern <http://w3id.org/polifonia/resource/pattern/10_10_8_7_11_2> .
+
+<http://w3id.org/polifonia/resource/JAMSObservation/SirkkojenTanssi23683/10_8_10_10_8_7@0.0> a jams:JAMSObservation,
+        jams:JAMSScoreObservation,
+        jams:ScorePatternOccurrence ;
+    rdfs:label [ ] ;
+    jams:hasDuration "0.0"^^xsd:float ;
+    jams:hasFrequency "2"^^xsd:int ;
+    jams:hasPatternType "pitch-class-values" ;
+    jams:ofPattern <http://w3id.org/polifonia/resource/pattern/10_8_10_10_8_7> .
+
+<http://w3id.org/polifonia/resource/JAMSObservation/SirkkojenTanssi23683/10_8_7_11_2_0@0.0> a jams:JAMSObservation,
+        jams:JAMSScoreObservation,
+        jams:ScorePatternOccurrence ;
+    rdfs:label [ ] ;
+    jams:hasDuration "0.0"^^xsd:float ;
+    jams:hasFrequency "2"^^xsd:int ;
+    jams:hasPatternType "pitch-class-values" ;
+    jams:ofPattern <http://w3id.org/polifonia/resource/pattern/10_8_7_11_2_0> .
+
+<http://w3id.org/polifonia/resource/JAMSObservation/SirkkojenTanssi23683/11_0_0_10_8_10@0.0> a jams:JAMSObservation,
+        jams:JAMSScoreObservation,
+        jams:ScorePatternOccurrence ;
+    rdfs:label [ ] ;
+    jams:hasDuration "0.0"^^xsd:float ;
+    jams:hasFrequency "2"^^xsd:int ;
+    jams:hasPatternType "pitch-class-values" ;
+    jams:ofPattern <http://w3id.org/polifonia/resource/pattern/11_0_0_10_8_10> .
+
+<http://w3id.org/polifonia/resource/JAMSObservation/SirkkojenTanssi23683/11_0_0_11_2_0@0.0> a jams:JAMSObservation,
+        jams:JAMSScoreObservation,
+        jams:ScorePatternOccurrence ;
+    rdfs:label [ ] ;
+    jams:hasDuration "0.0"^^xsd:float ;
+    jams:hasFrequency "1"^^xsd:int ;
+    jams:hasPatternType "pitch-class-values" ;
+    jams:ofPattern <http://w3id.org/polifonia/resource/pattern/11_0_0_11_2_0> .
+
+<http://w3id.org/polifonia/resource/JAMSObservation/SirkkojenTanssi23683/11_2_0_3_7_7@0.0> a jams:JAMSObservation,
+        jams:JAMSScoreObservation,
+        jams:ScorePatternOccurrence ;
+    rdfs:label [ ] ;
+    jams:hasDuration "0.0"^^xsd:float ;
+    jams:hasFrequency "2"^^xsd:int ;
+    jams:hasPatternType "pitch-class-values" ;
+    jams:ofPattern <http://w3id.org/polifonia/resource/pattern/11_2_0_3_7_7> .
+
+<http://w3id.org/polifonia/resource/JAMSObservation/SirkkojenTanssi23683/11_2_0_7_6_9@0.0> a jams:JAMSObservation,
+        jams:JAMSScoreObservation,
+        jams:ScorePatternOccurrence ;
+    rdfs:label [ ] ;
+    jams:hasDuration "0.0"^^xsd:float ;
+    jams:hasFrequency "2"^^xsd:int ;
+    jams:hasPatternType "pitch-class-values" ;
+    jams:ofPattern <http://w3id.org/polifonia/resource/pattern/11_2_0_7_6_9> .
+
+<http://w3id.org/polifonia/resource/JAMSObservation/SirkkojenTanssi23683/2_0_3_7_7_0@0.0> a jams:JAMSObservation,
+        jams:JAMSScoreObservation,
+        jams:ScorePatternOccurrence ;
+    rdfs:label [ ] ;
+    jams:hasDuration "0.0"^^xsd:float ;
+    jams:hasFrequency "2"^^xsd:int ;
+    jams:hasPatternType "pitch-class-values" ;
+    jams:ofPattern <http://w3id.org/polifonia/resource/pattern/2_0_3_7_7_0> .
+
+<http://w3id.org/polifonia/resource/JAMSObservation/SirkkojenTanssi23683/2_0_7_6_9_7@0.0> a jams:JAMSObservation,
+        jams:JAMSScoreObservation,
+        jams:ScorePatternOccurrence ;
+    rdfs:label [ ] ;
+    jams:hasDuration "0.0"^^xsd:float ;
+    jams:hasFrequency "2"^^xsd:int ;
+    jams:hasPatternType "pitch-class-values" ;
+    jams:ofPattern <http://w3id.org/polifonia/resource/pattern/2_0_7_6_9_7> .
+
+<http://w3id.org/polifonia/resource/JAMSObservation/SirkkojenTanssi23683/2_11_0_0_0_3@0.0> a jams:JAMSObservation,
+        jams:JAMSScoreObservation,
+        jams:ScorePatternOccurrence ;
+    rdfs:label [ ] ;
+    jams:hasDuration "0.0"^^xsd:float ;
+    jams:hasFrequency "1"^^xsd:int ;
+    jams:hasPatternType "pitch-class-values" ;
+    jams:ofPattern <http://w3id.org/polifonia/resource/pattern/2_11_0_0_0_3> .
+
+<http://w3id.org/polifonia/resource/JAMSObservation/SirkkojenTanssi23683/2_11_0_0_11_2@0.0> a jams:JAMSObservation,
+        jams:JAMSScoreObservation,
+        jams:ScorePatternOccurrence ;
+    rdfs:label [ ] ;
+    jams:hasDuration "0.0"^^xsd:float ;
+    jams:hasFrequency "1"^^xsd:int ;
+    jams:hasPatternType "pitch-class-values" ;
+    jams:ofPattern <http://w3id.org/polifonia/resource/pattern/2_11_0_0_11_2> .
+
+<http://w3id.org/polifonia/resource/JAMSObservation/SirkkojenTanssi23683/2_3_7_7_0_3@0.0> a jams:JAMSObservation,
+        jams:JAMSScoreObservation,
+        jams:ScorePatternOccurrence ;
+    rdfs:label [ ] ;
+    jams:hasDuration "0.0"^^xsd:float ;
+    jams:hasFrequency "2"^^xsd:int ;
+    jams:hasPatternType "pitch-class-values" ;
+    jams:ofPattern <http://w3id.org/polifonia/resource/pattern/2_3_7_7_0_3> .
+
+<http://w3id.org/polifonia/resource/JAMSObservation/SirkkojenTanssi23683/3_2_11_0_0_0@0.0> a jams:JAMSObservation,
+        jams:JAMSScoreObservation,
+        jams:ScorePatternOccurrence ;
+    rdfs:label [ ] ;
+    jams:hasDuration "0.0"^^xsd:float ;
+    jams:hasFrequency "1"^^xsd:int ;
+    jams:hasPatternType "pitch-class-values" ;
+    jams:ofPattern <http://w3id.org/polifonia/resource/pattern/3_2_11_0_0_0> .
+
+<http://w3id.org/polifonia/resource/JAMSObservation/SirkkojenTanssi23683/3_2_3_7_7_0@0.0> a jams:JAMSObservation,
+        jams:JAMSScoreObservation,
+        jams:ScorePatternOccurrence ;
+    rdfs:label [ ] ;
+    jams:hasDuration "0.0"^^xsd:float ;
+    jams:hasFrequency "2"^^xsd:int ;
+    jams:hasPatternType "pitch-class-values" ;
+    jams:ofPattern <http://w3id.org/polifonia/resource/pattern/3_2_3_7_7_0> .
+
+<http://w3id.org/polifonia/resource/JAMSObservation/SirkkojenTanssi23683/3_7_3_8_5_7@0.0> a jams:JAMSObservation,
+        jams:JAMSScoreObservation,
+        jams:ScorePatternOccurrence ;
+    rdfs:label [ ] ;
+    jams:hasDuration "0.0"^^xsd:float ;
+    jams:hasFrequency "4"^^xsd:int ;
+    jams:hasPatternType "pitch-class-values" ;
+    jams:ofPattern <http://w3id.org/polifonia/resource/pattern/3_7_3_8_5_7> .
+
+<http://w3id.org/polifonia/resource/JAMSObservation/SirkkojenTanssi23683/3_7_7_0_0_11@0.0> a jams:JAMSObservation,
+        jams:JAMSScoreObservation,
+        jams:ScorePatternOccurrence ;
+    rdfs:label [ ] ;
+    jams:hasDuration "0.0"^^xsd:float ;
+    jams:hasFrequency "1"^^xsd:int ;
+    jams:hasPatternType "pitch-class-values" ;
+    jams:ofPattern <http://w3id.org/polifonia/resource/pattern/3_7_7_0_0_11> .
+
+<http://w3id.org/polifonia/resource/JAMSObservation/SirkkojenTanssi23683/3_7_7_0_3_7@0.0> a jams:JAMSObservation,
+        jams:JAMSScoreObservation,
+        jams:ScorePatternOccurrence ;
+    rdfs:label [ ] ;
+    jams:hasDuration "0.0"^^xsd:float ;
+    jams:hasFrequency "2"^^xsd:int ;
+    jams:hasPatternType "pitch-class-values" ;
+    jams:ofPattern <http://w3id.org/polifonia/resource/pattern/3_7_7_0_3_7> .
+
+<http://w3id.org/polifonia/resource/JAMSObservation/SirkkojenTanssi23683/3_8_5_7_7_7@0.0> a jams:JAMSObservation,
+        jams:JAMSScoreObservation,
+        jams:ScorePatternOccurrence ;
+    rdfs:label [ ] ;
+    jams:hasDuration "0.0"^^xsd:float ;
+    jams:hasFrequency "4"^^xsd:int ;
+    jams:hasPatternType "pitch-class-values" ;
+    jams:ofPattern <http://w3id.org/polifonia/resource/pattern/3_8_5_7_7_7> .
+
+<http://w3id.org/polifonia/resource/JAMSObservation/SirkkojenTanssi23683/5_3_2_11_0_0@0.0> a jams:JAMSObservation,
+        jams:JAMSScoreObservation,
+        jams:ScorePatternOccurrence ;
+    rdfs:label [ ] ;
+    jams:hasDuration "0.0"^^xsd:float ;
+    jams:hasFrequency "2"^^xsd:int ;
+    jams:hasPatternType "pitch-class-values" ;
+    jams:ofPattern <http://w3id.org/polifonia/resource/pattern/5_3_2_11_0_0> .
+
+<http://w3id.org/polifonia/resource/JAMSObservation/SirkkojenTanssi23683/5_3_2_3_7_7@0.0> a jams:JAMSObservation,
+        jams:JAMSScoreObservation,
+        jams:ScorePatternOccurrence ;
+    rdfs:label [ ] ;
+    jams:hasDuration "0.0"^^xsd:float ;
+    jams:hasFrequency "2"^^xsd:int ;
+    jams:hasPatternType "pitch-class-values" ;
+    jams:ofPattern <http://w3id.org/polifonia/resource/pattern/5_3_2_3_7_7> .
+
+<http://w3id.org/polifonia/resource/JAMSObservation/SirkkojenTanssi23683/5_5_3_2_11_0@0.0> a jams:JAMSObservation,
+        jams:JAMSScoreObservation,
+        jams:ScorePatternOccurrence ;
+    rdfs:label [ ] ;
+    jams:hasDuration "0.0"^^xsd:float ;
+    jams:hasFrequency "2"^^xsd:int ;
+    jams:hasPatternType "pitch-class-values" ;
+    jams:ofPattern <http://w3id.org/polifonia/resource/pattern/5_5_3_2_11_0> .
+
+<http://w3id.org/polifonia/resource/JAMSObservation/SirkkojenTanssi23683/5_5_3_2_3_7@0.0> a jams:JAMSObservation,
+        jams:JAMSScoreObservation,
+        jams:ScorePatternOccurrence ;
+    rdfs:label [ ] ;
+    jams:hasDuration "0.0"^^xsd:float ;
+    jams:hasFrequency "2"^^xsd:int ;
+    jams:hasPatternType "pitch-class-values" ;
+    jams:ofPattern <http://w3id.org/polifonia/resource/pattern/5_5_3_2_3_7> .
+
+<http://w3id.org/polifonia/resource/JAMSObservation/SirkkojenTanssi23683/5_7_7_7_5_5@0.0> a jams:JAMSObservation,
+        jams:JAMSScoreObservation,
+        jams:ScorePatternOccurrence ;
+    rdfs:label [ ] ;
+    jams:hasDuration "0.0"^^xsd:float ;
+    jams:hasFrequency "4"^^xsd:int ;
+    jams:hasPatternType "pitch-class-values" ;
+    jams:ofPattern <http://w3id.org/polifonia/resource/pattern/5_7_7_7_5_5> .
+
+<http://w3id.org/polifonia/resource/JAMSObservation/SirkkojenTanssi23683/6_9_7_11_0_0@0.0> a jams:JAMSObservation,
+        jams:JAMSScoreObservation,
+        jams:ScorePatternOccurrence ;
+    rdfs:label [ ] ;
+    jams:hasDuration "0.0"^^xsd:float ;
+    jams:hasFrequency "2"^^xsd:int ;
+    jams:hasPatternType "pitch-class-values" ;
+    jams:ofPattern <http://w3id.org/polifonia/resource/pattern/6_9_7_11_0_0> .
+
+<http://w3id.org/polifonia/resource/JAMSObservation/SirkkojenTanssi23683/7_0_0_11_2_0@0.0> a jams:JAMSObservation,
+        jams:JAMSScoreObservation,
+        jams:ScorePatternOccurrence ;
+    rdfs:label [ ] ;
+    jams:hasDuration "0.0"^^xsd:float ;
+    jams:hasFrequency "1"^^xsd:int ;
+    jams:hasPatternType "pitch-class-values" ;
+    jams:ofPattern <http://w3id.org/polifonia/resource/pattern/7_0_0_11_2_0> .
+
+<http://w3id.org/polifonia/resource/JAMSObservation/SirkkojenTanssi23683/7_0_3_7_3_8@0.0> a jams:JAMSObservation,
+        jams:JAMSScoreObservation,
+        jams:ScorePatternOccurrence ;
+    rdfs:label [ ] ;
+    jams:hasDuration "0.0"^^xsd:float ;
+    jams:hasFrequency "2"^^xsd:int ;
+    jams:hasPatternType "pitch-class-values" ;
+    jams:ofPattern <http://w3id.org/polifonia/resource/pattern/7_0_3_7_3_8> .
+
+<http://w3id.org/polifonia/resource/JAMSObservation/SirkkojenTanssi23683/7_11_0_0_10_8@0.0> a jams:JAMSObservation,
+        jams:JAMSScoreObservation,
+        jams:ScorePatternOccurrence ;
+    rdfs:label [ ] ;
+    jams:hasDuration "0.0"^^xsd:float ;
+    jams:hasFrequency "2"^^xsd:int ;
+    jams:hasPatternType "pitch-class-values" ;
+    jams:ofPattern <http://w3id.org/polifonia/resource/pattern/7_11_0_0_10_8> .
+
+<http://w3id.org/polifonia/resource/JAMSObservation/SirkkojenTanssi23683/7_11_2_0_3_7@0.0> a jams:JAMSObservation,
+        jams:JAMSScoreObservation,
+        jams:ScorePatternOccurrence ;
+    rdfs:label [ ] ;
+    jams:hasDuration "0.0"^^xsd:float ;
+    jams:hasFrequency "2"^^xsd:int ;
+    jams:hasPatternType "pitch-class-values" ;
+    jams:ofPattern <http://w3id.org/polifonia/resource/pattern/7_11_2_0_3_7> .
+
+<http://w3id.org/polifonia/resource/JAMSObservation/SirkkojenTanssi23683/7_3_8_5_7_7@0.0> a jams:JAMSObservation,
+        jams:JAMSScoreObservation,
+        jams:ScorePatternOccurrence ;
+    rdfs:label [ ] ;
+    jams:hasDuration "0.0"^^xsd:float ;
+    jams:hasFrequency "4"^^xsd:int ;
+    jams:hasPatternType "pitch-class-values" ;
+    jams:ofPattern <http://w3id.org/polifonia/resource/pattern/7_3_8_5_7_7> .
+
+<http://w3id.org/polifonia/resource/JAMSObservation/SirkkojenTanssi23683/7_5_5_3_2_11@0.0> a jams:JAMSObservation,
+        jams:JAMSScoreObservation,
+        jams:ScorePatternOccurrence ;
+    rdfs:label [ ] ;
+    jams:hasDuration "0.0"^^xsd:float ;
+    jams:hasFrequency "2"^^xsd:int ;
+    jams:hasPatternType "pitch-class-values" ;
+    jams:ofPattern <http://w3id.org/polifonia/resource/pattern/7_5_5_3_2_11> .
+
+<http://w3id.org/polifonia/resource/JAMSObservation/SirkkojenTanssi23683/7_5_5_3_2_3@0.0> a jams:JAMSObservation,
+        jams:JAMSScoreObservation,
+        jams:ScorePatternOccurrence ;
+    rdfs:label [ ] ;
+    jams:hasDuration "0.0"^^xsd:float ;
+    jams:hasFrequency "2"^^xsd:int ;
+    jams:hasPatternType "pitch-class-values" ;
+    jams:ofPattern <http://w3id.org/polifonia/resource/pattern/7_5_5_3_2_3> .
+
+<http://w3id.org/polifonia/resource/JAMSObservation/SirkkojenTanssi23683/7_6_9_7_11_0@0.0> a jams:JAMSObservation,
+        jams:JAMSScoreObservation,
+        jams:ScorePatternOccurrence ;
+    rdfs:label [ ] ;
+    jams:hasDuration "0.0"^^xsd:float ;
+    jams:hasFrequency "2"^^xsd:int ;
+    jams:hasPatternType "pitch-class-values" ;
+    jams:ofPattern <http://w3id.org/polifonia/resource/pattern/7_6_9_7_11_0> .
+
+<http://w3id.org/polifonia/resource/JAMSObservation/SirkkojenTanssi23683/7_7_0_0_11_2@0.0> a jams:JAMSObservation,
+        jams:JAMSScoreObservation,
+        jams:ScorePatternOccurrence ;
+    rdfs:label [ ] ;
+    jams:hasDuration "0.0"^^xsd:float ;
+    jams:hasFrequency "1"^^xsd:int ;
+    jams:hasPatternType "pitch-class-values" ;
+    jams:ofPattern <http://w3id.org/polifonia/resource/pattern/7_7_0_0_11_2> .
+
+<http://w3id.org/polifonia/resource/JAMSObservation/SirkkojenTanssi23683/7_7_0_3_7_3@0.0> a jams:JAMSObservation,
+        jams:JAMSScoreObservation,
+        jams:ScorePatternOccurrence ;
+    rdfs:label [ ] ;
+    jams:hasDuration "0.0"^^xsd:float ;
+    jams:hasFrequency "2"^^xsd:int ;
+    jams:hasPatternType "pitch-class-values" ;
+    jams:ofPattern <http://w3id.org/polifonia/resource/pattern/7_7_0_3_7_3> .
+
+<http://w3id.org/polifonia/resource/JAMSObservation/SirkkojenTanssi23683/7_7_5_5_3_2@0.0> a jams:JAMSObservation,
+        jams:JAMSScoreObservation,
+        jams:ScorePatternOccurrence ;
+    rdfs:label [ ] ;
+    jams:hasDuration "0.0"^^xsd:float ;
+    jams:hasFrequency "4"^^xsd:int ;
+    jams:hasPatternType "pitch-class-values" ;
+    jams:ofPattern <http://w3id.org/polifonia/resource/pattern/7_7_5_5_3_2> .
+
+<http://w3id.org/polifonia/resource/JAMSObservation/SirkkojenTanssi23683/7_7_7_5_5_3@0.0> a jams:JAMSObservation,
+        jams:JAMSScoreObservation,
+        jams:ScorePatternOccurrence ;
+    rdfs:label [ ] ;
+    jams:hasDuration "0.0"^^xsd:float ;
+    jams:hasFrequency "4"^^xsd:int ;
+    jams:hasPatternType "pitch-class-values" ;
+    jams:ofPattern <http://w3id.org/polifonia/resource/pattern/7_7_7_5_5_3> .
+
+<http://w3id.org/polifonia/resource/JAMSObservation/SirkkojenTanssi23683/8_10_10_8_7_11@0.0> a jams:JAMSObservation,
+        jams:JAMSScoreObservation,
+        jams:ScorePatternOccurrence ;
+    rdfs:label [ ] ;
+    jams:hasDuration "0.0"^^xsd:float ;
+    jams:hasFrequency "2"^^xsd:int ;
+    jams:hasPatternType "pitch-class-values" ;
+    jams:ofPattern <http://w3id.org/polifonia/resource/pattern/8_10_10_8_7_11> .
+
+<http://w3id.org/polifonia/resource/JAMSObservation/SirkkojenTanssi23683/8_5_7_7_7_5@0.0> a jams:JAMSObservation,
+        jams:JAMSScoreObservation,
+        jams:ScorePatternOccurrence ;
+    rdfs:label [ ] ;
+    jams:hasDuration "0.0"^^xsd:float ;
+    jams:hasFrequency "4"^^xsd:int ;
+    jams:hasPatternType "pitch-class-values" ;
+    jams:ofPattern <http://w3id.org/polifonia/resource/pattern/8_5_7_7_7_5> .
+
+<http://w3id.org/polifonia/resource/JAMSObservation/SirkkojenTanssi23683/8_7_11_2_0_3@0.0> a jams:JAMSObservation,
+        jams:JAMSScoreObservation,
+        jams:ScorePatternOccurrence ;
+    rdfs:label [ ] ;
+    jams:hasDuration "0.0"^^xsd:float ;
+    jams:hasFrequency "2"^^xsd:int ;
+    jams:hasPatternType "pitch-class-values" ;
+    jams:ofPattern <http://w3id.org/polifonia/resource/pattern/8_7_11_2_0_3> .
+
+<http://w3id.org/polifonia/resource/JAMSObservation/SirkkojenTanssi23683/9_7_11_0_0_10@0.0> a jams:JAMSObservation,
+        jams:JAMSScoreObservation,
+        jams:ScorePatternOccurrence ;
+    rdfs:label [ ] ;
+    jams:hasDuration "0.0"^^xsd:float ;
+    jams:hasFrequency "2"^^xsd:int ;
+    jams:hasPatternType "pitch-class-values" ;
+    jams:ofPattern <http://w3id.org/polifonia/resource/pattern/9_7_11_0_0_10> .
+
+<http://w3id.org/polifonia/resource/MusicalComposition/7323c9f322d33d626fbd5fb7dfbbec8c63264594> a mc:MusicalComposition ;
+    rdfs:label "SirkkojenTanssi23683" ;
+    mc:title "SirkkojenTanssi23683" ;
+    prov:wasDerivedFrom <http://w3id.org/polifonia/resource/JAMSFile/SirkkojenTanssi23683.jams> .
+

@@ -1,0 +1,221 @@
+@prefix core: <http://w3id.org/polifonia/ontology/core/> .
+@prefix jams: <http://w3id.org/polifonia/ontology/jams/> .
+@prefix mc: <http://w3id.org/polifonia/ontology/musical-composition/> .
+@prefix pon-resource: <http://w3id.org/polifonia/resource/> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+pon-resource:Agent%2Fannotator_local_id a core:Agent ;
+    rdfs:label "FONN-Tool" ;
+    jams:hasAnnotatorType pon-resource:annotator-program ;
+    jams:hasName "FONN-Tool" .
+
+<http://w3id.org/polifonia/resource/JAMSAnnotation/c12b6867f946e5d5d0309572d69f9fa73aaa1a4b> a jams:JAMSAnnotation,
+        jams:JAMSScoreAnnotation ;
+    jams:includesObservation <http://w3id.org/polifonia/resource/JAMSObservation/TripToCartmelThe12041/11_11_11_9_11_7@0.0>,
+        <http://w3id.org/polifonia/resource/JAMSObservation/TripToCartmelThe12041/11_11_9_11_7_11@0.0>,
+        <http://w3id.org/polifonia/resource/JAMSObservation/TripToCartmelThe12041/11_7_11_9_11_11@0.0>,
+        <http://w3id.org/polifonia/resource/JAMSObservation/TripToCartmelThe12041/11_7_4_2_11_7@0.0>,
+        <http://w3id.org/polifonia/resource/JAMSObservation/TripToCartmelThe12041/11_7_4_2_11_9@0.0>,
+        <http://w3id.org/polifonia/resource/JAMSObservation/TripToCartmelThe12041/11_7_4_5_11_7@0.0>,
+        <http://w3id.org/polifonia/resource/JAMSObservation/TripToCartmelThe12041/11_9_11_11_11_9@0.0>,
+        <http://w3id.org/polifonia/resource/JAMSObservation/TripToCartmelThe12041/11_9_11_7_11_9@0.0>,
+        <http://w3id.org/polifonia/resource/JAMSObservation/TripToCartmelThe12041/2_11_9_11_7_11@0.0>,
+        <http://w3id.org/polifonia/resource/JAMSObservation/TripToCartmelThe12041/4_2_11_7_4_5@0.0>,
+        <http://w3id.org/polifonia/resource/JAMSObservation/TripToCartmelThe12041/4_2_11_9_11_7@0.0>,
+        <http://w3id.org/polifonia/resource/JAMSObservation/TripToCartmelThe12041/4_5_11_7_4_2@0.0>,
+        <http://w3id.org/polifonia/resource/JAMSObservation/TripToCartmelThe12041/5_11_7_4_2_11@0.0>,
+        <http://w3id.org/polifonia/resource/JAMSObservation/TripToCartmelThe12041/7_11_9_11_11_11@0.0>,
+        <http://w3id.org/polifonia/resource/JAMSObservation/TripToCartmelThe12041/7_4_2_11_7_4@0.0>,
+        <http://w3id.org/polifonia/resource/JAMSObservation/TripToCartmelThe12041/7_4_2_11_9_11@0.0>,
+        <http://w3id.org/polifonia/resource/JAMSObservation/TripToCartmelThe12041/7_4_5_11_7_4@0.0>,
+        <http://w3id.org/polifonia/resource/JAMSObservation/TripToCartmelThe12041/9_11_11_11_9_11@0.0>,
+        <http://w3id.org/polifonia/resource/JAMSObservation/TripToCartmelThe12041/9_11_7_11_9_11@0.0> ;
+    jams:isJAMSAnnotationOf <http://w3id.org/polifonia/resource/MusicalComposition/c12b6867f946e5d5d0309572d69f9fa73aaa1a4b> .
+
+<http://w3id.org/polifonia/resource/Score/song_local_id> jams:hasJAMSAnnotation <http://w3id.org/polifonia/resource/MusicalComposition/c12b6867f946e5d5d0309572d69f9fa73aaa1a4b> .
+
+<http://w3id.org/polifonia/resource/JAMSFile/TripToCartmelThe12041.jams> a jams:JAMSFile ;
+    jams:identifiers [ ] ;
+    jams:jamsVersion "0.3.4" ;
+    jams:release "" ;
+    prov:wasDerivedFrom "The Session" ;
+    prov:wasMemberOf <https://github.com/ashahidkhattak/thesession> .
+
+<http://w3id.org/polifonia/resource/JAMSObservation/TripToCartmelThe12041/11_11_11_9_11_7@0.0> a jams:JAMSObservation,
+        jams:JAMSScoreObservation,
+        jams:ScorePatternOccurrence ;
+    rdfs:label [ ] ;
+    jams:hasDuration "0.0"^^xsd:float ;
+    jams:hasFrequency "1"^^xsd:int ;
+    jams:hasPatternType "pitch-class-values" ;
+    jams:ofPattern <http://w3id.org/polifonia/resource/pattern/11_11_11_9_11_7> .
+
+<http://w3id.org/polifonia/resource/JAMSObservation/TripToCartmelThe12041/11_11_9_11_7_11@0.0> a jams:JAMSObservation,
+        jams:JAMSScoreObservation,
+        jams:ScorePatternOccurrence ;
+    rdfs:label [ ] ;
+    jams:hasDuration "0.0"^^xsd:float ;
+    jams:hasFrequency "1"^^xsd:int ;
+    jams:hasPatternType "pitch-class-values" ;
+    jams:ofPattern <http://w3id.org/polifonia/resource/pattern/11_11_9_11_7_11> .
+
+<http://w3id.org/polifonia/resource/JAMSObservation/TripToCartmelThe12041/11_7_11_9_11_11@0.0> a jams:JAMSObservation,
+        jams:JAMSScoreObservation,
+        jams:ScorePatternOccurrence ;
+    rdfs:label [ ] ;
+    jams:hasDuration "0.0"^^xsd:float ;
+    jams:hasFrequency "2"^^xsd:int ;
+    jams:hasPatternType "pitch-class-values" ;
+    jams:ofPattern <http://w3id.org/polifonia/resource/pattern/11_7_11_9_11_11> .
+
+<http://w3id.org/polifonia/resource/JAMSObservation/TripToCartmelThe12041/11_7_4_2_11_7@0.0> a jams:JAMSObservation,
+        jams:JAMSScoreObservation,
+        jams:ScorePatternOccurrence ;
+    rdfs:label [ ] ;
+    jams:hasDuration "0.0"^^xsd:float ;
+    jams:hasFrequency "1"^^xsd:int ;
+    jams:hasPatternType "pitch-class-values" ;
+    jams:ofPattern <http://w3id.org/polifonia/resource/pattern/11_7_4_2_11_7> .
+
+<http://w3id.org/polifonia/resource/JAMSObservation/TripToCartmelThe12041/11_7_4_2_11_9@0.0> a jams:JAMSObservation,
+        jams:JAMSScoreObservation,
+        jams:ScorePatternOccurrence ;
+    rdfs:label [ ] ;
+    jams:hasDuration "0.0"^^xsd:float ;
+    jams:hasFrequency "1"^^xsd:int ;
+    jams:hasPatternType "pitch-class-values" ;
+    jams:ofPattern <http://w3id.org/polifonia/resource/pattern/11_7_4_2_11_9> .
+
+<http://w3id.org/polifonia/resource/JAMSObservation/TripToCartmelThe12041/11_7_4_5_11_7@0.0> a jams:JAMSObservation,
+        jams:JAMSScoreObservation,
+        jams:ScorePatternOccurrence ;
+    rdfs:label [ ] ;
+    jams:hasDuration "0.0"^^xsd:float ;
+    jams:hasFrequency "2"^^xsd:int ;
+    jams:hasPatternType "pitch-class-values" ;
+    jams:ofPattern <http://w3id.org/polifonia/resource/pattern/11_7_4_5_11_7> .
+
+<http://w3id.org/polifonia/resource/JAMSObservation/TripToCartmelThe12041/11_9_11_11_11_9@0.0> a jams:JAMSObservation,
+        jams:JAMSScoreObservation,
+        jams:ScorePatternOccurrence ;
+    rdfs:label [ ] ;
+    jams:hasDuration "0.0"^^xsd:float ;
+    jams:hasFrequency "1"^^xsd:int ;
+    jams:hasPatternType "pitch-class-values" ;
+    jams:ofPattern <http://w3id.org/polifonia/resource/pattern/11_9_11_11_11_9> .
+
+<http://w3id.org/polifonia/resource/JAMSObservation/TripToCartmelThe12041/11_9_11_7_11_9@0.0> a jams:JAMSObservation,
+        jams:JAMSScoreObservation,
+        jams:ScorePatternOccurrence ;
+    rdfs:label [ ] ;
+    jams:hasDuration "0.0"^^xsd:float ;
+    jams:hasFrequency "2"^^xsd:int ;
+    jams:hasPatternType "pitch-class-values" ;
+    jams:ofPattern <http://w3id.org/polifonia/resource/pattern/11_9_11_7_11_9> .
+
+<http://w3id.org/polifonia/resource/JAMSObservation/TripToCartmelThe12041/2_11_9_11_7_11@0.0> a jams:JAMSObservation,
+        jams:JAMSScoreObservation,
+        jams:ScorePatternOccurrence ;
+    rdfs:label [ ] ;
+    jams:hasDuration "0.0"^^xsd:float ;
+    jams:hasFrequency "1"^^xsd:int ;
+    jams:hasPatternType "pitch-class-values" ;
+    jams:ofPattern <http://w3id.org/polifonia/resource/pattern/2_11_9_11_7_11> .
+
+<http://w3id.org/polifonia/resource/JAMSObservation/TripToCartmelThe12041/4_2_11_7_4_5@0.0> a jams:JAMSObservation,
+        jams:JAMSScoreObservation,
+        jams:ScorePatternOccurrence ;
+    rdfs:label [ ] ;
+    jams:hasDuration "0.0"^^xsd:float ;
+    jams:hasFrequency "1"^^xsd:int ;
+    jams:hasPatternType "pitch-class-values" ;
+    jams:ofPattern <http://w3id.org/polifonia/resource/pattern/4_2_11_7_4_5> .
+
+<http://w3id.org/polifonia/resource/JAMSObservation/TripToCartmelThe12041/4_2_11_9_11_7@0.0> a jams:JAMSObservation,
+        jams:JAMSScoreObservation,
+        jams:ScorePatternOccurrence ;
+    rdfs:label [ ] ;
+    jams:hasDuration "0.0"^^xsd:float ;
+    jams:hasFrequency "1"^^xsd:int ;
+    jams:hasPatternType "pitch-class-values" ;
+    jams:ofPattern <http://w3id.org/polifonia/resource/pattern/4_2_11_9_11_7> .
+
+<http://w3id.org/polifonia/resource/JAMSObservation/TripToCartmelThe12041/4_5_11_7_4_2@0.0> a jams:JAMSObservation,
+        jams:JAMSScoreObservation,
+        jams:ScorePatternOccurrence ;
+    rdfs:label [ ] ;
+    jams:hasDuration "0.0"^^xsd:float ;
+    jams:hasFrequency "2"^^xsd:int ;
+    jams:hasPatternType "pitch-class-values" ;
+    jams:ofPattern <http://w3id.org/polifonia/resource/pattern/4_5_11_7_4_2> .
+
+<http://w3id.org/polifonia/resource/JAMSObservation/TripToCartmelThe12041/5_11_7_4_2_11@0.0> a jams:JAMSObservation,
+        jams:JAMSScoreObservation,
+        jams:ScorePatternOccurrence ;
+    rdfs:label [ ] ;
+    jams:hasDuration "0.0"^^xsd:float ;
+    jams:hasFrequency "2"^^xsd:int ;
+    jams:hasPatternType "pitch-class-values" ;
+    jams:ofPattern <http://w3id.org/polifonia/resource/pattern/5_11_7_4_2_11> .
+
+<http://w3id.org/polifonia/resource/JAMSObservation/TripToCartmelThe12041/7_11_9_11_11_11@0.0> a jams:JAMSObservation,
+        jams:JAMSScoreObservation,
+        jams:ScorePatternOccurrence ;
+    rdfs:label [ ] ;
+    jams:hasDuration "0.0"^^xsd:float ;
+    jams:hasFrequency "1"^^xsd:int ;
+    jams:hasPatternType "pitch-class-values" ;
+    jams:ofPattern <http://w3id.org/polifonia/resource/pattern/7_11_9_11_11_11> .
+
+<http://w3id.org/polifonia/resource/JAMSObservation/TripToCartmelThe12041/7_4_2_11_7_4@0.0> a jams:JAMSObservation,
+        jams:JAMSScoreObservation,
+        jams:ScorePatternOccurrence ;
+    rdfs:label [ ] ;
+    jams:hasDuration "0.0"^^xsd:float ;
+    jams:hasFrequency "1"^^xsd:int ;
+    jams:hasPatternType "pitch-class-values" ;
+    jams:ofPattern <http://w3id.org/polifonia/resource/pattern/7_4_2_11_7_4> .
+
+<http://w3id.org/polifonia/resource/JAMSObservation/TripToCartmelThe12041/7_4_2_11_9_11@0.0> a jams:JAMSObservation,
+        jams:JAMSScoreObservation,
+        jams:ScorePatternOccurrence ;
+    rdfs:label [ ] ;
+    jams:hasDuration "0.0"^^xsd:float ;
+    jams:hasFrequency "1"^^xsd:int ;
+    jams:hasPatternType "pitch-class-values" ;
+    jams:ofPattern <http://w3id.org/polifonia/resource/pattern/7_4_2_11_9_11> .
+
+<http://w3id.org/polifonia/resource/JAMSObservation/TripToCartmelThe12041/7_4_5_11_7_4@0.0> a jams:JAMSObservation,
+        jams:JAMSScoreObservation,
+        jams:ScorePatternOccurrence ;
+    rdfs:label [ ] ;
+    jams:hasDuration "0.0"^^xsd:float ;
+    jams:hasFrequency "2"^^xsd:int ;
+    jams:hasPatternType "pitch-class-values" ;
+    jams:ofPattern <http://w3id.org/polifonia/resource/pattern/7_4_5_11_7_4> .
+
+<http://w3id.org/polifonia/resource/JAMSObservation/TripToCartmelThe12041/9_11_11_11_9_11@0.0> a jams:JAMSObservation,
+        jams:JAMSScoreObservation,
+        jams:ScorePatternOccurrence ;
+    rdfs:label [ ] ;
+    jams:hasDuration "0.0"^^xsd:float ;
+    jams:hasFrequency "1"^^xsd:int ;
+    jams:hasPatternType "pitch-class-values" ;
+    jams:ofPattern <http://w3id.org/polifonia/resource/pattern/9_11_11_11_9_11> .
+
+<http://w3id.org/polifonia/resource/JAMSObservation/TripToCartmelThe12041/9_11_7_11_9_11@0.0> a jams:JAMSObservation,
+        jams:JAMSScoreObservation,
+        jams:ScorePatternOccurrence ;
+    rdfs:label [ ] ;
+    jams:hasDuration "0.0"^^xsd:float ;
+    jams:hasFrequency "2"^^xsd:int ;
+    jams:hasPatternType "pitch-class-values" ;
+    jams:ofPattern <http://w3id.org/polifonia/resource/pattern/9_11_7_11_9_11> .
+
+<http://w3id.org/polifonia/resource/MusicalComposition/c12b6867f946e5d5d0309572d69f9fa73aaa1a4b> a mc:MusicalComposition ;
+    rdfs:label "TripToCartmelThe12041" ;
+    mc:title "TripToCartmelThe12041" ;
+    prov:wasDerivedFrom <http://w3id.org/polifonia/resource/JAMSFile/TripToCartmelThe12041.jams> .
+

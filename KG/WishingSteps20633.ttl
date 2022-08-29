@@ -1,0 +1,131 @@
+@prefix core: <http://w3id.org/polifonia/ontology/core/> .
+@prefix jams: <http://w3id.org/polifonia/ontology/jams/> .
+@prefix mc: <http://w3id.org/polifonia/ontology/musical-composition/> .
+@prefix pon-resource: <http://w3id.org/polifonia/resource/> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+pon-resource:Agent%2Fannotator_local_id a core:Agent ;
+    rdfs:label "FONN-Tool" ;
+    jams:hasAnnotatorType pon-resource:annotator-program ;
+    jams:hasName "FONN-Tool" .
+
+<http://w3id.org/polifonia/resource/JAMSAnnotation/848df817c8bfc0ecefa9425aa73f1e7000ab39de> a jams:JAMSAnnotation,
+        jams:JAMSScoreAnnotation ;
+    jams:includesObservation <http://w3id.org/polifonia/resource/JAMSObservation/WishingSteps20633/0_7_5_5_10_3@0.0>,
+        <http://w3id.org/polifonia/resource/JAMSObservation/WishingSteps20633/3_0_7_5_5_10@0.0>,
+        <http://w3id.org/polifonia/resource/JAMSObservation/WishingSteps20633/3_5_2_3_4_7@0.0>,
+        <http://w3id.org/polifonia/resource/JAMSObservation/WishingSteps20633/5_10_3_3_0_7@0.0>,
+        <http://w3id.org/polifonia/resource/JAMSObservation/WishingSteps20633/5_10_3_3_3_5@0.0>,
+        <http://w3id.org/polifonia/resource/JAMSObservation/WishingSteps20633/5_2_3_4_7_7@0.0>,
+        <http://w3id.org/polifonia/resource/JAMSObservation/WishingSteps20633/5_5_10_3_3_0@0.0>,
+        <http://w3id.org/polifonia/resource/JAMSObservation/WishingSteps20633/5_5_10_3_3_3@0.0>,
+        <http://w3id.org/polifonia/resource/JAMSObservation/WishingSteps20633/7_5_5_10_3_3@0.0>,
+        <http://w3id.org/polifonia/resource/JAMSObservation/WishingSteps20633/7_7_3_5_2_3@0.0> ;
+    jams:isJAMSAnnotationOf <http://w3id.org/polifonia/resource/MusicalComposition/848df817c8bfc0ecefa9425aa73f1e7000ab39de> .
+
+<http://w3id.org/polifonia/resource/Score/song_local_id> jams:hasJAMSAnnotation <http://w3id.org/polifonia/resource/MusicalComposition/848df817c8bfc0ecefa9425aa73f1e7000ab39de> .
+
+<http://w3id.org/polifonia/resource/JAMSFile/WishingSteps20633.jams> a jams:JAMSFile ;
+    jams:identifiers [ ] ;
+    jams:jamsVersion "0.3.4" ;
+    jams:release "" ;
+    prov:wasDerivedFrom "The Session" ;
+    prov:wasMemberOf <https://github.com/ashahidkhattak/thesession> .
+
+<http://w3id.org/polifonia/resource/JAMSObservation/WishingSteps20633/0_7_5_5_10_3@0.0> a jams:JAMSObservation,
+        jams:JAMSScoreObservation,
+        jams:ScorePatternOccurrence ;
+    rdfs:label [ ] ;
+    jams:hasDuration "0.0"^^xsd:float ;
+    jams:hasFrequency "2"^^xsd:int ;
+    jams:hasPatternType "pitch-class-values" ;
+    jams:ofPattern <http://w3id.org/polifonia/resource/pattern/0_7_5_5_10_3> .
+
+<http://w3id.org/polifonia/resource/JAMSObservation/WishingSteps20633/3_0_7_5_5_10@0.0> a jams:JAMSObservation,
+        jams:JAMSScoreObservation,
+        jams:ScorePatternOccurrence ;
+    rdfs:label [ ] ;
+    jams:hasDuration "0.0"^^xsd:float ;
+    jams:hasFrequency "1"^^xsd:int ;
+    jams:hasPatternType "pitch-class-values" ;
+    jams:ofPattern <http://w3id.org/polifonia/resource/pattern/3_0_7_5_5_10> .
+
+<http://w3id.org/polifonia/resource/JAMSObservation/WishingSteps20633/3_5_2_3_4_7@0.0> a jams:JAMSObservation,
+        jams:JAMSScoreObservation,
+        jams:ScorePatternOccurrence ;
+    rdfs:label [ ] ;
+    jams:hasDuration "0.0"^^xsd:float ;
+    jams:hasFrequency "2"^^xsd:int ;
+    jams:hasPatternType "pitch-class-values" ;
+    jams:ofPattern <http://w3id.org/polifonia/resource/pattern/3_5_2_3_4_7> .
+
+<http://w3id.org/polifonia/resource/JAMSObservation/WishingSteps20633/5_10_3_3_0_7@0.0> a jams:JAMSObservation,
+        jams:JAMSScoreObservation,
+        jams:ScorePatternOccurrence ;
+    rdfs:label [ ] ;
+    jams:hasDuration "0.0"^^xsd:float ;
+    jams:hasFrequency "1"^^xsd:int ;
+    jams:hasPatternType "pitch-class-values" ;
+    jams:ofPattern <http://w3id.org/polifonia/resource/pattern/5_10_3_3_0_7> .
+
+<http://w3id.org/polifonia/resource/JAMSObservation/WishingSteps20633/5_10_3_3_3_5@0.0> a jams:JAMSObservation,
+        jams:JAMSScoreObservation,
+        jams:ScorePatternOccurrence ;
+    rdfs:label [ ] ;
+    jams:hasDuration "0.0"^^xsd:float ;
+    jams:hasFrequency "1"^^xsd:int ;
+    jams:hasPatternType "pitch-class-values" ;
+    jams:ofPattern <http://w3id.org/polifonia/resource/pattern/5_10_3_3_3_5> .
+
+<http://w3id.org/polifonia/resource/JAMSObservation/WishingSteps20633/5_2_3_4_7_7@0.0> a jams:JAMSObservation,
+        jams:JAMSScoreObservation,
+        jams:ScorePatternOccurrence ;
+    rdfs:label [ ] ;
+    jams:hasDuration "0.0"^^xsd:float ;
+    jams:hasFrequency "2"^^xsd:int ;
+    jams:hasPatternType "pitch-class-values" ;
+    jams:ofPattern <http://w3id.org/polifonia/resource/pattern/5_2_3_4_7_7> .
+
+<http://w3id.org/polifonia/resource/JAMSObservation/WishingSteps20633/5_5_10_3_3_0@0.0> a jams:JAMSObservation,
+        jams:JAMSScoreObservation,
+        jams:ScorePatternOccurrence ;
+    rdfs:label [ ] ;
+    jams:hasDuration "0.0"^^xsd:float ;
+    jams:hasFrequency "1"^^xsd:int ;
+    jams:hasPatternType "pitch-class-values" ;
+    jams:ofPattern <http://w3id.org/polifonia/resource/pattern/5_5_10_3_3_0> .
+
+<http://w3id.org/polifonia/resource/JAMSObservation/WishingSteps20633/5_5_10_3_3_3@0.0> a jams:JAMSObservation,
+        jams:JAMSScoreObservation,
+        jams:ScorePatternOccurrence ;
+    rdfs:label [ ] ;
+    jams:hasDuration "0.0"^^xsd:float ;
+    jams:hasFrequency "1"^^xsd:int ;
+    jams:hasPatternType "pitch-class-values" ;
+    jams:ofPattern <http://w3id.org/polifonia/resource/pattern/5_5_10_3_3_3> .
+
+<http://w3id.org/polifonia/resource/JAMSObservation/WishingSteps20633/7_5_5_10_3_3@0.0> a jams:JAMSObservation,
+        jams:JAMSScoreObservation,
+        jams:ScorePatternOccurrence ;
+    rdfs:label [ ] ;
+    jams:hasDuration "0.0"^^xsd:float ;
+    jams:hasFrequency "2"^^xsd:int ;
+    jams:hasPatternType "pitch-class-values" ;
+    jams:ofPattern <http://w3id.org/polifonia/resource/pattern/7_5_5_10_3_3> .
+
+<http://w3id.org/polifonia/resource/JAMSObservation/WishingSteps20633/7_7_3_5_2_3@0.0> a jams:JAMSObservation,
+        jams:JAMSScoreObservation,
+        jams:ScorePatternOccurrence ;
+    rdfs:label [ ] ;
+    jams:hasDuration "0.0"^^xsd:float ;
+    jams:hasFrequency "1"^^xsd:int ;
+    jams:hasPatternType "pitch-class-values" ;
+    jams:ofPattern <http://w3id.org/polifonia/resource/pattern/7_7_3_5_2_3> .
+
+<http://w3id.org/polifonia/resource/MusicalComposition/848df817c8bfc0ecefa9425aa73f1e7000ab39de> a mc:MusicalComposition ;
+    rdfs:label "WishingSteps20633" ;
+    mc:title "WishingSteps20633" ;
+    prov:wasDerivedFrom <http://w3id.org/polifonia/resource/JAMSFile/WishingSteps20633.jams> .
+

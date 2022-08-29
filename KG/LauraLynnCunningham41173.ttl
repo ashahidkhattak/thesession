@@ -1,0 +1,401 @@
+@prefix core: <http://w3id.org/polifonia/ontology/core/> .
+@prefix jams: <http://w3id.org/polifonia/ontology/jams/> .
+@prefix mc: <http://w3id.org/polifonia/ontology/musical-composition/> .
+@prefix pon-resource: <http://w3id.org/polifonia/resource/> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+pon-resource:Agent%2Fannotator_local_id a core:Agent ;
+    rdfs:label "FONN-Tool" ;
+    jams:hasAnnotatorType pon-resource:annotator-program ;
+    jams:hasName "FONN-Tool" .
+
+<http://w3id.org/polifonia/resource/JAMSAnnotation/52ac5cd916bf756e2ba01702107d3d837fd241f1> a jams:JAMSAnnotation,
+        jams:JAMSScoreAnnotation ;
+    jams:includesObservation <http://w3id.org/polifonia/resource/JAMSObservation/LauraLynnCunningham41173/0.0_7.0_10.0_3.0_5.0_7.0@0.0>,
+        <http://w3id.org/polifonia/resource/JAMSObservation/LauraLynnCunningham41173/0_0_0_5_2_7@0.0>,
+        <http://w3id.org/polifonia/resource/JAMSObservation/LauraLynnCunningham41173/0_0_5_2_7_7@0.0>,
+        <http://w3id.org/polifonia/resource/JAMSObservation/LauraLynnCunningham41173/0_0_7_10_3_5@0.0>,
+        <http://w3id.org/polifonia/resource/JAMSObservation/LauraLynnCunningham41173/0_10_2_5_0_10@0.0>,
+        <http://w3id.org/polifonia/resource/JAMSObservation/LauraLynnCunningham41173/0_10_7_0_0_0@0.0>,
+        <http://w3id.org/polifonia/resource/JAMSObservation/LauraLynnCunningham41173/0_5_0_0_7_10@0.0>,
+        <http://w3id.org/polifonia/resource/JAMSObservation/LauraLynnCunningham41173/0_5_2_7_7_10@0.0>,
+        <http://w3id.org/polifonia/resource/JAMSObservation/LauraLynnCunningham41173/0_5_5_3_0_10@0.0>,
+        <http://w3id.org/polifonia/resource/JAMSObservation/LauraLynnCunningham41173/10_2_0_10_2_5@0.0>,
+        <http://w3id.org/polifonia/resource/JAMSObservation/LauraLynnCunningham41173/10_2_0_5_5_3@0.0>,
+        <http://w3id.org/polifonia/resource/JAMSObservation/LauraLynnCunningham41173/10_2_5_0_10_7@0.0>,
+        <http://w3id.org/polifonia/resource/JAMSObservation/LauraLynnCunningham41173/10_2_7_10_3_5@0.0>,
+        <http://w3id.org/polifonia/resource/JAMSObservation/LauraLynnCunningham41173/10_3_5_0_5_0@0.0>,
+        <http://w3id.org/polifonia/resource/JAMSObservation/LauraLynnCunningham41173/10_3_5_7_7_10@0.0>,
+        <http://w3id.org/polifonia/resource/JAMSObservation/LauraLynnCunningham41173/10_7_0_0_0_5@0.0>,
+        <http://w3id.org/polifonia/resource/JAMSObservation/LauraLynnCunningham41173/2_0_10_2_5_0@0.0>,
+        <http://w3id.org/polifonia/resource/JAMSObservation/LauraLynnCunningham41173/2_0_5_5_3_0@0.0>,
+        <http://w3id.org/polifonia/resource/JAMSObservation/LauraLynnCunningham41173/2_5_0_10_7_0@0.0>,
+        <http://w3id.org/polifonia/resource/JAMSObservation/LauraLynnCunningham41173/2_7_10_3_5_0@0.0>,
+        <http://w3id.org/polifonia/resource/JAMSObservation/LauraLynnCunningham41173/2_7_7_10_2_0@0.0>,
+        <http://w3id.org/polifonia/resource/JAMSObservation/LauraLynnCunningham41173/3_0_10_7_0_0@0.0>,
+        <http://w3id.org/polifonia/resource/JAMSObservation/LauraLynnCunningham41173/3_5_0_5_0_0@0.0>,
+        <http://w3id.org/polifonia/resource/JAMSObservation/LauraLynnCunningham41173/3_5_7_7_10_2@0.0>,
+        <http://w3id.org/polifonia/resource/JAMSObservation/LauraLynnCunningham41173/5_0_0_7_10_3@0.0>,
+        <http://w3id.org/polifonia/resource/JAMSObservation/LauraLynnCunningham41173/5_0_10_7_0_0@0.0>,
+        <http://w3id.org/polifonia/resource/JAMSObservation/LauraLynnCunningham41173/5_0_5_0_0_7@0.0>,
+        <http://w3id.org/polifonia/resource/JAMSObservation/LauraLynnCunningham41173/5_2_7_7_10_2@0.0>,
+        <http://w3id.org/polifonia/resource/JAMSObservation/LauraLynnCunningham41173/5_7_7_10_2_0@0.0>,
+        <http://w3id.org/polifonia/resource/JAMSObservation/LauraLynnCunningham41173/5_7_7_10_2_7@0.0>,
+        <http://w3id.org/polifonia/resource/JAMSObservation/LauraLynnCunningham41173/7_0_0_0_5_2@0.0>,
+        <http://w3id.org/polifonia/resource/JAMSObservation/LauraLynnCunningham41173/7_10_2_0_10_2@0.0>,
+        <http://w3id.org/polifonia/resource/JAMSObservation/LauraLynnCunningham41173/7_10_2_7_10_3@0.0>,
+        <http://w3id.org/polifonia/resource/JAMSObservation/LauraLynnCunningham41173/7_10_3_5_0_5@0.0>,
+        <http://w3id.org/polifonia/resource/JAMSObservation/LauraLynnCunningham41173/7_10_3_5_7_7@0.0>,
+        <http://w3id.org/polifonia/resource/JAMSObservation/LauraLynnCunningham41173/7_7_10_2_0_10@0.0>,
+        <http://w3id.org/polifonia/resource/JAMSObservation/LauraLynnCunningham41173/7_7_10_2_7_10@0.0> ;
+    jams:isJAMSAnnotationOf <http://w3id.org/polifonia/resource/MusicalComposition/52ac5cd916bf756e2ba01702107d3d837fd241f1> .
+
+<http://w3id.org/polifonia/resource/Score/song_local_id> jams:hasJAMSAnnotation <http://w3id.org/polifonia/resource/MusicalComposition/52ac5cd916bf756e2ba01702107d3d837fd241f1> .
+
+<http://w3id.org/polifonia/resource/JAMSFile/LauraLynnCunningham41173.jams> a jams:JAMSFile ;
+    jams:identifiers [ ] ;
+    jams:jamsVersion "0.3.4" ;
+    jams:release "" ;
+    prov:wasDerivedFrom "The Session" ;
+    prov:wasMemberOf <https://github.com/ashahidkhattak/thesession> .
+
+<http://w3id.org/polifonia/resource/JAMSObservation/LauraLynnCunningham41173/0.0_7.0_10.0_3.0_5.0_7.0@0.0> a jams:JAMSObservation,
+        jams:JAMSScoreObservation,
+        jams:ScorePatternOccurrence ;
+    rdfs:label [ ] ;
+    jams:hasDuration "0.0"^^xsd:float ;
+    jams:hasFrequency "1"^^xsd:int ;
+    jams:hasPatternType "pitch-class-values" ;
+    jams:ofPattern <http://w3id.org/polifonia/resource/pattern/0.0_7.0_10.0_3.0_5.0_7.0> .
+
+<http://w3id.org/polifonia/resource/JAMSObservation/LauraLynnCunningham41173/0_0_0_5_2_7@0.0> a jams:JAMSObservation,
+        jams:JAMSScoreObservation,
+        jams:ScorePatternOccurrence ;
+    rdfs:label [ ] ;
+    jams:hasDuration "0.0"^^xsd:float ;
+    jams:hasFrequency "2"^^xsd:int ;
+    jams:hasPatternType "pitch-class-values" ;
+    jams:ofPattern <http://w3id.org/polifonia/resource/pattern/0_0_0_5_2_7> .
+
+<http://w3id.org/polifonia/resource/JAMSObservation/LauraLynnCunningham41173/0_0_5_2_7_7@0.0> a jams:JAMSObservation,
+        jams:JAMSScoreObservation,
+        jams:ScorePatternOccurrence ;
+    rdfs:label [ ] ;
+    jams:hasDuration "0.0"^^xsd:float ;
+    jams:hasFrequency "2"^^xsd:int ;
+    jams:hasPatternType "pitch-class-values" ;
+    jams:ofPattern <http://w3id.org/polifonia/resource/pattern/0_0_5_2_7_7> .
+
+<http://w3id.org/polifonia/resource/JAMSObservation/LauraLynnCunningham41173/0_0_7_10_3_5@0.0> a jams:JAMSObservation,
+        jams:JAMSScoreObservation,
+        jams:ScorePatternOccurrence ;
+    rdfs:label [ ] ;
+    jams:hasDuration "0.0"^^xsd:float ;
+    jams:hasFrequency "1"^^xsd:int ;
+    jams:hasPatternType "pitch-class-values" ;
+    jams:ofPattern <http://w3id.org/polifonia/resource/pattern/0_0_7_10_3_5> .
+
+<http://w3id.org/polifonia/resource/JAMSObservation/LauraLynnCunningham41173/0_10_2_5_0_10@0.0> a jams:JAMSObservation,
+        jams:JAMSScoreObservation,
+        jams:ScorePatternOccurrence ;
+    rdfs:label [ ] ;
+    jams:hasDuration "0.0"^^xsd:float ;
+    jams:hasFrequency "2"^^xsd:int ;
+    jams:hasPatternType "pitch-class-values" ;
+    jams:ofPattern <http://w3id.org/polifonia/resource/pattern/0_10_2_5_0_10> .
+
+<http://w3id.org/polifonia/resource/JAMSObservation/LauraLynnCunningham41173/0_10_7_0_0_0@0.0> a jams:JAMSObservation,
+        jams:JAMSScoreObservation,
+        jams:ScorePatternOccurrence ;
+    rdfs:label [ ] ;
+    jams:hasDuration "0.0"^^xsd:float ;
+    jams:hasFrequency "2"^^xsd:int ;
+    jams:hasPatternType "pitch-class-values" ;
+    jams:ofPattern <http://w3id.org/polifonia/resource/pattern/0_10_7_0_0_0> .
+
+<http://w3id.org/polifonia/resource/JAMSObservation/LauraLynnCunningham41173/0_5_0_0_7_10@0.0> a jams:JAMSObservation,
+        jams:JAMSScoreObservation,
+        jams:ScorePatternOccurrence ;
+    rdfs:label [ ] ;
+    jams:hasDuration "0.0"^^xsd:float ;
+    jams:hasFrequency "1"^^xsd:int ;
+    jams:hasPatternType "pitch-class-values" ;
+    jams:ofPattern <http://w3id.org/polifonia/resource/pattern/0_5_0_0_7_10> .
+
+<http://w3id.org/polifonia/resource/JAMSObservation/LauraLynnCunningham41173/0_5_2_7_7_10@0.0> a jams:JAMSObservation,
+        jams:JAMSScoreObservation,
+        jams:ScorePatternOccurrence ;
+    rdfs:label [ ] ;
+    jams:hasDuration "0.0"^^xsd:float ;
+    jams:hasFrequency "2"^^xsd:int ;
+    jams:hasPatternType "pitch-class-values" ;
+    jams:ofPattern <http://w3id.org/polifonia/resource/pattern/0_5_2_7_7_10> .
+
+<http://w3id.org/polifonia/resource/JAMSObservation/LauraLynnCunningham41173/0_5_5_3_0_10@0.0> a jams:JAMSObservation,
+        jams:JAMSScoreObservation,
+        jams:ScorePatternOccurrence ;
+    rdfs:label [ ] ;
+    jams:hasDuration "0.0"^^xsd:float ;
+    jams:hasFrequency "1"^^xsd:int ;
+    jams:hasPatternType "pitch-class-values" ;
+    jams:ofPattern <http://w3id.org/polifonia/resource/pattern/0_5_5_3_0_10> .
+
+<http://w3id.org/polifonia/resource/JAMSObservation/LauraLynnCunningham41173/10_2_0_10_2_5@0.0> a jams:JAMSObservation,
+        jams:JAMSScoreObservation,
+        jams:ScorePatternOccurrence ;
+    rdfs:label [ ] ;
+    jams:hasDuration "0.0"^^xsd:float ;
+    jams:hasFrequency "2"^^xsd:int ;
+    jams:hasPatternType "pitch-class-values" ;
+    jams:ofPattern <http://w3id.org/polifonia/resource/pattern/10_2_0_10_2_5> .
+
+<http://w3id.org/polifonia/resource/JAMSObservation/LauraLynnCunningham41173/10_2_0_5_5_3@0.0> a jams:JAMSObservation,
+        jams:JAMSScoreObservation,
+        jams:ScorePatternOccurrence ;
+    rdfs:label [ ] ;
+    jams:hasDuration "0.0"^^xsd:float ;
+    jams:hasFrequency "1"^^xsd:int ;
+    jams:hasPatternType "pitch-class-values" ;
+    jams:ofPattern <http://w3id.org/polifonia/resource/pattern/10_2_0_5_5_3> .
+
+<http://w3id.org/polifonia/resource/JAMSObservation/LauraLynnCunningham41173/10_2_5_0_10_7@0.0> a jams:JAMSObservation,
+        jams:JAMSScoreObservation,
+        jams:ScorePatternOccurrence ;
+    rdfs:label [ ] ;
+    jams:hasDuration "0.0"^^xsd:float ;
+    jams:hasFrequency "2"^^xsd:int ;
+    jams:hasPatternType "pitch-class-values" ;
+    jams:ofPattern <http://w3id.org/polifonia/resource/pattern/10_2_5_0_10_7> .
+
+<http://w3id.org/polifonia/resource/JAMSObservation/LauraLynnCunningham41173/10_2_7_10_3_5@0.0> a jams:JAMSObservation,
+        jams:JAMSScoreObservation,
+        jams:ScorePatternOccurrence ;
+    rdfs:label [ ] ;
+    jams:hasDuration "0.0"^^xsd:float ;
+    jams:hasFrequency "1"^^xsd:int ;
+    jams:hasPatternType "pitch-class-values" ;
+    jams:ofPattern <http://w3id.org/polifonia/resource/pattern/10_2_7_10_3_5> .
+
+<http://w3id.org/polifonia/resource/JAMSObservation/LauraLynnCunningham41173/10_3_5_0_5_0@0.0> a jams:JAMSObservation,
+        jams:JAMSScoreObservation,
+        jams:ScorePatternOccurrence ;
+    rdfs:label [ ] ;
+    jams:hasDuration "0.0"^^xsd:float ;
+    jams:hasFrequency "1"^^xsd:int ;
+    jams:hasPatternType "pitch-class-values" ;
+    jams:ofPattern <http://w3id.org/polifonia/resource/pattern/10_3_5_0_5_0> .
+
+<http://w3id.org/polifonia/resource/JAMSObservation/LauraLynnCunningham41173/10_3_5_7_7_10@0.0> a jams:JAMSObservation,
+        jams:JAMSScoreObservation,
+        jams:ScorePatternOccurrence ;
+    rdfs:label [ ] ;
+    jams:hasDuration "0.0"^^xsd:float ;
+    jams:hasFrequency "2"^^xsd:int ;
+    jams:hasPatternType "pitch-class-values" ;
+    jams:ofPattern <http://w3id.org/polifonia/resource/pattern/10_3_5_7_7_10> .
+
+<http://w3id.org/polifonia/resource/JAMSObservation/LauraLynnCunningham41173/10_7_0_0_0_5@0.0> a jams:JAMSObservation,
+        jams:JAMSScoreObservation,
+        jams:ScorePatternOccurrence ;
+    rdfs:label [ ] ;
+    jams:hasDuration "0.0"^^xsd:float ;
+    jams:hasFrequency "2"^^xsd:int ;
+    jams:hasPatternType "pitch-class-values" ;
+    jams:ofPattern <http://w3id.org/polifonia/resource/pattern/10_7_0_0_0_5> .
+
+<http://w3id.org/polifonia/resource/JAMSObservation/LauraLynnCunningham41173/2_0_10_2_5_0@0.0> a jams:JAMSObservation,
+        jams:JAMSScoreObservation,
+        jams:ScorePatternOccurrence ;
+    rdfs:label [ ] ;
+    jams:hasDuration "0.0"^^xsd:float ;
+    jams:hasFrequency "2"^^xsd:int ;
+    jams:hasPatternType "pitch-class-values" ;
+    jams:ofPattern <http://w3id.org/polifonia/resource/pattern/2_0_10_2_5_0> .
+
+<http://w3id.org/polifonia/resource/JAMSObservation/LauraLynnCunningham41173/2_0_5_5_3_0@0.0> a jams:JAMSObservation,
+        jams:JAMSScoreObservation,
+        jams:ScorePatternOccurrence ;
+    rdfs:label [ ] ;
+    jams:hasDuration "0.0"^^xsd:float ;
+    jams:hasFrequency "1"^^xsd:int ;
+    jams:hasPatternType "pitch-class-values" ;
+    jams:ofPattern <http://w3id.org/polifonia/resource/pattern/2_0_5_5_3_0> .
+
+<http://w3id.org/polifonia/resource/JAMSObservation/LauraLynnCunningham41173/2_5_0_10_7_0@0.0> a jams:JAMSObservation,
+        jams:JAMSScoreObservation,
+        jams:ScorePatternOccurrence ;
+    rdfs:label [ ] ;
+    jams:hasDuration "0.0"^^xsd:float ;
+    jams:hasFrequency "2"^^xsd:int ;
+    jams:hasPatternType "pitch-class-values" ;
+    jams:ofPattern <http://w3id.org/polifonia/resource/pattern/2_5_0_10_7_0> .
+
+<http://w3id.org/polifonia/resource/JAMSObservation/LauraLynnCunningham41173/2_7_10_3_5_0@0.0> a jams:JAMSObservation,
+        jams:JAMSScoreObservation,
+        jams:ScorePatternOccurrence ;
+    rdfs:label [ ] ;
+    jams:hasDuration "0.0"^^xsd:float ;
+    jams:hasFrequency "1"^^xsd:int ;
+    jams:hasPatternType "pitch-class-values" ;
+    jams:ofPattern <http://w3id.org/polifonia/resource/pattern/2_7_10_3_5_0> .
+
+<http://w3id.org/polifonia/resource/JAMSObservation/LauraLynnCunningham41173/2_7_7_10_2_0@0.0> a jams:JAMSObservation,
+        jams:JAMSScoreObservation,
+        jams:ScorePatternOccurrence ;
+    rdfs:label [ ] ;
+    jams:hasDuration "0.0"^^xsd:float ;
+    jams:hasFrequency "2"^^xsd:int ;
+    jams:hasPatternType "pitch-class-values" ;
+    jams:ofPattern <http://w3id.org/polifonia/resource/pattern/2_7_7_10_2_0> .
+
+<http://w3id.org/polifonia/resource/JAMSObservation/LauraLynnCunningham41173/3_0_10_7_0_0@0.0> a jams:JAMSObservation,
+        jams:JAMSScoreObservation,
+        jams:ScorePatternOccurrence ;
+    rdfs:label [ ] ;
+    jams:hasDuration "0.0"^^xsd:float ;
+    jams:hasFrequency "1"^^xsd:int ;
+    jams:hasPatternType "pitch-class-values" ;
+    jams:ofPattern <http://w3id.org/polifonia/resource/pattern/3_0_10_7_0_0> .
+
+<http://w3id.org/polifonia/resource/JAMSObservation/LauraLynnCunningham41173/3_5_0_5_0_0@0.0> a jams:JAMSObservation,
+        jams:JAMSScoreObservation,
+        jams:ScorePatternOccurrence ;
+    rdfs:label [ ] ;
+    jams:hasDuration "0.0"^^xsd:float ;
+    jams:hasFrequency "1"^^xsd:int ;
+    jams:hasPatternType "pitch-class-values" ;
+    jams:ofPattern <http://w3id.org/polifonia/resource/pattern/3_5_0_5_0_0> .
+
+<http://w3id.org/polifonia/resource/JAMSObservation/LauraLynnCunningham41173/3_5_7_7_10_2@0.0> a jams:JAMSObservation,
+        jams:JAMSScoreObservation,
+        jams:ScorePatternOccurrence ;
+    rdfs:label [ ] ;
+    jams:hasDuration "0.0"^^xsd:float ;
+    jams:hasFrequency "2"^^xsd:int ;
+    jams:hasPatternType "pitch-class-values" ;
+    jams:ofPattern <http://w3id.org/polifonia/resource/pattern/3_5_7_7_10_2> .
+
+<http://w3id.org/polifonia/resource/JAMSObservation/LauraLynnCunningham41173/5_0_0_7_10_3@0.0> a jams:JAMSObservation,
+        jams:JAMSScoreObservation,
+        jams:ScorePatternOccurrence ;
+    rdfs:label [ ] ;
+    jams:hasDuration "0.0"^^xsd:float ;
+    jams:hasFrequency "1"^^xsd:int ;
+    jams:hasPatternType "pitch-class-values" ;
+    jams:ofPattern <http://w3id.org/polifonia/resource/pattern/5_0_0_7_10_3> .
+
+<http://w3id.org/polifonia/resource/JAMSObservation/LauraLynnCunningham41173/5_0_10_7_0_0@0.0> a jams:JAMSObservation,
+        jams:JAMSScoreObservation,
+        jams:ScorePatternOccurrence ;
+    rdfs:label [ ] ;
+    jams:hasDuration "0.0"^^xsd:float ;
+    jams:hasFrequency "1"^^xsd:int ;
+    jams:hasPatternType "pitch-class-values" ;
+    jams:ofPattern <http://w3id.org/polifonia/resource/pattern/5_0_10_7_0_0> .
+
+<http://w3id.org/polifonia/resource/JAMSObservation/LauraLynnCunningham41173/5_0_5_0_0_7@0.0> a jams:JAMSObservation,
+        jams:JAMSScoreObservation,
+        jams:ScorePatternOccurrence ;
+    rdfs:label [ ] ;
+    jams:hasDuration "0.0"^^xsd:float ;
+    jams:hasFrequency "1"^^xsd:int ;
+    jams:hasPatternType "pitch-class-values" ;
+    jams:ofPattern <http://w3id.org/polifonia/resource/pattern/5_0_5_0_0_7> .
+
+<http://w3id.org/polifonia/resource/JAMSObservation/LauraLynnCunningham41173/5_2_7_7_10_2@0.0> a jams:JAMSObservation,
+        jams:JAMSScoreObservation,
+        jams:ScorePatternOccurrence ;
+    rdfs:label [ ] ;
+    jams:hasDuration "0.0"^^xsd:float ;
+    jams:hasFrequency "2"^^xsd:int ;
+    jams:hasPatternType "pitch-class-values" ;
+    jams:ofPattern <http://w3id.org/polifonia/resource/pattern/5_2_7_7_10_2> .
+
+<http://w3id.org/polifonia/resource/JAMSObservation/LauraLynnCunningham41173/5_7_7_10_2_0@0.0> a jams:JAMSObservation,
+        jams:JAMSScoreObservation,
+        jams:ScorePatternOccurrence ;
+    rdfs:label [ ] ;
+    jams:hasDuration "0.0"^^xsd:float ;
+    jams:hasFrequency "1"^^xsd:int ;
+    jams:hasPatternType "pitch-class-values" ;
+    jams:ofPattern <http://w3id.org/polifonia/resource/pattern/5_7_7_10_2_0> .
+
+<http://w3id.org/polifonia/resource/JAMSObservation/LauraLynnCunningham41173/5_7_7_10_2_7@0.0> a jams:JAMSObservation,
+        jams:JAMSScoreObservation,
+        jams:ScorePatternOccurrence ;
+    rdfs:label [ ] ;
+    jams:hasDuration "0.0"^^xsd:float ;
+    jams:hasFrequency "1"^^xsd:int ;
+    jams:hasPatternType "pitch-class-values" ;
+    jams:ofPattern <http://w3id.org/polifonia/resource/pattern/5_7_7_10_2_7> .
+
+<http://w3id.org/polifonia/resource/JAMSObservation/LauraLynnCunningham41173/7_0_0_0_5_2@0.0> a jams:JAMSObservation,
+        jams:JAMSScoreObservation,
+        jams:ScorePatternOccurrence ;
+    rdfs:label [ ] ;
+    jams:hasDuration "0.0"^^xsd:float ;
+    jams:hasFrequency "2"^^xsd:int ;
+    jams:hasPatternType "pitch-class-values" ;
+    jams:ofPattern <http://w3id.org/polifonia/resource/pattern/7_0_0_0_5_2> .
+
+<http://w3id.org/polifonia/resource/JAMSObservation/LauraLynnCunningham41173/7_10_2_0_10_2@0.0> a jams:JAMSObservation,
+        jams:JAMSScoreObservation,
+        jams:ScorePatternOccurrence ;
+    rdfs:label [ ] ;
+    jams:hasDuration "0.0"^^xsd:float ;
+    jams:hasFrequency "2"^^xsd:int ;
+    jams:hasPatternType "pitch-class-values" ;
+    jams:ofPattern <http://w3id.org/polifonia/resource/pattern/7_10_2_0_10_2> .
+
+<http://w3id.org/polifonia/resource/JAMSObservation/LauraLynnCunningham41173/7_10_2_7_10_3@0.0> a jams:JAMSObservation,
+        jams:JAMSScoreObservation,
+        jams:ScorePatternOccurrence ;
+    rdfs:label [ ] ;
+    jams:hasDuration "0.0"^^xsd:float ;
+    jams:hasFrequency "1"^^xsd:int ;
+    jams:hasPatternType "pitch-class-values" ;
+    jams:ofPattern <http://w3id.org/polifonia/resource/pattern/7_10_2_7_10_3> .
+
+<http://w3id.org/polifonia/resource/JAMSObservation/LauraLynnCunningham41173/7_10_3_5_0_5@0.0> a jams:JAMSObservation,
+        jams:JAMSScoreObservation,
+        jams:ScorePatternOccurrence ;
+    rdfs:label [ ] ;
+    jams:hasDuration "0.0"^^xsd:float ;
+    jams:hasFrequency "1"^^xsd:int ;
+    jams:hasPatternType "pitch-class-values" ;
+    jams:ofPattern <http://w3id.org/polifonia/resource/pattern/7_10_3_5_0_5> .
+
+<http://w3id.org/polifonia/resource/JAMSObservation/LauraLynnCunningham41173/7_10_3_5_7_7@0.0> a jams:JAMSObservation,
+        jams:JAMSScoreObservation,
+        jams:ScorePatternOccurrence ;
+    rdfs:label [ ] ;
+    jams:hasDuration "0.0"^^xsd:float ;
+    jams:hasFrequency "2"^^xsd:int ;
+    jams:hasPatternType "pitch-class-values" ;
+    jams:ofPattern <http://w3id.org/polifonia/resource/pattern/7_10_3_5_7_7> .
+
+<http://w3id.org/polifonia/resource/JAMSObservation/LauraLynnCunningham41173/7_7_10_2_0_10@0.0> a jams:JAMSObservation,
+        jams:JAMSScoreObservation,
+        jams:ScorePatternOccurrence ;
+    rdfs:label [ ] ;
+    jams:hasDuration "0.0"^^xsd:float ;
+    jams:hasFrequency "2"^^xsd:int ;
+    jams:hasPatternType "pitch-class-values" ;
+    jams:ofPattern <http://w3id.org/polifonia/resource/pattern/7_7_10_2_0_10> .
+
+<http://w3id.org/polifonia/resource/JAMSObservation/LauraLynnCunningham41173/7_7_10_2_7_10@0.0> a jams:JAMSObservation,
+        jams:JAMSScoreObservation,
+        jams:ScorePatternOccurrence ;
+    rdfs:label [ ] ;
+    jams:hasDuration "0.0"^^xsd:float ;
+    jams:hasFrequency "1"^^xsd:int ;
+    jams:hasPatternType "pitch-class-values" ;
+    jams:ofPattern <http://w3id.org/polifonia/resource/pattern/7_7_10_2_7_10> .
+
+<http://w3id.org/polifonia/resource/MusicalComposition/52ac5cd916bf756e2ba01702107d3d837fd241f1> a mc:MusicalComposition ;
+    rdfs:label "LauraLynnCunningham41173" ;
+    mc:title "LauraLynnCunningham41173" ;
+    prov:wasDerivedFrom <http://w3id.org/polifonia/resource/JAMSFile/LauraLynnCunningham41173.jams> .
+

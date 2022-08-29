@@ -1,0 +1,341 @@
+@prefix core: <http://w3id.org/polifonia/ontology/core/> .
+@prefix jams: <http://w3id.org/polifonia/ontology/jams/> .
+@prefix mc: <http://w3id.org/polifonia/ontology/musical-composition/> .
+@prefix pon-resource: <http://w3id.org/polifonia/resource/> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+pon-resource:Agent%2Fannotator_local_id a core:Agent ;
+    rdfs:label "FONN-Tool" ;
+    jams:hasAnnotatorType pon-resource:annotator-program ;
+    jams:hasName "FONN-Tool" .
+
+<http://w3id.org/polifonia/resource/JAMSAnnotation/639cdc2017edc801abae029ea94eb1792fb5f061> a jams:JAMSAnnotation,
+        jams:JAMSScoreAnnotation ;
+    jams:includesObservation <http://w3id.org/polifonia/resource/JAMSObservation/RightsOfManThe39143/0_0_7_0_7_0@0.0>,
+        <http://w3id.org/polifonia/resource/JAMSObservation/RightsOfManThe39143/0_0_7_3_0_7@0.0>,
+        <http://w3id.org/polifonia/resource/JAMSObservation/RightsOfManThe39143/0_10_10_5_5_0@0.0>,
+        <http://w3id.org/polifonia/resource/JAMSObservation/RightsOfManThe39143/0_3_7_3_3_7@0.0>,
+        <http://w3id.org/polifonia/resource/JAMSObservation/RightsOfManThe39143/0_5_7_3_0_7@0.0>,
+        <http://w3id.org/polifonia/resource/JAMSObservation/RightsOfManThe39143/0_7_0_10_10_5@0.0>,
+        <http://w3id.org/polifonia/resource/JAMSObservation/RightsOfManThe39143/0_7_0_7_0_10@0.0>,
+        <http://w3id.org/polifonia/resource/JAMSObservation/RightsOfManThe39143/0_7_3_0_7_3@0.0>,
+        <http://w3id.org/polifonia/resource/JAMSObservation/RightsOfManThe39143/0_7_3_7_0_0@0.0>,
+        <http://w3id.org/polifonia/resource/JAMSObservation/RightsOfManThe39143/0_7_3_7_0_5@0.0>,
+        <http://w3id.org/polifonia/resource/JAMSObservation/RightsOfManThe39143/10_10_5_5_0_3@0.0>,
+        <http://w3id.org/polifonia/resource/JAMSObservation/RightsOfManThe39143/10_5_5_0_3_7@0.0>,
+        <http://w3id.org/polifonia/resource/JAMSObservation/RightsOfManThe39143/3_0_7_3_7_0@0.0>,
+        <http://w3id.org/polifonia/resource/JAMSObservation/RightsOfManThe39143/3_3_7_0_0_7@0.0>,
+        <http://w3id.org/polifonia/resource/JAMSObservation/RightsOfManThe39143/3_7_0_0_7_0@0.0>,
+        <http://w3id.org/polifonia/resource/JAMSObservation/RightsOfManThe39143/3_7_0_0_7_3@0.0>,
+        <http://w3id.org/polifonia/resource/JAMSObservation/RightsOfManThe39143/3_7_0_5_7_3@0.0>,
+        <http://w3id.org/polifonia/resource/JAMSObservation/RightsOfManThe39143/3_7_3_0_7_3@0.0>,
+        <http://w3id.org/polifonia/resource/JAMSObservation/RightsOfManThe39143/3_7_3_3_7_0@0.0>,
+        <http://w3id.org/polifonia/resource/JAMSObservation/RightsOfManThe39143/5_0_3_7_3_3@0.0>,
+        <http://w3id.org/polifonia/resource/JAMSObservation/RightsOfManThe39143/5_5_0_3_7_3@0.0>,
+        <http://w3id.org/polifonia/resource/JAMSObservation/RightsOfManThe39143/5_7_3_0_7_3@0.0>,
+        <http://w3id.org/polifonia/resource/JAMSObservation/RightsOfManThe39143/7_0_0_7_0_7@0.0>,
+        <http://w3id.org/polifonia/resource/JAMSObservation/RightsOfManThe39143/7_0_0_7_3_0@0.0>,
+        <http://w3id.org/polifonia/resource/JAMSObservation/RightsOfManThe39143/7_0_10_10_5_5@0.0>,
+        <http://w3id.org/polifonia/resource/JAMSObservation/RightsOfManThe39143/7_0_5_7_3_0@0.0>,
+        <http://w3id.org/polifonia/resource/JAMSObservation/RightsOfManThe39143/7_0_7_0_10_10@0.0>,
+        <http://w3id.org/polifonia/resource/JAMSObservation/RightsOfManThe39143/7_3_0_7_3_7@0.0>,
+        <http://w3id.org/polifonia/resource/JAMSObservation/RightsOfManThe39143/7_3_3_7_0_0@0.0>,
+        <http://w3id.org/polifonia/resource/JAMSObservation/RightsOfManThe39143/7_3_7_0_0_7@0.0>,
+        <http://w3id.org/polifonia/resource/JAMSObservation/RightsOfManThe39143/7_3_7_0_5_7@0.0> ;
+    jams:isJAMSAnnotationOf <http://w3id.org/polifonia/resource/MusicalComposition/639cdc2017edc801abae029ea94eb1792fb5f061> .
+
+<http://w3id.org/polifonia/resource/Score/song_local_id> jams:hasJAMSAnnotation <http://w3id.org/polifonia/resource/MusicalComposition/639cdc2017edc801abae029ea94eb1792fb5f061> .
+
+<http://w3id.org/polifonia/resource/JAMSFile/RightsOfManThe39143.jams> a jams:JAMSFile ;
+    jams:identifiers [ ] ;
+    jams:jamsVersion "0.3.4" ;
+    jams:release "" ;
+    prov:wasDerivedFrom "The Session" ;
+    prov:wasMemberOf <https://github.com/ashahidkhattak/thesession> .
+
+<http://w3id.org/polifonia/resource/JAMSObservation/RightsOfManThe39143/0_0_7_0_7_0@0.0> a jams:JAMSObservation,
+        jams:JAMSScoreObservation,
+        jams:ScorePatternOccurrence ;
+    rdfs:label [ ] ;
+    jams:hasDuration "0.0"^^xsd:float ;
+    jams:hasFrequency "2"^^xsd:int ;
+    jams:hasPatternType "pitch-class-values" ;
+    jams:ofPattern <http://w3id.org/polifonia/resource/pattern/0_0_7_0_7_0> .
+
+<http://w3id.org/polifonia/resource/JAMSObservation/RightsOfManThe39143/0_0_7_3_0_7@0.0> a jams:JAMSObservation,
+        jams:JAMSScoreObservation,
+        jams:ScorePatternOccurrence ;
+    rdfs:label [ ] ;
+    jams:hasDuration "0.0"^^xsd:float ;
+    jams:hasFrequency "1"^^xsd:int ;
+    jams:hasPatternType "pitch-class-values" ;
+    jams:ofPattern <http://w3id.org/polifonia/resource/pattern/0_0_7_3_0_7> .
+
+<http://w3id.org/polifonia/resource/JAMSObservation/RightsOfManThe39143/0_10_10_5_5_0@0.0> a jams:JAMSObservation,
+        jams:JAMSScoreObservation,
+        jams:ScorePatternOccurrence ;
+    rdfs:label [ ] ;
+    jams:hasDuration "0.0"^^xsd:float ;
+    jams:hasFrequency "2"^^xsd:int ;
+    jams:hasPatternType "pitch-class-values" ;
+    jams:ofPattern <http://w3id.org/polifonia/resource/pattern/0_10_10_5_5_0> .
+
+<http://w3id.org/polifonia/resource/JAMSObservation/RightsOfManThe39143/0_3_7_3_3_7@0.0> a jams:JAMSObservation,
+        jams:JAMSScoreObservation,
+        jams:ScorePatternOccurrence ;
+    rdfs:label [ ] ;
+    jams:hasDuration "0.0"^^xsd:float ;
+    jams:hasFrequency "2"^^xsd:int ;
+    jams:hasPatternType "pitch-class-values" ;
+    jams:ofPattern <http://w3id.org/polifonia/resource/pattern/0_3_7_3_3_7> .
+
+<http://w3id.org/polifonia/resource/JAMSObservation/RightsOfManThe39143/0_5_7_3_0_7@0.0> a jams:JAMSObservation,
+        jams:JAMSScoreObservation,
+        jams:ScorePatternOccurrence ;
+    rdfs:label [ ] ;
+    jams:hasDuration "0.0"^^xsd:float ;
+    jams:hasFrequency "2"^^xsd:int ;
+    jams:hasPatternType "pitch-class-values" ;
+    jams:ofPattern <http://w3id.org/polifonia/resource/pattern/0_5_7_3_0_7> .
+
+<http://w3id.org/polifonia/resource/JAMSObservation/RightsOfManThe39143/0_7_0_10_10_5@0.0> a jams:JAMSObservation,
+        jams:JAMSScoreObservation,
+        jams:ScorePatternOccurrence ;
+    rdfs:label [ ] ;
+    jams:hasDuration "0.0"^^xsd:float ;
+    jams:hasFrequency "2"^^xsd:int ;
+    jams:hasPatternType "pitch-class-values" ;
+    jams:ofPattern <http://w3id.org/polifonia/resource/pattern/0_7_0_10_10_5> .
+
+<http://w3id.org/polifonia/resource/JAMSObservation/RightsOfManThe39143/0_7_0_7_0_10@0.0> a jams:JAMSObservation,
+        jams:JAMSScoreObservation,
+        jams:ScorePatternOccurrence ;
+    rdfs:label [ ] ;
+    jams:hasDuration "0.0"^^xsd:float ;
+    jams:hasFrequency "2"^^xsd:int ;
+    jams:hasPatternType "pitch-class-values" ;
+    jams:ofPattern <http://w3id.org/polifonia/resource/pattern/0_7_0_7_0_10> .
+
+<http://w3id.org/polifonia/resource/JAMSObservation/RightsOfManThe39143/0_7_3_0_7_3@0.0> a jams:JAMSObservation,
+        jams:JAMSScoreObservation,
+        jams:ScorePatternOccurrence ;
+    rdfs:label [ ] ;
+    jams:hasDuration "0.0"^^xsd:float ;
+    jams:hasFrequency "1"^^xsd:int ;
+    jams:hasPatternType "pitch-class-values" ;
+    jams:ofPattern <http://w3id.org/polifonia/resource/pattern/0_7_3_0_7_3> .
+
+<http://w3id.org/polifonia/resource/JAMSObservation/RightsOfManThe39143/0_7_3_7_0_0@0.0> a jams:JAMSObservation,
+        jams:JAMSScoreObservation,
+        jams:ScorePatternOccurrence ;
+    rdfs:label [ ] ;
+    jams:hasDuration "0.0"^^xsd:float ;
+    jams:hasFrequency "2"^^xsd:int ;
+    jams:hasPatternType "pitch-class-values" ;
+    jams:ofPattern <http://w3id.org/polifonia/resource/pattern/0_7_3_7_0_0> .
+
+<http://w3id.org/polifonia/resource/JAMSObservation/RightsOfManThe39143/0_7_3_7_0_5@0.0> a jams:JAMSObservation,
+        jams:JAMSScoreObservation,
+        jams:ScorePatternOccurrence ;
+    rdfs:label [ ] ;
+    jams:hasDuration "0.0"^^xsd:float ;
+    jams:hasFrequency "2"^^xsd:int ;
+    jams:hasPatternType "pitch-class-values" ;
+    jams:ofPattern <http://w3id.org/polifonia/resource/pattern/0_7_3_7_0_5> .
+
+<http://w3id.org/polifonia/resource/JAMSObservation/RightsOfManThe39143/10_10_5_5_0_3@0.0> a jams:JAMSObservation,
+        jams:JAMSScoreObservation,
+        jams:ScorePatternOccurrence ;
+    rdfs:label [ ] ;
+    jams:hasDuration "0.0"^^xsd:float ;
+    jams:hasFrequency "2"^^xsd:int ;
+    jams:hasPatternType "pitch-class-values" ;
+    jams:ofPattern <http://w3id.org/polifonia/resource/pattern/10_10_5_5_0_3> .
+
+<http://w3id.org/polifonia/resource/JAMSObservation/RightsOfManThe39143/10_5_5_0_3_7@0.0> a jams:JAMSObservation,
+        jams:JAMSScoreObservation,
+        jams:ScorePatternOccurrence ;
+    rdfs:label [ ] ;
+    jams:hasDuration "0.0"^^xsd:float ;
+    jams:hasFrequency "2"^^xsd:int ;
+    jams:hasPatternType "pitch-class-values" ;
+    jams:ofPattern <http://w3id.org/polifonia/resource/pattern/10_5_5_0_3_7> .
+
+<http://w3id.org/polifonia/resource/JAMSObservation/RightsOfManThe39143/3_0_7_3_7_0@0.0> a jams:JAMSObservation,
+        jams:JAMSScoreObservation,
+        jams:ScorePatternOccurrence ;
+    rdfs:label [ ] ;
+    jams:hasDuration "0.0"^^xsd:float ;
+    jams:hasFrequency "4"^^xsd:int ;
+    jams:hasPatternType "pitch-class-values" ;
+    jams:ofPattern <http://w3id.org/polifonia/resource/pattern/3_0_7_3_7_0> .
+
+<http://w3id.org/polifonia/resource/JAMSObservation/RightsOfManThe39143/3_3_7_0_0_7@0.0> a jams:JAMSObservation,
+        jams:JAMSScoreObservation,
+        jams:ScorePatternOccurrence ;
+    rdfs:label [ ] ;
+    jams:hasDuration "0.0"^^xsd:float ;
+    jams:hasFrequency "1"^^xsd:int ;
+    jams:hasPatternType "pitch-class-values" ;
+    jams:ofPattern <http://w3id.org/polifonia/resource/pattern/3_3_7_0_0_7> .
+
+<http://w3id.org/polifonia/resource/JAMSObservation/RightsOfManThe39143/3_7_0_0_7_0@0.0> a jams:JAMSObservation,
+        jams:JAMSScoreObservation,
+        jams:ScorePatternOccurrence ;
+    rdfs:label [ ] ;
+    jams:hasDuration "0.0"^^xsd:float ;
+    jams:hasFrequency "2"^^xsd:int ;
+    jams:hasPatternType "pitch-class-values" ;
+    jams:ofPattern <http://w3id.org/polifonia/resource/pattern/3_7_0_0_7_0> .
+
+<http://w3id.org/polifonia/resource/JAMSObservation/RightsOfManThe39143/3_7_0_0_7_3@0.0> a jams:JAMSObservation,
+        jams:JAMSScoreObservation,
+        jams:ScorePatternOccurrence ;
+    rdfs:label [ ] ;
+    jams:hasDuration "0.0"^^xsd:float ;
+    jams:hasFrequency "1"^^xsd:int ;
+    jams:hasPatternType "pitch-class-values" ;
+    jams:ofPattern <http://w3id.org/polifonia/resource/pattern/3_7_0_0_7_3> .
+
+<http://w3id.org/polifonia/resource/JAMSObservation/RightsOfManThe39143/3_7_0_5_7_3@0.0> a jams:JAMSObservation,
+        jams:JAMSScoreObservation,
+        jams:ScorePatternOccurrence ;
+    rdfs:label [ ] ;
+    jams:hasDuration "0.0"^^xsd:float ;
+    jams:hasFrequency "2"^^xsd:int ;
+    jams:hasPatternType "pitch-class-values" ;
+    jams:ofPattern <http://w3id.org/polifonia/resource/pattern/3_7_0_5_7_3> .
+
+<http://w3id.org/polifonia/resource/JAMSObservation/RightsOfManThe39143/3_7_3_0_7_3@0.0> a jams:JAMSObservation,
+        jams:JAMSScoreObservation,
+        jams:ScorePatternOccurrence ;
+    rdfs:label [ ] ;
+    jams:hasDuration "0.0"^^xsd:float ;
+    jams:hasFrequency "1"^^xsd:int ;
+    jams:hasPatternType "pitch-class-values" ;
+    jams:ofPattern <http://w3id.org/polifonia/resource/pattern/3_7_3_0_7_3> .
+
+<http://w3id.org/polifonia/resource/JAMSObservation/RightsOfManThe39143/3_7_3_3_7_0@0.0> a jams:JAMSObservation,
+        jams:JAMSScoreObservation,
+        jams:ScorePatternOccurrence ;
+    rdfs:label [ ] ;
+    jams:hasDuration "0.0"^^xsd:float ;
+    jams:hasFrequency "2"^^xsd:int ;
+    jams:hasPatternType "pitch-class-values" ;
+    jams:ofPattern <http://w3id.org/polifonia/resource/pattern/3_7_3_3_7_0> .
+
+<http://w3id.org/polifonia/resource/JAMSObservation/RightsOfManThe39143/5_0_3_7_3_3@0.0> a jams:JAMSObservation,
+        jams:JAMSScoreObservation,
+        jams:ScorePatternOccurrence ;
+    rdfs:label [ ] ;
+    jams:hasDuration "0.0"^^xsd:float ;
+    jams:hasFrequency "2"^^xsd:int ;
+    jams:hasPatternType "pitch-class-values" ;
+    jams:ofPattern <http://w3id.org/polifonia/resource/pattern/5_0_3_7_3_3> .
+
+<http://w3id.org/polifonia/resource/JAMSObservation/RightsOfManThe39143/5_5_0_3_7_3@0.0> a jams:JAMSObservation,
+        jams:JAMSScoreObservation,
+        jams:ScorePatternOccurrence ;
+    rdfs:label [ ] ;
+    jams:hasDuration "0.0"^^xsd:float ;
+    jams:hasFrequency "2"^^xsd:int ;
+    jams:hasPatternType "pitch-class-values" ;
+    jams:ofPattern <http://w3id.org/polifonia/resource/pattern/5_5_0_3_7_3> .
+
+<http://w3id.org/polifonia/resource/JAMSObservation/RightsOfManThe39143/5_7_3_0_7_3@0.0> a jams:JAMSObservation,
+        jams:JAMSScoreObservation,
+        jams:ScorePatternOccurrence ;
+    rdfs:label [ ] ;
+    jams:hasDuration "0.0"^^xsd:float ;
+    jams:hasFrequency "2"^^xsd:int ;
+    jams:hasPatternType "pitch-class-values" ;
+    jams:ofPattern <http://w3id.org/polifonia/resource/pattern/5_7_3_0_7_3> .
+
+<http://w3id.org/polifonia/resource/JAMSObservation/RightsOfManThe39143/7_0_0_7_0_7@0.0> a jams:JAMSObservation,
+        jams:JAMSScoreObservation,
+        jams:ScorePatternOccurrence ;
+    rdfs:label [ ] ;
+    jams:hasDuration "0.0"^^xsd:float ;
+    jams:hasFrequency "2"^^xsd:int ;
+    jams:hasPatternType "pitch-class-values" ;
+    jams:ofPattern <http://w3id.org/polifonia/resource/pattern/7_0_0_7_0_7> .
+
+<http://w3id.org/polifonia/resource/JAMSObservation/RightsOfManThe39143/7_0_0_7_3_0@0.0> a jams:JAMSObservation,
+        jams:JAMSScoreObservation,
+        jams:ScorePatternOccurrence ;
+    rdfs:label [ ] ;
+    jams:hasDuration "0.0"^^xsd:float ;
+    jams:hasFrequency "1"^^xsd:int ;
+    jams:hasPatternType "pitch-class-values" ;
+    jams:ofPattern <http://w3id.org/polifonia/resource/pattern/7_0_0_7_3_0> .
+
+<http://w3id.org/polifonia/resource/JAMSObservation/RightsOfManThe39143/7_0_10_10_5_5@0.0> a jams:JAMSObservation,
+        jams:JAMSScoreObservation,
+        jams:ScorePatternOccurrence ;
+    rdfs:label [ ] ;
+    jams:hasDuration "0.0"^^xsd:float ;
+    jams:hasFrequency "2"^^xsd:int ;
+    jams:hasPatternType "pitch-class-values" ;
+    jams:ofPattern <http://w3id.org/polifonia/resource/pattern/7_0_10_10_5_5> .
+
+<http://w3id.org/polifonia/resource/JAMSObservation/RightsOfManThe39143/7_0_5_7_3_0@0.0> a jams:JAMSObservation,
+        jams:JAMSScoreObservation,
+        jams:ScorePatternOccurrence ;
+    rdfs:label [ ] ;
+    jams:hasDuration "0.0"^^xsd:float ;
+    jams:hasFrequency "2"^^xsd:int ;
+    jams:hasPatternType "pitch-class-values" ;
+    jams:ofPattern <http://w3id.org/polifonia/resource/pattern/7_0_5_7_3_0> .
+
+<http://w3id.org/polifonia/resource/JAMSObservation/RightsOfManThe39143/7_0_7_0_10_10@0.0> a jams:JAMSObservation,
+        jams:JAMSScoreObservation,
+        jams:ScorePatternOccurrence ;
+    rdfs:label [ ] ;
+    jams:hasDuration "0.0"^^xsd:float ;
+    jams:hasFrequency "2"^^xsd:int ;
+    jams:hasPatternType "pitch-class-values" ;
+    jams:ofPattern <http://w3id.org/polifonia/resource/pattern/7_0_7_0_10_10> .
+
+<http://w3id.org/polifonia/resource/JAMSObservation/RightsOfManThe39143/7_3_0_7_3_7@0.0> a jams:JAMSObservation,
+        jams:JAMSScoreObservation,
+        jams:ScorePatternOccurrence ;
+    rdfs:label [ ] ;
+    jams:hasDuration "0.0"^^xsd:float ;
+    jams:hasFrequency "4"^^xsd:int ;
+    jams:hasPatternType "pitch-class-values" ;
+    jams:ofPattern <http://w3id.org/polifonia/resource/pattern/7_3_0_7_3_7> .
+
+<http://w3id.org/polifonia/resource/JAMSObservation/RightsOfManThe39143/7_3_3_7_0_0@0.0> a jams:JAMSObservation,
+        jams:JAMSScoreObservation,
+        jams:ScorePatternOccurrence ;
+    rdfs:label [ ] ;
+    jams:hasDuration "0.0"^^xsd:float ;
+    jams:hasFrequency "2"^^xsd:int ;
+    jams:hasPatternType "pitch-class-values" ;
+    jams:ofPattern <http://w3id.org/polifonia/resource/pattern/7_3_3_7_0_0> .
+
+<http://w3id.org/polifonia/resource/JAMSObservation/RightsOfManThe39143/7_3_7_0_0_7@0.0> a jams:JAMSObservation,
+        jams:JAMSScoreObservation,
+        jams:ScorePatternOccurrence ;
+    rdfs:label [ ] ;
+    jams:hasDuration "0.0"^^xsd:float ;
+    jams:hasFrequency "2"^^xsd:int ;
+    jams:hasPatternType "pitch-class-values" ;
+    jams:ofPattern <http://w3id.org/polifonia/resource/pattern/7_3_7_0_0_7> .
+
+<http://w3id.org/polifonia/resource/JAMSObservation/RightsOfManThe39143/7_3_7_0_5_7@0.0> a jams:JAMSObservation,
+        jams:JAMSScoreObservation,
+        jams:ScorePatternOccurrence ;
+    rdfs:label [ ] ;
+    jams:hasDuration "0.0"^^xsd:float ;
+    jams:hasFrequency "2"^^xsd:int ;
+    jams:hasPatternType "pitch-class-values" ;
+    jams:ofPattern <http://w3id.org/polifonia/resource/pattern/7_3_7_0_5_7> .
+
+<http://w3id.org/polifonia/resource/MusicalComposition/639cdc2017edc801abae029ea94eb1792fb5f061> a mc:MusicalComposition ;
+    rdfs:label "RightsOfManThe39143" ;
+    mc:title "RightsOfManThe39143" ;
+    prov:wasDerivedFrom <http://w3id.org/polifonia/resource/JAMSFile/RightsOfManThe39143.jams> .
+

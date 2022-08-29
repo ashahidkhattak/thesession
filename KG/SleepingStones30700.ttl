@@ -1,0 +1,171 @@
+@prefix core: <http://w3id.org/polifonia/ontology/core/> .
+@prefix jams: <http://w3id.org/polifonia/ontology/jams/> .
+@prefix mc: <http://w3id.org/polifonia/ontology/musical-composition/> .
+@prefix pon-resource: <http://w3id.org/polifonia/resource/> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+pon-resource:Agent%2Fannotator_local_id a core:Agent ;
+    rdfs:label "FONN-Tool" ;
+    jams:hasAnnotatorType pon-resource:annotator-program ;
+    jams:hasName "FONN-Tool" .
+
+<http://w3id.org/polifonia/resource/JAMSAnnotation/8a115731ad463776af8d6d4263bde81702f45ce8> a jams:JAMSAnnotation,
+        jams:JAMSScoreAnnotation ;
+    jams:includesObservation <http://w3id.org/polifonia/resource/JAMSObservation/SleepingStones30700/0_11_5_9_5_9@0.0>,
+        <http://w3id.org/polifonia/resource/JAMSObservation/SleepingStones30700/11_5_9_5_9_2@0.0>,
+        <http://w3id.org/polifonia/resource/JAMSObservation/SleepingStones30700/11_9_7_2_5_2@0.0>,
+        <http://w3id.org/polifonia/resource/JAMSObservation/SleepingStones30700/11_9_7_5_9_5@0.0>,
+        <http://w3id.org/polifonia/resource/JAMSObservation/SleepingStones30700/2_5_11_11_9_7@0.0>,
+        <http://w3id.org/polifonia/resource/JAMSObservation/SleepingStones30700/2_5_2_5_11_11@0.0>,
+        <http://w3id.org/polifonia/resource/JAMSObservation/SleepingStones30700/4_0_11_5_9_5@0.0>,
+        <http://w3id.org/polifonia/resource/JAMSObservation/SleepingStones30700/5_11_11_9_7_5@0.0>,
+        <http://w3id.org/polifonia/resource/JAMSObservation/SleepingStones30700/5_9_5_9_2_4@0.0>,
+        <http://w3id.org/polifonia/resource/JAMSObservation/SleepingStones30700/7_2_5_2_5_11@0.0>,
+        <http://w3id.org/polifonia/resource/JAMSObservation/SleepingStones30700/7_5_9_5_9_2@0.0>,
+        <http://w3id.org/polifonia/resource/JAMSObservation/SleepingStones30700/9.0_5.0_9.0_2.0_4.0_0.0@0.0>,
+        <http://w3id.org/polifonia/resource/JAMSObservation/SleepingStones30700/9_7_2_5_2_5@0.0>,
+        <http://w3id.org/polifonia/resource/JAMSObservation/SleepingStones30700/9_7_5_9_5_9@0.0> ;
+    jams:isJAMSAnnotationOf <http://w3id.org/polifonia/resource/MusicalComposition/8a115731ad463776af8d6d4263bde81702f45ce8> .
+
+<http://w3id.org/polifonia/resource/Score/song_local_id> jams:hasJAMSAnnotation <http://w3id.org/polifonia/resource/MusicalComposition/8a115731ad463776af8d6d4263bde81702f45ce8> .
+
+<http://w3id.org/polifonia/resource/JAMSFile/SleepingStones30700.jams> a jams:JAMSFile ;
+    jams:identifiers [ ] ;
+    jams:jamsVersion "0.3.4" ;
+    jams:release "" ;
+    prov:wasDerivedFrom "The Session" ;
+    prov:wasMemberOf <https://github.com/ashahidkhattak/thesession> .
+
+<http://w3id.org/polifonia/resource/JAMSObservation/SleepingStones30700/0_11_5_9_5_9@0.0> a jams:JAMSObservation,
+        jams:JAMSScoreObservation,
+        jams:ScorePatternOccurrence ;
+    rdfs:label [ ] ;
+    jams:hasDuration "0.0"^^xsd:float ;
+    jams:hasFrequency "1"^^xsd:int ;
+    jams:hasPatternType "pitch-class-values" ;
+    jams:ofPattern <http://w3id.org/polifonia/resource/pattern/0_11_5_9_5_9> .
+
+<http://w3id.org/polifonia/resource/JAMSObservation/SleepingStones30700/11_5_9_5_9_2@0.0> a jams:JAMSObservation,
+        jams:JAMSScoreObservation,
+        jams:ScorePatternOccurrence ;
+    rdfs:label [ ] ;
+    jams:hasDuration "0.0"^^xsd:float ;
+    jams:hasFrequency "1"^^xsd:int ;
+    jams:hasPatternType "pitch-class-values" ;
+    jams:ofPattern <http://w3id.org/polifonia/resource/pattern/11_5_9_5_9_2> .
+
+<http://w3id.org/polifonia/resource/JAMSObservation/SleepingStones30700/11_9_7_2_5_2@0.0> a jams:JAMSObservation,
+        jams:JAMSScoreObservation,
+        jams:ScorePatternOccurrence ;
+    rdfs:label [ ] ;
+    jams:hasDuration "0.0"^^xsd:float ;
+    jams:hasFrequency "1"^^xsd:int ;
+    jams:hasPatternType "pitch-class-values" ;
+    jams:ofPattern <http://w3id.org/polifonia/resource/pattern/11_9_7_2_5_2> .
+
+<http://w3id.org/polifonia/resource/JAMSObservation/SleepingStones30700/11_9_7_5_9_5@0.0> a jams:JAMSObservation,
+        jams:JAMSScoreObservation,
+        jams:ScorePatternOccurrence ;
+    rdfs:label [ ] ;
+    jams:hasDuration "0.0"^^xsd:float ;
+    jams:hasFrequency "1"^^xsd:int ;
+    jams:hasPatternType "pitch-class-values" ;
+    jams:ofPattern <http://w3id.org/polifonia/resource/pattern/11_9_7_5_9_5> .
+
+<http://w3id.org/polifonia/resource/JAMSObservation/SleepingStones30700/2_5_11_11_9_7@0.0> a jams:JAMSObservation,
+        jams:JAMSScoreObservation,
+        jams:ScorePatternOccurrence ;
+    rdfs:label [ ] ;
+    jams:hasDuration "0.0"^^xsd:float ;
+    jams:hasFrequency "2"^^xsd:int ;
+    jams:hasPatternType "pitch-class-values" ;
+    jams:ofPattern <http://w3id.org/polifonia/resource/pattern/2_5_11_11_9_7> .
+
+<http://w3id.org/polifonia/resource/JAMSObservation/SleepingStones30700/2_5_2_5_11_11@0.0> a jams:JAMSObservation,
+        jams:JAMSScoreObservation,
+        jams:ScorePatternOccurrence ;
+    rdfs:label [ ] ;
+    jams:hasDuration "0.0"^^xsd:float ;
+    jams:hasFrequency "2"^^xsd:int ;
+    jams:hasPatternType "pitch-class-values" ;
+    jams:ofPattern <http://w3id.org/polifonia/resource/pattern/2_5_2_5_11_11> .
+
+<http://w3id.org/polifonia/resource/JAMSObservation/SleepingStones30700/4_0_11_5_9_5@0.0> a jams:JAMSObservation,
+        jams:JAMSScoreObservation,
+        jams:ScorePatternOccurrence ;
+    rdfs:label [ ] ;
+    jams:hasDuration "0.0"^^xsd:float ;
+    jams:hasFrequency "1"^^xsd:int ;
+    jams:hasPatternType "pitch-class-values" ;
+    jams:ofPattern <http://w3id.org/polifonia/resource/pattern/4_0_11_5_9_5> .
+
+<http://w3id.org/polifonia/resource/JAMSObservation/SleepingStones30700/5_11_11_9_7_5@0.0> a jams:JAMSObservation,
+        jams:JAMSScoreObservation,
+        jams:ScorePatternOccurrence ;
+    rdfs:label [ ] ;
+    jams:hasDuration "0.0"^^xsd:float ;
+    jams:hasFrequency "1"^^xsd:int ;
+    jams:hasPatternType "pitch-class-values" ;
+    jams:ofPattern <http://w3id.org/polifonia/resource/pattern/5_11_11_9_7_5> .
+
+<http://w3id.org/polifonia/resource/JAMSObservation/SleepingStones30700/5_9_5_9_2_4@0.0> a jams:JAMSObservation,
+        jams:JAMSScoreObservation,
+        jams:ScorePatternOccurrence ;
+    rdfs:label [ ] ;
+    jams:hasDuration "0.0"^^xsd:float ;
+    jams:hasFrequency "2"^^xsd:int ;
+    jams:hasPatternType "pitch-class-values" ;
+    jams:ofPattern <http://w3id.org/polifonia/resource/pattern/5_9_5_9_2_4> .
+
+<http://w3id.org/polifonia/resource/JAMSObservation/SleepingStones30700/7_2_5_2_5_11@0.0> a jams:JAMSObservation,
+        jams:JAMSScoreObservation,
+        jams:ScorePatternOccurrence ;
+    rdfs:label [ ] ;
+    jams:hasDuration "0.0"^^xsd:float ;
+    jams:hasFrequency "1"^^xsd:int ;
+    jams:hasPatternType "pitch-class-values" ;
+    jams:ofPattern <http://w3id.org/polifonia/resource/pattern/7_2_5_2_5_11> .
+
+<http://w3id.org/polifonia/resource/JAMSObservation/SleepingStones30700/7_5_9_5_9_2@0.0> a jams:JAMSObservation,
+        jams:JAMSScoreObservation,
+        jams:ScorePatternOccurrence ;
+    rdfs:label [ ] ;
+    jams:hasDuration "0.0"^^xsd:float ;
+    jams:hasFrequency "1"^^xsd:int ;
+    jams:hasPatternType "pitch-class-values" ;
+    jams:ofPattern <http://w3id.org/polifonia/resource/pattern/7_5_9_5_9_2> .
+
+<http://w3id.org/polifonia/resource/JAMSObservation/SleepingStones30700/9.0_5.0_9.0_2.0_4.0_0.0@0.0> a jams:JAMSObservation,
+        jams:JAMSScoreObservation,
+        jams:ScorePatternOccurrence ;
+    rdfs:label [ ] ;
+    jams:hasDuration "0.0"^^xsd:float ;
+    jams:hasFrequency "2"^^xsd:int ;
+    jams:hasPatternType "pitch-class-values" ;
+    jams:ofPattern <http://w3id.org/polifonia/resource/pattern/9.0_5.0_9.0_2.0_4.0_0.0> .
+
+<http://w3id.org/polifonia/resource/JAMSObservation/SleepingStones30700/9_7_2_5_2_5@0.0> a jams:JAMSObservation,
+        jams:JAMSScoreObservation,
+        jams:ScorePatternOccurrence ;
+    rdfs:label [ ] ;
+    jams:hasDuration "0.0"^^xsd:float ;
+    jams:hasFrequency "1"^^xsd:int ;
+    jams:hasPatternType "pitch-class-values" ;
+    jams:ofPattern <http://w3id.org/polifonia/resource/pattern/9_7_2_5_2_5> .
+
+<http://w3id.org/polifonia/resource/JAMSObservation/SleepingStones30700/9_7_5_9_5_9@0.0> a jams:JAMSObservation,
+        jams:JAMSScoreObservation,
+        jams:ScorePatternOccurrence ;
+    rdfs:label [ ] ;
+    jams:hasDuration "0.0"^^xsd:float ;
+    jams:hasFrequency "1"^^xsd:int ;
+    jams:hasPatternType "pitch-class-values" ;
+    jams:ofPattern <http://w3id.org/polifonia/resource/pattern/9_7_5_9_5_9> .
+
+<http://w3id.org/polifonia/resource/MusicalComposition/8a115731ad463776af8d6d4263bde81702f45ce8> a mc:MusicalComposition ;
+    rdfs:label "SleepingStones30700" ;
+    mc:title "SleepingStones30700" ;
+    prov:wasDerivedFrom <http://w3id.org/polifonia/resource/JAMSFile/SleepingStones30700.jams> .
+

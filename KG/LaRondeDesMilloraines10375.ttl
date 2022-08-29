@@ -1,0 +1,311 @@
+@prefix core: <http://w3id.org/polifonia/ontology/core/> .
+@prefix jams: <http://w3id.org/polifonia/ontology/jams/> .
+@prefix mc: <http://w3id.org/polifonia/ontology/musical-composition/> .
+@prefix pon-resource: <http://w3id.org/polifonia/resource/> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+pon-resource:Agent%2Fannotator_local_id a core:Agent ;
+    rdfs:label "FONN-Tool" ;
+    jams:hasAnnotatorType pon-resource:annotator-program ;
+    jams:hasName "FONN-Tool" .
+
+<http://w3id.org/polifonia/resource/JAMSAnnotation/cfcc4597962ef4d2c5e4a54b2252797c33ad15a4> a jams:JAMSAnnotation,
+        jams:JAMSScoreAnnotation ;
+    jams:includesObservation <http://w3id.org/polifonia/resource/JAMSObservation/LaRondeDesMilloraines10375/0_0_0_2_7_5@0.0>,
+        <http://w3id.org/polifonia/resource/JAMSObservation/LaRondeDesMilloraines10375/0_0_2_7_5_3@0.0>,
+        <http://w3id.org/polifonia/resource/JAMSObservation/LaRondeDesMilloraines10375/0_0_8_8_7_2@0.0>,
+        <http://w3id.org/polifonia/resource/JAMSObservation/LaRondeDesMilloraines10375/0_2_7_5_3_0@0.0>,
+        <http://w3id.org/polifonia/resource/JAMSObservation/LaRondeDesMilloraines10375/0_7_0_2_7_5@0.0>,
+        <http://w3id.org/polifonia/resource/JAMSObservation/LaRondeDesMilloraines10375/0_8_8_7_2_7@0.0>,
+        <http://w3id.org/polifonia/resource/JAMSObservation/LaRondeDesMilloraines10375/2_7_5_3_0_0@0.0>,
+        <http://w3id.org/polifonia/resource/JAMSObservation/LaRondeDesMilloraines10375/2_7_5_3_0_7@0.0>,
+        <http://w3id.org/polifonia/resource/JAMSObservation/LaRondeDesMilloraines10375/2_7_5_7_0_8@0.0>,
+        <http://w3id.org/polifonia/resource/JAMSObservation/LaRondeDesMilloraines10375/3_0_0_0_2_7@0.0>,
+        <http://w3id.org/polifonia/resource/JAMSObservation/LaRondeDesMilloraines10375/3_0_0_0_8_8@0.0>,
+        <http://w3id.org/polifonia/resource/JAMSObservation/LaRondeDesMilloraines10375/3_0_7_0_2_7@0.0>,
+        <http://w3id.org/polifonia/resource/JAMSObservation/LaRondeDesMilloraines10375/5_0_0_8_8_7@0.0>,
+        <http://w3id.org/polifonia/resource/JAMSObservation/LaRondeDesMilloraines10375/5_3_0_0_0_2@0.0>,
+        <http://w3id.org/polifonia/resource/JAMSObservation/LaRondeDesMilloraines10375/5_3_0_0_0_8@0.0>,
+        <http://w3id.org/polifonia/resource/JAMSObservation/LaRondeDesMilloraines10375/5_3_0_7_0_2@0.0>,
+        <http://w3id.org/polifonia/resource/JAMSObservation/LaRondeDesMilloraines10375/5_7_0_8_8_7@0.0>,
+        <http://w3id.org/polifonia/resource/JAMSObservation/LaRondeDesMilloraines10375/7_0_2_7_5_3@0.0>,
+        <http://w3id.org/polifonia/resource/JAMSObservation/LaRondeDesMilloraines10375/7_0_8_8_7_2@0.0>,
+        <http://w3id.org/polifonia/resource/JAMSObservation/LaRondeDesMilloraines10375/7_2_7_5_0_0@0.0>,
+        <http://w3id.org/polifonia/resource/JAMSObservation/LaRondeDesMilloraines10375/7_2_7_5_7_0@0.0>,
+        <http://w3id.org/polifonia/resource/JAMSObservation/LaRondeDesMilloraines10375/7_5_0_0_8_8@0.0>,
+        <http://w3id.org/polifonia/resource/JAMSObservation/LaRondeDesMilloraines10375/7_5_3_0_0_0@0.0>,
+        <http://w3id.org/polifonia/resource/JAMSObservation/LaRondeDesMilloraines10375/7_5_3_0_7_0@0.0>,
+        <http://w3id.org/polifonia/resource/JAMSObservation/LaRondeDesMilloraines10375/7_5_7_0_8_8@0.0>,
+        <http://w3id.org/polifonia/resource/JAMSObservation/LaRondeDesMilloraines10375/8_7_2_7_5_0@0.0>,
+        <http://w3id.org/polifonia/resource/JAMSObservation/LaRondeDesMilloraines10375/8_7_2_7_5_7@0.0>,
+        <http://w3id.org/polifonia/resource/JAMSObservation/LaRondeDesMilloraines10375/8_8_7_2_7_5@0.0> ;
+    jams:isJAMSAnnotationOf <http://w3id.org/polifonia/resource/MusicalComposition/cfcc4597962ef4d2c5e4a54b2252797c33ad15a4> .
+
+<http://w3id.org/polifonia/resource/Score/song_local_id> jams:hasJAMSAnnotation <http://w3id.org/polifonia/resource/MusicalComposition/cfcc4597962ef4d2c5e4a54b2252797c33ad15a4> .
+
+<http://w3id.org/polifonia/resource/JAMSFile/LaRondeDesMilloraines10375.jams> a jams:JAMSFile ;
+    jams:identifiers [ ] ;
+    jams:jamsVersion "0.3.4" ;
+    jams:release "" ;
+    prov:wasDerivedFrom "The Session" ;
+    prov:wasMemberOf <https://github.com/ashahidkhattak/thesession> .
+
+<http://w3id.org/polifonia/resource/JAMSObservation/LaRondeDesMilloraines10375/0_0_0_2_7_5@0.0> a jams:JAMSObservation,
+        jams:JAMSScoreObservation,
+        jams:ScorePatternOccurrence ;
+    rdfs:label [ ] ;
+    jams:hasDuration "0.0"^^xsd:float ;
+    jams:hasFrequency "1"^^xsd:int ;
+    jams:hasPatternType "pitch-class-values" ;
+    jams:ofPattern <http://w3id.org/polifonia/resource/pattern/0_0_0_2_7_5> .
+
+<http://w3id.org/polifonia/resource/JAMSObservation/LaRondeDesMilloraines10375/0_0_2_7_5_3@0.0> a jams:JAMSObservation,
+        jams:JAMSScoreObservation,
+        jams:ScorePatternOccurrence ;
+    rdfs:label [ ] ;
+    jams:hasDuration "0.0"^^xsd:float ;
+    jams:hasFrequency "1"^^xsd:int ;
+    jams:hasPatternType "pitch-class-values" ;
+    jams:ofPattern <http://w3id.org/polifonia/resource/pattern/0_0_2_7_5_3> .
+
+<http://w3id.org/polifonia/resource/JAMSObservation/LaRondeDesMilloraines10375/0_0_8_8_7_2@0.0> a jams:JAMSObservation,
+        jams:JAMSScoreObservation,
+        jams:ScorePatternOccurrence ;
+    rdfs:label [ ] ;
+    jams:hasDuration "0.0"^^xsd:float ;
+    jams:hasFrequency "2"^^xsd:int ;
+    jams:hasPatternType "pitch-class-values" ;
+    jams:ofPattern <http://w3id.org/polifonia/resource/pattern/0_0_8_8_7_2> .
+
+<http://w3id.org/polifonia/resource/JAMSObservation/LaRondeDesMilloraines10375/0_2_7_5_3_0@0.0> a jams:JAMSObservation,
+        jams:JAMSScoreObservation,
+        jams:ScorePatternOccurrence ;
+    rdfs:label [ ] ;
+    jams:hasDuration "0.0"^^xsd:float ;
+    jams:hasFrequency "4"^^xsd:int ;
+    jams:hasPatternType "pitch-class-values" ;
+    jams:ofPattern <http://w3id.org/polifonia/resource/pattern/0_2_7_5_3_0> .
+
+<http://w3id.org/polifonia/resource/JAMSObservation/LaRondeDesMilloraines10375/0_7_0_2_7_5@0.0> a jams:JAMSObservation,
+        jams:JAMSScoreObservation,
+        jams:ScorePatternOccurrence ;
+    rdfs:label [ ] ;
+    jams:hasDuration "0.0"^^xsd:float ;
+    jams:hasFrequency "2"^^xsd:int ;
+    jams:hasPatternType "pitch-class-values" ;
+    jams:ofPattern <http://w3id.org/polifonia/resource/pattern/0_7_0_2_7_5> .
+
+<http://w3id.org/polifonia/resource/JAMSObservation/LaRondeDesMilloraines10375/0_8_8_7_2_7@0.0> a jams:JAMSObservation,
+        jams:JAMSScoreObservation,
+        jams:ScorePatternOccurrence ;
+    rdfs:label [ ] ;
+    jams:hasDuration "0.0"^^xsd:float ;
+    jams:hasFrequency "4"^^xsd:int ;
+    jams:hasPatternType "pitch-class-values" ;
+    jams:ofPattern <http://w3id.org/polifonia/resource/pattern/0_8_8_7_2_7> .
+
+<http://w3id.org/polifonia/resource/JAMSObservation/LaRondeDesMilloraines10375/2_7_5_3_0_0@0.0> a jams:JAMSObservation,
+        jams:JAMSScoreObservation,
+        jams:ScorePatternOccurrence ;
+    rdfs:label [ ] ;
+    jams:hasDuration "0.0"^^xsd:float ;
+    jams:hasFrequency "2"^^xsd:int ;
+    jams:hasPatternType "pitch-class-values" ;
+    jams:ofPattern <http://w3id.org/polifonia/resource/pattern/2_7_5_3_0_0> .
+
+<http://w3id.org/polifonia/resource/JAMSObservation/LaRondeDesMilloraines10375/2_7_5_3_0_7@0.0> a jams:JAMSObservation,
+        jams:JAMSScoreObservation,
+        jams:ScorePatternOccurrence ;
+    rdfs:label [ ] ;
+    jams:hasDuration "0.0"^^xsd:float ;
+    jams:hasFrequency "2"^^xsd:int ;
+    jams:hasPatternType "pitch-class-values" ;
+    jams:ofPattern <http://w3id.org/polifonia/resource/pattern/2_7_5_3_0_7> .
+
+<http://w3id.org/polifonia/resource/JAMSObservation/LaRondeDesMilloraines10375/2_7_5_7_0_8@0.0> a jams:JAMSObservation,
+        jams:JAMSScoreObservation,
+        jams:ScorePatternOccurrence ;
+    rdfs:label [ ] ;
+    jams:hasDuration "0.0"^^xsd:float ;
+    jams:hasFrequency "2"^^xsd:int ;
+    jams:hasPatternType "pitch-class-values" ;
+    jams:ofPattern <http://w3id.org/polifonia/resource/pattern/2_7_5_7_0_8> .
+
+<http://w3id.org/polifonia/resource/JAMSObservation/LaRondeDesMilloraines10375/3_0_0_0_2_7@0.0> a jams:JAMSObservation,
+        jams:JAMSScoreObservation,
+        jams:ScorePatternOccurrence ;
+    rdfs:label [ ] ;
+    jams:hasDuration "0.0"^^xsd:float ;
+    jams:hasFrequency "1"^^xsd:int ;
+    jams:hasPatternType "pitch-class-values" ;
+    jams:ofPattern <http://w3id.org/polifonia/resource/pattern/3_0_0_0_2_7> .
+
+<http://w3id.org/polifonia/resource/JAMSObservation/LaRondeDesMilloraines10375/3_0_0_0_8_8@0.0> a jams:JAMSObservation,
+        jams:JAMSScoreObservation,
+        jams:ScorePatternOccurrence ;
+    rdfs:label [ ] ;
+    jams:hasDuration "0.0"^^xsd:float ;
+    jams:hasFrequency "1"^^xsd:int ;
+    jams:hasPatternType "pitch-class-values" ;
+    jams:ofPattern <http://w3id.org/polifonia/resource/pattern/3_0_0_0_8_8> .
+
+<http://w3id.org/polifonia/resource/JAMSObservation/LaRondeDesMilloraines10375/3_0_7_0_2_7@0.0> a jams:JAMSObservation,
+        jams:JAMSScoreObservation,
+        jams:ScorePatternOccurrence ;
+    rdfs:label [ ] ;
+    jams:hasDuration "0.0"^^xsd:float ;
+    jams:hasFrequency "2"^^xsd:int ;
+    jams:hasPatternType "pitch-class-values" ;
+    jams:ofPattern <http://w3id.org/polifonia/resource/pattern/3_0_7_0_2_7> .
+
+<http://w3id.org/polifonia/resource/JAMSObservation/LaRondeDesMilloraines10375/5_0_0_8_8_7@0.0> a jams:JAMSObservation,
+        jams:JAMSScoreObservation,
+        jams:ScorePatternOccurrence ;
+    rdfs:label [ ] ;
+    jams:hasDuration "0.0"^^xsd:float ;
+    jams:hasFrequency "1"^^xsd:int ;
+    jams:hasPatternType "pitch-class-values" ;
+    jams:ofPattern <http://w3id.org/polifonia/resource/pattern/5_0_0_8_8_7> .
+
+<http://w3id.org/polifonia/resource/JAMSObservation/LaRondeDesMilloraines10375/5_3_0_0_0_2@0.0> a jams:JAMSObservation,
+        jams:JAMSScoreObservation,
+        jams:ScorePatternOccurrence ;
+    rdfs:label [ ] ;
+    jams:hasDuration "0.0"^^xsd:float ;
+    jams:hasFrequency "1"^^xsd:int ;
+    jams:hasPatternType "pitch-class-values" ;
+    jams:ofPattern <http://w3id.org/polifonia/resource/pattern/5_3_0_0_0_2> .
+
+<http://w3id.org/polifonia/resource/JAMSObservation/LaRondeDesMilloraines10375/5_3_0_0_0_8@0.0> a jams:JAMSObservation,
+        jams:JAMSScoreObservation,
+        jams:ScorePatternOccurrence ;
+    rdfs:label [ ] ;
+    jams:hasDuration "0.0"^^xsd:float ;
+    jams:hasFrequency "1"^^xsd:int ;
+    jams:hasPatternType "pitch-class-values" ;
+    jams:ofPattern <http://w3id.org/polifonia/resource/pattern/5_3_0_0_0_8> .
+
+<http://w3id.org/polifonia/resource/JAMSObservation/LaRondeDesMilloraines10375/5_3_0_7_0_2@0.0> a jams:JAMSObservation,
+        jams:JAMSScoreObservation,
+        jams:ScorePatternOccurrence ;
+    rdfs:label [ ] ;
+    jams:hasDuration "0.0"^^xsd:float ;
+    jams:hasFrequency "2"^^xsd:int ;
+    jams:hasPatternType "pitch-class-values" ;
+    jams:ofPattern <http://w3id.org/polifonia/resource/pattern/5_3_0_7_0_2> .
+
+<http://w3id.org/polifonia/resource/JAMSObservation/LaRondeDesMilloraines10375/5_7_0_8_8_7@0.0> a jams:JAMSObservation,
+        jams:JAMSScoreObservation,
+        jams:ScorePatternOccurrence ;
+    rdfs:label [ ] ;
+    jams:hasDuration "0.0"^^xsd:float ;
+    jams:hasFrequency "2"^^xsd:int ;
+    jams:hasPatternType "pitch-class-values" ;
+    jams:ofPattern <http://w3id.org/polifonia/resource/pattern/5_7_0_8_8_7> .
+
+<http://w3id.org/polifonia/resource/JAMSObservation/LaRondeDesMilloraines10375/7_0_2_7_5_3@0.0> a jams:JAMSObservation,
+        jams:JAMSScoreObservation,
+        jams:ScorePatternOccurrence ;
+    rdfs:label [ ] ;
+    jams:hasDuration "0.0"^^xsd:float ;
+    jams:hasFrequency "2"^^xsd:int ;
+    jams:hasPatternType "pitch-class-values" ;
+    jams:ofPattern <http://w3id.org/polifonia/resource/pattern/7_0_2_7_5_3> .
+
+<http://w3id.org/polifonia/resource/JAMSObservation/LaRondeDesMilloraines10375/7_0_8_8_7_2@0.0> a jams:JAMSObservation,
+        jams:JAMSScoreObservation,
+        jams:ScorePatternOccurrence ;
+    rdfs:label [ ] ;
+    jams:hasDuration "0.0"^^xsd:float ;
+    jams:hasFrequency "2"^^xsd:int ;
+    jams:hasPatternType "pitch-class-values" ;
+    jams:ofPattern <http://w3id.org/polifonia/resource/pattern/7_0_8_8_7_2> .
+
+<http://w3id.org/polifonia/resource/JAMSObservation/LaRondeDesMilloraines10375/7_2_7_5_0_0@0.0> a jams:JAMSObservation,
+        jams:JAMSScoreObservation,
+        jams:ScorePatternOccurrence ;
+    rdfs:label [ ] ;
+    jams:hasDuration "0.0"^^xsd:float ;
+    jams:hasFrequency "1"^^xsd:int ;
+    jams:hasPatternType "pitch-class-values" ;
+    jams:ofPattern <http://w3id.org/polifonia/resource/pattern/7_2_7_5_0_0> .
+
+<http://w3id.org/polifonia/resource/JAMSObservation/LaRondeDesMilloraines10375/7_2_7_5_7_0@0.0> a jams:JAMSObservation,
+        jams:JAMSScoreObservation,
+        jams:ScorePatternOccurrence ;
+    rdfs:label [ ] ;
+    jams:hasDuration "0.0"^^xsd:float ;
+    jams:hasFrequency "2"^^xsd:int ;
+    jams:hasPatternType "pitch-class-values" ;
+    jams:ofPattern <http://w3id.org/polifonia/resource/pattern/7_2_7_5_7_0> .
+
+<http://w3id.org/polifonia/resource/JAMSObservation/LaRondeDesMilloraines10375/7_5_0_0_8_8@0.0> a jams:JAMSObservation,
+        jams:JAMSScoreObservation,
+        jams:ScorePatternOccurrence ;
+    rdfs:label [ ] ;
+    jams:hasDuration "0.0"^^xsd:float ;
+    jams:hasFrequency "1"^^xsd:int ;
+    jams:hasPatternType "pitch-class-values" ;
+    jams:ofPattern <http://w3id.org/polifonia/resource/pattern/7_5_0_0_8_8> .
+
+<http://w3id.org/polifonia/resource/JAMSObservation/LaRondeDesMilloraines10375/7_5_3_0_0_0@0.0> a jams:JAMSObservation,
+        jams:JAMSScoreObservation,
+        jams:ScorePatternOccurrence ;
+    rdfs:label [ ] ;
+    jams:hasDuration "0.0"^^xsd:float ;
+    jams:hasFrequency "2"^^xsd:int ;
+    jams:hasPatternType "pitch-class-values" ;
+    jams:ofPattern <http://w3id.org/polifonia/resource/pattern/7_5_3_0_0_0> .
+
+<http://w3id.org/polifonia/resource/JAMSObservation/LaRondeDesMilloraines10375/7_5_3_0_7_0@0.0> a jams:JAMSObservation,
+        jams:JAMSScoreObservation,
+        jams:ScorePatternOccurrence ;
+    rdfs:label [ ] ;
+    jams:hasDuration "0.0"^^xsd:float ;
+    jams:hasFrequency "2"^^xsd:int ;
+    jams:hasPatternType "pitch-class-values" ;
+    jams:ofPattern <http://w3id.org/polifonia/resource/pattern/7_5_3_0_7_0> .
+
+<http://w3id.org/polifonia/resource/JAMSObservation/LaRondeDesMilloraines10375/7_5_7_0_8_8@0.0> a jams:JAMSObservation,
+        jams:JAMSScoreObservation,
+        jams:ScorePatternOccurrence ;
+    rdfs:label [ ] ;
+    jams:hasDuration "0.0"^^xsd:float ;
+    jams:hasFrequency "2"^^xsd:int ;
+    jams:hasPatternType "pitch-class-values" ;
+    jams:ofPattern <http://w3id.org/polifonia/resource/pattern/7_5_7_0_8_8> .
+
+<http://w3id.org/polifonia/resource/JAMSObservation/LaRondeDesMilloraines10375/8_7_2_7_5_0@0.0> a jams:JAMSObservation,
+        jams:JAMSScoreObservation,
+        jams:ScorePatternOccurrence ;
+    rdfs:label [ ] ;
+    jams:hasDuration "0.0"^^xsd:float ;
+    jams:hasFrequency "2"^^xsd:int ;
+    jams:hasPatternType "pitch-class-values" ;
+    jams:ofPattern <http://w3id.org/polifonia/resource/pattern/8_7_2_7_5_0> .
+
+<http://w3id.org/polifonia/resource/JAMSObservation/LaRondeDesMilloraines10375/8_7_2_7_5_7@0.0> a jams:JAMSObservation,
+        jams:JAMSScoreObservation,
+        jams:ScorePatternOccurrence ;
+    rdfs:label [ ] ;
+    jams:hasDuration "0.0"^^xsd:float ;
+    jams:hasFrequency "2"^^xsd:int ;
+    jams:hasPatternType "pitch-class-values" ;
+    jams:ofPattern <http://w3id.org/polifonia/resource/pattern/8_7_2_7_5_7> .
+
+<http://w3id.org/polifonia/resource/JAMSObservation/LaRondeDesMilloraines10375/8_8_7_2_7_5@0.0> a jams:JAMSObservation,
+        jams:JAMSScoreObservation,
+        jams:ScorePatternOccurrence ;
+    rdfs:label [ ] ;
+    jams:hasDuration "0.0"^^xsd:float ;
+    jams:hasFrequency "4"^^xsd:int ;
+    jams:hasPatternType "pitch-class-values" ;
+    jams:ofPattern <http://w3id.org/polifonia/resource/pattern/8_8_7_2_7_5> .
+
+<http://w3id.org/polifonia/resource/MusicalComposition/cfcc4597962ef4d2c5e4a54b2252797c33ad15a4> a mc:MusicalComposition ;
+    rdfs:label "LaRondeDesMilloraines10375" ;
+    mc:title "LaRondeDesMilloraines10375" ;
+    prov:wasDerivedFrom <http://w3id.org/polifonia/resource/JAMSFile/LaRondeDesMilloraines10375.jams> .
+

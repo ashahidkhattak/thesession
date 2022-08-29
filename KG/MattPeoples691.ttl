@@ -1,0 +1,251 @@
+@prefix core: <http://w3id.org/polifonia/ontology/core/> .
+@prefix jams: <http://w3id.org/polifonia/ontology/jams/> .
+@prefix mc: <http://w3id.org/polifonia/ontology/musical-composition/> .
+@prefix pon-resource: <http://w3id.org/polifonia/resource/> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+pon-resource:Agent%2Fannotator_local_id a core:Agent ;
+    rdfs:label "FONN-Tool" ;
+    jams:hasAnnotatorType pon-resource:annotator-program ;
+    jams:hasName "FONN-Tool" .
+
+<http://w3id.org/polifonia/resource/JAMSAnnotation/4a1c2e11b4779576cb4cc2324478afe74186c355> a jams:JAMSAnnotation,
+        jams:JAMSScoreAnnotation ;
+    jams:includesObservation <http://w3id.org/polifonia/resource/JAMSObservation/MattPeoples691/0_0_0_10_10_0@0.0>,
+        <http://w3id.org/polifonia/resource/JAMSObservation/MattPeoples691/0_0_10_10_0_0@0.0>,
+        <http://w3id.org/polifonia/resource/JAMSObservation/MattPeoples691/0_0_10_10_0_8@0.0>,
+        <http://w3id.org/polifonia/resource/JAMSObservation/MattPeoples691/0_0_2_2_0_0@0.0>,
+        <http://w3id.org/polifonia/resource/JAMSObservation/MattPeoples691/0_0_2_3_0_3@0.0>,
+        <http://w3id.org/polifonia/resource/JAMSObservation/MattPeoples691/0_10_10_0_0_2@0.0>,
+        <http://w3id.org/polifonia/resource/JAMSObservation/MattPeoples691/0_2_2_0_0_10@0.0>,
+        <http://w3id.org/polifonia/resource/JAMSObservation/MattPeoples691/0_2_3_0_3_2@0.0>,
+        <http://w3id.org/polifonia/resource/JAMSObservation/MattPeoples691/0_3_2_0_0_0@0.0>,
+        <http://w3id.org/polifonia/resource/JAMSObservation/MattPeoples691/0_3_2_0_0_2@0.0>,
+        <http://w3id.org/polifonia/resource/JAMSObservation/MattPeoples691/0_3_2_3_0_3@0.0>,
+        <http://w3id.org/polifonia/resource/JAMSObservation/MattPeoples691/10_0_0_2_2_0@0.0>,
+        <http://w3id.org/polifonia/resource/JAMSObservation/MattPeoples691/10_10_0_0_2_2@0.0>,
+        <http://w3id.org/polifonia/resource/JAMSObservation/MattPeoples691/2_0_0_0_10_10@0.0>,
+        <http://w3id.org/polifonia/resource/JAMSObservation/MattPeoples691/2_0_0_10_10_0@0.0>,
+        <http://w3id.org/polifonia/resource/JAMSObservation/MattPeoples691/2_0_0_2_3_0@0.0>,
+        <http://w3id.org/polifonia/resource/JAMSObservation/MattPeoples691/2_2_0_0_10_10@0.0>,
+        <http://w3id.org/polifonia/resource/JAMSObservation/MattPeoples691/2_3_0_3_2_0@0.0>,
+        <http://w3id.org/polifonia/resource/JAMSObservation/MattPeoples691/3_0_3_2_0_0@0.0>,
+        <http://w3id.org/polifonia/resource/JAMSObservation/MattPeoples691/3_2_0_0_0_10@0.0>,
+        <http://w3id.org/polifonia/resource/JAMSObservation/MattPeoples691/3_2_0_0_2_3@0.0>,
+        <http://w3id.org/polifonia/resource/JAMSObservation/MattPeoples691/3_2_3_0_3_2@0.0> ;
+    jams:isJAMSAnnotationOf <http://w3id.org/polifonia/resource/MusicalComposition/4a1c2e11b4779576cb4cc2324478afe74186c355> .
+
+<http://w3id.org/polifonia/resource/Score/song_local_id> jams:hasJAMSAnnotation <http://w3id.org/polifonia/resource/MusicalComposition/4a1c2e11b4779576cb4cc2324478afe74186c355> .
+
+<http://w3id.org/polifonia/resource/JAMSFile/MattPeoples691.jams> a jams:JAMSFile ;
+    jams:identifiers [ ] ;
+    jams:jamsVersion "0.3.4" ;
+    jams:release "" ;
+    prov:wasDerivedFrom "The Session" ;
+    prov:wasMemberOf <https://github.com/ashahidkhattak/thesession> .
+
+<http://w3id.org/polifonia/resource/JAMSObservation/MattPeoples691/0_0_0_10_10_0@0.0> a jams:JAMSObservation,
+        jams:JAMSScoreObservation,
+        jams:ScorePatternOccurrence ;
+    rdfs:label [ ] ;
+    jams:hasDuration "0.0"^^xsd:float ;
+    jams:hasFrequency "1"^^xsd:int ;
+    jams:hasPatternType "pitch-class-values" ;
+    jams:ofPattern <http://w3id.org/polifonia/resource/pattern/0_0_0_10_10_0> .
+
+<http://w3id.org/polifonia/resource/JAMSObservation/MattPeoples691/0_0_10_10_0_0@0.0> a jams:JAMSObservation,
+        jams:JAMSScoreObservation,
+        jams:ScorePatternOccurrence ;
+    rdfs:label [ ] ;
+    jams:hasDuration "0.0"^^xsd:float ;
+    jams:hasFrequency "1"^^xsd:int ;
+    jams:hasPatternType "pitch-class-values" ;
+    jams:ofPattern <http://w3id.org/polifonia/resource/pattern/0_0_10_10_0_0> .
+
+<http://w3id.org/polifonia/resource/JAMSObservation/MattPeoples691/0_0_10_10_0_8@0.0> a jams:JAMSObservation,
+        jams:JAMSScoreObservation,
+        jams:ScorePatternOccurrence ;
+    rdfs:label [ ] ;
+    jams:hasDuration "0.0"^^xsd:float ;
+    jams:hasFrequency "1"^^xsd:int ;
+    jams:hasPatternType "pitch-class-values" ;
+    jams:ofPattern <http://w3id.org/polifonia/resource/pattern/0_0_10_10_0_8> .
+
+<http://w3id.org/polifonia/resource/JAMSObservation/MattPeoples691/0_0_2_2_0_0@0.0> a jams:JAMSObservation,
+        jams:JAMSScoreObservation,
+        jams:ScorePatternOccurrence ;
+    rdfs:label [ ] ;
+    jams:hasDuration "0.0"^^xsd:float ;
+    jams:hasFrequency "1"^^xsd:int ;
+    jams:hasPatternType "pitch-class-values" ;
+    jams:ofPattern <http://w3id.org/polifonia/resource/pattern/0_0_2_2_0_0> .
+
+<http://w3id.org/polifonia/resource/JAMSObservation/MattPeoples691/0_0_2_3_0_3@0.0> a jams:JAMSObservation,
+        jams:JAMSScoreObservation,
+        jams:ScorePatternOccurrence ;
+    rdfs:label [ ] ;
+    jams:hasDuration "0.0"^^xsd:float ;
+    jams:hasFrequency "1"^^xsd:int ;
+    jams:hasPatternType "pitch-class-values" ;
+    jams:ofPattern <http://w3id.org/polifonia/resource/pattern/0_0_2_3_0_3> .
+
+<http://w3id.org/polifonia/resource/JAMSObservation/MattPeoples691/0_10_10_0_0_2@0.0> a jams:JAMSObservation,
+        jams:JAMSScoreObservation,
+        jams:ScorePatternOccurrence ;
+    rdfs:label [ ] ;
+    jams:hasDuration "0.0"^^xsd:float ;
+    jams:hasFrequency "1"^^xsd:int ;
+    jams:hasPatternType "pitch-class-values" ;
+    jams:ofPattern <http://w3id.org/polifonia/resource/pattern/0_10_10_0_0_2> .
+
+<http://w3id.org/polifonia/resource/JAMSObservation/MattPeoples691/0_2_2_0_0_10@0.0> a jams:JAMSObservation,
+        jams:JAMSScoreObservation,
+        jams:ScorePatternOccurrence ;
+    rdfs:label [ ] ;
+    jams:hasDuration "0.0"^^xsd:float ;
+    jams:hasFrequency "1"^^xsd:int ;
+    jams:hasPatternType "pitch-class-values" ;
+    jams:ofPattern <http://w3id.org/polifonia/resource/pattern/0_2_2_0_0_10> .
+
+<http://w3id.org/polifonia/resource/JAMSObservation/MattPeoples691/0_2_3_0_3_2@0.0> a jams:JAMSObservation,
+        jams:JAMSScoreObservation,
+        jams:ScorePatternOccurrence ;
+    rdfs:label [ ] ;
+    jams:hasDuration "0.0"^^xsd:float ;
+    jams:hasFrequency "1"^^xsd:int ;
+    jams:hasPatternType "pitch-class-values" ;
+    jams:ofPattern <http://w3id.org/polifonia/resource/pattern/0_2_3_0_3_2> .
+
+<http://w3id.org/polifonia/resource/JAMSObservation/MattPeoples691/0_3_2_0_0_0@0.0> a jams:JAMSObservation,
+        jams:JAMSScoreObservation,
+        jams:ScorePatternOccurrence ;
+    rdfs:label [ ] ;
+    jams:hasDuration "0.0"^^xsd:float ;
+    jams:hasFrequency "1"^^xsd:int ;
+    jams:hasPatternType "pitch-class-values" ;
+    jams:ofPattern <http://w3id.org/polifonia/resource/pattern/0_3_2_0_0_0> .
+
+<http://w3id.org/polifonia/resource/JAMSObservation/MattPeoples691/0_3_2_0_0_2@0.0> a jams:JAMSObservation,
+        jams:JAMSScoreObservation,
+        jams:ScorePatternOccurrence ;
+    rdfs:label [ ] ;
+    jams:hasDuration "0.0"^^xsd:float ;
+    jams:hasFrequency "1"^^xsd:int ;
+    jams:hasPatternType "pitch-class-values" ;
+    jams:ofPattern <http://w3id.org/polifonia/resource/pattern/0_3_2_0_0_2> .
+
+<http://w3id.org/polifonia/resource/JAMSObservation/MattPeoples691/0_3_2_3_0_3@0.0> a jams:JAMSObservation,
+        jams:JAMSScoreObservation,
+        jams:ScorePatternOccurrence ;
+    rdfs:label [ ] ;
+    jams:hasDuration "0.0"^^xsd:float ;
+    jams:hasFrequency "1"^^xsd:int ;
+    jams:hasPatternType "pitch-class-values" ;
+    jams:ofPattern <http://w3id.org/polifonia/resource/pattern/0_3_2_3_0_3> .
+
+<http://w3id.org/polifonia/resource/JAMSObservation/MattPeoples691/10_0_0_2_2_0@0.0> a jams:JAMSObservation,
+        jams:JAMSScoreObservation,
+        jams:ScorePatternOccurrence ;
+    rdfs:label [ ] ;
+    jams:hasDuration "0.0"^^xsd:float ;
+    jams:hasFrequency "1"^^xsd:int ;
+    jams:hasPatternType "pitch-class-values" ;
+    jams:ofPattern <http://w3id.org/polifonia/resource/pattern/10_0_0_2_2_0> .
+
+<http://w3id.org/polifonia/resource/JAMSObservation/MattPeoples691/10_10_0_0_2_2@0.0> a jams:JAMSObservation,
+        jams:JAMSScoreObservation,
+        jams:ScorePatternOccurrence ;
+    rdfs:label [ ] ;
+    jams:hasDuration "0.0"^^xsd:float ;
+    jams:hasFrequency "1"^^xsd:int ;
+    jams:hasPatternType "pitch-class-values" ;
+    jams:ofPattern <http://w3id.org/polifonia/resource/pattern/10_10_0_0_2_2> .
+
+<http://w3id.org/polifonia/resource/JAMSObservation/MattPeoples691/2_0_0_0_10_10@0.0> a jams:JAMSObservation,
+        jams:JAMSScoreObservation,
+        jams:ScorePatternOccurrence ;
+    rdfs:label [ ] ;
+    jams:hasDuration "0.0"^^xsd:float ;
+    jams:hasFrequency "1"^^xsd:int ;
+    jams:hasPatternType "pitch-class-values" ;
+    jams:ofPattern <http://w3id.org/polifonia/resource/pattern/2_0_0_0_10_10> .
+
+<http://w3id.org/polifonia/resource/JAMSObservation/MattPeoples691/2_0_0_10_10_0@0.0> a jams:JAMSObservation,
+        jams:JAMSScoreObservation,
+        jams:ScorePatternOccurrence ;
+    rdfs:label [ ] ;
+    jams:hasDuration "0.0"^^xsd:float ;
+    jams:hasFrequency "1"^^xsd:int ;
+    jams:hasPatternType "pitch-class-values" ;
+    jams:ofPattern <http://w3id.org/polifonia/resource/pattern/2_0_0_10_10_0> .
+
+<http://w3id.org/polifonia/resource/JAMSObservation/MattPeoples691/2_0_0_2_3_0@0.0> a jams:JAMSObservation,
+        jams:JAMSScoreObservation,
+        jams:ScorePatternOccurrence ;
+    rdfs:label [ ] ;
+    jams:hasDuration "0.0"^^xsd:float ;
+    jams:hasFrequency "1"^^xsd:int ;
+    jams:hasPatternType "pitch-class-values" ;
+    jams:ofPattern <http://w3id.org/polifonia/resource/pattern/2_0_0_2_3_0> .
+
+<http://w3id.org/polifonia/resource/JAMSObservation/MattPeoples691/2_2_0_0_10_10@0.0> a jams:JAMSObservation,
+        jams:JAMSScoreObservation,
+        jams:ScorePatternOccurrence ;
+    rdfs:label [ ] ;
+    jams:hasDuration "0.0"^^xsd:float ;
+    jams:hasFrequency "1"^^xsd:int ;
+    jams:hasPatternType "pitch-class-values" ;
+    jams:ofPattern <http://w3id.org/polifonia/resource/pattern/2_2_0_0_10_10> .
+
+<http://w3id.org/polifonia/resource/JAMSObservation/MattPeoples691/2_3_0_3_2_0@0.0> a jams:JAMSObservation,
+        jams:JAMSScoreObservation,
+        jams:ScorePatternOccurrence ;
+    rdfs:label [ ] ;
+    jams:hasDuration "0.0"^^xsd:float ;
+    jams:hasFrequency "2"^^xsd:int ;
+    jams:hasPatternType "pitch-class-values" ;
+    jams:ofPattern <http://w3id.org/polifonia/resource/pattern/2_3_0_3_2_0> .
+
+<http://w3id.org/polifonia/resource/JAMSObservation/MattPeoples691/3_0_3_2_0_0@0.0> a jams:JAMSObservation,
+        jams:JAMSScoreObservation,
+        jams:ScorePatternOccurrence ;
+    rdfs:label [ ] ;
+    jams:hasDuration "0.0"^^xsd:float ;
+    jams:hasFrequency "2"^^xsd:int ;
+    jams:hasPatternType "pitch-class-values" ;
+    jams:ofPattern <http://w3id.org/polifonia/resource/pattern/3_0_3_2_0_0> .
+
+<http://w3id.org/polifonia/resource/JAMSObservation/MattPeoples691/3_2_0_0_0_10@0.0> a jams:JAMSObservation,
+        jams:JAMSScoreObservation,
+        jams:ScorePatternOccurrence ;
+    rdfs:label [ ] ;
+    jams:hasDuration "0.0"^^xsd:float ;
+    jams:hasFrequency "1"^^xsd:int ;
+    jams:hasPatternType "pitch-class-values" ;
+    jams:ofPattern <http://w3id.org/polifonia/resource/pattern/3_2_0_0_0_10> .
+
+<http://w3id.org/polifonia/resource/JAMSObservation/MattPeoples691/3_2_0_0_2_3@0.0> a jams:JAMSObservation,
+        jams:JAMSScoreObservation,
+        jams:ScorePatternOccurrence ;
+    rdfs:label [ ] ;
+    jams:hasDuration "0.0"^^xsd:float ;
+    jams:hasFrequency "1"^^xsd:int ;
+    jams:hasPatternType "pitch-class-values" ;
+    jams:ofPattern <http://w3id.org/polifonia/resource/pattern/3_2_0_0_2_3> .
+
+<http://w3id.org/polifonia/resource/JAMSObservation/MattPeoples691/3_2_3_0_3_2@0.0> a jams:JAMSObservation,
+        jams:JAMSScoreObservation,
+        jams:ScorePatternOccurrence ;
+    rdfs:label [ ] ;
+    jams:hasDuration "0.0"^^xsd:float ;
+    jams:hasFrequency "1"^^xsd:int ;
+    jams:hasPatternType "pitch-class-values" ;
+    jams:ofPattern <http://w3id.org/polifonia/resource/pattern/3_2_3_0_3_2> .
+
+<http://w3id.org/polifonia/resource/MusicalComposition/4a1c2e11b4779576cb4cc2324478afe74186c355> a mc:MusicalComposition ;
+    rdfs:label "MattPeoples691" ;
+    mc:title "MattPeoples691" ;
+    prov:wasDerivedFrom <http://w3id.org/polifonia/resource/JAMSFile/MattPeoples691.jams> .
+

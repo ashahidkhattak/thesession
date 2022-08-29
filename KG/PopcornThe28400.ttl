@@ -1,0 +1,131 @@
+@prefix core: <http://w3id.org/polifonia/ontology/core/> .
+@prefix jams: <http://w3id.org/polifonia/ontology/jams/> .
+@prefix mc: <http://w3id.org/polifonia/ontology/musical-composition/> .
+@prefix pon-resource: <http://w3id.org/polifonia/resource/> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+pon-resource:Agent%2Fannotator_local_id a core:Agent ;
+    rdfs:label "FONN-Tool" ;
+    jams:hasAnnotatorType pon-resource:annotator-program ;
+    jams:hasName "FONN-Tool" .
+
+<http://w3id.org/polifonia/resource/JAMSAnnotation/e8f9731f4822041a313d27136341fb051328a545> a jams:JAMSAnnotation,
+        jams:JAMSScoreAnnotation ;
+    jams:includesObservation <http://w3id.org/polifonia/resource/JAMSObservation/PopcornThe28400/0_0_0_10_0_0@0.0>,
+        <http://w3id.org/polifonia/resource/JAMSObservation/PopcornThe28400/0_0_0_10_8_5@0.0>,
+        <http://w3id.org/polifonia/resource/JAMSObservation/PopcornThe28400/0_0_0_8_0_0@0.0>,
+        <http://w3id.org/polifonia/resource/JAMSObservation/PopcornThe28400/0_0_10_0_0_0@0.0>,
+        <http://w3id.org/polifonia/resource/JAMSObservation/PopcornThe28400/0_0_8_0_0_0@0.0>,
+        <http://w3id.org/polifonia/resource/JAMSObservation/PopcornThe28400/0_10_0_0_0_8@0.0>,
+        <http://w3id.org/polifonia/resource/JAMSObservation/PopcornThe28400/0_8_0_0_0_10@0.0>,
+        <http://w3id.org/polifonia/resource/JAMSObservation/PopcornThe28400/10_0_0_0_8_0@0.0>,
+        <http://w3id.org/polifonia/resource/JAMSObservation/PopcornThe28400/8_0_0_0_10_0@0.0>,
+        <http://w3id.org/polifonia/resource/JAMSObservation/PopcornThe28400/8_0_0_0_10_8@0.0> ;
+    jams:isJAMSAnnotationOf <http://w3id.org/polifonia/resource/MusicalComposition/e8f9731f4822041a313d27136341fb051328a545> .
+
+<http://w3id.org/polifonia/resource/Score/song_local_id> jams:hasJAMSAnnotation <http://w3id.org/polifonia/resource/MusicalComposition/e8f9731f4822041a313d27136341fb051328a545> .
+
+<http://w3id.org/polifonia/resource/JAMSFile/PopcornThe28400.jams> a jams:JAMSFile ;
+    jams:identifiers [ ] ;
+    jams:jamsVersion "0.3.4" ;
+    jams:release "" ;
+    prov:wasDerivedFrom "The Session" ;
+    prov:wasMemberOf <https://github.com/ashahidkhattak/thesession> .
+
+<http://w3id.org/polifonia/resource/JAMSObservation/PopcornThe28400/0_0_0_10_0_0@0.0> a jams:JAMSObservation,
+        jams:JAMSScoreObservation,
+        jams:ScorePatternOccurrence ;
+    rdfs:label [ ] ;
+    jams:hasDuration "0.0"^^xsd:float ;
+    jams:hasFrequency "1"^^xsd:int ;
+    jams:hasPatternType "pitch-class-values" ;
+    jams:ofPattern <http://w3id.org/polifonia/resource/pattern/0_0_0_10_0_0> .
+
+<http://w3id.org/polifonia/resource/JAMSObservation/PopcornThe28400/0_0_0_10_8_5@0.0> a jams:JAMSObservation,
+        jams:JAMSScoreObservation,
+        jams:ScorePatternOccurrence ;
+    rdfs:label [ ] ;
+    jams:hasDuration "0.0"^^xsd:float ;
+    jams:hasFrequency "1"^^xsd:int ;
+    jams:hasPatternType "pitch-class-values" ;
+    jams:ofPattern <http://w3id.org/polifonia/resource/pattern/0_0_0_10_8_5> .
+
+<http://w3id.org/polifonia/resource/JAMSObservation/PopcornThe28400/0_0_0_8_0_0@0.0> a jams:JAMSObservation,
+        jams:JAMSScoreObservation,
+        jams:ScorePatternOccurrence ;
+    rdfs:label [ ] ;
+    jams:hasDuration "0.0"^^xsd:float ;
+    jams:hasFrequency "1"^^xsd:int ;
+    jams:hasPatternType "pitch-class-values" ;
+    jams:ofPattern <http://w3id.org/polifonia/resource/pattern/0_0_0_8_0_0> .
+
+<http://w3id.org/polifonia/resource/JAMSObservation/PopcornThe28400/0_0_10_0_0_0@0.0> a jams:JAMSObservation,
+        jams:JAMSScoreObservation,
+        jams:ScorePatternOccurrence ;
+    rdfs:label [ ] ;
+    jams:hasDuration "0.0"^^xsd:float ;
+    jams:hasFrequency "1"^^xsd:int ;
+    jams:hasPatternType "pitch-class-values" ;
+    jams:ofPattern <http://w3id.org/polifonia/resource/pattern/0_0_10_0_0_0> .
+
+<http://w3id.org/polifonia/resource/JAMSObservation/PopcornThe28400/0_0_8_0_0_0@0.0> a jams:JAMSObservation,
+        jams:JAMSScoreObservation,
+        jams:ScorePatternOccurrence ;
+    rdfs:label [ ] ;
+    jams:hasDuration "0.0"^^xsd:float ;
+    jams:hasFrequency "1"^^xsd:int ;
+    jams:hasPatternType "pitch-class-values" ;
+    jams:ofPattern <http://w3id.org/polifonia/resource/pattern/0_0_8_0_0_0> .
+
+<http://w3id.org/polifonia/resource/JAMSObservation/PopcornThe28400/0_10_0_0_0_8@0.0> a jams:JAMSObservation,
+        jams:JAMSScoreObservation,
+        jams:ScorePatternOccurrence ;
+    rdfs:label [ ] ;
+    jams:hasDuration "0.0"^^xsd:float ;
+    jams:hasFrequency "1"^^xsd:int ;
+    jams:hasPatternType "pitch-class-values" ;
+    jams:ofPattern <http://w3id.org/polifonia/resource/pattern/0_10_0_0_0_8> .
+
+<http://w3id.org/polifonia/resource/JAMSObservation/PopcornThe28400/0_8_0_0_0_10@0.0> a jams:JAMSObservation,
+        jams:JAMSScoreObservation,
+        jams:ScorePatternOccurrence ;
+    rdfs:label [ ] ;
+    jams:hasDuration "0.0"^^xsd:float ;
+    jams:hasFrequency "2"^^xsd:int ;
+    jams:hasPatternType "pitch-class-values" ;
+    jams:ofPattern <http://w3id.org/polifonia/resource/pattern/0_8_0_0_0_10> .
+
+<http://w3id.org/polifonia/resource/JAMSObservation/PopcornThe28400/10_0_0_0_8_0@0.0> a jams:JAMSObservation,
+        jams:JAMSScoreObservation,
+        jams:ScorePatternOccurrence ;
+    rdfs:label [ ] ;
+    jams:hasDuration "0.0"^^xsd:float ;
+    jams:hasFrequency "1"^^xsd:int ;
+    jams:hasPatternType "pitch-class-values" ;
+    jams:ofPattern <http://w3id.org/polifonia/resource/pattern/10_0_0_0_8_0> .
+
+<http://w3id.org/polifonia/resource/JAMSObservation/PopcornThe28400/8_0_0_0_10_0@0.0> a jams:JAMSObservation,
+        jams:JAMSScoreObservation,
+        jams:ScorePatternOccurrence ;
+    rdfs:label [ ] ;
+    jams:hasDuration "0.0"^^xsd:float ;
+    jams:hasFrequency "1"^^xsd:int ;
+    jams:hasPatternType "pitch-class-values" ;
+    jams:ofPattern <http://w3id.org/polifonia/resource/pattern/8_0_0_0_10_0> .
+
+<http://w3id.org/polifonia/resource/JAMSObservation/PopcornThe28400/8_0_0_0_10_8@0.0> a jams:JAMSObservation,
+        jams:JAMSScoreObservation,
+        jams:ScorePatternOccurrence ;
+    rdfs:label [ ] ;
+    jams:hasDuration "0.0"^^xsd:float ;
+    jams:hasFrequency "1"^^xsd:int ;
+    jams:hasPatternType "pitch-class-values" ;
+    jams:ofPattern <http://w3id.org/polifonia/resource/pattern/8_0_0_0_10_8> .
+
+<http://w3id.org/polifonia/resource/MusicalComposition/e8f9731f4822041a313d27136341fb051328a545> a mc:MusicalComposition ;
+    rdfs:label "PopcornThe28400" ;
+    mc:title "PopcornThe28400" ;
+    prov:wasDerivedFrom <http://w3id.org/polifonia/resource/JAMSFile/PopcornThe28400.jams> .
+

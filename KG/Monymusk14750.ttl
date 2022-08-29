@@ -1,0 +1,251 @@
+@prefix core: <http://w3id.org/polifonia/ontology/core/> .
+@prefix jams: <http://w3id.org/polifonia/ontology/jams/> .
+@prefix mc: <http://w3id.org/polifonia/ontology/musical-composition/> .
+@prefix pon-resource: <http://w3id.org/polifonia/resource/> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+pon-resource:Agent%2Fannotator_local_id a core:Agent ;
+    rdfs:label "FONN-Tool" ;
+    jams:hasAnnotatorType pon-resource:annotator-program ;
+    jams:hasName "FONN-Tool" .
+
+<http://w3id.org/polifonia/resource/JAMSAnnotation/0f8ada81cf7b235105d574618898c40fd025053d> a jams:JAMSAnnotation,
+        jams:JAMSScoreAnnotation ;
+    jams:includesObservation <http://w3id.org/polifonia/resource/JAMSObservation/Monymusk14750/0_5_0_7_4_4@0.0>,
+        <http://w3id.org/polifonia/resource/JAMSObservation/Monymusk14750/0_5_0_7_9_4@0.0>,
+        <http://w3id.org/polifonia/resource/JAMSObservation/Monymusk14750/0_7_0_5_0_7@0.0>,
+        <http://w3id.org/polifonia/resource/JAMSObservation/Monymusk14750/0_7_9_4_0_7@0.0>,
+        <http://w3id.org/polifonia/resource/JAMSObservation/Monymusk14750/2_7_4_9_4_0@0.0>,
+        <http://w3id.org/polifonia/resource/JAMSObservation/Monymusk14750/2_7_4_9_4_7@0.0>,
+        <http://w3id.org/polifonia/resource/JAMSObservation/Monymusk14750/4_0_7_0_5_0@0.0>,
+        <http://w3id.org/polifonia/resource/JAMSObservation/Monymusk14750/4_7_7_7_2_7@0.0>,
+        <http://w3id.org/polifonia/resource/JAMSObservation/Monymusk14750/4_9_4_0_7_0@0.0>,
+        <http://w3id.org/polifonia/resource/JAMSObservation/Monymusk14750/4_9_4_7_7_7@0.0>,
+        <http://w3id.org/polifonia/resource/JAMSObservation/Monymusk14750/5_0_7_9_4_0@0.0>,
+        <http://w3id.org/polifonia/resource/JAMSObservation/Monymusk14750/7_0_5_0_7_4@0.0>,
+        <http://w3id.org/polifonia/resource/JAMSObservation/Monymusk14750/7_0_5_0_7_9@0.0>,
+        <http://w3id.org/polifonia/resource/JAMSObservation/Monymusk14750/7_2_7_4_9_4@0.0>,
+        <http://w3id.org/polifonia/resource/JAMSObservation/Monymusk14750/7_4_9_4_0_7@0.0>,
+        <http://w3id.org/polifonia/resource/JAMSObservation/Monymusk14750/7_4_9_4_7_7@0.0>,
+        <http://w3id.org/polifonia/resource/JAMSObservation/Monymusk14750/7_7_2_7_4_9@0.0>,
+        <http://w3id.org/polifonia/resource/JAMSObservation/Monymusk14750/7_7_7_2_7_4@0.0>,
+        <http://w3id.org/polifonia/resource/JAMSObservation/Monymusk14750/7_9_4_0_7_0@0.0>,
+        <http://w3id.org/polifonia/resource/JAMSObservation/Monymusk14750/9_4_0_7_0_5@0.0>,
+        <http://w3id.org/polifonia/resource/JAMSObservation/Monymusk14750/9_4_7_7_7_2@0.0>,
+        <http://w3id.org/polifonia/resource/JAMSObservation/Monymusk14750/9_7_7_7_2_7@0.0> ;
+    jams:isJAMSAnnotationOf <http://w3id.org/polifonia/resource/MusicalComposition/0f8ada81cf7b235105d574618898c40fd025053d> .
+
+<http://w3id.org/polifonia/resource/Score/song_local_id> jams:hasJAMSAnnotation <http://w3id.org/polifonia/resource/MusicalComposition/0f8ada81cf7b235105d574618898c40fd025053d> .
+
+<http://w3id.org/polifonia/resource/JAMSFile/Monymusk14750.jams> a jams:JAMSFile ;
+    jams:identifiers [ ] ;
+    jams:jamsVersion "0.3.4" ;
+    jams:release "" ;
+    prov:wasDerivedFrom "The Session" ;
+    prov:wasMemberOf <https://github.com/ashahidkhattak/thesession> .
+
+<http://w3id.org/polifonia/resource/JAMSObservation/Monymusk14750/0_5_0_7_4_4@0.0> a jams:JAMSObservation,
+        jams:JAMSScoreObservation,
+        jams:ScorePatternOccurrence ;
+    rdfs:label [ ] ;
+    jams:hasDuration "0.0"^^xsd:float ;
+    jams:hasFrequency "1"^^xsd:int ;
+    jams:hasPatternType "pitch-class-values" ;
+    jams:ofPattern <http://w3id.org/polifonia/resource/pattern/0_5_0_7_4_4> .
+
+<http://w3id.org/polifonia/resource/JAMSObservation/Monymusk14750/0_5_0_7_9_4@0.0> a jams:JAMSObservation,
+        jams:JAMSScoreObservation,
+        jams:ScorePatternOccurrence ;
+    rdfs:label [ ] ;
+    jams:hasDuration "0.0"^^xsd:float ;
+    jams:hasFrequency "1"^^xsd:int ;
+    jams:hasPatternType "pitch-class-values" ;
+    jams:ofPattern <http://w3id.org/polifonia/resource/pattern/0_5_0_7_9_4> .
+
+<http://w3id.org/polifonia/resource/JAMSObservation/Monymusk14750/0_7_0_5_0_7@0.0> a jams:JAMSObservation,
+        jams:JAMSScoreObservation,
+        jams:ScorePatternOccurrence ;
+    rdfs:label [ ] ;
+    jams:hasDuration "0.0"^^xsd:float ;
+    jams:hasFrequency "2"^^xsd:int ;
+    jams:hasPatternType "pitch-class-values" ;
+    jams:ofPattern <http://w3id.org/polifonia/resource/pattern/0_7_0_5_0_7> .
+
+<http://w3id.org/polifonia/resource/JAMSObservation/Monymusk14750/0_7_9_4_0_7@0.0> a jams:JAMSObservation,
+        jams:JAMSScoreObservation,
+        jams:ScorePatternOccurrence ;
+    rdfs:label [ ] ;
+    jams:hasDuration "0.0"^^xsd:float ;
+    jams:hasFrequency "1"^^xsd:int ;
+    jams:hasPatternType "pitch-class-values" ;
+    jams:ofPattern <http://w3id.org/polifonia/resource/pattern/0_7_9_4_0_7> .
+
+<http://w3id.org/polifonia/resource/JAMSObservation/Monymusk14750/2_7_4_9_4_0@0.0> a jams:JAMSObservation,
+        jams:JAMSScoreObservation,
+        jams:ScorePatternOccurrence ;
+    rdfs:label [ ] ;
+    jams:hasDuration "0.0"^^xsd:float ;
+    jams:hasFrequency "1"^^xsd:int ;
+    jams:hasPatternType "pitch-class-values" ;
+    jams:ofPattern <http://w3id.org/polifonia/resource/pattern/2_7_4_9_4_0> .
+
+<http://w3id.org/polifonia/resource/JAMSObservation/Monymusk14750/2_7_4_9_4_7@0.0> a jams:JAMSObservation,
+        jams:JAMSScoreObservation,
+        jams:ScorePatternOccurrence ;
+    rdfs:label [ ] ;
+    jams:hasDuration "0.0"^^xsd:float ;
+    jams:hasFrequency "1"^^xsd:int ;
+    jams:hasPatternType "pitch-class-values" ;
+    jams:ofPattern <http://w3id.org/polifonia/resource/pattern/2_7_4_9_4_7> .
+
+<http://w3id.org/polifonia/resource/JAMSObservation/Monymusk14750/4_0_7_0_5_0@0.0> a jams:JAMSObservation,
+        jams:JAMSScoreObservation,
+        jams:ScorePatternOccurrence ;
+    rdfs:label [ ] ;
+    jams:hasDuration "0.0"^^xsd:float ;
+    jams:hasFrequency "2"^^xsd:int ;
+    jams:hasPatternType "pitch-class-values" ;
+    jams:ofPattern <http://w3id.org/polifonia/resource/pattern/4_0_7_0_5_0> .
+
+<http://w3id.org/polifonia/resource/JAMSObservation/Monymusk14750/4_7_7_7_2_7@0.0> a jams:JAMSObservation,
+        jams:JAMSScoreObservation,
+        jams:ScorePatternOccurrence ;
+    rdfs:label [ ] ;
+    jams:hasDuration "0.0"^^xsd:float ;
+    jams:hasFrequency "1"^^xsd:int ;
+    jams:hasPatternType "pitch-class-values" ;
+    jams:ofPattern <http://w3id.org/polifonia/resource/pattern/4_7_7_7_2_7> .
+
+<http://w3id.org/polifonia/resource/JAMSObservation/Monymusk14750/4_9_4_0_7_0@0.0> a jams:JAMSObservation,
+        jams:JAMSScoreObservation,
+        jams:ScorePatternOccurrence ;
+    rdfs:label [ ] ;
+    jams:hasDuration "0.0"^^xsd:float ;
+    jams:hasFrequency "1"^^xsd:int ;
+    jams:hasPatternType "pitch-class-values" ;
+    jams:ofPattern <http://w3id.org/polifonia/resource/pattern/4_9_4_0_7_0> .
+
+<http://w3id.org/polifonia/resource/JAMSObservation/Monymusk14750/4_9_4_7_7_7@0.0> a jams:JAMSObservation,
+        jams:JAMSScoreObservation,
+        jams:ScorePatternOccurrence ;
+    rdfs:label [ ] ;
+    jams:hasDuration "0.0"^^xsd:float ;
+    jams:hasFrequency "1"^^xsd:int ;
+    jams:hasPatternType "pitch-class-values" ;
+    jams:ofPattern <http://w3id.org/polifonia/resource/pattern/4_9_4_7_7_7> .
+
+<http://w3id.org/polifonia/resource/JAMSObservation/Monymusk14750/5_0_7_9_4_0@0.0> a jams:JAMSObservation,
+        jams:JAMSScoreObservation,
+        jams:ScorePatternOccurrence ;
+    rdfs:label [ ] ;
+    jams:hasDuration "0.0"^^xsd:float ;
+    jams:hasFrequency "1"^^xsd:int ;
+    jams:hasPatternType "pitch-class-values" ;
+    jams:ofPattern <http://w3id.org/polifonia/resource/pattern/5_0_7_9_4_0> .
+
+<http://w3id.org/polifonia/resource/JAMSObservation/Monymusk14750/7_0_5_0_7_4@0.0> a jams:JAMSObservation,
+        jams:JAMSScoreObservation,
+        jams:ScorePatternOccurrence ;
+    rdfs:label [ ] ;
+    jams:hasDuration "0.0"^^xsd:float ;
+    jams:hasFrequency "1"^^xsd:int ;
+    jams:hasPatternType "pitch-class-values" ;
+    jams:ofPattern <http://w3id.org/polifonia/resource/pattern/7_0_5_0_7_4> .
+
+<http://w3id.org/polifonia/resource/JAMSObservation/Monymusk14750/7_0_5_0_7_9@0.0> a jams:JAMSObservation,
+        jams:JAMSScoreObservation,
+        jams:ScorePatternOccurrence ;
+    rdfs:label [ ] ;
+    jams:hasDuration "0.0"^^xsd:float ;
+    jams:hasFrequency "1"^^xsd:int ;
+    jams:hasPatternType "pitch-class-values" ;
+    jams:ofPattern <http://w3id.org/polifonia/resource/pattern/7_0_5_0_7_9> .
+
+<http://w3id.org/polifonia/resource/JAMSObservation/Monymusk14750/7_2_7_4_9_4@0.0> a jams:JAMSObservation,
+        jams:JAMSScoreObservation,
+        jams:ScorePatternOccurrence ;
+    rdfs:label [ ] ;
+    jams:hasDuration "0.0"^^xsd:float ;
+    jams:hasFrequency "2"^^xsd:int ;
+    jams:hasPatternType "pitch-class-values" ;
+    jams:ofPattern <http://w3id.org/polifonia/resource/pattern/7_2_7_4_9_4> .
+
+<http://w3id.org/polifonia/resource/JAMSObservation/Monymusk14750/7_4_9_4_0_7@0.0> a jams:JAMSObservation,
+        jams:JAMSScoreObservation,
+        jams:ScorePatternOccurrence ;
+    rdfs:label [ ] ;
+    jams:hasDuration "0.0"^^xsd:float ;
+    jams:hasFrequency "1"^^xsd:int ;
+    jams:hasPatternType "pitch-class-values" ;
+    jams:ofPattern <http://w3id.org/polifonia/resource/pattern/7_4_9_4_0_7> .
+
+<http://w3id.org/polifonia/resource/JAMSObservation/Monymusk14750/7_4_9_4_7_7@0.0> a jams:JAMSObservation,
+        jams:JAMSScoreObservation,
+        jams:ScorePatternOccurrence ;
+    rdfs:label [ ] ;
+    jams:hasDuration "0.0"^^xsd:float ;
+    jams:hasFrequency "1"^^xsd:int ;
+    jams:hasPatternType "pitch-class-values" ;
+    jams:ofPattern <http://w3id.org/polifonia/resource/pattern/7_4_9_4_7_7> .
+
+<http://w3id.org/polifonia/resource/JAMSObservation/Monymusk14750/7_7_2_7_4_9@0.0> a jams:JAMSObservation,
+        jams:JAMSScoreObservation,
+        jams:ScorePatternOccurrence ;
+    rdfs:label [ ] ;
+    jams:hasDuration "0.0"^^xsd:float ;
+    jams:hasFrequency "2"^^xsd:int ;
+    jams:hasPatternType "pitch-class-values" ;
+    jams:ofPattern <http://w3id.org/polifonia/resource/pattern/7_7_2_7_4_9> .
+
+<http://w3id.org/polifonia/resource/JAMSObservation/Monymusk14750/7_7_7_2_7_4@0.0> a jams:JAMSObservation,
+        jams:JAMSScoreObservation,
+        jams:ScorePatternOccurrence ;
+    rdfs:label [ ] ;
+    jams:hasDuration "0.0"^^xsd:float ;
+    jams:hasFrequency "2"^^xsd:int ;
+    jams:hasPatternType "pitch-class-values" ;
+    jams:ofPattern <http://w3id.org/polifonia/resource/pattern/7_7_7_2_7_4> .
+
+<http://w3id.org/polifonia/resource/JAMSObservation/Monymusk14750/7_9_4_0_7_0@0.0> a jams:JAMSObservation,
+        jams:JAMSScoreObservation,
+        jams:ScorePatternOccurrence ;
+    rdfs:label [ ] ;
+    jams:hasDuration "0.0"^^xsd:float ;
+    jams:hasFrequency "1"^^xsd:int ;
+    jams:hasPatternType "pitch-class-values" ;
+    jams:ofPattern <http://w3id.org/polifonia/resource/pattern/7_9_4_0_7_0> .
+
+<http://w3id.org/polifonia/resource/JAMSObservation/Monymusk14750/9_4_0_7_0_5@0.0> a jams:JAMSObservation,
+        jams:JAMSScoreObservation,
+        jams:ScorePatternOccurrence ;
+    rdfs:label [ ] ;
+    jams:hasDuration "0.0"^^xsd:float ;
+    jams:hasFrequency "2"^^xsd:int ;
+    jams:hasPatternType "pitch-class-values" ;
+    jams:ofPattern <http://w3id.org/polifonia/resource/pattern/9_4_0_7_0_5> .
+
+<http://w3id.org/polifonia/resource/JAMSObservation/Monymusk14750/9_4_7_7_7_2@0.0> a jams:JAMSObservation,
+        jams:JAMSScoreObservation,
+        jams:ScorePatternOccurrence ;
+    rdfs:label [ ] ;
+    jams:hasDuration "0.0"^^xsd:float ;
+    jams:hasFrequency "1"^^xsd:int ;
+    jams:hasPatternType "pitch-class-values" ;
+    jams:ofPattern <http://w3id.org/polifonia/resource/pattern/9_4_7_7_7_2> .
+
+<http://w3id.org/polifonia/resource/JAMSObservation/Monymusk14750/9_7_7_7_2_7@0.0> a jams:JAMSObservation,
+        jams:JAMSScoreObservation,
+        jams:ScorePatternOccurrence ;
+    rdfs:label [ ] ;
+    jams:hasDuration "0.0"^^xsd:float ;
+    jams:hasFrequency "1"^^xsd:int ;
+    jams:hasPatternType "pitch-class-values" ;
+    jams:ofPattern <http://w3id.org/polifonia/resource/pattern/9_7_7_7_2_7> .
+
+<http://w3id.org/polifonia/resource/MusicalComposition/0f8ada81cf7b235105d574618898c40fd025053d> a mc:MusicalComposition ;
+    rdfs:label "Monymusk14750" ;
+    mc:title "Monymusk14750" ;
+    prov:wasDerivedFrom <http://w3id.org/polifonia/resource/JAMSFile/Monymusk14750.jams> .
+

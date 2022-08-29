@@ -1,0 +1,381 @@
+@prefix core: <http://w3id.org/polifonia/ontology/core/> .
+@prefix jams: <http://w3id.org/polifonia/ontology/jams/> .
+@prefix mc: <http://w3id.org/polifonia/ontology/musical-composition/> .
+@prefix pon-resource: <http://w3id.org/polifonia/resource/> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+pon-resource:Agent%2Fannotator_local_id a core:Agent ;
+    rdfs:label "FONN-Tool" ;
+    jams:hasAnnotatorType pon-resource:annotator-program ;
+    jams:hasName "FONN-Tool" .
+
+<http://w3id.org/polifonia/resource/JAMSAnnotation/a089119240c651579a0897cd692f5d8015ca9afe> a jams:JAMSAnnotation,
+        jams:JAMSScoreAnnotation ;
+    jams:includesObservation <http://w3id.org/polifonia/resource/JAMSObservation/LegOfTheDuckThe42115/0_0_7_0_11_7@0.0>,
+        <http://w3id.org/polifonia/resource/JAMSObservation/LegOfTheDuckThe42115/0_0_7_7_7_5@0.0>,
+        <http://w3id.org/polifonia/resource/JAMSObservation/LegOfTheDuckThe42115/0_11_7_4_0_5@0.0>,
+        <http://w3id.org/polifonia/resource/JAMSObservation/LegOfTheDuckThe42115/0_11_7_7_5_0@0.0>,
+        <http://w3id.org/polifonia/resource/JAMSObservation/LegOfTheDuckThe42115/0_2_0_7_5_4@0.0>,
+        <http://w3id.org/polifonia/resource/JAMSObservation/LegOfTheDuckThe42115/0_2_7_0_2_0@0.0>,
+        <http://w3id.org/polifonia/resource/JAMSObservation/LegOfTheDuckThe42115/0_5_11_7_0_11@0.0>,
+        <http://w3id.org/polifonia/resource/JAMSObservation/LegOfTheDuckThe42115/0_7_0_11_7_4@0.0>,
+        <http://w3id.org/polifonia/resource/JAMSObservation/LegOfTheDuckThe42115/0_7_5_4_0_7@0.0>,
+        <http://w3id.org/polifonia/resource/JAMSObservation/LegOfTheDuckThe42115/0_7_7_7_5_7@0.0>,
+        <http://w3id.org/polifonia/resource/JAMSObservation/LegOfTheDuckThe42115/11_7_0_11_7_7@0.0>,
+        <http://w3id.org/polifonia/resource/JAMSObservation/LegOfTheDuckThe42115/11_7_4_0_5_11@0.0>,
+        <http://w3id.org/polifonia/resource/JAMSObservation/LegOfTheDuckThe42115/11_7_7_5_0_0@0.0>,
+        <http://w3id.org/polifonia/resource/JAMSObservation/LegOfTheDuckThe42115/2_0_7_5_4_0@0.0>,
+        <http://w3id.org/polifonia/resource/JAMSObservation/LegOfTheDuckThe42115/2_7_0_2_0_7@0.0>,
+        <http://w3id.org/polifonia/resource/JAMSObservation/LegOfTheDuckThe42115/4_0_5_11_7_0@0.0>,
+        <http://w3id.org/polifonia/resource/JAMSObservation/LegOfTheDuckThe42115/4_0_7_7_7_5@0.0>,
+        <http://w3id.org/polifonia/resource/JAMSObservation/LegOfTheDuckThe42115/5_0_0_7_0_11@0.0>,
+        <http://w3id.org/polifonia/resource/JAMSObservation/LegOfTheDuckThe42115/5_0_0_7_7_7@0.0>,
+        <http://w3id.org/polifonia/resource/JAMSObservation/LegOfTheDuckThe42115/5_11_7_0_11_7@0.0>,
+        <http://w3id.org/polifonia/resource/JAMSObservation/LegOfTheDuckThe42115/5_4_0_7_7_7@0.0>,
+        <http://w3id.org/polifonia/resource/JAMSObservation/LegOfTheDuckThe42115/5_7_7_0_2_7@0.0>,
+        <http://w3id.org/polifonia/resource/JAMSObservation/LegOfTheDuckThe42115/7.0_5.0_0.0_0.0_7.0_0.0@0.0>,
+        <http://w3id.org/polifonia/resource/JAMSObservation/LegOfTheDuckThe42115/7_0_11_7_4_0@0.0>,
+        <http://w3id.org/polifonia/resource/JAMSObservation/LegOfTheDuckThe42115/7_0_11_7_7_5@0.0>,
+        <http://w3id.org/polifonia/resource/JAMSObservation/LegOfTheDuckThe42115/7_0_2_0_7_5@0.0>,
+        <http://w3id.org/polifonia/resource/JAMSObservation/LegOfTheDuckThe42115/7_0_2_7_0_2@0.0>,
+        <http://w3id.org/polifonia/resource/JAMSObservation/LegOfTheDuckThe42115/7_4_0_5_11_7@0.0>,
+        <http://w3id.org/polifonia/resource/JAMSObservation/LegOfTheDuckThe42115/7_5_0_0_7_7@0.0>,
+        <http://w3id.org/polifonia/resource/JAMSObservation/LegOfTheDuckThe42115/7_5_4_0_7_7@0.0>,
+        <http://w3id.org/polifonia/resource/JAMSObservation/LegOfTheDuckThe42115/7_5_7_7_0_2@0.0>,
+        <http://w3id.org/polifonia/resource/JAMSObservation/LegOfTheDuckThe42115/7_7_0_2_7_0@0.0>,
+        <http://w3id.org/polifonia/resource/JAMSObservation/LegOfTheDuckThe42115/7_7_5_0_0_7@0.0>,
+        <http://w3id.org/polifonia/resource/JAMSObservation/LegOfTheDuckThe42115/7_7_5_7_7_0@0.0>,
+        <http://w3id.org/polifonia/resource/JAMSObservation/LegOfTheDuckThe42115/7_7_7_5_7_7@0.0> ;
+    jams:isJAMSAnnotationOf <http://w3id.org/polifonia/resource/MusicalComposition/a089119240c651579a0897cd692f5d8015ca9afe> .
+
+<http://w3id.org/polifonia/resource/Score/song_local_id> jams:hasJAMSAnnotation <http://w3id.org/polifonia/resource/MusicalComposition/a089119240c651579a0897cd692f5d8015ca9afe> .
+
+<http://w3id.org/polifonia/resource/JAMSFile/LegOfTheDuckThe42115.jams> a jams:JAMSFile ;
+    jams:identifiers [ ] ;
+    jams:jamsVersion "0.3.4" ;
+    jams:release "" ;
+    prov:wasDerivedFrom "The Session" ;
+    prov:wasMemberOf <https://github.com/ashahidkhattak/thesession> .
+
+<http://w3id.org/polifonia/resource/JAMSObservation/LegOfTheDuckThe42115/0_0_7_0_11_7@0.0> a jams:JAMSObservation,
+        jams:JAMSScoreObservation,
+        jams:ScorePatternOccurrence ;
+    rdfs:label [ ] ;
+    jams:hasDuration "0.0"^^xsd:float ;
+    jams:hasFrequency "1"^^xsd:int ;
+    jams:hasPatternType "pitch-class-values" ;
+    jams:ofPattern <http://w3id.org/polifonia/resource/pattern/0_0_7_0_11_7> .
+
+<http://w3id.org/polifonia/resource/JAMSObservation/LegOfTheDuckThe42115/0_0_7_7_7_5@0.0> a jams:JAMSObservation,
+        jams:JAMSScoreObservation,
+        jams:ScorePatternOccurrence ;
+    rdfs:label [ ] ;
+    jams:hasDuration "0.0"^^xsd:float ;
+    jams:hasFrequency "1"^^xsd:int ;
+    jams:hasPatternType "pitch-class-values" ;
+    jams:ofPattern <http://w3id.org/polifonia/resource/pattern/0_0_7_7_7_5> .
+
+<http://w3id.org/polifonia/resource/JAMSObservation/LegOfTheDuckThe42115/0_11_7_4_0_5@0.0> a jams:JAMSObservation,
+        jams:JAMSScoreObservation,
+        jams:ScorePatternOccurrence ;
+    rdfs:label [ ] ;
+    jams:hasDuration "0.0"^^xsd:float ;
+    jams:hasFrequency "2"^^xsd:int ;
+    jams:hasPatternType "pitch-class-values" ;
+    jams:ofPattern <http://w3id.org/polifonia/resource/pattern/0_11_7_4_0_5> .
+
+<http://w3id.org/polifonia/resource/JAMSObservation/LegOfTheDuckThe42115/0_11_7_7_5_0@0.0> a jams:JAMSObservation,
+        jams:JAMSScoreObservation,
+        jams:ScorePatternOccurrence ;
+    rdfs:label [ ] ;
+    jams:hasDuration "0.0"^^xsd:float ;
+    jams:hasFrequency "2"^^xsd:int ;
+    jams:hasPatternType "pitch-class-values" ;
+    jams:ofPattern <http://w3id.org/polifonia/resource/pattern/0_11_7_7_5_0> .
+
+<http://w3id.org/polifonia/resource/JAMSObservation/LegOfTheDuckThe42115/0_2_0_7_5_4@0.0> a jams:JAMSObservation,
+        jams:JAMSScoreObservation,
+        jams:ScorePatternOccurrence ;
+    rdfs:label [ ] ;
+    jams:hasDuration "0.0"^^xsd:float ;
+    jams:hasFrequency "2"^^xsd:int ;
+    jams:hasPatternType "pitch-class-values" ;
+    jams:ofPattern <http://w3id.org/polifonia/resource/pattern/0_2_0_7_5_4> .
+
+<http://w3id.org/polifonia/resource/JAMSObservation/LegOfTheDuckThe42115/0_2_7_0_2_0@0.0> a jams:JAMSObservation,
+        jams:JAMSScoreObservation,
+        jams:ScorePatternOccurrence ;
+    rdfs:label [ ] ;
+    jams:hasDuration "0.0"^^xsd:float ;
+    jams:hasFrequency "2"^^xsd:int ;
+    jams:hasPatternType "pitch-class-values" ;
+    jams:ofPattern <http://w3id.org/polifonia/resource/pattern/0_2_7_0_2_0> .
+
+<http://w3id.org/polifonia/resource/JAMSObservation/LegOfTheDuckThe42115/0_5_11_7_0_11@0.0> a jams:JAMSObservation,
+        jams:JAMSScoreObservation,
+        jams:ScorePatternOccurrence ;
+    rdfs:label [ ] ;
+    jams:hasDuration "0.0"^^xsd:float ;
+    jams:hasFrequency "2"^^xsd:int ;
+    jams:hasPatternType "pitch-class-values" ;
+    jams:ofPattern <http://w3id.org/polifonia/resource/pattern/0_5_11_7_0_11> .
+
+<http://w3id.org/polifonia/resource/JAMSObservation/LegOfTheDuckThe42115/0_7_0_11_7_4@0.0> a jams:JAMSObservation,
+        jams:JAMSScoreObservation,
+        jams:ScorePatternOccurrence ;
+    rdfs:label [ ] ;
+    jams:hasDuration "0.0"^^xsd:float ;
+    jams:hasFrequency "1"^^xsd:int ;
+    jams:hasPatternType "pitch-class-values" ;
+    jams:ofPattern <http://w3id.org/polifonia/resource/pattern/0_7_0_11_7_4> .
+
+<http://w3id.org/polifonia/resource/JAMSObservation/LegOfTheDuckThe42115/0_7_5_4_0_7@0.0> a jams:JAMSObservation,
+        jams:JAMSScoreObservation,
+        jams:ScorePatternOccurrence ;
+    rdfs:label [ ] ;
+    jams:hasDuration "0.0"^^xsd:float ;
+    jams:hasFrequency "1"^^xsd:int ;
+    jams:hasPatternType "pitch-class-values" ;
+    jams:ofPattern <http://w3id.org/polifonia/resource/pattern/0_7_5_4_0_7> .
+
+<http://w3id.org/polifonia/resource/JAMSObservation/LegOfTheDuckThe42115/0_7_7_7_5_7@0.0> a jams:JAMSObservation,
+        jams:JAMSScoreObservation,
+        jams:ScorePatternOccurrence ;
+    rdfs:label [ ] ;
+    jams:hasDuration "0.0"^^xsd:float ;
+    jams:hasFrequency "2"^^xsd:int ;
+    jams:hasPatternType "pitch-class-values" ;
+    jams:ofPattern <http://w3id.org/polifonia/resource/pattern/0_7_7_7_5_7> .
+
+<http://w3id.org/polifonia/resource/JAMSObservation/LegOfTheDuckThe42115/11_7_0_11_7_7@0.0> a jams:JAMSObservation,
+        jams:JAMSScoreObservation,
+        jams:ScorePatternOccurrence ;
+    rdfs:label [ ] ;
+    jams:hasDuration "0.0"^^xsd:float ;
+    jams:hasFrequency "2"^^xsd:int ;
+    jams:hasPatternType "pitch-class-values" ;
+    jams:ofPattern <http://w3id.org/polifonia/resource/pattern/11_7_0_11_7_7> .
+
+<http://w3id.org/polifonia/resource/JAMSObservation/LegOfTheDuckThe42115/11_7_4_0_5_11@0.0> a jams:JAMSObservation,
+        jams:JAMSScoreObservation,
+        jams:ScorePatternOccurrence ;
+    rdfs:label [ ] ;
+    jams:hasDuration "0.0"^^xsd:float ;
+    jams:hasFrequency "2"^^xsd:int ;
+    jams:hasPatternType "pitch-class-values" ;
+    jams:ofPattern <http://w3id.org/polifonia/resource/pattern/11_7_4_0_5_11> .
+
+<http://w3id.org/polifonia/resource/JAMSObservation/LegOfTheDuckThe42115/11_7_7_5_0_0@0.0> a jams:JAMSObservation,
+        jams:JAMSScoreObservation,
+        jams:ScorePatternOccurrence ;
+    rdfs:label [ ] ;
+    jams:hasDuration "0.0"^^xsd:float ;
+    jams:hasFrequency "2"^^xsd:int ;
+    jams:hasPatternType "pitch-class-values" ;
+    jams:ofPattern <http://w3id.org/polifonia/resource/pattern/11_7_7_5_0_0> .
+
+<http://w3id.org/polifonia/resource/JAMSObservation/LegOfTheDuckThe42115/2_0_7_5_4_0@0.0> a jams:JAMSObservation,
+        jams:JAMSScoreObservation,
+        jams:ScorePatternOccurrence ;
+    rdfs:label [ ] ;
+    jams:hasDuration "0.0"^^xsd:float ;
+    jams:hasFrequency "2"^^xsd:int ;
+    jams:hasPatternType "pitch-class-values" ;
+    jams:ofPattern <http://w3id.org/polifonia/resource/pattern/2_0_7_5_4_0> .
+
+<http://w3id.org/polifonia/resource/JAMSObservation/LegOfTheDuckThe42115/2_7_0_2_0_7@0.0> a jams:JAMSObservation,
+        jams:JAMSScoreObservation,
+        jams:ScorePatternOccurrence ;
+    rdfs:label [ ] ;
+    jams:hasDuration "0.0"^^xsd:float ;
+    jams:hasFrequency "2"^^xsd:int ;
+    jams:hasPatternType "pitch-class-values" ;
+    jams:ofPattern <http://w3id.org/polifonia/resource/pattern/2_7_0_2_0_7> .
+
+<http://w3id.org/polifonia/resource/JAMSObservation/LegOfTheDuckThe42115/4_0_5_11_7_0@0.0> a jams:JAMSObservation,
+        jams:JAMSScoreObservation,
+        jams:ScorePatternOccurrence ;
+    rdfs:label [ ] ;
+    jams:hasDuration "0.0"^^xsd:float ;
+    jams:hasFrequency "2"^^xsd:int ;
+    jams:hasPatternType "pitch-class-values" ;
+    jams:ofPattern <http://w3id.org/polifonia/resource/pattern/4_0_5_11_7_0> .
+
+<http://w3id.org/polifonia/resource/JAMSObservation/LegOfTheDuckThe42115/4_0_7_7_7_5@0.0> a jams:JAMSObservation,
+        jams:JAMSScoreObservation,
+        jams:ScorePatternOccurrence ;
+    rdfs:label [ ] ;
+    jams:hasDuration "0.0"^^xsd:float ;
+    jams:hasFrequency "1"^^xsd:int ;
+    jams:hasPatternType "pitch-class-values" ;
+    jams:ofPattern <http://w3id.org/polifonia/resource/pattern/4_0_7_7_7_5> .
+
+<http://w3id.org/polifonia/resource/JAMSObservation/LegOfTheDuckThe42115/5_0_0_7_0_11@0.0> a jams:JAMSObservation,
+        jams:JAMSScoreObservation,
+        jams:ScorePatternOccurrence ;
+    rdfs:label [ ] ;
+    jams:hasDuration "0.0"^^xsd:float ;
+    jams:hasFrequency "1"^^xsd:int ;
+    jams:hasPatternType "pitch-class-values" ;
+    jams:ofPattern <http://w3id.org/polifonia/resource/pattern/5_0_0_7_0_11> .
+
+<http://w3id.org/polifonia/resource/JAMSObservation/LegOfTheDuckThe42115/5_0_0_7_7_7@0.0> a jams:JAMSObservation,
+        jams:JAMSScoreObservation,
+        jams:ScorePatternOccurrence ;
+    rdfs:label [ ] ;
+    jams:hasDuration "0.0"^^xsd:float ;
+    jams:hasFrequency "1"^^xsd:int ;
+    jams:hasPatternType "pitch-class-values" ;
+    jams:ofPattern <http://w3id.org/polifonia/resource/pattern/5_0_0_7_7_7> .
+
+<http://w3id.org/polifonia/resource/JAMSObservation/LegOfTheDuckThe42115/5_11_7_0_11_7@0.0> a jams:JAMSObservation,
+        jams:JAMSScoreObservation,
+        jams:ScorePatternOccurrence ;
+    rdfs:label [ ] ;
+    jams:hasDuration "0.0"^^xsd:float ;
+    jams:hasFrequency "2"^^xsd:int ;
+    jams:hasPatternType "pitch-class-values" ;
+    jams:ofPattern <http://w3id.org/polifonia/resource/pattern/5_11_7_0_11_7> .
+
+<http://w3id.org/polifonia/resource/JAMSObservation/LegOfTheDuckThe42115/5_4_0_7_7_7@0.0> a jams:JAMSObservation,
+        jams:JAMSScoreObservation,
+        jams:ScorePatternOccurrence ;
+    rdfs:label [ ] ;
+    jams:hasDuration "0.0"^^xsd:float ;
+    jams:hasFrequency "1"^^xsd:int ;
+    jams:hasPatternType "pitch-class-values" ;
+    jams:ofPattern <http://w3id.org/polifonia/resource/pattern/5_4_0_7_7_7> .
+
+<http://w3id.org/polifonia/resource/JAMSObservation/LegOfTheDuckThe42115/5_7_7_0_2_7@0.0> a jams:JAMSObservation,
+        jams:JAMSScoreObservation,
+        jams:ScorePatternOccurrence ;
+    rdfs:label [ ] ;
+    jams:hasDuration "0.0"^^xsd:float ;
+    jams:hasFrequency "2"^^xsd:int ;
+    jams:hasPatternType "pitch-class-values" ;
+    jams:ofPattern <http://w3id.org/polifonia/resource/pattern/5_7_7_0_2_7> .
+
+<http://w3id.org/polifonia/resource/JAMSObservation/LegOfTheDuckThe42115/7.0_5.0_0.0_0.0_7.0_0.0@0.0> a jams:JAMSObservation,
+        jams:JAMSScoreObservation,
+        jams:ScorePatternOccurrence ;
+    rdfs:label [ ] ;
+    jams:hasDuration "0.0"^^xsd:float ;
+    jams:hasFrequency "1"^^xsd:int ;
+    jams:hasPatternType "pitch-class-values" ;
+    jams:ofPattern <http://w3id.org/polifonia/resource/pattern/7.0_5.0_0.0_0.0_7.0_0.0> .
+
+<http://w3id.org/polifonia/resource/JAMSObservation/LegOfTheDuckThe42115/7_0_11_7_4_0@0.0> a jams:JAMSObservation,
+        jams:JAMSScoreObservation,
+        jams:ScorePatternOccurrence ;
+    rdfs:label [ ] ;
+    jams:hasDuration "0.0"^^xsd:float ;
+    jams:hasFrequency "2"^^xsd:int ;
+    jams:hasPatternType "pitch-class-values" ;
+    jams:ofPattern <http://w3id.org/polifonia/resource/pattern/7_0_11_7_4_0> .
+
+<http://w3id.org/polifonia/resource/JAMSObservation/LegOfTheDuckThe42115/7_0_11_7_7_5@0.0> a jams:JAMSObservation,
+        jams:JAMSScoreObservation,
+        jams:ScorePatternOccurrence ;
+    rdfs:label [ ] ;
+    jams:hasDuration "0.0"^^xsd:float ;
+    jams:hasFrequency "2"^^xsd:int ;
+    jams:hasPatternType "pitch-class-values" ;
+    jams:ofPattern <http://w3id.org/polifonia/resource/pattern/7_0_11_7_7_5> .
+
+<http://w3id.org/polifonia/resource/JAMSObservation/LegOfTheDuckThe42115/7_0_2_0_7_5@0.0> a jams:JAMSObservation,
+        jams:JAMSScoreObservation,
+        jams:ScorePatternOccurrence ;
+    rdfs:label [ ] ;
+    jams:hasDuration "0.0"^^xsd:float ;
+    jams:hasFrequency "2"^^xsd:int ;
+    jams:hasPatternType "pitch-class-values" ;
+    jams:ofPattern <http://w3id.org/polifonia/resource/pattern/7_0_2_0_7_5> .
+
+<http://w3id.org/polifonia/resource/JAMSObservation/LegOfTheDuckThe42115/7_0_2_7_0_2@0.0> a jams:JAMSObservation,
+        jams:JAMSScoreObservation,
+        jams:ScorePatternOccurrence ;
+    rdfs:label [ ] ;
+    jams:hasDuration "0.0"^^xsd:float ;
+    jams:hasFrequency "2"^^xsd:int ;
+    jams:hasPatternType "pitch-class-values" ;
+    jams:ofPattern <http://w3id.org/polifonia/resource/pattern/7_0_2_7_0_2> .
+
+<http://w3id.org/polifonia/resource/JAMSObservation/LegOfTheDuckThe42115/7_4_0_5_11_7@0.0> a jams:JAMSObservation,
+        jams:JAMSScoreObservation,
+        jams:ScorePatternOccurrence ;
+    rdfs:label [ ] ;
+    jams:hasDuration "0.0"^^xsd:float ;
+    jams:hasFrequency "2"^^xsd:int ;
+    jams:hasPatternType "pitch-class-values" ;
+    jams:ofPattern <http://w3id.org/polifonia/resource/pattern/7_4_0_5_11_7> .
+
+<http://w3id.org/polifonia/resource/JAMSObservation/LegOfTheDuckThe42115/7_5_0_0_7_7@0.0> a jams:JAMSObservation,
+        jams:JAMSScoreObservation,
+        jams:ScorePatternOccurrence ;
+    rdfs:label [ ] ;
+    jams:hasDuration "0.0"^^xsd:float ;
+    jams:hasFrequency "1"^^xsd:int ;
+    jams:hasPatternType "pitch-class-values" ;
+    jams:ofPattern <http://w3id.org/polifonia/resource/pattern/7_5_0_0_7_7> .
+
+<http://w3id.org/polifonia/resource/JAMSObservation/LegOfTheDuckThe42115/7_5_4_0_7_7@0.0> a jams:JAMSObservation,
+        jams:JAMSScoreObservation,
+        jams:ScorePatternOccurrence ;
+    rdfs:label [ ] ;
+    jams:hasDuration "0.0"^^xsd:float ;
+    jams:hasFrequency "1"^^xsd:int ;
+    jams:hasPatternType "pitch-class-values" ;
+    jams:ofPattern <http://w3id.org/polifonia/resource/pattern/7_5_4_0_7_7> .
+
+<http://w3id.org/polifonia/resource/JAMSObservation/LegOfTheDuckThe42115/7_5_7_7_0_2@0.0> a jams:JAMSObservation,
+        jams:JAMSScoreObservation,
+        jams:ScorePatternOccurrence ;
+    rdfs:label [ ] ;
+    jams:hasDuration "0.0"^^xsd:float ;
+    jams:hasFrequency "2"^^xsd:int ;
+    jams:hasPatternType "pitch-class-values" ;
+    jams:ofPattern <http://w3id.org/polifonia/resource/pattern/7_5_7_7_0_2> .
+
+<http://w3id.org/polifonia/resource/JAMSObservation/LegOfTheDuckThe42115/7_7_0_2_7_0@0.0> a jams:JAMSObservation,
+        jams:JAMSScoreObservation,
+        jams:ScorePatternOccurrence ;
+    rdfs:label [ ] ;
+    jams:hasDuration "0.0"^^xsd:float ;
+    jams:hasFrequency "2"^^xsd:int ;
+    jams:hasPatternType "pitch-class-values" ;
+    jams:ofPattern <http://w3id.org/polifonia/resource/pattern/7_7_0_2_7_0> .
+
+<http://w3id.org/polifonia/resource/JAMSObservation/LegOfTheDuckThe42115/7_7_5_0_0_7@0.0> a jams:JAMSObservation,
+        jams:JAMSScoreObservation,
+        jams:ScorePatternOccurrence ;
+    rdfs:label [ ] ;
+    jams:hasDuration "0.0"^^xsd:float ;
+    jams:hasFrequency "2"^^xsd:int ;
+    jams:hasPatternType "pitch-class-values" ;
+    jams:ofPattern <http://w3id.org/polifonia/resource/pattern/7_7_5_0_0_7> .
+
+<http://w3id.org/polifonia/resource/JAMSObservation/LegOfTheDuckThe42115/7_7_5_7_7_0@0.0> a jams:JAMSObservation,
+        jams:JAMSScoreObservation,
+        jams:ScorePatternOccurrence ;
+    rdfs:label [ ] ;
+    jams:hasDuration "0.0"^^xsd:float ;
+    jams:hasFrequency "2"^^xsd:int ;
+    jams:hasPatternType "pitch-class-values" ;
+    jams:ofPattern <http://w3id.org/polifonia/resource/pattern/7_7_5_7_7_0> .
+
+<http://w3id.org/polifonia/resource/JAMSObservation/LegOfTheDuckThe42115/7_7_7_5_7_7@0.0> a jams:JAMSObservation,
+        jams:JAMSScoreObservation,
+        jams:ScorePatternOccurrence ;
+    rdfs:label [ ] ;
+    jams:hasDuration "0.0"^^xsd:float ;
+    jams:hasFrequency "2"^^xsd:int ;
+    jams:hasPatternType "pitch-class-values" ;
+    jams:ofPattern <http://w3id.org/polifonia/resource/pattern/7_7_7_5_7_7> .
+
+<http://w3id.org/polifonia/resource/MusicalComposition/a089119240c651579a0897cd692f5d8015ca9afe> a mc:MusicalComposition ;
+    rdfs:label "LegOfTheDuckThe42115" ;
+    mc:title "LegOfTheDuckThe42115" ;
+    prov:wasDerivedFrom <http://w3id.org/polifonia/resource/JAMSFile/LegOfTheDuckThe42115.jams> .
+

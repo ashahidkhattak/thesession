@@ -1,0 +1,401 @@
+@prefix core: <http://w3id.org/polifonia/ontology/core/> .
+@prefix jams: <http://w3id.org/polifonia/ontology/jams/> .
+@prefix mc: <http://w3id.org/polifonia/ontology/musical-composition/> .
+@prefix pon-resource: <http://w3id.org/polifonia/resource/> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+pon-resource:Agent%2Fannotator_local_id a core:Agent ;
+    rdfs:label "FONN-Tool" ;
+    jams:hasAnnotatorType pon-resource:annotator-program ;
+    jams:hasName "FONN-Tool" .
+
+<http://w3id.org/polifonia/resource/JAMSAnnotation/3921a8e22f0e6c7ebe0ccc1e288d8811b4c9b8cc> a jams:JAMSAnnotation,
+        jams:JAMSScoreAnnotation ;
+    jams:includesObservation <http://w3id.org/polifonia/resource/JAMSObservation/TwoMileBridge8262/0_0_3_0_3_7@0.0>,
+        <http://w3id.org/polifonia/resource/JAMSObservation/TwoMileBridge8262/0_0_3_2_0_10@0.0>,
+        <http://w3id.org/polifonia/resource/JAMSObservation/TwoMileBridge8262/0_3_0_3_7_2@0.0>,
+        <http://w3id.org/polifonia/resource/JAMSObservation/TwoMileBridge8262/0_3_10_0_0_3@0.0>,
+        <http://w3id.org/polifonia/resource/JAMSObservation/TwoMileBridge8262/0_3_2_0_10_2@0.0>,
+        <http://w3id.org/polifonia/resource/JAMSObservation/TwoMileBridge8262/0_3_7_2_10_2@0.0>,
+        <http://w3id.org/polifonia/resource/JAMSObservation/TwoMileBridge8262/0_3_7_3_5_0@0.0>,
+        <http://w3id.org/polifonia/resource/JAMSObservation/TwoMileBridge8262/10_0_0_3_0_3@0.0>,
+        <http://w3id.org/polifonia/resource/JAMSObservation/TwoMileBridge8262/10_0_0_3_2_0@0.0>,
+        <http://w3id.org/polifonia/resource/JAMSObservation/TwoMileBridge8262/10_2_10_2_5_3@0.0>,
+        <http://w3id.org/polifonia/resource/JAMSObservation/TwoMileBridge8262/10_2_5_3_0_3@0.0>,
+        <http://w3id.org/polifonia/resource/JAMSObservation/TwoMileBridge8262/10_2_5_3_5_7@0.0>,
+        <http://w3id.org/polifonia/resource/JAMSObservation/TwoMileBridge8262/2_10_2_5_3_0@0.0>,
+        <http://w3id.org/polifonia/resource/JAMSObservation/TwoMileBridge8262/2_10_2_5_3_5@0.0>,
+        <http://w3id.org/polifonia/resource/JAMSObservation/TwoMileBridge8262/2_3_10_0_0_3@0.0>,
+        <http://w3id.org/polifonia/resource/JAMSObservation/TwoMileBridge8262/2_5_3_0_3_7@0.0>,
+        <http://w3id.org/polifonia/resource/JAMSObservation/TwoMileBridge8262/2_5_3_5_7_0@0.0>,
+        <http://w3id.org/polifonia/resource/JAMSObservation/TwoMileBridge8262/2_5_3_5_7_2@0.0>,
+        <http://w3id.org/polifonia/resource/JAMSObservation/TwoMileBridge8262/3_0_3_7_2_10@0.0>,
+        <http://w3id.org/polifonia/resource/JAMSObservation/TwoMileBridge8262/3_0_3_7_3_5@0.0>,
+        <http://w3id.org/polifonia/resource/JAMSObservation/TwoMileBridge8262/3_10_0_0_3_0@0.0>,
+        <http://w3id.org/polifonia/resource/JAMSObservation/TwoMileBridge8262/3_10_0_0_3_2@0.0>,
+        <http://w3id.org/polifonia/resource/JAMSObservation/TwoMileBridge8262/3_5_0_0_3_0@0.0>,
+        <http://w3id.org/polifonia/resource/JAMSObservation/TwoMileBridge8262/3_5_7_0_3_10@0.0>,
+        <http://w3id.org/polifonia/resource/JAMSObservation/TwoMileBridge8262/3_5_7_2_3_10@0.0>,
+        <http://w3id.org/polifonia/resource/JAMSObservation/TwoMileBridge8262/3_7_2_10_2_5@0.0>,
+        <http://w3id.org/polifonia/resource/JAMSObservation/TwoMileBridge8262/3_7_3_5_0_0@0.0>,
+        <http://w3id.org/polifonia/resource/JAMSObservation/TwoMileBridge8262/5_0_0_3_0_3@0.0>,
+        <http://w3id.org/polifonia/resource/JAMSObservation/TwoMileBridge8262/5_3_0_3_7_3@0.0>,
+        <http://w3id.org/polifonia/resource/JAMSObservation/TwoMileBridge8262/5_3_5_7_0_3@0.0>,
+        <http://w3id.org/polifonia/resource/JAMSObservation/TwoMileBridge8262/5_3_5_7_2_3@0.0>,
+        <http://w3id.org/polifonia/resource/JAMSObservation/TwoMileBridge8262/5_7_0_3_10_0@0.0>,
+        <http://w3id.org/polifonia/resource/JAMSObservation/TwoMileBridge8262/5_7_2_3_10_0@0.0>,
+        <http://w3id.org/polifonia/resource/JAMSObservation/TwoMileBridge8262/7_0_3_10_0_0@0.0>,
+        <http://w3id.org/polifonia/resource/JAMSObservation/TwoMileBridge8262/7_2_10_2_5_3@0.0>,
+        <http://w3id.org/polifonia/resource/JAMSObservation/TwoMileBridge8262/7_2_3_10_0_0@0.0>,
+        <http://w3id.org/polifonia/resource/JAMSObservation/TwoMileBridge8262/7_3_5_0_0_3@0.0> ;
+    jams:isJAMSAnnotationOf <http://w3id.org/polifonia/resource/MusicalComposition/3921a8e22f0e6c7ebe0ccc1e288d8811b4c9b8cc> .
+
+<http://w3id.org/polifonia/resource/Score/song_local_id> jams:hasJAMSAnnotation <http://w3id.org/polifonia/resource/MusicalComposition/3921a8e22f0e6c7ebe0ccc1e288d8811b4c9b8cc> .
+
+<http://w3id.org/polifonia/resource/JAMSFile/TwoMileBridge8262.jams> a jams:JAMSFile ;
+    jams:identifiers [ ] ;
+    jams:jamsVersion "0.3.4" ;
+    jams:release "" ;
+    prov:wasDerivedFrom "The Session" ;
+    prov:wasMemberOf <https://github.com/ashahidkhattak/thesession> .
+
+<http://w3id.org/polifonia/resource/JAMSObservation/TwoMileBridge8262/0_0_3_0_3_7@0.0> a jams:JAMSObservation,
+        jams:JAMSScoreObservation,
+        jams:ScorePatternOccurrence ;
+    rdfs:label [ ] ;
+    jams:hasDuration "0.0"^^xsd:float ;
+    jams:hasFrequency "3"^^xsd:int ;
+    jams:hasPatternType "pitch-class-values" ;
+    jams:ofPattern <http://w3id.org/polifonia/resource/pattern/0_0_3_0_3_7> .
+
+<http://w3id.org/polifonia/resource/JAMSObservation/TwoMileBridge8262/0_0_3_2_0_10@0.0> a jams:JAMSObservation,
+        jams:JAMSScoreObservation,
+        jams:ScorePatternOccurrence ;
+    rdfs:label [ ] ;
+    jams:hasDuration "0.0"^^xsd:float ;
+    jams:hasFrequency "2"^^xsd:int ;
+    jams:hasPatternType "pitch-class-values" ;
+    jams:ofPattern <http://w3id.org/polifonia/resource/pattern/0_0_3_2_0_10> .
+
+<http://w3id.org/polifonia/resource/JAMSObservation/TwoMileBridge8262/0_3_0_3_7_2@0.0> a jams:JAMSObservation,
+        jams:JAMSScoreObservation,
+        jams:ScorePatternOccurrence ;
+    rdfs:label [ ] ;
+    jams:hasDuration "0.0"^^xsd:float ;
+    jams:hasFrequency "3"^^xsd:int ;
+    jams:hasPatternType "pitch-class-values" ;
+    jams:ofPattern <http://w3id.org/polifonia/resource/pattern/0_3_0_3_7_2> .
+
+<http://w3id.org/polifonia/resource/JAMSObservation/TwoMileBridge8262/0_3_10_0_0_3@0.0> a jams:JAMSObservation,
+        jams:JAMSScoreObservation,
+        jams:ScorePatternOccurrence ;
+    rdfs:label [ ] ;
+    jams:hasDuration "0.0"^^xsd:float ;
+    jams:hasFrequency "1"^^xsd:int ;
+    jams:hasPatternType "pitch-class-values" ;
+    jams:ofPattern <http://w3id.org/polifonia/resource/pattern/0_3_10_0_0_3> .
+
+<http://w3id.org/polifonia/resource/JAMSObservation/TwoMileBridge8262/0_3_2_0_10_2@0.0> a jams:JAMSObservation,
+        jams:JAMSScoreObservation,
+        jams:ScorePatternOccurrence ;
+    rdfs:label [ ] ;
+    jams:hasDuration "0.0"^^xsd:float ;
+    jams:hasFrequency "2"^^xsd:int ;
+    jams:hasPatternType "pitch-class-values" ;
+    jams:ofPattern <http://w3id.org/polifonia/resource/pattern/0_3_2_0_10_2> .
+
+<http://w3id.org/polifonia/resource/JAMSObservation/TwoMileBridge8262/0_3_7_2_10_2@0.0> a jams:JAMSObservation,
+        jams:JAMSScoreObservation,
+        jams:ScorePatternOccurrence ;
+    rdfs:label [ ] ;
+    jams:hasDuration "0.0"^^xsd:float ;
+    jams:hasFrequency "4"^^xsd:int ;
+    jams:hasPatternType "pitch-class-values" ;
+    jams:ofPattern <http://w3id.org/polifonia/resource/pattern/0_3_7_2_10_2> .
+
+<http://w3id.org/polifonia/resource/JAMSObservation/TwoMileBridge8262/0_3_7_3_5_0@0.0> a jams:JAMSObservation,
+        jams:JAMSScoreObservation,
+        jams:ScorePatternOccurrence ;
+    rdfs:label [ ] ;
+    jams:hasDuration "0.0"^^xsd:float ;
+    jams:hasFrequency "2"^^xsd:int ;
+    jams:hasPatternType "pitch-class-values" ;
+    jams:ofPattern <http://w3id.org/polifonia/resource/pattern/0_3_7_3_5_0> .
+
+<http://w3id.org/polifonia/resource/JAMSObservation/TwoMileBridge8262/10_0_0_3_0_3@0.0> a jams:JAMSObservation,
+        jams:JAMSScoreObservation,
+        jams:ScorePatternOccurrence ;
+    rdfs:label [ ] ;
+    jams:hasDuration "0.0"^^xsd:float ;
+    jams:hasFrequency "1"^^xsd:int ;
+    jams:hasPatternType "pitch-class-values" ;
+    jams:ofPattern <http://w3id.org/polifonia/resource/pattern/10_0_0_3_0_3> .
+
+<http://w3id.org/polifonia/resource/JAMSObservation/TwoMileBridge8262/10_0_0_3_2_0@0.0> a jams:JAMSObservation,
+        jams:JAMSScoreObservation,
+        jams:ScorePatternOccurrence ;
+    rdfs:label [ ] ;
+    jams:hasDuration "0.0"^^xsd:float ;
+    jams:hasFrequency "2"^^xsd:int ;
+    jams:hasPatternType "pitch-class-values" ;
+    jams:ofPattern <http://w3id.org/polifonia/resource/pattern/10_0_0_3_2_0> .
+
+<http://w3id.org/polifonia/resource/JAMSObservation/TwoMileBridge8262/10_2_10_2_5_3@0.0> a jams:JAMSObservation,
+        jams:JAMSScoreObservation,
+        jams:ScorePatternOccurrence ;
+    rdfs:label [ ] ;
+    jams:hasDuration "0.0"^^xsd:float ;
+    jams:hasFrequency "2"^^xsd:int ;
+    jams:hasPatternType "pitch-class-values" ;
+    jams:ofPattern <http://w3id.org/polifonia/resource/pattern/10_2_10_2_5_3> .
+
+<http://w3id.org/polifonia/resource/JAMSObservation/TwoMileBridge8262/10_2_5_3_0_3@0.0> a jams:JAMSObservation,
+        jams:JAMSScoreObservation,
+        jams:ScorePatternOccurrence ;
+    rdfs:label [ ] ;
+    jams:hasDuration "0.0"^^xsd:float ;
+    jams:hasFrequency "2"^^xsd:int ;
+    jams:hasPatternType "pitch-class-values" ;
+    jams:ofPattern <http://w3id.org/polifonia/resource/pattern/10_2_5_3_0_3> .
+
+<http://w3id.org/polifonia/resource/JAMSObservation/TwoMileBridge8262/10_2_5_3_5_7@0.0> a jams:JAMSObservation,
+        jams:JAMSScoreObservation,
+        jams:ScorePatternOccurrence ;
+    rdfs:label [ ] ;
+    jams:hasDuration "0.0"^^xsd:float ;
+    jams:hasFrequency "4"^^xsd:int ;
+    jams:hasPatternType "pitch-class-values" ;
+    jams:ofPattern <http://w3id.org/polifonia/resource/pattern/10_2_5_3_5_7> .
+
+<http://w3id.org/polifonia/resource/JAMSObservation/TwoMileBridge8262/2_10_2_5_3_0@0.0> a jams:JAMSObservation,
+        jams:JAMSScoreObservation,
+        jams:ScorePatternOccurrence ;
+    rdfs:label [ ] ;
+    jams:hasDuration "0.0"^^xsd:float ;
+    jams:hasFrequency "2"^^xsd:int ;
+    jams:hasPatternType "pitch-class-values" ;
+    jams:ofPattern <http://w3id.org/polifonia/resource/pattern/2_10_2_5_3_0> .
+
+<http://w3id.org/polifonia/resource/JAMSObservation/TwoMileBridge8262/2_10_2_5_3_5@0.0> a jams:JAMSObservation,
+        jams:JAMSScoreObservation,
+        jams:ScorePatternOccurrence ;
+    rdfs:label [ ] ;
+    jams:hasDuration "0.0"^^xsd:float ;
+    jams:hasFrequency "4"^^xsd:int ;
+    jams:hasPatternType "pitch-class-values" ;
+    jams:ofPattern <http://w3id.org/polifonia/resource/pattern/2_10_2_5_3_5> .
+
+<http://w3id.org/polifonia/resource/JAMSObservation/TwoMileBridge8262/2_3_10_0_0_3@0.0> a jams:JAMSObservation,
+        jams:JAMSScoreObservation,
+        jams:ScorePatternOccurrence ;
+    rdfs:label [ ] ;
+    jams:hasDuration "0.0"^^xsd:float ;
+    jams:hasFrequency "2"^^xsd:int ;
+    jams:hasPatternType "pitch-class-values" ;
+    jams:ofPattern <http://w3id.org/polifonia/resource/pattern/2_3_10_0_0_3> .
+
+<http://w3id.org/polifonia/resource/JAMSObservation/TwoMileBridge8262/2_5_3_0_3_7@0.0> a jams:JAMSObservation,
+        jams:JAMSScoreObservation,
+        jams:ScorePatternOccurrence ;
+    rdfs:label [ ] ;
+    jams:hasDuration "0.0"^^xsd:float ;
+    jams:hasFrequency "2"^^xsd:int ;
+    jams:hasPatternType "pitch-class-values" ;
+    jams:ofPattern <http://w3id.org/polifonia/resource/pattern/2_5_3_0_3_7> .
+
+<http://w3id.org/polifonia/resource/JAMSObservation/TwoMileBridge8262/2_5_3_5_7_0@0.0> a jams:JAMSObservation,
+        jams:JAMSScoreObservation,
+        jams:ScorePatternOccurrence ;
+    rdfs:label [ ] ;
+    jams:hasDuration "0.0"^^xsd:float ;
+    jams:hasFrequency "2"^^xsd:int ;
+    jams:hasPatternType "pitch-class-values" ;
+    jams:ofPattern <http://w3id.org/polifonia/resource/pattern/2_5_3_5_7_0> .
+
+<http://w3id.org/polifonia/resource/JAMSObservation/TwoMileBridge8262/2_5_3_5_7_2@0.0> a jams:JAMSObservation,
+        jams:JAMSScoreObservation,
+        jams:ScorePatternOccurrence ;
+    rdfs:label [ ] ;
+    jams:hasDuration "0.0"^^xsd:float ;
+    jams:hasFrequency "2"^^xsd:int ;
+    jams:hasPatternType "pitch-class-values" ;
+    jams:ofPattern <http://w3id.org/polifonia/resource/pattern/2_5_3_5_7_2> .
+
+<http://w3id.org/polifonia/resource/JAMSObservation/TwoMileBridge8262/3_0_3_7_2_10@0.0> a jams:JAMSObservation,
+        jams:JAMSScoreObservation,
+        jams:ScorePatternOccurrence ;
+    rdfs:label [ ] ;
+    jams:hasDuration "0.0"^^xsd:float ;
+    jams:hasFrequency "4"^^xsd:int ;
+    jams:hasPatternType "pitch-class-values" ;
+    jams:ofPattern <http://w3id.org/polifonia/resource/pattern/3_0_3_7_2_10> .
+
+<http://w3id.org/polifonia/resource/JAMSObservation/TwoMileBridge8262/3_0_3_7_3_5@0.0> a jams:JAMSObservation,
+        jams:JAMSScoreObservation,
+        jams:ScorePatternOccurrence ;
+    rdfs:label [ ] ;
+    jams:hasDuration "0.0"^^xsd:float ;
+    jams:hasFrequency "2"^^xsd:int ;
+    jams:hasPatternType "pitch-class-values" ;
+    jams:ofPattern <http://w3id.org/polifonia/resource/pattern/3_0_3_7_3_5> .
+
+<http://w3id.org/polifonia/resource/JAMSObservation/TwoMileBridge8262/3_10_0_0_3_0@0.0> a jams:JAMSObservation,
+        jams:JAMSScoreObservation,
+        jams:ScorePatternOccurrence ;
+    rdfs:label [ ] ;
+    jams:hasDuration "0.0"^^xsd:float ;
+    jams:hasFrequency "1"^^xsd:int ;
+    jams:hasPatternType "pitch-class-values" ;
+    jams:ofPattern <http://w3id.org/polifonia/resource/pattern/3_10_0_0_3_0> .
+
+<http://w3id.org/polifonia/resource/JAMSObservation/TwoMileBridge8262/3_10_0_0_3_2@0.0> a jams:JAMSObservation,
+        jams:JAMSScoreObservation,
+        jams:ScorePatternOccurrence ;
+    rdfs:label [ ] ;
+    jams:hasDuration "0.0"^^xsd:float ;
+    jams:hasFrequency "2"^^xsd:int ;
+    jams:hasPatternType "pitch-class-values" ;
+    jams:ofPattern <http://w3id.org/polifonia/resource/pattern/3_10_0_0_3_2> .
+
+<http://w3id.org/polifonia/resource/JAMSObservation/TwoMileBridge8262/3_5_0_0_3_0@0.0> a jams:JAMSObservation,
+        jams:JAMSScoreObservation,
+        jams:ScorePatternOccurrence ;
+    rdfs:label [ ] ;
+    jams:hasDuration "0.0"^^xsd:float ;
+    jams:hasFrequency "2"^^xsd:int ;
+    jams:hasPatternType "pitch-class-values" ;
+    jams:ofPattern <http://w3id.org/polifonia/resource/pattern/3_5_0_0_3_0> .
+
+<http://w3id.org/polifonia/resource/JAMSObservation/TwoMileBridge8262/3_5_7_0_3_10@0.0> a jams:JAMSObservation,
+        jams:JAMSScoreObservation,
+        jams:ScorePatternOccurrence ;
+    rdfs:label [ ] ;
+    jams:hasDuration "0.0"^^xsd:float ;
+    jams:hasFrequency "2"^^xsd:int ;
+    jams:hasPatternType "pitch-class-values" ;
+    jams:ofPattern <http://w3id.org/polifonia/resource/pattern/3_5_7_0_3_10> .
+
+<http://w3id.org/polifonia/resource/JAMSObservation/TwoMileBridge8262/3_5_7_2_3_10@0.0> a jams:JAMSObservation,
+        jams:JAMSScoreObservation,
+        jams:ScorePatternOccurrence ;
+    rdfs:label [ ] ;
+    jams:hasDuration "0.0"^^xsd:float ;
+    jams:hasFrequency "2"^^xsd:int ;
+    jams:hasPatternType "pitch-class-values" ;
+    jams:ofPattern <http://w3id.org/polifonia/resource/pattern/3_5_7_2_3_10> .
+
+<http://w3id.org/polifonia/resource/JAMSObservation/TwoMileBridge8262/3_7_2_10_2_5@0.0> a jams:JAMSObservation,
+        jams:JAMSScoreObservation,
+        jams:ScorePatternOccurrence ;
+    rdfs:label [ ] ;
+    jams:hasDuration "0.0"^^xsd:float ;
+    jams:hasFrequency "4"^^xsd:int ;
+    jams:hasPatternType "pitch-class-values" ;
+    jams:ofPattern <http://w3id.org/polifonia/resource/pattern/3_7_2_10_2_5> .
+
+<http://w3id.org/polifonia/resource/JAMSObservation/TwoMileBridge8262/3_7_3_5_0_0@0.0> a jams:JAMSObservation,
+        jams:JAMSScoreObservation,
+        jams:ScorePatternOccurrence ;
+    rdfs:label [ ] ;
+    jams:hasDuration "0.0"^^xsd:float ;
+    jams:hasFrequency "2"^^xsd:int ;
+    jams:hasPatternType "pitch-class-values" ;
+    jams:ofPattern <http://w3id.org/polifonia/resource/pattern/3_7_3_5_0_0> .
+
+<http://w3id.org/polifonia/resource/JAMSObservation/TwoMileBridge8262/5_0_0_3_0_3@0.0> a jams:JAMSObservation,
+        jams:JAMSScoreObservation,
+        jams:ScorePatternOccurrence ;
+    rdfs:label [ ] ;
+    jams:hasDuration "0.0"^^xsd:float ;
+    jams:hasFrequency "2"^^xsd:int ;
+    jams:hasPatternType "pitch-class-values" ;
+    jams:ofPattern <http://w3id.org/polifonia/resource/pattern/5_0_0_3_0_3> .
+
+<http://w3id.org/polifonia/resource/JAMSObservation/TwoMileBridge8262/5_3_0_3_7_3@0.0> a jams:JAMSObservation,
+        jams:JAMSScoreObservation,
+        jams:ScorePatternOccurrence ;
+    rdfs:label [ ] ;
+    jams:hasDuration "0.0"^^xsd:float ;
+    jams:hasFrequency "2"^^xsd:int ;
+    jams:hasPatternType "pitch-class-values" ;
+    jams:ofPattern <http://w3id.org/polifonia/resource/pattern/5_3_0_3_7_3> .
+
+<http://w3id.org/polifonia/resource/JAMSObservation/TwoMileBridge8262/5_3_5_7_0_3@0.0> a jams:JAMSObservation,
+        jams:JAMSScoreObservation,
+        jams:ScorePatternOccurrence ;
+    rdfs:label [ ] ;
+    jams:hasDuration "0.0"^^xsd:float ;
+    jams:hasFrequency "2"^^xsd:int ;
+    jams:hasPatternType "pitch-class-values" ;
+    jams:ofPattern <http://w3id.org/polifonia/resource/pattern/5_3_5_7_0_3> .
+
+<http://w3id.org/polifonia/resource/JAMSObservation/TwoMileBridge8262/5_3_5_7_2_3@0.0> a jams:JAMSObservation,
+        jams:JAMSScoreObservation,
+        jams:ScorePatternOccurrence ;
+    rdfs:label [ ] ;
+    jams:hasDuration "0.0"^^xsd:float ;
+    jams:hasFrequency "2"^^xsd:int ;
+    jams:hasPatternType "pitch-class-values" ;
+    jams:ofPattern <http://w3id.org/polifonia/resource/pattern/5_3_5_7_2_3> .
+
+<http://w3id.org/polifonia/resource/JAMSObservation/TwoMileBridge8262/5_7_0_3_10_0@0.0> a jams:JAMSObservation,
+        jams:JAMSScoreObservation,
+        jams:ScorePatternOccurrence ;
+    rdfs:label [ ] ;
+    jams:hasDuration "0.0"^^xsd:float ;
+    jams:hasFrequency "2"^^xsd:int ;
+    jams:hasPatternType "pitch-class-values" ;
+    jams:ofPattern <http://w3id.org/polifonia/resource/pattern/5_7_0_3_10_0> .
+
+<http://w3id.org/polifonia/resource/JAMSObservation/TwoMileBridge8262/5_7_2_3_10_0@0.0> a jams:JAMSObservation,
+        jams:JAMSScoreObservation,
+        jams:ScorePatternOccurrence ;
+    rdfs:label [ ] ;
+    jams:hasDuration "0.0"^^xsd:float ;
+    jams:hasFrequency "2"^^xsd:int ;
+    jams:hasPatternType "pitch-class-values" ;
+    jams:ofPattern <http://w3id.org/polifonia/resource/pattern/5_7_2_3_10_0> .
+
+<http://w3id.org/polifonia/resource/JAMSObservation/TwoMileBridge8262/7_0_3_10_0_0@0.0> a jams:JAMSObservation,
+        jams:JAMSScoreObservation,
+        jams:ScorePatternOccurrence ;
+    rdfs:label [ ] ;
+    jams:hasDuration "0.0"^^xsd:float ;
+    jams:hasFrequency "2"^^xsd:int ;
+    jams:hasPatternType "pitch-class-values" ;
+    jams:ofPattern <http://w3id.org/polifonia/resource/pattern/7_0_3_10_0_0> .
+
+<http://w3id.org/polifonia/resource/JAMSObservation/TwoMileBridge8262/7_2_10_2_5_3@0.0> a jams:JAMSObservation,
+        jams:JAMSScoreObservation,
+        jams:ScorePatternOccurrence ;
+    rdfs:label [ ] ;
+    jams:hasDuration "0.0"^^xsd:float ;
+    jams:hasFrequency "4"^^xsd:int ;
+    jams:hasPatternType "pitch-class-values" ;
+    jams:ofPattern <http://w3id.org/polifonia/resource/pattern/7_2_10_2_5_3> .
+
+<http://w3id.org/polifonia/resource/JAMSObservation/TwoMileBridge8262/7_2_3_10_0_0@0.0> a jams:JAMSObservation,
+        jams:JAMSScoreObservation,
+        jams:ScorePatternOccurrence ;
+    rdfs:label [ ] ;
+    jams:hasDuration "0.0"^^xsd:float ;
+    jams:hasFrequency "2"^^xsd:int ;
+    jams:hasPatternType "pitch-class-values" ;
+    jams:ofPattern <http://w3id.org/polifonia/resource/pattern/7_2_3_10_0_0> .
+
+<http://w3id.org/polifonia/resource/JAMSObservation/TwoMileBridge8262/7_3_5_0_0_3@0.0> a jams:JAMSObservation,
+        jams:JAMSScoreObservation,
+        jams:ScorePatternOccurrence ;
+    rdfs:label [ ] ;
+    jams:hasDuration "0.0"^^xsd:float ;
+    jams:hasFrequency "2"^^xsd:int ;
+    jams:hasPatternType "pitch-class-values" ;
+    jams:ofPattern <http://w3id.org/polifonia/resource/pattern/7_3_5_0_0_3> .
+
+<http://w3id.org/polifonia/resource/MusicalComposition/3921a8e22f0e6c7ebe0ccc1e288d8811b4c9b8cc> a mc:MusicalComposition ;
+    rdfs:label "TwoMileBridge8262" ;
+    mc:title "TwoMileBridge8262" ;
+    prov:wasDerivedFrom <http://w3id.org/polifonia/resource/JAMSFile/TwoMileBridge8262.jams> .
+

@@ -1,0 +1,341 @@
+@prefix core: <http://w3id.org/polifonia/ontology/core/> .
+@prefix jams: <http://w3id.org/polifonia/ontology/jams/> .
+@prefix mc: <http://w3id.org/polifonia/ontology/musical-composition/> .
+@prefix pon-resource: <http://w3id.org/polifonia/resource/> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+pon-resource:Agent%2Fannotator_local_id a core:Agent ;
+    rdfs:label "FONN-Tool" ;
+    jams:hasAnnotatorType pon-resource:annotator-program ;
+    jams:hasName "FONN-Tool" .
+
+<http://w3id.org/polifonia/resource/JAMSAnnotation/cf507c83c90cca6933c622d6eab55a5d92db615b> a jams:JAMSAnnotation,
+        jams:JAMSScoreAnnotation ;
+    jams:includesObservation <http://w3id.org/polifonia/resource/JAMSObservation/LongfordTinkerThe13175/10_10_10_7_3_5@0.0>,
+        <http://w3id.org/polifonia/resource/JAMSObservation/LongfordTinkerThe13175/10_10_7_3_5_3@0.0>,
+        <http://w3id.org/polifonia/resource/JAMSObservation/LongfordTinkerThe13175/10_7_3_5_3_8@0.0>,
+        <http://w3id.org/polifonia/resource/JAMSObservation/LongfordTinkerThe13175/10_7_7_3_7_3@0.0>,
+        <http://w3id.org/polifonia/resource/JAMSObservation/LongfordTinkerThe13175/2_3_7_3_2_10@0.0>,
+        <http://w3id.org/polifonia/resource/JAMSObservation/LongfordTinkerThe13175/3_2_10_7_7_3@0.0>,
+        <http://w3id.org/polifonia/resource/JAMSObservation/LongfordTinkerThe13175/3_2_3_7_3_2@0.0>,
+        <http://w3id.org/polifonia/resource/JAMSObservation/LongfordTinkerThe13175/3_5_3_8_0_8@0.0>,
+        <http://w3id.org/polifonia/resource/JAMSObservation/LongfordTinkerThe13175/3_5_3_8_3_5@0.0>,
+        <http://w3id.org/polifonia/resource/JAMSObservation/LongfordTinkerThe13175/3_5_7_8_3_5@0.0>,
+        <http://w3id.org/polifonia/resource/JAMSObservation/LongfordTinkerThe13175/3_7_10_10_10_7@0.0>,
+        <http://w3id.org/polifonia/resource/JAMSObservation/LongfordTinkerThe13175/3_7_3_2_10_7@0.0>,
+        <http://w3id.org/polifonia/resource/JAMSObservation/LongfordTinkerThe13175/3_7_3_7_10_10@0.0>,
+        <http://w3id.org/polifonia/resource/JAMSObservation/LongfordTinkerThe13175/3_8_3_5_7_8@0.0>,
+        <http://w3id.org/polifonia/resource/JAMSObservation/LongfordTinkerThe13175/5_3_8_3_5_7@0.0>,
+        <http://w3id.org/polifonia/resource/JAMSObservation/LongfordTinkerThe13175/5_7_8_3_5_3@0.0>,
+        <http://w3id.org/polifonia/resource/JAMSObservation/LongfordTinkerThe13175/7_10_10_10_7_3@0.0>,
+        <http://w3id.org/polifonia/resource/JAMSObservation/LongfordTinkerThe13175/7_3_5_3_8_3@0.0>,
+        <http://w3id.org/polifonia/resource/JAMSObservation/LongfordTinkerThe13175/7_3_7_3_7_10@0.0>,
+        <http://w3id.org/polifonia/resource/JAMSObservation/LongfordTinkerThe13175/7_7_3_7_3_7@0.0>,
+        <http://w3id.org/polifonia/resource/JAMSObservation/LongfordTinkerThe13175/7_7_7_8_0_8@0.0>,
+        <http://w3id.org/polifonia/resource/JAMSObservation/LongfordTinkerThe13175/7_7_8_0_8_7@0.0>,
+        <http://w3id.org/polifonia/resource/JAMSObservation/LongfordTinkerThe13175/7_8_0_8_7_8@0.0>,
+        <http://w3id.org/polifonia/resource/JAMSObservation/LongfordTinkerThe13175/7_8_3_5_3_8@0.0>,
+        <http://w3id.org/polifonia/resource/JAMSObservation/LongfordTinkerThe13175/7_8_7_7_7_8@0.0>,
+        <http://w3id.org/polifonia/resource/JAMSObservation/LongfordTinkerThe13175/8_3_5_3_8_0@0.0>,
+        <http://w3id.org/polifonia/resource/JAMSObservation/LongfordTinkerThe13175/8_3_5_7_8_3@0.0>,
+        <http://w3id.org/polifonia/resource/JAMSObservation/LongfordTinkerThe13175/8_7_7_7_8_0@0.0>,
+        <http://w3id.org/polifonia/resource/JAMSObservation/LongfordTinkerThe13175/8_7_8_7_7_7@0.0>,
+        <http://w3id.org/polifonia/resource/JAMSObservation/LongfordTinkerThe13175/8_8_0_8_8_7@0.0>,
+        <http://w3id.org/polifonia/resource/JAMSObservation/LongfordTinkerThe13175/8_8_7_7_7_8@0.0> ;
+    jams:isJAMSAnnotationOf <http://w3id.org/polifonia/resource/MusicalComposition/cf507c83c90cca6933c622d6eab55a5d92db615b> .
+
+<http://w3id.org/polifonia/resource/Score/song_local_id> jams:hasJAMSAnnotation <http://w3id.org/polifonia/resource/MusicalComposition/cf507c83c90cca6933c622d6eab55a5d92db615b> .
+
+<http://w3id.org/polifonia/resource/JAMSFile/LongfordTinkerThe13175.jams> a jams:JAMSFile ;
+    jams:identifiers [ ] ;
+    jams:jamsVersion "0.3.4" ;
+    jams:release "" ;
+    prov:wasDerivedFrom "The Session" ;
+    prov:wasMemberOf <https://github.com/ashahidkhattak/thesession> .
+
+<http://w3id.org/polifonia/resource/JAMSObservation/LongfordTinkerThe13175/10_10_10_7_3_5@0.0> a jams:JAMSObservation,
+        jams:JAMSScoreObservation,
+        jams:ScorePatternOccurrence ;
+    rdfs:label [ ] ;
+    jams:hasDuration "0.0"^^xsd:float ;
+    jams:hasFrequency "1"^^xsd:int ;
+    jams:hasPatternType "pitch-class-values" ;
+    jams:ofPattern <http://w3id.org/polifonia/resource/pattern/10_10_10_7_3_5> .
+
+<http://w3id.org/polifonia/resource/JAMSObservation/LongfordTinkerThe13175/10_10_7_3_5_3@0.0> a jams:JAMSObservation,
+        jams:JAMSScoreObservation,
+        jams:ScorePatternOccurrence ;
+    rdfs:label [ ] ;
+    jams:hasDuration "0.0"^^xsd:float ;
+    jams:hasFrequency "1"^^xsd:int ;
+    jams:hasPatternType "pitch-class-values" ;
+    jams:ofPattern <http://w3id.org/polifonia/resource/pattern/10_10_7_3_5_3> .
+
+<http://w3id.org/polifonia/resource/JAMSObservation/LongfordTinkerThe13175/10_7_3_5_3_8@0.0> a jams:JAMSObservation,
+        jams:JAMSScoreObservation,
+        jams:ScorePatternOccurrence ;
+    rdfs:label [ ] ;
+    jams:hasDuration "0.0"^^xsd:float ;
+    jams:hasFrequency "1"^^xsd:int ;
+    jams:hasPatternType "pitch-class-values" ;
+    jams:ofPattern <http://w3id.org/polifonia/resource/pattern/10_7_3_5_3_8> .
+
+<http://w3id.org/polifonia/resource/JAMSObservation/LongfordTinkerThe13175/10_7_7_3_7_3@0.0> a jams:JAMSObservation,
+        jams:JAMSScoreObservation,
+        jams:ScorePatternOccurrence ;
+    rdfs:label [ ] ;
+    jams:hasDuration "0.0"^^xsd:float ;
+    jams:hasFrequency "1"^^xsd:int ;
+    jams:hasPatternType "pitch-class-values" ;
+    jams:ofPattern <http://w3id.org/polifonia/resource/pattern/10_7_7_3_7_3> .
+
+<http://w3id.org/polifonia/resource/JAMSObservation/LongfordTinkerThe13175/2_3_7_3_2_10@0.0> a jams:JAMSObservation,
+        jams:JAMSScoreObservation,
+        jams:ScorePatternOccurrence ;
+    rdfs:label [ ] ;
+    jams:hasDuration "0.0"^^xsd:float ;
+    jams:hasFrequency "1"^^xsd:int ;
+    jams:hasPatternType "pitch-class-values" ;
+    jams:ofPattern <http://w3id.org/polifonia/resource/pattern/2_3_7_3_2_10> .
+
+<http://w3id.org/polifonia/resource/JAMSObservation/LongfordTinkerThe13175/3_2_10_7_7_3@0.0> a jams:JAMSObservation,
+        jams:JAMSScoreObservation,
+        jams:ScorePatternOccurrence ;
+    rdfs:label [ ] ;
+    jams:hasDuration "0.0"^^xsd:float ;
+    jams:hasFrequency "1"^^xsd:int ;
+    jams:hasPatternType "pitch-class-values" ;
+    jams:ofPattern <http://w3id.org/polifonia/resource/pattern/3_2_10_7_7_3> .
+
+<http://w3id.org/polifonia/resource/JAMSObservation/LongfordTinkerThe13175/3_2_3_7_3_2@0.0> a jams:JAMSObservation,
+        jams:JAMSScoreObservation,
+        jams:ScorePatternOccurrence ;
+    rdfs:label [ ] ;
+    jams:hasDuration "0.0"^^xsd:float ;
+    jams:hasFrequency "1"^^xsd:int ;
+    jams:hasPatternType "pitch-class-values" ;
+    jams:ofPattern <http://w3id.org/polifonia/resource/pattern/3_2_3_7_3_2> .
+
+<http://w3id.org/polifonia/resource/JAMSObservation/LongfordTinkerThe13175/3_5_3_8_0_8@0.0> a jams:JAMSObservation,
+        jams:JAMSScoreObservation,
+        jams:ScorePatternOccurrence ;
+    rdfs:label [ ] ;
+    jams:hasDuration "0.0"^^xsd:float ;
+    jams:hasFrequency "1"^^xsd:int ;
+    jams:hasPatternType "pitch-class-values" ;
+    jams:ofPattern <http://w3id.org/polifonia/resource/pattern/3_5_3_8_0_8> .
+
+<http://w3id.org/polifonia/resource/JAMSObservation/LongfordTinkerThe13175/3_5_3_8_3_5@0.0> a jams:JAMSObservation,
+        jams:JAMSScoreObservation,
+        jams:ScorePatternOccurrence ;
+    rdfs:label [ ] ;
+    jams:hasDuration "0.0"^^xsd:float ;
+    jams:hasFrequency "1"^^xsd:int ;
+    jams:hasPatternType "pitch-class-values" ;
+    jams:ofPattern <http://w3id.org/polifonia/resource/pattern/3_5_3_8_3_5> .
+
+<http://w3id.org/polifonia/resource/JAMSObservation/LongfordTinkerThe13175/3_5_7_8_3_5@0.0> a jams:JAMSObservation,
+        jams:JAMSScoreObservation,
+        jams:ScorePatternOccurrence ;
+    rdfs:label [ ] ;
+    jams:hasDuration "0.0"^^xsd:float ;
+    jams:hasFrequency "1"^^xsd:int ;
+    jams:hasPatternType "pitch-class-values" ;
+    jams:ofPattern <http://w3id.org/polifonia/resource/pattern/3_5_7_8_3_5> .
+
+<http://w3id.org/polifonia/resource/JAMSObservation/LongfordTinkerThe13175/3_7_10_10_10_7@0.0> a jams:JAMSObservation,
+        jams:JAMSScoreObservation,
+        jams:ScorePatternOccurrence ;
+    rdfs:label [ ] ;
+    jams:hasDuration "0.0"^^xsd:float ;
+    jams:hasFrequency "1"^^xsd:int ;
+    jams:hasPatternType "pitch-class-values" ;
+    jams:ofPattern <http://w3id.org/polifonia/resource/pattern/3_7_10_10_10_7> .
+
+<http://w3id.org/polifonia/resource/JAMSObservation/LongfordTinkerThe13175/3_7_3_2_10_7@0.0> a jams:JAMSObservation,
+        jams:JAMSScoreObservation,
+        jams:ScorePatternOccurrence ;
+    rdfs:label [ ] ;
+    jams:hasDuration "0.0"^^xsd:float ;
+    jams:hasFrequency "1"^^xsd:int ;
+    jams:hasPatternType "pitch-class-values" ;
+    jams:ofPattern <http://w3id.org/polifonia/resource/pattern/3_7_3_2_10_7> .
+
+<http://w3id.org/polifonia/resource/JAMSObservation/LongfordTinkerThe13175/3_7_3_7_10_10@0.0> a jams:JAMSObservation,
+        jams:JAMSScoreObservation,
+        jams:ScorePatternOccurrence ;
+    rdfs:label [ ] ;
+    jams:hasDuration "0.0"^^xsd:float ;
+    jams:hasFrequency "1"^^xsd:int ;
+    jams:hasPatternType "pitch-class-values" ;
+    jams:ofPattern <http://w3id.org/polifonia/resource/pattern/3_7_3_7_10_10> .
+
+<http://w3id.org/polifonia/resource/JAMSObservation/LongfordTinkerThe13175/3_8_3_5_7_8@0.0> a jams:JAMSObservation,
+        jams:JAMSScoreObservation,
+        jams:ScorePatternOccurrence ;
+    rdfs:label [ ] ;
+    jams:hasDuration "0.0"^^xsd:float ;
+    jams:hasFrequency "1"^^xsd:int ;
+    jams:hasPatternType "pitch-class-values" ;
+    jams:ofPattern <http://w3id.org/polifonia/resource/pattern/3_8_3_5_7_8> .
+
+<http://w3id.org/polifonia/resource/JAMSObservation/LongfordTinkerThe13175/5_3_8_3_5_7@0.0> a jams:JAMSObservation,
+        jams:JAMSScoreObservation,
+        jams:ScorePatternOccurrence ;
+    rdfs:label [ ] ;
+    jams:hasDuration "0.0"^^xsd:float ;
+    jams:hasFrequency "1"^^xsd:int ;
+    jams:hasPatternType "pitch-class-values" ;
+    jams:ofPattern <http://w3id.org/polifonia/resource/pattern/5_3_8_3_5_7> .
+
+<http://w3id.org/polifonia/resource/JAMSObservation/LongfordTinkerThe13175/5_7_8_3_5_3@0.0> a jams:JAMSObservation,
+        jams:JAMSScoreObservation,
+        jams:ScorePatternOccurrence ;
+    rdfs:label [ ] ;
+    jams:hasDuration "0.0"^^xsd:float ;
+    jams:hasFrequency "1"^^xsd:int ;
+    jams:hasPatternType "pitch-class-values" ;
+    jams:ofPattern <http://w3id.org/polifonia/resource/pattern/5_7_8_3_5_3> .
+
+<http://w3id.org/polifonia/resource/JAMSObservation/LongfordTinkerThe13175/7_10_10_10_7_3@0.0> a jams:JAMSObservation,
+        jams:JAMSScoreObservation,
+        jams:ScorePatternOccurrence ;
+    rdfs:label [ ] ;
+    jams:hasDuration "0.0"^^xsd:float ;
+    jams:hasFrequency "1"^^xsd:int ;
+    jams:hasPatternType "pitch-class-values" ;
+    jams:ofPattern <http://w3id.org/polifonia/resource/pattern/7_10_10_10_7_3> .
+
+<http://w3id.org/polifonia/resource/JAMSObservation/LongfordTinkerThe13175/7_3_5_3_8_3@0.0> a jams:JAMSObservation,
+        jams:JAMSScoreObservation,
+        jams:ScorePatternOccurrence ;
+    rdfs:label [ ] ;
+    jams:hasDuration "0.0"^^xsd:float ;
+    jams:hasFrequency "1"^^xsd:int ;
+    jams:hasPatternType "pitch-class-values" ;
+    jams:ofPattern <http://w3id.org/polifonia/resource/pattern/7_3_5_3_8_3> .
+
+<http://w3id.org/polifonia/resource/JAMSObservation/LongfordTinkerThe13175/7_3_7_3_7_10@0.0> a jams:JAMSObservation,
+        jams:JAMSScoreObservation,
+        jams:ScorePatternOccurrence ;
+    rdfs:label [ ] ;
+    jams:hasDuration "0.0"^^xsd:float ;
+    jams:hasFrequency "1"^^xsd:int ;
+    jams:hasPatternType "pitch-class-values" ;
+    jams:ofPattern <http://w3id.org/polifonia/resource/pattern/7_3_7_3_7_10> .
+
+<http://w3id.org/polifonia/resource/JAMSObservation/LongfordTinkerThe13175/7_7_3_7_3_7@0.0> a jams:JAMSObservation,
+        jams:JAMSScoreObservation,
+        jams:ScorePatternOccurrence ;
+    rdfs:label [ ] ;
+    jams:hasDuration "0.0"^^xsd:float ;
+    jams:hasFrequency "1"^^xsd:int ;
+    jams:hasPatternType "pitch-class-values" ;
+    jams:ofPattern <http://w3id.org/polifonia/resource/pattern/7_7_3_7_3_7> .
+
+<http://w3id.org/polifonia/resource/JAMSObservation/LongfordTinkerThe13175/7_7_7_8_0_8@0.0> a jams:JAMSObservation,
+        jams:JAMSScoreObservation,
+        jams:ScorePatternOccurrence ;
+    rdfs:label [ ] ;
+    jams:hasDuration "0.0"^^xsd:float ;
+    jams:hasFrequency "1"^^xsd:int ;
+    jams:hasPatternType "pitch-class-values" ;
+    jams:ofPattern <http://w3id.org/polifonia/resource/pattern/7_7_7_8_0_8> .
+
+<http://w3id.org/polifonia/resource/JAMSObservation/LongfordTinkerThe13175/7_7_8_0_8_7@0.0> a jams:JAMSObservation,
+        jams:JAMSScoreObservation,
+        jams:ScorePatternOccurrence ;
+    rdfs:label [ ] ;
+    jams:hasDuration "0.0"^^xsd:float ;
+    jams:hasFrequency "1"^^xsd:int ;
+    jams:hasPatternType "pitch-class-values" ;
+    jams:ofPattern <http://w3id.org/polifonia/resource/pattern/7_7_8_0_8_7> .
+
+<http://w3id.org/polifonia/resource/JAMSObservation/LongfordTinkerThe13175/7_8_0_8_7_8@0.0> a jams:JAMSObservation,
+        jams:JAMSScoreObservation,
+        jams:ScorePatternOccurrence ;
+    rdfs:label [ ] ;
+    jams:hasDuration "0.0"^^xsd:float ;
+    jams:hasFrequency "1"^^xsd:int ;
+    jams:hasPatternType "pitch-class-values" ;
+    jams:ofPattern <http://w3id.org/polifonia/resource/pattern/7_8_0_8_7_8> .
+
+<http://w3id.org/polifonia/resource/JAMSObservation/LongfordTinkerThe13175/7_8_3_5_3_8@0.0> a jams:JAMSObservation,
+        jams:JAMSScoreObservation,
+        jams:ScorePatternOccurrence ;
+    rdfs:label [ ] ;
+    jams:hasDuration "0.0"^^xsd:float ;
+    jams:hasFrequency "1"^^xsd:int ;
+    jams:hasPatternType "pitch-class-values" ;
+    jams:ofPattern <http://w3id.org/polifonia/resource/pattern/7_8_3_5_3_8> .
+
+<http://w3id.org/polifonia/resource/JAMSObservation/LongfordTinkerThe13175/7_8_7_7_7_8@0.0> a jams:JAMSObservation,
+        jams:JAMSScoreObservation,
+        jams:ScorePatternOccurrence ;
+    rdfs:label [ ] ;
+    jams:hasDuration "0.0"^^xsd:float ;
+    jams:hasFrequency "1"^^xsd:int ;
+    jams:hasPatternType "pitch-class-values" ;
+    jams:ofPattern <http://w3id.org/polifonia/resource/pattern/7_8_7_7_7_8> .
+
+<http://w3id.org/polifonia/resource/JAMSObservation/LongfordTinkerThe13175/8_3_5_3_8_0@0.0> a jams:JAMSObservation,
+        jams:JAMSScoreObservation,
+        jams:ScorePatternOccurrence ;
+    rdfs:label [ ] ;
+    jams:hasDuration "0.0"^^xsd:float ;
+    jams:hasFrequency "1"^^xsd:int ;
+    jams:hasPatternType "pitch-class-values" ;
+    jams:ofPattern <http://w3id.org/polifonia/resource/pattern/8_3_5_3_8_0> .
+
+<http://w3id.org/polifonia/resource/JAMSObservation/LongfordTinkerThe13175/8_3_5_7_8_3@0.0> a jams:JAMSObservation,
+        jams:JAMSScoreObservation,
+        jams:ScorePatternOccurrence ;
+    rdfs:label [ ] ;
+    jams:hasDuration "0.0"^^xsd:float ;
+    jams:hasFrequency "1"^^xsd:int ;
+    jams:hasPatternType "pitch-class-values" ;
+    jams:ofPattern <http://w3id.org/polifonia/resource/pattern/8_3_5_7_8_3> .
+
+<http://w3id.org/polifonia/resource/JAMSObservation/LongfordTinkerThe13175/8_7_7_7_8_0@0.0> a jams:JAMSObservation,
+        jams:JAMSScoreObservation,
+        jams:ScorePatternOccurrence ;
+    rdfs:label [ ] ;
+    jams:hasDuration "0.0"^^xsd:float ;
+    jams:hasFrequency "1"^^xsd:int ;
+    jams:hasPatternType "pitch-class-values" ;
+    jams:ofPattern <http://w3id.org/polifonia/resource/pattern/8_7_7_7_8_0> .
+
+<http://w3id.org/polifonia/resource/JAMSObservation/LongfordTinkerThe13175/8_7_8_7_7_7@0.0> a jams:JAMSObservation,
+        jams:JAMSScoreObservation,
+        jams:ScorePatternOccurrence ;
+    rdfs:label [ ] ;
+    jams:hasDuration "0.0"^^xsd:float ;
+    jams:hasFrequency "1"^^xsd:int ;
+    jams:hasPatternType "pitch-class-values" ;
+    jams:ofPattern <http://w3id.org/polifonia/resource/pattern/8_7_8_7_7_7> .
+
+<http://w3id.org/polifonia/resource/JAMSObservation/LongfordTinkerThe13175/8_8_0_8_8_7@0.0> a jams:JAMSObservation,
+        jams:JAMSScoreObservation,
+        jams:ScorePatternOccurrence ;
+    rdfs:label [ ] ;
+    jams:hasDuration "0.0"^^xsd:float ;
+    jams:hasFrequency "1"^^xsd:int ;
+    jams:hasPatternType "pitch-class-values" ;
+    jams:ofPattern <http://w3id.org/polifonia/resource/pattern/8_8_0_8_8_7> .
+
+<http://w3id.org/polifonia/resource/JAMSObservation/LongfordTinkerThe13175/8_8_7_7_7_8@0.0> a jams:JAMSObservation,
+        jams:JAMSScoreObservation,
+        jams:ScorePatternOccurrence ;
+    rdfs:label [ ] ;
+    jams:hasDuration "0.0"^^xsd:float ;
+    jams:hasFrequency "1"^^xsd:int ;
+    jams:hasPatternType "pitch-class-values" ;
+    jams:ofPattern <http://w3id.org/polifonia/resource/pattern/8_8_7_7_7_8> .
+
+<http://w3id.org/polifonia/resource/MusicalComposition/cf507c83c90cca6933c622d6eab55a5d92db615b> a mc:MusicalComposition ;
+    rdfs:label "LongfordTinkerThe13175" ;
+    mc:title "LongfordTinkerThe13175" ;
+    prov:wasDerivedFrom <http://w3id.org/polifonia/resource/JAMSFile/LongfordTinkerThe13175.jams> .
+

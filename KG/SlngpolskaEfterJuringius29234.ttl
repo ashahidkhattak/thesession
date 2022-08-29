@@ -1,0 +1,111 @@
+@prefix core: <http://w3id.org/polifonia/ontology/core/> .
+@prefix jams: <http://w3id.org/polifonia/ontology/jams/> .
+@prefix mc: <http://w3id.org/polifonia/ontology/musical-composition/> .
+@prefix pon-resource: <http://w3id.org/polifonia/resource/> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+pon-resource:Agent%2Fannotator_local_id a core:Agent ;
+    rdfs:label "FONN-Tool" ;
+    jams:hasAnnotatorType pon-resource:annotator-program ;
+    jams:hasName "FONN-Tool" .
+
+<http://w3id.org/polifonia/resource/JAMSAnnotation/3e05740e3287788ef1e52613c6678d139a613694> a jams:JAMSAnnotation,
+        jams:JAMSScoreAnnotation ;
+    jams:includesObservation <http://w3id.org/polifonia/resource/JAMSObservation/SlngpolskaEfterJuringius29234/10_7_8_5_7_7@0.0>,
+        <http://w3id.org/polifonia/resource/JAMSObservation/SlngpolskaEfterJuringius29234/2_3_2_3_5_7@0.0>,
+        <http://w3id.org/polifonia/resource/JAMSObservation/SlngpolskaEfterJuringius29234/3_2_3_5_7_7@0.0>,
+        <http://w3id.org/polifonia/resource/JAMSObservation/SlngpolskaEfterJuringius29234/3_5_7_7_10_2@0.0>,
+        <http://w3id.org/polifonia/resource/JAMSObservation/SlngpolskaEfterJuringius29234/5_7_7_10_2_3@0.0>,
+        <http://w3id.org/polifonia/resource/JAMSObservation/SlngpolskaEfterJuringius29234/7_10_2_3_2_3@0.0>,
+        <http://w3id.org/polifonia/resource/JAMSObservation/SlngpolskaEfterJuringius29234/7_10_7_8_5_7@0.0>,
+        <http://w3id.org/polifonia/resource/JAMSObservation/SlngpolskaEfterJuringius29234/7_8_5_7_7_10@0.0> ;
+    jams:isJAMSAnnotationOf <http://w3id.org/polifonia/resource/MusicalComposition/3e05740e3287788ef1e52613c6678d139a613694> .
+
+<http://w3id.org/polifonia/resource/Score/song_local_id> jams:hasJAMSAnnotation <http://w3id.org/polifonia/resource/MusicalComposition/3e05740e3287788ef1e52613c6678d139a613694> .
+
+<http://w3id.org/polifonia/resource/JAMSFile/SlngpolskaEfterJuringius29234.jams> a jams:JAMSFile ;
+    jams:identifiers [ ] ;
+    jams:jamsVersion "0.3.4" ;
+    jams:release "" ;
+    prov:wasDerivedFrom "The Session" ;
+    prov:wasMemberOf <https://github.com/ashahidkhattak/thesession> .
+
+<http://w3id.org/polifonia/resource/JAMSObservation/SlngpolskaEfterJuringius29234/10_7_8_5_7_7@0.0> a jams:JAMSObservation,
+        jams:JAMSScoreObservation,
+        jams:ScorePatternOccurrence ;
+    rdfs:label [ ] ;
+    jams:hasDuration "0.0"^^xsd:float ;
+    jams:hasFrequency "1"^^xsd:int ;
+    jams:hasPatternType "pitch-class-values" ;
+    jams:ofPattern <http://w3id.org/polifonia/resource/pattern/10_7_8_5_7_7> .
+
+<http://w3id.org/polifonia/resource/JAMSObservation/SlngpolskaEfterJuringius29234/2_3_2_3_5_7@0.0> a jams:JAMSObservation,
+        jams:JAMSScoreObservation,
+        jams:ScorePatternOccurrence ;
+    rdfs:label [ ] ;
+    jams:hasDuration "0.0"^^xsd:float ;
+    jams:hasFrequency "2"^^xsd:int ;
+    jams:hasPatternType "pitch-class-values" ;
+    jams:ofPattern <http://w3id.org/polifonia/resource/pattern/2_3_2_3_5_7> .
+
+<http://w3id.org/polifonia/resource/JAMSObservation/SlngpolskaEfterJuringius29234/3_2_3_5_7_7@0.0> a jams:JAMSObservation,
+        jams:JAMSScoreObservation,
+        jams:ScorePatternOccurrence ;
+    rdfs:label [ ] ;
+    jams:hasDuration "0.0"^^xsd:float ;
+    jams:hasFrequency "2"^^xsd:int ;
+    jams:hasPatternType "pitch-class-values" ;
+    jams:ofPattern <http://w3id.org/polifonia/resource/pattern/3_2_3_5_7_7> .
+
+<http://w3id.org/polifonia/resource/JAMSObservation/SlngpolskaEfterJuringius29234/3_5_7_7_10_2@0.0> a jams:JAMSObservation,
+        jams:JAMSScoreObservation,
+        jams:ScorePatternOccurrence ;
+    rdfs:label [ ] ;
+    jams:hasDuration "0.0"^^xsd:float ;
+    jams:hasFrequency "1"^^xsd:int ;
+    jams:hasPatternType "pitch-class-values" ;
+    jams:ofPattern <http://w3id.org/polifonia/resource/pattern/3_5_7_7_10_2> .
+
+<http://w3id.org/polifonia/resource/JAMSObservation/SlngpolskaEfterJuringius29234/5_7_7_10_2_3@0.0> a jams:JAMSObservation,
+        jams:JAMSScoreObservation,
+        jams:ScorePatternOccurrence ;
+    rdfs:label [ ] ;
+    jams:hasDuration "0.0"^^xsd:float ;
+    jams:hasFrequency "2"^^xsd:int ;
+    jams:hasPatternType "pitch-class-values" ;
+    jams:ofPattern <http://w3id.org/polifonia/resource/pattern/5_7_7_10_2_3> .
+
+<http://w3id.org/polifonia/resource/JAMSObservation/SlngpolskaEfterJuringius29234/7_10_2_3_2_3@0.0> a jams:JAMSObservation,
+        jams:JAMSScoreObservation,
+        jams:ScorePatternOccurrence ;
+    rdfs:label [ ] ;
+    jams:hasDuration "0.0"^^xsd:float ;
+    jams:hasFrequency "2"^^xsd:int ;
+    jams:hasPatternType "pitch-class-values" ;
+    jams:ofPattern <http://w3id.org/polifonia/resource/pattern/7_10_2_3_2_3> .
+
+<http://w3id.org/polifonia/resource/JAMSObservation/SlngpolskaEfterJuringius29234/7_10_7_8_5_7@0.0> a jams:JAMSObservation,
+        jams:JAMSScoreObservation,
+        jams:ScorePatternOccurrence ;
+    rdfs:label [ ] ;
+    jams:hasDuration "0.0"^^xsd:float ;
+    jams:hasFrequency "1"^^xsd:int ;
+    jams:hasPatternType "pitch-class-values" ;
+    jams:ofPattern <http://w3id.org/polifonia/resource/pattern/7_10_7_8_5_7> .
+
+<http://w3id.org/polifonia/resource/JAMSObservation/SlngpolskaEfterJuringius29234/7_8_5_7_7_10@0.0> a jams:JAMSObservation,
+        jams:JAMSScoreObservation,
+        jams:ScorePatternOccurrence ;
+    rdfs:label [ ] ;
+    jams:hasDuration "0.0"^^xsd:float ;
+    jams:hasFrequency "2"^^xsd:int ;
+    jams:hasPatternType "pitch-class-values" ;
+    jams:ofPattern <http://w3id.org/polifonia/resource/pattern/7_8_5_7_7_10> .
+
+<http://w3id.org/polifonia/resource/MusicalComposition/3e05740e3287788ef1e52613c6678d139a613694> a mc:MusicalComposition ;
+    rdfs:label "SlngpolskaEfterJuringius29234" ;
+    mc:title "SlngpolskaEfterJuringius29234" ;
+    prov:wasDerivedFrom <http://w3id.org/polifonia/resource/JAMSFile/SlngpolskaEfterJuringius29234.jams> .
+

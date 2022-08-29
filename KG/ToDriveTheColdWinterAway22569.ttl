@@ -1,0 +1,121 @@
+@prefix core: <http://w3id.org/polifonia/ontology/core/> .
+@prefix jams: <http://w3id.org/polifonia/ontology/jams/> .
+@prefix mc: <http://w3id.org/polifonia/ontology/musical-composition/> .
+@prefix pon-resource: <http://w3id.org/polifonia/resource/> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+pon-resource:Agent%2Fannotator_local_id a core:Agent ;
+    rdfs:label "FONN-Tool" ;
+    jams:hasAnnotatorType pon-resource:annotator-program ;
+    jams:hasName "FONN-Tool" .
+
+<http://w3id.org/polifonia/resource/JAMSAnnotation/437c920230553c782b73af4d095f69acf74954be> a jams:JAMSAnnotation,
+        jams:JAMSScoreAnnotation ;
+    jams:includesObservation <http://w3id.org/polifonia/resource/JAMSObservation/ToDriveTheColdWinterAway22569/0_3_7_10_3_5@0.0>,
+        <http://w3id.org/polifonia/resource/JAMSObservation/ToDriveTheColdWinterAway22569/10_10_8_8_7_2@0.0>,
+        <http://w3id.org/polifonia/resource/JAMSObservation/ToDriveTheColdWinterAway22569/3_5_8_7_3_7@0.0>,
+        <http://w3id.org/polifonia/resource/JAMSObservation/ToDriveTheColdWinterAway22569/3_7_10_3_5_8@0.0>,
+        <http://w3id.org/polifonia/resource/JAMSObservation/ToDriveTheColdWinterAway22569/5_8_7_10_10_8@0.0>,
+        <http://w3id.org/polifonia/resource/JAMSObservation/ToDriveTheColdWinterAway22569/5_8_7_3_7_10@0.0>,
+        <http://w3id.org/polifonia/resource/JAMSObservation/ToDriveTheColdWinterAway22569/7_10_10_8_8_7@0.0>,
+        <http://w3id.org/polifonia/resource/JAMSObservation/ToDriveTheColdWinterAway22569/7_10_3_5_8_7@0.0>,
+        <http://w3id.org/polifonia/resource/JAMSObservation/ToDriveTheColdWinterAway22569/8_7_2_3_10_10@0.0> ;
+    jams:isJAMSAnnotationOf <http://w3id.org/polifonia/resource/MusicalComposition/437c920230553c782b73af4d095f69acf74954be> .
+
+<http://w3id.org/polifonia/resource/Score/song_local_id> jams:hasJAMSAnnotation <http://w3id.org/polifonia/resource/MusicalComposition/437c920230553c782b73af4d095f69acf74954be> .
+
+<http://w3id.org/polifonia/resource/JAMSFile/ToDriveTheColdWinterAway22569.jams> a jams:JAMSFile ;
+    jams:identifiers [ ] ;
+    jams:jamsVersion "0.3.4" ;
+    jams:release "" ;
+    prov:wasDerivedFrom "The Session" ;
+    prov:wasMemberOf <https://github.com/ashahidkhattak/thesession> .
+
+<http://w3id.org/polifonia/resource/JAMSObservation/ToDriveTheColdWinterAway22569/0_3_7_10_3_5@0.0> a jams:JAMSObservation,
+        jams:JAMSScoreObservation,
+        jams:ScorePatternOccurrence ;
+    rdfs:label [ ] ;
+    jams:hasDuration "0.0"^^xsd:float ;
+    jams:hasFrequency "1"^^xsd:int ;
+    jams:hasPatternType "pitch-class-values" ;
+    jams:ofPattern <http://w3id.org/polifonia/resource/pattern/0_3_7_10_3_5> .
+
+<http://w3id.org/polifonia/resource/JAMSObservation/ToDriveTheColdWinterAway22569/10_10_8_8_7_2@0.0> a jams:JAMSObservation,
+        jams:JAMSScoreObservation,
+        jams:ScorePatternOccurrence ;
+    rdfs:label [ ] ;
+    jams:hasDuration "0.0"^^xsd:float ;
+    jams:hasFrequency "2"^^xsd:int ;
+    jams:hasPatternType "pitch-class-values" ;
+    jams:ofPattern <http://w3id.org/polifonia/resource/pattern/10_10_8_8_7_2> .
+
+<http://w3id.org/polifonia/resource/JAMSObservation/ToDriveTheColdWinterAway22569/3_5_8_7_3_7@0.0> a jams:JAMSObservation,
+        jams:JAMSScoreObservation,
+        jams:ScorePatternOccurrence ;
+    rdfs:label [ ] ;
+    jams:hasDuration "0.0"^^xsd:float ;
+    jams:hasFrequency "1"^^xsd:int ;
+    jams:hasPatternType "pitch-class-values" ;
+    jams:ofPattern <http://w3id.org/polifonia/resource/pattern/3_5_8_7_3_7> .
+
+<http://w3id.org/polifonia/resource/JAMSObservation/ToDriveTheColdWinterAway22569/3_7_10_3_5_8@0.0> a jams:JAMSObservation,
+        jams:JAMSScoreObservation,
+        jams:ScorePatternOccurrence ;
+    rdfs:label [ ] ;
+    jams:hasDuration "0.0"^^xsd:float ;
+    jams:hasFrequency "2"^^xsd:int ;
+    jams:hasPatternType "pitch-class-values" ;
+    jams:ofPattern <http://w3id.org/polifonia/resource/pattern/3_7_10_3_5_8> .
+
+<http://w3id.org/polifonia/resource/JAMSObservation/ToDriveTheColdWinterAway22569/5_8_7_10_10_8@0.0> a jams:JAMSObservation,
+        jams:JAMSScoreObservation,
+        jams:ScorePatternOccurrence ;
+    rdfs:label [ ] ;
+    jams:hasDuration "0.0"^^xsd:float ;
+    jams:hasFrequency "1"^^xsd:int ;
+    jams:hasPatternType "pitch-class-values" ;
+    jams:ofPattern <http://w3id.org/polifonia/resource/pattern/5_8_7_10_10_8> .
+
+<http://w3id.org/polifonia/resource/JAMSObservation/ToDriveTheColdWinterAway22569/5_8_7_3_7_10@0.0> a jams:JAMSObservation,
+        jams:JAMSScoreObservation,
+        jams:ScorePatternOccurrence ;
+    rdfs:label [ ] ;
+    jams:hasDuration "0.0"^^xsd:float ;
+    jams:hasFrequency "1"^^xsd:int ;
+    jams:hasPatternType "pitch-class-values" ;
+    jams:ofPattern <http://w3id.org/polifonia/resource/pattern/5_8_7_3_7_10> .
+
+<http://w3id.org/polifonia/resource/JAMSObservation/ToDriveTheColdWinterAway22569/7_10_10_8_8_7@0.0> a jams:JAMSObservation,
+        jams:JAMSScoreObservation,
+        jams:ScorePatternOccurrence ;
+    rdfs:label [ ] ;
+    jams:hasDuration "0.0"^^xsd:float ;
+    jams:hasFrequency "1"^^xsd:int ;
+    jams:hasPatternType "pitch-class-values" ;
+    jams:ofPattern <http://w3id.org/polifonia/resource/pattern/7_10_10_8_8_7> .
+
+<http://w3id.org/polifonia/resource/JAMSObservation/ToDriveTheColdWinterAway22569/7_10_3_5_8_7@0.0> a jams:JAMSObservation,
+        jams:JAMSScoreObservation,
+        jams:ScorePatternOccurrence ;
+    rdfs:label [ ] ;
+    jams:hasDuration "0.0"^^xsd:float ;
+    jams:hasFrequency "2"^^xsd:int ;
+    jams:hasPatternType "pitch-class-values" ;
+    jams:ofPattern <http://w3id.org/polifonia/resource/pattern/7_10_3_5_8_7> .
+
+<http://w3id.org/polifonia/resource/JAMSObservation/ToDriveTheColdWinterAway22569/8_7_2_3_10_10@0.0> a jams:JAMSObservation,
+        jams:JAMSScoreObservation,
+        jams:ScorePatternOccurrence ;
+    rdfs:label [ ] ;
+    jams:hasDuration "0.0"^^xsd:float ;
+    jams:hasFrequency "1"^^xsd:int ;
+    jams:hasPatternType "pitch-class-values" ;
+    jams:ofPattern <http://w3id.org/polifonia/resource/pattern/8_7_2_3_10_10> .
+
+<http://w3id.org/polifonia/resource/MusicalComposition/437c920230553c782b73af4d095f69acf74954be> a mc:MusicalComposition ;
+    rdfs:label "ToDriveTheColdWinterAway22569" ;
+    mc:title "ToDriveTheColdWinterAway22569" ;
+    prov:wasDerivedFrom <http://w3id.org/polifonia/resource/JAMSFile/ToDriveTheColdWinterAway22569.jams> .
+

@@ -1,0 +1,231 @@
+@prefix core: <http://w3id.org/polifonia/ontology/core/> .
+@prefix jams: <http://w3id.org/polifonia/ontology/jams/> .
+@prefix mc: <http://w3id.org/polifonia/ontology/musical-composition/> .
+@prefix pon-resource: <http://w3id.org/polifonia/resource/> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+pon-resource:Agent%2Fannotator_local_id a core:Agent ;
+    rdfs:label "FONN-Tool" ;
+    jams:hasAnnotatorType pon-resource:annotator-program ;
+    jams:hasName "FONN-Tool" .
+
+<http://w3id.org/polifonia/resource/JAMSAnnotation/a8923610e827461049c75cc61c5c12d1aa8ad429> a jams:JAMSAnnotation,
+        jams:JAMSScoreAnnotation ;
+    jams:includesObservation <http://w3id.org/polifonia/resource/JAMSObservation/OldPensionerThe4460/0_2_0_2_0_2@0.0>,
+        <http://w3id.org/polifonia/resource/JAMSObservation/OldPensionerThe4460/0_2_0_2_0_7@0.0>,
+        <http://w3id.org/polifonia/resource/JAMSObservation/OldPensionerThe4460/0_2_0_7_0_2@0.0>,
+        <http://w3id.org/polifonia/resource/JAMSObservation/OldPensionerThe4460/0_7_0_2_0_2@0.0>,
+        <http://w3id.org/polifonia/resource/JAMSObservation/OldPensionerThe4460/0_9_4_4_0_9@0.0>,
+        <http://w3id.org/polifonia/resource/JAMSObservation/OldPensionerThe4460/0_9_9_11_0_7@0.0>,
+        <http://w3id.org/polifonia/resource/JAMSObservation/OldPensionerThe4460/0_9_9_11_0_9@0.0>,
+        <http://w3id.org/polifonia/resource/JAMSObservation/OldPensionerThe4460/11_0_7_0_2_0@0.0>,
+        <http://w3id.org/polifonia/resource/JAMSObservation/OldPensionerThe4460/11_0_9_4_4_0@0.0>,
+        <http://w3id.org/polifonia/resource/JAMSObservation/OldPensionerThe4460/2_0_2_0_2_0@0.0>,
+        <http://w3id.org/polifonia/resource/JAMSObservation/OldPensionerThe4460/2_0_2_0_7_0@0.0>,
+        <http://w3id.org/polifonia/resource/JAMSObservation/OldPensionerThe4460/2_0_7_0_2_0@0.0>,
+        <http://w3id.org/polifonia/resource/JAMSObservation/OldPensionerThe4460/4_0_9_9_11_0@0.0>,
+        <http://w3id.org/polifonia/resource/JAMSObservation/OldPensionerThe4460/4_4_0_9_9_11@0.0>,
+        <http://w3id.org/polifonia/resource/JAMSObservation/OldPensionerThe4460/7_0_2_0_2_0@0.0>,
+        <http://w3id.org/polifonia/resource/JAMSObservation/OldPensionerThe4460/9_11_0_7_0_2@0.0>,
+        <http://w3id.org/polifonia/resource/JAMSObservation/OldPensionerThe4460/9_11_0_9_4_4@0.0>,
+        <http://w3id.org/polifonia/resource/JAMSObservation/OldPensionerThe4460/9_4_4_0_9_9@0.0>,
+        <http://w3id.org/polifonia/resource/JAMSObservation/OldPensionerThe4460/9_9_11_0_7_0@0.0>,
+        <http://w3id.org/polifonia/resource/JAMSObservation/OldPensionerThe4460/9_9_11_0_9_4@0.0> ;
+    jams:isJAMSAnnotationOf <http://w3id.org/polifonia/resource/MusicalComposition/a8923610e827461049c75cc61c5c12d1aa8ad429> .
+
+<http://w3id.org/polifonia/resource/Score/song_local_id> jams:hasJAMSAnnotation <http://w3id.org/polifonia/resource/MusicalComposition/a8923610e827461049c75cc61c5c12d1aa8ad429> .
+
+<http://w3id.org/polifonia/resource/JAMSFile/OldPensionerThe4460.jams> a jams:JAMSFile ;
+    jams:identifiers [ ] ;
+    jams:jamsVersion "0.3.4" ;
+    jams:release "" ;
+    prov:wasDerivedFrom "The Session" ;
+    prov:wasMemberOf <https://github.com/ashahidkhattak/thesession> .
+
+<http://w3id.org/polifonia/resource/JAMSObservation/OldPensionerThe4460/0_2_0_2_0_2@0.0> a jams:JAMSObservation,
+        jams:JAMSScoreObservation,
+        jams:ScorePatternOccurrence ;
+    rdfs:label [ ] ;
+    jams:hasDuration "0.0"^^xsd:float ;
+    jams:hasFrequency "2"^^xsd:int ;
+    jams:hasPatternType "pitch-class-values" ;
+    jams:ofPattern <http://w3id.org/polifonia/resource/pattern/0_2_0_2_0_2> .
+
+<http://w3id.org/polifonia/resource/JAMSObservation/OldPensionerThe4460/0_2_0_2_0_7@0.0> a jams:JAMSObservation,
+        jams:JAMSScoreObservation,
+        jams:ScorePatternOccurrence ;
+    rdfs:label [ ] ;
+    jams:hasDuration "0.0"^^xsd:float ;
+    jams:hasFrequency "1"^^xsd:int ;
+    jams:hasPatternType "pitch-class-values" ;
+    jams:ofPattern <http://w3id.org/polifonia/resource/pattern/0_2_0_2_0_7> .
+
+<http://w3id.org/polifonia/resource/JAMSObservation/OldPensionerThe4460/0_2_0_7_0_2@0.0> a jams:JAMSObservation,
+        jams:JAMSScoreObservation,
+        jams:ScorePatternOccurrence ;
+    rdfs:label [ ] ;
+    jams:hasDuration "0.0"^^xsd:float ;
+    jams:hasFrequency "1"^^xsd:int ;
+    jams:hasPatternType "pitch-class-values" ;
+    jams:ofPattern <http://w3id.org/polifonia/resource/pattern/0_2_0_7_0_2> .
+
+<http://w3id.org/polifonia/resource/JAMSObservation/OldPensionerThe4460/0_7_0_2_0_2@0.0> a jams:JAMSObservation,
+        jams:JAMSScoreObservation,
+        jams:ScorePatternOccurrence ;
+    rdfs:label [ ] ;
+    jams:hasDuration "0.0"^^xsd:float ;
+    jams:hasFrequency "2"^^xsd:int ;
+    jams:hasPatternType "pitch-class-values" ;
+    jams:ofPattern <http://w3id.org/polifonia/resource/pattern/0_7_0_2_0_2> .
+
+<http://w3id.org/polifonia/resource/JAMSObservation/OldPensionerThe4460/0_9_4_4_0_9@0.0> a jams:JAMSObservation,
+        jams:JAMSScoreObservation,
+        jams:ScorePatternOccurrence ;
+    rdfs:label [ ] ;
+    jams:hasDuration "0.0"^^xsd:float ;
+    jams:hasFrequency "2"^^xsd:int ;
+    jams:hasPatternType "pitch-class-values" ;
+    jams:ofPattern <http://w3id.org/polifonia/resource/pattern/0_9_4_4_0_9> .
+
+<http://w3id.org/polifonia/resource/JAMSObservation/OldPensionerThe4460/0_9_9_11_0_7@0.0> a jams:JAMSObservation,
+        jams:JAMSScoreObservation,
+        jams:ScorePatternOccurrence ;
+    rdfs:label [ ] ;
+    jams:hasDuration "0.0"^^xsd:float ;
+    jams:hasFrequency "1"^^xsd:int ;
+    jams:hasPatternType "pitch-class-values" ;
+    jams:ofPattern <http://w3id.org/polifonia/resource/pattern/0_9_9_11_0_7> .
+
+<http://w3id.org/polifonia/resource/JAMSObservation/OldPensionerThe4460/0_9_9_11_0_9@0.0> a jams:JAMSObservation,
+        jams:JAMSScoreObservation,
+        jams:ScorePatternOccurrence ;
+    rdfs:label [ ] ;
+    jams:hasDuration "0.0"^^xsd:float ;
+    jams:hasFrequency "1"^^xsd:int ;
+    jams:hasPatternType "pitch-class-values" ;
+    jams:ofPattern <http://w3id.org/polifonia/resource/pattern/0_9_9_11_0_9> .
+
+<http://w3id.org/polifonia/resource/JAMSObservation/OldPensionerThe4460/11_0_7_0_2_0@0.0> a jams:JAMSObservation,
+        jams:JAMSScoreObservation,
+        jams:ScorePatternOccurrence ;
+    rdfs:label [ ] ;
+    jams:hasDuration "0.0"^^xsd:float ;
+    jams:hasFrequency "1"^^xsd:int ;
+    jams:hasPatternType "pitch-class-values" ;
+    jams:ofPattern <http://w3id.org/polifonia/resource/pattern/11_0_7_0_2_0> .
+
+<http://w3id.org/polifonia/resource/JAMSObservation/OldPensionerThe4460/11_0_9_4_4_0@0.0> a jams:JAMSObservation,
+        jams:JAMSScoreObservation,
+        jams:ScorePatternOccurrence ;
+    rdfs:label [ ] ;
+    jams:hasDuration "0.0"^^xsd:float ;
+    jams:hasFrequency "1"^^xsd:int ;
+    jams:hasPatternType "pitch-class-values" ;
+    jams:ofPattern <http://w3id.org/polifonia/resource/pattern/11_0_9_4_4_0> .
+
+<http://w3id.org/polifonia/resource/JAMSObservation/OldPensionerThe4460/2_0_2_0_2_0@0.0> a jams:JAMSObservation,
+        jams:JAMSScoreObservation,
+        jams:ScorePatternOccurrence ;
+    rdfs:label [ ] ;
+    jams:hasDuration "0.0"^^xsd:float ;
+    jams:hasFrequency "1"^^xsd:int ;
+    jams:hasPatternType "pitch-class-values" ;
+    jams:ofPattern <http://w3id.org/polifonia/resource/pattern/2_0_2_0_2_0> .
+
+<http://w3id.org/polifonia/resource/JAMSObservation/OldPensionerThe4460/2_0_2_0_7_0@0.0> a jams:JAMSObservation,
+        jams:JAMSScoreObservation,
+        jams:ScorePatternOccurrence ;
+    rdfs:label [ ] ;
+    jams:hasDuration "0.0"^^xsd:float ;
+    jams:hasFrequency "1"^^xsd:int ;
+    jams:hasPatternType "pitch-class-values" ;
+    jams:ofPattern <http://w3id.org/polifonia/resource/pattern/2_0_2_0_7_0> .
+
+<http://w3id.org/polifonia/resource/JAMSObservation/OldPensionerThe4460/2_0_7_0_2_0@0.0> a jams:JAMSObservation,
+        jams:JAMSScoreObservation,
+        jams:ScorePatternOccurrence ;
+    rdfs:label [ ] ;
+    jams:hasDuration "0.0"^^xsd:float ;
+    jams:hasFrequency "1"^^xsd:int ;
+    jams:hasPatternType "pitch-class-values" ;
+    jams:ofPattern <http://w3id.org/polifonia/resource/pattern/2_0_7_0_2_0> .
+
+<http://w3id.org/polifonia/resource/JAMSObservation/OldPensionerThe4460/4_0_9_9_11_0@0.0> a jams:JAMSObservation,
+        jams:JAMSScoreObservation,
+        jams:ScorePatternOccurrence ;
+    rdfs:label [ ] ;
+    jams:hasDuration "0.0"^^xsd:float ;
+    jams:hasFrequency "2"^^xsd:int ;
+    jams:hasPatternType "pitch-class-values" ;
+    jams:ofPattern <http://w3id.org/polifonia/resource/pattern/4_0_9_9_11_0> .
+
+<http://w3id.org/polifonia/resource/JAMSObservation/OldPensionerThe4460/4_4_0_9_9_11@0.0> a jams:JAMSObservation,
+        jams:JAMSScoreObservation,
+        jams:ScorePatternOccurrence ;
+    rdfs:label [ ] ;
+    jams:hasDuration "0.0"^^xsd:float ;
+    jams:hasFrequency "2"^^xsd:int ;
+    jams:hasPatternType "pitch-class-values" ;
+    jams:ofPattern <http://w3id.org/polifonia/resource/pattern/4_4_0_9_9_11> .
+
+<http://w3id.org/polifonia/resource/JAMSObservation/OldPensionerThe4460/7_0_2_0_2_0@0.0> a jams:JAMSObservation,
+        jams:JAMSScoreObservation,
+        jams:ScorePatternOccurrence ;
+    rdfs:label [ ] ;
+    jams:hasDuration "0.0"^^xsd:float ;
+    jams:hasFrequency "2"^^xsd:int ;
+    jams:hasPatternType "pitch-class-values" ;
+    jams:ofPattern <http://w3id.org/polifonia/resource/pattern/7_0_2_0_2_0> .
+
+<http://w3id.org/polifonia/resource/JAMSObservation/OldPensionerThe4460/9_11_0_7_0_2@0.0> a jams:JAMSObservation,
+        jams:JAMSScoreObservation,
+        jams:ScorePatternOccurrence ;
+    rdfs:label [ ] ;
+    jams:hasDuration "0.0"^^xsd:float ;
+    jams:hasFrequency "1"^^xsd:int ;
+    jams:hasPatternType "pitch-class-values" ;
+    jams:ofPattern <http://w3id.org/polifonia/resource/pattern/9_11_0_7_0_2> .
+
+<http://w3id.org/polifonia/resource/JAMSObservation/OldPensionerThe4460/9_11_0_9_4_4@0.0> a jams:JAMSObservation,
+        jams:JAMSScoreObservation,
+        jams:ScorePatternOccurrence ;
+    rdfs:label [ ] ;
+    jams:hasDuration "0.0"^^xsd:float ;
+    jams:hasFrequency "1"^^xsd:int ;
+    jams:hasPatternType "pitch-class-values" ;
+    jams:ofPattern <http://w3id.org/polifonia/resource/pattern/9_11_0_9_4_4> .
+
+<http://w3id.org/polifonia/resource/JAMSObservation/OldPensionerThe4460/9_4_4_0_9_9@0.0> a jams:JAMSObservation,
+        jams:JAMSScoreObservation,
+        jams:ScorePatternOccurrence ;
+    rdfs:label [ ] ;
+    jams:hasDuration "0.0"^^xsd:float ;
+    jams:hasFrequency "2"^^xsd:int ;
+    jams:hasPatternType "pitch-class-values" ;
+    jams:ofPattern <http://w3id.org/polifonia/resource/pattern/9_4_4_0_9_9> .
+
+<http://w3id.org/polifonia/resource/JAMSObservation/OldPensionerThe4460/9_9_11_0_7_0@0.0> a jams:JAMSObservation,
+        jams:JAMSScoreObservation,
+        jams:ScorePatternOccurrence ;
+    rdfs:label [ ] ;
+    jams:hasDuration "0.0"^^xsd:float ;
+    jams:hasFrequency "1"^^xsd:int ;
+    jams:hasPatternType "pitch-class-values" ;
+    jams:ofPattern <http://w3id.org/polifonia/resource/pattern/9_9_11_0_7_0> .
+
+<http://w3id.org/polifonia/resource/JAMSObservation/OldPensionerThe4460/9_9_11_0_9_4@0.0> a jams:JAMSObservation,
+        jams:JAMSScoreObservation,
+        jams:ScorePatternOccurrence ;
+    rdfs:label [ ] ;
+    jams:hasDuration "0.0"^^xsd:float ;
+    jams:hasFrequency "1"^^xsd:int ;
+    jams:hasPatternType "pitch-class-values" ;
+    jams:ofPattern <http://w3id.org/polifonia/resource/pattern/9_9_11_0_9_4> .
+
+<http://w3id.org/polifonia/resource/MusicalComposition/a8923610e827461049c75cc61c5c12d1aa8ad429> a mc:MusicalComposition ;
+    rdfs:label "OldPensionerThe4460" ;
+    mc:title "OldPensionerThe4460" ;
+    prov:wasDerivedFrom <http://w3id.org/polifonia/resource/JAMSFile/OldPensionerThe4460.jams> .
+

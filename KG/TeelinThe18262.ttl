@@ -1,0 +1,381 @@
+@prefix core: <http://w3id.org/polifonia/ontology/core/> .
+@prefix jams: <http://w3id.org/polifonia/ontology/jams/> .
+@prefix mc: <http://w3id.org/polifonia/ontology/musical-composition/> .
+@prefix pon-resource: <http://w3id.org/polifonia/resource/> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+pon-resource:Agent%2Fannotator_local_id a core:Agent ;
+    rdfs:label "FONN-Tool" ;
+    jams:hasAnnotatorType pon-resource:annotator-program ;
+    jams:hasName "FONN-Tool" .
+
+<http://w3id.org/polifonia/resource/JAMSAnnotation/6e46fcc4b6d1e52cb802e45231d7b3672e172b47> a jams:JAMSAnnotation,
+        jams:JAMSScoreAnnotation ;
+    jams:includesObservation <http://w3id.org/polifonia/resource/JAMSObservation/TeelinThe18262/0_4_0_4_2_7@0.0>,
+        <http://w3id.org/polifonia/resource/JAMSObservation/TeelinThe18262/0_4_0_7_11_11@0.0>,
+        <http://w3id.org/polifonia/resource/JAMSObservation/TeelinThe18262/0_4_2_7_6_9@0.0>,
+        <http://w3id.org/polifonia/resource/JAMSObservation/TeelinThe18262/0_4_2_9_9_2@0.0>,
+        <http://w3id.org/polifonia/resource/JAMSObservation/TeelinThe18262/0_4_4_0_7_11@0.0>,
+        <http://w3id.org/polifonia/resource/JAMSObservation/TeelinThe18262/0_7_11_11_2_0@0.0>,
+        <http://w3id.org/polifonia/resource/JAMSObservation/TeelinThe18262/0_7_11_2_9_4@0.0>,
+        <http://w3id.org/polifonia/resource/JAMSObservation/TeelinThe18262/11_11_2_0_4_4@0.0>,
+        <http://w3id.org/polifonia/resource/JAMSObservation/TeelinThe18262/11_2_0_4_4_0@0.0>,
+        <http://w3id.org/polifonia/resource/JAMSObservation/TeelinThe18262/11_2_9_4_0_4@0.0>,
+        <http://w3id.org/polifonia/resource/JAMSObservation/TeelinThe18262/2_0_4_0_4_2@0.0>,
+        <http://w3id.org/polifonia/resource/JAMSObservation/TeelinThe18262/2_0_4_4_0_7@0.0>,
+        <http://w3id.org/polifonia/resource/JAMSObservation/TeelinThe18262/2_7_6_9_4_4@0.0>,
+        <http://w3id.org/polifonia/resource/JAMSObservation/TeelinThe18262/2_9_4_0_4_0@0.0>,
+        <http://w3id.org/polifonia/resource/JAMSObservation/TeelinThe18262/2_9_9_2_0_4@0.0>,
+        <http://w3id.org/polifonia/resource/JAMSObservation/TeelinThe18262/4_0_4_0_7_11@0.0>,
+        <http://w3id.org/polifonia/resource/JAMSObservation/TeelinThe18262/4_0_4_2_7_6@0.0>,
+        <http://w3id.org/polifonia/resource/JAMSObservation/TeelinThe18262/4_0_4_2_9_9@0.0>,
+        <http://w3id.org/polifonia/resource/JAMSObservation/TeelinThe18262/4_0_7_11_11_2@0.0>,
+        <http://w3id.org/polifonia/resource/JAMSObservation/TeelinThe18262/4_0_7_11_2_9@0.0>,
+        <http://w3id.org/polifonia/resource/JAMSObservation/TeelinThe18262/4_2_7_6_9_4@0.0>,
+        <http://w3id.org/polifonia/resource/JAMSObservation/TeelinThe18262/4_2_9_9_2_0@0.0>,
+        <http://w3id.org/polifonia/resource/JAMSObservation/TeelinThe18262/4_4_0_4_2_9@0.0>,
+        <http://w3id.org/polifonia/resource/JAMSObservation/TeelinThe18262/4_4_0_7_11_2@0.0>,
+        <http://w3id.org/polifonia/resource/JAMSObservation/TeelinThe18262/6_9_4_4_0_4@0.0>,
+        <http://w3id.org/polifonia/resource/JAMSObservation/TeelinThe18262/7_11_11_2_0_4@0.0>,
+        <http://w3id.org/polifonia/resource/JAMSObservation/TeelinThe18262/7_11_2_9_4_0@0.0>,
+        <http://w3id.org/polifonia/resource/JAMSObservation/TeelinThe18262/7_4_0_4_2_7@0.0>,
+        <http://w3id.org/polifonia/resource/JAMSObservation/TeelinThe18262/7_6_9_4_4_0@0.0>,
+        <http://w3id.org/polifonia/resource/JAMSObservation/TeelinThe18262/9_2_0_4_0_4@0.0>,
+        <http://w3id.org/polifonia/resource/JAMSObservation/TeelinThe18262/9_2_0_4_4_0@0.0>,
+        <http://w3id.org/polifonia/resource/JAMSObservation/TeelinThe18262/9_4_0_4_0_7@0.0>,
+        <http://w3id.org/polifonia/resource/JAMSObservation/TeelinThe18262/9_4_4_0_4_2@0.0>,
+        <http://w3id.org/polifonia/resource/JAMSObservation/TeelinThe18262/9_9_2_0_4_0@0.0>,
+        <http://w3id.org/polifonia/resource/JAMSObservation/TeelinThe18262/9_9_2_0_4_4@0.0> ;
+    jams:isJAMSAnnotationOf <http://w3id.org/polifonia/resource/MusicalComposition/6e46fcc4b6d1e52cb802e45231d7b3672e172b47> .
+
+<http://w3id.org/polifonia/resource/Score/song_local_id> jams:hasJAMSAnnotation <http://w3id.org/polifonia/resource/MusicalComposition/6e46fcc4b6d1e52cb802e45231d7b3672e172b47> .
+
+<http://w3id.org/polifonia/resource/JAMSFile/TeelinThe18262.jams> a jams:JAMSFile ;
+    jams:identifiers [ ] ;
+    jams:jamsVersion "0.3.4" ;
+    jams:release "" ;
+    prov:wasDerivedFrom "The Session" ;
+    prov:wasMemberOf <https://github.com/ashahidkhattak/thesession> .
+
+<http://w3id.org/polifonia/resource/JAMSObservation/TeelinThe18262/0_4_0_4_2_7@0.0> a jams:JAMSObservation,
+        jams:JAMSScoreObservation,
+        jams:ScorePatternOccurrence ;
+    rdfs:label [ ] ;
+    jams:hasDuration "0.0"^^xsd:float ;
+    jams:hasFrequency "1"^^xsd:int ;
+    jams:hasPatternType "pitch-class-values" ;
+    jams:ofPattern <http://w3id.org/polifonia/resource/pattern/0_4_0_4_2_7> .
+
+<http://w3id.org/polifonia/resource/JAMSObservation/TeelinThe18262/0_4_0_7_11_11@0.0> a jams:JAMSObservation,
+        jams:JAMSScoreObservation,
+        jams:ScorePatternOccurrence ;
+    rdfs:label [ ] ;
+    jams:hasDuration "0.0"^^xsd:float ;
+    jams:hasFrequency "2"^^xsd:int ;
+    jams:hasPatternType "pitch-class-values" ;
+    jams:ofPattern <http://w3id.org/polifonia/resource/pattern/0_4_0_7_11_11> .
+
+<http://w3id.org/polifonia/resource/JAMSObservation/TeelinThe18262/0_4_2_7_6_9@0.0> a jams:JAMSObservation,
+        jams:JAMSScoreObservation,
+        jams:ScorePatternOccurrence ;
+    rdfs:label [ ] ;
+    jams:hasDuration "0.0"^^xsd:float ;
+    jams:hasFrequency "2"^^xsd:int ;
+    jams:hasPatternType "pitch-class-values" ;
+    jams:ofPattern <http://w3id.org/polifonia/resource/pattern/0_4_2_7_6_9> .
+
+<http://w3id.org/polifonia/resource/JAMSObservation/TeelinThe18262/0_4_2_9_9_2@0.0> a jams:JAMSObservation,
+        jams:JAMSScoreObservation,
+        jams:ScorePatternOccurrence ;
+    rdfs:label [ ] ;
+    jams:hasDuration "0.0"^^xsd:float ;
+    jams:hasFrequency "2"^^xsd:int ;
+    jams:hasPatternType "pitch-class-values" ;
+    jams:ofPattern <http://w3id.org/polifonia/resource/pattern/0_4_2_9_9_2> .
+
+<http://w3id.org/polifonia/resource/JAMSObservation/TeelinThe18262/0_4_4_0_7_11@0.0> a jams:JAMSObservation,
+        jams:JAMSScoreObservation,
+        jams:ScorePatternOccurrence ;
+    rdfs:label [ ] ;
+    jams:hasDuration "0.0"^^xsd:float ;
+    jams:hasFrequency "2"^^xsd:int ;
+    jams:hasPatternType "pitch-class-values" ;
+    jams:ofPattern <http://w3id.org/polifonia/resource/pattern/0_4_4_0_7_11> .
+
+<http://w3id.org/polifonia/resource/JAMSObservation/TeelinThe18262/0_7_11_11_2_0@0.0> a jams:JAMSObservation,
+        jams:JAMSScoreObservation,
+        jams:ScorePatternOccurrence ;
+    rdfs:label [ ] ;
+    jams:hasDuration "0.0"^^xsd:float ;
+    jams:hasFrequency "2"^^xsd:int ;
+    jams:hasPatternType "pitch-class-values" ;
+    jams:ofPattern <http://w3id.org/polifonia/resource/pattern/0_7_11_11_2_0> .
+
+<http://w3id.org/polifonia/resource/JAMSObservation/TeelinThe18262/0_7_11_2_9_4@0.0> a jams:JAMSObservation,
+        jams:JAMSScoreObservation,
+        jams:ScorePatternOccurrence ;
+    rdfs:label [ ] ;
+    jams:hasDuration "0.0"^^xsd:float ;
+    jams:hasFrequency "2"^^xsd:int ;
+    jams:hasPatternType "pitch-class-values" ;
+    jams:ofPattern <http://w3id.org/polifonia/resource/pattern/0_7_11_2_9_4> .
+
+<http://w3id.org/polifonia/resource/JAMSObservation/TeelinThe18262/11_11_2_0_4_4@0.0> a jams:JAMSObservation,
+        jams:JAMSScoreObservation,
+        jams:ScorePatternOccurrence ;
+    rdfs:label [ ] ;
+    jams:hasDuration "0.0"^^xsd:float ;
+    jams:hasFrequency "1"^^xsd:int ;
+    jams:hasPatternType "pitch-class-values" ;
+    jams:ofPattern <http://w3id.org/polifonia/resource/pattern/11_11_2_0_4_4> .
+
+<http://w3id.org/polifonia/resource/JAMSObservation/TeelinThe18262/11_2_0_4_4_0@0.0> a jams:JAMSObservation,
+        jams:JAMSScoreObservation,
+        jams:ScorePatternOccurrence ;
+    rdfs:label [ ] ;
+    jams:hasDuration "0.0"^^xsd:float ;
+    jams:hasFrequency "1"^^xsd:int ;
+    jams:hasPatternType "pitch-class-values" ;
+    jams:ofPattern <http://w3id.org/polifonia/resource/pattern/11_2_0_4_4_0> .
+
+<http://w3id.org/polifonia/resource/JAMSObservation/TeelinThe18262/11_2_9_4_0_4@0.0> a jams:JAMSObservation,
+        jams:JAMSScoreObservation,
+        jams:ScorePatternOccurrence ;
+    rdfs:label [ ] ;
+    jams:hasDuration "0.0"^^xsd:float ;
+    jams:hasFrequency "2"^^xsd:int ;
+    jams:hasPatternType "pitch-class-values" ;
+    jams:ofPattern <http://w3id.org/polifonia/resource/pattern/11_2_9_4_0_4> .
+
+<http://w3id.org/polifonia/resource/JAMSObservation/TeelinThe18262/2_0_4_0_4_2@0.0> a jams:JAMSObservation,
+        jams:JAMSScoreObservation,
+        jams:ScorePatternOccurrence ;
+    rdfs:label [ ] ;
+    jams:hasDuration "0.0"^^xsd:float ;
+    jams:hasFrequency "1"^^xsd:int ;
+    jams:hasPatternType "pitch-class-values" ;
+    jams:ofPattern <http://w3id.org/polifonia/resource/pattern/2_0_4_0_4_2> .
+
+<http://w3id.org/polifonia/resource/JAMSObservation/TeelinThe18262/2_0_4_4_0_7@0.0> a jams:JAMSObservation,
+        jams:JAMSScoreObservation,
+        jams:ScorePatternOccurrence ;
+    rdfs:label [ ] ;
+    jams:hasDuration "0.0"^^xsd:float ;
+    jams:hasFrequency "2"^^xsd:int ;
+    jams:hasPatternType "pitch-class-values" ;
+    jams:ofPattern <http://w3id.org/polifonia/resource/pattern/2_0_4_4_0_7> .
+
+<http://w3id.org/polifonia/resource/JAMSObservation/TeelinThe18262/2_7_6_9_4_4@0.0> a jams:JAMSObservation,
+        jams:JAMSScoreObservation,
+        jams:ScorePatternOccurrence ;
+    rdfs:label [ ] ;
+    jams:hasDuration "0.0"^^xsd:float ;
+    jams:hasFrequency "2"^^xsd:int ;
+    jams:hasPatternType "pitch-class-values" ;
+    jams:ofPattern <http://w3id.org/polifonia/resource/pattern/2_7_6_9_4_4> .
+
+<http://w3id.org/polifonia/resource/JAMSObservation/TeelinThe18262/2_9_4_0_4_0@0.0> a jams:JAMSObservation,
+        jams:JAMSScoreObservation,
+        jams:ScorePatternOccurrence ;
+    rdfs:label [ ] ;
+    jams:hasDuration "0.0"^^xsd:float ;
+    jams:hasFrequency "2"^^xsd:int ;
+    jams:hasPatternType "pitch-class-values" ;
+    jams:ofPattern <http://w3id.org/polifonia/resource/pattern/2_9_4_0_4_0> .
+
+<http://w3id.org/polifonia/resource/JAMSObservation/TeelinThe18262/2_9_9_2_0_4@0.0> a jams:JAMSObservation,
+        jams:JAMSScoreObservation,
+        jams:ScorePatternOccurrence ;
+    rdfs:label [ ] ;
+    jams:hasDuration "0.0"^^xsd:float ;
+    jams:hasFrequency "2"^^xsd:int ;
+    jams:hasPatternType "pitch-class-values" ;
+    jams:ofPattern <http://w3id.org/polifonia/resource/pattern/2_9_9_2_0_4> .
+
+<http://w3id.org/polifonia/resource/JAMSObservation/TeelinThe18262/4_0_4_0_7_11@0.0> a jams:JAMSObservation,
+        jams:JAMSScoreObservation,
+        jams:ScorePatternOccurrence ;
+    rdfs:label [ ] ;
+    jams:hasDuration "0.0"^^xsd:float ;
+    jams:hasFrequency "2"^^xsd:int ;
+    jams:hasPatternType "pitch-class-values" ;
+    jams:ofPattern <http://w3id.org/polifonia/resource/pattern/4_0_4_0_7_11> .
+
+<http://w3id.org/polifonia/resource/JAMSObservation/TeelinThe18262/4_0_4_2_7_6@0.0> a jams:JAMSObservation,
+        jams:JAMSScoreObservation,
+        jams:ScorePatternOccurrence ;
+    rdfs:label [ ] ;
+    jams:hasDuration "0.0"^^xsd:float ;
+    jams:hasFrequency "2"^^xsd:int ;
+    jams:hasPatternType "pitch-class-values" ;
+    jams:ofPattern <http://w3id.org/polifonia/resource/pattern/4_0_4_2_7_6> .
+
+<http://w3id.org/polifonia/resource/JAMSObservation/TeelinThe18262/4_0_4_2_9_9@0.0> a jams:JAMSObservation,
+        jams:JAMSScoreObservation,
+        jams:ScorePatternOccurrence ;
+    rdfs:label [ ] ;
+    jams:hasDuration "0.0"^^xsd:float ;
+    jams:hasFrequency "2"^^xsd:int ;
+    jams:hasPatternType "pitch-class-values" ;
+    jams:ofPattern <http://w3id.org/polifonia/resource/pattern/4_0_4_2_9_9> .
+
+<http://w3id.org/polifonia/resource/JAMSObservation/TeelinThe18262/4_0_7_11_11_2@0.0> a jams:JAMSObservation,
+        jams:JAMSScoreObservation,
+        jams:ScorePatternOccurrence ;
+    rdfs:label [ ] ;
+    jams:hasDuration "0.0"^^xsd:float ;
+    jams:hasFrequency "2"^^xsd:int ;
+    jams:hasPatternType "pitch-class-values" ;
+    jams:ofPattern <http://w3id.org/polifonia/resource/pattern/4_0_7_11_11_2> .
+
+<http://w3id.org/polifonia/resource/JAMSObservation/TeelinThe18262/4_0_7_11_2_9@0.0> a jams:JAMSObservation,
+        jams:JAMSScoreObservation,
+        jams:ScorePatternOccurrence ;
+    rdfs:label [ ] ;
+    jams:hasDuration "0.0"^^xsd:float ;
+    jams:hasFrequency "2"^^xsd:int ;
+    jams:hasPatternType "pitch-class-values" ;
+    jams:ofPattern <http://w3id.org/polifonia/resource/pattern/4_0_7_11_2_9> .
+
+<http://w3id.org/polifonia/resource/JAMSObservation/TeelinThe18262/4_2_7_6_9_4@0.0> a jams:JAMSObservation,
+        jams:JAMSScoreObservation,
+        jams:ScorePatternOccurrence ;
+    rdfs:label [ ] ;
+    jams:hasDuration "0.0"^^xsd:float ;
+    jams:hasFrequency "2"^^xsd:int ;
+    jams:hasPatternType "pitch-class-values" ;
+    jams:ofPattern <http://w3id.org/polifonia/resource/pattern/4_2_7_6_9_4> .
+
+<http://w3id.org/polifonia/resource/JAMSObservation/TeelinThe18262/4_2_9_9_2_0@0.0> a jams:JAMSObservation,
+        jams:JAMSScoreObservation,
+        jams:ScorePatternOccurrence ;
+    rdfs:label [ ] ;
+    jams:hasDuration "0.0"^^xsd:float ;
+    jams:hasFrequency "2"^^xsd:int ;
+    jams:hasPatternType "pitch-class-values" ;
+    jams:ofPattern <http://w3id.org/polifonia/resource/pattern/4_2_9_9_2_0> .
+
+<http://w3id.org/polifonia/resource/JAMSObservation/TeelinThe18262/4_4_0_4_2_9@0.0> a jams:JAMSObservation,
+        jams:JAMSScoreObservation,
+        jams:ScorePatternOccurrence ;
+    rdfs:label [ ] ;
+    jams:hasDuration "0.0"^^xsd:float ;
+    jams:hasFrequency "2"^^xsd:int ;
+    jams:hasPatternType "pitch-class-values" ;
+    jams:ofPattern <http://w3id.org/polifonia/resource/pattern/4_4_0_4_2_9> .
+
+<http://w3id.org/polifonia/resource/JAMSObservation/TeelinThe18262/4_4_0_7_11_2@0.0> a jams:JAMSObservation,
+        jams:JAMSScoreObservation,
+        jams:ScorePatternOccurrence ;
+    rdfs:label [ ] ;
+    jams:hasDuration "0.0"^^xsd:float ;
+    jams:hasFrequency "2"^^xsd:int ;
+    jams:hasPatternType "pitch-class-values" ;
+    jams:ofPattern <http://w3id.org/polifonia/resource/pattern/4_4_0_7_11_2> .
+
+<http://w3id.org/polifonia/resource/JAMSObservation/TeelinThe18262/6_9_4_4_0_4@0.0> a jams:JAMSObservation,
+        jams:JAMSScoreObservation,
+        jams:ScorePatternOccurrence ;
+    rdfs:label [ ] ;
+    jams:hasDuration "0.0"^^xsd:float ;
+    jams:hasFrequency "2"^^xsd:int ;
+    jams:hasPatternType "pitch-class-values" ;
+    jams:ofPattern <http://w3id.org/polifonia/resource/pattern/6_9_4_4_0_4> .
+
+<http://w3id.org/polifonia/resource/JAMSObservation/TeelinThe18262/7_11_11_2_0_4@0.0> a jams:JAMSObservation,
+        jams:JAMSScoreObservation,
+        jams:ScorePatternOccurrence ;
+    rdfs:label [ ] ;
+    jams:hasDuration "0.0"^^xsd:float ;
+    jams:hasFrequency "1"^^xsd:int ;
+    jams:hasPatternType "pitch-class-values" ;
+    jams:ofPattern <http://w3id.org/polifonia/resource/pattern/7_11_11_2_0_4> .
+
+<http://w3id.org/polifonia/resource/JAMSObservation/TeelinThe18262/7_11_2_9_4_0@0.0> a jams:JAMSObservation,
+        jams:JAMSScoreObservation,
+        jams:ScorePatternOccurrence ;
+    rdfs:label [ ] ;
+    jams:hasDuration "0.0"^^xsd:float ;
+    jams:hasFrequency "2"^^xsd:int ;
+    jams:hasPatternType "pitch-class-values" ;
+    jams:ofPattern <http://w3id.org/polifonia/resource/pattern/7_11_2_9_4_0> .
+
+<http://w3id.org/polifonia/resource/JAMSObservation/TeelinThe18262/7_4_0_4_2_7@0.0> a jams:JAMSObservation,
+        jams:JAMSScoreObservation,
+        jams:ScorePatternOccurrence ;
+    rdfs:label [ ] ;
+    jams:hasDuration "0.0"^^xsd:float ;
+    jams:hasFrequency "1"^^xsd:int ;
+    jams:hasPatternType "pitch-class-values" ;
+    jams:ofPattern <http://w3id.org/polifonia/resource/pattern/7_4_0_4_2_7> .
+
+<http://w3id.org/polifonia/resource/JAMSObservation/TeelinThe18262/7_6_9_4_4_0@0.0> a jams:JAMSObservation,
+        jams:JAMSScoreObservation,
+        jams:ScorePatternOccurrence ;
+    rdfs:label [ ] ;
+    jams:hasDuration "0.0"^^xsd:float ;
+    jams:hasFrequency "2"^^xsd:int ;
+    jams:hasPatternType "pitch-class-values" ;
+    jams:ofPattern <http://w3id.org/polifonia/resource/pattern/7_6_9_4_4_0> .
+
+<http://w3id.org/polifonia/resource/JAMSObservation/TeelinThe18262/9_2_0_4_0_4@0.0> a jams:JAMSObservation,
+        jams:JAMSScoreObservation,
+        jams:ScorePatternOccurrence ;
+    rdfs:label [ ] ;
+    jams:hasDuration "0.0"^^xsd:float ;
+    jams:hasFrequency "1"^^xsd:int ;
+    jams:hasPatternType "pitch-class-values" ;
+    jams:ofPattern <http://w3id.org/polifonia/resource/pattern/9_2_0_4_0_4> .
+
+<http://w3id.org/polifonia/resource/JAMSObservation/TeelinThe18262/9_2_0_4_4_0@0.0> a jams:JAMSObservation,
+        jams:JAMSScoreObservation,
+        jams:ScorePatternOccurrence ;
+    rdfs:label [ ] ;
+    jams:hasDuration "0.0"^^xsd:float ;
+    jams:hasFrequency "1"^^xsd:int ;
+    jams:hasPatternType "pitch-class-values" ;
+    jams:ofPattern <http://w3id.org/polifonia/resource/pattern/9_2_0_4_4_0> .
+
+<http://w3id.org/polifonia/resource/JAMSObservation/TeelinThe18262/9_4_0_4_0_7@0.0> a jams:JAMSObservation,
+        jams:JAMSScoreObservation,
+        jams:ScorePatternOccurrence ;
+    rdfs:label [ ] ;
+    jams:hasDuration "0.0"^^xsd:float ;
+    jams:hasFrequency "2"^^xsd:int ;
+    jams:hasPatternType "pitch-class-values" ;
+    jams:ofPattern <http://w3id.org/polifonia/resource/pattern/9_4_0_4_0_7> .
+
+<http://w3id.org/polifonia/resource/JAMSObservation/TeelinThe18262/9_4_4_0_4_2@0.0> a jams:JAMSObservation,
+        jams:JAMSScoreObservation,
+        jams:ScorePatternOccurrence ;
+    rdfs:label [ ] ;
+    jams:hasDuration "0.0"^^xsd:float ;
+    jams:hasFrequency "2"^^xsd:int ;
+    jams:hasPatternType "pitch-class-values" ;
+    jams:ofPattern <http://w3id.org/polifonia/resource/pattern/9_4_4_0_4_2> .
+
+<http://w3id.org/polifonia/resource/JAMSObservation/TeelinThe18262/9_9_2_0_4_0@0.0> a jams:JAMSObservation,
+        jams:JAMSScoreObservation,
+        jams:ScorePatternOccurrence ;
+    rdfs:label [ ] ;
+    jams:hasDuration "0.0"^^xsd:float ;
+    jams:hasFrequency "1"^^xsd:int ;
+    jams:hasPatternType "pitch-class-values" ;
+    jams:ofPattern <http://w3id.org/polifonia/resource/pattern/9_9_2_0_4_0> .
+
+<http://w3id.org/polifonia/resource/JAMSObservation/TeelinThe18262/9_9_2_0_4_4@0.0> a jams:JAMSObservation,
+        jams:JAMSScoreObservation,
+        jams:ScorePatternOccurrence ;
+    rdfs:label [ ] ;
+    jams:hasDuration "0.0"^^xsd:float ;
+    jams:hasFrequency "1"^^xsd:int ;
+    jams:hasPatternType "pitch-class-values" ;
+    jams:ofPattern <http://w3id.org/polifonia/resource/pattern/9_9_2_0_4_4> .
+
+<http://w3id.org/polifonia/resource/MusicalComposition/6e46fcc4b6d1e52cb802e45231d7b3672e172b47> a mc:MusicalComposition ;
+    rdfs:label "TeelinThe18262" ;
+    mc:title "TeelinThe18262" ;
+    prov:wasDerivedFrom <http://w3id.org/polifonia/resource/JAMSFile/TeelinThe18262.jams> .
+

@@ -1,0 +1,251 @@
+@prefix core: <http://w3id.org/polifonia/ontology/core/> .
+@prefix jams: <http://w3id.org/polifonia/ontology/jams/> .
+@prefix mc: <http://w3id.org/polifonia/ontology/musical-composition/> .
+@prefix pon-resource: <http://w3id.org/polifonia/resource/> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+pon-resource:Agent%2Fannotator_local_id a core:Agent ;
+    rdfs:label "FONN-Tool" ;
+    jams:hasAnnotatorType pon-resource:annotator-program ;
+    jams:hasName "FONN-Tool" .
+
+<http://w3id.org/polifonia/resource/JAMSAnnotation/a77db18018b4da423967a58e8b5b21fb8a86497e> a jams:JAMSAnnotation,
+        jams:JAMSScoreAnnotation ;
+    jams:includesObservation <http://w3id.org/polifonia/resource/JAMSObservation/MarchOfTheKingOfLycheesThe39864/0_0_7_1_7_6@0.0>,
+        <http://w3id.org/polifonia/resource/JAMSObservation/MarchOfTheKingOfLycheesThe39864/0_0_8_10_7_5@0.0>,
+        <http://w3id.org/polifonia/resource/JAMSObservation/MarchOfTheKingOfLycheesThe39864/0_2_3_0_0_7@0.0>,
+        <http://w3id.org/polifonia/resource/JAMSObservation/MarchOfTheKingOfLycheesThe39864/0_2_3_0_0_8@0.0>,
+        <http://w3id.org/polifonia/resource/JAMSObservation/MarchOfTheKingOfLycheesThe39864/0_7_1_7_6_7@0.0>,
+        <http://w3id.org/polifonia/resource/JAMSObservation/MarchOfTheKingOfLycheesThe39864/0_8_10_7_5_7@0.0>,
+        <http://w3id.org/polifonia/resource/JAMSObservation/MarchOfTheKingOfLycheesThe39864/10_7_5_7_2_7@0.0>,
+        <http://w3id.org/polifonia/resource/JAMSObservation/MarchOfTheKingOfLycheesThe39864/1_7_6_7_2_7@0.0>,
+        <http://w3id.org/polifonia/resource/JAMSObservation/MarchOfTheKingOfLycheesThe39864/2_3_0_0_7_1@0.0>,
+        <http://w3id.org/polifonia/resource/JAMSObservation/MarchOfTheKingOfLycheesThe39864/2_3_0_0_8_10@0.0>,
+        <http://w3id.org/polifonia/resource/JAMSObservation/MarchOfTheKingOfLycheesThe39864/2_7_0_2_3_0@0.0>,
+        <http://w3id.org/polifonia/resource/JAMSObservation/MarchOfTheKingOfLycheesThe39864/3_0_0_7_1_7@0.0>,
+        <http://w3id.org/polifonia/resource/JAMSObservation/MarchOfTheKingOfLycheesThe39864/3_0_0_8_10_7@0.0>,
+        <http://w3id.org/polifonia/resource/JAMSObservation/MarchOfTheKingOfLycheesThe39864/5_7_2_7_0_2@0.0>,
+        <http://w3id.org/polifonia/resource/JAMSObservation/MarchOfTheKingOfLycheesThe39864/6_7_2_7_0_2@0.0>,
+        <http://w3id.org/polifonia/resource/JAMSObservation/MarchOfTheKingOfLycheesThe39864/7_0_2_3_0_0@0.0>,
+        <http://w3id.org/polifonia/resource/JAMSObservation/MarchOfTheKingOfLycheesThe39864/7_0_7_1_7_6@0.0>,
+        <http://w3id.org/polifonia/resource/JAMSObservation/MarchOfTheKingOfLycheesThe39864/7_1_7_6_7_2@0.0>,
+        <http://w3id.org/polifonia/resource/JAMSObservation/MarchOfTheKingOfLycheesThe39864/7_2_7_0_2_3@0.0>,
+        <http://w3id.org/polifonia/resource/JAMSObservation/MarchOfTheKingOfLycheesThe39864/7_5_7_2_7_0@0.0>,
+        <http://w3id.org/polifonia/resource/JAMSObservation/MarchOfTheKingOfLycheesThe39864/7_6_7_2_7_0@0.0>,
+        <http://w3id.org/polifonia/resource/JAMSObservation/MarchOfTheKingOfLycheesThe39864/8_10_7_5_7_2@0.0> ;
+    jams:isJAMSAnnotationOf <http://w3id.org/polifonia/resource/MusicalComposition/a77db18018b4da423967a58e8b5b21fb8a86497e> .
+
+<http://w3id.org/polifonia/resource/Score/song_local_id> jams:hasJAMSAnnotation <http://w3id.org/polifonia/resource/MusicalComposition/a77db18018b4da423967a58e8b5b21fb8a86497e> .
+
+<http://w3id.org/polifonia/resource/JAMSFile/MarchOfTheKingOfLycheesThe39864.jams> a jams:JAMSFile ;
+    jams:identifiers [ ] ;
+    jams:jamsVersion "0.3.4" ;
+    jams:release "" ;
+    prov:wasDerivedFrom "The Session" ;
+    prov:wasMemberOf <https://github.com/ashahidkhattak/thesession> .
+
+<http://w3id.org/polifonia/resource/JAMSObservation/MarchOfTheKingOfLycheesThe39864/0_0_7_1_7_6@0.0> a jams:JAMSObservation,
+        jams:JAMSScoreObservation,
+        jams:ScorePatternOccurrence ;
+    rdfs:label [ ] ;
+    jams:hasDuration "0.0"^^xsd:float ;
+    jams:hasFrequency "1"^^xsd:int ;
+    jams:hasPatternType "pitch-class-values" ;
+    jams:ofPattern <http://w3id.org/polifonia/resource/pattern/0_0_7_1_7_6> .
+
+<http://w3id.org/polifonia/resource/JAMSObservation/MarchOfTheKingOfLycheesThe39864/0_0_8_10_7_5@0.0> a jams:JAMSObservation,
+        jams:JAMSScoreObservation,
+        jams:ScorePatternOccurrence ;
+    rdfs:label [ ] ;
+    jams:hasDuration "0.0"^^xsd:float ;
+    jams:hasFrequency "2"^^xsd:int ;
+    jams:hasPatternType "pitch-class-values" ;
+    jams:ofPattern <http://w3id.org/polifonia/resource/pattern/0_0_8_10_7_5> .
+
+<http://w3id.org/polifonia/resource/JAMSObservation/MarchOfTheKingOfLycheesThe39864/0_2_3_0_0_7@0.0> a jams:JAMSObservation,
+        jams:JAMSScoreObservation,
+        jams:ScorePatternOccurrence ;
+    rdfs:label [ ] ;
+    jams:hasDuration "0.0"^^xsd:float ;
+    jams:hasFrequency "1"^^xsd:int ;
+    jams:hasPatternType "pitch-class-values" ;
+    jams:ofPattern <http://w3id.org/polifonia/resource/pattern/0_2_3_0_0_7> .
+
+<http://w3id.org/polifonia/resource/JAMSObservation/MarchOfTheKingOfLycheesThe39864/0_2_3_0_0_8@0.0> a jams:JAMSObservation,
+        jams:JAMSScoreObservation,
+        jams:ScorePatternOccurrence ;
+    rdfs:label [ ] ;
+    jams:hasDuration "0.0"^^xsd:float ;
+    jams:hasFrequency "2"^^xsd:int ;
+    jams:hasPatternType "pitch-class-values" ;
+    jams:ofPattern <http://w3id.org/polifonia/resource/pattern/0_2_3_0_0_8> .
+
+<http://w3id.org/polifonia/resource/JAMSObservation/MarchOfTheKingOfLycheesThe39864/0_7_1_7_6_7@0.0> a jams:JAMSObservation,
+        jams:JAMSScoreObservation,
+        jams:ScorePatternOccurrence ;
+    rdfs:label [ ] ;
+    jams:hasDuration "0.0"^^xsd:float ;
+    jams:hasFrequency "2"^^xsd:int ;
+    jams:hasPatternType "pitch-class-values" ;
+    jams:ofPattern <http://w3id.org/polifonia/resource/pattern/0_7_1_7_6_7> .
+
+<http://w3id.org/polifonia/resource/JAMSObservation/MarchOfTheKingOfLycheesThe39864/0_8_10_7_5_7@0.0> a jams:JAMSObservation,
+        jams:JAMSScoreObservation,
+        jams:ScorePatternOccurrence ;
+    rdfs:label [ ] ;
+    jams:hasDuration "0.0"^^xsd:float ;
+    jams:hasFrequency "2"^^xsd:int ;
+    jams:hasPatternType "pitch-class-values" ;
+    jams:ofPattern <http://w3id.org/polifonia/resource/pattern/0_8_10_7_5_7> .
+
+<http://w3id.org/polifonia/resource/JAMSObservation/MarchOfTheKingOfLycheesThe39864/10_7_5_7_2_7@0.0> a jams:JAMSObservation,
+        jams:JAMSScoreObservation,
+        jams:ScorePatternOccurrence ;
+    rdfs:label [ ] ;
+    jams:hasDuration "0.0"^^xsd:float ;
+    jams:hasFrequency "2"^^xsd:int ;
+    jams:hasPatternType "pitch-class-values" ;
+    jams:ofPattern <http://w3id.org/polifonia/resource/pattern/10_7_5_7_2_7> .
+
+<http://w3id.org/polifonia/resource/JAMSObservation/MarchOfTheKingOfLycheesThe39864/1_7_6_7_2_7@0.0> a jams:JAMSObservation,
+        jams:JAMSScoreObservation,
+        jams:ScorePatternOccurrence ;
+    rdfs:label [ ] ;
+    jams:hasDuration "0.0"^^xsd:float ;
+    jams:hasFrequency "2"^^xsd:int ;
+    jams:hasPatternType "pitch-class-values" ;
+    jams:ofPattern <http://w3id.org/polifonia/resource/pattern/1_7_6_7_2_7> .
+
+<http://w3id.org/polifonia/resource/JAMSObservation/MarchOfTheKingOfLycheesThe39864/2_3_0_0_7_1@0.0> a jams:JAMSObservation,
+        jams:JAMSScoreObservation,
+        jams:ScorePatternOccurrence ;
+    rdfs:label [ ] ;
+    jams:hasDuration "0.0"^^xsd:float ;
+    jams:hasFrequency "1"^^xsd:int ;
+    jams:hasPatternType "pitch-class-values" ;
+    jams:ofPattern <http://w3id.org/polifonia/resource/pattern/2_3_0_0_7_1> .
+
+<http://w3id.org/polifonia/resource/JAMSObservation/MarchOfTheKingOfLycheesThe39864/2_3_0_0_8_10@0.0> a jams:JAMSObservation,
+        jams:JAMSScoreObservation,
+        jams:ScorePatternOccurrence ;
+    rdfs:label [ ] ;
+    jams:hasDuration "0.0"^^xsd:float ;
+    jams:hasFrequency "2"^^xsd:int ;
+    jams:hasPatternType "pitch-class-values" ;
+    jams:ofPattern <http://w3id.org/polifonia/resource/pattern/2_3_0_0_8_10> .
+
+<http://w3id.org/polifonia/resource/JAMSObservation/MarchOfTheKingOfLycheesThe39864/2_7_0_2_3_0@0.0> a jams:JAMSObservation,
+        jams:JAMSScoreObservation,
+        jams:ScorePatternOccurrence ;
+    rdfs:label [ ] ;
+    jams:hasDuration "0.0"^^xsd:float ;
+    jams:hasFrequency "4"^^xsd:int ;
+    jams:hasPatternType "pitch-class-values" ;
+    jams:ofPattern <http://w3id.org/polifonia/resource/pattern/2_7_0_2_3_0> .
+
+<http://w3id.org/polifonia/resource/JAMSObservation/MarchOfTheKingOfLycheesThe39864/3_0_0_7_1_7@0.0> a jams:JAMSObservation,
+        jams:JAMSScoreObservation,
+        jams:ScorePatternOccurrence ;
+    rdfs:label [ ] ;
+    jams:hasDuration "0.0"^^xsd:float ;
+    jams:hasFrequency "1"^^xsd:int ;
+    jams:hasPatternType "pitch-class-values" ;
+    jams:ofPattern <http://w3id.org/polifonia/resource/pattern/3_0_0_7_1_7> .
+
+<http://w3id.org/polifonia/resource/JAMSObservation/MarchOfTheKingOfLycheesThe39864/3_0_0_8_10_7@0.0> a jams:JAMSObservation,
+        jams:JAMSScoreObservation,
+        jams:ScorePatternOccurrence ;
+    rdfs:label [ ] ;
+    jams:hasDuration "0.0"^^xsd:float ;
+    jams:hasFrequency "2"^^xsd:int ;
+    jams:hasPatternType "pitch-class-values" ;
+    jams:ofPattern <http://w3id.org/polifonia/resource/pattern/3_0_0_8_10_7> .
+
+<http://w3id.org/polifonia/resource/JAMSObservation/MarchOfTheKingOfLycheesThe39864/5_7_2_7_0_2@0.0> a jams:JAMSObservation,
+        jams:JAMSScoreObservation,
+        jams:ScorePatternOccurrence ;
+    rdfs:label [ ] ;
+    jams:hasDuration "0.0"^^xsd:float ;
+    jams:hasFrequency "2"^^xsd:int ;
+    jams:hasPatternType "pitch-class-values" ;
+    jams:ofPattern <http://w3id.org/polifonia/resource/pattern/5_7_2_7_0_2> .
+
+<http://w3id.org/polifonia/resource/JAMSObservation/MarchOfTheKingOfLycheesThe39864/6_7_2_7_0_2@0.0> a jams:JAMSObservation,
+        jams:JAMSScoreObservation,
+        jams:ScorePatternOccurrence ;
+    rdfs:label [ ] ;
+    jams:hasDuration "0.0"^^xsd:float ;
+    jams:hasFrequency "2"^^xsd:int ;
+    jams:hasPatternType "pitch-class-values" ;
+    jams:ofPattern <http://w3id.org/polifonia/resource/pattern/6_7_2_7_0_2> .
+
+<http://w3id.org/polifonia/resource/JAMSObservation/MarchOfTheKingOfLycheesThe39864/7_0_2_3_0_0@0.0> a jams:JAMSObservation,
+        jams:JAMSScoreObservation,
+        jams:ScorePatternOccurrence ;
+    rdfs:label [ ] ;
+    jams:hasDuration "0.0"^^xsd:float ;
+    jams:hasFrequency "3"^^xsd:int ;
+    jams:hasPatternType "pitch-class-values" ;
+    jams:ofPattern <http://w3id.org/polifonia/resource/pattern/7_0_2_3_0_0> .
+
+<http://w3id.org/polifonia/resource/JAMSObservation/MarchOfTheKingOfLycheesThe39864/7_0_7_1_7_6@0.0> a jams:JAMSObservation,
+        jams:JAMSScoreObservation,
+        jams:ScorePatternOccurrence ;
+    rdfs:label [ ] ;
+    jams:hasDuration "0.0"^^xsd:float ;
+    jams:hasFrequency "1"^^xsd:int ;
+    jams:hasPatternType "pitch-class-values" ;
+    jams:ofPattern <http://w3id.org/polifonia/resource/pattern/7_0_7_1_7_6> .
+
+<http://w3id.org/polifonia/resource/JAMSObservation/MarchOfTheKingOfLycheesThe39864/7_1_7_6_7_2@0.0> a jams:JAMSObservation,
+        jams:JAMSScoreObservation,
+        jams:ScorePatternOccurrence ;
+    rdfs:label [ ] ;
+    jams:hasDuration "0.0"^^xsd:float ;
+    jams:hasFrequency "2"^^xsd:int ;
+    jams:hasPatternType "pitch-class-values" ;
+    jams:ofPattern <http://w3id.org/polifonia/resource/pattern/7_1_7_6_7_2> .
+
+<http://w3id.org/polifonia/resource/JAMSObservation/MarchOfTheKingOfLycheesThe39864/7_2_7_0_2_3@0.0> a jams:JAMSObservation,
+        jams:JAMSScoreObservation,
+        jams:ScorePatternOccurrence ;
+    rdfs:label [ ] ;
+    jams:hasDuration "0.0"^^xsd:float ;
+    jams:hasFrequency "4"^^xsd:int ;
+    jams:hasPatternType "pitch-class-values" ;
+    jams:ofPattern <http://w3id.org/polifonia/resource/pattern/7_2_7_0_2_3> .
+
+<http://w3id.org/polifonia/resource/JAMSObservation/MarchOfTheKingOfLycheesThe39864/7_5_7_2_7_0@0.0> a jams:JAMSObservation,
+        jams:JAMSScoreObservation,
+        jams:ScorePatternOccurrence ;
+    rdfs:label [ ] ;
+    jams:hasDuration "0.0"^^xsd:float ;
+    jams:hasFrequency "2"^^xsd:int ;
+    jams:hasPatternType "pitch-class-values" ;
+    jams:ofPattern <http://w3id.org/polifonia/resource/pattern/7_5_7_2_7_0> .
+
+<http://w3id.org/polifonia/resource/JAMSObservation/MarchOfTheKingOfLycheesThe39864/7_6_7_2_7_0@0.0> a jams:JAMSObservation,
+        jams:JAMSScoreObservation,
+        jams:ScorePatternOccurrence ;
+    rdfs:label [ ] ;
+    jams:hasDuration "0.0"^^xsd:float ;
+    jams:hasFrequency "2"^^xsd:int ;
+    jams:hasPatternType "pitch-class-values" ;
+    jams:ofPattern <http://w3id.org/polifonia/resource/pattern/7_6_7_2_7_0> .
+
+<http://w3id.org/polifonia/resource/JAMSObservation/MarchOfTheKingOfLycheesThe39864/8_10_7_5_7_2@0.0> a jams:JAMSObservation,
+        jams:JAMSScoreObservation,
+        jams:ScorePatternOccurrence ;
+    rdfs:label [ ] ;
+    jams:hasDuration "0.0"^^xsd:float ;
+    jams:hasFrequency "2"^^xsd:int ;
+    jams:hasPatternType "pitch-class-values" ;
+    jams:ofPattern <http://w3id.org/polifonia/resource/pattern/8_10_7_5_7_2> .
+
+<http://w3id.org/polifonia/resource/MusicalComposition/a77db18018b4da423967a58e8b5b21fb8a86497e> a mc:MusicalComposition ;
+    rdfs:label "MarchOfTheKingOfLycheesThe39864" ;
+    mc:title "MarchOfTheKingOfLycheesThe39864" ;
+    prov:wasDerivedFrom <http://w3id.org/polifonia/resource/JAMSFile/MarchOfTheKingOfLycheesThe39864.jams> .
+

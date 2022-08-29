@@ -1,0 +1,231 @@
+@prefix core: <http://w3id.org/polifonia/ontology/core/> .
+@prefix jams: <http://w3id.org/polifonia/ontology/jams/> .
+@prefix mc: <http://w3id.org/polifonia/ontology/musical-composition/> .
+@prefix pon-resource: <http://w3id.org/polifonia/resource/> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+pon-resource:Agent%2Fannotator_local_id a core:Agent ;
+    rdfs:label "FONN-Tool" ;
+    jams:hasAnnotatorType pon-resource:annotator-program ;
+    jams:hasName "FONN-Tool" .
+
+<http://w3id.org/polifonia/resource/JAMSAnnotation/fa7a3df35aaf0c3fd94b063d8bb1b630f4fb432a> a jams:JAMSAnnotation,
+        jams:JAMSScoreAnnotation ;
+    jams:includesObservation <http://w3id.org/polifonia/resource/JAMSObservation/SignOfTheSpyglassThe25029/0_0_0_5_3_7@0.0>,
+        <http://w3id.org/polifonia/resource/JAMSObservation/SignOfTheSpyglassThe25029/0_0_5_3_7_5@0.0>,
+        <http://w3id.org/polifonia/resource/JAMSObservation/SignOfTheSpyglassThe25029/0_10_7_5_3_7@0.0>,
+        <http://w3id.org/polifonia/resource/JAMSObservation/SignOfTheSpyglassThe25029/0_5_3_7_5_0@0.0>,
+        <http://w3id.org/polifonia/resource/JAMSObservation/SignOfTheSpyglassThe25029/0_5_3_7_5_10@0.0>,
+        <http://w3id.org/polifonia/resource/JAMSObservation/SignOfTheSpyglassThe25029/10_7_0_0_5_3@0.0>,
+        <http://w3id.org/polifonia/resource/JAMSObservation/SignOfTheSpyglassThe25029/10_7_5_3_7_5@0.0>,
+        <http://w3id.org/polifonia/resource/JAMSObservation/SignOfTheSpyglassThe25029/3_7_5_0_0_0@0.0>,
+        <http://w3id.org/polifonia/resource/JAMSObservation/SignOfTheSpyglassThe25029/3_7_5_0_10_7@0.0>,
+        <http://w3id.org/polifonia/resource/JAMSObservation/SignOfTheSpyglassThe25029/3_7_5_10_7_0@0.0>,
+        <http://w3id.org/polifonia/resource/JAMSObservation/SignOfTheSpyglassThe25029/5_0_0_0_5_3@0.0>,
+        <http://w3id.org/polifonia/resource/JAMSObservation/SignOfTheSpyglassThe25029/5_0_10_7_5_3@0.0>,
+        <http://w3id.org/polifonia/resource/JAMSObservation/SignOfTheSpyglassThe25029/5_10_7_0_0_5@0.0>,
+        <http://w3id.org/polifonia/resource/JAMSObservation/SignOfTheSpyglassThe25029/5_3_7_5_0_0@0.0>,
+        <http://w3id.org/polifonia/resource/JAMSObservation/SignOfTheSpyglassThe25029/5_3_7_5_10_7@0.0>,
+        <http://w3id.org/polifonia/resource/JAMSObservation/SignOfTheSpyglassThe25029/7_0_0_5_3_7@0.0>,
+        <http://w3id.org/polifonia/resource/JAMSObservation/SignOfTheSpyglassThe25029/7_5_0_0_0_5@0.0>,
+        <http://w3id.org/polifonia/resource/JAMSObservation/SignOfTheSpyglassThe25029/7_5_0_10_7_5@0.0>,
+        <http://w3id.org/polifonia/resource/JAMSObservation/SignOfTheSpyglassThe25029/7_5_10_7_0_0@0.0>,
+        <http://w3id.org/polifonia/resource/JAMSObservation/SignOfTheSpyglassThe25029/7_5_3_7_5_10@0.0> ;
+    jams:isJAMSAnnotationOf <http://w3id.org/polifonia/resource/MusicalComposition/fa7a3df35aaf0c3fd94b063d8bb1b630f4fb432a> .
+
+<http://w3id.org/polifonia/resource/Score/song_local_id> jams:hasJAMSAnnotation <http://w3id.org/polifonia/resource/MusicalComposition/fa7a3df35aaf0c3fd94b063d8bb1b630f4fb432a> .
+
+<http://w3id.org/polifonia/resource/JAMSFile/SignOfTheSpyglassThe25029.jams> a jams:JAMSFile ;
+    jams:identifiers [ ] ;
+    jams:jamsVersion "0.3.4" ;
+    jams:release "" ;
+    prov:wasDerivedFrom "The Session" ;
+    prov:wasMemberOf <https://github.com/ashahidkhattak/thesession> .
+
+<http://w3id.org/polifonia/resource/JAMSObservation/SignOfTheSpyglassThe25029/0_0_0_5_3_7@0.0> a jams:JAMSObservation,
+        jams:JAMSScoreObservation,
+        jams:ScorePatternOccurrence ;
+    rdfs:label [ ] ;
+    jams:hasDuration "0.0"^^xsd:float ;
+    jams:hasFrequency "1"^^xsd:int ;
+    jams:hasPatternType "pitch-class-values" ;
+    jams:ofPattern <http://w3id.org/polifonia/resource/pattern/0_0_0_5_3_7> .
+
+<http://w3id.org/polifonia/resource/JAMSObservation/SignOfTheSpyglassThe25029/0_0_5_3_7_5@0.0> a jams:JAMSObservation,
+        jams:JAMSScoreObservation,
+        jams:ScorePatternOccurrence ;
+    rdfs:label [ ] ;
+    jams:hasDuration "0.0"^^xsd:float ;
+    jams:hasFrequency "6"^^xsd:int ;
+    jams:hasPatternType "pitch-class-values" ;
+    jams:ofPattern <http://w3id.org/polifonia/resource/pattern/0_0_5_3_7_5> .
+
+<http://w3id.org/polifonia/resource/JAMSObservation/SignOfTheSpyglassThe25029/0_10_7_5_3_7@0.0> a jams:JAMSObservation,
+        jams:JAMSScoreObservation,
+        jams:ScorePatternOccurrence ;
+    rdfs:label [ ] ;
+    jams:hasDuration "0.0"^^xsd:float ;
+    jams:hasFrequency "2"^^xsd:int ;
+    jams:hasPatternType "pitch-class-values" ;
+    jams:ofPattern <http://w3id.org/polifonia/resource/pattern/0_10_7_5_3_7> .
+
+<http://w3id.org/polifonia/resource/JAMSObservation/SignOfTheSpyglassThe25029/0_5_3_7_5_0@0.0> a jams:JAMSObservation,
+        jams:JAMSScoreObservation,
+        jams:ScorePatternOccurrence ;
+    rdfs:label [ ] ;
+    jams:hasDuration "0.0"^^xsd:float ;
+    jams:hasFrequency "4"^^xsd:int ;
+    jams:hasPatternType "pitch-class-values" ;
+    jams:ofPattern <http://w3id.org/polifonia/resource/pattern/0_5_3_7_5_0> .
+
+<http://w3id.org/polifonia/resource/JAMSObservation/SignOfTheSpyglassThe25029/0_5_3_7_5_10@0.0> a jams:JAMSObservation,
+        jams:JAMSScoreObservation,
+        jams:ScorePatternOccurrence ;
+    rdfs:label [ ] ;
+    jams:hasDuration "0.0"^^xsd:float ;
+    jams:hasFrequency "2"^^xsd:int ;
+    jams:hasPatternType "pitch-class-values" ;
+    jams:ofPattern <http://w3id.org/polifonia/resource/pattern/0_5_3_7_5_10> .
+
+<http://w3id.org/polifonia/resource/JAMSObservation/SignOfTheSpyglassThe25029/10_7_0_0_5_3@0.0> a jams:JAMSObservation,
+        jams:JAMSScoreObservation,
+        jams:ScorePatternOccurrence ;
+    rdfs:label [ ] ;
+    jams:hasDuration "0.0"^^xsd:float ;
+    jams:hasFrequency "4"^^xsd:int ;
+    jams:hasPatternType "pitch-class-values" ;
+    jams:ofPattern <http://w3id.org/polifonia/resource/pattern/10_7_0_0_5_3> .
+
+<http://w3id.org/polifonia/resource/JAMSObservation/SignOfTheSpyglassThe25029/10_7_5_3_7_5@0.0> a jams:JAMSObservation,
+        jams:JAMSScoreObservation,
+        jams:ScorePatternOccurrence ;
+    rdfs:label [ ] ;
+    jams:hasDuration "0.0"^^xsd:float ;
+    jams:hasFrequency "2"^^xsd:int ;
+    jams:hasPatternType "pitch-class-values" ;
+    jams:ofPattern <http://w3id.org/polifonia/resource/pattern/10_7_5_3_7_5> .
+
+<http://w3id.org/polifonia/resource/JAMSObservation/SignOfTheSpyglassThe25029/3_7_5_0_0_0@0.0> a jams:JAMSObservation,
+        jams:JAMSScoreObservation,
+        jams:ScorePatternOccurrence ;
+    rdfs:label [ ] ;
+    jams:hasDuration "0.0"^^xsd:float ;
+    jams:hasFrequency "1"^^xsd:int ;
+    jams:hasPatternType "pitch-class-values" ;
+    jams:ofPattern <http://w3id.org/polifonia/resource/pattern/3_7_5_0_0_0> .
+
+<http://w3id.org/polifonia/resource/JAMSObservation/SignOfTheSpyglassThe25029/3_7_5_0_10_7@0.0> a jams:JAMSObservation,
+        jams:JAMSScoreObservation,
+        jams:ScorePatternOccurrence ;
+    rdfs:label [ ] ;
+    jams:hasDuration "0.0"^^xsd:float ;
+    jams:hasFrequency "2"^^xsd:int ;
+    jams:hasPatternType "pitch-class-values" ;
+    jams:ofPattern <http://w3id.org/polifonia/resource/pattern/3_7_5_0_10_7> .
+
+<http://w3id.org/polifonia/resource/JAMSObservation/SignOfTheSpyglassThe25029/3_7_5_10_7_0@0.0> a jams:JAMSObservation,
+        jams:JAMSScoreObservation,
+        jams:ScorePatternOccurrence ;
+    rdfs:label [ ] ;
+    jams:hasDuration "0.0"^^xsd:float ;
+    jams:hasFrequency "4"^^xsd:int ;
+    jams:hasPatternType "pitch-class-values" ;
+    jams:ofPattern <http://w3id.org/polifonia/resource/pattern/3_7_5_10_7_0> .
+
+<http://w3id.org/polifonia/resource/JAMSObservation/SignOfTheSpyglassThe25029/5_0_0_0_5_3@0.0> a jams:JAMSObservation,
+        jams:JAMSScoreObservation,
+        jams:ScorePatternOccurrence ;
+    rdfs:label [ ] ;
+    jams:hasDuration "0.0"^^xsd:float ;
+    jams:hasFrequency "1"^^xsd:int ;
+    jams:hasPatternType "pitch-class-values" ;
+    jams:ofPattern <http://w3id.org/polifonia/resource/pattern/5_0_0_0_5_3> .
+
+<http://w3id.org/polifonia/resource/JAMSObservation/SignOfTheSpyglassThe25029/5_0_10_7_5_3@0.0> a jams:JAMSObservation,
+        jams:JAMSScoreObservation,
+        jams:ScorePatternOccurrence ;
+    rdfs:label [ ] ;
+    jams:hasDuration "0.0"^^xsd:float ;
+    jams:hasFrequency "2"^^xsd:int ;
+    jams:hasPatternType "pitch-class-values" ;
+    jams:ofPattern <http://w3id.org/polifonia/resource/pattern/5_0_10_7_5_3> .
+
+<http://w3id.org/polifonia/resource/JAMSObservation/SignOfTheSpyglassThe25029/5_10_7_0_0_5@0.0> a jams:JAMSObservation,
+        jams:JAMSScoreObservation,
+        jams:ScorePatternOccurrence ;
+    rdfs:label [ ] ;
+    jams:hasDuration "0.0"^^xsd:float ;
+    jams:hasFrequency "4"^^xsd:int ;
+    jams:hasPatternType "pitch-class-values" ;
+    jams:ofPattern <http://w3id.org/polifonia/resource/pattern/5_10_7_0_0_5> .
+
+<http://w3id.org/polifonia/resource/JAMSObservation/SignOfTheSpyglassThe25029/5_3_7_5_0_0@0.0> a jams:JAMSObservation,
+        jams:JAMSScoreObservation,
+        jams:ScorePatternOccurrence ;
+    rdfs:label [ ] ;
+    jams:hasDuration "0.0"^^xsd:float ;
+    jams:hasFrequency "1"^^xsd:int ;
+    jams:hasPatternType "pitch-class-values" ;
+    jams:ofPattern <http://w3id.org/polifonia/resource/pattern/5_3_7_5_0_0> .
+
+<http://w3id.org/polifonia/resource/JAMSObservation/SignOfTheSpyglassThe25029/5_3_7_5_10_7@0.0> a jams:JAMSObservation,
+        jams:JAMSScoreObservation,
+        jams:ScorePatternOccurrence ;
+    rdfs:label [ ] ;
+    jams:hasDuration "0.0"^^xsd:float ;
+    jams:hasFrequency "4"^^xsd:int ;
+    jams:hasPatternType "pitch-class-values" ;
+    jams:ofPattern <http://w3id.org/polifonia/resource/pattern/5_3_7_5_10_7> .
+
+<http://w3id.org/polifonia/resource/JAMSObservation/SignOfTheSpyglassThe25029/7_0_0_5_3_7@0.0> a jams:JAMSObservation,
+        jams:JAMSScoreObservation,
+        jams:ScorePatternOccurrence ;
+    rdfs:label [ ] ;
+    jams:hasDuration "0.0"^^xsd:float ;
+    jams:hasFrequency "4"^^xsd:int ;
+    jams:hasPatternType "pitch-class-values" ;
+    jams:ofPattern <http://w3id.org/polifonia/resource/pattern/7_0_0_5_3_7> .
+
+<http://w3id.org/polifonia/resource/JAMSObservation/SignOfTheSpyglassThe25029/7_5_0_0_0_5@0.0> a jams:JAMSObservation,
+        jams:JAMSScoreObservation,
+        jams:ScorePatternOccurrence ;
+    rdfs:label [ ] ;
+    jams:hasDuration "0.0"^^xsd:float ;
+    jams:hasFrequency "1"^^xsd:int ;
+    jams:hasPatternType "pitch-class-values" ;
+    jams:ofPattern <http://w3id.org/polifonia/resource/pattern/7_5_0_0_0_5> .
+
+<http://w3id.org/polifonia/resource/JAMSObservation/SignOfTheSpyglassThe25029/7_5_0_10_7_5@0.0> a jams:JAMSObservation,
+        jams:JAMSScoreObservation,
+        jams:ScorePatternOccurrence ;
+    rdfs:label [ ] ;
+    jams:hasDuration "0.0"^^xsd:float ;
+    jams:hasFrequency "2"^^xsd:int ;
+    jams:hasPatternType "pitch-class-values" ;
+    jams:ofPattern <http://w3id.org/polifonia/resource/pattern/7_5_0_10_7_5> .
+
+<http://w3id.org/polifonia/resource/JAMSObservation/SignOfTheSpyglassThe25029/7_5_10_7_0_0@0.0> a jams:JAMSObservation,
+        jams:JAMSScoreObservation,
+        jams:ScorePatternOccurrence ;
+    rdfs:label [ ] ;
+    jams:hasDuration "0.0"^^xsd:float ;
+    jams:hasFrequency "4"^^xsd:int ;
+    jams:hasPatternType "pitch-class-values" ;
+    jams:ofPattern <http://w3id.org/polifonia/resource/pattern/7_5_10_7_0_0> .
+
+<http://w3id.org/polifonia/resource/JAMSObservation/SignOfTheSpyglassThe25029/7_5_3_7_5_10@0.0> a jams:JAMSObservation,
+        jams:JAMSScoreObservation,
+        jams:ScorePatternOccurrence ;
+    rdfs:label [ ] ;
+    jams:hasDuration "0.0"^^xsd:float ;
+    jams:hasFrequency "2"^^xsd:int ;
+    jams:hasPatternType "pitch-class-values" ;
+    jams:ofPattern <http://w3id.org/polifonia/resource/pattern/7_5_3_7_5_10> .
+
+<http://w3id.org/polifonia/resource/MusicalComposition/fa7a3df35aaf0c3fd94b063d8bb1b630f4fb432a> a mc:MusicalComposition ;
+    rdfs:label "SignOfTheSpyglassThe25029" ;
+    mc:title "SignOfTheSpyglassThe25029" ;
+    prov:wasDerivedFrom <http://w3id.org/polifonia/resource/JAMSFile/SignOfTheSpyglassThe25029.jams> .
+

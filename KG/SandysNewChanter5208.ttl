@@ -1,0 +1,641 @@
+@prefix core: <http://w3id.org/polifonia/ontology/core/> .
+@prefix jams: <http://w3id.org/polifonia/ontology/jams/> .
+@prefix mc: <http://w3id.org/polifonia/ontology/musical-composition/> .
+@prefix pon-resource: <http://w3id.org/polifonia/resource/> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+pon-resource:Agent%2Fannotator_local_id a core:Agent ;
+    rdfs:label "FONN-Tool" ;
+    jams:hasAnnotatorType pon-resource:annotator-program ;
+    jams:hasName "FONN-Tool" .
+
+<http://w3id.org/polifonia/resource/JAMSAnnotation/25b78f0694d2fc12cfef6b8fc576ed05d8d3b763> a jams:JAMSAnnotation,
+        jams:JAMSScoreAnnotation ;
+    jams:includesObservation <http://w3id.org/polifonia/resource/JAMSObservation/SandysNewChanter5208/0_0_4_4_5_9@0.0>,
+        <http://w3id.org/polifonia/resource/JAMSObservation/SandysNewChanter5208/0_0_4_7_5_4@0.0>,
+        <http://w3id.org/polifonia/resource/JAMSObservation/SandysNewChanter5208/0_0_7_0_5_9@0.0>,
+        <http://w3id.org/polifonia/resource/JAMSObservation/SandysNewChanter5208/0_0_7_4_5_9@0.0>,
+        <http://w3id.org/polifonia/resource/JAMSObservation/SandysNewChanter5208/0_2_2_4_4_5@0.0>,
+        <http://w3id.org/polifonia/resource/JAMSObservation/SandysNewChanter5208/0_2_2_4_7_5@0.0>,
+        <http://w3id.org/polifonia/resource/JAMSObservation/SandysNewChanter5208/0_2_2_7_4_5@0.0>,
+        <http://w3id.org/polifonia/resource/JAMSObservation/SandysNewChanter5208/0_4_4_5_9_4@0.0>,
+        <http://w3id.org/polifonia/resource/JAMSObservation/SandysNewChanter5208/0_4_7_5_4_0@0.0>,
+        <http://w3id.org/polifonia/resource/JAMSObservation/SandysNewChanter5208/0_5_9_4_2_0@0.0>,
+        <http://w3id.org/polifonia/resource/JAMSObservation/SandysNewChanter5208/0_5_9_4_4_2@0.0>,
+        <http://w3id.org/polifonia/resource/JAMSObservation/SandysNewChanter5208/0_7_0_5_9_4@0.0>,
+        <http://w3id.org/polifonia/resource/JAMSObservation/SandysNewChanter5208/0_7_4_5_9_4@0.0>,
+        <http://w3id.org/polifonia/resource/JAMSObservation/SandysNewChanter5208/2_0_0_4_4_5@0.0>,
+        <http://w3id.org/polifonia/resource/JAMSObservation/SandysNewChanter5208/2_0_0_4_7_5@0.0>,
+        <http://w3id.org/polifonia/resource/JAMSObservation/SandysNewChanter5208/2_0_0_7_0_5@0.0>,
+        <http://w3id.org/polifonia/resource/JAMSObservation/SandysNewChanter5208/2_0_0_7_4_5@0.0>,
+        <http://w3id.org/polifonia/resource/JAMSObservation/SandysNewChanter5208/2_2_4_4_5_9@0.0>,
+        <http://w3id.org/polifonia/resource/JAMSObservation/SandysNewChanter5208/2_2_4_7_5_4@0.0>,
+        <http://w3id.org/polifonia/resource/JAMSObservation/SandysNewChanter5208/2_2_7_0_5_9@0.0>,
+        <http://w3id.org/polifonia/resource/JAMSObservation/SandysNewChanter5208/2_2_7_4_5_9@0.0>,
+        <http://w3id.org/polifonia/resource/JAMSObservation/SandysNewChanter5208/2_4_4_5_9_4@0.0>,
+        <http://w3id.org/polifonia/resource/JAMSObservation/SandysNewChanter5208/2_4_7_5_4_2@0.0>,
+        <http://w3id.org/polifonia/resource/JAMSObservation/SandysNewChanter5208/2_7_0_5_9_4@0.0>,
+        <http://w3id.org/polifonia/resource/JAMSObservation/SandysNewChanter5208/2_7_4_5_9_4@0.0>,
+        <http://w3id.org/polifonia/resource/JAMSObservation/SandysNewChanter5208/4.0_2.0_0.0_0.0_7.0_0.0@0.0>,
+        <http://w3id.org/polifonia/resource/JAMSObservation/SandysNewChanter5208/4_0_2_2_4_4@0.0>,
+        <http://w3id.org/polifonia/resource/JAMSObservation/SandysNewChanter5208/4_0_2_2_4_7@0.0>,
+        <http://w3id.org/polifonia/resource/JAMSObservation/SandysNewChanter5208/4_0_2_2_7_4@0.0>,
+        <http://w3id.org/polifonia/resource/JAMSObservation/SandysNewChanter5208/4_2_0_0_4_4@0.0>,
+        <http://w3id.org/polifonia/resource/JAMSObservation/SandysNewChanter5208/4_2_0_0_4_7@0.0>,
+        <http://w3id.org/polifonia/resource/JAMSObservation/SandysNewChanter5208/4_2_0_0_7_4@0.0>,
+        <http://w3id.org/polifonia/resource/JAMSObservation/SandysNewChanter5208/4_2_2_4_4_5@0.0>,
+        <http://w3id.org/polifonia/resource/JAMSObservation/SandysNewChanter5208/4_2_2_7_0_5@0.0>,
+        <http://w3id.org/polifonia/resource/JAMSObservation/SandysNewChanter5208/4_4_2_2_4_4@0.0>,
+        <http://w3id.org/polifonia/resource/JAMSObservation/SandysNewChanter5208/4_4_2_2_7_0@0.0>,
+        <http://w3id.org/polifonia/resource/JAMSObservation/SandysNewChanter5208/4_4_5_9_4_2@0.0>,
+        <http://w3id.org/polifonia/resource/JAMSObservation/SandysNewChanter5208/4_4_5_9_4_4@0.0>,
+        <http://w3id.org/polifonia/resource/JAMSObservation/SandysNewChanter5208/4_5_9_4_0_2@0.0>,
+        <http://w3id.org/polifonia/resource/JAMSObservation/SandysNewChanter5208/4_5_9_4_2_0@0.0>,
+        <http://w3id.org/polifonia/resource/JAMSObservation/SandysNewChanter5208/4_5_9_4_4_2@0.0>,
+        <http://w3id.org/polifonia/resource/JAMSObservation/SandysNewChanter5208/4_7_5_4_0_2@0.0>,
+        <http://w3id.org/polifonia/resource/JAMSObservation/SandysNewChanter5208/4_7_5_4_2_0@0.0>,
+        <http://w3id.org/polifonia/resource/JAMSObservation/SandysNewChanter5208/5_4_0_2_2_4@0.0>,
+        <http://w3id.org/polifonia/resource/JAMSObservation/SandysNewChanter5208/5_4_2_0_0_4@0.0>,
+        <http://w3id.org/polifonia/resource/JAMSObservation/SandysNewChanter5208/5_4_2_0_0_7@0.0>,
+        <http://w3id.org/polifonia/resource/JAMSObservation/SandysNewChanter5208/5_9_4_0_2_2@0.0>,
+        <http://w3id.org/polifonia/resource/JAMSObservation/SandysNewChanter5208/5_9_4_2_0_0@0.0>,
+        <http://w3id.org/polifonia/resource/JAMSObservation/SandysNewChanter5208/5_9_4_4_2_2@0.0>,
+        <http://w3id.org/polifonia/resource/JAMSObservation/SandysNewChanter5208/7_0_5_9_4_2@0.0>,
+        <http://w3id.org/polifonia/resource/JAMSObservation/SandysNewChanter5208/7_0_5_9_4_4@0.0>,
+        <http://w3id.org/polifonia/resource/JAMSObservation/SandysNewChanter5208/7_4_5_9_4_0@0.0>,
+        <http://w3id.org/polifonia/resource/JAMSObservation/SandysNewChanter5208/7_4_5_9_4_2@0.0>,
+        <http://w3id.org/polifonia/resource/JAMSObservation/SandysNewChanter5208/7_5_4_0_2_2@0.0>,
+        <http://w3id.org/polifonia/resource/JAMSObservation/SandysNewChanter5208/7_5_4_2_0_0@0.0>,
+        <http://w3id.org/polifonia/resource/JAMSObservation/SandysNewChanter5208/9.0_4.0_2.0_0.0_0.0_7.0@0.0>,
+        <http://w3id.org/polifonia/resource/JAMSObservation/SandysNewChanter5208/9_4_0_2_2_4@0.0>,
+        <http://w3id.org/polifonia/resource/JAMSObservation/SandysNewChanter5208/9_4_0_2_2_7@0.0>,
+        <http://w3id.org/polifonia/resource/JAMSObservation/SandysNewChanter5208/9_4_2_0_0_4@0.0>,
+        <http://w3id.org/polifonia/resource/JAMSObservation/SandysNewChanter5208/9_4_4_2_2_4@0.0>,
+        <http://w3id.org/polifonia/resource/JAMSObservation/SandysNewChanter5208/9_4_4_2_2_7@0.0> ;
+    jams:isJAMSAnnotationOf <http://w3id.org/polifonia/resource/MusicalComposition/25b78f0694d2fc12cfef6b8fc576ed05d8d3b763> .
+
+<http://w3id.org/polifonia/resource/Score/song_local_id> jams:hasJAMSAnnotation <http://w3id.org/polifonia/resource/MusicalComposition/25b78f0694d2fc12cfef6b8fc576ed05d8d3b763> .
+
+<http://w3id.org/polifonia/resource/JAMSFile/SandysNewChanter5208.jams> a jams:JAMSFile ;
+    jams:identifiers [ ] ;
+    jams:jamsVersion "0.3.4" ;
+    jams:release "" ;
+    prov:wasDerivedFrom "The Session" ;
+    prov:wasMemberOf <https://github.com/ashahidkhattak/thesession> .
+
+<http://w3id.org/polifonia/resource/JAMSObservation/SandysNewChanter5208/0_0_4_4_5_9@0.0> a jams:JAMSObservation,
+        jams:JAMSScoreObservation,
+        jams:ScorePatternOccurrence ;
+    rdfs:label [ ] ;
+    jams:hasDuration "0.0"^^xsd:float ;
+    jams:hasFrequency "1"^^xsd:int ;
+    jams:hasPatternType "pitch-class-values" ;
+    jams:ofPattern <http://w3id.org/polifonia/resource/pattern/0_0_4_4_5_9> .
+
+<http://w3id.org/polifonia/resource/JAMSObservation/SandysNewChanter5208/0_0_4_7_5_4@0.0> a jams:JAMSObservation,
+        jams:JAMSScoreObservation,
+        jams:ScorePatternOccurrence ;
+    rdfs:label [ ] ;
+    jams:hasDuration "0.0"^^xsd:float ;
+    jams:hasFrequency "2"^^xsd:int ;
+    jams:hasPatternType "pitch-class-values" ;
+    jams:ofPattern <http://w3id.org/polifonia/resource/pattern/0_0_4_7_5_4> .
+
+<http://w3id.org/polifonia/resource/JAMSObservation/SandysNewChanter5208/0_0_7_0_5_9@0.0> a jams:JAMSObservation,
+        jams:JAMSScoreObservation,
+        jams:ScorePatternOccurrence ;
+    rdfs:label [ ] ;
+    jams:hasDuration "0.0"^^xsd:float ;
+    jams:hasFrequency "2"^^xsd:int ;
+    jams:hasPatternType "pitch-class-values" ;
+    jams:ofPattern <http://w3id.org/polifonia/resource/pattern/0_0_7_0_5_9> .
+
+<http://w3id.org/polifonia/resource/JAMSObservation/SandysNewChanter5208/0_0_7_4_5_9@0.0> a jams:JAMSObservation,
+        jams:JAMSScoreObservation,
+        jams:ScorePatternOccurrence ;
+    rdfs:label [ ] ;
+    jams:hasDuration "0.0"^^xsd:float ;
+    jams:hasFrequency "2"^^xsd:int ;
+    jams:hasPatternType "pitch-class-values" ;
+    jams:ofPattern <http://w3id.org/polifonia/resource/pattern/0_0_7_4_5_9> .
+
+<http://w3id.org/polifonia/resource/JAMSObservation/SandysNewChanter5208/0_2_2_4_4_5@0.0> a jams:JAMSObservation,
+        jams:JAMSScoreObservation,
+        jams:ScorePatternOccurrence ;
+    rdfs:label [ ] ;
+    jams:hasDuration "0.0"^^xsd:float ;
+    jams:hasFrequency "1"^^xsd:int ;
+    jams:hasPatternType "pitch-class-values" ;
+    jams:ofPattern <http://w3id.org/polifonia/resource/pattern/0_2_2_4_4_5> .
+
+<http://w3id.org/polifonia/resource/JAMSObservation/SandysNewChanter5208/0_2_2_4_7_5@0.0> a jams:JAMSObservation,
+        jams:JAMSScoreObservation,
+        jams:ScorePatternOccurrence ;
+    rdfs:label [ ] ;
+    jams:hasDuration "0.0"^^xsd:float ;
+    jams:hasFrequency "2"^^xsd:int ;
+    jams:hasPatternType "pitch-class-values" ;
+    jams:ofPattern <http://w3id.org/polifonia/resource/pattern/0_2_2_4_7_5> .
+
+<http://w3id.org/polifonia/resource/JAMSObservation/SandysNewChanter5208/0_2_2_7_4_5@0.0> a jams:JAMSObservation,
+        jams:JAMSScoreObservation,
+        jams:ScorePatternOccurrence ;
+    rdfs:label [ ] ;
+    jams:hasDuration "0.0"^^xsd:float ;
+    jams:hasFrequency "1"^^xsd:int ;
+    jams:hasPatternType "pitch-class-values" ;
+    jams:ofPattern <http://w3id.org/polifonia/resource/pattern/0_2_2_7_4_5> .
+
+<http://w3id.org/polifonia/resource/JAMSObservation/SandysNewChanter5208/0_4_4_5_9_4@0.0> a jams:JAMSObservation,
+        jams:JAMSScoreObservation,
+        jams:ScorePatternOccurrence ;
+    rdfs:label [ ] ;
+    jams:hasDuration "0.0"^^xsd:float ;
+    jams:hasFrequency "1"^^xsd:int ;
+    jams:hasPatternType "pitch-class-values" ;
+    jams:ofPattern <http://w3id.org/polifonia/resource/pattern/0_4_4_5_9_4> .
+
+<http://w3id.org/polifonia/resource/JAMSObservation/SandysNewChanter5208/0_4_7_5_4_0@0.0> a jams:JAMSObservation,
+        jams:JAMSScoreObservation,
+        jams:ScorePatternOccurrence ;
+    rdfs:label [ ] ;
+    jams:hasDuration "0.0"^^xsd:float ;
+    jams:hasFrequency "2"^^xsd:int ;
+    jams:hasPatternType "pitch-class-values" ;
+    jams:ofPattern <http://w3id.org/polifonia/resource/pattern/0_4_7_5_4_0> .
+
+<http://w3id.org/polifonia/resource/JAMSObservation/SandysNewChanter5208/0_5_9_4_2_0@0.0> a jams:JAMSObservation,
+        jams:JAMSScoreObservation,
+        jams:ScorePatternOccurrence ;
+    rdfs:label [ ] ;
+    jams:hasDuration "0.0"^^xsd:float ;
+    jams:hasFrequency "1"^^xsd:int ;
+    jams:hasPatternType "pitch-class-values" ;
+    jams:ofPattern <http://w3id.org/polifonia/resource/pattern/0_5_9_4_2_0> .
+
+<http://w3id.org/polifonia/resource/JAMSObservation/SandysNewChanter5208/0_5_9_4_4_2@0.0> a jams:JAMSObservation,
+        jams:JAMSScoreObservation,
+        jams:ScorePatternOccurrence ;
+    rdfs:label [ ] ;
+    jams:hasDuration "0.0"^^xsd:float ;
+    jams:hasFrequency "2"^^xsd:int ;
+    jams:hasPatternType "pitch-class-values" ;
+    jams:ofPattern <http://w3id.org/polifonia/resource/pattern/0_5_9_4_4_2> .
+
+<http://w3id.org/polifonia/resource/JAMSObservation/SandysNewChanter5208/0_7_0_5_9_4@0.0> a jams:JAMSObservation,
+        jams:JAMSScoreObservation,
+        jams:ScorePatternOccurrence ;
+    rdfs:label [ ] ;
+    jams:hasDuration "0.0"^^xsd:float ;
+    jams:hasFrequency "2"^^xsd:int ;
+    jams:hasPatternType "pitch-class-values" ;
+    jams:ofPattern <http://w3id.org/polifonia/resource/pattern/0_7_0_5_9_4> .
+
+<http://w3id.org/polifonia/resource/JAMSObservation/SandysNewChanter5208/0_7_4_5_9_4@0.0> a jams:JAMSObservation,
+        jams:JAMSScoreObservation,
+        jams:ScorePatternOccurrence ;
+    rdfs:label [ ] ;
+    jams:hasDuration "0.0"^^xsd:float ;
+    jams:hasFrequency "2"^^xsd:int ;
+    jams:hasPatternType "pitch-class-values" ;
+    jams:ofPattern <http://w3id.org/polifonia/resource/pattern/0_7_4_5_9_4> .
+
+<http://w3id.org/polifonia/resource/JAMSObservation/SandysNewChanter5208/2_0_0_4_4_5@0.0> a jams:JAMSObservation,
+        jams:JAMSScoreObservation,
+        jams:ScorePatternOccurrence ;
+    rdfs:label [ ] ;
+    jams:hasDuration "0.0"^^xsd:float ;
+    jams:hasFrequency "1"^^xsd:int ;
+    jams:hasPatternType "pitch-class-values" ;
+    jams:ofPattern <http://w3id.org/polifonia/resource/pattern/2_0_0_4_4_5> .
+
+<http://w3id.org/polifonia/resource/JAMSObservation/SandysNewChanter5208/2_0_0_4_7_5@0.0> a jams:JAMSObservation,
+        jams:JAMSScoreObservation,
+        jams:ScorePatternOccurrence ;
+    rdfs:label [ ] ;
+    jams:hasDuration "0.0"^^xsd:float ;
+    jams:hasFrequency "2"^^xsd:int ;
+    jams:hasPatternType "pitch-class-values" ;
+    jams:ofPattern <http://w3id.org/polifonia/resource/pattern/2_0_0_4_7_5> .
+
+<http://w3id.org/polifonia/resource/JAMSObservation/SandysNewChanter5208/2_0_0_7_0_5@0.0> a jams:JAMSObservation,
+        jams:JAMSScoreObservation,
+        jams:ScorePatternOccurrence ;
+    rdfs:label [ ] ;
+    jams:hasDuration "0.0"^^xsd:float ;
+    jams:hasFrequency "2"^^xsd:int ;
+    jams:hasPatternType "pitch-class-values" ;
+    jams:ofPattern <http://w3id.org/polifonia/resource/pattern/2_0_0_7_0_5> .
+
+<http://w3id.org/polifonia/resource/JAMSObservation/SandysNewChanter5208/2_0_0_7_4_5@0.0> a jams:JAMSObservation,
+        jams:JAMSScoreObservation,
+        jams:ScorePatternOccurrence ;
+    rdfs:label [ ] ;
+    jams:hasDuration "0.0"^^xsd:float ;
+    jams:hasFrequency "2"^^xsd:int ;
+    jams:hasPatternType "pitch-class-values" ;
+    jams:ofPattern <http://w3id.org/polifonia/resource/pattern/2_0_0_7_4_5> .
+
+<http://w3id.org/polifonia/resource/JAMSObservation/SandysNewChanter5208/2_2_4_4_5_9@0.0> a jams:JAMSObservation,
+        jams:JAMSScoreObservation,
+        jams:ScorePatternOccurrence ;
+    rdfs:label [ ] ;
+    jams:hasDuration "0.0"^^xsd:float ;
+    jams:hasFrequency "4"^^xsd:int ;
+    jams:hasPatternType "pitch-class-values" ;
+    jams:ofPattern <http://w3id.org/polifonia/resource/pattern/2_2_4_4_5_9> .
+
+<http://w3id.org/polifonia/resource/JAMSObservation/SandysNewChanter5208/2_2_4_7_5_4@0.0> a jams:JAMSObservation,
+        jams:JAMSScoreObservation,
+        jams:ScorePatternOccurrence ;
+    rdfs:label [ ] ;
+    jams:hasDuration "0.0"^^xsd:float ;
+    jams:hasFrequency "2"^^xsd:int ;
+    jams:hasPatternType "pitch-class-values" ;
+    jams:ofPattern <http://w3id.org/polifonia/resource/pattern/2_2_4_7_5_4> .
+
+<http://w3id.org/polifonia/resource/JAMSObservation/SandysNewChanter5208/2_2_7_0_5_9@0.0> a jams:JAMSObservation,
+        jams:JAMSScoreObservation,
+        jams:ScorePatternOccurrence ;
+    rdfs:label [ ] ;
+    jams:hasDuration "0.0"^^xsd:float ;
+    jams:hasFrequency "1"^^xsd:int ;
+    jams:hasPatternType "pitch-class-values" ;
+    jams:ofPattern <http://w3id.org/polifonia/resource/pattern/2_2_7_0_5_9> .
+
+<http://w3id.org/polifonia/resource/JAMSObservation/SandysNewChanter5208/2_2_7_4_5_9@0.0> a jams:JAMSObservation,
+        jams:JAMSScoreObservation,
+        jams:ScorePatternOccurrence ;
+    rdfs:label [ ] ;
+    jams:hasDuration "0.0"^^xsd:float ;
+    jams:hasFrequency "1"^^xsd:int ;
+    jams:hasPatternType "pitch-class-values" ;
+    jams:ofPattern <http://w3id.org/polifonia/resource/pattern/2_2_7_4_5_9> .
+
+<http://w3id.org/polifonia/resource/JAMSObservation/SandysNewChanter5208/2_4_4_5_9_4@0.0> a jams:JAMSObservation,
+        jams:JAMSScoreObservation,
+        jams:ScorePatternOccurrence ;
+    rdfs:label [ ] ;
+    jams:hasDuration "0.0"^^xsd:float ;
+    jams:hasFrequency "4"^^xsd:int ;
+    jams:hasPatternType "pitch-class-values" ;
+    jams:ofPattern <http://w3id.org/polifonia/resource/pattern/2_4_4_5_9_4> .
+
+<http://w3id.org/polifonia/resource/JAMSObservation/SandysNewChanter5208/2_4_7_5_4_2@0.0> a jams:JAMSObservation,
+        jams:JAMSScoreObservation,
+        jams:ScorePatternOccurrence ;
+    rdfs:label [ ] ;
+    jams:hasDuration "0.0"^^xsd:float ;
+    jams:hasFrequency "2"^^xsd:int ;
+    jams:hasPatternType "pitch-class-values" ;
+    jams:ofPattern <http://w3id.org/polifonia/resource/pattern/2_4_7_5_4_2> .
+
+<http://w3id.org/polifonia/resource/JAMSObservation/SandysNewChanter5208/2_7_0_5_9_4@0.0> a jams:JAMSObservation,
+        jams:JAMSScoreObservation,
+        jams:ScorePatternOccurrence ;
+    rdfs:label [ ] ;
+    jams:hasDuration "0.0"^^xsd:float ;
+    jams:hasFrequency "1"^^xsd:int ;
+    jams:hasPatternType "pitch-class-values" ;
+    jams:ofPattern <http://w3id.org/polifonia/resource/pattern/2_7_0_5_9_4> .
+
+<http://w3id.org/polifonia/resource/JAMSObservation/SandysNewChanter5208/2_7_4_5_9_4@0.0> a jams:JAMSObservation,
+        jams:JAMSScoreObservation,
+        jams:ScorePatternOccurrence ;
+    rdfs:label [ ] ;
+    jams:hasDuration "0.0"^^xsd:float ;
+    jams:hasFrequency "1"^^xsd:int ;
+    jams:hasPatternType "pitch-class-values" ;
+    jams:ofPattern <http://w3id.org/polifonia/resource/pattern/2_7_4_5_9_4> .
+
+<http://w3id.org/polifonia/resource/JAMSObservation/SandysNewChanter5208/4.0_2.0_0.0_0.0_7.0_0.0@0.0> a jams:JAMSObservation,
+        jams:JAMSScoreObservation,
+        jams:ScorePatternOccurrence ;
+    rdfs:label [ ] ;
+    jams:hasDuration "0.0"^^xsd:float ;
+    jams:hasFrequency "2"^^xsd:int ;
+    jams:hasPatternType "pitch-class-values" ;
+    jams:ofPattern <http://w3id.org/polifonia/resource/pattern/4.0_2.0_0.0_0.0_7.0_0.0> .
+
+<http://w3id.org/polifonia/resource/JAMSObservation/SandysNewChanter5208/4_0_2_2_4_4@0.0> a jams:JAMSObservation,
+        jams:JAMSScoreObservation,
+        jams:ScorePatternOccurrence ;
+    rdfs:label [ ] ;
+    jams:hasDuration "0.0"^^xsd:float ;
+    jams:hasFrequency "1"^^xsd:int ;
+    jams:hasPatternType "pitch-class-values" ;
+    jams:ofPattern <http://w3id.org/polifonia/resource/pattern/4_0_2_2_4_4> .
+
+<http://w3id.org/polifonia/resource/JAMSObservation/SandysNewChanter5208/4_0_2_2_4_7@0.0> a jams:JAMSObservation,
+        jams:JAMSScoreObservation,
+        jams:ScorePatternOccurrence ;
+    rdfs:label [ ] ;
+    jams:hasDuration "0.0"^^xsd:float ;
+    jams:hasFrequency "2"^^xsd:int ;
+    jams:hasPatternType "pitch-class-values" ;
+    jams:ofPattern <http://w3id.org/polifonia/resource/pattern/4_0_2_2_4_7> .
+
+<http://w3id.org/polifonia/resource/JAMSObservation/SandysNewChanter5208/4_0_2_2_7_4@0.0> a jams:JAMSObservation,
+        jams:JAMSScoreObservation,
+        jams:ScorePatternOccurrence ;
+    rdfs:label [ ] ;
+    jams:hasDuration "0.0"^^xsd:float ;
+    jams:hasFrequency "1"^^xsd:int ;
+    jams:hasPatternType "pitch-class-values" ;
+    jams:ofPattern <http://w3id.org/polifonia/resource/pattern/4_0_2_2_7_4> .
+
+<http://w3id.org/polifonia/resource/JAMSObservation/SandysNewChanter5208/4_2_0_0_4_4@0.0> a jams:JAMSObservation,
+        jams:JAMSScoreObservation,
+        jams:ScorePatternOccurrence ;
+    rdfs:label [ ] ;
+    jams:hasDuration "0.0"^^xsd:float ;
+    jams:hasFrequency "1"^^xsd:int ;
+    jams:hasPatternType "pitch-class-values" ;
+    jams:ofPattern <http://w3id.org/polifonia/resource/pattern/4_2_0_0_4_4> .
+
+<http://w3id.org/polifonia/resource/JAMSObservation/SandysNewChanter5208/4_2_0_0_4_7@0.0> a jams:JAMSObservation,
+        jams:JAMSScoreObservation,
+        jams:ScorePatternOccurrence ;
+    rdfs:label [ ] ;
+    jams:hasDuration "0.0"^^xsd:float ;
+    jams:hasFrequency "2"^^xsd:int ;
+    jams:hasPatternType "pitch-class-values" ;
+    jams:ofPattern <http://w3id.org/polifonia/resource/pattern/4_2_0_0_4_7> .
+
+<http://w3id.org/polifonia/resource/JAMSObservation/SandysNewChanter5208/4_2_0_0_7_4@0.0> a jams:JAMSObservation,
+        jams:JAMSScoreObservation,
+        jams:ScorePatternOccurrence ;
+    rdfs:label [ ] ;
+    jams:hasDuration "0.0"^^xsd:float ;
+    jams:hasFrequency "2"^^xsd:int ;
+    jams:hasPatternType "pitch-class-values" ;
+    jams:ofPattern <http://w3id.org/polifonia/resource/pattern/4_2_0_0_7_4> .
+
+<http://w3id.org/polifonia/resource/JAMSObservation/SandysNewChanter5208/4_2_2_4_4_5@0.0> a jams:JAMSObservation,
+        jams:JAMSScoreObservation,
+        jams:ScorePatternOccurrence ;
+    rdfs:label [ ] ;
+    jams:hasDuration "0.0"^^xsd:float ;
+    jams:hasFrequency "3"^^xsd:int ;
+    jams:hasPatternType "pitch-class-values" ;
+    jams:ofPattern <http://w3id.org/polifonia/resource/pattern/4_2_2_4_4_5> .
+
+<http://w3id.org/polifonia/resource/JAMSObservation/SandysNewChanter5208/4_2_2_7_0_5@0.0> a jams:JAMSObservation,
+        jams:JAMSScoreObservation,
+        jams:ScorePatternOccurrence ;
+    rdfs:label [ ] ;
+    jams:hasDuration "0.0"^^xsd:float ;
+    jams:hasFrequency "1"^^xsd:int ;
+    jams:hasPatternType "pitch-class-values" ;
+    jams:ofPattern <http://w3id.org/polifonia/resource/pattern/4_2_2_7_0_5> .
+
+<http://w3id.org/polifonia/resource/JAMSObservation/SandysNewChanter5208/4_4_2_2_4_4@0.0> a jams:JAMSObservation,
+        jams:JAMSScoreObservation,
+        jams:ScorePatternOccurrence ;
+    rdfs:label [ ] ;
+    jams:hasDuration "0.0"^^xsd:float ;
+    jams:hasFrequency "3"^^xsd:int ;
+    jams:hasPatternType "pitch-class-values" ;
+    jams:ofPattern <http://w3id.org/polifonia/resource/pattern/4_4_2_2_4_4> .
+
+<http://w3id.org/polifonia/resource/JAMSObservation/SandysNewChanter5208/4_4_2_2_7_0@0.0> a jams:JAMSObservation,
+        jams:JAMSScoreObservation,
+        jams:ScorePatternOccurrence ;
+    rdfs:label [ ] ;
+    jams:hasDuration "0.0"^^xsd:float ;
+    jams:hasFrequency "1"^^xsd:int ;
+    jams:hasPatternType "pitch-class-values" ;
+    jams:ofPattern <http://w3id.org/polifonia/resource/pattern/4_4_2_2_7_0> .
+
+<http://w3id.org/polifonia/resource/JAMSObservation/SandysNewChanter5208/4_4_5_9_4_2@0.0> a jams:JAMSObservation,
+        jams:JAMSScoreObservation,
+        jams:ScorePatternOccurrence ;
+    rdfs:label [ ] ;
+    jams:hasDuration "0.0"^^xsd:float ;
+    jams:hasFrequency "4"^^xsd:int ;
+    jams:hasPatternType "pitch-class-values" ;
+    jams:ofPattern <http://w3id.org/polifonia/resource/pattern/4_4_5_9_4_2> .
+
+<http://w3id.org/polifonia/resource/JAMSObservation/SandysNewChanter5208/4_4_5_9_4_4@0.0> a jams:JAMSObservation,
+        jams:JAMSScoreObservation,
+        jams:ScorePatternOccurrence ;
+    rdfs:label [ ] ;
+    jams:hasDuration "0.0"^^xsd:float ;
+    jams:hasFrequency "2"^^xsd:int ;
+    jams:hasPatternType "pitch-class-values" ;
+    jams:ofPattern <http://w3id.org/polifonia/resource/pattern/4_4_5_9_4_4> .
+
+<http://w3id.org/polifonia/resource/JAMSObservation/SandysNewChanter5208/4_5_9_4_0_2@0.0> a jams:JAMSObservation,
+        jams:JAMSScoreObservation,
+        jams:ScorePatternOccurrence ;
+    rdfs:label [ ] ;
+    jams:hasDuration "0.0"^^xsd:float ;
+    jams:hasFrequency "2"^^xsd:int ;
+    jams:hasPatternType "pitch-class-values" ;
+    jams:ofPattern <http://w3id.org/polifonia/resource/pattern/4_5_9_4_0_2> .
+
+<http://w3id.org/polifonia/resource/JAMSObservation/SandysNewChanter5208/4_5_9_4_2_0@0.0> a jams:JAMSObservation,
+        jams:JAMSScoreObservation,
+        jams:ScorePatternOccurrence ;
+    rdfs:label [ ] ;
+    jams:hasDuration "0.0"^^xsd:float ;
+    jams:hasFrequency "5"^^xsd:int ;
+    jams:hasPatternType "pitch-class-values" ;
+    jams:ofPattern <http://w3id.org/polifonia/resource/pattern/4_5_9_4_2_0> .
+
+<http://w3id.org/polifonia/resource/JAMSObservation/SandysNewChanter5208/4_5_9_4_4_2@0.0> a jams:JAMSObservation,
+        jams:JAMSScoreObservation,
+        jams:ScorePatternOccurrence ;
+    rdfs:label [ ] ;
+    jams:hasDuration "0.0"^^xsd:float ;
+    jams:hasFrequency "2"^^xsd:int ;
+    jams:hasPatternType "pitch-class-values" ;
+    jams:ofPattern <http://w3id.org/polifonia/resource/pattern/4_5_9_4_4_2> .
+
+<http://w3id.org/polifonia/resource/JAMSObservation/SandysNewChanter5208/4_7_5_4_0_2@0.0> a jams:JAMSObservation,
+        jams:JAMSScoreObservation,
+        jams:ScorePatternOccurrence ;
+    rdfs:label [ ] ;
+    jams:hasDuration "0.0"^^xsd:float ;
+    jams:hasFrequency "2"^^xsd:int ;
+    jams:hasPatternType "pitch-class-values" ;
+    jams:ofPattern <http://w3id.org/polifonia/resource/pattern/4_7_5_4_0_2> .
+
+<http://w3id.org/polifonia/resource/JAMSObservation/SandysNewChanter5208/4_7_5_4_2_0@0.0> a jams:JAMSObservation,
+        jams:JAMSScoreObservation,
+        jams:ScorePatternOccurrence ;
+    rdfs:label [ ] ;
+    jams:hasDuration "0.0"^^xsd:float ;
+    jams:hasFrequency "2"^^xsd:int ;
+    jams:hasPatternType "pitch-class-values" ;
+    jams:ofPattern <http://w3id.org/polifonia/resource/pattern/4_7_5_4_2_0> .
+
+<http://w3id.org/polifonia/resource/JAMSObservation/SandysNewChanter5208/5_4_0_2_2_4@0.0> a jams:JAMSObservation,
+        jams:JAMSScoreObservation,
+        jams:ScorePatternOccurrence ;
+    rdfs:label [ ] ;
+    jams:hasDuration "0.0"^^xsd:float ;
+    jams:hasFrequency "2"^^xsd:int ;
+    jams:hasPatternType "pitch-class-values" ;
+    jams:ofPattern <http://w3id.org/polifonia/resource/pattern/5_4_0_2_2_4> .
+
+<http://w3id.org/polifonia/resource/JAMSObservation/SandysNewChanter5208/5_4_2_0_0_4@0.0> a jams:JAMSObservation,
+        jams:JAMSScoreObservation,
+        jams:ScorePatternOccurrence ;
+    rdfs:label [ ] ;
+    jams:hasDuration "0.0"^^xsd:float ;
+    jams:hasFrequency "1"^^xsd:int ;
+    jams:hasPatternType "pitch-class-values" ;
+    jams:ofPattern <http://w3id.org/polifonia/resource/pattern/5_4_2_0_0_4> .
+
+<http://w3id.org/polifonia/resource/JAMSObservation/SandysNewChanter5208/5_4_2_0_0_7@0.0> a jams:JAMSObservation,
+        jams:JAMSScoreObservation,
+        jams:ScorePatternOccurrence ;
+    rdfs:label [ ] ;
+    jams:hasDuration "0.0"^^xsd:float ;
+    jams:hasFrequency "1"^^xsd:int ;
+    jams:hasPatternType "pitch-class-values" ;
+    jams:ofPattern <http://w3id.org/polifonia/resource/pattern/5_4_2_0_0_7> .
+
+<http://w3id.org/polifonia/resource/JAMSObservation/SandysNewChanter5208/5_9_4_0_2_2@0.0> a jams:JAMSObservation,
+        jams:JAMSScoreObservation,
+        jams:ScorePatternOccurrence ;
+    rdfs:label [ ] ;
+    jams:hasDuration "0.0"^^xsd:float ;
+    jams:hasFrequency "2"^^xsd:int ;
+    jams:hasPatternType "pitch-class-values" ;
+    jams:ofPattern <http://w3id.org/polifonia/resource/pattern/5_9_4_0_2_2> .
+
+<http://w3id.org/polifonia/resource/JAMSObservation/SandysNewChanter5208/5_9_4_2_0_0@0.0> a jams:JAMSObservation,
+        jams:JAMSScoreObservation,
+        jams:ScorePatternOccurrence ;
+    rdfs:label [ ] ;
+    jams:hasDuration "0.0"^^xsd:float ;
+    jams:hasFrequency "6"^^xsd:int ;
+    jams:hasPatternType "pitch-class-values" ;
+    jams:ofPattern <http://w3id.org/polifonia/resource/pattern/5_9_4_2_0_0> .
+
+<http://w3id.org/polifonia/resource/JAMSObservation/SandysNewChanter5208/5_9_4_4_2_2@0.0> a jams:JAMSObservation,
+        jams:JAMSScoreObservation,
+        jams:ScorePatternOccurrence ;
+    rdfs:label [ ] ;
+    jams:hasDuration "0.0"^^xsd:float ;
+    jams:hasFrequency "4"^^xsd:int ;
+    jams:hasPatternType "pitch-class-values" ;
+    jams:ofPattern <http://w3id.org/polifonia/resource/pattern/5_9_4_4_2_2> .
+
+<http://w3id.org/polifonia/resource/JAMSObservation/SandysNewChanter5208/7_0_5_9_4_2@0.0> a jams:JAMSObservation,
+        jams:JAMSScoreObservation,
+        jams:ScorePatternOccurrence ;
+    rdfs:label [ ] ;
+    jams:hasDuration "0.0"^^xsd:float ;
+    jams:hasFrequency "1"^^xsd:int ;
+    jams:hasPatternType "pitch-class-values" ;
+    jams:ofPattern <http://w3id.org/polifonia/resource/pattern/7_0_5_9_4_2> .
+
+<http://w3id.org/polifonia/resource/JAMSObservation/SandysNewChanter5208/7_0_5_9_4_4@0.0> a jams:JAMSObservation,
+        jams:JAMSScoreObservation,
+        jams:ScorePatternOccurrence ;
+    rdfs:label [ ] ;
+    jams:hasDuration "0.0"^^xsd:float ;
+    jams:hasFrequency "2"^^xsd:int ;
+    jams:hasPatternType "pitch-class-values" ;
+    jams:ofPattern <http://w3id.org/polifonia/resource/pattern/7_0_5_9_4_4> .
+
+<http://w3id.org/polifonia/resource/JAMSObservation/SandysNewChanter5208/7_4_5_9_4_0@0.0> a jams:JAMSObservation,
+        jams:JAMSScoreObservation,
+        jams:ScorePatternOccurrence ;
+    rdfs:label [ ] ;
+    jams:hasDuration "0.0"^^xsd:float ;
+    jams:hasFrequency "2"^^xsd:int ;
+    jams:hasPatternType "pitch-class-values" ;
+    jams:ofPattern <http://w3id.org/polifonia/resource/pattern/7_4_5_9_4_0> .
+
+<http://w3id.org/polifonia/resource/JAMSObservation/SandysNewChanter5208/7_4_5_9_4_2@0.0> a jams:JAMSObservation,
+        jams:JAMSScoreObservation,
+        jams:ScorePatternOccurrence ;
+    rdfs:label [ ] ;
+    jams:hasDuration "0.0"^^xsd:float ;
+    jams:hasFrequency "1"^^xsd:int ;
+    jams:hasPatternType "pitch-class-values" ;
+    jams:ofPattern <http://w3id.org/polifonia/resource/pattern/7_4_5_9_4_2> .
+
+<http://w3id.org/polifonia/resource/JAMSObservation/SandysNewChanter5208/7_5_4_0_2_2@0.0> a jams:JAMSObservation,
+        jams:JAMSScoreObservation,
+        jams:ScorePatternOccurrence ;
+    rdfs:label [ ] ;
+    jams:hasDuration "0.0"^^xsd:float ;
+    jams:hasFrequency "2"^^xsd:int ;
+    jams:hasPatternType "pitch-class-values" ;
+    jams:ofPattern <http://w3id.org/polifonia/resource/pattern/7_5_4_0_2_2> .
+
+<http://w3id.org/polifonia/resource/JAMSObservation/SandysNewChanter5208/7_5_4_2_0_0@0.0> a jams:JAMSObservation,
+        jams:JAMSScoreObservation,
+        jams:ScorePatternOccurrence ;
+    rdfs:label [ ] ;
+    jams:hasDuration "0.0"^^xsd:float ;
+    jams:hasFrequency "2"^^xsd:int ;
+    jams:hasPatternType "pitch-class-values" ;
+    jams:ofPattern <http://w3id.org/polifonia/resource/pattern/7_5_4_2_0_0> .
+
+<http://w3id.org/polifonia/resource/JAMSObservation/SandysNewChanter5208/9.0_4.0_2.0_0.0_0.0_7.0@0.0> a jams:JAMSObservation,
+        jams:JAMSScoreObservation,
+        jams:ScorePatternOccurrence ;
+    rdfs:label [ ] ;
+    jams:hasDuration "0.0"^^xsd:float ;
+    jams:hasFrequency "3"^^xsd:int ;
+    jams:hasPatternType "pitch-class-values" ;
+    jams:ofPattern <http://w3id.org/polifonia/resource/pattern/9.0_4.0_2.0_0.0_0.0_7.0> .
+
+<http://w3id.org/polifonia/resource/JAMSObservation/SandysNewChanter5208/9_4_0_2_2_4@0.0> a jams:JAMSObservation,
+        jams:JAMSScoreObservation,
+        jams:ScorePatternOccurrence ;
+    rdfs:label [ ] ;
+    jams:hasDuration "0.0"^^xsd:float ;
+    jams:hasFrequency "1"^^xsd:int ;
+    jams:hasPatternType "pitch-class-values" ;
+    jams:ofPattern <http://w3id.org/polifonia/resource/pattern/9_4_0_2_2_4> .
+
+<http://w3id.org/polifonia/resource/JAMSObservation/SandysNewChanter5208/9_4_0_2_2_7@0.0> a jams:JAMSObservation,
+        jams:JAMSScoreObservation,
+        jams:ScorePatternOccurrence ;
+    rdfs:label [ ] ;
+    jams:hasDuration "0.0"^^xsd:float ;
+    jams:hasFrequency "1"^^xsd:int ;
+    jams:hasPatternType "pitch-class-values" ;
+    jams:ofPattern <http://w3id.org/polifonia/resource/pattern/9_4_0_2_2_7> .
+
+<http://w3id.org/polifonia/resource/JAMSObservation/SandysNewChanter5208/9_4_2_0_0_4@0.0> a jams:JAMSObservation,
+        jams:JAMSScoreObservation,
+        jams:ScorePatternOccurrence ;
+    rdfs:label [ ] ;
+    jams:hasDuration "0.0"^^xsd:float ;
+    jams:hasFrequency "2"^^xsd:int ;
+    jams:hasPatternType "pitch-class-values" ;
+    jams:ofPattern <http://w3id.org/polifonia/resource/pattern/9_4_2_0_0_4> .
+
+<http://w3id.org/polifonia/resource/JAMSObservation/SandysNewChanter5208/9_4_4_2_2_4@0.0> a jams:JAMSObservation,
+        jams:JAMSScoreObservation,
+        jams:ScorePatternOccurrence ;
+    rdfs:label [ ] ;
+    jams:hasDuration "0.0"^^xsd:float ;
+    jams:hasFrequency "3"^^xsd:int ;
+    jams:hasPatternType "pitch-class-values" ;
+    jams:ofPattern <http://w3id.org/polifonia/resource/pattern/9_4_4_2_2_4> .
+
+<http://w3id.org/polifonia/resource/JAMSObservation/SandysNewChanter5208/9_4_4_2_2_7@0.0> a jams:JAMSObservation,
+        jams:JAMSScoreObservation,
+        jams:ScorePatternOccurrence ;
+    rdfs:label [ ] ;
+    jams:hasDuration "0.0"^^xsd:float ;
+    jams:hasFrequency "1"^^xsd:int ;
+    jams:hasPatternType "pitch-class-values" ;
+    jams:ofPattern <http://w3id.org/polifonia/resource/pattern/9_4_4_2_2_7> .
+
+<http://w3id.org/polifonia/resource/MusicalComposition/25b78f0694d2fc12cfef6b8fc576ed05d8d3b763> a mc:MusicalComposition ;
+    rdfs:label "SandysNewChanter5208" ;
+    mc:title "SandysNewChanter5208" ;
+    prov:wasDerivedFrom <http://w3id.org/polifonia/resource/JAMSFile/SandysNewChanter5208.jams> .
+

@@ -1,0 +1,141 @@
+@prefix core: <http://w3id.org/polifonia/ontology/core/> .
+@prefix jams: <http://w3id.org/polifonia/ontology/jams/> .
+@prefix mc: <http://w3id.org/polifonia/ontology/musical-composition/> .
+@prefix pon-resource: <http://w3id.org/polifonia/resource/> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+pon-resource:Agent%2Fannotator_local_id a core:Agent ;
+    rdfs:label "FONN-Tool" ;
+    jams:hasAnnotatorType pon-resource:annotator-program ;
+    jams:hasName "FONN-Tool" .
+
+<http://w3id.org/polifonia/resource/JAMSAnnotation/8abe7a28023bb1793b24962be2bfbf0b5b24e563> a jams:JAMSAnnotation,
+        jams:JAMSScoreAnnotation ;
+    jams:includesObservation <http://w3id.org/polifonia/resource/JAMSObservation/NymrodThe29479/0_3_10_3_5_7@0.0>,
+        <http://w3id.org/polifonia/resource/JAMSObservation/NymrodThe29479/10_10_5_7_5_7@0.0>,
+        <http://w3id.org/polifonia/resource/JAMSObservation/NymrodThe29479/10_9_2_9_0_3@0.0>,
+        <http://w3id.org/polifonia/resource/JAMSObservation/NymrodThe29479/4_5_7_5_7_9@0.0>,
+        <http://w3id.org/polifonia/resource/JAMSObservation/NymrodThe29479/5_10_10_5_7_5@0.0>,
+        <http://w3id.org/polifonia/resource/JAMSObservation/NymrodThe29479/5_7_5_7_9_5@0.0>,
+        <http://w3id.org/polifonia/resource/JAMSObservation/NymrodThe29479/5_7_9_5_9_4@0.0>,
+        <http://w3id.org/polifonia/resource/JAMSObservation/NymrodThe29479/7_5_7_9_5_9@0.0>,
+        <http://w3id.org/polifonia/resource/JAMSObservation/NymrodThe29479/7_9_5_9_4_5@0.0>,
+        <http://w3id.org/polifonia/resource/JAMSObservation/NymrodThe29479/9_4_5_7_5_7@0.0>,
+        <http://w3id.org/polifonia/resource/JAMSObservation/NymrodThe29479/9_5_9_4_5_7@0.0> ;
+    jams:isJAMSAnnotationOf <http://w3id.org/polifonia/resource/MusicalComposition/8abe7a28023bb1793b24962be2bfbf0b5b24e563> .
+
+<http://w3id.org/polifonia/resource/Score/song_local_id> jams:hasJAMSAnnotation <http://w3id.org/polifonia/resource/MusicalComposition/8abe7a28023bb1793b24962be2bfbf0b5b24e563> .
+
+<http://w3id.org/polifonia/resource/JAMSFile/NymrodThe29479.jams> a jams:JAMSFile ;
+    jams:identifiers [ ] ;
+    jams:jamsVersion "0.3.4" ;
+    jams:release "" ;
+    prov:wasDerivedFrom "The Session" ;
+    prov:wasMemberOf <https://github.com/ashahidkhattak/thesession> .
+
+<http://w3id.org/polifonia/resource/JAMSObservation/NymrodThe29479/0_3_10_3_5_7@0.0> a jams:JAMSObservation,
+        jams:JAMSScoreObservation,
+        jams:ScorePatternOccurrence ;
+    rdfs:label [ ] ;
+    jams:hasDuration "0.0"^^xsd:float ;
+    jams:hasFrequency "1"^^xsd:int ;
+    jams:hasPatternType "pitch-class-values" ;
+    jams:ofPattern <http://w3id.org/polifonia/resource/pattern/0_3_10_3_5_7> .
+
+<http://w3id.org/polifonia/resource/JAMSObservation/NymrodThe29479/10_10_5_7_5_7@0.0> a jams:JAMSObservation,
+        jams:JAMSScoreObservation,
+        jams:ScorePatternOccurrence ;
+    rdfs:label [ ] ;
+    jams:hasDuration "0.0"^^xsd:float ;
+    jams:hasFrequency "1"^^xsd:int ;
+    jams:hasPatternType "pitch-class-values" ;
+    jams:ofPattern <http://w3id.org/polifonia/resource/pattern/10_10_5_7_5_7> .
+
+<http://w3id.org/polifonia/resource/JAMSObservation/NymrodThe29479/10_9_2_9_0_3@0.0> a jams:JAMSObservation,
+        jams:JAMSScoreObservation,
+        jams:ScorePatternOccurrence ;
+    rdfs:label [ ] ;
+    jams:hasDuration "0.0"^^xsd:float ;
+    jams:hasFrequency "4"^^xsd:int ;
+    jams:hasPatternType "pitch-class-values" ;
+    jams:ofPattern <http://w3id.org/polifonia/resource/pattern/10_9_2_9_0_3> .
+
+<http://w3id.org/polifonia/resource/JAMSObservation/NymrodThe29479/4_5_7_5_7_9@0.0> a jams:JAMSObservation,
+        jams:JAMSScoreObservation,
+        jams:ScorePatternOccurrence ;
+    rdfs:label [ ] ;
+    jams:hasDuration "0.0"^^xsd:float ;
+    jams:hasFrequency "2"^^xsd:int ;
+    jams:hasPatternType "pitch-class-values" ;
+    jams:ofPattern <http://w3id.org/polifonia/resource/pattern/4_5_7_5_7_9> .
+
+<http://w3id.org/polifonia/resource/JAMSObservation/NymrodThe29479/5_10_10_5_7_5@0.0> a jams:JAMSObservation,
+        jams:JAMSScoreObservation,
+        jams:ScorePatternOccurrence ;
+    rdfs:label [ ] ;
+    jams:hasDuration "0.0"^^xsd:float ;
+    jams:hasFrequency "1"^^xsd:int ;
+    jams:hasPatternType "pitch-class-values" ;
+    jams:ofPattern <http://w3id.org/polifonia/resource/pattern/5_10_10_5_7_5> .
+
+<http://w3id.org/polifonia/resource/JAMSObservation/NymrodThe29479/5_7_5_7_9_5@0.0> a jams:JAMSObservation,
+        jams:JAMSScoreObservation,
+        jams:ScorePatternOccurrence ;
+    rdfs:label [ ] ;
+    jams:hasDuration "0.0"^^xsd:float ;
+    jams:hasFrequency "4"^^xsd:int ;
+    jams:hasPatternType "pitch-class-values" ;
+    jams:ofPattern <http://w3id.org/polifonia/resource/pattern/5_7_5_7_9_5> .
+
+<http://w3id.org/polifonia/resource/JAMSObservation/NymrodThe29479/5_7_9_5_9_4@0.0> a jams:JAMSObservation,
+        jams:JAMSScoreObservation,
+        jams:ScorePatternOccurrence ;
+    rdfs:label [ ] ;
+    jams:hasDuration "0.0"^^xsd:float ;
+    jams:hasFrequency "2"^^xsd:int ;
+    jams:hasPatternType "pitch-class-values" ;
+    jams:ofPattern <http://w3id.org/polifonia/resource/pattern/5_7_9_5_9_4> .
+
+<http://w3id.org/polifonia/resource/JAMSObservation/NymrodThe29479/7_5_7_9_5_9@0.0> a jams:JAMSObservation,
+        jams:JAMSScoreObservation,
+        jams:ScorePatternOccurrence ;
+    rdfs:label [ ] ;
+    jams:hasDuration "0.0"^^xsd:float ;
+    jams:hasFrequency "2"^^xsd:int ;
+    jams:hasPatternType "pitch-class-values" ;
+    jams:ofPattern <http://w3id.org/polifonia/resource/pattern/7_5_7_9_5_9> .
+
+<http://w3id.org/polifonia/resource/JAMSObservation/NymrodThe29479/7_9_5_9_4_5@0.0> a jams:JAMSObservation,
+        jams:JAMSScoreObservation,
+        jams:ScorePatternOccurrence ;
+    rdfs:label [ ] ;
+    jams:hasDuration "0.0"^^xsd:float ;
+    jams:hasFrequency "2"^^xsd:int ;
+    jams:hasPatternType "pitch-class-values" ;
+    jams:ofPattern <http://w3id.org/polifonia/resource/pattern/7_9_5_9_4_5> .
+
+<http://w3id.org/polifonia/resource/JAMSObservation/NymrodThe29479/9_4_5_7_5_7@0.0> a jams:JAMSObservation,
+        jams:JAMSScoreObservation,
+        jams:ScorePatternOccurrence ;
+    rdfs:label [ ] ;
+    jams:hasDuration "0.0"^^xsd:float ;
+    jams:hasFrequency "2"^^xsd:int ;
+    jams:hasPatternType "pitch-class-values" ;
+    jams:ofPattern <http://w3id.org/polifonia/resource/pattern/9_4_5_7_5_7> .
+
+<http://w3id.org/polifonia/resource/JAMSObservation/NymrodThe29479/9_5_9_4_5_7@0.0> a jams:JAMSObservation,
+        jams:JAMSScoreObservation,
+        jams:ScorePatternOccurrence ;
+    rdfs:label [ ] ;
+    jams:hasDuration "0.0"^^xsd:float ;
+    jams:hasFrequency "2"^^xsd:int ;
+    jams:hasPatternType "pitch-class-values" ;
+    jams:ofPattern <http://w3id.org/polifonia/resource/pattern/9_5_9_4_5_7> .
+
+<http://w3id.org/polifonia/resource/MusicalComposition/8abe7a28023bb1793b24962be2bfbf0b5b24e563> a mc:MusicalComposition ;
+    rdfs:label "NymrodThe29479" ;
+    mc:title "NymrodThe29479" ;
+    prov:wasDerivedFrom <http://w3id.org/polifonia/resource/JAMSFile/NymrodThe29479.jams> .
+

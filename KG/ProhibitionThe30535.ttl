@@ -1,0 +1,201 @@
+@prefix core: <http://w3id.org/polifonia/ontology/core/> .
+@prefix jams: <http://w3id.org/polifonia/ontology/jams/> .
+@prefix mc: <http://w3id.org/polifonia/ontology/musical-composition/> .
+@prefix pon-resource: <http://w3id.org/polifonia/resource/> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+pon-resource:Agent%2Fannotator_local_id a core:Agent ;
+    rdfs:label "FONN-Tool" ;
+    jams:hasAnnotatorType pon-resource:annotator-program ;
+    jams:hasName "FONN-Tool" .
+
+<http://w3id.org/polifonia/resource/JAMSAnnotation/2ef9ace5b4a9ea9ce3b55a96821d34c6218f9861> a jams:JAMSAnnotation,
+        jams:JAMSScoreAnnotation ;
+    jams:includesObservation <http://w3id.org/polifonia/resource/JAMSObservation/ProhibitionThe30535/0_4_9_2_11_4@0.0>,
+        <http://w3id.org/polifonia/resource/JAMSObservation/ProhibitionThe30535/11_4_9_2_11_4@0.0>,
+        <http://w3id.org/polifonia/resource/JAMSObservation/ProhibitionThe30535/11_4_9_5_0_4@0.0>,
+        <http://w3id.org/polifonia/resource/JAMSObservation/ProhibitionThe30535/11_4_9_5_11_4@0.0>,
+        <http://w3id.org/polifonia/resource/JAMSObservation/ProhibitionThe30535/2_11_4_5_11_0@0.0>,
+        <http://w3id.org/polifonia/resource/JAMSObservation/ProhibitionThe30535/2_11_4_9_5_0@0.0>,
+        <http://w3id.org/polifonia/resource/JAMSObservation/ProhibitionThe30535/2_11_4_9_5_11@0.0>,
+        <http://w3id.org/polifonia/resource/JAMSObservation/ProhibitionThe30535/4_9_2_11_4_5@0.0>,
+        <http://w3id.org/polifonia/resource/JAMSObservation/ProhibitionThe30535/4_9_2_11_4_9@0.0>,
+        <http://w3id.org/polifonia/resource/JAMSObservation/ProhibitionThe30535/4_9_5_0_4_9@0.0>,
+        <http://w3id.org/polifonia/resource/JAMSObservation/ProhibitionThe30535/4_9_5_11_4_9@0.0>,
+        <http://w3id.org/polifonia/resource/JAMSObservation/ProhibitionThe30535/5_0_4_9_2_11@0.0>,
+        <http://w3id.org/polifonia/resource/JAMSObservation/ProhibitionThe30535/5_11_4_9_2_11@0.0>,
+        <http://w3id.org/polifonia/resource/JAMSObservation/ProhibitionThe30535/9_2_11_4_5_11@0.0>,
+        <http://w3id.org/polifonia/resource/JAMSObservation/ProhibitionThe30535/9_2_11_4_9_5@0.0>,
+        <http://w3id.org/polifonia/resource/JAMSObservation/ProhibitionThe30535/9_5_0_4_9_2@0.0>,
+        <http://w3id.org/polifonia/resource/JAMSObservation/ProhibitionThe30535/9_5_11_4_9_2@0.0> ;
+    jams:isJAMSAnnotationOf <http://w3id.org/polifonia/resource/MusicalComposition/2ef9ace5b4a9ea9ce3b55a96821d34c6218f9861> .
+
+<http://w3id.org/polifonia/resource/Score/song_local_id> jams:hasJAMSAnnotation <http://w3id.org/polifonia/resource/MusicalComposition/2ef9ace5b4a9ea9ce3b55a96821d34c6218f9861> .
+
+<http://w3id.org/polifonia/resource/JAMSFile/ProhibitionThe30535.jams> a jams:JAMSFile ;
+    jams:identifiers [ ] ;
+    jams:jamsVersion "0.3.4" ;
+    jams:release "" ;
+    prov:wasDerivedFrom "The Session" ;
+    prov:wasMemberOf <https://github.com/ashahidkhattak/thesession> .
+
+<http://w3id.org/polifonia/resource/JAMSObservation/ProhibitionThe30535/0_4_9_2_11_4@0.0> a jams:JAMSObservation,
+        jams:JAMSScoreObservation,
+        jams:ScorePatternOccurrence ;
+    rdfs:label [ ] ;
+    jams:hasDuration "0.0"^^xsd:float ;
+    jams:hasFrequency "2"^^xsd:int ;
+    jams:hasPatternType "pitch-class-values" ;
+    jams:ofPattern <http://w3id.org/polifonia/resource/pattern/0_4_9_2_11_4> .
+
+<http://w3id.org/polifonia/resource/JAMSObservation/ProhibitionThe30535/11_4_9_2_11_4@0.0> a jams:JAMSObservation,
+        jams:JAMSScoreObservation,
+        jams:ScorePatternOccurrence ;
+    rdfs:label [ ] ;
+    jams:hasDuration "0.0"^^xsd:float ;
+    jams:hasFrequency "1"^^xsd:int ;
+    jams:hasPatternType "pitch-class-values" ;
+    jams:ofPattern <http://w3id.org/polifonia/resource/pattern/11_4_9_2_11_4> .
+
+<http://w3id.org/polifonia/resource/JAMSObservation/ProhibitionThe30535/11_4_9_5_0_4@0.0> a jams:JAMSObservation,
+        jams:JAMSScoreObservation,
+        jams:ScorePatternOccurrence ;
+    rdfs:label [ ] ;
+    jams:hasDuration "0.0"^^xsd:float ;
+    jams:hasFrequency "2"^^xsd:int ;
+    jams:hasPatternType "pitch-class-values" ;
+    jams:ofPattern <http://w3id.org/polifonia/resource/pattern/11_4_9_5_0_4> .
+
+<http://w3id.org/polifonia/resource/JAMSObservation/ProhibitionThe30535/11_4_9_5_11_4@0.0> a jams:JAMSObservation,
+        jams:JAMSScoreObservation,
+        jams:ScorePatternOccurrence ;
+    rdfs:label [ ] ;
+    jams:hasDuration "0.0"^^xsd:float ;
+    jams:hasFrequency "1"^^xsd:int ;
+    jams:hasPatternType "pitch-class-values" ;
+    jams:ofPattern <http://w3id.org/polifonia/resource/pattern/11_4_9_5_11_4> .
+
+<http://w3id.org/polifonia/resource/JAMSObservation/ProhibitionThe30535/2_11_4_5_11_0@0.0> a jams:JAMSObservation,
+        jams:JAMSScoreObservation,
+        jams:ScorePatternOccurrence ;
+    rdfs:label [ ] ;
+    jams:hasDuration "0.0"^^xsd:float ;
+    jams:hasFrequency "1"^^xsd:int ;
+    jams:hasPatternType "pitch-class-values" ;
+    jams:ofPattern <http://w3id.org/polifonia/resource/pattern/2_11_4_5_11_0> .
+
+<http://w3id.org/polifonia/resource/JAMSObservation/ProhibitionThe30535/2_11_4_9_5_0@0.0> a jams:JAMSObservation,
+        jams:JAMSScoreObservation,
+        jams:ScorePatternOccurrence ;
+    rdfs:label [ ] ;
+    jams:hasDuration "0.0"^^xsd:float ;
+    jams:hasFrequency "2"^^xsd:int ;
+    jams:hasPatternType "pitch-class-values" ;
+    jams:ofPattern <http://w3id.org/polifonia/resource/pattern/2_11_4_9_5_0> .
+
+<http://w3id.org/polifonia/resource/JAMSObservation/ProhibitionThe30535/2_11_4_9_5_11@0.0> a jams:JAMSObservation,
+        jams:JAMSScoreObservation,
+        jams:ScorePatternOccurrence ;
+    rdfs:label [ ] ;
+    jams:hasDuration "0.0"^^xsd:float ;
+    jams:hasFrequency "1"^^xsd:int ;
+    jams:hasPatternType "pitch-class-values" ;
+    jams:ofPattern <http://w3id.org/polifonia/resource/pattern/2_11_4_9_5_11> .
+
+<http://w3id.org/polifonia/resource/JAMSObservation/ProhibitionThe30535/4_9_2_11_4_5@0.0> a jams:JAMSObservation,
+        jams:JAMSScoreObservation,
+        jams:ScorePatternOccurrence ;
+    rdfs:label [ ] ;
+    jams:hasDuration "0.0"^^xsd:float ;
+    jams:hasFrequency "1"^^xsd:int ;
+    jams:hasPatternType "pitch-class-values" ;
+    jams:ofPattern <http://w3id.org/polifonia/resource/pattern/4_9_2_11_4_5> .
+
+<http://w3id.org/polifonia/resource/JAMSObservation/ProhibitionThe30535/4_9_2_11_4_9@0.0> a jams:JAMSObservation,
+        jams:JAMSScoreObservation,
+        jams:ScorePatternOccurrence ;
+    rdfs:label [ ] ;
+    jams:hasDuration "0.0"^^xsd:float ;
+    jams:hasFrequency "3"^^xsd:int ;
+    jams:hasPatternType "pitch-class-values" ;
+    jams:ofPattern <http://w3id.org/polifonia/resource/pattern/4_9_2_11_4_9> .
+
+<http://w3id.org/polifonia/resource/JAMSObservation/ProhibitionThe30535/4_9_5_0_4_9@0.0> a jams:JAMSObservation,
+        jams:JAMSScoreObservation,
+        jams:ScorePatternOccurrence ;
+    rdfs:label [ ] ;
+    jams:hasDuration "0.0"^^xsd:float ;
+    jams:hasFrequency "2"^^xsd:int ;
+    jams:hasPatternType "pitch-class-values" ;
+    jams:ofPattern <http://w3id.org/polifonia/resource/pattern/4_9_5_0_4_9> .
+
+<http://w3id.org/polifonia/resource/JAMSObservation/ProhibitionThe30535/4_9_5_11_4_9@0.0> a jams:JAMSObservation,
+        jams:JAMSScoreObservation,
+        jams:ScorePatternOccurrence ;
+    rdfs:label [ ] ;
+    jams:hasDuration "0.0"^^xsd:float ;
+    jams:hasFrequency "1"^^xsd:int ;
+    jams:hasPatternType "pitch-class-values" ;
+    jams:ofPattern <http://w3id.org/polifonia/resource/pattern/4_9_5_11_4_9> .
+
+<http://w3id.org/polifonia/resource/JAMSObservation/ProhibitionThe30535/5_0_4_9_2_11@0.0> a jams:JAMSObservation,
+        jams:JAMSScoreObservation,
+        jams:ScorePatternOccurrence ;
+    rdfs:label [ ] ;
+    jams:hasDuration "0.0"^^xsd:float ;
+    jams:hasFrequency "2"^^xsd:int ;
+    jams:hasPatternType "pitch-class-values" ;
+    jams:ofPattern <http://w3id.org/polifonia/resource/pattern/5_0_4_9_2_11> .
+
+<http://w3id.org/polifonia/resource/JAMSObservation/ProhibitionThe30535/5_11_4_9_2_11@0.0> a jams:JAMSObservation,
+        jams:JAMSScoreObservation,
+        jams:ScorePatternOccurrence ;
+    rdfs:label [ ] ;
+    jams:hasDuration "0.0"^^xsd:float ;
+    jams:hasFrequency "1"^^xsd:int ;
+    jams:hasPatternType "pitch-class-values" ;
+    jams:ofPattern <http://w3id.org/polifonia/resource/pattern/5_11_4_9_2_11> .
+
+<http://w3id.org/polifonia/resource/JAMSObservation/ProhibitionThe30535/9_2_11_4_5_11@0.0> a jams:JAMSObservation,
+        jams:JAMSScoreObservation,
+        jams:ScorePatternOccurrence ;
+    rdfs:label [ ] ;
+    jams:hasDuration "0.0"^^xsd:float ;
+    jams:hasFrequency "1"^^xsd:int ;
+    jams:hasPatternType "pitch-class-values" ;
+    jams:ofPattern <http://w3id.org/polifonia/resource/pattern/9_2_11_4_5_11> .
+
+<http://w3id.org/polifonia/resource/JAMSObservation/ProhibitionThe30535/9_2_11_4_9_5@0.0> a jams:JAMSObservation,
+        jams:JAMSScoreObservation,
+        jams:ScorePatternOccurrence ;
+    rdfs:label [ ] ;
+    jams:hasDuration "0.0"^^xsd:float ;
+    jams:hasFrequency "3"^^xsd:int ;
+    jams:hasPatternType "pitch-class-values" ;
+    jams:ofPattern <http://w3id.org/polifonia/resource/pattern/9_2_11_4_9_5> .
+
+<http://w3id.org/polifonia/resource/JAMSObservation/ProhibitionThe30535/9_5_0_4_9_2@0.0> a jams:JAMSObservation,
+        jams:JAMSScoreObservation,
+        jams:ScorePatternOccurrence ;
+    rdfs:label [ ] ;
+    jams:hasDuration "0.0"^^xsd:float ;
+    jams:hasFrequency "2"^^xsd:int ;
+    jams:hasPatternType "pitch-class-values" ;
+    jams:ofPattern <http://w3id.org/polifonia/resource/pattern/9_5_0_4_9_2> .
+
+<http://w3id.org/polifonia/resource/JAMSObservation/ProhibitionThe30535/9_5_11_4_9_2@0.0> a jams:JAMSObservation,
+        jams:JAMSScoreObservation,
+        jams:ScorePatternOccurrence ;
+    rdfs:label [ ] ;
+    jams:hasDuration "0.0"^^xsd:float ;
+    jams:hasFrequency "1"^^xsd:int ;
+    jams:hasPatternType "pitch-class-values" ;
+    jams:ofPattern <http://w3id.org/polifonia/resource/pattern/9_5_11_4_9_2> .
+
+<http://w3id.org/polifonia/resource/MusicalComposition/2ef9ace5b4a9ea9ce3b55a96821d34c6218f9861> a mc:MusicalComposition ;
+    rdfs:label "ProhibitionThe30535" ;
+    mc:title "ProhibitionThe30535" ;
+    prov:wasDerivedFrom <http://w3id.org/polifonia/resource/JAMSFile/ProhibitionThe30535.jams> .
+

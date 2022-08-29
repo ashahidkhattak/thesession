@@ -1,0 +1,211 @@
+@prefix core: <http://w3id.org/polifonia/ontology/core/> .
+@prefix jams: <http://w3id.org/polifonia/ontology/jams/> .
+@prefix mc: <http://w3id.org/polifonia/ontology/musical-composition/> .
+@prefix pon-resource: <http://w3id.org/polifonia/resource/> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+pon-resource:Agent%2Fannotator_local_id a core:Agent ;
+    rdfs:label "FONN-Tool" ;
+    jams:hasAnnotatorType pon-resource:annotator-program ;
+    jams:hasName "FONN-Tool" .
+
+<http://w3id.org/polifonia/resource/JAMSAnnotation/ba954904663b4bc3f776c8a4c285d9478bf41e98> a jams:JAMSAnnotation,
+        jams:JAMSScoreAnnotation ;
+    jams:includesObservation <http://w3id.org/polifonia/resource/JAMSObservation/WhereLiliesBloom15146/0_0_9_2_0_9@0.0>,
+        <http://w3id.org/polifonia/resource/JAMSObservation/WhereLiliesBloom15146/0_0_9_9_0_0@0.0>,
+        <http://w3id.org/polifonia/resource/JAMSObservation/WhereLiliesBloom15146/0_9_2_0_9_9@0.0>,
+        <http://w3id.org/polifonia/resource/JAMSObservation/WhereLiliesBloom15146/0_9_2_4_0_9@0.0>,
+        <http://w3id.org/polifonia/resource/JAMSObservation/WhereLiliesBloom15146/0_9_9_0_0_9@0.0>,
+        <http://w3id.org/polifonia/resource/JAMSObservation/WhereLiliesBloom15146/0_9_9_4_0_9@0.0>,
+        <http://w3id.org/polifonia/resource/JAMSObservation/WhereLiliesBloom15146/2_0_9_9_0_0@0.0>,
+        <http://w3id.org/polifonia/resource/JAMSObservation/WhereLiliesBloom15146/2_0_9_9_4_0@0.0>,
+        <http://w3id.org/polifonia/resource/JAMSObservation/WhereLiliesBloom15146/2_4_0_9_9_0@0.0>,
+        <http://w3id.org/polifonia/resource/JAMSObservation/WhereLiliesBloom15146/4_0_9_2_4_0@0.0>,
+        <http://w3id.org/polifonia/resource/JAMSObservation/WhereLiliesBloom15146/4_0_9_9_0_0@0.0>,
+        <http://w3id.org/polifonia/resource/JAMSObservation/WhereLiliesBloom15146/9_0_0_9_2_0@0.0>,
+        <http://w3id.org/polifonia/resource/JAMSObservation/WhereLiliesBloom15146/9_2_0_9_9_0@0.0>,
+        <http://w3id.org/polifonia/resource/JAMSObservation/WhereLiliesBloom15146/9_2_0_9_9_4@0.0>,
+        <http://w3id.org/polifonia/resource/JAMSObservation/WhereLiliesBloom15146/9_2_4_0_9_9@0.0>,
+        <http://w3id.org/polifonia/resource/JAMSObservation/WhereLiliesBloom15146/9_4_0_9_2_4@0.0>,
+        <http://w3id.org/polifonia/resource/JAMSObservation/WhereLiliesBloom15146/9_9_0_0_9_2@0.0>,
+        <http://w3id.org/polifonia/resource/JAMSObservation/WhereLiliesBloom15146/9_9_4_0_9_2@0.0> ;
+    jams:isJAMSAnnotationOf <http://w3id.org/polifonia/resource/MusicalComposition/ba954904663b4bc3f776c8a4c285d9478bf41e98> .
+
+<http://w3id.org/polifonia/resource/Score/song_local_id> jams:hasJAMSAnnotation <http://w3id.org/polifonia/resource/MusicalComposition/ba954904663b4bc3f776c8a4c285d9478bf41e98> .
+
+<http://w3id.org/polifonia/resource/JAMSFile/WhereLiliesBloom15146.jams> a jams:JAMSFile ;
+    jams:identifiers [ ] ;
+    jams:jamsVersion "0.3.4" ;
+    jams:release "" ;
+    prov:wasDerivedFrom "The Session" ;
+    prov:wasMemberOf <https://github.com/ashahidkhattak/thesession> .
+
+<http://w3id.org/polifonia/resource/JAMSObservation/WhereLiliesBloom15146/0_0_9_2_0_9@0.0> a jams:JAMSObservation,
+        jams:JAMSScoreObservation,
+        jams:ScorePatternOccurrence ;
+    rdfs:label [ ] ;
+    jams:hasDuration "0.0"^^xsd:float ;
+    jams:hasFrequency "2"^^xsd:int ;
+    jams:hasPatternType "pitch-class-values" ;
+    jams:ofPattern <http://w3id.org/polifonia/resource/pattern/0_0_9_2_0_9> .
+
+<http://w3id.org/polifonia/resource/JAMSObservation/WhereLiliesBloom15146/0_0_9_9_0_0@0.0> a jams:JAMSObservation,
+        jams:JAMSScoreObservation,
+        jams:ScorePatternOccurrence ;
+    rdfs:label [ ] ;
+    jams:hasDuration "0.0"^^xsd:float ;
+    jams:hasFrequency "1"^^xsd:int ;
+    jams:hasPatternType "pitch-class-values" ;
+    jams:ofPattern <http://w3id.org/polifonia/resource/pattern/0_0_9_9_0_0> .
+
+<http://w3id.org/polifonia/resource/JAMSObservation/WhereLiliesBloom15146/0_9_2_0_9_9@0.0> a jams:JAMSObservation,
+        jams:JAMSScoreObservation,
+        jams:ScorePatternOccurrence ;
+    rdfs:label [ ] ;
+    jams:hasDuration "0.0"^^xsd:float ;
+    jams:hasFrequency "2"^^xsd:int ;
+    jams:hasPatternType "pitch-class-values" ;
+    jams:ofPattern <http://w3id.org/polifonia/resource/pattern/0_9_2_0_9_9> .
+
+<http://w3id.org/polifonia/resource/JAMSObservation/WhereLiliesBloom15146/0_9_2_4_0_9@0.0> a jams:JAMSObservation,
+        jams:JAMSScoreObservation,
+        jams:ScorePatternOccurrence ;
+    rdfs:label [ ] ;
+    jams:hasDuration "0.0"^^xsd:float ;
+    jams:hasFrequency "1"^^xsd:int ;
+    jams:hasPatternType "pitch-class-values" ;
+    jams:ofPattern <http://w3id.org/polifonia/resource/pattern/0_9_2_4_0_9> .
+
+<http://w3id.org/polifonia/resource/JAMSObservation/WhereLiliesBloom15146/0_9_9_0_0_9@0.0> a jams:JAMSObservation,
+        jams:JAMSScoreObservation,
+        jams:ScorePatternOccurrence ;
+    rdfs:label [ ] ;
+    jams:hasDuration "0.0"^^xsd:float ;
+    jams:hasFrequency "3"^^xsd:int ;
+    jams:hasPatternType "pitch-class-values" ;
+    jams:ofPattern <http://w3id.org/polifonia/resource/pattern/0_9_9_0_0_9> .
+
+<http://w3id.org/polifonia/resource/JAMSObservation/WhereLiliesBloom15146/0_9_9_4_0_9@0.0> a jams:JAMSObservation,
+        jams:JAMSScoreObservation,
+        jams:ScorePatternOccurrence ;
+    rdfs:label [ ] ;
+    jams:hasDuration "0.0"^^xsd:float ;
+    jams:hasFrequency "1"^^xsd:int ;
+    jams:hasPatternType "pitch-class-values" ;
+    jams:ofPattern <http://w3id.org/polifonia/resource/pattern/0_9_9_4_0_9> .
+
+<http://w3id.org/polifonia/resource/JAMSObservation/WhereLiliesBloom15146/2_0_9_9_0_0@0.0> a jams:JAMSObservation,
+        jams:JAMSScoreObservation,
+        jams:ScorePatternOccurrence ;
+    rdfs:label [ ] ;
+    jams:hasDuration "0.0"^^xsd:float ;
+    jams:hasFrequency "1"^^xsd:int ;
+    jams:hasPatternType "pitch-class-values" ;
+    jams:ofPattern <http://w3id.org/polifonia/resource/pattern/2_0_9_9_0_0> .
+
+<http://w3id.org/polifonia/resource/JAMSObservation/WhereLiliesBloom15146/2_0_9_9_4_0@0.0> a jams:JAMSObservation,
+        jams:JAMSScoreObservation,
+        jams:ScorePatternOccurrence ;
+    rdfs:label [ ] ;
+    jams:hasDuration "0.0"^^xsd:float ;
+    jams:hasFrequency "1"^^xsd:int ;
+    jams:hasPatternType "pitch-class-values" ;
+    jams:ofPattern <http://w3id.org/polifonia/resource/pattern/2_0_9_9_4_0> .
+
+<http://w3id.org/polifonia/resource/JAMSObservation/WhereLiliesBloom15146/2_4_0_9_9_0@0.0> a jams:JAMSObservation,
+        jams:JAMSScoreObservation,
+        jams:ScorePatternOccurrence ;
+    rdfs:label [ ] ;
+    jams:hasDuration "0.0"^^xsd:float ;
+    jams:hasFrequency "1"^^xsd:int ;
+    jams:hasPatternType "pitch-class-values" ;
+    jams:ofPattern <http://w3id.org/polifonia/resource/pattern/2_4_0_9_9_0> .
+
+<http://w3id.org/polifonia/resource/JAMSObservation/WhereLiliesBloom15146/4_0_9_2_4_0@0.0> a jams:JAMSObservation,
+        jams:JAMSScoreObservation,
+        jams:ScorePatternOccurrence ;
+    rdfs:label [ ] ;
+    jams:hasDuration "0.0"^^xsd:float ;
+    jams:hasFrequency "1"^^xsd:int ;
+    jams:hasPatternType "pitch-class-values" ;
+    jams:ofPattern <http://w3id.org/polifonia/resource/pattern/4_0_9_2_4_0> .
+
+<http://w3id.org/polifonia/resource/JAMSObservation/WhereLiliesBloom15146/4_0_9_9_0_0@0.0> a jams:JAMSObservation,
+        jams:JAMSScoreObservation,
+        jams:ScorePatternOccurrence ;
+    rdfs:label [ ] ;
+    jams:hasDuration "0.0"^^xsd:float ;
+    jams:hasFrequency "1"^^xsd:int ;
+    jams:hasPatternType "pitch-class-values" ;
+    jams:ofPattern <http://w3id.org/polifonia/resource/pattern/4_0_9_9_0_0> .
+
+<http://w3id.org/polifonia/resource/JAMSObservation/WhereLiliesBloom15146/9_0_0_9_2_0@0.0> a jams:JAMSObservation,
+        jams:JAMSScoreObservation,
+        jams:ScorePatternOccurrence ;
+    rdfs:label [ ] ;
+    jams:hasDuration "0.0"^^xsd:float ;
+    jams:hasFrequency "2"^^xsd:int ;
+    jams:hasPatternType "pitch-class-values" ;
+    jams:ofPattern <http://w3id.org/polifonia/resource/pattern/9_0_0_9_2_0> .
+
+<http://w3id.org/polifonia/resource/JAMSObservation/WhereLiliesBloom15146/9_2_0_9_9_0@0.0> a jams:JAMSObservation,
+        jams:JAMSScoreObservation,
+        jams:ScorePatternOccurrence ;
+    rdfs:label [ ] ;
+    jams:hasDuration "0.0"^^xsd:float ;
+    jams:hasFrequency "1"^^xsd:int ;
+    jams:hasPatternType "pitch-class-values" ;
+    jams:ofPattern <http://w3id.org/polifonia/resource/pattern/9_2_0_9_9_0> .
+
+<http://w3id.org/polifonia/resource/JAMSObservation/WhereLiliesBloom15146/9_2_0_9_9_4@0.0> a jams:JAMSObservation,
+        jams:JAMSScoreObservation,
+        jams:ScorePatternOccurrence ;
+    rdfs:label [ ] ;
+    jams:hasDuration "0.0"^^xsd:float ;
+    jams:hasFrequency "1"^^xsd:int ;
+    jams:hasPatternType "pitch-class-values" ;
+    jams:ofPattern <http://w3id.org/polifonia/resource/pattern/9_2_0_9_9_4> .
+
+<http://w3id.org/polifonia/resource/JAMSObservation/WhereLiliesBloom15146/9_2_4_0_9_9@0.0> a jams:JAMSObservation,
+        jams:JAMSScoreObservation,
+        jams:ScorePatternOccurrence ;
+    rdfs:label [ ] ;
+    jams:hasDuration "0.0"^^xsd:float ;
+    jams:hasFrequency "1"^^xsd:int ;
+    jams:hasPatternType "pitch-class-values" ;
+    jams:ofPattern <http://w3id.org/polifonia/resource/pattern/9_2_4_0_9_9> .
+
+<http://w3id.org/polifonia/resource/JAMSObservation/WhereLiliesBloom15146/9_4_0_9_2_4@0.0> a jams:JAMSObservation,
+        jams:JAMSScoreObservation,
+        jams:ScorePatternOccurrence ;
+    rdfs:label [ ] ;
+    jams:hasDuration "0.0"^^xsd:float ;
+    jams:hasFrequency "1"^^xsd:int ;
+    jams:hasPatternType "pitch-class-values" ;
+    jams:ofPattern <http://w3id.org/polifonia/resource/pattern/9_4_0_9_2_4> .
+
+<http://w3id.org/polifonia/resource/JAMSObservation/WhereLiliesBloom15146/9_9_0_0_9_2@0.0> a jams:JAMSObservation,
+        jams:JAMSScoreObservation,
+        jams:ScorePatternOccurrence ;
+    rdfs:label [ ] ;
+    jams:hasDuration "0.0"^^xsd:float ;
+    jams:hasFrequency "3"^^xsd:int ;
+    jams:hasPatternType "pitch-class-values" ;
+    jams:ofPattern <http://w3id.org/polifonia/resource/pattern/9_9_0_0_9_2> .
+
+<http://w3id.org/polifonia/resource/JAMSObservation/WhereLiliesBloom15146/9_9_4_0_9_2@0.0> a jams:JAMSObservation,
+        jams:JAMSScoreObservation,
+        jams:ScorePatternOccurrence ;
+    rdfs:label [ ] ;
+    jams:hasDuration "0.0"^^xsd:float ;
+    jams:hasFrequency "1"^^xsd:int ;
+    jams:hasPatternType "pitch-class-values" ;
+    jams:ofPattern <http://w3id.org/polifonia/resource/pattern/9_9_4_0_9_2> .
+
+<http://w3id.org/polifonia/resource/MusicalComposition/ba954904663b4bc3f776c8a4c285d9478bf41e98> a mc:MusicalComposition ;
+    rdfs:label "WhereLiliesBloom15146" ;
+    mc:title "WhereLiliesBloom15146" ;
+    prov:wasDerivedFrom <http://w3id.org/polifonia/resource/JAMSFile/WhereLiliesBloom15146.jams> .
+

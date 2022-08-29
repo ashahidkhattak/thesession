@@ -1,0 +1,311 @@
+@prefix core: <http://w3id.org/polifonia/ontology/core/> .
+@prefix jams: <http://w3id.org/polifonia/ontology/jams/> .
+@prefix mc: <http://w3id.org/polifonia/ontology/musical-composition/> .
+@prefix pon-resource: <http://w3id.org/polifonia/resource/> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+pon-resource:Agent%2Fannotator_local_id a core:Agent ;
+    rdfs:label "FONN-Tool" ;
+    jams:hasAnnotatorType pon-resource:annotator-program ;
+    jams:hasName "FONN-Tool" .
+
+<http://w3id.org/polifonia/resource/JAMSAnnotation/75f5757ef761f12218ace9a321c25548ddf0697b> a jams:JAMSAnnotation,
+        jams:JAMSScoreAnnotation ;
+    jams:includesObservation <http://w3id.org/polifonia/resource/JAMSObservation/NooseInTheGhilliesThe11854/0_5_0_8_5_5@0.0>,
+        <http://w3id.org/polifonia/resource/JAMSObservation/NooseInTheGhilliesThe11854/0_7_2_5_7_2@0.0>,
+        <http://w3id.org/polifonia/resource/JAMSObservation/NooseInTheGhilliesThe11854/0_8_0_0_8_5@0.0>,
+        <http://w3id.org/polifonia/resource/JAMSObservation/NooseInTheGhilliesThe11854/0_8_0_5_0_8@0.0>,
+        <http://w3id.org/polifonia/resource/JAMSObservation/NooseInTheGhilliesThe11854/0_8_5_5_7_2@0.0>,
+        <http://w3id.org/polifonia/resource/JAMSObservation/NooseInTheGhilliesThe11854/2_0_7_2_5_5@0.0>,
+        <http://w3id.org/polifonia/resource/JAMSObservation/NooseInTheGhilliesThe11854/2_0_7_2_5_7@0.0>,
+        <http://w3id.org/polifonia/resource/JAMSObservation/NooseInTheGhilliesThe11854/2_5_5_7_2_7@0.0>,
+        <http://w3id.org/polifonia/resource/JAMSObservation/NooseInTheGhilliesThe11854/2_5_7_2_0_7@0.0>,
+        <http://w3id.org/polifonia/resource/JAMSObservation/NooseInTheGhilliesThe11854/2_7_5_7_2_5@0.0>,
+        <http://w3id.org/polifonia/resource/JAMSObservation/NooseInTheGhilliesThe11854/3_7_2_0_7_2@0.0>,
+        <http://w3id.org/polifonia/resource/JAMSObservation/NooseInTheGhilliesThe11854/5_0_8_5_5_0@0.0>,
+        <http://w3id.org/polifonia/resource/JAMSObservation/NooseInTheGhilliesThe11854/5_0_8_5_5_7@0.0>,
+        <http://w3id.org/polifonia/resource/JAMSObservation/NooseInTheGhilliesThe11854/5_3_7_2_0_7@0.0>,
+        <http://w3id.org/polifonia/resource/JAMSObservation/NooseInTheGhilliesThe11854/5_5_0_8_0_0@0.0>,
+        <http://w3id.org/polifonia/resource/JAMSObservation/NooseInTheGhilliesThe11854/5_5_7_2_7_5@0.0>,
+        <http://w3id.org/polifonia/resource/JAMSObservation/NooseInTheGhilliesThe11854/5_7_2_0_7_2@0.0>,
+        <http://w3id.org/polifonia/resource/JAMSObservation/NooseInTheGhilliesThe11854/5_7_2_5_5_0@0.0>,
+        <http://w3id.org/polifonia/resource/JAMSObservation/NooseInTheGhilliesThe11854/5_7_2_5_5_7@0.0>,
+        <http://w3id.org/polifonia/resource/JAMSObservation/NooseInTheGhilliesThe11854/5_7_2_7_5_7@0.0>,
+        <http://w3id.org/polifonia/resource/JAMSObservation/NooseInTheGhilliesThe11854/7_2_0_7_2_5@0.0>,
+        <http://w3id.org/polifonia/resource/JAMSObservation/NooseInTheGhilliesThe11854/7_2_5_5_7_2@0.0>,
+        <http://w3id.org/polifonia/resource/JAMSObservation/NooseInTheGhilliesThe11854/7_2_5_7_2_0@0.0>,
+        <http://w3id.org/polifonia/resource/JAMSObservation/NooseInTheGhilliesThe11854/7_2_7_5_7_2@0.0>,
+        <http://w3id.org/polifonia/resource/JAMSObservation/NooseInTheGhilliesThe11854/7_5_7_2_5_5@0.0>,
+        <http://w3id.org/polifonia/resource/JAMSObservation/NooseInTheGhilliesThe11854/8_0_0_8_5_0@0.0>,
+        <http://w3id.org/polifonia/resource/JAMSObservation/NooseInTheGhilliesThe11854/8_0_5_0_8_5@0.0>,
+        <http://w3id.org/polifonia/resource/JAMSObservation/NooseInTheGhilliesThe11854/8_5_5_7_2_7@0.0> ;
+    jams:isJAMSAnnotationOf <http://w3id.org/polifonia/resource/MusicalComposition/75f5757ef761f12218ace9a321c25548ddf0697b> .
+
+<http://w3id.org/polifonia/resource/Score/song_local_id> jams:hasJAMSAnnotation <http://w3id.org/polifonia/resource/MusicalComposition/75f5757ef761f12218ace9a321c25548ddf0697b> .
+
+<http://w3id.org/polifonia/resource/JAMSFile/NooseInTheGhilliesThe11854.jams> a jams:JAMSFile ;
+    jams:identifiers [ ] ;
+    jams:jamsVersion "0.3.4" ;
+    jams:release "" ;
+    prov:wasDerivedFrom "The Session" ;
+    prov:wasMemberOf <https://github.com/ashahidkhattak/thesession> .
+
+<http://w3id.org/polifonia/resource/JAMSObservation/NooseInTheGhilliesThe11854/0_5_0_8_5_5@0.0> a jams:JAMSObservation,
+        jams:JAMSScoreObservation,
+        jams:ScorePatternOccurrence ;
+    rdfs:label [ ] ;
+    jams:hasDuration "0.0"^^xsd:float ;
+    jams:hasFrequency "2"^^xsd:int ;
+    jams:hasPatternType "pitch-class-values" ;
+    jams:ofPattern <http://w3id.org/polifonia/resource/pattern/0_5_0_8_5_5> .
+
+<http://w3id.org/polifonia/resource/JAMSObservation/NooseInTheGhilliesThe11854/0_7_2_5_7_2@0.0> a jams:JAMSObservation,
+        jams:JAMSScoreObservation,
+        jams:ScorePatternOccurrence ;
+    rdfs:label [ ] ;
+    jams:hasDuration "0.0"^^xsd:float ;
+    jams:hasFrequency "1"^^xsd:int ;
+    jams:hasPatternType "pitch-class-values" ;
+    jams:ofPattern <http://w3id.org/polifonia/resource/pattern/0_7_2_5_7_2> .
+
+<http://w3id.org/polifonia/resource/JAMSObservation/NooseInTheGhilliesThe11854/0_8_0_0_8_5@0.0> a jams:JAMSObservation,
+        jams:JAMSScoreObservation,
+        jams:ScorePatternOccurrence ;
+    rdfs:label [ ] ;
+    jams:hasDuration "0.0"^^xsd:float ;
+    jams:hasFrequency "2"^^xsd:int ;
+    jams:hasPatternType "pitch-class-values" ;
+    jams:ofPattern <http://w3id.org/polifonia/resource/pattern/0_8_0_0_8_5> .
+
+<http://w3id.org/polifonia/resource/JAMSObservation/NooseInTheGhilliesThe11854/0_8_0_5_0_8@0.0> a jams:JAMSObservation,
+        jams:JAMSScoreObservation,
+        jams:ScorePatternOccurrence ;
+    rdfs:label [ ] ;
+    jams:hasDuration "0.0"^^xsd:float ;
+    jams:hasFrequency "2"^^xsd:int ;
+    jams:hasPatternType "pitch-class-values" ;
+    jams:ofPattern <http://w3id.org/polifonia/resource/pattern/0_8_0_5_0_8> .
+
+<http://w3id.org/polifonia/resource/JAMSObservation/NooseInTheGhilliesThe11854/0_8_5_5_7_2@0.0> a jams:JAMSObservation,
+        jams:JAMSScoreObservation,
+        jams:ScorePatternOccurrence ;
+    rdfs:label [ ] ;
+    jams:hasDuration "0.0"^^xsd:float ;
+    jams:hasFrequency "1"^^xsd:int ;
+    jams:hasPatternType "pitch-class-values" ;
+    jams:ofPattern <http://w3id.org/polifonia/resource/pattern/0_8_5_5_7_2> .
+
+<http://w3id.org/polifonia/resource/JAMSObservation/NooseInTheGhilliesThe11854/2_0_7_2_5_5@0.0> a jams:JAMSObservation,
+        jams:JAMSScoreObservation,
+        jams:ScorePatternOccurrence ;
+    rdfs:label [ ] ;
+    jams:hasDuration "0.0"^^xsd:float ;
+    jams:hasFrequency "1"^^xsd:int ;
+    jams:hasPatternType "pitch-class-values" ;
+    jams:ofPattern <http://w3id.org/polifonia/resource/pattern/2_0_7_2_5_5> .
+
+<http://w3id.org/polifonia/resource/JAMSObservation/NooseInTheGhilliesThe11854/2_0_7_2_5_7@0.0> a jams:JAMSObservation,
+        jams:JAMSScoreObservation,
+        jams:ScorePatternOccurrence ;
+    rdfs:label [ ] ;
+    jams:hasDuration "0.0"^^xsd:float ;
+    jams:hasFrequency "1"^^xsd:int ;
+    jams:hasPatternType "pitch-class-values" ;
+    jams:ofPattern <http://w3id.org/polifonia/resource/pattern/2_0_7_2_5_7> .
+
+<http://w3id.org/polifonia/resource/JAMSObservation/NooseInTheGhilliesThe11854/2_5_5_7_2_7@0.0> a jams:JAMSObservation,
+        jams:JAMSScoreObservation,
+        jams:ScorePatternOccurrence ;
+    rdfs:label [ ] ;
+    jams:hasDuration "0.0"^^xsd:float ;
+    jams:hasFrequency "1"^^xsd:int ;
+    jams:hasPatternType "pitch-class-values" ;
+    jams:ofPattern <http://w3id.org/polifonia/resource/pattern/2_5_5_7_2_7> .
+
+<http://w3id.org/polifonia/resource/JAMSObservation/NooseInTheGhilliesThe11854/2_5_7_2_0_7@0.0> a jams:JAMSObservation,
+        jams:JAMSScoreObservation,
+        jams:ScorePatternOccurrence ;
+    rdfs:label [ ] ;
+    jams:hasDuration "0.0"^^xsd:float ;
+    jams:hasFrequency "1"^^xsd:int ;
+    jams:hasPatternType "pitch-class-values" ;
+    jams:ofPattern <http://w3id.org/polifonia/resource/pattern/2_5_7_2_0_7> .
+
+<http://w3id.org/polifonia/resource/JAMSObservation/NooseInTheGhilliesThe11854/2_7_5_7_2_5@0.0> a jams:JAMSObservation,
+        jams:JAMSScoreObservation,
+        jams:ScorePatternOccurrence ;
+    rdfs:label [ ] ;
+    jams:hasDuration "0.0"^^xsd:float ;
+    jams:hasFrequency "2"^^xsd:int ;
+    jams:hasPatternType "pitch-class-values" ;
+    jams:ofPattern <http://w3id.org/polifonia/resource/pattern/2_7_5_7_2_5> .
+
+<http://w3id.org/polifonia/resource/JAMSObservation/NooseInTheGhilliesThe11854/3_7_2_0_7_2@0.0> a jams:JAMSObservation,
+        jams:JAMSScoreObservation,
+        jams:ScorePatternOccurrence ;
+    rdfs:label [ ] ;
+    jams:hasDuration "0.0"^^xsd:float ;
+    jams:hasFrequency "1"^^xsd:int ;
+    jams:hasPatternType "pitch-class-values" ;
+    jams:ofPattern <http://w3id.org/polifonia/resource/pattern/3_7_2_0_7_2> .
+
+<http://w3id.org/polifonia/resource/JAMSObservation/NooseInTheGhilliesThe11854/5_0_8_5_5_0@0.0> a jams:JAMSObservation,
+        jams:JAMSScoreObservation,
+        jams:ScorePatternOccurrence ;
+    rdfs:label [ ] ;
+    jams:hasDuration "0.0"^^xsd:float ;
+    jams:hasFrequency "1"^^xsd:int ;
+    jams:hasPatternType "pitch-class-values" ;
+    jams:ofPattern <http://w3id.org/polifonia/resource/pattern/5_0_8_5_5_0> .
+
+<http://w3id.org/polifonia/resource/JAMSObservation/NooseInTheGhilliesThe11854/5_0_8_5_5_7@0.0> a jams:JAMSObservation,
+        jams:JAMSScoreObservation,
+        jams:ScorePatternOccurrence ;
+    rdfs:label [ ] ;
+    jams:hasDuration "0.0"^^xsd:float ;
+    jams:hasFrequency "1"^^xsd:int ;
+    jams:hasPatternType "pitch-class-values" ;
+    jams:ofPattern <http://w3id.org/polifonia/resource/pattern/5_0_8_5_5_7> .
+
+<http://w3id.org/polifonia/resource/JAMSObservation/NooseInTheGhilliesThe11854/5_3_7_2_0_7@0.0> a jams:JAMSObservation,
+        jams:JAMSScoreObservation,
+        jams:ScorePatternOccurrence ;
+    rdfs:label [ ] ;
+    jams:hasDuration "0.0"^^xsd:float ;
+    jams:hasFrequency "1"^^xsd:int ;
+    jams:hasPatternType "pitch-class-values" ;
+    jams:ofPattern <http://w3id.org/polifonia/resource/pattern/5_3_7_2_0_7> .
+
+<http://w3id.org/polifonia/resource/JAMSObservation/NooseInTheGhilliesThe11854/5_5_0_8_0_0@0.0> a jams:JAMSObservation,
+        jams:JAMSScoreObservation,
+        jams:ScorePatternOccurrence ;
+    rdfs:label [ ] ;
+    jams:hasDuration "0.0"^^xsd:float ;
+    jams:hasFrequency "1"^^xsd:int ;
+    jams:hasPatternType "pitch-class-values" ;
+    jams:ofPattern <http://w3id.org/polifonia/resource/pattern/5_5_0_8_0_0> .
+
+<http://w3id.org/polifonia/resource/JAMSObservation/NooseInTheGhilliesThe11854/5_5_7_2_7_5@0.0> a jams:JAMSObservation,
+        jams:JAMSScoreObservation,
+        jams:ScorePatternOccurrence ;
+    rdfs:label [ ] ;
+    jams:hasDuration "0.0"^^xsd:float ;
+    jams:hasFrequency "2"^^xsd:int ;
+    jams:hasPatternType "pitch-class-values" ;
+    jams:ofPattern <http://w3id.org/polifonia/resource/pattern/5_5_7_2_7_5> .
+
+<http://w3id.org/polifonia/resource/JAMSObservation/NooseInTheGhilliesThe11854/5_7_2_0_7_2@0.0> a jams:JAMSObservation,
+        jams:JAMSScoreObservation,
+        jams:ScorePatternOccurrence ;
+    rdfs:label [ ] ;
+    jams:hasDuration "0.0"^^xsd:float ;
+    jams:hasFrequency "1"^^xsd:int ;
+    jams:hasPatternType "pitch-class-values" ;
+    jams:ofPattern <http://w3id.org/polifonia/resource/pattern/5_7_2_0_7_2> .
+
+<http://w3id.org/polifonia/resource/JAMSObservation/NooseInTheGhilliesThe11854/5_7_2_5_5_0@0.0> a jams:JAMSObservation,
+        jams:JAMSScoreObservation,
+        jams:ScorePatternOccurrence ;
+    rdfs:label [ ] ;
+    jams:hasDuration "0.0"^^xsd:float ;
+    jams:hasFrequency "1"^^xsd:int ;
+    jams:hasPatternType "pitch-class-values" ;
+    jams:ofPattern <http://w3id.org/polifonia/resource/pattern/5_7_2_5_5_0> .
+
+<http://w3id.org/polifonia/resource/JAMSObservation/NooseInTheGhilliesThe11854/5_7_2_5_5_7@0.0> a jams:JAMSObservation,
+        jams:JAMSScoreObservation,
+        jams:ScorePatternOccurrence ;
+    rdfs:label [ ] ;
+    jams:hasDuration "0.0"^^xsd:float ;
+    jams:hasFrequency "1"^^xsd:int ;
+    jams:hasPatternType "pitch-class-values" ;
+    jams:ofPattern <http://w3id.org/polifonia/resource/pattern/5_7_2_5_5_7> .
+
+<http://w3id.org/polifonia/resource/JAMSObservation/NooseInTheGhilliesThe11854/5_7_2_7_5_7@0.0> a jams:JAMSObservation,
+        jams:JAMSScoreObservation,
+        jams:ScorePatternOccurrence ;
+    rdfs:label [ ] ;
+    jams:hasDuration "0.0"^^xsd:float ;
+    jams:hasFrequency "2"^^xsd:int ;
+    jams:hasPatternType "pitch-class-values" ;
+    jams:ofPattern <http://w3id.org/polifonia/resource/pattern/5_7_2_7_5_7> .
+
+<http://w3id.org/polifonia/resource/JAMSObservation/NooseInTheGhilliesThe11854/7_2_0_7_2_5@0.0> a jams:JAMSObservation,
+        jams:JAMSScoreObservation,
+        jams:ScorePatternOccurrence ;
+    rdfs:label [ ] ;
+    jams:hasDuration "0.0"^^xsd:float ;
+    jams:hasFrequency "2"^^xsd:int ;
+    jams:hasPatternType "pitch-class-values" ;
+    jams:ofPattern <http://w3id.org/polifonia/resource/pattern/7_2_0_7_2_5> .
+
+<http://w3id.org/polifonia/resource/JAMSObservation/NooseInTheGhilliesThe11854/7_2_5_5_7_2@0.0> a jams:JAMSObservation,
+        jams:JAMSScoreObservation,
+        jams:ScorePatternOccurrence ;
+    rdfs:label [ ] ;
+    jams:hasDuration "0.0"^^xsd:float ;
+    jams:hasFrequency "1"^^xsd:int ;
+    jams:hasPatternType "pitch-class-values" ;
+    jams:ofPattern <http://w3id.org/polifonia/resource/pattern/7_2_5_5_7_2> .
+
+<http://w3id.org/polifonia/resource/JAMSObservation/NooseInTheGhilliesThe11854/7_2_5_7_2_0@0.0> a jams:JAMSObservation,
+        jams:JAMSScoreObservation,
+        jams:ScorePatternOccurrence ;
+    rdfs:label [ ] ;
+    jams:hasDuration "0.0"^^xsd:float ;
+    jams:hasFrequency "1"^^xsd:int ;
+    jams:hasPatternType "pitch-class-values" ;
+    jams:ofPattern <http://w3id.org/polifonia/resource/pattern/7_2_5_7_2_0> .
+
+<http://w3id.org/polifonia/resource/JAMSObservation/NooseInTheGhilliesThe11854/7_2_7_5_7_2@0.0> a jams:JAMSObservation,
+        jams:JAMSScoreObservation,
+        jams:ScorePatternOccurrence ;
+    rdfs:label [ ] ;
+    jams:hasDuration "0.0"^^xsd:float ;
+    jams:hasFrequency "2"^^xsd:int ;
+    jams:hasPatternType "pitch-class-values" ;
+    jams:ofPattern <http://w3id.org/polifonia/resource/pattern/7_2_7_5_7_2> .
+
+<http://w3id.org/polifonia/resource/JAMSObservation/NooseInTheGhilliesThe11854/7_5_7_2_5_5@0.0> a jams:JAMSObservation,
+        jams:JAMSScoreObservation,
+        jams:ScorePatternOccurrence ;
+    rdfs:label [ ] ;
+    jams:hasDuration "0.0"^^xsd:float ;
+    jams:hasFrequency "2"^^xsd:int ;
+    jams:hasPatternType "pitch-class-values" ;
+    jams:ofPattern <http://w3id.org/polifonia/resource/pattern/7_5_7_2_5_5> .
+
+<http://w3id.org/polifonia/resource/JAMSObservation/NooseInTheGhilliesThe11854/8_0_0_8_5_0@0.0> a jams:JAMSObservation,
+        jams:JAMSScoreObservation,
+        jams:ScorePatternOccurrence ;
+    rdfs:label [ ] ;
+    jams:hasDuration "0.0"^^xsd:float ;
+    jams:hasFrequency "1"^^xsd:int ;
+    jams:hasPatternType "pitch-class-values" ;
+    jams:ofPattern <http://w3id.org/polifonia/resource/pattern/8_0_0_8_5_0> .
+
+<http://w3id.org/polifonia/resource/JAMSObservation/NooseInTheGhilliesThe11854/8_0_5_0_8_5@0.0> a jams:JAMSObservation,
+        jams:JAMSScoreObservation,
+        jams:ScorePatternOccurrence ;
+    rdfs:label [ ] ;
+    jams:hasDuration "0.0"^^xsd:float ;
+    jams:hasFrequency "2"^^xsd:int ;
+    jams:hasPatternType "pitch-class-values" ;
+    jams:ofPattern <http://w3id.org/polifonia/resource/pattern/8_0_5_0_8_5> .
+
+<http://w3id.org/polifonia/resource/JAMSObservation/NooseInTheGhilliesThe11854/8_5_5_7_2_7@0.0> a jams:JAMSObservation,
+        jams:JAMSScoreObservation,
+        jams:ScorePatternOccurrence ;
+    rdfs:label [ ] ;
+    jams:hasDuration "0.0"^^xsd:float ;
+    jams:hasFrequency "1"^^xsd:int ;
+    jams:hasPatternType "pitch-class-values" ;
+    jams:ofPattern <http://w3id.org/polifonia/resource/pattern/8_5_5_7_2_7> .
+
+<http://w3id.org/polifonia/resource/MusicalComposition/75f5757ef761f12218ace9a321c25548ddf0697b> a mc:MusicalComposition ;
+    rdfs:label "NooseInTheGhilliesThe11854" ;
+    mc:title "NooseInTheGhilliesThe11854" ;
+    prov:wasDerivedFrom <http://w3id.org/polifonia/resource/JAMSFile/NooseInTheGhilliesThe11854.jams> .
+

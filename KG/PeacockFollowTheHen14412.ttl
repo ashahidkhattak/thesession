@@ -1,0 +1,731 @@
+@prefix core: <http://w3id.org/polifonia/ontology/core/> .
+@prefix jams: <http://w3id.org/polifonia/ontology/jams/> .
+@prefix mc: <http://w3id.org/polifonia/ontology/musical-composition/> .
+@prefix pon-resource: <http://w3id.org/polifonia/resource/> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+pon-resource:Agent%2Fannotator_local_id a core:Agent ;
+    rdfs:label "FONN-Tool" ;
+    jams:hasAnnotatorType pon-resource:annotator-program ;
+    jams:hasName "FONN-Tool" .
+
+<http://w3id.org/polifonia/resource/JAMSAnnotation/c30d9676a78529a584cbf43b6ea54bc74842631d> a jams:JAMSAnnotation,
+        jams:JAMSScoreAnnotation ;
+    jams:includesObservation <http://w3id.org/polifonia/resource/JAMSObservation/PeacockFollowTheHen14412/0_0_0_0_0_10@0.0>,
+        <http://w3id.org/polifonia/resource/JAMSObservation/PeacockFollowTheHen14412/0_0_0_0_10_0@0.0>,
+        <http://w3id.org/polifonia/resource/JAMSObservation/PeacockFollowTheHen14412/0_0_0_10_0_0@0.0>,
+        <http://w3id.org/polifonia/resource/JAMSObservation/PeacockFollowTheHen14412/0_0_0_10_2_5@0.0>,
+        <http://w3id.org/polifonia/resource/JAMSObservation/PeacockFollowTheHen14412/0_0_0_5_3_5@0.0>,
+        <http://w3id.org/polifonia/resource/JAMSObservation/PeacockFollowTheHen14412/0_0_10_0_0_0@0.0>,
+        <http://w3id.org/polifonia/resource/JAMSObservation/PeacockFollowTheHen14412/0_0_10_2_5_0@0.0>,
+        <http://w3id.org/polifonia/resource/JAMSObservation/PeacockFollowTheHen14412/0_0_5_3_5_0@0.0>,
+        <http://w3id.org/polifonia/resource/JAMSObservation/PeacockFollowTheHen14412/0_0_5_3_5_3@0.0>,
+        <http://w3id.org/polifonia/resource/JAMSObservation/PeacockFollowTheHen14412/0_10_0_0_0_10@0.0>,
+        <http://w3id.org/polifonia/resource/JAMSObservation/PeacockFollowTheHen14412/0_10_0_0_0_5@0.0>,
+        <http://w3id.org/polifonia/resource/JAMSObservation/PeacockFollowTheHen14412/0_10_2_5_0_0@0.0>,
+        <http://w3id.org/polifonia/resource/JAMSObservation/PeacockFollowTheHen14412/0_5_3_5_0_0@0.0>,
+        <http://w3id.org/polifonia/resource/JAMSObservation/PeacockFollowTheHen14412/10_0_0_0_10_2@0.0>,
+        <http://w3id.org/polifonia/resource/JAMSObservation/PeacockFollowTheHen14412/10_0_0_0_5_3@0.0>,
+        <http://w3id.org/polifonia/resource/JAMSObservation/PeacockFollowTheHen14412/10_10_3_10_9_3@0.0>,
+        <http://w3id.org/polifonia/resource/JAMSObservation/PeacockFollowTheHen14412/10_10_5_5_2_3@0.0>,
+        <http://w3id.org/polifonia/resource/JAMSObservation/PeacockFollowTheHen14412/10_2_5_0_0_0@0.0>,
+        <http://w3id.org/polifonia/resource/JAMSObservation/PeacockFollowTheHen14412/10_3_10_9_3_10@0.0>,
+        <http://w3id.org/polifonia/resource/JAMSObservation/PeacockFollowTheHen14412/10_5_5_2_0_0@0.0>,
+        <http://w3id.org/polifonia/resource/JAMSObservation/PeacockFollowTheHen14412/10_5_5_2_3_10@0.0>,
+        <http://w3id.org/polifonia/resource/JAMSObservation/PeacockFollowTheHen14412/10_7_5_10_7_7@0.0>,
+        <http://w3id.org/polifonia/resource/JAMSObservation/PeacockFollowTheHen14412/10_7_7_10_7_5@0.0>,
+        <http://w3id.org/polifonia/resource/JAMSObservation/PeacockFollowTheHen14412/10_7_7_5_5_2@0.0>,
+        <http://w3id.org/polifonia/resource/JAMSObservation/PeacockFollowTheHen14412/10_9_3_10_10_5@0.0>,
+        <http://w3id.org/polifonia/resource/JAMSObservation/PeacockFollowTheHen14412/2_0_0_0_0_0@0.0>,
+        <http://w3id.org/polifonia/resource/JAMSObservation/PeacockFollowTheHen14412/2_10_7_7_10_7@0.0>,
+        <http://w3id.org/polifonia/resource/JAMSObservation/PeacockFollowTheHen14412/2_3_10_10_3_10@0.0>,
+        <http://w3id.org/polifonia/resource/JAMSObservation/PeacockFollowTheHen14412/2_3_3_3_2_5@0.0>,
+        <http://w3id.org/polifonia/resource/JAMSObservation/PeacockFollowTheHen14412/2_3_3_3_3_3@0.0>,
+        <http://w3id.org/polifonia/resource/JAMSObservation/PeacockFollowTheHen14412/2_5_0_0_0_0@0.0>,
+        <http://w3id.org/polifonia/resource/JAMSObservation/PeacockFollowTheHen14412/2_5_2_3_10_10@0.0>,
+        <http://w3id.org/polifonia/resource/JAMSObservation/PeacockFollowTheHen14412/2_5_2_3_3_3@0.0>,
+        <http://w3id.org/polifonia/resource/JAMSObservation/PeacockFollowTheHen14412/3_10_10_3_10_9@0.0>,
+        <http://w3id.org/polifonia/resource/JAMSObservation/PeacockFollowTheHen14412/3_10_10_5_5_2@0.0>,
+        <http://w3id.org/polifonia/resource/JAMSObservation/PeacockFollowTheHen14412/3_10_9_3_10_10@0.0>,
+        <http://w3id.org/polifonia/resource/JAMSObservation/PeacockFollowTheHen14412/3_2_3_3_3_2@0.0>,
+        <http://w3id.org/polifonia/resource/JAMSObservation/PeacockFollowTheHen14412/3_2_5_2_10_7@0.0>,
+        <http://w3id.org/polifonia/resource/JAMSObservation/PeacockFollowTheHen14412/3_2_5_2_3_10@0.0>,
+        <http://w3id.org/polifonia/resource/JAMSObservation/PeacockFollowTheHen14412/3_2_5_2_3_3@0.0>,
+        <http://w3id.org/polifonia/resource/JAMSObservation/PeacockFollowTheHen14412/3_3_2_3_3_3@0.0>,
+        <http://w3id.org/polifonia/resource/JAMSObservation/PeacockFollowTheHen14412/3_3_2_5_2_3@0.0>,
+        <http://w3id.org/polifonia/resource/JAMSObservation/PeacockFollowTheHen14412/3_3_3_2_3_3@0.0>,
+        <http://w3id.org/polifonia/resource/JAMSObservation/PeacockFollowTheHen14412/3_3_3_2_5_2@0.0>,
+        <http://w3id.org/polifonia/resource/JAMSObservation/PeacockFollowTheHen14412/3_3_3_3_2_3@0.0>,
+        <http://w3id.org/polifonia/resource/JAMSObservation/PeacockFollowTheHen14412/3_3_3_3_3_2@0.0>,
+        <http://w3id.org/polifonia/resource/JAMSObservation/PeacockFollowTheHen14412/3_5_0_0_0_0@0.0>,
+        <http://w3id.org/polifonia/resource/JAMSObservation/PeacockFollowTheHen14412/3_5_3_10_10_3@0.0>,
+        <http://w3id.org/polifonia/resource/JAMSObservation/PeacockFollowTheHen14412/5_0_0_0_0_0@0.0>,
+        <http://w3id.org/polifonia/resource/JAMSObservation/PeacockFollowTheHen14412/5_10_7_7_5_5@0.0>,
+        <http://w3id.org/polifonia/resource/JAMSObservation/PeacockFollowTheHen14412/5_2_0_0_0_0@0.0>,
+        <http://w3id.org/polifonia/resource/JAMSObservation/PeacockFollowTheHen14412/5_2_10_7_7_10@0.0>,
+        <http://w3id.org/polifonia/resource/JAMSObservation/PeacockFollowTheHen14412/5_2_3_10_10_3@0.0>,
+        <http://w3id.org/polifonia/resource/JAMSObservation/PeacockFollowTheHen14412/5_2_3_3_3_3@0.0>,
+        <http://w3id.org/polifonia/resource/JAMSObservation/PeacockFollowTheHen14412/5_3_10_10_3_10@0.0>,
+        <http://w3id.org/polifonia/resource/JAMSObservation/PeacockFollowTheHen14412/5_3_5_0_0_0@0.0>,
+        <http://w3id.org/polifonia/resource/JAMSObservation/PeacockFollowTheHen14412/5_3_5_3_10_10@0.0>,
+        <http://w3id.org/polifonia/resource/JAMSObservation/PeacockFollowTheHen14412/5_5_2_0_0_0@0.0>,
+        <http://w3id.org/polifonia/resource/JAMSObservation/PeacockFollowTheHen14412/5_5_2_10_7_7@0.0>,
+        <http://w3id.org/polifonia/resource/JAMSObservation/PeacockFollowTheHen14412/5_5_2_3_10_10@0.0>,
+        <http://w3id.org/polifonia/resource/JAMSObservation/PeacockFollowTheHen14412/5_5_2_3_3_3@0.0>,
+        <http://w3id.org/polifonia/resource/JAMSObservation/PeacockFollowTheHen14412/7_10_7_5_10_7@0.0>,
+        <http://w3id.org/polifonia/resource/JAMSObservation/PeacockFollowTheHen14412/7_5_10_7_7_5@0.0>,
+        <http://w3id.org/polifonia/resource/JAMSObservation/PeacockFollowTheHen14412/7_5_5_2_0_0@0.0>,
+        <http://w3id.org/polifonia/resource/JAMSObservation/PeacockFollowTheHen14412/7_5_5_2_10_7@0.0>,
+        <http://w3id.org/polifonia/resource/JAMSObservation/PeacockFollowTheHen14412/7_7_10_7_5_10@0.0>,
+        <http://w3id.org/polifonia/resource/JAMSObservation/PeacockFollowTheHen14412/7_7_5_5_2_0@0.0>,
+        <http://w3id.org/polifonia/resource/JAMSObservation/PeacockFollowTheHen14412/7_7_5_5_2_10@0.0>,
+        <http://w3id.org/polifonia/resource/JAMSObservation/PeacockFollowTheHen14412/7_7_5_5_2_3@0.0>,
+        <http://w3id.org/polifonia/resource/JAMSObservation/PeacockFollowTheHen14412/9_3_10_10_5_5@0.0> ;
+    jams:isJAMSAnnotationOf <http://w3id.org/polifonia/resource/MusicalComposition/c30d9676a78529a584cbf43b6ea54bc74842631d> .
+
+<http://w3id.org/polifonia/resource/Score/song_local_id> jams:hasJAMSAnnotation <http://w3id.org/polifonia/resource/MusicalComposition/c30d9676a78529a584cbf43b6ea54bc74842631d> .
+
+<http://w3id.org/polifonia/resource/JAMSFile/PeacockFollowTheHen14412.jams> a jams:JAMSFile ;
+    jams:identifiers [ ] ;
+    jams:jamsVersion "0.3.4" ;
+    jams:release "" ;
+    prov:wasDerivedFrom "The Session" ;
+    prov:wasMemberOf <https://github.com/ashahidkhattak/thesession> .
+
+<http://w3id.org/polifonia/resource/JAMSObservation/PeacockFollowTheHen14412/0_0_0_0_0_10@0.0> a jams:JAMSObservation,
+        jams:JAMSScoreObservation,
+        jams:ScorePatternOccurrence ;
+    rdfs:label [ ] ;
+    jams:hasDuration "0.0"^^xsd:float ;
+    jams:hasFrequency "4"^^xsd:int ;
+    jams:hasPatternType "pitch-class-values" ;
+    jams:ofPattern <http://w3id.org/polifonia/resource/pattern/0_0_0_0_0_10> .
+
+<http://w3id.org/polifonia/resource/JAMSObservation/PeacockFollowTheHen14412/0_0_0_0_10_0@0.0> a jams:JAMSObservation,
+        jams:JAMSScoreObservation,
+        jams:ScorePatternOccurrence ;
+    rdfs:label [ ] ;
+    jams:hasDuration "0.0"^^xsd:float ;
+    jams:hasFrequency "4"^^xsd:int ;
+    jams:hasPatternType "pitch-class-values" ;
+    jams:ofPattern <http://w3id.org/polifonia/resource/pattern/0_0_0_0_10_0> .
+
+<http://w3id.org/polifonia/resource/JAMSObservation/PeacockFollowTheHen14412/0_0_0_10_0_0@0.0> a jams:JAMSObservation,
+        jams:JAMSScoreObservation,
+        jams:ScorePatternOccurrence ;
+    rdfs:label [ ] ;
+    jams:hasDuration "0.0"^^xsd:float ;
+    jams:hasFrequency "4"^^xsd:int ;
+    jams:hasPatternType "pitch-class-values" ;
+    jams:ofPattern <http://w3id.org/polifonia/resource/pattern/0_0_0_10_0_0> .
+
+<http://w3id.org/polifonia/resource/JAMSObservation/PeacockFollowTheHen14412/0_0_0_10_2_5@0.0> a jams:JAMSObservation,
+        jams:JAMSScoreObservation,
+        jams:ScorePatternOccurrence ;
+    rdfs:label [ ] ;
+    jams:hasDuration "0.0"^^xsd:float ;
+    jams:hasFrequency "2"^^xsd:int ;
+    jams:hasPatternType "pitch-class-values" ;
+    jams:ofPattern <http://w3id.org/polifonia/resource/pattern/0_0_0_10_2_5> .
+
+<http://w3id.org/polifonia/resource/JAMSObservation/PeacockFollowTheHen14412/0_0_0_5_3_5@0.0> a jams:JAMSObservation,
+        jams:JAMSScoreObservation,
+        jams:ScorePatternOccurrence ;
+    rdfs:label [ ] ;
+    jams:hasDuration "0.0"^^xsd:float ;
+    jams:hasFrequency "2"^^xsd:int ;
+    jams:hasPatternType "pitch-class-values" ;
+    jams:ofPattern <http://w3id.org/polifonia/resource/pattern/0_0_0_5_3_5> .
+
+<http://w3id.org/polifonia/resource/JAMSObservation/PeacockFollowTheHen14412/0_0_10_0_0_0@0.0> a jams:JAMSObservation,
+        jams:JAMSScoreObservation,
+        jams:ScorePatternOccurrence ;
+    rdfs:label [ ] ;
+    jams:hasDuration "0.0"^^xsd:float ;
+    jams:hasFrequency "4"^^xsd:int ;
+    jams:hasPatternType "pitch-class-values" ;
+    jams:ofPattern <http://w3id.org/polifonia/resource/pattern/0_0_10_0_0_0> .
+
+<http://w3id.org/polifonia/resource/JAMSObservation/PeacockFollowTheHen14412/0_0_10_2_5_0@0.0> a jams:JAMSObservation,
+        jams:JAMSScoreObservation,
+        jams:ScorePatternOccurrence ;
+    rdfs:label [ ] ;
+    jams:hasDuration "0.0"^^xsd:float ;
+    jams:hasFrequency "1"^^xsd:int ;
+    jams:hasPatternType "pitch-class-values" ;
+    jams:ofPattern <http://w3id.org/polifonia/resource/pattern/0_0_10_2_5_0> .
+
+<http://w3id.org/polifonia/resource/JAMSObservation/PeacockFollowTheHen14412/0_0_5_3_5_0@0.0> a jams:JAMSObservation,
+        jams:JAMSScoreObservation,
+        jams:ScorePatternOccurrence ;
+    rdfs:label [ ] ;
+    jams:hasDuration "0.0"^^xsd:float ;
+    jams:hasFrequency "1"^^xsd:int ;
+    jams:hasPatternType "pitch-class-values" ;
+    jams:ofPattern <http://w3id.org/polifonia/resource/pattern/0_0_5_3_5_0> .
+
+<http://w3id.org/polifonia/resource/JAMSObservation/PeacockFollowTheHen14412/0_0_5_3_5_3@0.0> a jams:JAMSObservation,
+        jams:JAMSScoreObservation,
+        jams:ScorePatternOccurrence ;
+    rdfs:label [ ] ;
+    jams:hasDuration "0.0"^^xsd:float ;
+    jams:hasFrequency "1"^^xsd:int ;
+    jams:hasPatternType "pitch-class-values" ;
+    jams:ofPattern <http://w3id.org/polifonia/resource/pattern/0_0_5_3_5_3> .
+
+<http://w3id.org/polifonia/resource/JAMSObservation/PeacockFollowTheHen14412/0_10_0_0_0_10@0.0> a jams:JAMSObservation,
+        jams:JAMSScoreObservation,
+        jams:ScorePatternOccurrence ;
+    rdfs:label [ ] ;
+    jams:hasDuration "0.0"^^xsd:float ;
+    jams:hasFrequency "2"^^xsd:int ;
+    jams:hasPatternType "pitch-class-values" ;
+    jams:ofPattern <http://w3id.org/polifonia/resource/pattern/0_10_0_0_0_10> .
+
+<http://w3id.org/polifonia/resource/JAMSObservation/PeacockFollowTheHen14412/0_10_0_0_0_5@0.0> a jams:JAMSObservation,
+        jams:JAMSScoreObservation,
+        jams:ScorePatternOccurrence ;
+    rdfs:label [ ] ;
+    jams:hasDuration "0.0"^^xsd:float ;
+    jams:hasFrequency "2"^^xsd:int ;
+    jams:hasPatternType "pitch-class-values" ;
+    jams:ofPattern <http://w3id.org/polifonia/resource/pattern/0_10_0_0_0_5> .
+
+<http://w3id.org/polifonia/resource/JAMSObservation/PeacockFollowTheHen14412/0_10_2_5_0_0@0.0> a jams:JAMSObservation,
+        jams:JAMSScoreObservation,
+        jams:ScorePatternOccurrence ;
+    rdfs:label [ ] ;
+    jams:hasDuration "0.0"^^xsd:float ;
+    jams:hasFrequency "1"^^xsd:int ;
+    jams:hasPatternType "pitch-class-values" ;
+    jams:ofPattern <http://w3id.org/polifonia/resource/pattern/0_10_2_5_0_0> .
+
+<http://w3id.org/polifonia/resource/JAMSObservation/PeacockFollowTheHen14412/0_5_3_5_0_0@0.0> a jams:JAMSObservation,
+        jams:JAMSScoreObservation,
+        jams:ScorePatternOccurrence ;
+    rdfs:label [ ] ;
+    jams:hasDuration "0.0"^^xsd:float ;
+    jams:hasFrequency "1"^^xsd:int ;
+    jams:hasPatternType "pitch-class-values" ;
+    jams:ofPattern <http://w3id.org/polifonia/resource/pattern/0_5_3_5_0_0> .
+
+<http://w3id.org/polifonia/resource/JAMSObservation/PeacockFollowTheHen14412/10_0_0_0_10_2@0.0> a jams:JAMSObservation,
+        jams:JAMSScoreObservation,
+        jams:ScorePatternOccurrence ;
+    rdfs:label [ ] ;
+    jams:hasDuration "0.0"^^xsd:float ;
+    jams:hasFrequency "2"^^xsd:int ;
+    jams:hasPatternType "pitch-class-values" ;
+    jams:ofPattern <http://w3id.org/polifonia/resource/pattern/10_0_0_0_10_2> .
+
+<http://w3id.org/polifonia/resource/JAMSObservation/PeacockFollowTheHen14412/10_0_0_0_5_3@0.0> a jams:JAMSObservation,
+        jams:JAMSScoreObservation,
+        jams:ScorePatternOccurrence ;
+    rdfs:label [ ] ;
+    jams:hasDuration "0.0"^^xsd:float ;
+    jams:hasFrequency "2"^^xsd:int ;
+    jams:hasPatternType "pitch-class-values" ;
+    jams:ofPattern <http://w3id.org/polifonia/resource/pattern/10_0_0_0_5_3> .
+
+<http://w3id.org/polifonia/resource/JAMSObservation/PeacockFollowTheHen14412/10_10_3_10_9_3@0.0> a jams:JAMSObservation,
+        jams:JAMSScoreObservation,
+        jams:ScorePatternOccurrence ;
+    rdfs:label [ ] ;
+    jams:hasDuration "0.0"^^xsd:float ;
+    jams:hasFrequency "8"^^xsd:int ;
+    jams:hasPatternType "pitch-class-values" ;
+    jams:ofPattern <http://w3id.org/polifonia/resource/pattern/10_10_3_10_9_3> .
+
+<http://w3id.org/polifonia/resource/JAMSObservation/PeacockFollowTheHen14412/10_10_5_5_2_3@0.0> a jams:JAMSObservation,
+        jams:JAMSScoreObservation,
+        jams:ScorePatternOccurrence ;
+    rdfs:label [ ] ;
+    jams:hasDuration "0.0"^^xsd:float ;
+    jams:hasFrequency "6"^^xsd:int ;
+    jams:hasPatternType "pitch-class-values" ;
+    jams:ofPattern <http://w3id.org/polifonia/resource/pattern/10_10_5_5_2_3> .
+
+<http://w3id.org/polifonia/resource/JAMSObservation/PeacockFollowTheHen14412/10_2_5_0_0_0@0.0> a jams:JAMSObservation,
+        jams:JAMSScoreObservation,
+        jams:ScorePatternOccurrence ;
+    rdfs:label [ ] ;
+    jams:hasDuration "0.0"^^xsd:float ;
+    jams:hasFrequency "1"^^xsd:int ;
+    jams:hasPatternType "pitch-class-values" ;
+    jams:ofPattern <http://w3id.org/polifonia/resource/pattern/10_2_5_0_0_0> .
+
+<http://w3id.org/polifonia/resource/JAMSObservation/PeacockFollowTheHen14412/10_3_10_9_3_10@0.0> a jams:JAMSObservation,
+        jams:JAMSScoreObservation,
+        jams:ScorePatternOccurrence ;
+    rdfs:label [ ] ;
+    jams:hasDuration "0.0"^^xsd:float ;
+    jams:hasFrequency "8"^^xsd:int ;
+    jams:hasPatternType "pitch-class-values" ;
+    jams:ofPattern <http://w3id.org/polifonia/resource/pattern/10_3_10_9_3_10> .
+
+<http://w3id.org/polifonia/resource/JAMSObservation/PeacockFollowTheHen14412/10_5_5_2_0_0@0.0> a jams:JAMSObservation,
+        jams:JAMSScoreObservation,
+        jams:ScorePatternOccurrence ;
+    rdfs:label [ ] ;
+    jams:hasDuration "0.0"^^xsd:float ;
+    jams:hasFrequency "1"^^xsd:int ;
+    jams:hasPatternType "pitch-class-values" ;
+    jams:ofPattern <http://w3id.org/polifonia/resource/pattern/10_5_5_2_0_0> .
+
+<http://w3id.org/polifonia/resource/JAMSObservation/PeacockFollowTheHen14412/10_5_5_2_3_10@0.0> a jams:JAMSObservation,
+        jams:JAMSScoreObservation,
+        jams:ScorePatternOccurrence ;
+    rdfs:label [ ] ;
+    jams:hasDuration "0.0"^^xsd:float ;
+    jams:hasFrequency "4"^^xsd:int ;
+    jams:hasPatternType "pitch-class-values" ;
+    jams:ofPattern <http://w3id.org/polifonia/resource/pattern/10_5_5_2_3_10> .
+
+<http://w3id.org/polifonia/resource/JAMSObservation/PeacockFollowTheHen14412/10_7_5_10_7_7@0.0> a jams:JAMSObservation,
+        jams:JAMSScoreObservation,
+        jams:ScorePatternOccurrence ;
+    rdfs:label [ ] ;
+    jams:hasDuration "0.0"^^xsd:float ;
+    jams:hasFrequency "4"^^xsd:int ;
+    jams:hasPatternType "pitch-class-values" ;
+    jams:ofPattern <http://w3id.org/polifonia/resource/pattern/10_7_5_10_7_7> .
+
+<http://w3id.org/polifonia/resource/JAMSObservation/PeacockFollowTheHen14412/10_7_7_10_7_5@0.0> a jams:JAMSObservation,
+        jams:JAMSScoreObservation,
+        jams:ScorePatternOccurrence ;
+    rdfs:label [ ] ;
+    jams:hasDuration "0.0"^^xsd:float ;
+    jams:hasFrequency "4"^^xsd:int ;
+    jams:hasPatternType "pitch-class-values" ;
+    jams:ofPattern <http://w3id.org/polifonia/resource/pattern/10_7_7_10_7_5> .
+
+<http://w3id.org/polifonia/resource/JAMSObservation/PeacockFollowTheHen14412/10_7_7_5_5_2@0.0> a jams:JAMSObservation,
+        jams:JAMSScoreObservation,
+        jams:ScorePatternOccurrence ;
+    rdfs:label [ ] ;
+    jams:hasDuration "0.0"^^xsd:float ;
+    jams:hasFrequency "4"^^xsd:int ;
+    jams:hasPatternType "pitch-class-values" ;
+    jams:ofPattern <http://w3id.org/polifonia/resource/pattern/10_7_7_5_5_2> .
+
+<http://w3id.org/polifonia/resource/JAMSObservation/PeacockFollowTheHen14412/10_9_3_10_10_5@0.0> a jams:JAMSObservation,
+        jams:JAMSScoreObservation,
+        jams:ScorePatternOccurrence ;
+    rdfs:label [ ] ;
+    jams:hasDuration "0.0"^^xsd:float ;
+    jams:hasFrequency "8"^^xsd:int ;
+    jams:hasPatternType "pitch-class-values" ;
+    jams:ofPattern <http://w3id.org/polifonia/resource/pattern/10_9_3_10_10_5> .
+
+<http://w3id.org/polifonia/resource/JAMSObservation/PeacockFollowTheHen14412/2_0_0_0_0_0@0.0> a jams:JAMSObservation,
+        jams:JAMSScoreObservation,
+        jams:ScorePatternOccurrence ;
+    rdfs:label [ ] ;
+    jams:hasDuration "0.0"^^xsd:float ;
+    jams:hasFrequency "2"^^xsd:int ;
+    jams:hasPatternType "pitch-class-values" ;
+    jams:ofPattern <http://w3id.org/polifonia/resource/pattern/2_0_0_0_0_0> .
+
+<http://w3id.org/polifonia/resource/JAMSObservation/PeacockFollowTheHen14412/2_10_7_7_10_7@0.0> a jams:JAMSObservation,
+        jams:JAMSScoreObservation,
+        jams:ScorePatternOccurrence ;
+    rdfs:label [ ] ;
+    jams:hasDuration "0.0"^^xsd:float ;
+    jams:hasFrequency "4"^^xsd:int ;
+    jams:hasPatternType "pitch-class-values" ;
+    jams:ofPattern <http://w3id.org/polifonia/resource/pattern/2_10_7_7_10_7> .
+
+<http://w3id.org/polifonia/resource/JAMSObservation/PeacockFollowTheHen14412/2_3_10_10_3_10@0.0> a jams:JAMSObservation,
+        jams:JAMSScoreObservation,
+        jams:ScorePatternOccurrence ;
+    rdfs:label [ ] ;
+    jams:hasDuration "0.0"^^xsd:float ;
+    jams:hasFrequency "6"^^xsd:int ;
+    jams:hasPatternType "pitch-class-values" ;
+    jams:ofPattern <http://w3id.org/polifonia/resource/pattern/2_3_10_10_3_10> .
+
+<http://w3id.org/polifonia/resource/JAMSObservation/PeacockFollowTheHen14412/2_3_3_3_2_5@0.0> a jams:JAMSObservation,
+        jams:JAMSScoreObservation,
+        jams:ScorePatternOccurrence ;
+    rdfs:label [ ] ;
+    jams:hasDuration "0.0"^^xsd:float ;
+    jams:hasFrequency "8"^^xsd:int ;
+    jams:hasPatternType "pitch-class-values" ;
+    jams:ofPattern <http://w3id.org/polifonia/resource/pattern/2_3_3_3_2_5> .
+
+<http://w3id.org/polifonia/resource/JAMSObservation/PeacockFollowTheHen14412/2_3_3_3_3_3@0.0> a jams:JAMSObservation,
+        jams:JAMSScoreObservation,
+        jams:ScorePatternOccurrence ;
+    rdfs:label [ ] ;
+    jams:hasDuration "0.0"^^xsd:float ;
+    jams:hasFrequency "7"^^xsd:int ;
+    jams:hasPatternType "pitch-class-values" ;
+    jams:ofPattern <http://w3id.org/polifonia/resource/pattern/2_3_3_3_3_3> .
+
+<http://w3id.org/polifonia/resource/JAMSObservation/PeacockFollowTheHen14412/2_5_0_0_0_0@0.0> a jams:JAMSObservation,
+        jams:JAMSScoreObservation,
+        jams:ScorePatternOccurrence ;
+    rdfs:label [ ] ;
+    jams:hasDuration "0.0"^^xsd:float ;
+    jams:hasFrequency "1"^^xsd:int ;
+    jams:hasPatternType "pitch-class-values" ;
+    jams:ofPattern <http://w3id.org/polifonia/resource/pattern/2_5_0_0_0_0> .
+
+<http://w3id.org/polifonia/resource/JAMSObservation/PeacockFollowTheHen14412/2_5_2_3_10_10@0.0> a jams:JAMSObservation,
+        jams:JAMSScoreObservation,
+        jams:ScorePatternOccurrence ;
+    rdfs:label [ ] ;
+    jams:hasDuration "0.0"^^xsd:float ;
+    jams:hasFrequency "2"^^xsd:int ;
+    jams:hasPatternType "pitch-class-values" ;
+    jams:ofPattern <http://w3id.org/polifonia/resource/pattern/2_5_2_3_10_10> .
+
+<http://w3id.org/polifonia/resource/JAMSObservation/PeacockFollowTheHen14412/2_5_2_3_3_3@0.0> a jams:JAMSObservation,
+        jams:JAMSScoreObservation,
+        jams:ScorePatternOccurrence ;
+    rdfs:label [ ] ;
+    jams:hasDuration "0.0"^^xsd:float ;
+    jams:hasFrequency "4"^^xsd:int ;
+    jams:hasPatternType "pitch-class-values" ;
+    jams:ofPattern <http://w3id.org/polifonia/resource/pattern/2_5_2_3_3_3> .
+
+<http://w3id.org/polifonia/resource/JAMSObservation/PeacockFollowTheHen14412/3_10_10_3_10_9@0.0> a jams:JAMSObservation,
+        jams:JAMSScoreObservation,
+        jams:ScorePatternOccurrence ;
+    rdfs:label [ ] ;
+    jams:hasDuration "0.0"^^xsd:float ;
+    jams:hasFrequency "8"^^xsd:int ;
+    jams:hasPatternType "pitch-class-values" ;
+    jams:ofPattern <http://w3id.org/polifonia/resource/pattern/3_10_10_3_10_9> .
+
+<http://w3id.org/polifonia/resource/JAMSObservation/PeacockFollowTheHen14412/3_10_10_5_5_2@0.0> a jams:JAMSObservation,
+        jams:JAMSScoreObservation,
+        jams:ScorePatternOccurrence ;
+    rdfs:label [ ] ;
+    jams:hasDuration "0.0"^^xsd:float ;
+    jams:hasFrequency "8"^^xsd:int ;
+    jams:hasPatternType "pitch-class-values" ;
+    jams:ofPattern <http://w3id.org/polifonia/resource/pattern/3_10_10_5_5_2> .
+
+<http://w3id.org/polifonia/resource/JAMSObservation/PeacockFollowTheHen14412/3_10_9_3_10_10@0.0> a jams:JAMSObservation,
+        jams:JAMSScoreObservation,
+        jams:ScorePatternOccurrence ;
+    rdfs:label [ ] ;
+    jams:hasDuration "0.0"^^xsd:float ;
+    jams:hasFrequency "8"^^xsd:int ;
+    jams:hasPatternType "pitch-class-values" ;
+    jams:ofPattern <http://w3id.org/polifonia/resource/pattern/3_10_9_3_10_10> .
+
+<http://w3id.org/polifonia/resource/JAMSObservation/PeacockFollowTheHen14412/3_2_3_3_3_2@0.0> a jams:JAMSObservation,
+        jams:JAMSScoreObservation,
+        jams:ScorePatternOccurrence ;
+    rdfs:label [ ] ;
+    jams:hasDuration "0.0"^^xsd:float ;
+    jams:hasFrequency "8"^^xsd:int ;
+    jams:hasPatternType "pitch-class-values" ;
+    jams:ofPattern <http://w3id.org/polifonia/resource/pattern/3_2_3_3_3_2> .
+
+<http://w3id.org/polifonia/resource/JAMSObservation/PeacockFollowTheHen14412/3_2_5_2_10_7@0.0> a jams:JAMSObservation,
+        jams:JAMSScoreObservation,
+        jams:ScorePatternOccurrence ;
+    rdfs:label [ ] ;
+    jams:hasDuration "0.0"^^xsd:float ;
+    jams:hasFrequency "2"^^xsd:int ;
+    jams:hasPatternType "pitch-class-values" ;
+    jams:ofPattern <http://w3id.org/polifonia/resource/pattern/3_2_5_2_10_7> .
+
+<http://w3id.org/polifonia/resource/JAMSObservation/PeacockFollowTheHen14412/3_2_5_2_3_10@0.0> a jams:JAMSObservation,
+        jams:JAMSScoreObservation,
+        jams:ScorePatternOccurrence ;
+    rdfs:label [ ] ;
+    jams:hasDuration "0.0"^^xsd:float ;
+    jams:hasFrequency "2"^^xsd:int ;
+    jams:hasPatternType "pitch-class-values" ;
+    jams:ofPattern <http://w3id.org/polifonia/resource/pattern/3_2_5_2_3_10> .
+
+<http://w3id.org/polifonia/resource/JAMSObservation/PeacockFollowTheHen14412/3_2_5_2_3_3@0.0> a jams:JAMSObservation,
+        jams:JAMSScoreObservation,
+        jams:ScorePatternOccurrence ;
+    rdfs:label [ ] ;
+    jams:hasDuration "0.0"^^xsd:float ;
+    jams:hasFrequency "4"^^xsd:int ;
+    jams:hasPatternType "pitch-class-values" ;
+    jams:ofPattern <http://w3id.org/polifonia/resource/pattern/3_2_5_2_3_3> .
+
+<http://w3id.org/polifonia/resource/JAMSObservation/PeacockFollowTheHen14412/3_3_2_3_3_3@0.0> a jams:JAMSObservation,
+        jams:JAMSScoreObservation,
+        jams:ScorePatternOccurrence ;
+    rdfs:label [ ] ;
+    jams:hasDuration "0.0"^^xsd:float ;
+    jams:hasFrequency "8"^^xsd:int ;
+    jams:hasPatternType "pitch-class-values" ;
+    jams:ofPattern <http://w3id.org/polifonia/resource/pattern/3_3_2_3_3_3> .
+
+<http://w3id.org/polifonia/resource/JAMSObservation/PeacockFollowTheHen14412/3_3_2_5_2_3@0.0> a jams:JAMSObservation,
+        jams:JAMSScoreObservation,
+        jams:ScorePatternOccurrence ;
+    rdfs:label [ ] ;
+    jams:hasDuration "0.0"^^xsd:float ;
+    jams:hasFrequency "6"^^xsd:int ;
+    jams:hasPatternType "pitch-class-values" ;
+    jams:ofPattern <http://w3id.org/polifonia/resource/pattern/3_3_2_5_2_3> .
+
+<http://w3id.org/polifonia/resource/JAMSObservation/PeacockFollowTheHen14412/3_3_3_2_3_3@0.0> a jams:JAMSObservation,
+        jams:JAMSScoreObservation,
+        jams:ScorePatternOccurrence ;
+    rdfs:label [ ] ;
+    jams:hasDuration "0.0"^^xsd:float ;
+    jams:hasFrequency "8"^^xsd:int ;
+    jams:hasPatternType "pitch-class-values" ;
+    jams:ofPattern <http://w3id.org/polifonia/resource/pattern/3_3_3_2_3_3> .
+
+<http://w3id.org/polifonia/resource/JAMSObservation/PeacockFollowTheHen14412/3_3_3_2_5_2@0.0> a jams:JAMSObservation,
+        jams:JAMSScoreObservation,
+        jams:ScorePatternOccurrence ;
+    rdfs:label [ ] ;
+    jams:hasDuration "0.0"^^xsd:float ;
+    jams:hasFrequency "8"^^xsd:int ;
+    jams:hasPatternType "pitch-class-values" ;
+    jams:ofPattern <http://w3id.org/polifonia/resource/pattern/3_3_3_2_5_2> .
+
+<http://w3id.org/polifonia/resource/JAMSObservation/PeacockFollowTheHen14412/3_3_3_3_2_3@0.0> a jams:JAMSObservation,
+        jams:JAMSScoreObservation,
+        jams:ScorePatternOccurrence ;
+    rdfs:label [ ] ;
+    jams:hasDuration "0.0"^^xsd:float ;
+    jams:hasFrequency "8"^^xsd:int ;
+    jams:hasPatternType "pitch-class-values" ;
+    jams:ofPattern <http://w3id.org/polifonia/resource/pattern/3_3_3_3_2_3> .
+
+<http://w3id.org/polifonia/resource/JAMSObservation/PeacockFollowTheHen14412/3_3_3_3_3_2@0.0> a jams:JAMSObservation,
+        jams:JAMSScoreObservation,
+        jams:ScorePatternOccurrence ;
+    rdfs:label [ ] ;
+    jams:hasDuration "0.0"^^xsd:float ;
+    jams:hasFrequency "8"^^xsd:int ;
+    jams:hasPatternType "pitch-class-values" ;
+    jams:ofPattern <http://w3id.org/polifonia/resource/pattern/3_3_3_3_3_2> .
+
+<http://w3id.org/polifonia/resource/JAMSObservation/PeacockFollowTheHen14412/3_5_0_0_0_0@0.0> a jams:JAMSObservation,
+        jams:JAMSScoreObservation,
+        jams:ScorePatternOccurrence ;
+    rdfs:label [ ] ;
+    jams:hasDuration "0.0"^^xsd:float ;
+    jams:hasFrequency "1"^^xsd:int ;
+    jams:hasPatternType "pitch-class-values" ;
+    jams:ofPattern <http://w3id.org/polifonia/resource/pattern/3_5_0_0_0_0> .
+
+<http://w3id.org/polifonia/resource/JAMSObservation/PeacockFollowTheHen14412/3_5_3_10_10_3@0.0> a jams:JAMSObservation,
+        jams:JAMSScoreObservation,
+        jams:ScorePatternOccurrence ;
+    rdfs:label [ ] ;
+    jams:hasDuration "0.0"^^xsd:float ;
+    jams:hasFrequency "1"^^xsd:int ;
+    jams:hasPatternType "pitch-class-values" ;
+    jams:ofPattern <http://w3id.org/polifonia/resource/pattern/3_5_3_10_10_3> .
+
+<http://w3id.org/polifonia/resource/JAMSObservation/PeacockFollowTheHen14412/5_0_0_0_0_0@0.0> a jams:JAMSObservation,
+        jams:JAMSScoreObservation,
+        jams:ScorePatternOccurrence ;
+    rdfs:label [ ] ;
+    jams:hasDuration "0.0"^^xsd:float ;
+    jams:hasFrequency "2"^^xsd:int ;
+    jams:hasPatternType "pitch-class-values" ;
+    jams:ofPattern <http://w3id.org/polifonia/resource/pattern/5_0_0_0_0_0> .
+
+<http://w3id.org/polifonia/resource/JAMSObservation/PeacockFollowTheHen14412/5_10_7_7_5_5@0.0> a jams:JAMSObservation,
+        jams:JAMSScoreObservation,
+        jams:ScorePatternOccurrence ;
+    rdfs:label [ ] ;
+    jams:hasDuration "0.0"^^xsd:float ;
+    jams:hasFrequency "4"^^xsd:int ;
+    jams:hasPatternType "pitch-class-values" ;
+    jams:ofPattern <http://w3id.org/polifonia/resource/pattern/5_10_7_7_5_5> .
+
+<http://w3id.org/polifonia/resource/JAMSObservation/PeacockFollowTheHen14412/5_2_0_0_0_0@0.0> a jams:JAMSObservation,
+        jams:JAMSScoreObservation,
+        jams:ScorePatternOccurrence ;
+    rdfs:label [ ] ;
+    jams:hasDuration "0.0"^^xsd:float ;
+    jams:hasFrequency "2"^^xsd:int ;
+    jams:hasPatternType "pitch-class-values" ;
+    jams:ofPattern <http://w3id.org/polifonia/resource/pattern/5_2_0_0_0_0> .
+
+<http://w3id.org/polifonia/resource/JAMSObservation/PeacockFollowTheHen14412/5_2_10_7_7_10@0.0> a jams:JAMSObservation,
+        jams:JAMSScoreObservation,
+        jams:ScorePatternOccurrence ;
+    rdfs:label [ ] ;
+    jams:hasDuration "0.0"^^xsd:float ;
+    jams:hasFrequency "4"^^xsd:int ;
+    jams:hasPatternType "pitch-class-values" ;
+    jams:ofPattern <http://w3id.org/polifonia/resource/pattern/5_2_10_7_7_10> .
+
+<http://w3id.org/polifonia/resource/JAMSObservation/PeacockFollowTheHen14412/5_2_3_10_10_3@0.0> a jams:JAMSObservation,
+        jams:JAMSScoreObservation,
+        jams:ScorePatternOccurrence ;
+    rdfs:label [ ] ;
+    jams:hasDuration "0.0"^^xsd:float ;
+    jams:hasFrequency "6"^^xsd:int ;
+    jams:hasPatternType "pitch-class-values" ;
+    jams:ofPattern <http://w3id.org/polifonia/resource/pattern/5_2_3_10_10_3> .
+
+<http://w3id.org/polifonia/resource/JAMSObservation/PeacockFollowTheHen14412/5_2_3_3_3_3@0.0> a jams:JAMSObservation,
+        jams:JAMSScoreObservation,
+        jams:ScorePatternOccurrence ;
+    rdfs:label [ ] ;
+    jams:hasDuration "0.0"^^xsd:float ;
+    jams:hasFrequency "7"^^xsd:int ;
+    jams:hasPatternType "pitch-class-values" ;
+    jams:ofPattern <http://w3id.org/polifonia/resource/pattern/5_2_3_3_3_3> .
+
+<http://w3id.org/polifonia/resource/JAMSObservation/PeacockFollowTheHen14412/5_3_10_10_3_10@0.0> a jams:JAMSObservation,
+        jams:JAMSScoreObservation,
+        jams:ScorePatternOccurrence ;
+    rdfs:label [ ] ;
+    jams:hasDuration "0.0"^^xsd:float ;
+    jams:hasFrequency "2"^^xsd:int ;
+    jams:hasPatternType "pitch-class-values" ;
+    jams:ofPattern <http://w3id.org/polifonia/resource/pattern/5_3_10_10_3_10> .
+
+<http://w3id.org/polifonia/resource/JAMSObservation/PeacockFollowTheHen14412/5_3_5_0_0_0@0.0> a jams:JAMSObservation,
+        jams:JAMSScoreObservation,
+        jams:ScorePatternOccurrence ;
+    rdfs:label [ ] ;
+    jams:hasDuration "0.0"^^xsd:float ;
+    jams:hasFrequency "1"^^xsd:int ;
+    jams:hasPatternType "pitch-class-values" ;
+    jams:ofPattern <http://w3id.org/polifonia/resource/pattern/5_3_5_0_0_0> .
+
+<http://w3id.org/polifonia/resource/JAMSObservation/PeacockFollowTheHen14412/5_3_5_3_10_10@0.0> a jams:JAMSObservation,
+        jams:JAMSScoreObservation,
+        jams:ScorePatternOccurrence ;
+    rdfs:label [ ] ;
+    jams:hasDuration "0.0"^^xsd:float ;
+    jams:hasFrequency "1"^^xsd:int ;
+    jams:hasPatternType "pitch-class-values" ;
+    jams:ofPattern <http://w3id.org/polifonia/resource/pattern/5_3_5_3_10_10> .
+
+<http://w3id.org/polifonia/resource/JAMSObservation/PeacockFollowTheHen14412/5_5_2_0_0_0@0.0> a jams:JAMSObservation,
+        jams:JAMSScoreObservation,
+        jams:ScorePatternOccurrence ;
+    rdfs:label [ ] ;
+    jams:hasDuration "0.0"^^xsd:float ;
+    jams:hasFrequency "2"^^xsd:int ;
+    jams:hasPatternType "pitch-class-values" ;
+    jams:ofPattern <http://w3id.org/polifonia/resource/pattern/5_5_2_0_0_0> .
+
+<http://w3id.org/polifonia/resource/JAMSObservation/PeacockFollowTheHen14412/5_5_2_10_7_7@0.0> a jams:JAMSObservation,
+        jams:JAMSScoreObservation,
+        jams:ScorePatternOccurrence ;
+    rdfs:label [ ] ;
+    jams:hasDuration "0.0"^^xsd:float ;
+    jams:hasFrequency "2"^^xsd:int ;
+    jams:hasPatternType "pitch-class-values" ;
+    jams:ofPattern <http://w3id.org/polifonia/resource/pattern/5_5_2_10_7_7> .
+
+<http://w3id.org/polifonia/resource/JAMSObservation/PeacockFollowTheHen14412/5_5_2_3_10_10@0.0> a jams:JAMSObservation,
+        jams:JAMSScoreObservation,
+        jams:ScorePatternOccurrence ;
+    rdfs:label [ ] ;
+    jams:hasDuration "0.0"^^xsd:float ;
+    jams:hasFrequency "4"^^xsd:int ;
+    jams:hasPatternType "pitch-class-values" ;
+    jams:ofPattern <http://w3id.org/polifonia/resource/pattern/5_5_2_3_10_10> .
+
+<http://w3id.org/polifonia/resource/JAMSObservation/PeacockFollowTheHen14412/5_5_2_3_3_3@0.0> a jams:JAMSObservation,
+        jams:JAMSScoreObservation,
+        jams:ScorePatternOccurrence ;
+    rdfs:label [ ] ;
+    jams:hasDuration "0.0"^^xsd:float ;
+    jams:hasFrequency "3"^^xsd:int ;
+    jams:hasPatternType "pitch-class-values" ;
+    jams:ofPattern <http://w3id.org/polifonia/resource/pattern/5_5_2_3_3_3> .
+
+<http://w3id.org/polifonia/resource/JAMSObservation/PeacockFollowTheHen14412/7_10_7_5_10_7@0.0> a jams:JAMSObservation,
+        jams:JAMSScoreObservation,
+        jams:ScorePatternOccurrence ;
+    rdfs:label [ ] ;
+    jams:hasDuration "0.0"^^xsd:float ;
+    jams:hasFrequency "4"^^xsd:int ;
+    jams:hasPatternType "pitch-class-values" ;
+    jams:ofPattern <http://w3id.org/polifonia/resource/pattern/7_10_7_5_10_7> .
+
+<http://w3id.org/polifonia/resource/JAMSObservation/PeacockFollowTheHen14412/7_5_10_7_7_5@0.0> a jams:JAMSObservation,
+        jams:JAMSScoreObservation,
+        jams:ScorePatternOccurrence ;
+    rdfs:label [ ] ;
+    jams:hasDuration "0.0"^^xsd:float ;
+    jams:hasFrequency "4"^^xsd:int ;
+    jams:hasPatternType "pitch-class-values" ;
+    jams:ofPattern <http://w3id.org/polifonia/resource/pattern/7_5_10_7_7_5> .
+
+<http://w3id.org/polifonia/resource/JAMSObservation/PeacockFollowTheHen14412/7_5_5_2_0_0@0.0> a jams:JAMSObservation,
+        jams:JAMSScoreObservation,
+        jams:ScorePatternOccurrence ;
+    rdfs:label [ ] ;
+    jams:hasDuration "0.0"^^xsd:float ;
+    jams:hasFrequency "1"^^xsd:int ;
+    jams:hasPatternType "pitch-class-values" ;
+    jams:ofPattern <http://w3id.org/polifonia/resource/pattern/7_5_5_2_0_0> .
+
+<http://w3id.org/polifonia/resource/JAMSObservation/PeacockFollowTheHen14412/7_5_5_2_10_7@0.0> a jams:JAMSObservation,
+        jams:JAMSScoreObservation,
+        jams:ScorePatternOccurrence ;
+    rdfs:label [ ] ;
+    jams:hasDuration "0.0"^^xsd:float ;
+    jams:hasFrequency "2"^^xsd:int ;
+    jams:hasPatternType "pitch-class-values" ;
+    jams:ofPattern <http://w3id.org/polifonia/resource/pattern/7_5_5_2_10_7> .
+
+<http://w3id.org/polifonia/resource/JAMSObservation/PeacockFollowTheHen14412/7_7_10_7_5_10@0.0> a jams:JAMSObservation,
+        jams:JAMSScoreObservation,
+        jams:ScorePatternOccurrence ;
+    rdfs:label [ ] ;
+    jams:hasDuration "0.0"^^xsd:float ;
+    jams:hasFrequency "4"^^xsd:int ;
+    jams:hasPatternType "pitch-class-values" ;
+    jams:ofPattern <http://w3id.org/polifonia/resource/pattern/7_7_10_7_5_10> .
+
+<http://w3id.org/polifonia/resource/JAMSObservation/PeacockFollowTheHen14412/7_7_5_5_2_0@0.0> a jams:JAMSObservation,
+        jams:JAMSScoreObservation,
+        jams:ScorePatternOccurrence ;
+    rdfs:label [ ] ;
+    jams:hasDuration "0.0"^^xsd:float ;
+    jams:hasFrequency "1"^^xsd:int ;
+    jams:hasPatternType "pitch-class-values" ;
+    jams:ofPattern <http://w3id.org/polifonia/resource/pattern/7_7_5_5_2_0> .
+
+<http://w3id.org/polifonia/resource/JAMSObservation/PeacockFollowTheHen14412/7_7_5_5_2_10@0.0> a jams:JAMSObservation,
+        jams:JAMSScoreObservation,
+        jams:ScorePatternOccurrence ;
+    rdfs:label [ ] ;
+    jams:hasDuration "0.0"^^xsd:float ;
+    jams:hasFrequency "2"^^xsd:int ;
+    jams:hasPatternType "pitch-class-values" ;
+    jams:ofPattern <http://w3id.org/polifonia/resource/pattern/7_7_5_5_2_10> .
+
+<http://w3id.org/polifonia/resource/JAMSObservation/PeacockFollowTheHen14412/7_7_5_5_2_3@0.0> a jams:JAMSObservation,
+        jams:JAMSScoreObservation,
+        jams:ScorePatternOccurrence ;
+    rdfs:label [ ] ;
+    jams:hasDuration "0.0"^^xsd:float ;
+    jams:hasFrequency "1"^^xsd:int ;
+    jams:hasPatternType "pitch-class-values" ;
+    jams:ofPattern <http://w3id.org/polifonia/resource/pattern/7_7_5_5_2_3> .
+
+<http://w3id.org/polifonia/resource/JAMSObservation/PeacockFollowTheHen14412/9_3_10_10_5_5@0.0> a jams:JAMSObservation,
+        jams:JAMSScoreObservation,
+        jams:ScorePatternOccurrence ;
+    rdfs:label [ ] ;
+    jams:hasDuration "0.0"^^xsd:float ;
+    jams:hasFrequency "8"^^xsd:int ;
+    jams:hasPatternType "pitch-class-values" ;
+    jams:ofPattern <http://w3id.org/polifonia/resource/pattern/9_3_10_10_5_5> .
+
+<http://w3id.org/polifonia/resource/MusicalComposition/c30d9676a78529a584cbf43b6ea54bc74842631d> a mc:MusicalComposition ;
+    rdfs:label "PeacockFollowTheHen14412" ;
+    mc:title "PeacockFollowTheHen14412" ;
+    prov:wasDerivedFrom <http://w3id.org/polifonia/resource/JAMSFile/PeacockFollowTheHen14412.jams> .
+
